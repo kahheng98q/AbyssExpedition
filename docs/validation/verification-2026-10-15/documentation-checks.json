@@ -1,0 +1,42 @@
+{
+  "files": [
+    {
+      "file": "README.md",
+      "local_targets_checked": 9
+    },
+    {
+      "file": "docs/IMPLEMENTATION_OVERVIEW.md",
+      "local_targets_checked": 14
+    },
+    {
+      "file": "docs/game-development-dashboard.html",
+      "local_targets_checked": 91
+    },
+    {
+      "file": "docs/development.md",
+      "local_targets_checked": 7
+    },
+    {
+      "file": "docs/benchmarks/m4.md",
+      "local_targets_checked": 1
+    },
+    {
+      "file": "docs/validation/m4-gate.md",
+      "local_targets_checked": 1
+    },
+    {
+      "file": "docs/validation/debug-panel.md",
+      "local_targets_checked": 1
+    },
+    {
+      "file": "docs/validation/verification-2026-10-15.md",
+      "local_targets_checked": 47
+    },
+    {
+      "file": "specs/001-abyss-expedition-mvp/tasks.md",
+      "local_targets_checked": 11
+    }
+  ],
+  "failures": [],
+  "failure_count": 0
+}

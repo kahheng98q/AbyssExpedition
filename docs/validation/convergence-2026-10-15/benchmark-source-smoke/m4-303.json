@@ -1,0 +1,51 @@
+{
+  "capture_active_seconds": 2.0,
+  "capture_valid": true,
+  "capture_wall_seconds": 1.99297,
+  "catalog": "5602ba5970d2a4e031b0fb0c012af7b6963378acd09d845be0e0228748425fbc",
+  "debug_build": true,
+  "debugger_active": false,
+  "engine": "4.5-stable (official)",
+  "fixture_rewards_preserved": true,
+  "frame_budget_pass": false,
+  "gpu": "NVIDIA GeForce GTX 1650",
+  "latency_measured": false,
+  "max_ms": 39.13,
+  "maximums": {
+    "boss": 1,
+    "effects": 31,
+    "enemies": 100,
+    "gems": 500,
+    "projectiles": 108,
+    "stored_coins": 507,
+    "stored_xp": 5098
+  },
+  "milestone": "m4",
+  "minimums": {
+    "boss": 1,
+    "effects": 30,
+    "enemies": 100,
+    "gems": 500,
+    "projectiles": 101,
+    "stored_coins": 502,
+    "stored_xp": 5028
+  },
+  "os": "Windows 10.0.26200",
+  "p50_ms": 18.302,
+  "p95_ms": 31.565,
+  "p99_ms": 39.13,
+  "processor": "AMD Ryzen 7 5800H with Radeon Graphics",
+  "processor_count": 16,
+  "reference_acceptance": false,
+  "renderer": "gl_compatibility",
+  "sample_count": 96,
+  "seed": 303,
+  "simulation": "m4-convergence-1",
+  "smoke": true,
+  "vsync_observed": 0,
+  "warmup_active_seconds": 1.0,
+  "window_observed": [
+    1920,
+    1080
+  ]
+}

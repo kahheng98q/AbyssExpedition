@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="EventDefinition" load_steps=6 format=3]
+[ext_resource type="Script" path="res://scripts/data/event_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/data/event_choice.gd" id="2"]
+[ext_resource type="Resource" path="res://data/events/sera_rescue.tres" id="3"]
+[sub_resource type="Resource" id="Choice0"]
+script = ExtResource("2")
+id = &"accept"
+presentation = "Defend the rescue circle for 30 active seconds"
+costs = Array[Dictionary]([])
+effects = Array[Dictionary]([])
+[sub_resource type="Resource" id="Choice1"]
+script = ExtResource("2")
+id = &"decline"
+presentation = "Decline / Escape"
+costs = Array[Dictionary]([])
+effects = Array[Dictionary]([])
+[resource]
+script = ExtResource("1")
+id = &"lost_adventurer"
+kind = &"lost_adventurer"
+presentation = "A LIGHT IN THE SURF"
+choices = Array[ExtResource("2")]([SubResource("Choice0"), SubResource("Choice1")])
+rescue_definition = ExtResource("3")

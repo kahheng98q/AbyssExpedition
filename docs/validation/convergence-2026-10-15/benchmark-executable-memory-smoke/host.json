@@ -1,0 +1,24 @@
+{
+  "mode": "release_executable",
+  "milestone": "m4",
+  "smoke": true,
+  "acceptance": false,
+  "build_path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\builds\\windows\\m4\\AbyssExpedition.console.exe",
+  "build_sha256": "4002EEFFB14A7AF3DA16E5B0BE5B7F5DA773F2117D819B33226DBCD1D6562951",
+  "pack_sha256": "8D91447F2BDAF0D2803483245714BB19D53DF7C9550C310F4512444B7F6CBF8D",
+  "fixture_sha256": "F512EA43CD702552F326568B22C2F59EA7370F4ACB4430BBB921BC511EB373D3",
+  "os": "Microsoft Windows NT 10.0.26200.0",
+  "processor": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+  "ram_bytes": null,
+  "graphics": null,
+  "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+  "effective_power_mode": "not independently observed",
+  "hardware_query_errors": [
+    "Access to a CIM resource was not available to the client.",
+    "Access to a CIM resource was not available to the client."
+  ],
+  "profiler": "Godot Performance monitors; no external profiler attached by this wrapper",
+  "vsync_requested": false,
+  "reference_target": "Windows 11 / i5-8400 / GTX 1050 Ti 4GB / 16GB RAM / SSD / 1920x1080 60Hz",
+  "notes": "Frame budgets are separate from capture validity. Displayed input/hit latency and human readability are not measured."
+}

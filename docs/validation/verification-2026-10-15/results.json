@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-15",
+  "engine": "4.5.stable.official.876b29033",
+  "native": [
+    {
+      "suite": "unit",
+      "assertions": 182,
+      "failures": 0,
+      "skips": 0,
+      "log": "unit.log"
+    },
+    {
+      "suite": "scene_smoke",
+      "assertions": 130,
+      "failures": 0,
+      "skips": 0,
+      "log": "scene_smoke.log"
+    },
+    {
+      "suite": "integration_m1",
+      "assertions": 37,
+      "failures": 0,
+      "skips": 0,
+      "log": "integration_m1.log"
+    },
+    {
+      "suite": "replay",
+      "assertions": 40,
+      "failures": 0,
+      "skips": 0,
+      "log": "replay.log"
+    },
+    {
+      "suite": "full_run",
+      "assertions": 9,
+      "failures": 0,
+      "skips": 0,
+      "log": "full_run.log"
+    },
+    {
+      "suite": "progression",
+      "assertions": 13,
+      "failures": 0,
+      "skips": 0,
+      "log": "progression.log"
+    },
+    {
+      "suite": "persistence",
+      "assertions": 304,
+      "failures": 0,
+      "skips": 0,
+      "log": "persistence.log"
+    },
+    {
+      "suite": "abilities",
+      "assertions": 107,
+      "failures": 0,
+      "skips": 0,
+      "log": "abilities.log"
+    },
+    {
+      "suite": "integration_m2",
+      "assertions": 36,
+      "failures": 0,
+      "skips": 0,
+      "log": "integration_m2.log"
+    },
+    {
+      "suite": "recruitment",
+      "assertions": 293,
+      "failures": 0,
+      "skips": 0,
+      "log": "recruitment.log"
+    },
+    {
+      "suite": "integration_m3",
+      "assertions": 196,
+      "failures": 0,
+      "skips": 0,
+      "log": "integration_m3.log"
+    },
+    {
+      "suite": "integration_m4",
+      "assertions": 307,
+      "failures": 0,
+      "skips": 0,
+      "log": "integration_m4.log"
+    },
+    {
+      "suite": "debug_panel",
+      "assertions": 69,
+      "failures": 0,
+      "skips": 0,
+      "log": "debug-panel.log"
+    }
+  ],
+  "native_assertions": 1723,
+  "native_failures": 0,
+  "native_skips": 0
+}

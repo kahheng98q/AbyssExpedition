@@ -1,0 +1,12 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+
+SUITE unit: 197 assertions; 3 failures; 0 skipped
+SCRIPT ERROR: Invalid call. Nonexistent function 'scene' in base 'Nil'.
+   at: replenish (res://tests/performance/benchmark_capture.gd:60)
+   GDScript backtrace (most recent call first):
+       [0] replenish (res://tests/performance/benchmark_capture.gd:60)
+       [1] run (res://tests/unit/test_benchmark_contract.gd:13)
+       [2] run (res://tests/run_tests.gd:73)
+FAIL: benchmark replenishes a real living boss independently of normal count
+FAIL: fixture merging preserves every reward exactly
+FAIL: engine/script error: res://tests/performance/benchmark_capture.gd:60 Invalid call. Nonexistent function 'scene' in base 'Nil'. 

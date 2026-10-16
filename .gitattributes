@@ -1,0 +1,8 @@
+# Normalize EOL for all files that Git considers text files.
+* text=auto eol=lf
+
+# Preserve raw validation evidence and the approved artifacts' recorded hashes.
+docs/validation/** -text
+docs/benchmarks/** -text
+specs/001-abyss-expedition-mvp/spec.md -text
+specs/001-abyss-expedition-mvp/plan.md -text

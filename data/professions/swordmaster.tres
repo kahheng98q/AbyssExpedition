@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="ProfessionDefinition" load_steps=7 format=3]
+[ext_resource type="Script" path="res://scripts/characters/profession_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/data/stat_block.gd" id="2"]
+[ext_resource type="Script" path="res://scripts/data/visual_set.gd" id="3"]
+[ext_resource type="Resource" path="res://data/weapons/arc.tres" id="4"]
+[sub_resource type="Resource" id="stats"]
+script = ExtResource("2")
+reach = 48.0
+damage = 20.0
+frequency = 1.2
+max_health = 250.0
+[sub_resource type="Resource" id="visual"]
+script = ExtResource("3")
+id = &"swordmaster_visual"
+silhouette = "sword"
+palette = Color(0.94, 0.8, 0.3, 1)
+[resource]
+script = ExtResource("1")
+id = &"swordmaster"
+base_id = &"swordsman"
+is_promotion = true
+attack_policy = &"swordmaster"
+starting_stats = SubResource("stats")
+weapon = ExtResource("4")
+visual_set = SubResource("visual")
+description = "Two swift arcs per attack; every fifth adds a full-circle spin."
+secondary_damage = 1
+effect_radius = 48.0
+effect_period = 30

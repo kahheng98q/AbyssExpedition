@@ -1,0 +1,250 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Milestone 2 — Screenshot Guide</title>
+<style>
+:root{color-scheme:dark;--bg:#081218;--surface:#101f28;--line:#2a424d;--text:#e6f0f3;--muted:#aec2cb;--accent:#87e5d2}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:85px}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,sans-serif}main{max-width:1400px;margin:auto;padding:42px 24px 70px}h1,h2,h3{line-height:1.25;margin:0 0 15px}h1{font-size:clamp(28px,4vw,48px);max-width:900px}h2{font-size:30px}h3{font-size:18px;padding:18px 20px 0}a{color:var(--accent)}p{margin:0 0 16px}.eyebrow{color:var(--accent);font-weight:700;letter-spacing:.14em;font-size:12px}.lead{font-size:20px;max-width:900px;color:var(--muted)}.notice,.quick{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:22px;margin:22px 0}.notice{border-left:4px solid #efbd6b}.notice p:last-child{margin:0}.quick ol{padding-left:24px;margin:10px 0}.quick li{margin:9px 0}.toolbar{position:sticky;top:0;z-index:5;background:#081218f5;border-block:1px solid var(--line);padding:12px 0;display:flex;gap:10px;align-items:center;flex-wrap:wrap;backdrop-filter:blur(8px)}select,button{font:inherit;background:#142e38;color:var(--text);border:1px solid #64828c;padding:9px 13px;border-radius:6px}button{cursor:pointer}nav{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0}nav a{text-decoration:none;font-size:13px;padding:8px 12px;border:1px solid var(--line);border-radius:30px}table{border-collapse:collapse;width:100%;margin:20px 0 50px;font-size:14px}th,td{text-align:left;padding:12px;border-bottom:1px solid var(--line)}th{color:var(--muted)}.status{color:#95e9ba;font-weight:650;font-size:13px}.feature{padding-top:28px;margin:30px 0 65px;border-top:1px solid var(--line)}.feature-head{display:flex;gap:18px;align-items:center;margin-bottom:10px}.code{color:var(--accent);font-weight:700;letter-spacing:.06em}.visibility{color:#efbd6b;font-weight:600;margin-bottom:12px}.intro{max-width:1050px;color:var(--muted)}.shots{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin-top:24px}.shot{min-width:0;background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden}.shot .full{display:block;background:#050b10}.full img{display:block;width:100%;height:auto;image-rendering:pixelated}.caption{padding:18px 20px}.caption p{font-size:14px}.caption .how{color:var(--muted);border-top:1px solid var(--line);padding-top:12px;margin-bottom:0}.zoom-panel{border-block:1px solid var(--line)}summary{padding:10px 15px;cursor:pointer;color:var(--accent);font-size:13px}.zoom{height:240px;position:relative;overflow:hidden;background:#0b1a22}.zoom img{position:absolute;width:1280px;height:720px;max-width:none;left:calc(50% - 740px);top:calc(50% - 360px);image-rendering:pixelated}.evidence{padding:24px;border:1px solid var(--line);border-radius:12px}.evidence li{margin:8px 0;color:var(--muted);font-size:14px}.footer{color:var(--muted);font-size:13px;margin-top:40px}.hidden{display:none!important}@media(max-width:850px){.shots{grid-template-columns:1fr}main{padding:25px 14px}.table-wrap{overflow:auto}h2{font-size:25px}.zoom img{left:calc(50% - 700px)}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}@media print{body{background:white;color:black}.toolbar,nav{display:none}.feature,.shot{break-inside:avoid}.shots{display:block}.shot{margin-bottom:20px}.zoom-panel{display:none}}
+</style></head><body><main>
+<p class="eyebrow">ABYSS EXPEDITION · MILESTONE 2 · 15 OCTOBER 2026</p>
+<h1>What is implemented, and where to see it</h1>
+<p class="lead">Actual screenshots mapped to the ten rows in your requirements table. Each example includes what to look for and how to reach it in the game.</p>
+<div class="notice"><p><b>These are real game captures, not mockups.</b> Captured from the current exported developer build, using prepared levels, enemies and outcomes in isolated test profiles. Screenshots are unmodified; combat closeups simply magnify the same image.</p>
+<p><b>Visible does not mean fully proven by a still.</b> Screens show the UI and captured state. Damage formulas, AI movement, duplicate-save prevention and crash safety are supported by behavior tests, described separately below. Current combat art and effects remain geometric placeholders.</p></div>
+<div class="quick"><b>Start here in your game</b><ol>
+<li>Close older game copies. Open <a href="../Play%20Debug.cmd">Play Debug.cmd</a> or <a href="../builds/windows/debug-panel-access-fix/AbyssExpedition-debug.exe">the verified developer executable</a>.</li>
+<li>Choose <b>New Expedition → Character roster / companions / promotions</b> to manage owned heroes, party and permanent promotions.</li>
+<li>During a run, click <b>Debug · F9</b> at the top right, or press <b>F9</b> (some keyboards need Fn + F9). Character edits levels/XP; Progression opens promotions; Combat edits temporary companions.</li>
+<li>Close debug to observe attacks. <b>Hero Lv</b> is permanent character progression; <b>Run Lv / XP</b> is this expedition's temporary upgrade progression.</li>
+</ol><p>Debug edits remain in the sandbox. Normal roster choices apply when you save the party and start the next run. <a href="developer-debug-panel.md">Full developer-panel guide</a>.</p></div>
+<div class="toolbar"><label for="filter">Show requirement:</label><select id="filter"><option value="all">All screenshots</option><option value="FR-015">FR-015 — Character roster</option><option value="FR-016">FR-016 — Permanent character levels</option><option value="FR-017">FR-017 — Permanent expedition rewards</option><option value="FR-018">FR-018 — Promotion confirmation</option><option value="FR-019">FR-019 — Six promoted branches</option><option value="FR-020">FR-020 — Character-specific passives</option><option value="FR-021">FR-021 — Up to two AI companions</option><option value="FR-022">FR-022 — Companion combat and downing</option><option value="FR-023">FR-023 — Save durability and Retry</option><option value="SC-005">SC-005 — Progress retained after reopening</option></select><button id="show-all" type="button">Show all</button><span id="count">35 real screenshots</span></div>
+<nav aria-label="Requirement shortcuts"><a href="#FR-015" data-filter="FR-015">FR-015 · Character roster</a><a href="#FR-016" data-filter="FR-016">FR-016 · Permanent character levels</a><a href="#FR-017" data-filter="FR-017">FR-017 · Permanent expedition rewards</a><a href="#FR-018" data-filter="FR-018">FR-018 · Promotion confirmation</a><a href="#FR-019" data-filter="FR-019">FR-019 · Six promoted branches</a><a href="#FR-020" data-filter="FR-020">FR-020 · Character-specific passives</a><a href="#FR-021" data-filter="FR-021">FR-021 · Up to two AI companions</a><a href="#FR-022" data-filter="FR-022">FR-022 · Companion combat and downing</a><a href="#FR-023" data-filter="FR-023">FR-023 · Save durability and Retry</a><a href="#SC-005" data-filter="SC-005">SC-005 · Progress retained after reopening</a></nav>
+<div class="table-wrap"><table><thead><tr><th>Requirement</th><th>Feature</th><th>Status</th><th>What you can see</th></tr></thead><tbody><tr><td><a href="#FR-015" data-filter="FR-015">FR-015</a></td><td>Character roster</td><td><span class="status">Implemented</span></td><td>Visible in the normal menu</td></tr><tr><td><a href="#FR-016" data-filter="FR-016">FR-016</a></td><td>Permanent character levels</td><td><span class="status">Implemented</span></td><td>Visible in HUD and debug stats</td></tr><tr><td><a href="#FR-017" data-filter="FR-017">FR-017</a></td><td>Permanent expedition rewards</td><td><span class="status">Implemented</span></td><td>Visible on the results screen</td></tr><tr><td><a href="#FR-018" data-filter="FR-018">FR-018</a></td><td>Promotion confirmation</td><td><span class="status">Implemented</span></td><td>Three screens; two choices each</td></tr><tr><td><a href="#FR-019" data-filter="FR-019">FR-019</a></td><td>Six promoted branches</td><td><span class="status">Implemented</span></td><td>Saved class plus real attack frames</td></tr><tr><td><a href="#FR-020" data-filter="FR-020">FR-020</a></td><td>Character-specific passives</td><td><span class="status">Implemented</span></td><td>Names and stats visible; damage behavior tested</td></tr><tr><td><a href="#FR-021" data-filter="FR-021">FR-021</a></td><td>Up to two AI companions</td><td><span class="status">Implemented</span></td><td>Three party configurations</td></tr><tr><td><a href="#FR-022" data-filter="FR-022">FR-022</a></td><td>Companion combat and downing</td><td><span class="status">Implemented</span></td><td>Downed state visible in party HUD</td></tr><tr><td><a href="#FR-023" data-filter="FR-023">FR-023</a></td><td>Save durability and Retry</td><td><span class="status">Implemented</span></td><td>Real save-error / recovery interface</td></tr><tr><td><a href="#SC-005" data-filter="SC-005">SC-005</a></td><td>Progress retained after reopening</td><td><span class="status">Implemented</span></td><td>Reopened application and exact state checks</td></tr></tbody></table></div>
+<section class="feature" id="FR-015" data-requirement="FR-015">
+      <div class="feature-head"><span class="code">FR-015</span><span class="status">Implemented</span></div>
+      <h2>Character roster</h2><p class="visibility">Visible in the normal menu</p><p class="intro">Look for the active/companion checkmarks, XP, levels, current class, passive names and promotion-item count. The entry is New Expedition → Character roster / companions / promotions.</p>
+      <div class="shots"><article class="shot" id="01-selection">
+          <h3>Where to find the roster</h3>
+          <a class="full" href="../screenshots/m2-evidence/01-selection.png" target="_blank" rel="noopener" aria-label="Open original screenshot: Where to find the roster">
+            <img src="../screenshots/m2-evidence/01-selection.png" alt="Where to find the roster" width="640" height="360" loading="lazy"></a>
+          <div class="caption"><p>Character selection contains the roster entry. This is ordinary game UI, not a debug-only character list.</p>
+          <p class="how"><b>Try it:</b> New Expedition → Character roster / companions / promotions</p></div></article><article class="shot" id="02-roster">
+          <h3>Owned roster and two saved companions</h3>
+          <a class="full" href="../screenshots/m2-evidence/02-roster.png" target="_blank" rel="noopener" aria-label="Open original screenshot: Owned roster and two saved companions">
+            <img src="../screenshots/m2-evidence/02-roster.png" alt="Owned roster and two saved companions" width="640" height="360" loading="lazy"></a>
+          <div class="caption"><p>Aren is active; Lia and Milo are both selected companions. Each row shows XP, permanent level, base/current class and passive. Promotion items appear in the heading.</p>
+          <p class="how"><b>Try it:</b> New Expedition → Character roster / companions / promotions; choose roles, then Save party &amp; return</p></div></article></div></section><section class="feature" id="FR-016" data-requirement="FR-016">
+      <div class="feature-head"><span class="code">FR-016</span><span class="status">Implemented</span></div>
+      <h2>Permanent character levels</h2><p class="visibility">Visible in HUD and debug stats</p><p class="intro">These four Aren examples show levels 1, 14, 15 and 30. Base max HP rises 250 → 315 → 320 → 395; base attack rises 36 → 45.36 → 46.08 → 56.88. Run Lv stays separate. Level 15 permits promotion; level 30 is the permanent cap.</p>
+      <div class="shots"><article class="shot" id="04-level-1">
+          <h3>Permanent level 1</h3>
+          <a class="full" href="../screenshots/m2-evidence/04-level-1.png" target="_blank" rel="noopener" aria-label="Open original screenshot: Permanent level 1">
+            <img src="../screenshots/m2-evidence/04-level-1.png" alt="Permanent level 1" width="640" height="360" loading="lazy"></a>
+          <div class="caption"><p>Controlled Aren example: permanent XP 0 / 2900; max HP 250; damage 36.00. Shared Run Lv remains 1. Level 15 unlocks promotion eligibility; level 30 is the cap.</p>
+          <p class="how"><b>Try it:</b> Debug → Character → +1 / +10 / Maximum permanent level; scroll down for live stats</p></div></article><article class="shot" id="04-level-14">
+          <h3>Permanent level 14</h3>
+          <a class="full" href="../screenshots/m2-evidence/04-level-14.png" target="_blank" rel="noopener" aria-label="Open original screenshot: Permanent level 14">
+            <img src="../screenshots/m2-evidence/04-level-14.png" alt="Permanent level 14" width="640" height="360" loading="lazy"></a>
+          <div class="caption"><p>Controlled Aren example: permanent XP 1300 / 2900; max HP 315; damage 45.36. Shared Run Lv remains 1. Level 15 unlocks promotion eligibility; level 30 is the cap.</p>
+          <p class="how"><b>Try it:</b> Debug → Character → +1 / +10 / Maximum permanent level; scroll down for live stats</p></div></article><article class="shot" id="04-level-15">
+          <h3>Permanent level 15</h3>
+          <a class="full" href="../screenshots/m2-evidence/04-level-15.png" target="_blank" rel="noopener" aria-label="Open original screenshot: Permanent level 15">
+            <img src="../screenshots/m2-evidence/04-level-15.png" alt="Permanent level 15" width="640" height="360" loading="lazy"></a>
+          <div class="caption"><p>Controlled Aren example: permanent XP 1400 / 2900; max HP 320; damage 46.08. Shared Run Lv remains 1. Level 15 unlocks promotion eligibility; level 30 is the cap.</p>
+          <p class="how"><b>Try it:</b> Debug → Character → +1 / +10 / Maximum permanent level; scroll down for live stats</p></div></article><article class="shot" id="04-level-30">
+          <h3>Permanent level 30</h3>
+          <a class="full" href="../screenshots/m2-evidence/04-level-30.png" target="_blank" rel="noopener" aria-label="Open original screenshot: Permanent level 30">
+            <img src="../screenshots/m2-evidence/04-level-30.png" alt="Permanent level 30" width="640" height="360" loading="lazy"></a>
+          <div class="caption"><p>Controlled Aren example: permanent XP 2900 / 2900; max HP 395; damage 56.88. Shared Run Lv remains 1. Level 15 unlocks promotion eligibility; level 30 is the cap.</p>
+          <p class="how"><b>Try it:</b> Debug → Character → +1 / +10 / Maximum permanent level; scroll down for live stats</p></div></article></div></section><section class="feature" id="FR-017" data-requirement="FR-017">
+      <div class="feature-head"><span class="code">FR-017</span><span class="status">Implemented</span></div>
+      <h2>Permanent expedition rewards</h2><p class="visibility">Visible on the results screen</p><p class="intro">Victory gives 20 XP per completed minute plus 100 XP and one promotion item. Defeat gives minute XP only; abandonment gives zero. The Saved line identifies the reward. Selected companions share permanent XP even if downed; unselected heroes are excluded. Duplicate settlement prevention and exact minute boundaries require tests.</p>
+      <div class="shots"><article class="shot" id="10-reward-victory">
+          <h3>Victory settlement</h3>
+          <a class="full" href="../screenshots/m2-evidence/10-reward-victory.png" target="_blank" rel="noopener" aria-label="Open original screenshot: Victory settlement">
+            <img src="../screenshots/m2-evidence/10-reward-victory.png" alt="Victory settlement" width="640" height="360" loading="lazy"></a>
+          <div class="caption"><p>Controlled terminal example at 9:00: +280 permanent XP per selected participant, +1 items. This uses the real freeze/settlement/results route; it is not a recording of a full natural playthrough.</p>
+          <p class="how"><b>Try it:</b> Finish an expedition; read the Saved line on the results screen</p></div></article><article class="shot" id="10-reward-defeat">
+          <h3>Defeat settlement</h3>
+          <a class="full" href="../screenshots/m2-evidence/10-reward-defeat.png" target="_blank" rel="noopener" aria-label="Open original screenshot: Defeat settlement">
+            <img src="../screenshots/m2-evidence/10-reward-defeat.png" alt="Defeat settlement" width="640" height="360" loading="lazy"></a>
+          <div class="caption"><p>Controlled terminal example at 2:00: +40 permanent XP per selected participant, +0 items. This uses the real freeze/settlement/results route; it is not a recording of a full natural playthrough.</p>
+          <p class="how"><b>Try it:</b> Finish an expedition; read the Saved line on the results screen</p></div></article><article class="shot" id="10-reward-abandonment">
+          <h3>Abandonment settlement</h3>
+          <a class="full" href="../screenshots/m2-evidence/10-reward-abandonment.png" target="_blank" rel="noopener" aria-label="Open original screenshot: Abandonment settlement">
+            <img src="../screenshots/m2-evidence/10-reward-abandonment.png" alt="Abandonment settlement" width="640" height="360" loading="lazy"></a>
+          <div class="caption"><p>Controlled terminal example at 2:00: +0 permanent XP per selected participant, +0 items. This uses the real freeze/settlement/results route; it is not a recording of a full natural playthrough.</p>
+          <p class="how"><b>Try it:</b> Finish an expedition; read the Saved line on the results screen</p></div></article></div></section><section class="feature" id="FR-018" data-requirement="FR-018">
+      <div class="feature-head"><span class="code">FR-018</span><span class="status">Implemented</span></div>
+      <h2>Promotion confirmation</h2><p class="visibility">Three screens; two choices each</p><p class="intro">Aren has Swordmaster / Abyss Swordsman; Lia has Sharpshooter / Star Hunter; Milo has Elemental Sage / Void Caster. Promotion needs permanent level 15 and one item. Confirm saves the branch and spends one item. Cancel spends nothing. Failed-write Retry is shown later.</p>
+      <div class="shots"><article class="shot" id="03-promotion-aren">
+          <h3>Two promotion choices: Aren</h3>
+          <a class="full" href="../screenshots/m2-evidence/03-promotion-aren.png" target="_blank" rel="noopener" aria-label="Open original screenshot: Two promotion choices: Aren">
+            <img src="../screenshots/m2-evidence/03-promotion-aren.png" alt="Two promotion choices: Aren" width="640" height="360" loading="lazy"></a>
+          <div class="caption"><p>Both branches are selectable at level 15 with an item. Confirmation spends one item; Cancel spends nothing. The retained character passive is named here.</p>
+          <p class="how"><b>Try it:</b> Roster → View / promote beside Aren</p></div></article><article class="shot" id="03-promotion-lia">
+          <h3>Two promotion choices: Lia</h3>
+          <a class="full" href="../screenshots/m2-evidence/03-promotion-lia.png" target="_blank" rel="noopener" aria-label="Open original screenshot: Two promotion choices: Lia">
+            <img src="../screenshots/m2-evidence/03-promotion-lia.png" alt="Two promotion choices: Lia" width="640" height="360" loading="lazy"></a>
+          <div class="caption"><p>Both branches are selectable at level 15 with an item. Confirmation spends one item; Cancel spends nothing. The retained character passive is named here.</p>
+          <p class="how"><b>Try it:</b> Roster → View / promote beside Lia</p></div></article><article class="shot" id="03-promotion-milo">
+          <h3>Two promotion choices: Milo</h3>
+          <a class="full" href="../screenshots/m2-evidence/03-promotion-milo.png" target="_blank" rel="noopener" aria-label="Open original screenshot: Two promotion choices: Milo">
+            <img src="../screenshots/m2-evidence/03-promotion-milo.png" alt="Two promotion choices: Milo" width="640" height="360" loading="lazy"></a>
+          <div class="caption"><p>Both branches are selectable at level 15 with an item. Confirmation spends one item; Cancel spends nothing. The retained character passive is named here.</p>
+          <p class="how"><b>Try it:</b> Roster → View / promote beside Milo</p></div></article></div></section><section class="feature" id="FR-019" data-requirement="FR-019">
+      <div class="feature-head"><span class="code">FR-019</span><span class="status">Implemented</span></div>
+      <h2>Six promoted branches</h2><p class="visibility">Saved class plus real attack frames</p><p class="intro">For each branch, compare the saved roster class with its attack frame. Expand the magnified view: current effects are small geometric placeholders, not finished character animations. These prepared fifth-attack examples make the differences easier to identify.</p>
+      <div class="shots"><article class="shot" id="05-roster-swordmaster">
+          <h3>Swordmaster saved class</h3>
+          <a class="full" href="../screenshots/m2-evidence/05-roster-swordmaster.png" target="_blank" rel="noopener" aria-label="Open original screenshot: Swordmaster saved class">
+            <img src="../screenshots/m2-evidence/05-roster-swordmaster.png" alt="Swordmaster saved class" width="640" height="360" loading="lazy"></a>
+          <div class="caption"><p>The roster&#x27;s base → current class field identifies the committed branch. The character passive remains the same after promotion.</p>
+          <p class="how"><b>Try it:</b> Promote through the roster, then return to the roster</p></div></article><article class="shot" id="06-attack-swordmaster">
+          <h3>Swordmaster actual attack</h3>
+          <a class="full" href="../screenshots/m2-evidence/06-attack-swordmaster.png" target="_blank" rel="noopener" aria-label="Open original screenshot: Swordmaster actual attack">
+            <img src="../screenshots/m2-evidence/06-attack-swordmaster.png" alt="Swordmaster actual attack" width="640" height="360" loading="lazy"></a>
+          <details class="zoom-panel" open><summary>Magnified combat detail · 2×, same screenshot</summary>
+              <div class="zoom"><img src="../screenshots/m2-evidence/06-attack-swordmaster.png" alt="Magnified detail of Swordmaster actual attack" loading="lazy"></div></details><div class="caption"><p>Two swift arcs per attack; every fifth adds a full-circle spin. This controlled frame is frozen at the fifth attack; use the magnified view to inspect the small placeholder effects.</p>
+          <p class="how"><b>Try it:</b> Debug → Progression → grant requirements → Open existing promotion UI; close debug and let attacks fire automatically</p></div></article><article class="shot" id="05-roster-abyss_swordsman">
+          <h3>Abyss Swordsman saved class</h3>
+          <a class="full" href="../screenshots/m2-evidence/05-roster-abyss_swordsman.png" target="_blank" rel="noopener" aria-label="Open original screenshot: Abyss Swordsman saved class">
+            <img src="../screenshots/m2-evidence/05-roster-abyss_swordsman.png" alt="Abyss Swordsman saved class" width="640" height="360" loading="lazy"></a>
+          <div class="caption"><p>The roster&#x27;s base → current class field identifies the committed branch. The character passive remains the same after promotion.</p>
+          <p class="how"><b>Try it:</b> Promote through the roster, then return to the roster</p></div></article><article class="shot" id="06-attack-abyss_swordsman">
+          <h3>Abyss Swordsman actual attack</h3>
+          <a class="full" href="../screenshots/m2-evidence/06-attack-abyss_swordsman.png" target="_blank" rel="noopener" aria-label="Open original screenshot: Abyss Swordsman actual attack">
+            <img src="../screenshots/m2-evidence/06-attack-abyss_swordsman.png" alt="Abyss Swordsman actual attack" width="640" height="360" loading="lazy"></a>
+          <details class="zoom-panel" open><summary>Magnified combat detail · 2×, same screenshot</summary>
+              <div class="zoom"><img src="../screenshots/m2-evidence/06-attack-abyss_swordsman.png" alt="Magnified detail of Abyss Swordsman actual attack" loading="lazy"></div></details><div class="caption"><p>Long spectral arc; every fifth heals 2% max HP once on actual damage. Actual HP in this example: 192.0 → 198.4 (HUD rounds upward). This controlled frame is frozen at the fifth attack; use the magnified view to inspect the small placeholder effects.</p>
+          <p class="how"><b>Try it:</b> Debug → Progression → grant requirements → Open existing promotion UI; close debug and let attacks fire automatically</p></div></article><article class="shot" id="05-roster-sharpshooter">
+          <h3>Sharpshooter saved class</h3>
+          <a class="full" href="../screenshots/m2-evidence/05-roster-sharpshooter.png" target="_blank" rel="noopener" aria-label="Open original screenshot: Sharpshooter saved class">
+            <img src="../screenshots/m2-evidence/05-roster-sharpshooter.png" alt="Sharpshooter saved class" width="640" height="360" loading="lazy"></a>
+          <div class="caption"><p>The roster&#x27;s base → current class field identifies the committed branch. The character passive remains the same after promotion.</p>
+          <p class="how"><b>Try it:</b> Promote through the roster, then return to the roster</p></div></article><article class="shot" id="06-attack-sharpshooter">
+          <h3>Sharpshooter actual attack</h3>
+          <a class="full" href="../screenshots/m2-evidence/06-attack-sharpshooter.png" target="_blank" rel="noopener" aria-label="Open original screenshot: Sharpshooter actual attack">
+            <img src="../screenshots/m2-evidence/06-attack-sharpshooter.png" alt="Sharpshooter actual attack" width="640" height="360" loading="lazy"></a>
+          <details class="zoom-panel" open><summary>Magnified combat detail · 2×, same screenshot</summary>
+              <div class="zoom"><img src="../screenshots/m2-evidence/06-attack-sharpshooter.png" alt="Magnified detail of Sharpshooter actual attack" loading="lazy"></div></details><div class="caption"><p>Arrows pierce up to 3 enemies; every fifth adds a three-arrow volley. This controlled frame is frozen at the fifth attack; use the magnified view to inspect the small placeholder effects.</p>
+          <p class="how"><b>Try it:</b> Debug → Progression → grant requirements → Open existing promotion UI; close debug and let attacks fire automatically</p></div></article><article class="shot" id="05-roster-star_hunter">
+          <h3>Star Hunter saved class</h3>
+          <a class="full" href="../screenshots/m2-evidence/05-roster-star_hunter.png" target="_blank" rel="noopener" aria-label="Open original screenshot: Star Hunter saved class">
+            <img src="../screenshots/m2-evidence/05-roster-star_hunter.png" alt="Star Hunter saved class" width="640" height="360" loading="lazy"></a>
+          <div class="caption"><p>The roster&#x27;s base → current class field identifies the committed branch. The character passive remains the same after promotion.</p>
+          <p class="how"><b>Try it:</b> Promote through the roster, then return to the roster</p></div></article><article class="shot" id="06-attack-star_hunter">
+          <h3>Star Hunter actual attack</h3>
+          <a class="full" href="../screenshots/m2-evidence/06-attack-star_hunter.png" target="_blank" rel="noopener" aria-label="Open original screenshot: Star Hunter actual attack">
+            <img src="../screenshots/m2-evidence/06-attack-star_hunter.png" alt="Star Hunter actual attack" width="640" height="360" loading="lazy"></a>
+          <details class="zoom-panel" open><summary>Magnified combat detail · 2×, same screenshot</summary>
+              <div class="zoom"><img src="../screenshots/m2-evidence/06-attack-star_hunter.png" alt="Magnified detail of Star Hunter actual attack" loading="lazy"></div></details><div class="caption"><p>Arrows ricochet once to a different enemy; every fifth marks one 0.5s impact. This controlled frame is frozen at the fifth attack; use the magnified view to inspect the small placeholder effects.</p>
+          <p class="how"><b>Try it:</b> Debug → Progression → grant requirements → Open existing promotion UI; close debug and let attacks fire automatically</p></div></article><article class="shot" id="06-star-hunter-bounce">
+          <h3>Star Hunter: after first hit</h3>
+          <a class="full" href="../screenshots/m2-evidence/06-star-hunter-bounce.png" target="_blank" rel="noopener" aria-label="Open original screenshot: Star Hunter: after first hit">
+            <img src="../screenshots/m2-evidence/06-star-hunter-bounce.png" alt="Star Hunter: after first hit" width="640" height="360" loading="lazy"></a>
+          <details class="zoom-panel" open><summary>Magnified combat detail · 2×, same screenshot</summary>
+              <div class="zoom"><img src="../screenshots/m2-evidence/06-star-hunter-bounce.png" alt="Magnified detail of Star Hunter: after first hit" loading="lazy"></div></details><div class="caption"><p>The arrow has changed direction toward a different target. A single still cannot establish the complete ricochet/mark sequence; behavior checks verify those transitions.</p>
+          <p class="how"><b>Try it:</b> Keep two enemies within range; observe the star arrow after its first hit</p></div></article><article class="shot" id="05-roster-elemental_sage">
+          <h3>Elemental Sage saved class</h3>
+          <a class="full" href="../screenshots/m2-evidence/05-roster-elemental_sage.png" target="_blank" rel="noopener" aria-label="Open original screenshot: Elemental Sage saved class">
+            <img src="../screenshots/m2-evidence/05-roster-elemental_sage.png" alt="Elemental Sage saved class" width="640" height="360" loading="lazy"></a>
+          <div class="caption"><p>The roster&#x27;s base → current class field identifies the committed branch. The character passive remains the same after promotion.</p>
+          <p class="how"><b>Try it:</b> Promote through the roster, then return to the roster</p></div></article><article class="shot" id="06-attack-elemental_sage">
+          <h3>Elemental Sage actual attack</h3>
+          <a class="full" href="../screenshots/m2-evidence/06-attack-elemental_sage.png" target="_blank" rel="noopener" aria-label="Open original screenshot: Elemental Sage actual attack">
+            <img src="../screenshots/m2-evidence/06-attack-elemental_sage.png" alt="Elemental Sage actual attack" width="640" height="360" loading="lazy"></a>
+          <details class="zoom-panel" open><summary>Magnified combat detail · 2×, same screenshot</summary>
+              <div class="zoom"><img src="../screenshots/m2-evidence/06-attack-elemental_sage.png" alt="Magnified detail of Elemental Sage actual attack" loading="lazy"></div></details><div class="caption"><p>Alternate fire splash and frost slow; every fifth adds a larger elemental burst. This controlled frame is frozen at the fifth attack; use the magnified view to inspect the small placeholder effects.</p>
+          <p class="how"><b>Try it:</b> Debug → Progression → grant requirements → Open existing promotion UI; close debug and let attacks fire automatically</p></div></article><article class="shot" id="05-roster-void_caster">
+          <h3>Void Caster saved class</h3>
+          <a class="full" href="../screenshots/m2-evidence/05-roster-void_caster.png" target="_blank" rel="noopener" aria-label="Open original screenshot: Void Caster saved class">
+            <img src="../screenshots/m2-evidence/05-roster-void_caster.png" alt="Void Caster saved class" width="640" height="360" loading="lazy"></a>
+          <div class="caption"><p>The roster&#x27;s base → current class field identifies the committed branch. The character passive remains the same after promotion.</p>
+          <p class="how"><b>Try it:</b> Promote through the roster, then return to the roster</p></div></article><article class="shot" id="06-attack-void_caster">
+          <h3>Void Caster actual attack</h3>
+          <a class="full" href="../screenshots/m2-evidence/06-attack-void_caster.png" target="_blank" rel="noopener" aria-label="Open original screenshot: Void Caster actual attack">
+            <img src="../screenshots/m2-evidence/06-attack-void_caster.png" alt="Void Caster actual attack" width="640" height="360" loading="lazy"></a>
+          <details class="zoom-panel" open><summary>Magnified combat detail · 2×, same screenshot</summary>
+              <div class="zoom"><img src="../screenshots/m2-evidence/06-attack-void_caster.png" alt="Magnified detail of Void Caster actual attack" loading="lazy"></div></details><div class="caption"><p>Impacts leave 2s damage rings; every fifth adds a 2s pull zone. Armor resists pull. This controlled frame is frozen at the fifth attack; use the magnified view to inspect the small placeholder effects.</p>
+          <p class="how"><b>Try it:</b> Debug → Progression → grant requirements → Open existing promotion UI; close debug and let attacks fire automatically</p></div></article></div></section><section class="feature" id="FR-020" data-requirement="FR-020">
+      <div class="feature-head"><span class="code">FR-020</span><span class="status">Implemented</span></div>
+      <h2>Character-specific passives</h2><p class="visibility">Names and stats visible; damage behavior tested</p><p class="intro">Aren: Resolute, 10% less incoming damage after defense (minimum 1). Lia: Fleet Step, +10% starting speed. Milo: Arcane Pulse, +50% damage on each fifth fired attack. Passives survive promotion. There is no dedicated passive effect icon or animation; a screenshot cannot prove the damage formula or counter independence.</p>
+      <div class="shots"><article class="shot" id="07-passive-aren">
+          <h3>Resolute — Aren</h3>
+          <a class="full" href="../screenshots/m2-evidence/07-passive-aren.png" target="_blank" rel="noopener" aria-label="Open original screenshot: Resolute — Aren">
+            <img src="../screenshots/m2-evidence/07-passive-aren.png" alt="Resolute — Aren" width="640" height="360" loading="lazy"></a>
+          <div class="caption"><p>Resolute reduces incoming damage by 10% after defense, with minimum eligible damage 1. There is no dedicated passive animation or buff panel; damage math requires behavior tests rather than screenshots.</p>
+          <p class="how"><b>Try it:</b> Roster lists the passive; Debug → Character → select hero → scroll down for passive and live stats</p></div></article><article class="shot" id="07-passive-lia">
+          <h3>Fleet Step — Lia</h3>
+          <a class="full" href="../screenshots/m2-evidence/07-passive-lia.png" target="_blank" rel="noopener" aria-label="Open original screenshot: Fleet Step — Lia">
+            <img src="../screenshots/m2-evidence/07-passive-lia.png" alt="Fleet Step — Lia" width="640" height="360" loading="lazy"></a>
+          <div class="caption"><p>Fleet Step increases starting movement speed by 10%: 96 → 105.6, visible in these live stats. There is no dedicated passive animation or buff panel; damage math requires behavior tests rather than screenshots.</p>
+          <p class="how"><b>Try it:</b> Roster lists the passive; Debug → Character → select hero → scroll down for passive and live stats</p></div></article><article class="shot" id="07-passive-milo">
+          <h3>Arcane Pulse — Milo</h3>
+          <a class="full" href="../screenshots/m2-evidence/07-passive-milo.png" target="_blank" rel="noopener" aria-label="Open original screenshot: Arcane Pulse — Milo">
+            <img src="../screenshots/m2-evidence/07-passive-milo.png" alt="Arcane Pulse — Milo" width="640" height="360" loading="lazy"></a>
+          <div class="caption"><p>Arcane Pulse increases every fifth fired attack&#x27;s damage by 50%; its counter is independent of profession fifth effects. There is no dedicated passive animation or buff panel; damage math requires behavior tests rather than screenshots.</p>
+          <p class="how"><b>Try it:</b> Roster lists the passive; Debug → Character → select hero → scroll down for passive and live stats</p></div></article></div></section><section class="feature" id="FR-021" data-requirement="FR-021">
+      <div class="feature-head"><span class="code">FR-021</span><span class="status">Implemented</span></div>
+      <h2>Up to two AI companions</h2><p class="visibility">Three party configurations</p><p class="intro">These captures show zero, one and two companions from saved roster choices. Two companions occupy distinct formation slots and have separate HP readouts. A still frame shows the deployed party, while follow priority, target selection and blocked/separated recovery are established by behavior tests.</p>
+      <div class="shots"><article class="shot" id="08-party-0">
+          <h3>0 AI companions</h3>
+          <a class="full" href="../screenshots/m2-evidence/08-party-0.png" target="_blank" rel="noopener" aria-label="Open original screenshot: 0 AI companions">
+            <img src="../screenshots/m2-evidence/08-party-0.png" alt="0 AI companions" width="640" height="360" loading="lazy"></a>
+          <details class="zoom-panel" open><summary>Magnified combat detail · 2×, same screenshot</summary>
+              <div class="zoom"><img src="../screenshots/m2-evidence/08-party-0.png" alt="Magnified detail of 0 AI companions" loading="lazy"></div></details><div class="caption"><p>Saved roster selection is instantiated in combat. The lower-left HUD lists living companion HP; each companion occupies a separate formation slot. Follow/chase priority and safe recovery are verified by behavior tests.</p>
+          <p class="how"><b>Try it:</b> Roster → select 0–2 companions → Save party &amp; return → Start Expedition</p></div></article><article class="shot" id="08-party-1">
+          <h3>1 AI companions</h3>
+          <a class="full" href="../screenshots/m2-evidence/08-party-1.png" target="_blank" rel="noopener" aria-label="Open original screenshot: 1 AI companions">
+            <img src="../screenshots/m2-evidence/08-party-1.png" alt="1 AI companions" width="640" height="360" loading="lazy"></a>
+          <details class="zoom-panel" open><summary>Magnified combat detail · 2×, same screenshot</summary>
+              <div class="zoom"><img src="../screenshots/m2-evidence/08-party-1.png" alt="Magnified detail of 1 AI companions" loading="lazy"></div></details><div class="caption"><p>Saved roster selection is instantiated in combat. The lower-left HUD lists living companion HP; each companion occupies a separate formation slot. Follow/chase priority and safe recovery are verified by behavior tests.</p>
+          <p class="how"><b>Try it:</b> Roster → select 0–2 companions → Save party &amp; return → Start Expedition</p></div></article><article class="shot" id="08-party-2">
+          <h3>2 AI companions</h3>
+          <a class="full" href="../screenshots/m2-evidence/08-party-2.png" target="_blank" rel="noopener" aria-label="Open original screenshot: 2 AI companions">
+            <img src="../screenshots/m2-evidence/08-party-2.png" alt="2 AI companions" width="640" height="360" loading="lazy"></a>
+          <details class="zoom-panel" open><summary>Magnified combat detail · 2×, same screenshot</summary>
+              <div class="zoom"><img src="../screenshots/m2-evidence/08-party-2.png" alt="Magnified detail of 2 AI companions" loading="lazy"></div></details><div class="caption"><p>Saved roster selection is instantiated in combat. The lower-left HUD lists living companion HP; each companion occupies a separate formation slot. Follow/chase priority and safe recovery are verified by behavior tests.</p>
+          <p class="how"><b>Try it:</b> Roster → select 0–2 companions → Save party &amp; return → Start Expedition</p></div></article></div></section><section class="feature" id="FR-022" data-requirement="FR-022">
+      <div class="feature-head"><span class="code">FR-022</span><span class="status">Implemented</span></div>
+      <h2>Companion combat and downing</h2><p class="visibility">Downed state visible in party HUD</p><p class="intro">A companion can be downed while the active hero continues. The body pose and DOWNED label are visible. Half outgoing damage, full healing/defense, separate 45-tick immunity, living-only shared upgrades, active-hero defeat and full restoration next run are implemented behavior covered by tests; this one frame does not establish all of them.</p>
+      <div class="shots"><article class="shot" id="09-downed">
+          <h3>Downed companion, continuing expedition</h3>
+          <a class="full" href="../screenshots/m2-evidence/09-downed.png" target="_blank" rel="noopener" aria-label="Open original screenshot: Downed companion, continuing expedition">
+            <img src="../screenshots/m2-evidence/09-downed.png" alt="Downed companion, continuing expedition" width="640" height="360" loading="lazy"></a>
+          <details class="zoom-panel" open><summary>Magnified combat detail · 2×, same screenshot</summary>
+              <div class="zoom"><img src="../screenshots/m2-evidence/09-downed.png" alt="Magnified detail of Downed companion, continuing expedition" loading="lazy"></div></details><div class="caption"><p>Lia is visibly DOWNED in the party HUD and uses the downed body pose. Aren and Milo remain alive. Companions do not revive during this run; starting a new run restores them.</p>
+          <p class="how"><b>Try it:</b> Take damage on a companion; look at the lower-left party HUD</p></div></article></div></section><section class="feature" id="FR-023" data-requirement="FR-023">
+      <div class="feature-head"><span class="code">FR-023</span><span class="status">Implemented</span></div>
+      <h2>Save durability and Retry</h2><p class="visibility">Real save-error / recovery interface</p><p class="intro">A controlled publication failure opens the real save-error screen. Retry commits the same pending action once. The roster afterward shows the committed XP and saved party. Checksum/version validation, interrupted writes and two-process writer-lock behavior are backend guarantees verified through tests, not through the appearance of a screen.</p>
+      <div class="shots"><article class="shot" id="11-save-retry">
+          <h3>Save failure and Retry</h3>
+          <a class="full" href="../screenshots/m2-evidence/11-save-retry.png" target="_blank" rel="noopener" aria-label="Open original screenshot: Save failure and Retry">
+            <img src="../screenshots/m2-evidence/11-save-retry.png" alt="Save failure and Retry" width="640" height="360" loading="lazy"></a>
+          <div class="caption"><p>A deliberately failed write in an isolated test profile opens the real error screen. Retry preserves the same pending action. Checksum validation, interruptions and two-process locks are backend behavior, not visible proof in this image.</p>
+          <p class="how"><b>Try it:</b> Appears automatically if a save fails; choose Retry pending action</p></div></article><article class="shot" id="11-save-retried">
+          <h3>Same pending save recovered</h3>
+          <a class="full" href="../screenshots/m2-evidence/11-save-retried.png" target="_blank" rel="noopener" aria-label="Open original screenshot: Same pending save recovered">
+            <img src="../screenshots/m2-evidence/11-save-retried.png" alt="Same pending save recovered" width="640" height="360" loading="lazy"></a>
+          <div class="caption"><p>After Retry, Aren is level 2 / 100 XP and the party is preserved. The action is committed once, not added twice.</p>
+          <p class="how"><b>Try it:</b> Retry pending action → roster returns with committed progress</p></div></article></div></section><section class="feature" id="SC-005" data-requirement="SC-005">
+      <div class="feature-head"><span class="code">SC-005</span><span class="status">Implemented</span></div>
+      <h2>Progress retained after reopening</h2><p class="visibility">Reopened application and exact state checks</p><p class="intro">The final roster is loaded by a new application instance from the same isolated test profile. Twenty exact payload close/reopen comparisons passed during capture. A screenshot shows the retained state; the comparisons establish that the complete payload matched.</p>
+      <div class="shots"><article class="shot" id="12-reopened-roster">
+          <h3>Reopened profile retains progression and party</h3>
+          <a class="full" href="../screenshots/m2-evidence/12-reopened-roster.png" target="_blank" rel="noopener" aria-label="Open original screenshot: Reopened profile retains progression and party">
+            <img src="../screenshots/m2-evidence/12-reopened-roster.png" alt="Reopened profile retains progression and party" width="640" height="360" loading="lazy"></a>
+          <div class="caption"><p>A new app instance reopened the saved profile: Aren level 2 / 100 XP, Lia and Milo still companions. Twenty exact payload close/reopen comparisons passed alongside this screenshot.</p>
+          <p class="how"><b>Try it:</b> Save party → close game → open the same profile → Character roster / companions / promotions</p></div></article></div></section>
+<section class="evidence"><h2>What the captures do and do not establish</h2>
+<p>This capture run completed <b>111 checks with zero failures</b> and produced 35 screenshots. It checked real attack objects, reward commitments, level scaling, downing, Retry and twenty saved-payload reopen comparisons alongside the images.</p>
+<p>The preceding full validation passed 916 checks, including M1/M2 regression suites and source/exported native input checks. No gameplay implementation was changed to create this gallery. Automated fixtures are reproducible; these captures are not a claim of exhaustive human-play or performance acceptance.</p>
+<details><summary>Show checks performed during these screenshots</summary><ul><li>evidence captured from native debug build</li><li>level 1 derived HP reflected in combat</li><li>level 14 derived HP reflected in combat</li><li>level 15 derived HP reflected in combat</li><li>level 30 derived HP reflected in combat</li><li>swordmaster real fifth attack fired</li><li>swordmaster distinct arc policy instantiated</li><li>abyss_swordsman real fifth attack fired</li><li>abyss_swordsman distinct arc policy instantiated</li><li>abyss fifth attack restored actual HP</li><li>sharpshooter real fifth attack fired</li><li>sharpshooter piercing and fifth volley</li><li>star_hunter real fifth attack fired</li><li>star hunter bounce and delayed mark</li><li>star arrow changes target after first hit</li><li>elemental_sage real fifth attack fired</li><li>elemental fire projectile and fifth frost burst</li><li>void_caster real fifth attack fired</li><li>void pull and damage zones coexist</li><li>aren character passive attached</li><li>lia character passive attached</li><li>milo character passive attached</li><li>saved party size 0</li><li>saved party size 1</li><li>saved party size 2</li><li>companion downing leaves active hero alive</li><li>victory per-participant XP committed</li><li>downed selected Milo receives victory reward</li><li>defeat per-participant XP committed</li><li>unselected Milo excluded from defeat reward</li><li>abandonment per-participant XP committed</li><li>unselected Milo excluded from abandonment reward</li><li>controlled save publication failure displays real Retry UI</li><li>Retry committed one pending XP action</li><li>exact saved payload close/reopen 1</li><li>exact saved payload close/reopen 2</li><li>exact saved payload close/reopen 3</li><li>exact saved payload close/reopen 4</li><li>exact saved payload close/reopen 5</li><li>exact saved payload close/reopen 6</li><li>exact saved payload close/reopen 7</li><li>exact saved payload close/reopen 8</li><li>exact saved payload close/reopen 9</li><li>exact saved payload close/reopen 10</li><li>exact saved payload close/reopen 11</li><li>exact saved payload close/reopen 12</li><li>exact saved payload close/reopen 13</li><li>exact saved payload close/reopen 14</li><li>exact saved payload close/reopen 15</li><li>exact saved payload close/reopen 16</li><li>exact saved payload close/reopen 17</li><li>exact saved payload close/reopen 18</li><li>exact saved payload close/reopen 19</li><li>exact saved payload close/reopen 20</li><li>new app loads exact saved progression and companion roles</li></ul></details>
+<p><a href="../screenshots/m2-evidence/manifest.json">Capture manifest</a> · <a href="validation/m2-evidence-capture.log">Capture log</a> · <a href="validation/debug-access-fix.md">Previous full validation</a></p></section>
+<p class="footer">Capture build: builds/windows/debug-panel-access-fix/AbyssExpedition-debug.exe. Keep this HTML file inside docs/ with the screenshots/ folder beside docs/. Click a full frame to open its original image.</p>
+</main><script>
+const select=document.getElementById('filter');
+function show(value,scroll){select.value=value;document.querySelectorAll('.feature').forEach(section=>section.classList.toggle('hidden',value!=='all'&&section.dataset.requirement!==value));if(scroll&&value!=='all'){document.getElementById(value).scrollIntoView({block:'start'});}document.getElementById('count').textContent=value==='all'?'35 real screenshots':document.querySelectorAll('.feature:not(.hidden) .shot').length+' screenshots for '+value;}
+select.addEventListener('change',()=>show(select.value,true));document.getElementById('show-all').addEventListener('click',()=>show('all',false));
+document.querySelectorAll('[data-filter]').forEach(link=>link.addEventListener('click',event=>{event.preventDefault();const value=link.dataset.filter;show(value,true);history.replaceState(null,'','#'+value);}));
+if(/^#FR-0(15|16|17|18|19|20|21|22|23)$|^#SC-005$/.test(location.hash)){show(location.hash.slice(1),true);}
+</script></body></html>

@@ -1,0 +1,22 @@
+m4-prior-m2-release PASS
+Profile storage: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/m2-graphical-1552339/
+GRAPHICAL M2 window=(1280, 720) actual=(1280, 720) roster / 3 previews / 6 branch combat / followers / downing
+GRAPHICAL M2 window=(1920, 1080) actual=(1920, 1080) roster / 3 previews / 6 branch combat / followers / downing
+GRAPHICAL M2 window=(1371, 813) actual=(1371, 813) roster / 3 previews / 6 branch combat / followers / downing
+GRAPHICAL M2: failures=0
+m4-prior-m3-release PASS
+Profile storage: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/m3-graphical-1280-832532/
+GRAPHICAL M3 window=(1280, 720) actual=(1280, 720) guild / rescue / settlement / single+ten / cancel+exchange / reopen / history / collection
+Profile storage: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/m3-graphical-1920-2370911/
+GRAPHICAL M3 window=(1920, 1080) actual=(1920, 1080) guild / rescue / settlement / single+ten / cancel+exchange / reopen / history / collection
+Profile storage: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/m3-graphical-1371-3571041/
+GRAPHICAL M3 window=(1371, 813) actual=(1371, 813) guild / rescue / settlement / single+ten / cancel+exchange / reopen / history / collection
+GRAPHICAL M3: failures=0
+m4-debug-release-denial PASS
+DEBUG RELEASE: 20 assertions; 0 failures; 0 skipped
+m4-debug-graphical PASS
+Profile storage: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/debug-graphical-5236-2747156/
+DEBUG GRAPHICAL window=(1280, 720) actual=(1280, 720) four tabs / scroll / promotion / paused native input
+DEBUG GRAPHICAL window=(1920, 1080) actual=(1920, 1080) four tabs / scroll / promotion / paused native input
+DEBUG GRAPHICAL window=(1371, 813) actual=(1371, 813) four tabs / scroll / promotion / paused native input
+DEBUG GRAPHICAL: assertions=97 failures=0

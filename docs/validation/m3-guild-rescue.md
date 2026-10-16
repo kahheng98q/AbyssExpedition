@@ -1,0 +1,13 @@
+# M3 guild, rescue and settlement — 2026-10-15
+
+Implemented T116–T126. Automated checkpoint coverage is in `tests/unit/test_rescue.gd` and `tests/integration/test_m3_rescue.gd`; native commands and totals are consolidated in [m3-gate.md](m3-gate.md). The initial parse-valid implementation produced seven expected behavioral failures for missing rescue/ticket/draw behavior (`m3-red.log`); those assertions now pass. Additional tests were added incrementally as regression coverage, rather than claiming every task had its own separate red-first run.
+
+Fresh profiles own Aren/Swordsman, Lia/Archer and Milo/Mage. The guild lists all six heroes, acquisition routes and three permanent balances. Selection and roster show owned heroes only; new recruits affect later expeditions. Exactly one seed-independent rescue is offered at active tick 14400, including when Sera is owned. Level choices resolve first; the rescue offer owns a distinct pause token. Accept centers the radius-96 zone on the active hero; inclusive boundary, one-way failure, 1800 continuous active ticks, decline, death, new-run availability and pause behavior are tested. No separate difficulty escalation or generic event/corruption service was added.
+
+The integration suite also executes 1800 real coordinator steps with controlled survivability and normal scheduled waves. It checks exactly 1800 defense ticks across upgrade suspensions, manual-pause freeze, success without live-party insertion, defeat settlement, one-time actual-router settlement, and exact profile reopen. The reward matrix covers victory/defeat/abandonment, ticks 0/17999/18000/36000, failed/declined/defending/succeeded rescue and Sera-owned/unowned starts. Victory grants two tickets in addition to the one five-minute ticket; owned rescue adds one. Unowned success grants level-one Sera at victory/defeat; abandon grants nothing.
+
+Sera's data-driven passive heals the lowest-health-percentage living party member every 1200 ticks for 2% of its maximum HP. Tests cover active/companion-slot tie order, one heal per deadline, no overheal, downed Sera, and preservation under both Mage promotion branches.
+
+Source and exported graphical harnesses display fresh/full guilds, rescue prompt, visible circle and timer, earned success and saved defeat result at 1280×720, 1920×1080 and 1371×813. Captures `screenshots/m3[-release]-rescue-{offer,zone,success,settled}-*.png` and guild captures provide visual evidence. The initial circle drew behind the field; it now draws at z-index 1 and was visually inspected.
+
+T127 remains open for the specified ordinary manual decline/fail/succeed/owned-repeat play matrix. The graphical harness uses controlled state/timing and is not a human-survivability or enjoyment study.

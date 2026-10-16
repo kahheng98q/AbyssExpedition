@@ -1,0 +1,309 @@
+{
+  "functional_requirements": [
+    {
+      "id": "FR-001",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m1.log"
+    },
+    {
+      "id": "FR-002",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m1.log"
+    },
+    {
+      "id": "FR-003",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m1.log"
+    },
+    {
+      "id": "FR-004",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m1.log"
+    },
+    {
+      "id": "FR-005",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m1.log"
+    },
+    {
+      "id": "FR-006",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m1.log"
+    },
+    {
+      "id": "FR-007",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m1.log"
+    },
+    {
+      "id": "FR-008",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m1.log"
+    },
+    {
+      "id": "FR-009",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m1.log"
+    },
+    {
+      "id": "FR-010",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m1.log"
+    },
+    {
+      "id": "FR-011",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m1.log"
+    },
+    {
+      "id": "FR-012",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m1.log"
+    },
+    {
+      "id": "FR-013",
+      "implementation": "已实现",
+      "verification": "形状/状态/配置已实现；密集辨识、乐趣、显示延迟仍未验收",
+      "evidence": "final-replay-disclosure/integration_m1.log"
+    },
+    {
+      "id": "FR-014",
+      "implementation": "已实现",
+      "verification": "保留 M1 独立构建和历史证据；本轮当前 M4 App 回归不替代 M1-only 验收",
+      "evidence": "final-replay-disclosure/integration_m1.log"
+    },
+    {
+      "id": "FR-015",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m2.log"
+    },
+    {
+      "id": "FR-016",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m2.log"
+    },
+    {
+      "id": "FR-017",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m2.log"
+    },
+    {
+      "id": "FR-018",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m2.log"
+    },
+    {
+      "id": "FR-019",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m2.log"
+    },
+    {
+      "id": "FR-020",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m2.log"
+    },
+    {
+      "id": "FR-021",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m2.log"
+    },
+    {
+      "id": "FR-022",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m2.log"
+    },
+    {
+      "id": "FR-023",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m2.log"
+    },
+    {
+      "id": "FR-024",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m3.log"
+    },
+    {
+      "id": "FR-025",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m3.log"
+    },
+    {
+      "id": "FR-026",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m3.log"
+    },
+    {
+      "id": "FR-027",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m3.log"
+    },
+    {
+      "id": "FR-028",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m3.log"
+    },
+    {
+      "id": "FR-029",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m3.log"
+    },
+    {
+      "id": "FR-030",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m3.log"
+    },
+    {
+      "id": "FR-031",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m3.log"
+    },
+    {
+      "id": "FR-032",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m3.log"
+    },
+    {
+      "id": "FR-033",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m3.log"
+    },
+    {
+      "id": "FR-034",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m3.log"
+    },
+    {
+      "id": "FR-035",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m4.log"
+    },
+    {
+      "id": "FR-036",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m4.log"
+    },
+    {
+      "id": "FR-037",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m4.log"
+    },
+    {
+      "id": "FR-038",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m4.log"
+    },
+    {
+      "id": "FR-039",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m4.log"
+    },
+    {
+      "id": "FR-040",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m4.log"
+    },
+    {
+      "id": "FR-041",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m4.log"
+    },
+    {
+      "id": "FR-042",
+      "implementation": "已实现",
+      "verification": "自动行为回归及源码/实际Windows EXE受控图形通过；自然操作验收仍开放",
+      "evidence": "final-replay-disclosure/integration_m4.log"
+    }
+  ],
+  "success_criteria": [
+    {
+      "id": "SC-001",
+      "status": "待十人启动/操控研究"
+    },
+    {
+      "id": "SC-002",
+      "status": "待二十次普通胜利；本轮三个 bot 胜利不是普通样本"
+    },
+    {
+      "id": "SC-003",
+      "status": "待十人角色差异/乐趣/重试研究"
+    },
+    {
+      "id": "SC-004",
+      "status": "自动终局/暂停/重试通过；自然操作仍开放"
+    },
+    {
+      "id": "SC-005",
+      "status": "受控边界/二十次重开通过；阶段人工检查仍开放"
+    },
+    {
+      "id": "SC-006",
+      "status": "新档/救援/有限收集路径自动验证通过"
+    },
+    {
+      "id": "SC-007",
+      "status": "独立随机/费用/重复/历史/中断自动验证通过"
+    },
+    {
+      "id": "SC-008",
+      "status": "精确阈值/禁选自动验证通过；待十人理解研究"
+    },
+    {
+      "id": "SC-009",
+      "status": "十个冻结种子/三类事件/三种有序序列/章节重开通过"
+    },
+    {
+      "id": "SC-010",
+      "status": "反馈已实现；参考机显示延迟与十人辨识未测"
+    },
+    {
+      "id": "SC-011",
+      "status": "二十对随机 trace 通过；新增实际输入记录/重放通过"
+    },
+    {
+      "id": "SC-012",
+      "status": "二十组完整结算中断及前序自动回归通过；最终生成EXE受控运行通过，完整自然离线会话仍开放"
+    }
+  ],
+  "full_convergence": false,
+  "source_of_intent": "approved spec/plan/tasks; spec and plan hashes unchanged; only implementation task status/evidence updated",
+  "review_date": "2026-10-16"
+}

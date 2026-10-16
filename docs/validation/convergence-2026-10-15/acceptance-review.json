@@ -1,0 +1,1210 @@
+{
+  "review_date": "2026-10-16",
+  "meaning": "代码/Resource/场景及实际证据索引，不从勾选推导验收，不宣称完成人类体验/自然操作/参考机验收",
+  "acceptance_scenarios": [
+    {
+      "id": "US1/AC1",
+      "spec_line": 35,
+      "criterion": "1. **Given** starter selection, **When** I select Aren, Lia, or Milo and start, **Then** the hero enters a bounded top-down 2D field, moves with WASD or arrow keys, and automatically attacks nearby enemies without aiming or an attack button.",
+      "implementation_entry_points": [
+        "scripts/combat/player_controller.gd",
+        "scripts/combat/spawn_director.gd",
+        "scripts/core/run_manager.gd",
+        "scripts/ui/run_results.gd",
+        "scenes/app/app.tscn"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/unit.log",
+        "final-replay-disclosure/scene_smoke.log",
+        "final-replay-disclosure/integration_m1.log",
+        "final-replay-disclosure/full_run.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US1/AC2",
+      "spec_line": 36,
+      "criterion": "2. **Given** a living hero, **When** waves advance, **Then** all five enemy behaviors can appear, defeated enemies drop experience gems, and the final pre-boss phase has a higher spawn rate and greater enemy variety than the opening phase.",
+      "implementation_entry_points": [
+        "scripts/combat/player_controller.gd",
+        "scripts/combat/spawn_director.gd",
+        "scripts/core/run_manager.gd",
+        "scripts/ui/run_results.gd",
+        "scenes/app/app.tscn"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/unit.log",
+        "final-replay-disclosure/scene_smoke.log",
+        "final-replay-disclosure/integration_m1.log",
+        "final-replay-disclosure/full_run.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US1/AC3",
+      "spec_line": 37,
+      "criterion": "3. **Given** the boss dies while my hero lives, **When** the encounter resolves, **Then** victory ends combat and shows survival time, level, kills, and retry/selection options.",
+      "implementation_entry_points": [
+        "scripts/combat/player_controller.gd",
+        "scripts/combat/spawn_director.gd",
+        "scripts/core/run_manager.gd",
+        "scripts/ui/run_results.gd",
+        "scenes/app/app.tscn"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/unit.log",
+        "final-replay-disclosure/scene_smoke.log",
+        "final-replay-disclosure/integration_m1.log",
+        "final-replay-disclosure/full_run.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US1/AC4",
+      "spec_line": 38,
+      "criterion": "4. **Given** my health reaches zero, **When** death resolves, **Then** defeat shows the same summary and restart options; retry starts a fresh run without temporary upgrades.",
+      "implementation_entry_points": [
+        "scripts/combat/player_controller.gd",
+        "scripts/combat/spawn_director.gd",
+        "scripts/core/run_manager.gd",
+        "scripts/ui/run_results.gd",
+        "scenes/app/app.tscn"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/unit.log",
+        "final-replay-disclosure/scene_smoke.log",
+        "final-replay-disclosure/integration_m1.log",
+        "final-replay-disclosure/full_run.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US1/AC5",
+      "spec_line": 39,
+      "criterion": "5. **Given** a paused run, **When** I wait or open a choice screen, **Then** movement, attacks, enemies, damage, pickups, and elapsed run time remain frozen until resuming.",
+      "implementation_entry_points": [
+        "scripts/combat/player_controller.gd",
+        "scripts/combat/spawn_director.gd",
+        "scripts/core/run_manager.gd",
+        "scripts/ui/run_results.gd",
+        "scenes/app/app.tscn"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/unit.log",
+        "final-replay-disclosure/scene_smoke.log",
+        "final-replay-disclosure/integration_m1.log",
+        "final-replay-disclosure/full_run.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US2/AC1",
+      "spec_line": 53,
+      "criterion": "1. **Given** identical enemy positions, **When** each starter attacks, **Then** Aren damages a close arc, Lia fires a straight ranged projectile, and Milo's projectile changes direction to track its target.",
+      "implementation_entry_points": [
+        "scripts/combat/attack_executor.gd",
+        "scripts/combat/status_effects.gd",
+        "scripts/combat/damage_service.gd",
+        "scripts/progression/upgrade_effects.gd",
+        "scripts/progression/upgrade_offer_service.gd",
+        "data/upgrades"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/unit.log",
+        "final-replay-disclosure/abilities.log",
+        "final-replay-disclosure/integration_m1.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US2/AC2",
+      "spec_line": 54,
+      "criterion": "2. **Given** enough experience for a level, **When** the choice screen opens, **Then** exactly three distinct eligible upgrades display their effects while gameplay pauses; selecting one applies it once and resumes unless another level is pending.",
+      "implementation_entry_points": [
+        "scripts/combat/attack_executor.gd",
+        "scripts/combat/status_effects.gd",
+        "scripts/combat/damage_service.gd",
+        "scripts/progression/upgrade_effects.gd",
+        "scripts/progression/upgrade_offer_service.gd",
+        "data/upgrades"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/unit.log",
+        "final-replay-disclosure/abilities.log",
+        "final-replay-disclosure/integration_m1.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US2/AC3",
+      "spec_line": 55,
+      "criterion": "3. **Given** the upgrade catalog, **When** choices are reviewed, **Then** at least twelve entries cover damage, attack speed, range, projectiles/attack count, defense, and special effects, with no ineffective class-incompatible choices.",
+      "implementation_entry_points": [
+        "scripts/combat/attack_executor.gd",
+        "scripts/combat/status_effects.gd",
+        "scripts/combat/damage_service.gd",
+        "scripts/progression/upgrade_effects.gd",
+        "scripts/progression/upgrade_offer_service.gd",
+        "data/upgrades"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/unit.log",
+        "final-replay-disclosure/abilities.log",
+        "final-replay-disclosure/integration_m1.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US2/AC4",
+      "spec_line": 56,
+      "criterion": "4. **Given** a hit, **When** it resolves, **Then** health changes consistently, impact feedback is visible, susceptible targets are knocked back, and hero invulnerability prevents repeated damage during its stated duration.",
+      "implementation_entry_points": [
+        "scripts/combat/attack_executor.gd",
+        "scripts/combat/status_effects.gd",
+        "scripts/combat/damage_service.gd",
+        "scripts/progression/upgrade_effects.gd",
+        "scripts/progression/upgrade_offer_service.gd",
+        "data/upgrades"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/unit.log",
+        "final-replay-disclosure/abilities.log",
+        "final-replay-disclosure/integration_m1.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US3/AC1",
+      "spec_line": 70,
+      "criterion": "1. **Given** combat, **When** I inspect the HUD, **Then** health, experience to next level, run level, and elapsed active time are visible and distinguishable.",
+      "implementation_entry_points": [
+        "scripts/ui/combat_hud.gd",
+        "scripts/combat/boss_controller.gd",
+        "scripts/core/replay_trace.gd",
+        "scripts/core/simulation_coordinator.gd",
+        "scripts/core/app_router.gd"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/scene_smoke.log",
+        "final-replay-disclosure/replay.log",
+        "final-replay-disclosure/integration_m2.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US3/AC2",
+      "spec_line": 71,
+      "criterion": "2. **Given** a boss attack, **When** its warning starts, **Then** its threatened area/direction are visible before damage, and leaving that area avoids the attack.",
+      "implementation_entry_points": [
+        "scripts/ui/combat_hud.gd",
+        "scripts/combat/boss_controller.gd",
+        "scripts/core/replay_trace.gd",
+        "scripts/core/simulation_coordinator.gd",
+        "scripts/core/app_router.gd"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/scene_smoke.log",
+        "final-replay-disclosure/replay.log",
+        "final-replay-disclosure/integration_m2.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US3/AC3",
+      "spec_line": 72,
+      "criterion": "3. **Given** matching seed, game version, hero, starting progression/party, and timed player decisions, **When** I repeat a run, **Then** random waves, upgrade offers, and applicable later events repeat. Different decisions can produce different outcomes.",
+      "implementation_entry_points": [
+        "scripts/ui/combat_hud.gd",
+        "scripts/combat/boss_controller.gd",
+        "scripts/core/replay_trace.gd",
+        "scripts/core/simulation_coordinator.gd",
+        "scripts/core/app_router.gd"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/scene_smoke.log",
+        "final-replay-disclosure/replay.log",
+        "final-replay-disclosure/integration_m2.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US3/AC4",
+      "spec_line": 73,
+      "criterion": "4. **Given** a result screen, **When** I retry, **Then** the prior seed is reused and displayed; New Expedition generates a new seed. Seed replay never resets permanent rewards or guarantees identical results after progression changes.",
+      "implementation_entry_points": [
+        "scripts/ui/combat_hud.gd",
+        "scripts/combat/boss_controller.gd",
+        "scripts/core/replay_trace.gd",
+        "scripts/core/simulation_coordinator.gd",
+        "scripts/core/app_router.gd"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/scene_smoke.log",
+        "final-replay-disclosure/replay.log",
+        "final-replay-disclosure/integration_m2.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US4/AC1",
+      "spec_line": 87,
+      "criterion": "1. **Given** an owned hero, **When** I finish a run and reopen the game, **Then** permanent experience/level remain, while the next expedition starts at run level 1 without prior run upgrades.",
+      "implementation_entry_points": [
+        "scripts/progression/permanent_progression.gd",
+        "scripts/progression/promotion_service.gd",
+        "scripts/ui/promotion.gd",
+        "scripts/persistence/save_coordinator.gd",
+        "data/professions"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/progression.log",
+        "final-replay-disclosure/abilities.log",
+        "final-replay-disclosure/integration_m2.log",
+        "final-replay-disclosure/persistence.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US4/AC2",
+      "spec_line": 88,
+      "criterion": "2. **Given** an unpromoted level-15 hero and one promotion item, **When** I preview both branches and confirm one, **Then** one item is consumed, class choice is permanent, attack behavior/abilities/visual identity change, and the hero passive remains.",
+      "implementation_entry_points": [
+        "scripts/progression/permanent_progression.gd",
+        "scripts/progression/promotion_service.gd",
+        "scripts/ui/promotion.gd",
+        "scripts/persistence/save_coordinator.gd",
+        "data/professions"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/progression.log",
+        "final-replay-disclosure/abilities.log",
+        "final-replay-disclosure/integration_m2.log",
+        "final-replay-disclosure/persistence.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US4/AC3",
+      "spec_line": 89,
+      "criterion": "3. **Given** level 14, no item, or an already promoted hero, **When** I attempt promotion, **Then** it is unavailable with a reason and consumes nothing.",
+      "implementation_entry_points": [
+        "scripts/progression/permanent_progression.gd",
+        "scripts/progression/promotion_service.gd",
+        "scripts/ui/promotion.gd",
+        "scripts/persistence/save_coordinator.gd",
+        "data/professions"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/progression.log",
+        "final-replay-disclosure/abilities.log",
+        "final-replay-disclosure/integration_m2.log",
+        "final-replay-disclosure/persistence.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US4/AC4",
+      "spec_line": 90,
+      "criterion": "4. **Given** level 30, **When** further permanent experience is earned, **Then** level remains 30 and the result reports the cap.",
+      "implementation_entry_points": [
+        "scripts/progression/permanent_progression.gd",
+        "scripts/progression/promotion_service.gd",
+        "scripts/ui/promotion.gd",
+        "scripts/persistence/save_coordinator.gd",
+        "data/professions"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/progression.log",
+        "final-replay-disclosure/abilities.log",
+        "final-replay-disclosure/integration_m2.log",
+        "final-replay-disclosure/persistence.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US5/AC1",
+      "spec_line": 104,
+      "criterion": "1. **Given** the roster, **When** I choose one active hero and zero to two distinct companions, **Then** roles are shown and duplicate/unowned selections are rejected.",
+      "implementation_entry_points": [
+        "scripts/characters/roster_service.gd",
+        "scripts/characters/companion_controller.gd",
+        "scripts/characters/passive_executor.gd",
+        "scripts/combat/actor.gd"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/abilities.log",
+        "final-replay-disclosure/integration_m2.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US5/AC2",
+      "spec_line": 105,
+      "criterion": "2. **Given** companions, **When** I move and enemies approach, **Then** companions follow and attack with their classes/passives and recover from separation without commands.",
+      "implementation_entry_points": [
+        "scripts/characters/roster_service.gd",
+        "scripts/characters/companion_controller.gd",
+        "scripts/characters/passive_executor.gd",
+        "scripts/combat/actor.gd"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/abilities.log",
+        "final-replay-disclosure/integration_m2.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US5/AC3",
+      "spec_line": 106,
+      "criterion": "3. **Given** a companion reaches zero health, **When** combat continues, **Then** it stops contributing until the next run while the active hero can still win.",
+      "implementation_entry_points": [
+        "scripts/characters/roster_service.gd",
+        "scripts/characters/companion_controller.gd",
+        "scripts/characters/passive_executor.gd",
+        "scripts/combat/actor.gd"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/abilities.log",
+        "final-replay-disclosure/integration_m2.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US5/AC4",
+      "spec_line": 107,
+      "criterion": "4. **Given** the active hero dies while companions live, **When** death resolves, **Then** defeat ends the run without swapping control.",
+      "implementation_entry_points": [
+        "scripts/characters/roster_service.gd",
+        "scripts/characters/companion_controller.gd",
+        "scripts/characters/passive_executor.gd",
+        "scripts/combat/actor.gd"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/abilities.log",
+        "final-replay-disclosure/integration_m2.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US6/AC1",
+      "spec_line": 121,
+      "criterion": "1. **Given** a new profile, **When** I open the guild, **Then** Aren, Lia, and Milo are owned and playable, while Sera, Brann, and Nyra show acquisition routes.",
+      "implementation_entry_points": [
+        "scripts/ui/guild.gd",
+        "scripts/collection/rescue_objective.gd",
+        "scripts/progression/permanent_progression.gd",
+        "scripts/abyss/event_director.gd",
+        "data/characters"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/recruitment.log",
+        "final-replay-disclosure/integration_m3.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US6/AC2",
+      "spec_line": 122,
+      "criterion": "2. **Given** Sera is unowned, **When** I reach four minutes and survive her accepted 30-second rescue, **Then** recruitment is earned and credited on victory or defeat settlement.",
+      "implementation_entry_points": [
+        "scripts/ui/guild.gd",
+        "scripts/collection/rescue_objective.gd",
+        "scripts/progression/permanent_progression.gd",
+        "scripts/abyss/event_director.gd",
+        "data/characters"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/recruitment.log",
+        "final-replay-disclosure/integration_m3.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US6/AC3",
+      "spec_line": 123,
+      "criterion": "3. **Given** a declined or failed rescue, **When** I start another expedition, **Then** the rescue opportunity returns without requiring a random draw.",
+      "implementation_entry_points": [
+        "scripts/ui/guild.gd",
+        "scripts/collection/rescue_objective.gd",
+        "scripts/progression/permanent_progression.gd",
+        "scripts/abyss/event_director.gd",
+        "data/characters"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/recruitment.log",
+        "final-replay-disclosure/integration_m3.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US6/AC4",
+      "spec_line": 124,
+      "criterion": "4. **Given** Sera is owned, **When** I finish another offered rescue, **Then** the stated repeat reward replaces duplicate ownership.",
+      "implementation_entry_points": [
+        "scripts/ui/guild.gd",
+        "scripts/collection/rescue_objective.gd",
+        "scripts/progression/permanent_progression.gd",
+        "scripts/abyss/event_director.gd",
+        "data/characters"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/recruitment.log",
+        "final-replay-disclosure/integration_m3.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US7/AC1",
+      "spec_line": 138,
+      "criterion": "1. **Given** recruitment, **When** I inspect the pool, **Then** Brann and Nyra each show 50% per-draw probability, totaling 100%, with costs of one or ten tickets.",
+      "implementation_entry_points": [
+        "scripts/collection/recruitment_service.gd",
+        "scripts/collection/draw_rng.gd",
+        "scripts/collection/token_exchange_service.gd",
+        "scripts/collection/recruitment_history.gd",
+        "scripts/ui/recruitment.gd"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/recruitment.log",
+        "final-replay-disclosure/integration_m3.log",
+        "final-replay-disclosure/persistence.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US7/AC2",
+      "spec_line": 139,
+      "criterion": "2. **Given** ten tickets and neither hero owned, **When** a controlled batch contains repeated Brann/Nyra outcomes, **Then** each hero is acquired once, each later occurrence gives one token, ten tickets are spent once, and all ten results remain reviewable.",
+      "implementation_entry_points": [
+        "scripts/collection/recruitment_service.gd",
+        "scripts/collection/draw_rng.gd",
+        "scripts/collection/token_exchange_service.gd",
+        "scripts/collection/recruitment_history.gd",
+        "scripts/ui/recruitment.gd"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/recruitment.log",
+        "final-replay-disclosure/integration_m3.log",
+        "final-replay-disclosure/persistence.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US7/AC3",
+      "spec_line": 140,
+      "criterion": "3. **Given** insufficient tickets, **When** I attempt a draw, **Then** no resources/ownership change and the missing amount is shown.",
+      "implementation_entry_points": [
+        "scripts/collection/recruitment_service.gd",
+        "scripts/collection/draw_rng.gd",
+        "scripts/collection/token_exchange_service.gd",
+        "scripts/collection/recruitment_history.gd",
+        "scripts/ui/recruitment.gd"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/recruitment.log",
+        "final-replay-disclosure/integration_m3.log",
+        "final-replay-disclosure/persistence.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US7/AC4",
+      "spec_line": 141,
+      "criterion": "4. **Given** a committed draw interrupted before reveal, **When** I reopen, **Then** its original outcomes/rewards remain available without recharging or rerolling.",
+      "implementation_entry_points": [
+        "scripts/collection/recruitment_service.gd",
+        "scripts/collection/draw_rng.gd",
+        "scripts/collection/token_exchange_service.gd",
+        "scripts/collection/recruitment_history.gd",
+        "scripts/ui/recruitment.gd"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/recruitment.log",
+        "final-replay-disclosure/integration_m3.log",
+        "final-replay-disclosure/persistence.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US7/AC5",
+      "spec_line": 142,
+      "criterion": "5. **Given** five tokens and an unowned pool hero, **When** I confirm exchange, **Then** that hero is acquired and five tokens consumed once, providing a finite collection path without a pity counter.",
+      "implementation_entry_points": [
+        "scripts/collection/recruitment_service.gd",
+        "scripts/collection/draw_rng.gd",
+        "scripts/collection/token_exchange_service.gd",
+        "scripts/collection/recruitment_history.gd",
+        "scripts/ui/recruitment.gd"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/recruitment.log",
+        "final-replay-disclosure/integration_m3.log",
+        "final-replay-disclosure/persistence.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US8/AC1",
+      "spec_line": 156,
+      "criterion": "1. **Given** a fresh expedition, **When** it starts, **Then** corruption is 0 and its 0–100 meter is visible; permanent class does not silently alter it.",
+      "implementation_entry_points": [
+        "scripts/abyss/corruption_service.gd",
+        "scripts/abyss/event_effects.gd",
+        "scripts/data/wave_schedule.gd",
+        "scripts/ui/corruption_summary.gd",
+        "data/events"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/integration_m4.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US8/AC2",
+      "spec_line": 157,
+      "criterion": "2. **Given** an altar, **When** I inspect choices, **Then** exact corruption costs/rewards appear before confirmation; decline changes neither.",
+      "implementation_entry_points": [
+        "scripts/abyss/corruption_service.gd",
+        "scripts/abyss/event_effects.gd",
+        "scripts/data/wave_schedule.gd",
+        "scripts/ui/corruption_summary.gd",
+        "data/events"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/integration_m4.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US8/AC3",
+      "spec_line": 158,
+      "criterion": "3. **Given** a crossed threshold, **When** the next wave begins, **Then** advertised enemy changes apply and the associated advantage is visible; each threshold applies once.",
+      "implementation_entry_points": [
+        "scripts/abyss/corruption_service.gd",
+        "scripts/abyss/event_effects.gd",
+        "scripts/data/wave_schedule.gd",
+        "scripts/ui/corruption_summary.gd",
+        "data/events"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/integration_m4.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US8/AC4",
+      "spec_line": 159,
+      "criterion": "4. **Given** corruption 100, **When** I inspect a corruption-increasing bargain, **Then** it is unavailable with a reason; reaching the cap alone does not cause unexplained death.",
+      "implementation_entry_points": [
+        "scripts/abyss/corruption_service.gd",
+        "scripts/abyss/event_effects.gd",
+        "scripts/data/wave_schedule.gd",
+        "scripts/ui/corruption_summary.gd",
+        "data/events"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/integration_m4.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US9/AC1",
+      "spec_line": 173,
+      "criterion": "1. **Given** a coastal expedition, **When** event opportunities occur, **Then** Mysterious Merchant, Forbidden Altar, and Lost Adventurer can appear with readable choices and stated costs/rewards.",
+      "implementation_entry_points": [
+        "scripts/abyss/event_director.gd",
+        "scripts/abyss/event_effects.gd",
+        "scripts/core/choice_coordinator.gd",
+        "scripts/progression/permanent_progression.gd",
+        "scripts/world/coast_field.gd"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/integration_m4.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US9/AC2",
+      "spec_line": 174,
+      "criterion": "2. **Given** an event, **When** I dismiss or resolve it, **Then** combat resumes without hidden deductions or overlapping choice screens.",
+      "implementation_entry_points": [
+        "scripts/abyss/event_director.gd",
+        "scripts/abyss/event_effects.gd",
+        "scripts/core/choice_coordinator.gd",
+        "scripts/progression/permanent_progression.gd",
+        "scripts/world/coast_field.gd"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/integration_m4.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US9/AC3",
+      "spec_line": 175,
+      "criterion": "3. **Given** I reach the boss, **When** I defeat the Tidebound Hierophant, **Then** victory marks Chapter 1 complete and repeat expeditions remain available.",
+      "implementation_entry_points": [
+        "scripts/abyss/event_director.gd",
+        "scripts/abyss/event_effects.gd",
+        "scripts/core/choice_coordinator.gd",
+        "scripts/progression/permanent_progression.gd",
+        "scripts/world/coast_field.gd"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/integration_m4.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    },
+    {
+      "id": "US9/AC4",
+      "spec_line": 176,
+      "criterion": "4. **Given** distinct seeds, **When** I compare ten coast runs, **Then** at least three ordered event-offer sequences occur while Sera's unowned rescue remains guaranteed.",
+      "implementation_entry_points": [
+        "scripts/abyss/event_director.gd",
+        "scripts/abyss/event_effects.gd",
+        "scripts/core/choice_coordinator.gd",
+        "scripts/progression/permanent_progression.gd",
+        "scripts/world/coast_field.gd"
+      ],
+      "executed_evidence": [
+        "final-replay-disclosure/integration_m4.log"
+      ],
+      "status": "相关实现与自动行为已核对；完整自然操作验收未关闭",
+      "limitation": "当前M4回归不替代保留M1/M2/M3的独立人工验收；体验/辨识/显示延迟需对应SC实测"
+    }
+  ],
+  "edge_cases": [
+    {
+      "id": "EDGE-01",
+      "case": "Opposing/diagonal inputs",
+      "required_behavior": "Opposing inputs cancel on that axis; diagonal movement is no faster than straight movement. Field edges cannot be crossed.",
+      "implementation_entry_points": [
+        "scripts/combat/player_controller.gd",
+        "scripts/combat/spawn_director.gd",
+        "scripts/core/run_manager.gd",
+        "scripts/ui/run_results.gd",
+        "scenes/app/app.tscn"
+      ],
+      "executed_evidence": "final-replay-disclosure/unit.log",
+      "status": "代码及相关自动边界用例已核对；人工操作观察未替代"
+    },
+    {
+      "id": "EDGE-02",
+      "case": "No target; homing target dies",
+      "required_behavior": "Movement remains usable. Homing shot reacquires an in-range target or expires; it cannot chase indefinitely.",
+      "implementation_entry_points": [
+        "scripts/combat/attack_executor.gd",
+        "scripts/combat/status_effects.gd",
+        "scripts/combat/damage_service.gd",
+        "scripts/progression/upgrade_effects.gd",
+        "scripts/progression/upgrade_offer_service.gd",
+        "data/upgrades"
+      ],
+      "executed_evidence": "final-replay-disclosure/unit.log",
+      "status": "代码及相关自动边界用例已核对；人工操作观察未替代"
+    },
+    {
+      "id": "EDGE-03",
+      "case": "Many hits during invulnerability",
+      "required_behavior": "Only the initial eligible hit reduces health; later hits neither damage nor refresh invulnerability indefinitely.",
+      "implementation_entry_points": [
+        "scripts/combat/attack_executor.gd",
+        "scripts/combat/status_effects.gd",
+        "scripts/combat/damage_service.gd",
+        "scripts/progression/upgrade_effects.gd",
+        "scripts/progression/upgrade_offer_service.gd",
+        "data/upgrades"
+      ],
+      "executed_evidence": "final-replay-disclosure/unit.log",
+      "status": "代码及相关自动边界用例已核对；人工操作观察未替代"
+    },
+    {
+      "id": "EDGE-04",
+      "case": "Multiple levels earned together",
+      "required_behavior": "Preserve overflow; serialize one paused choice screen per earned level.",
+      "implementation_entry_points": [
+        "scripts/combat/attack_executor.gd",
+        "scripts/combat/status_effects.gd",
+        "scripts/combat/damage_service.gd",
+        "scripts/progression/upgrade_effects.gd",
+        "scripts/progression/upgrade_offer_service.gd",
+        "data/upgrades"
+      ],
+      "executed_evidence": "final-replay-disclosure/integration_m1.log",
+      "status": "代码及相关自动边界用例已核对；人工操作观察未替代"
+    },
+    {
+      "id": "EDGE-05",
+      "case": "Exhausted or incompatible upgrades",
+      "required_behavior": "Exclude incompatible/capped entries; three distinct uncapped fallback choices remain eligible.",
+      "implementation_entry_points": [
+        "scripts/combat/attack_executor.gd",
+        "scripts/combat/status_effects.gd",
+        "scripts/combat/damage_service.gd",
+        "scripts/progression/upgrade_effects.gd",
+        "scripts/progression/upgrade_offer_service.gd",
+        "data/upgrades"
+      ],
+      "executed_evidence": "final-replay-disclosure/unit.log",
+      "status": "代码及相关自动边界用例已核对；人工操作观察未替代"
+    },
+    {
+      "id": "EDGE-06",
+      "case": "Boss and active hero die together",
+      "required_behavior": "Defeat takes precedence; settle one terminal result once. Boss-only death with a living hero is victory.",
+      "implementation_entry_points": [
+        "scripts/combat/player_controller.gd",
+        "scripts/combat/spawn_director.gd",
+        "scripts/core/run_manager.gd",
+        "scripts/ui/run_results.gd",
+        "scenes/app/app.tscn"
+      ],
+      "executed_evidence": "final-replay-disclosure/unit.log",
+      "status": "代码及相关自动边界用例已核对；人工操作观察未替代"
+    },
+    {
+      "id": "EDGE-07",
+      "case": "Overlapping pause, choice, and ending",
+      "required_behavior": "Serialize choices; terminal outcomes cancel pending choices. Closing one screen cannot resume while another pause reason remains.",
+      "implementation_entry_points": [
+        "scripts/combat/player_controller.gd",
+        "scripts/combat/spawn_director.gd",
+        "scripts/core/run_manager.gd",
+        "scripts/ui/run_results.gd",
+        "scenes/app/app.tscn"
+      ],
+      "executed_evidence": "final-replay-disclosure/integration_m1.log",
+      "status": "代码及相关自动边界用例已核对；人工操作观察未替代"
+    },
+    {
+      "id": "EDGE-08",
+      "case": "Closing or abandoning mid-run",
+      "required_behavior": "Abandon the expedition; grant no uncommitted run rewards. Preserve previously settled progression/draws. Full mid-run continuation is excluded.",
+      "implementation_entry_points": [
+        "scripts/progression/permanent_progression.gd",
+        "scripts/progression/promotion_service.gd",
+        "scripts/ui/promotion.gd",
+        "scripts/persistence/save_coordinator.gd",
+        "data/professions"
+      ],
+      "executed_evidence": "final-replay-disclosure/integration_m2.log",
+      "status": "代码及相关自动边界用例已核对；人工操作观察未替代"
+    },
+    {
+      "id": "EDGE-09",
+      "case": "Invalid seed or changed party/progression",
+      "required_behavior": "Reject invalid input with accepted limits; disclose changed replay conditions. Seed replay never rewinds progress.",
+      "implementation_entry_points": [
+        "scripts/ui/combat_hud.gd",
+        "scripts/combat/boss_controller.gd",
+        "scripts/core/replay_trace.gd",
+        "scripts/core/simulation_coordinator.gd",
+        "scripts/core/app_router.gd"
+      ],
+      "executed_evidence": "final-replay-disclosure/integration_m2.log",
+      "status": "代码及相关自动边界用例已核对；人工操作观察未替代"
+    },
+    {
+      "id": "EDGE-10",
+      "case": "Canceled/repeated promotion",
+      "required_behavior": "Cancel consumes nothing; repeated confirmation cannot spend twice. Unowned heroes cannot promote; no promotion reversal.",
+      "implementation_entry_points": [
+        "scripts/progression/permanent_progression.gd",
+        "scripts/progression/promotion_service.gd",
+        "scripts/ui/promotion.gd",
+        "scripts/persistence/save_coordinator.gd",
+        "data/professions"
+      ],
+      "executed_evidence": "final-replay-disclosure/abilities.log",
+      "status": "代码及相关自动边界用例已核对；人工操作观察未替代"
+    },
+    {
+      "id": "EDGE-11",
+      "case": "Multiple permanent levels; cap",
+      "required_behavior": "Carry experience through levels up to 30; discard overflow at cap without altering other rewards.",
+      "implementation_entry_points": [
+        "scripts/progression/permanent_progression.gd",
+        "scripts/progression/promotion_service.gd",
+        "scripts/ui/promotion.gd",
+        "scripts/persistence/save_coordinator.gd",
+        "data/professions"
+      ],
+      "executed_evidence": "final-replay-disclosure/progression.log",
+      "status": "代码及相关自动边界用例已核对；人工操作观察未替代"
+    },
+    {
+      "id": "EDGE-12",
+      "case": "Blocked/separated/downed companion",
+      "required_behavior": "Living companions catch up safely; downed companions return healthy next run and remain owned.",
+      "implementation_entry_points": [
+        "scripts/characters/roster_service.gd",
+        "scripts/characters/companion_controller.gd",
+        "scripts/characters/passive_executor.gd",
+        "scripts/combat/actor.gd"
+      ],
+      "executed_evidence": "final-replay-disclosure/abilities.log",
+      "status": "代码及相关自动边界用例已核对；人工操作观察未替代"
+    },
+    {
+      "id": "EDGE-13",
+      "case": "Rescue declined, death during defense, or leaving zone",
+      "required_behavior": "No recruitment; clearly report failure and offer rescue next run.",
+      "implementation_entry_points": [
+        "scripts/ui/guild.gd",
+        "scripts/collection/rescue_objective.gd",
+        "scripts/progression/permanent_progression.gd",
+        "scripts/abyss/event_director.gd",
+        "data/characters"
+      ],
+      "executed_evidence": "final-replay-disclosure/integration_m3.log",
+      "status": "代码及相关自动边界用例已核对；人工操作观察未替代"
+    },
+    {
+      "id": "EDGE-14",
+      "case": "Rescue success followed by defeat; repeated rescue",
+      "required_behavior": "Completed rescue is earned on defeat settlement; owned Sera gives the stated repeat reward rather than another ownership entry.",
+      "implementation_entry_points": [
+        "scripts/ui/guild.gd",
+        "scripts/collection/rescue_objective.gd",
+        "scripts/progression/permanent_progression.gd",
+        "scripts/abyss/event_director.gd",
+        "data/characters"
+      ],
+      "executed_evidence": "final-replay-disclosure/integration_m3.log",
+      "status": "代码及相关自动边界用例已核对；人工操作观察未替代"
+    },
+    {
+      "id": "EDGE-15",
+      "case": "Repeated hero within one draw batch",
+      "required_behavior": "Resolve in display order: first unowned occurrence grants ownership; later occurrences give tokens.",
+      "implementation_entry_points": [
+        "scripts/collection/recruitment_service.gd",
+        "scripts/collection/draw_rng.gd",
+        "scripts/collection/token_exchange_service.gd",
+        "scripts/collection/recruitment_history.gd",
+        "scripts/ui/recruitment.gd"
+      ],
+      "executed_evidence": "final-replay-disclosure/integration_m3.log",
+      "status": "代码及相关自动边界用例已核对；人工操作观察未替代"
+    },
+    {
+      "id": "EDGE-16",
+      "case": "Repeated spending input; insufficient resources",
+      "required_behavior": "One action settles once; no negative balances, partial spending, or duplicate ownership.",
+      "implementation_entry_points": [
+        "scripts/collection/recruitment_service.gd",
+        "scripts/collection/draw_rng.gd",
+        "scripts/collection/token_exchange_service.gd",
+        "scripts/collection/recruitment_history.gd",
+        "scripts/ui/recruitment.gd"
+      ],
+      "executed_evidence": "final-replay-disclosure/integration_m3.log",
+      "status": "代码及相关自动边界用例已核对；人工操作观察未替代"
+    },
+    {
+      "id": "EDGE-17",
+      "case": "Interruption during permanent settlement",
+      "required_behavior": "Preserve either the complete prior state or complete settled state; no paid draw without its outcome or duplicated rewards.",
+      "implementation_entry_points": [
+        "scripts/persistence/profile_store.gd",
+        "scripts/persistence/profile_loader.gd",
+        "scripts/persistence/save_coordinator.gd"
+      ],
+      "executed_evidence": "final-replay-disclosure/persistence.log",
+      "status": "代码及相关自动边界用例已核对；人工操作观察未替代"
+    },
+    {
+      "id": "EDGE-18",
+      "case": "Unreadable/corrupt progress",
+      "required_behavior": "Explain recovery and offer last valid saved state where available; never silently replace existing progress with a new profile.",
+      "implementation_entry_points": [
+        "scripts/persistence/profile_store.gd",
+        "scripts/persistence/profile_loader.gd",
+        "scripts/persistence/save_coordinator.gd"
+      ],
+      "executed_evidence": "final-replay-disclosure/persistence.log",
+      "status": "代码及相关自动边界用例已核对；人工操作观察未替代"
+    },
+    {
+      "id": "EDGE-19",
+      "case": "Corruption bounds or multi-threshold jump",
+      "required_behavior": "Clamp to 0–100; apply crossed thresholds once. Reject unaffordable full bargain costs before granting rewards.",
+      "implementation_entry_points": [
+        "scripts/abyss/corruption_service.gd",
+        "scripts/abyss/event_effects.gd",
+        "scripts/data/wave_schedule.gd",
+        "scripts/ui/corruption_summary.gd",
+        "data/events"
+      ],
+      "executed_evidence": "final-replay-disclosure/integration_m4.log",
+      "status": "代码及相关自动边界用例已核对；人工操作观察未替代"
+    },
+    {
+      "id": "EDGE-20",
+      "case": "Unaffordable merchant; event/boss collision",
+      "required_behavior": "Leave remains available; resolve/dismiss an existing event before boss entry. No event begins during the boss.",
+      "implementation_entry_points": [
+        "scripts/abyss/event_director.gd",
+        "scripts/abyss/event_effects.gd",
+        "scripts/core/choice_coordinator.gd",
+        "scripts/progression/permanent_progression.gd",
+        "scripts/world/coast_field.gd"
+      ],
+      "executed_evidence": "final-replay-disclosure/integration_m4.log",
+      "status": "代码及相关自动边界用例已核对；人工操作观察未替代"
+    }
+  ],
+  "constitution_review": [
+    {
+      "principle": "I. Gameplay First",
+      "assessment": "核心循环已存在，本轮缺口修复未扩新系统",
+      "remaining": "人工乐趣/体验与普通通关仍未验收"
+    },
+    {
+      "principle": "II. Modular Game Architecture",
+      "assessment": "UI消费状态，效果/阵位/事务在服务，Resource校验已补",
+      "remaining": "无新确认违规"
+    },
+    {
+      "principle": "III. Original Intellectual Property",
+      "assessment": "原创程序占位，有provenance与替换路径",
+      "remaining": "正式美术未实现，不属于新增范围"
+    },
+    {
+      "principle": "IV. Testable Development",
+      "assessment": "13组原生、source/release受控图形与实际日志，保留失败记录",
+      "remaining": "人工/设备条件仍显式开放"
+    },
+    {
+      "principle": "V. Consistent Pixel Art",
+      "assessment": "复用VisualSet整数2x，真实release预览/封顶截图已目视检查",
+      "remaining": "密集辨识/显示延迟待实测"
+    },
+    {
+      "principle": "VI. Performance and Maintainability",
+      "assessment": "真实压力采样后修复无敌期无效hit分配，无减负荷/猜测性pooling",
+      "remaining": "帧预算未达，参考机与延迟未验收"
+    },
+    {
+      "principle": "VII. Scope Control",
+      "assessment": "无backend/付费gacha/外部依赖，规格/计划hash不变",
+      "remaining": "无新确认违规"
+    },
+    {
+      "principle": "VIII. Incremental Delivery",
+      "assessment": "修复有实际运行证据，文档同步，保留历史build/失败",
+      "remaining": "此前明确授权的M2–M4激活不代表原gate自动关闭"
+    }
+  ],
+  "technical_plan_groups": [
+    {
+      "group": "引擎/离线依赖",
+      "implementation_entry_points": [
+        "project.godot",
+        "export_presets.cfg"
+      ],
+      "executed_evidence": "final-replay-disclosure/import.log",
+      "assessment": "固定4.5/Compatibility，无新增依赖"
+    },
+    {
+      "group": "模块/场景所有权",
+      "implementation_entry_points": [
+        "scripts/core/app_router.gd",
+        "scenes/app/app.tscn"
+      ],
+      "executed_evidence": "audit-final.log",
+      "assessment": "UI不承载战斗/事务规则"
+    },
+    {
+      "group": "Resource/校验",
+      "implementation_entry_points": [
+        "scripts/data/content_catalog.gd",
+        "tests/unit/test_content_contract.gd"
+      ],
+      "executed_evidence": "final-replay-disclosure/unit.log",
+      "assessment": "类型/ID/引用/范围/能力负例"
+    },
+    {
+      "group": "效果配置",
+      "implementation_entry_points": [
+        "scripts/data/effect_definition.gd",
+        "tests/unit/test_configured_upgrades.gd"
+      ],
+      "executed_evidence": "final-replay-disclosure/unit.log",
+      "assessment": "预览与执行同源"
+    },
+    {
+      "group": "固定tick/暂停",
+      "implementation_entry_points": [
+        "scripts/core/run_clock.gd",
+        "scripts/core/choice_coordinator.gd"
+      ],
+      "executed_evidence": "final-replay-disclosure/integration_m1.log",
+      "assessment": "冻结/恢复边界"
+    },
+    {
+      "group": "攻击/伤害",
+      "implementation_entry_points": [
+        "scripts/combat/damage_service.gd",
+        "scripts/core/run_manager.gd"
+      ],
+      "executed_evidence": "final-replay-disclosure/integration_m2.log",
+      "assessment": "45tick/同tick/Bastion保持，无敌期提前拒绝无效分配"
+    },
+    {
+      "group": "生成规则",
+      "implementation_entry_points": [
+        "scripts/data/wave_schedule.gd",
+        "scripts/combat/spawn_director.gd"
+      ],
+      "executed_evidence": "final-replay-disclosure/integration_m4.log",
+      "assessment": "早期母体/阈值/数量安全"
+    },
+    {
+      "group": "队伍",
+      "implementation_entry_points": [
+        "scripts/characters/companion_controller.gd"
+      ],
+      "executed_evidence": "final-replay-disclosure/abilities.log",
+      "assessment": "四边四角阵位及安全重定位"
+    },
+    {
+      "group": "成长/事务",
+      "implementation_entry_points": [
+        "scripts/progression/permanent_progression.gd",
+        "scripts/persistence/profile_loader.gd"
+      ],
+      "executed_evidence": "final-replay-disclosure/persistence.log",
+      "assessment": "异常工件不静默新档，trace不入receipt"
+    },
+    {
+      "group": "收集",
+      "implementation_entry_points": [
+        "scripts/collection/recruitment_service.gd",
+        "scripts/collection/rescue_objective.gd"
+      ],
+      "executed_evidence": "final-replay-disclosure/integration_m3.log",
+      "assessment": "顺序结果/中断/费用/历史"
+    },
+    {
+      "group": "腐化/事件",
+      "implementation_entry_points": [
+        "scripts/abyss/corruption_service.gd",
+        "scripts/abyss/event_director.gd"
+      ],
+      "executed_evidence": "final-replay-disclosure/integration_m4.log",
+      "assessment": "阈值/事件/章节/所有权调度"
+    },
+    {
+      "group": "随机/回放",
+      "implementation_entry_points": [
+        "scripts/core/replay_trace.gd",
+        "scripts/core/simulation_coordinator.gd"
+      ],
+      "executed_evidence": "final-replay-disclosure/replay.log",
+      "assessment": "实际7400tick输入回放+二十对，不承诺跨版本物理一致"
+    },
+    {
+      "group": "视觉/UI",
+      "implementation_entry_points": [
+        "scripts/ui/promotion.gd",
+        "scripts/ui/run_results.gd"
+      ],
+      "executed_evidence": "release-final-replay/m4-prior-m2-release.log",
+      "assessment": "真实占位预览+每人XP，人工辨识仍开放"
+    },
+    {
+      "group": "性能",
+      "implementation_entry_points": [
+        "tests/performance/benchmark_capture.gd",
+        "tools/run_benchmarks.ps1"
+      ],
+      "executed_evidence": "benchmark-checks.json",
+      "assessment": "捕获有效但预算未达，T180开放"
+    },
+    {
+      "group": "导出/阶段gate",
+      "implementation_entry_points": [
+        "export_presets.cfg",
+        "tools/run_m4_release_regressions.ps1"
+      ],
+      "executed_evidence": "release-final-replay/runtime.json",
+      "assessment": "实际EXE受控流程通过，T183/T190和原gate开放"
+    }
+  ],
+  "original_open_tasks": [
+    "T018",
+    "T032",
+    "T050",
+    "T059",
+    "T066",
+    "T069",
+    "T070",
+    "T071",
+    "T072",
+    "T073",
+    "T088",
+    "T101",
+    "T111",
+    "T113",
+    "T114",
+    "T115",
+    "T127",
+    "T140",
+    "T142",
+    "T143",
+    "T153",
+    "T168",
+    "T170",
+    "T172",
+    "T174",
+    "T175"
+  ],
+  "new_open_tasks": [
+    "T180",
+    "T181",
+    "T182",
+    "T183",
+    "T190"
+  ],
+  "all_task_count": 191,
+  "open_task_count": 31,
+  "full_convergence": false
+}

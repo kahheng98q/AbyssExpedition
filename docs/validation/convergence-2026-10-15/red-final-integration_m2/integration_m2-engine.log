@@ -1,0 +1,5 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+
+Profile storage: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/m2-app-1366340/
+FAIL: large diagnostic input trace cannot exceed the durable profile size limit
+SUITE integration_m2: 40 assertions; 1 failures; 0 skipped

@@ -1,0 +1,12 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+
+SUITE unit: 187 assertions; 4 failures; 0 skipped
+FAIL: effect rejects unknown stat_category
+FAIL: effect rejects unknown stack_policy
+FAIL: effect rejects unknown target_scope
+SCRIPT ERROR: Invalid assignment of property or key 'required_capabilities' with value of type 'Array' on a base object of type 'Resource (UpgradeDefinition)'.
+   at: run (res://tests/unit/test_content_contract.gd:12)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/unit/test_content_contract.gd:12)
+       [1] run (res://tests/run_tests.gd:73)
+FAIL: engine/script error: res://tests/unit/test_content_contract.gd:12 Invalid assignment of property or key 'required_capabilities' with value of type 'Array' on a base object of type 'Resource (UpgradeDefinition)'. 

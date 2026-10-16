@@ -1,0 +1,5 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+
+FAIL: victory grants minute XP plus bonus and one item
+FAIL: full minute grants permanent XP on defeat
+SUITE progression: 4 assertions; 2 failures; 0 skipped

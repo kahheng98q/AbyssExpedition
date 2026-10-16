@@ -1,0 +1,107 @@
+[
+  {
+    "seed": 101,
+    "samples": 7068,
+    "p95_ms": 18.409,
+    "p99_ms": 25.519,
+    "frame_budgets_pass": false,
+    "counts": {
+      "enemies": [
+        100.0,
+        100.0
+      ],
+      "boss": [
+        1.0,
+        1.0
+      ],
+      "effects": [
+        30.0,
+        31.0
+      ],
+      "projectiles": [
+        100.0,
+        109.0
+      ],
+      "gems": [
+        500.0,
+        500.0
+      ],
+      "memory_bytes": [
+        44119549.0,
+        52322013.0
+      ]
+    },
+    "original_csv_restored": true,
+    "original_log_restored": true
+  },
+  {
+    "seed": 202,
+    "samples": 6982,
+    "p95_ms": 18.757,
+    "p99_ms": 26.078,
+    "frame_budgets_pass": false,
+    "counts": {
+      "enemies": [
+        100.0,
+        100.0
+      ],
+      "boss": [
+        1.0,
+        1.0
+      ],
+      "effects": [
+        30.0,
+        31.0
+      ],
+      "projectiles": [
+        100.0,
+        109.0
+      ],
+      "gems": [
+        500.0,
+        500.0
+      ],
+      "memory_bytes": [
+        44120637.0,
+        52297805.0
+      ]
+    },
+    "original_csv_restored": true,
+    "original_log_restored": true
+  },
+  {
+    "seed": 303,
+    "samples": 6955,
+    "p95_ms": 18.587,
+    "p99_ms": 25.729,
+    "frame_budgets_pass": false,
+    "counts": {
+      "enemies": [
+        100.0,
+        100.0
+      ],
+      "boss": [
+        1.0,
+        1.0
+      ],
+      "effects": [
+        30.0,
+        31.0
+      ],
+      "projectiles": [
+        100.0,
+        109.0
+      ],
+      "gems": [
+        500.0,
+        500.0
+      ],
+      "memory_bytes": [
+        44120365.0,
+        52290461.0
+      ]
+    },
+    "original_csv_restored": true,
+    "original_log_restored": true
+  }
+]

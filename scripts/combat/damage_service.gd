@@ -1,0 +1,36 @@
+class_name DamageService
+extends RefCounted
+
+var requests: Array[Dictionary] = []
+var consumed: Dictionary = {}
+var generation: int = 0
+
+static func amount(outgoing: float, defense: float, multiplier: float = 1.0) -> float:
+	return maxf(1.0, (outgoing - defense) * multiplier)
+
+func enqueue_hit(request: Dictionary) -> void:
+	if request.generation == generation and not consumed.has(request.id):
+		consumed[request.id] = true
+		requests.append(request)
+
+func resolve_tick_hits(run, tick: int) -> void:
+	requests.sort_custom(func(a, b): return a.id < b.id)
+	for hit in requests:
+		var target = run.actor_by_id(hit.target)
+		if target == null or target.health.dead: continue
+		var value = amount(hit.damage, target.stats.defense, target.resistance * PassiveExecutor.incoming(target, tick))
+		if target.health.receive(value, tick, target.is_hero):
+			PassiveExecutor.accepted_hit(target, tick)
+			if not target.resistant:
+				target.knockback += hit.direction * hit.get("knockback", 0.0)
+			if not target.is_hero:
+				if not target.health.dead: target.statuses.apply(hit, tick, run.catalog.upgrades[&"ember_touch"].effects[0], run.catalog.upgrades[&"frost_mark"].effects[0])
+			if target.health.dead: run.mark_dead(target)
+			if hit.has("heal_source"):
+				var source = run.actor_by_id(hit.heal_source)
+				var key = str(hit.heal_source) + ":" + str(hit.activation)
+				if source != null and not source.health.dead and not run.activation_heals.has(key):
+					source.health.heal(source.health.maximum * hit.heal_fraction)
+					run.activation_heals[key] = true
+	requests.clear()
+	# Keep accepted IDs for the run: a late duplicate can never damage again.

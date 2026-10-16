@@ -1,0 +1,88 @@
+{
+  "suites": {
+    "abilities": {
+      "assertions": 123,
+      "failures": 0,
+      "skipped": 0,
+      "log": "final-replay-disclosure/abilities.log"
+    },
+    "debug_panel": {
+      "assertions": 69,
+      "failures": 0,
+      "skipped": 0,
+      "log": "final-replay-disclosure/debug_panel.log"
+    },
+    "full_run": {
+      "assertions": 9,
+      "failures": 0,
+      "skipped": 0,
+      "log": "final-replay-disclosure/full_run.log"
+    },
+    "integration_m1": {
+      "assertions": 37,
+      "failures": 0,
+      "skipped": 0,
+      "log": "final-replay-disclosure/integration_m1.log"
+    },
+    "integration_m2": {
+      "assertions": 45,
+      "failures": 0,
+      "skipped": 0,
+      "log": "final-replay-disclosure/integration_m2.log"
+    },
+    "integration_m3": {
+      "assertions": 196,
+      "failures": 0,
+      "skipped": 0,
+      "log": "final-replay-disclosure/integration_m3.log"
+    },
+    "integration_m4": {
+      "assertions": 3734,
+      "failures": 0,
+      "skipped": 0,
+      "log": "final-replay-disclosure/integration_m4.log"
+    },
+    "persistence": {
+      "assertions": 343,
+      "failures": 0,
+      "skipped": 0,
+      "log": "final-replay-disclosure/persistence.log"
+    },
+    "progression": {
+      "assertions": 13,
+      "failures": 0,
+      "skipped": 0,
+      "log": "final-replay-disclosure/progression.log"
+    },
+    "recruitment": {
+      "assertions": 293,
+      "failures": 0,
+      "skipped": 0,
+      "log": "final-replay-disclosure/recruitment.log"
+    },
+    "replay": {
+      "assertions": 44,
+      "failures": 0,
+      "skipped": 0,
+      "log": "final-replay-disclosure/replay.log"
+    },
+    "scene_smoke": {
+      "assertions": 131,
+      "failures": 0,
+      "skipped": 0,
+      "log": "final-replay-disclosure/scene_smoke.log"
+    },
+    "unit": {
+      "assertions": 202,
+      "failures": 0,
+      "skipped": 0,
+      "log": "final-replay-disclosure/unit.log"
+    }
+  },
+  "assertions": 5239,
+  "failures": 0,
+  "skipped": 0,
+  "scope": "single final complete 13-suite run; red/repeated runs excluded",
+  "generated_executable_launch": "final export and its M4 graphical probe passed; earlier 4551 failures retained",
+  "audio_driver_for_final_automation": "Dummy; application settings unchanged"
+}

@@ -1,0 +1,19 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+
+FAIL: anomalous save name requires review: profile-bad.json
+FAIL: no silent profile creation for profile-bad.json
+FAIL: explicit new profile can preserve anomalous evidence
+FAIL: anomalous save name requires review: profile-01.json
+FAIL: explicit new profile can preserve anomalous evidence
+FAIL: anomalous save name requires review: profile-1.JSON
+FAIL: no silent profile creation for profile-1.JSON
+FAIL: explicit new profile can preserve anomalous evidence
+FAIL: confirmed anomaly recovery survives reopen
+FAIL: anomalous save name requires review: profile-0.json
+FAIL: no silent profile creation for profile-0.json
+FAIL: explicit new profile can preserve anomalous evidence
+FAIL: explicit new profile can preserve anomalous evidence
+FAIL: confirmed anomaly recovery survives reopen
+FAIL: duplicate revisions cannot pick an arbitrary recovery
+FAIL: unreadable directory never creates a profile
+SUITE persistence: 331 assertions; 16 failures; 0 skipped

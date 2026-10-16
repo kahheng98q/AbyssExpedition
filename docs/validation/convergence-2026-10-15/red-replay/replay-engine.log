@@ -1,0 +1,5 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+
+FAIL: real simulation records tick-indexed movement
+FAIL: recorded movement replays real waves, occupancy, level/event choices and pauses
+SUITE replay: 44 assertions; 2 failures; 0 skipped

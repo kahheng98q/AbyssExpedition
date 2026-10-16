@@ -1,0 +1,43 @@
+ABYSS_GODOT_EXE=C:\Users\kahhe\Desktop\Project\new-game-project\tools\godot-4.5\Godot_v4.5-stable_win64_console.exe; engine=4.5.stable.official.876b29033
+import PASS (exit 0)
+parse-runner PASS (exit 0)
+content PASS (exit 0)
+CONTENT: 51 root Resources; 27 scenes; 98 scripts; valid=true; digest=97664f9f25b1232d331b80728d5cfdd10f637e261e35a1f4e3a79b538a7ea2c9
+unit PASS (exit 0)
+SUITE unit: 182 assertions; 0 failures; 0 skipped
+scene_smoke PASS (exit 0)
+SUITE scene_smoke: 130 assertions; 0 failures; 0 skipped
+integration_m1 PASS (exit 0)
+SUITE integration_m1: 37 assertions; 0 failures; 0 skipped
+replay PASS (exit 0)
+SUITE replay: 40 assertions; 0 failures; 0 skipped
+full_run PASS (exit 0)
+AUTOPLAY boss approach aren: tick=32989 position=(435.6474, 70.67615) boss=(480.0, 48.0) distance=49.8 reach=48.0 HP=71.7 boss_HP=595.2
+AUTOPLAY aren: phase=results outcome=victory ticks=33348 kills=446 level=9 HP=67.8 boss_HP=0.0
+AUTOPLAY lia: phase=results outcome=victory ticks=32860 kills=460 level=10 HP=128.2 boss_HP=0.0
+AUTOPLAY milo: phase=results outcome=victory ticks=32893 kills=462 level=10 HP=136.6 boss_HP=0.0
+SUITE full_run: 9 assertions; 0 failures; 0 skipped
+progression PASS (exit 0)
+SUITE progression: 13 assertions; 0 failures; 0 skipped
+persistence PASS (exit 0)
+SUITE persistence: 304 assertions; 0 failures; 0 skipped
+abilities PASS (exit 0)
+SUITE abilities: 107 assertions; 0 failures; 0 skipped
+integration_m2 PASS (exit 0)
+SUITE integration_m2: 36 assertions; 0 failures; 0 skipped
+recruitment PASS (exit 0)
+SUITE recruitment: 293 assertions; 0 failures; 0 skipped
+integration_m3 PASS (exit 0)
+SUITE integration_m3: 196 assertions; 0 failures; 0 skipped
+integration_m4 PASS (exit 0)
+SUITE integration_m4: 307 assertions; 0 failures; 0 skipped
+reject-unknown-suite PASS (exit 2)
+Unknown suite: missing_suite
+reject-invalid-seed PASS (exit 2)
+m4-graphical PASS (exit 0)
+graphical PASS (exit 0)
+GRAPHICAL: 3 sizes / 3 starters / menu selection combat choice pause boss patterns results; failures=0
+m2-graphical PASS (exit 0)
+m3-graphical PASS (exit 0)
+export PASS (exit 0)
+m4-release-graphical PASS (exit 0)

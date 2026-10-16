@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="UpgradeDefinition" load_steps=4 format=3]
+[ext_resource type="Script" path="res://scripts/data/upgrade_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/data/effect_definition.gd" id="2"]
+[sub_resource type="Resource" id="effect"]
+script = ExtResource("2")
+kind = &"burn"
+stat_category = &"burn"
+amount = 0.3
+duration_ticks = 180
+stack_policy = "refresh"
+[resource]
+script = ExtResource("1")
+id = &"ember_touch"
+label = "Ember Touch"
+description = "Hits burn for 30% damage over 3 seconds. Refreshes."
+max_stacks = 1
+fallback = false
+effects = Array[ExtResource("2")]([SubResource("effect")])

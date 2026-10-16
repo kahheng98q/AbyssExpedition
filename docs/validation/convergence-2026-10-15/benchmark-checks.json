@@ -1,0 +1,87 @@
+{
+  "checks": "raw CSV quantiles/counts, release flags, active time, PID and OS memory; reward invariant asserted inside fixture",
+  "results": [
+    {
+      "seed": 101,
+      "samples": 5290,
+      "p95_ms": 27.571,
+      "p99_ms": 28.558,
+      "process_p95_ms": 16.477,
+      "physics_p95_ms": 7.987,
+      "draw_calls_range": [
+        1432,
+        1640
+      ],
+      "node_range": [
+        979,
+        1012
+      ],
+      "working_set_bytes": [
+        122822656,
+        177090560
+      ],
+      "private_bytes": [
+        144314368,
+        212508672
+      ],
+      "capture_valid": true,
+      "frame_budget_pass": false,
+      "engine_pid_verified": true
+    },
+    {
+      "seed": 202,
+      "samples": 5161,
+      "p95_ms": 27.67,
+      "p99_ms": 28.504,
+      "process_p95_ms": 16.625,
+      "physics_p95_ms": 7.749,
+      "draw_calls_range": [
+        1432,
+        1646
+      ],
+      "node_range": [
+        979,
+        1009
+      ],
+      "working_set_bytes": [
+        123514880,
+        175636480
+      ],
+      "private_bytes": [
+        146026496,
+        209362944
+      ],
+      "capture_valid": true,
+      "frame_budget_pass": false,
+      "engine_pid_verified": true
+    },
+    {
+      "seed": 303,
+      "samples": 4967,
+      "p95_ms": 29.259,
+      "p99_ms": 30.5,
+      "process_p95_ms": 21.101,
+      "physics_p95_ms": 8.198,
+      "draw_calls_range": [
+        1433,
+        1646
+      ],
+      "node_range": [
+        979,
+        1010
+      ],
+      "working_set_bytes": [
+        121532416,
+        177004544
+      ],
+      "private_bytes": [
+        141549568,
+        212103168
+      ],
+      "capture_valid": true,
+      "frame_budget_pass": false,
+      "engine_pid_verified": true
+    }
+  ],
+  "failures": 0
+}

@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "game_version": "m2.0",
+  "content_version": "m2.0",
+  "profile_id": "default",
+  "revision": 1,
+  "saved_at_utc": "2026-10-14T12:00:00",
+  "operation_id": "golden-v1",
+  "payload_json": "{\"owned\":{\"aren\":{\"character_id\":\"aren\",\"total_xp\":0,\"level\":1,\"progress_to_next\":0,\"promotion_id\":\"\"},\"lia\":{\"character_id\":\"lia\",\"total_xp\":0,\"level\":1,\"progress_to_next\":0,\"promotion_id\":\"\"},\"milo\":{\"character_id\":\"milo\",\"total_xp\":0,\"level\":1,\"progress_to_next\":0,\"promotion_id\":\"\"}},\"active\":\"aren\",\"companions\":[],\"seed\":101,\"promotion_items\":0,\"receipt\":{}}",
+  "payload_sha256": "cbb03a942727d3d7fd459675d8567e86eb75fb7c9c60d8fee060ab9185c12c2d"
+}

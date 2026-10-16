@@ -1,0 +1,7 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+
+AUTOPLAY boss approach aren: tick=32989 position=(435.6474, 70.67615) boss=(480.0, 48.0) distance=49.8 reach=48.0 HP=71.7 boss_HP=595.2
+AUTOPLAY aren: phase=results outcome=victory ticks=33348 kills=446 level=9 HP=67.8 boss_HP=0.0
+AUTOPLAY lia: phase=results outcome=victory ticks=32860 kills=460 level=10 HP=128.2 boss_HP=0.0
+AUTOPLAY milo: phase=results outcome=victory ticks=32893 kills=462 level=10 HP=136.6 boss_HP=0.0
+SUITE full_run: 9 assertions; 0 failures; 0 skipped

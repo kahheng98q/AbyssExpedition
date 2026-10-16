@@ -1,0 +1,14 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+
+SCRIPT ERROR: Parse Error: There is already a variable named "field" declared in this scope.
+   at: GDScript::reload (res://tests/unit/test_content_contract.gd:19)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/run_tests.gd:68)
+ERROR: Failed to load script "res://tests/unit/test_content_contract.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:3041)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/run_tests.gd:68)
+FAIL: missing/invalid fixture res://tests/unit/test_content_contract.gd
+FAIL: engine/script error: res://tests/unit/test_content_contract.gd:19 Parse Error: There is already a variable named "field" declared in this scope. 
+FAIL: engine/script error: modules/gdscript/gdscript.cpp:3041 Failed to load script "res://tests/unit/test_content_contract.gd" with error "Parse error". 
+SUITE unit: 190 assertions; 3 failures; 0 skipped

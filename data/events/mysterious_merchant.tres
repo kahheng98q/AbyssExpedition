@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="EventDefinition" load_steps=6 format=3]
+[ext_resource type="Script" path="res://scripts/data/event_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/data/event_choice.gd" id="2"]
+[sub_resource type="Resource" id="Choice0"]
+script = ExtResource("2")
+id = &"heal"
+presentation = "20 coins: heal 25% maximum HP (active hero)"
+costs = Array[Dictionary]([{"kind": "coins", "amount": 20}])
+effects = Array[Dictionary]([{"kind": "heal", "amount": 0.25}])
+[sub_resource type="Resource" id="Choice1"]
+script = ExtResource("2")
+id = &"might"
+presentation = "30 coins: Might, +10% starting damage (living party)"
+costs = Array[Dictionary]([{"kind": "coins", "amount": 30}])
+effects = Array[Dictionary]([{"kind": "might", "amount": 1}])
+[sub_resource type="Resource" id="Choice2"]
+script = ExtResource("2")
+id = &"leave"
+presentation = "Leave / Escape"
+costs = Array[Dictionary]([])
+effects = Array[Dictionary]([])
+[resource]
+script = ExtResource("1")
+id = &"mysterious_merchant"
+kind = &"mysterious_merchant"
+presentation = "THE MYSTERIOUS MERCHANT"
+choices = Array[ExtResource("2")]([SubResource("Choice0"), SubResource("Choice1"), SubResource("Choice2")])

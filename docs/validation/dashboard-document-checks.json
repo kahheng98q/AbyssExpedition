@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-15",
+  "status": "pass",
+  "html_structure": "pass",
+  "local_references_checked": 143,
+  "image_references": 14,
+  "unique_images": 13,
+  "assets": "paths and PNG headers verified; browser decode not tested",
+  "navigation_anchors": "all internal targets exist; browser clicks not tested",
+  "responsive_rules": "720px and 1000px rules present; rendering not tested",
+  "network_dependencies": 0,
+  "feature_cards": 12,
+  "character_cards": 6,
+  "promotion_trees": 3,
+  "native_suites": [
+    {
+      "suite": "abilities",
+      "assertions": 107,
+      "failures": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "debug_panel",
+      "assertions": 69,
+      "failures": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "full_run",
+      "assertions": 9,
+      "failures": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "integration_m1",
+      "assertions": 37,
+      "failures": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "integration_m2",
+      "assertions": 36,
+      "failures": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "integration_m3",
+      "assertions": 196,
+      "failures": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "integration_m4",
+      "assertions": 307,
+      "failures": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "persistence",
+      "assertions": 304,
+      "failures": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "progression",
+      "assertions": 13,
+      "failures": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "recruitment",
+      "assertions": 293,
+      "failures": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "replay",
+      "assertions": 40,
+      "failures": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "scene_smoke",
+      "assertions": 130,
+      "failures": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "unit",
+      "assertions": 182,
+      "failures": 0,
+      "skipped": 0
+    }
+  ],
+  "native_assertions": 1723,
+  "gameplay_files_unchanged": 367,
+  "browser_rendering": "blocked by browser file URL policy; not verified",
+  "errors": [],
+  "script_logic": {
+    "environment": "Node.js vm with minimal DOM doubles; not a browser",
+    "filters": [
+      {
+        "filter": "all",
+        "visible": 12
+      },
+      {
+        "filter": "verified",
+        "visible": 11
+      },
+      {
+        "filter": "partial",
+        "visible": 1
+      },
+      {
+        "filter": "all",
+        "visible": 12
+      }
+    ],
+    "navigation_current_state_checks": 8,
+    "status": "pass"
+  }
+}

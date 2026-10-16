@@ -1,0 +1,16 @@
+debug-panel PASS
+SUITE debug_panel: 69 assertions; 0 failures; 0 skipped
+debug-graphical PASS
+DEBUG GRAPHICAL window=(1280, 720) actual=(1280, 720) four tabs / scroll / promotion / paused native input
+DEBUG GRAPHICAL window=(1920, 1080) actual=(1920, 1080) four tabs / scroll / promotion / paused native input
+DEBUG GRAPHICAL window=(1371, 813) actual=(1371, 813) four tabs / scroll / promotion / paused native input
+DEBUG GRAPHICAL: assertions=97 failures=0
+debug-export PASS
+debug-release-export PASS
+debug-exported-graphical PASS
+DEBUG GRAPHICAL window=(1280, 720) actual=(1280, 720) four tabs / scroll / promotion / paused native input
+DEBUG GRAPHICAL window=(1920, 1080) actual=(1920, 1080) four tabs / scroll / promotion / paused native input
+DEBUG GRAPHICAL window=(1371, 813) actual=(1371, 813) four tabs / scroll / promotion / paused native input
+DEBUG GRAPHICAL: assertions=97 failures=0
+debug-release-denial PASS
+DEBUG RELEASE: 20 assertions; 0 failures; 0 skipped

@@ -1,0 +1,31 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 546.30 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1650
+
+Profile storage: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/m4-graphical-1280-1163000/
+SCRIPT ERROR: Cannot call method 'set_input_as_handled' on a null value.
+   at: _unhandled_key_input (res://scripts/ui/corruption_summary.gd:21)
+   GDScript backtrace (most recent call first):
+       [0] _unhandled_key_input (res://scripts/ui/corruption_summary.gd:21)
+       [1] run (res://tests/m4_graphical_check.gd:72)
+       [2] capture (res://tests/m4_graphical_check.gd:24)
+GRAPHICAL M4 window=(1280, 720) thresholds/contracts/rescue/boss/chapter/retry/reopen
+Profile storage: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/m4-graphical-1920-2734691/
+SCRIPT ERROR: Cannot call method 'set_input_as_handled' on a null value.
+   at: _unhandled_key_input (res://scripts/ui/corruption_summary.gd:21)
+   GDScript backtrace (most recent call first):
+       [0] _unhandled_key_input (res://scripts/ui/corruption_summary.gd:21)
+       [1] run (res://tests/m4_graphical_check.gd:72)
+       [2] capture (res://tests/m4_graphical_check.gd:24)
+GRAPHICAL M4 window=(1920, 1080) thresholds/contracts/rescue/boss/chapter/retry/reopen
+Profile storage: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/m4-graphical-1371-3684152/
+SCRIPT ERROR: Cannot call method 'set_input_as_handled' on a null value.
+   at: _unhandled_key_input (res://scripts/ui/corruption_summary.gd:21)
+   GDScript backtrace (most recent call first):
+       [0] _unhandled_key_input (res://scripts/ui/corruption_summary.gd:21)
+       [1] run (res://tests/m4_graphical_check.gd:72)
+       [2] capture (res://tests/m4_graphical_check.gd:24)
+GRAPHICAL M4 window=(1371, 813) thresholds/contracts/rescue/boss/chapter/retry/reopen
+FAIL: M4 runtime: res://scripts/ui/corruption_summary.gd:21 Cannot call method 'set_input_as_handled' on a null value. 
+FAIL: M4 runtime: res://scripts/ui/corruption_summary.gd:21 Cannot call method 'set_input_as_handled' on a null value. 
+FAIL: M4 runtime: res://scripts/ui/corruption_summary.gd:21 Cannot call method 'set_input_as_handled' on a null value. 
+GRAPHICAL M4: failures=3

@@ -1,0 +1,15 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+tools/godot-*/
+tools/*.zip
+tools/runtime-*/
+builds/
+/screenshots/**
+!/screenshots/**/
+!/screenshots/**/*.png
+*.log
+!/docs/validation/**/*.log
+docs/**/*.translation
+docs/**/*.import
+__pycache__/

@@ -1,0 +1,1470 @@
+[
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\abyss\\corruption_service.gd",
+    "Hash": "01F0AF9D76F9DA649B439A86ECEECC6D7FC57D8BCFD548F7691C431DDD519539"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\abyss\\corruption_service.gd.uid",
+    "Hash": "1316200BA33C51B2175A14C9B57260ADF0E3C3261E50EF168001905B4B06B1D7"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\abyss\\event_director.gd",
+    "Hash": "5F2B7174908790E5C5ACDA2C4E15D71FC1A382E92AFAE54839322A83FAF65625"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\abyss\\event_director.gd.uid",
+    "Hash": "90CC91BFD54884784C8885AEDAE5ABE6D46E97C3D9A976F8D02379AAC470DDC6"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\abyss\\event_effects.gd",
+    "Hash": "C04B304C59BD507D40C2C4D835348C35C648055CD5A8C8CCC3FF36937F9D09FC"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\abyss\\event_effects.gd.uid",
+    "Hash": "E76165BF85938B2CD6A096AE9CB918C32081BE9BC9CBEDE2B4F13E948B79FC2F"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\characters\\character_definition.gd",
+    "Hash": "F9CEDD39190F565532F0AA401FAF57D71ED434B223D2B71D3635EB720F2DD49D"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\characters\\character_definition.gd.uid",
+    "Hash": "359A511CB785C7A33C60EA1CF32BD11630D01FFAB4B23599F2D2365BF5FFE2DF"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\characters\\character_factory.gd",
+    "Hash": "87B100FA601E3CEFD9E47275F7C70C1E3F51BA34178DEC639298B7E37A139719"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\characters\\character_factory.gd.uid",
+    "Hash": "ACE12F72BDCDDC985364116546C7A329D214B340E4AC2A521399B64118C37F44"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\characters\\companion_controller.gd",
+    "Hash": "EBF6C21E8A4021F1DD3A9926ADD938CEA870E79BC70DB40493937610DF0E1F56"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\characters\\companion_controller.gd.uid",
+    "Hash": "7A6D07A3E52BE4A4DC37770081F07AE89985A3DC523D9845B1AF23EE51387BEB"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\characters\\passive_executor.gd",
+    "Hash": "ED17CE3289CBCEC268F3A446E534DFB65E06DD83CEF0FCDB2882219C59CF3FA7"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\characters\\passive_executor.gd.uid",
+    "Hash": "D968CC57B33368D85869BC6843A0267829F82BC6858B358545F7B0E272D75816"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\characters\\profession_definition.gd",
+    "Hash": "B61B33A69B2927BF03FADC9AAA19BCC3450B9D57486FE158293C65CE0E6E56F7"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\characters\\profession_definition.gd.uid",
+    "Hash": "523CBA561EA82AE37A934497426649503A6AEE5C7C41DAF553A6857986267D97"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\characters\\roster_service.gd",
+    "Hash": "34E7C61D9641535E83B144ABB1F2FF0CBE5062E706393EE9B19BF1391CE8B13B"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\characters\\roster_service.gd.uid",
+    "Hash": "5B0C31FC48C6F2A09D0C7AF84DFC32156320BB59A80A26967B32EA9279254473"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\characters\\skill_definition.gd",
+    "Hash": "CB1169B75F0B01EB99EC3FE47C09AABE8BC30B8E66C272666091B5EF97B6CDA1"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\characters\\skill_definition.gd.uid",
+    "Hash": "580A2EE374F6F6D4A48DD3472B9BC6FA95ADBC4281A5004CE6FE399620ED6A68"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\collection\\draw_rng.gd",
+    "Hash": "0727AEBA9624C4AC46DDCB2CFCC47CBEBFC0A0302F647011784F0F3DAC42D617"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\collection\\draw_rng.gd.uid",
+    "Hash": "3ADBEB3D62C2416E631BFD6EF7D4E4C04EBC19B0C955AC29B952F4075E3A903E"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\collection\\recruitment_history.gd",
+    "Hash": "34B682ACCFC0ED9C553F419F7F096984134E2C9952FE73F8C77526725D3DDE38"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\collection\\recruitment_history.gd.uid",
+    "Hash": "FFA4BB4728730847BFD3BE6E47B83E4C26B2AA09CFE0EE9F1C7FB50DD0D10453"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\collection\\recruitment_service.gd",
+    "Hash": "30BEC9FF20049B8E41C48C129C1FA6365308A6F650EB4D3FDFE6F70B9BEDCCBC"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\collection\\recruitment_service.gd.uid",
+    "Hash": "C6DFC9DF37B18D33B9BBE8934BF3DCCEE3B0297601E5D58B742A6D7B15945A65"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\collection\\rescue_objective.gd",
+    "Hash": "6F6D18F6F0A24D3B7A6641DBAFF235A4D7812F854FB26D216A0DB8C77D8A8693"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\collection\\rescue_objective.gd.uid",
+    "Hash": "E087E64D99915DFD8AC9CBE109F808CD690CAEA50A175DD2EA86B346C04A8F05"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\collection\\rescue_zone.gd",
+    "Hash": "38CA00625958F3EA74DB3B43B8AC3796F23DA7F2DBDD2DCC3E2493730A9B59BC"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\collection\\rescue_zone.gd.uid",
+    "Hash": "CCC16BCF2F754D8E77AA22AE4E3DE41A62FFD4E74FE69090E105438DE3D47FD8"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\collection\\token_exchange_service.gd",
+    "Hash": "0E803ED73936B3F37C62B56D98DAF345C3C1E68BB574D5EB94EBDF06FA4F3388"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\collection\\token_exchange_service.gd.uid",
+    "Hash": "3A513DCECFAFAE937C3578D41DD7F11CA5183E8753D1435FC95B9B4B204BD2B5"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\actor_health.gd",
+    "Hash": "CC5FD1A8DEA3D801EBAC705EA370831480D106705A41F7C64648342693298D5E"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\actor_health.gd.uid",
+    "Hash": "C8041A8233C7740377D41D3230373AB6F72CDF594DF157632F2F0D114C842798"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\actor_presentation.gd",
+    "Hash": "4D7D05E85A3CC03769956AD8EF8939DB4A967CF888A19ACA52EAB1FC2FC7CB09"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\actor_presentation.gd.uid",
+    "Hash": "EC4B62FB039CDCAFF7E9EA682AFAC37B4BD2F9BEE506697AB10457A096F1787E"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\actor.gd",
+    "Hash": "FB54D4595BC8A12A99E4BF6D6155EEAEB0938D46DC8211FE61696B732F5C47B7"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\actor.gd.uid",
+    "Hash": "3BF700ED6A5C31106B718E01A8A7D34C7891EA81B24CE1D3AB9B25EDA3C0AD9F"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\attack_executor.gd",
+    "Hash": "9BECFC5E1F3B2670C11DCDAC6ACBF93DDC0811CAD292E9667C3E666245E5F26F"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\attack_executor.gd.uid",
+    "Hash": "292AA98A3EF6AD4AA36AEE4694D385314B5B3210CF3025996B06F7404A74C7DC"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\boss_controller.gd",
+    "Hash": "77B2855203964811BED2EA1CCF76F8D7D2A7C5CEDF508393BECA7DF03CB5B5C1"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\boss_controller.gd.uid",
+    "Hash": "DFA0E3C7673D3774F7E3A671D1CF565BEC1A9D01E6BD3FF8093BF5F40DDCDEFF"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\bow_branch_attacks.gd",
+    "Hash": "9DFCDC4C5B79FEC062485DF14FD46A41BCB3AB241DBA95AB271465A6B030A995"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\bow_branch_attacks.gd.uid",
+    "Hash": "0FB4502B4BB10A0AFF1C3AFB04383BC9C1EC3370A2390CA068B89E76666344A2"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\brinejaw_behavior.gd",
+    "Hash": "F0A5F962FF5D5CF44FE9B9F89E5C222D6054C8D5D692D9EA50CA30B9FEFD5101"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\brinejaw_behavior.gd.uid",
+    "Hash": "64119EF061B3407E45EC97B6A76DADBC459808453E6ED6684E125F954559BA0A"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\broodmother_behavior.gd",
+    "Hash": "5ABA6561263CAE64E8D5596D72BE283281BD81AED898D69FE6EB10FEC133FCB1"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\broodmother_behavior.gd.uid",
+    "Hash": "809524BA71B2AD1E8B303F22A54B6DB188DE425FE6957DFEC44FF6B557957160"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\cantor_behavior.gd",
+    "Hash": "E4FA01F4D0274723CCE0D6C19828AB558CFF5B726702DAA8885AB82D05B2ABEF"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\cantor_behavior.gd.uid",
+    "Hash": "B2111AF58F9AF40186B594DF11D934C03BB96B7FA297DD2DBD39663A82B3D360"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\damage_service.gd",
+    "Hash": "05CCB7F24E6F21BE6D0222059E5BF87EFD724D373E24137A660AC5D354693113"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\damage_service.gd.uid",
+    "Hash": "AE2AE434D5D6D4BDA8F1443FB9398DBFA6E4BCA29087AA37683B89AA6F920FF7"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\damage_zone.gd",
+    "Hash": "0EC0F4F5033DE82BC54B3AF24DD8B9E2A77712DB5DC7DEA32F9DFC541A8758D3"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\damage_zone.gd.uid",
+    "Hash": "7FF085C389D4A4DE4A11122CE07DAFA7F0D9C6274BA270D96BE4DCE94B4913D7"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\enemy_controller.gd",
+    "Hash": "4948F99CCBC59CA63E0C736443D7D3582A0266343D928D13B7A942970B908B0C"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\enemy_controller.gd.uid",
+    "Hash": "CCB1981C6B34CF0182B939D4337F38CC77442BD59125CE9383BD67AB0B041D00"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\husk_behavior.gd",
+    "Hash": "E5E5D2FFDEA7291FC6A8BE148D1C8FD509CAA29CA2D2EC5437E25A42472942FE"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\husk_behavior.gd.uid",
+    "Hash": "74D503C1D000FA1434862B84E8B59746A2376573AAF7E84ED954FB535DF9D22D"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\mage_branch_attacks.gd",
+    "Hash": "2574A6DA72AFF3FC819C29A1E6A844535CB871117C36F096C65EAB56E8FADDDA"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\mage_branch_attacks.gd.uid",
+    "Hash": "2CC1624B93431C7E3FEDE35169F3E2291FAAAC5F979EAB5E72734FCB3CCC979D"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\melee_arc.gd",
+    "Hash": "E8FF25FB5A0FDFF74A15929751838CF14BE482D3F8ECFFBAEA01107F685B100A"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\melee_arc.gd.uid",
+    "Hash": "3584082C9B884E2384F7184AEB2F03BF4641A2237D961C5F94910A56F677E7BA"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\player_controller.gd",
+    "Hash": "DD879DA9A6F083791EB9A0442E6856368A555E46D7F3F72B1B386AA0FE308B4F"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\player_controller.gd.uid",
+    "Hash": "5E5A9077E9EEF07767895B7FFEF1C5DC68859536578F7E5907D40E9B5F80CBC6"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\projectile.gd",
+    "Hash": "BC94C4AACCE79A116E105E4DB55E7D2B215D3D713ECC40AD2E36B715FAA88B22"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\projectile.gd.uid",
+    "Hash": "5DC49D05452F97A38EF23EF9FE3776B6E3682FB1ECF026A5CCD046070CC46F1E"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\spawn_director.gd",
+    "Hash": "BDCE0B5B1D5B561958D5BAEB7C4B97F24AB746F60F8BEE37135B91B74A1ACA70"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\spawn_director.gd.uid",
+    "Hash": "40241D35C6CFCC9C824068F5DF9EB724DD63FE2780C1903F56793EBD5F40FB88"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\status_effects.gd",
+    "Hash": "88A1C5E2C9EB8FA5A651BF4C3D688B04B81EE03818DE27844A39A0718E24FF18"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\status_effects.gd.uid",
+    "Hash": "71F0F2E5E9EB514CA565AC588F70B22490B33BBDA8AF310CAE0441CD5B9ED598"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\sword_branch_attacks.gd",
+    "Hash": "6D56F6934B02A2A825A97360BF3F2283420257B12A7C9DB870C9DD19AB3C7261"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\sword_branch_attacks.gd.uid",
+    "Hash": "6ED357A8A01F0D4C985635BD3CD2ACF15E9231CA49F76F663415480AB6608595"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\targeting_service.gd",
+    "Hash": "A3E7D2BF6FDE75371A19E40A75A2670A5E77A00F92171B460CFDEDBDE84B4675"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\targeting_service.gd.uid",
+    "Hash": "FE0655AFB2EC5351EAC2EA559A3D5E6FF05E9724D60564690C889F0CEA555546"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\telegraph.gd",
+    "Hash": "5D26B1D0780E1822D8B2B5F270E8EB65C2423E164B9B74241BED38514E233789"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\combat\\telegraph.gd.uid",
+    "Hash": "5CF4A1DD07E30C8990F656FFF87290AEA9C9348DE4F6717962E6749E843F0C3C"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\core\\app_router.gd",
+    "Hash": "3ACD221659BE4FBCDA295C695FAA8F35F436EAA3B069AC797FFB1DB1087DD059"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\core\\app_router.gd.uid",
+    "Hash": "CF886ED5028D32DA741D34CA197BD9A928B61FAB2CC06DE7FB7C6396F9DA6886"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\core\\choice_coordinator.gd",
+    "Hash": "989B8A12477B3495FFFC6F62C3C82CDE68E3C0B7843CD1924BBAA69EDA4CA1F8"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\core\\choice_coordinator.gd.uid",
+    "Hash": "4CF89DAB1BB01165E29922D9C6498556290246DC8D827F8044010D399818F351"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\core\\pause_coordinator.gd",
+    "Hash": "50F076444FEB9F6A4F1E2030BB6AC1D4D3E77C2A408BE3764087F699774A9CF7"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\core\\pause_coordinator.gd.uid",
+    "Hash": "04EEEEA9A52F94792FF1EB031968742B4B0716043C4E17E66AA422F98B4F09DD"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\core\\replay_trace.gd",
+    "Hash": "FAD249746A0F15FA9CFF80186A225058A07261125B23853BCC4E7478C46314CC"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\core\\replay_trace.gd.uid",
+    "Hash": "24829F9D17F63C1E6C1930566CD0262B58C3AFCB702BF35A8EE1C1FEA3B52559"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\core\\run_clock.gd",
+    "Hash": "24D5348C53698C453E56E11665AE14058B36CFD8C9D4D5ACD7F6BFB09E243BC8"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\core\\run_clock.gd.uid",
+    "Hash": "142381E94C41B8BC7FEAFEBC4F24FA132BE10E346869BB62F5EBBE2D21270A04"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\core\\run_manager.gd",
+    "Hash": "262FA60B775806990B702A281BEC88D4F7249371B5CB039F8B65BC7A2509549D"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\core\\run_manager.gd.uid",
+    "Hash": "9BB97DEBD6F82E7C15D023DF7244774F11B376E1860A675BEB51828263B35CC0"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\core\\run_start_snapshot.gd",
+    "Hash": "40F89978916078B11A83ACFB094AED1A3450C0050B714FBEB46477D92CBB23CD"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\core\\run_start_snapshot.gd.uid",
+    "Hash": "950399D2BE5ABCB5A910F2D4CAD158FF2F35AA687B4ACE90E3C86FB01A5E3CDB"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\core\\run_summary.gd",
+    "Hash": "C59DE8EB05B7C4877189CF602FF86F6C06B9995848D2BA88D2BA883ABDFC2D7C"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\core\\run_summary.gd.uid",
+    "Hash": "BC7EA01AE9C93688C3C2783D79B0EE7C79019665D645961E75A674031F24D790"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\core\\seed_streams.gd",
+    "Hash": "7264C5F82B9256DDFFD69F14ADF552C4F14E4AC6304F756C2249804AE76DE060"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\core\\seed_streams.gd.uid",
+    "Hash": "FFBE9E58E4F786732E994E0E4590C53AF054FAD3DBFB2A571348DA25E299683D"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\core\\simulation_coordinator.gd",
+    "Hash": "95BB37070A3A02E24D497EFD8146DBD11408DCD894B7AD2D3AE6635AB8935137"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\core\\simulation_coordinator.gd.uid",
+    "Hash": "A119D09968898ED2CFBC28CC2A830A4A8A6E5F075591F25B3115E2B7AD0BB9B1"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\boss_definition.gd",
+    "Hash": "53B15B9D4D4DDB7C8837793AF0A9A80F50D1E7FC78B113BFD36004602D7686D6"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\boss_definition.gd.uid",
+    "Hash": "69E7860176F58E72343EBD8C5617997A12FE254ED51B8D6BC0E4F41AFCEEB958"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\boss_pattern.gd",
+    "Hash": "BB5004E9E654CB4323A61976B8661D048700DEA5BA48D85785E653AC4A07B7C8"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\boss_pattern.gd.uid",
+    "Hash": "64BCE93CEF68584E76FAA1C4DD4714F0EDD13A3AD291347E5E1DCF4EF68CFE22"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\content_catalog.gd",
+    "Hash": "ED3AC6D69C4C535EE924DFDD922585FDB434C2A57842A3D8E79CEFB747063D49"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\content_catalog.gd.uid",
+    "Hash": "5642F7A5ACB00D7C0747B42641526ED649C0DA2E940461D24D3F37E2172D8DAB"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\corruption_definition.gd",
+    "Hash": "A7F2D82697DC151ACBD9C5B6101836AE73F32957318E0CD4AD7D5C6E62FBADDD"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\corruption_definition.gd.uid",
+    "Hash": "3AC15A6126C68BAD34B7A963FF05E0E7018D78FD90E48D677E8FDA1B5058AF01"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\effect_definition.gd",
+    "Hash": "E700EC12A7D353F1B2791F5179E3F0091AAE79ACDB4A3F6FD22183743C9E209E"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\effect_definition.gd.uid",
+    "Hash": "887E32EEDC4BDFA25787C4C6BA0D1A5DF30CF0139D01D790AEDF48D4B9029609"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\enemy_definition.gd",
+    "Hash": "6C8678C9FDB6D1FA372D8262B1D732FC468F3FCCC655AAE26B97266BEA20BB26"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\enemy_definition.gd.uid",
+    "Hash": "E7BF1AB3D81767E195F14A4F1B02DD94F7CDD53F29109BFDA3F70B753176EFE1"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\event_choice.gd",
+    "Hash": "53EFDE80AD0A14397949CA7878D2FC2E8911DE5B27BDA9A71A99C80226E34B8F"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\event_choice.gd.uid",
+    "Hash": "36371985204FC34FC7B0406F79810C3C4C72A6F8C87ABDE3FFFFBD9A860EED27"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\event_definition.gd",
+    "Hash": "990F1192795B5EBB36FEFE0FD793C2953F000A8C9BA91769ECCC6098FB9076AF"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\event_definition.gd.uid",
+    "Hash": "69AE6593F02205DA8D157D3EB92A5ECC4B55CED8550EFE4326271B3814E2422B"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\field_definition.gd",
+    "Hash": "470F9F599D6883E417A00AEBA58A74A177F9335179FD05D9825D7C7C635F334B"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\field_definition.gd.uid",
+    "Hash": "A9FA414999A3D71E6626D2FF9FA608777340D84B5709E844FDFEB348D30B2988"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\gacha_entry.gd",
+    "Hash": "795526C4E8DE3A16F81EE41E2BB4D158C0E91D184F585C710EF3E0E9BBFA6D45"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\gacha_entry.gd.uid",
+    "Hash": "2EB35856C2AC053823EB3AA337F586B2F74DB3CB14D311376BF543D0D301264A"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\gacha_pool_definition.gd",
+    "Hash": "1274B36B67046015CAFEFCA292942E4EE47D46062D843ADC829225C274AEE533"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\gacha_pool_definition.gd.uid",
+    "Hash": "F81C0ED20D47B7F961DF57E6B025B3856BADB18FE45CD1AFC6D6D13EFE27AA26"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\rescue_definition.gd",
+    "Hash": "C1C623C3A504F44D975D991EDA603C896DB0BE998269BB7054ABDD7F6580FEE3"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\rescue_definition.gd.uid",
+    "Hash": "ADC9B66E485BDEE65055B56CCC440BFFA998ADEFA1C1DEDA87B3B70517FD1A4D"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\stat_block.gd",
+    "Hash": "08469740A6F258BCA32F0B97255EBBD4C6393B100213FC72E330E802211C2A9E"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\stat_block.gd.uid",
+    "Hash": "467721FFD251B164C5ED59B8296ACB100F911D0D8D79A24019B0022AB02B6807"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\upgrade_definition.gd",
+    "Hash": "A0678C873A5F8E0E34050B7C411C0A101474C0945CC18CD148679C9D8C99D472"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\upgrade_definition.gd.uid",
+    "Hash": "30775FF293E3AA9D412536448DE78182EBE18260BB579B9434A01C939EC8322A"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\visual_set.gd",
+    "Hash": "32567175F9C16001DCADEDA5B3BA581F4B92374B5A9A67E572ADFF82603582F6"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\visual_set.gd.uid",
+    "Hash": "74B3EC2B756FF6712CFA7F3B53062555B1C717C0987A6D02127078D4008EF4FF"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\wave_schedule.gd",
+    "Hash": "BBD1EEA5A248D782D6F600FF95AE4124AD6B4E4FC2522939EB53ADB8C0AEFA9E"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\wave_schedule.gd.uid",
+    "Hash": "3126A60EB13D8C5894C60ADC998D49DC8AB7C90A0674EC4C0616D43C7A8D61BD"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\weapon_definition.gd",
+    "Hash": "FB5306F486CC7B414EE6EFE3EAC9867520D278B212657BEF9C8F33EC284E95A7"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\data\\weapon_definition.gd.uid",
+    "Hash": "3AB656B0BD4889B753666C705A0BD72331FC4FC4E4CB04A8E67427777F0A88D6"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\debug\\battle_speed_controller.gd",
+    "Hash": "C465CC8BB87CC818A41AE3038366F484624A58C4C4F06F2EBD54D26AACE60562"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\debug\\battle_speed_controller.gd.uid",
+    "Hash": "3472288CA18B2233AD35BACE7601D7C3ABCE627D144551E47745D475CA3A7C08"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\debug\\debug_action_service.gd",
+    "Hash": "211E470724707AD5D874FBCB9D9C0C772294150E93552040F373E87AB4562881"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\debug\\debug_action_service.gd.uid",
+    "Hash": "1610384E850FCDCB31A481B926F5F813A0B2A5CFA6F9163CDB269C6765662559"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\debug\\debug_panel.gd",
+    "Hash": "FD4389BCB0C5A2809C867659DEEEB56D15EFF6C524B44E6AD68519F60F17F88E"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\debug\\debug_panel.gd.uid",
+    "Hash": "9551E9C985BB801DF1E5BA429104082906CED5A53410A108559E2C55F4FABEE1"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\persistence\\profile_data.gd",
+    "Hash": "10BA2CBFF7DF73657B2DAB08EAE99EFCE1973F6682CBFBEDD017BD1036812E7F"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\persistence\\profile_data.gd.uid",
+    "Hash": "E532A4A6AD665209F263E6894323F2297E8A93172F034A16793BE73A186A8B29"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\persistence\\profile_loader.gd",
+    "Hash": "443090581109B1AF43FC3C63CC16D71191E3B3672C7BD151B5E56FE2848A665A"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\persistence\\profile_loader.gd.uid",
+    "Hash": "71B71D3DBBF824E4CCBF0CE496401F3F83A29DC99E477F9C821C85FC0C3560D0"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\persistence\\profile_lock.gd",
+    "Hash": "2C26F44F0C88FF417A3E02C18AEAB3C1E594829DCCA8FBC4903CE2741B1EFDF7"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\persistence\\profile_lock.gd.uid",
+    "Hash": "EB151D7E2517F5F2F00BC14039C5E79D6673CCDE9EF894D7E94EDD097300AC6B"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\persistence\\profile_migrations.gd",
+    "Hash": "7AAF72FF5A3EE5FB2A0CEB3F94983A6EB774C41E1B20EFD17DA56545E786FC88"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\persistence\\profile_migrations.gd.uid",
+    "Hash": "0BC6A55E31333E91BBAE783C496B8CF14FDD8DC691EA6398321B915573D28AF6"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\persistence\\profile_store.gd",
+    "Hash": "CC74AFFA2EB74AA87015741FE634DA3C2D43697884A1E62CFCDFCC9A77E9ADBD"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\persistence\\profile_store.gd.uid",
+    "Hash": "2BC8F7F899B0FB7EA43FAEEE3A9F4AE2BB0AAF1231C6C930EB9437FF2975A6EC"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\persistence\\profile_validator.gd",
+    "Hash": "E0E689C33A983BED7E243E64D10107B198D0894ED9D0C574178EBF834CB8A7F9"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\persistence\\profile_validator.gd.uid",
+    "Hash": "9D0C76150DD874F6F25142D31C9B3758C6B35259864383B31CDD0583E531C56E"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\persistence\\save_coordinator.gd",
+    "Hash": "DF5D5F49D329222BAE01EA75766992BF01AB82046F71685E7B267EDC57F385C9"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\persistence\\save_coordinator.gd.uid",
+    "Hash": "56B14E6BB53F318B7D7A140210D8D784B4046B4B725BEAA95DFDD25D4960B3A4"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\progression\\owned_hero.gd",
+    "Hash": "9E6B2392EA29D9E0B244EFFB2EBFEC5039FEADF3761246816D6308D98EE2ACD1"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\progression\\owned_hero.gd.uid",
+    "Hash": "794705CCE902870252A8A3CE507F5392D7AAE033E482258F54370BC0AB1A4B5D"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\progression\\permanent_progression.gd",
+    "Hash": "315ADE16BA40880C688D858B0AD4972F3814810BA8389C0561DB52762449F9BB"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\progression\\permanent_progression.gd.uid",
+    "Hash": "6D4A8E066EE8A867A54DD65D34086A7988C4103D9477D0BF34E1B271BD845896"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\progression\\promotion_service.gd",
+    "Hash": "3AED4000DB06CEEF892F465D27F7F7AEC0771A19F54326A6FA6884BD744BCC08"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\progression\\promotion_service.gd.uid",
+    "Hash": "9C5A526459F35ACC4E44F69EE8865311E1AA7A29D914714D2118F6E0B9D3D74D"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\progression\\run_progression.gd",
+    "Hash": "9369D24055F2EC47D1DECAF21B1BAF3847A55C0D4048B26DDB887BD6DFA8A707"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\progression\\run_progression.gd.uid",
+    "Hash": "5256C6E1AB3F5ED87FBB65656C4D016B309DA8B07E1078FCE3016B2F02353BD6"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\progression\\upgrade_effects.gd",
+    "Hash": "16B42496488B3DF2B71C667070B3351EC830E4600C88FE3F6108A5F273312D6C"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\progression\\upgrade_effects.gd.uid",
+    "Hash": "DA6E876D39FC483731910288801FC1122ED18CE460256C3E3DB9F9BEDB165002"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\progression\\upgrade_offer_service.gd",
+    "Hash": "F7BD3A0A6FA465721B3DEC38FBF74ADDFCFAD61F839AD22392AB79F556016E4B"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\progression\\upgrade_offer_service.gd.uid",
+    "Hash": "75B1F52354BBDA4CEDCB06BE8A07A1E1E89A906F8D3A8B30C0948B8BB6356712"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\progression\\xp_pickup.gd",
+    "Hash": "9F5CA1CFF9B22967C63C7151C136D001FAD4C7D84D9CFBE83527F2F422B8E02B"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\progression\\xp_pickup.gd.uid",
+    "Hash": "8DBDC2A7FB78972788A8772FD80BFE9FD59A68FFED8F248C2614FDA3B1430631"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\ui\\character_selection.gd",
+    "Hash": "79BEE5222ABB3DDFB7DD65A6198489BDBA6C0EB2064B3F83DB31837784AB67DD"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\ui\\character_selection.gd.uid",
+    "Hash": "E84F83FF75EEC41DCF9FFEE0605DF80B364ED33CDF8D3DD6439F5F4BF7FC85AC"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\ui\\combat_hud.gd",
+    "Hash": "DBA1E9B53C55B9C7FAAA5B381FC591573612CEDFD11B8AF826971C01CF56A0C0"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\ui\\combat_hud.gd.uid",
+    "Hash": "167D80EE850D3A667FA6F67809296B8A14628EBB71E8EF82B55D3D94681E5B5A"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\ui\\corruption_summary.gd",
+    "Hash": "FAF5A111A0232129BEE7A0CB36D60D63352DFEBCF28F914A59C15C497B827C26"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\ui\\corruption_summary.gd.uid",
+    "Hash": "05BE6DB2B1D994E08709B90D364CB8B0C2549B9DC8EB95B8ED4F82B78D5C1868"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\ui\\event_choice.gd",
+    "Hash": "E3085CF598423EF3420BDF46F51797B4E795232097B517692E3CDFBD298D9D48"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\ui\\event_choice.gd.uid",
+    "Hash": "8F34E31C6F9B328D5869E1E344F93112AC807C620DE514D2E3C07AB1F2CB0A72"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\ui\\guild.gd",
+    "Hash": "7D6F81517E2F6D82215356F8CC82D5E7C90A512136EEB18A631BC6BD7B92F9E7"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\ui\\guild.gd.uid",
+    "Hash": "F744BC1E5D48B173943864EEEC9EA305DC30CA2DD7977D18C9BEA070AF6A9826"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\ui\\level_up.gd",
+    "Hash": "7B895F2367076AC9D223EB33C6230AB22151E4F36C0238060E57E0CA8FD960B4"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\ui\\level_up.gd.uid",
+    "Hash": "8A83B49AF8AB275F2F77D4CFD62ED90FC7A4D17AD22599F9E7FC2A10EC48B749"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\ui\\main_menu.gd",
+    "Hash": "72C6FA0D51A7B2EB2EDD2D547F385D5C5D1C1D489AE7B527799CF68B270DF78D"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\ui\\main_menu.gd.uid",
+    "Hash": "EE73502868CDB2625D3A0BC175A04BBADEFA980E9CA992EC4CD0547D22CF5FC4"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\ui\\pause_menu.gd",
+    "Hash": "527CDBBB842212EC1DB0C88CCD64001AAE381EBFF849C50437872BBEB537CE25"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\ui\\pause_menu.gd.uid",
+    "Hash": "D3C170CDDBAE2FCF8DA546FBE3FAE36D4A2BC16EBD5D738C27C88FE1E79392B1"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\ui\\promotion.gd",
+    "Hash": "9453FE83752C42AE570EEDB239940BE332F4DA96523770A4F57CDA4152C8B876"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\ui\\promotion.gd.uid",
+    "Hash": "8099541F100F1EC0C5BDF8F382BB52E4850C44128247158B8605058298D834C8"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\ui\\recruitment.gd",
+    "Hash": "82107D747F3FBE2AAD7EB69EEE337BD8CE40764BDB0D8173FA1AA08EFD10D45F"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\ui\\recruitment.gd.uid",
+    "Hash": "2F0729BBF6A605AB03910EF0ABDCDF6421E579E7E20724714FD6BFD2774C3F16"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\ui\\rescue_prompt.gd",
+    "Hash": "E5789C94D468E85B9ECC93B216EDAD3E07E73606FDA2F6F77C26B3ECFAD64AF7"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\ui\\rescue_prompt.gd.uid",
+    "Hash": "369D42D0D5C07BEAAB92AED6D260D02BDC4B0BC02A8BC154B69A342F5BF453C8"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\ui\\roster.gd",
+    "Hash": "73FB378F8E6B7B5088BFFF911CDEAF4D3821E3B1155EFC0BB13F82BC69EAAD76"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\ui\\roster.gd.uid",
+    "Hash": "D0F20D57948CB09896A702EE03A2C3772159B335460E46CBB9B9F5C24793C3BD"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\ui\\run_results.gd",
+    "Hash": "BA0F3AD39E6ED2B926108D7A5E49174DFCE5B03C9218D70707BC3F29EE0BA197"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\ui\\run_results.gd.uid",
+    "Hash": "12EAA9DD78170010A3730A0CEA81740FAA31A1374A76DDE936331A6B7B74404B"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\ui\\save_error.gd",
+    "Hash": "E9B953C3CAF2320D4BDCA87AD6CBB33FD38DC58BD93AC6666967F5224CB816E6"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\ui\\save_error.gd.uid",
+    "Hash": "EED4EC34D61D683D543FBF9AB334B784FCBBDA7841EDED52998979E0BBB04370"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\ui\\screen.gd",
+    "Hash": "1E4295DCEAB5770E04D05CAFE75D5ED75162E4682E9D5D8770052DB845CF6800"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\ui\\screen.gd.uid",
+    "Hash": "129AB8AE246187548E2C3C35E63C721058D152AE84D1CD1FF8C81F41031BC2B7"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\world\\coast_field.gd",
+    "Hash": "C86D6B741187D27D02F20B378290875AED048B2A96B6126C52659F53C71B6A82"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scripts\\world\\coast_field.gd.uid",
+    "Hash": "F31F49F0885624C58D07AA8B5804D4712DD78B4E478C93778EB2D6664EF8D959"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scenes\\actors\\boss.tscn",
+    "Hash": "323B33011B7B1887CB0E922A8DAA3B78A6D54D9FB4E610C8B44A0C2636F80120"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scenes\\actors\\enemy.tscn",
+    "Hash": "C3E0213E36D1A3263A98688E5A8D777B64DE3BD07D54A779267E6099C75CBC0F"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scenes\\actors\\hero.tscn",
+    "Hash": "D646CAD3EC3555E5E2F14EF6AE45249FAC221F54E97FF80F40108F4653C1AB85"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scenes\\app\\app.tscn",
+    "Hash": "BDF0BB972D756BEC0E5163B978D26D3781564B249D906435B58193910312EE2C"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scenes\\combat\\damage_zone.tscn",
+    "Hash": "A98D26427D912E5E2F173C67FBB5F7241DCB781839929ED0137229AE7BB47D8B"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scenes\\combat\\melee_arc.tscn",
+    "Hash": "0F226539D84948F9827D436E724CB44350EBC5844EF1409270E56C9CF831A8F1"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scenes\\combat\\projectile.tscn",
+    "Hash": "981B741B9C5B4E16C0E4609BE906C636EA523FAE25565199015E0CDD68CE0279"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scenes\\combat\\pull_zone.tscn",
+    "Hash": "B5EE206490ED46F3240709E965683A3A2CC59183B139EF185D6F9909C5A31F4A"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scenes\\combat\\telegraph.tscn",
+    "Hash": "399DEBCB46F4E606CBE09A3C5F94FE412670CA80612109374266D6D12549BC6C"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scenes\\debug\\debug_panel.tscn",
+    "Hash": "2203FBF689060524B9CE4C8B6A5C53574D57860B6663530011B5B300A5F80E58"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scenes\\events\\rescue_zone.tscn",
+    "Hash": "8C6D146860CF842EED2F6D076BA08428C2424FBC826BF4FC73A2A401F9CBE837"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scenes\\pickups\\xp_gem.tscn",
+    "Hash": "C03D5117598C978E422A75922782206BDB779C0EC31151F885F42942E47F8704"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scenes\\ui\\character_selection.tscn",
+    "Hash": "2E183DEC445B9D97E714D85DDA3067D5FBD63DD6463ED3E3475B59E9B30257A3"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scenes\\ui\\combat_hud.tscn",
+    "Hash": "E8EB4800A1A397CE9E7CA78560BA3CEE4127BB11A11BA7E2FFA2C66E989F7A84"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scenes\\ui\\corruption_summary.tscn",
+    "Hash": "C5B24414DF9F74F089910811E240624BA2D061E27A83B44C4D0621858D0AA8E1"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scenes\\ui\\event_choice.tscn",
+    "Hash": "A4262099C5D2AA7AA8438A7142E28A932DCA2A0A5ABF9A5349BF816AA833E3FA"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scenes\\ui\\guild.tscn",
+    "Hash": "2DE87B65A90A4B384546919C295A8B6FEBB345F747DAC9EBECB6EDFADFED78FB"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scenes\\ui\\level_up.tscn",
+    "Hash": "596FA266BE8732625105D78C0439CDEE1F45EE3BD8CAFFD54B004023CE64DE34"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scenes\\ui\\main_menu.tscn",
+    "Hash": "4103A46A41AAB3DAA5A76A6D0701DD44E85EA662EA739F6DA98D041E9CB73F7B"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scenes\\ui\\pause_menu.tscn",
+    "Hash": "92649016D3423D737CFECD86E6E17FC5D0CDA57406CE728656186DB11C3AF1F2"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scenes\\ui\\promotion.tscn",
+    "Hash": "8E700DE37DAB54831BBF9634572BB449606E1AA5352A620DB36EFBE2A2A287DB"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scenes\\ui\\recruitment.tscn",
+    "Hash": "239F85E5F01D61904C3759971F5AECA810A35B30399246EFF0C5FF1849559170"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scenes\\ui\\rescue_prompt.tscn",
+    "Hash": "6710754891470F3C37531D61F698A76E487BEC4F3E5CB441508AA7A11824697F"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scenes\\ui\\roster.tscn",
+    "Hash": "9E312E29ABF9DF52B12D5A248FF1B41AA1055C1DC18A5ED5F1D033C7A52DF2BD"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scenes\\ui\\run_results.tscn",
+    "Hash": "332395B28AE155A1FCA3B0E9F01E3D11D5DA3C75B85204093C30AD260695F602"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scenes\\ui\\save_error.tscn",
+    "Hash": "5CDBD41A87A88C24688567A62237E4D0AAFC4C594A774DED2453376576424B13"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scenes\\world\\coast_field.tscn",
+    "Hash": "8EF4BC8828972BD32D45504D8ADEED7993C3BC0EA5A786F56261B2E148F823BC"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\scenes\\world\\expedition.tscn",
+    "Hash": "62F77A8F04019EDDC22C22FEE93D8AB2244F7E5670C2CCAAD2C9BF12F4AF5474"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\characters\\aren.tres",
+    "Hash": "946B8E14D559709F8013C9F8133C5BEB29C1C8DEBF419B63731FF51BBD80867F"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\characters\\brann.tres",
+    "Hash": "3633127E047B295865C60A5E858A05D28AD9F0F3AAFE5BB33411AE0C0D1FB539"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\characters\\lia.tres",
+    "Hash": "6819C12E9D78A21CA349FA9F1A524EBF5D6A3EE4617261BEDE5CDD1C02346F8A"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\characters\\milo.tres",
+    "Hash": "24642E083C433F36B69338A18CB57FD966CA67C72DF6DF2FBC69F84D7C735D9C"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\characters\\nyra.tres",
+    "Hash": "BF9CB91AD11BEBD426503955E08CAA141C2E45334DDD84B4E71951E2BFF7AD0D"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\characters\\sera.tres",
+    "Hash": "588D328B40AE2D9456B85ABE09B30A1A058B7A24396760292A7DF4631089C83C"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\encounters\\coast_corruption.tres",
+    "Hash": "1FC1FC2B5F0E0D4C484152A287CA4FA0FC938E85B687994B257AB35D1CC65B77"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\encounters\\coast_field.tres",
+    "Hash": "168FCA9D650488DC147DFD333D7237ED97309714B560B310D8CE99CE99A8192A"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\encounters\\coast_waves.tres",
+    "Hash": "3832B4A6E23D6567E56DCDF1B6D1C1A29BC7C24446D12B8A59F13D87417FFF6F"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\encounters\\tidebound_hierophant.tres",
+    "Hash": "7B9B71BFD1E0B19BFC8D00B609FD28BA819CA76EEFD97CDCD4539BE5AFF6468B"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\enemies\\broodling.tres",
+    "Hash": "185AAE8690D39A98EE7C6E81CAFFE94105763962BC1C4E327889F0286195884E"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\enemies\\lantern_cantor.tres",
+    "Hash": "3EF236D7CBEB252018A0072768141727DE8F12B17FD591FBB4025B440456D70D"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\enemies\\reef_broodmother.tres",
+    "Hash": "BF406FF99D84ECD4A1D1CDDEF2624F52164F3B221F18F7A621EDB464B808AB50"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\enemies\\saltbound_thrall.tres",
+    "Hash": "5AFB265561D3F97320DCC4E76449FF1FE4003C4FA3B2783F0E97C816737280AA"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\enemies\\shellbound_husk.tres",
+    "Hash": "2BC53680FCDD4052600D7E0BADA2F7DF652B5E49523E58A6278AB00979A65851"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\enemies\\skittering_brinejaw.tres",
+    "Hash": "C8FF396FEEFE9AD16058E5173CCF43074B69590E617B19692202FBC8A6D357D0"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\events\\forbidden_altar.tres",
+    "Hash": "574244919B9D6A489503268E30D86D38EF468E52A1087551CD6CB37CFB1B2FE8"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\events\\lost_adventurer.tres",
+    "Hash": "3E2E4FC523F9C1D36DE81C04502C4F6E33A40516E4727DD42B188E8D3758865C"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\events\\mysterious_merchant.tres",
+    "Hash": "A886A46CDAECC6CD2976CFDD8D67A17DA53A292D1B7B6308809E548188B5D09E"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\events\\sera_rescue.tres",
+    "Hash": "E947E558C7199D24F737250BBEC43B42BDF08951588D7FD621C764D8DE079FB6"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\gacha\\guild_pool.tres",
+    "Hash": "102487D1A447D68F9F998CBF9949A5832CCED3B7E05084B6E935C73905DBE80C"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\professions\\abyss_swordsman.tres",
+    "Hash": "2D811E577EBFCAF53B0013D6EB53843317AC2646D33717FAEADD699319C6D046"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\professions\\archer.tres",
+    "Hash": "3E01D9C279B7C736F0EB87989413A30AFF0BD42EABEFAAE397245293F95166F9"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\professions\\elemental_sage.tres",
+    "Hash": "8C88BB7C1DE78041529316A670FE7C34BDA41A8C2B91897193C73CFAFA37891B"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\professions\\mage.tres",
+    "Hash": "43A5ECE4F499799855F9804E13B12E1A2BBDFBD03ECF38826560A73D0DE40F3A"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\professions\\sharpshooter.tres",
+    "Hash": "B521CD8FC7B6132B6D380A0B1112CE7AC39D55718BA771DF0D63ACBFE8F35CAC"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\professions\\star_hunter.tres",
+    "Hash": "65C9E5585258F45D6D48BCEF4E1E4FD2A62E104A52337C721A8DC515366BD0FB"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\professions\\swordmaster.tres",
+    "Hash": "9BF16A7138A95A6F12EF2DFF0A79CFE31BD92EDD7E10BFBEE84F2772B62DC151"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\professions\\swordsman.tres",
+    "Hash": "17046C323A445C2C28B8BD7167174A30E1CDA2FFDE09C54CDD0E1D92B7284637"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\professions\\void_caster.tres",
+    "Hash": "67EB9C7297345353521E53296C80E7C01609D0C096290983100E9EFF3E51C8F8"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\skills\\arcane_pulse.tres",
+    "Hash": "63063A9C97A57260B0531BA88579731BC6BEE7F9FFF89FE062B1F25DD71AD6CB"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\skills\\bastion.tres",
+    "Hash": "AD3964C393DE72888E26D7B1D278AB7097A4EE107182D5409495559747E91889"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\skills\\far_sight.tres",
+    "Hash": "CEAB6D7BF1224AB6ED258CB397C70767824168F7B9C9370BC39DB7C72954D35E"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\skills\\fleet_step.tres",
+    "Hash": "9D02E15F753185077A7A7664347F0C3AA8084B8108CF424D3B7414E467CF49B8"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\skills\\guiding_light.tres",
+    "Hash": "A72BFC1DDD4865B1C65721A28BC7E316B99CB3741BB6214A029644CBFC10062D"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\skills\\resolute.tres",
+    "Hash": "BA4211A2AFB28F42DB9922920B20D92ACA0583D383B9710CDCB4459CC9A7CD7C"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\upgrades\\battle_mend.tres",
+    "Hash": "DC57D6907F6EA237972F04C2C5C0E135B86C66AF6BCF6A0E806120E5A68AF7FA"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\upgrades\\echo_strike.tres",
+    "Hash": "637BDAB9D8C765D2EDEBBB1A5B7F4149D97DE20279B1F56F26490BDE8BB104FD"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\upgrades\\ember_touch.tres",
+    "Hash": "50D0277E056B60B7D8AE8077C218C4B1DCFA914DF5D62AD58C6B15CA644288B1"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\upgrades\\force.tres",
+    "Hash": "58FE03B7D172B3E281BF985A03AEE61DE0BD06633A3BE4FFFAA1669167799DF8"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\upgrades\\frost_mark.tres",
+    "Hash": "80E7BBA5CE2DC6734AB622C1CF0EF992B235700F9D50288D8E3FF6C18106F0F4"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\upgrades\\ironhide.tres",
+    "Hash": "33D81902B841B652281B17A72579B54E8834576F3B395C96C62A395BF3B41EF7"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\upgrades\\magnet.tres",
+    "Hash": "2E4645CBB1F100378075ADE307AC2720958581F545C75DEC557DF91C6B2EDE00"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\upgrades\\might.tres",
+    "Hash": "A08B2403831FA11AAC382E8F20F9B676DD074D4682AFE6D23B210D8F772F9F94"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\upgrades\\quick_hands.tres",
+    "Hash": "4CD52DEF6EB0A3BA2430E644884F8D077E6097B7E090EAC0C730DD6884D0B43D"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\upgrades\\reach.tres",
+    "Hash": "B54747724FD3E302B1F2BA7853E3A1F7903B7A17DAD311DADBABD72B50575818"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\upgrades\\swift_boots.tres",
+    "Hash": "C192461A80F03A6C99B1BCF3D9A38DEE0A661E6539933C843654BB351BFD1546"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\upgrades\\vitality.tres",
+    "Hash": "A7F466F13D7240429320C56B4EB7308C8C1B4063D669ABE8379AA1A9CFE0168B"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\weapons\\arc.tres",
+    "Hash": "222A9E36394D01B322F04B2AE6D80432395C7D46C96F00AC49A402085784C463"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\weapons\\homing.tres",
+    "Hash": "778D61F794A24F535E2492FA0DD3523C635CB95239830C2CF61F6786699F9CA6"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\data\\weapons\\straight.tres",
+    "Hash": "56BDBD11EC882090F6D9D106AF4587F68A0266646912FAE9784B0A8EAA621741"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\debug_graphical_check.gd",
+    "Hash": "C37FE6CB59D93DFCE5E4BDD054582C63B20D55C5CDB02BB3ACD860E3B3D81DD3"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\debug_graphical_check.gd.uid",
+    "Hash": "024669A6F94197C29AFAA89560AF4DBB001B6EEC3BDF72D186796CFEB38C49E7"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\debug_release_probe.gd",
+    "Hash": "C72D6B5F0FAC5364DC4E87B79A8067E5D896337C69CD91793F6EE83821F5B95A"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\debug_release_probe.gd.uid",
+    "Hash": "11BFC96BA530C3C067D4B0541E65E9D496E37DA7B5A1D2C4DA03945B949B8998"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\error_capture.gd",
+    "Hash": "0DA8E462510600D339FA66F8525F05F697D040D2DB70CB5DE5A8DE13C31FF947"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\error_capture.gd.uid",
+    "Hash": "F5A31FDFDEDFE1A7C42F33A3C28353F589203BBD14D32BFCD540D446201FCABC"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\graphical_check.gd",
+    "Hash": "9DFBDFBC544BEC084EB3E463B949C6553809446712763588973D4638F6DC615B"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\graphical_check.gd.uid",
+    "Hash": "DDA91E173DF68CCD77E5D5DDE1F18B778102469F78A0E15A01FD502DC709FA35"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\lock_probe.gd",
+    "Hash": "1168851961B47EA37C77E0B70B0DF6FD9C1454B73BE73A23C2ED9CA4286E4AFC"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\lock_probe.gd.uid",
+    "Hash": "3EC0C248641F80F8734194BA33B8461A53E8F7A2EBFFC063A495843352F8B8EA"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\m2_evidence_capture.gd",
+    "Hash": "DAE9D875A2EC3465467EEC2D4C249E703BAC1B3354179F67E5BC0D7BC1857747"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\m2_evidence_capture.gd.uid",
+    "Hash": "6AEA96926532DEF724C155877714C611DF453CC67E37E67615FECE62DEC1F799"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\m2_graphical_check.gd",
+    "Hash": "F20624125634B6A2C01DC522902B672B88DFF8C609FC22DAFEFE42440B9EC737"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\m2_graphical_check.gd.uid",
+    "Hash": "627FF231CB35694C7A9378A3A9363D2A78A8851D9E98277C77CFE4A0076C18B1"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\m3_graphical_check.gd",
+    "Hash": "E12F5686ECD45DB32000929E6D1B1807BC231181AD3ECB2D579EDD4E68297577"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\m3_graphical_check.gd.uid",
+    "Hash": "D7486941860BDD6AF635BA7FBA95989AC5184A050A8355864DC28C4F4300FDED"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\m4_graphical_check.gd",
+    "Hash": "4E5AC52B02D8805D1DED32CF4FDAE9675343E6E68A0F029C4F5214EA15C191A6"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\m4_graphical_check.gd.uid",
+    "Hash": "4C7E47E5F21CB42448E04D459C111BD936D84E4C9CA9BE3A6E5894D766499ADF"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\run_tests.gd",
+    "Hash": "80CC190DE2E57C9412D5FF71CAC061F4CF46E2026039AF47A88E9FCCF52800CB"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\run_tests.gd.uid",
+    "Hash": "51135F24C3344BBE93A2E6284CC3B7CD04B871465B2AA984AD1CDDD2780A6CE3"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\script_manifest.gd",
+    "Hash": "FBDEFD7B428428ADB875919097ADA59EE3A7AA114E53F2B82C803E975B96583D"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\script_manifest.gd.uid",
+    "Hash": "E8B8AAC73CA69C1D6DC4BD0E2FBCCA74004713DFC304B08DDAD3A068417D0B22"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\validate_content.gd",
+    "Hash": "9C53E76A8EAFDE050AD36F0762506999C591B7197574197C40304206CB6CF5AB"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\validate_content.gd.uid",
+    "Hash": "39425DA31FA20B43B29D0AD6B4E8C5840EE16015D64D151BCE244707A1EEC66F"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\fixtures\\fault_file_store.gd",
+    "Hash": "9D7726D082D15DF3F3BA80319390B4057B3814AA862ED37F47E23FE4C1D72426"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\fixtures\\fault_file_store.gd.uid",
+    "Hash": "395593B66B3FDD4E71846DB569CBAFC7A3C2E309D45A3C3704B871FAD2CCF91E"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\fixtures\\run_fixture.gd",
+    "Hash": "EAA2070A5BFAA222E10C95AC01977DF358D226FEE44B5E32819059AC53C67C70"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\fixtures\\run_fixture.gd.uid",
+    "Hash": "C09421B48FB4659984221C6B45ADF1DAF9DC0F4BDABF56C40EC2BCFE0277670E"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\fixtures\\profiles\\v1.json",
+    "Hash": "8FEAF834CDAD6670E7F6C668D028E19B9C97E1632507D26F0C0AFBFC99A4DB33"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\fixtures\\profiles\\v2.json",
+    "Hash": "6724A562C5D42AD285840F48C1962883002F747DE4F4CDA6A8C6AFE95A68056E"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\fixtures\\profiles\\v3.json",
+    "Hash": "6910948CF45F5A5001C440F4CF4BA28FD7C53F385F263C94E83AE77F7645F224"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\integration\\test_choice_pause.gd",
+    "Hash": "94C8AE34C250F82B708619BBE5E31CAA27AA3B129647C47CA9CDB17362395556"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\integration\\test_choice_pause.gd.uid",
+    "Hash": "BBE92F5D482B37DE6C90FA124FB383C7C7B0B8735BC4D2F30D5C1EBE89CDC125"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\integration\\test_corruption_combat.gd",
+    "Hash": "26FC0A4983D251D03294FE7428EF27EF149FD915DDD771E070E9AD73F45AAE2A"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\integration\\test_corruption_combat.gd.uid",
+    "Hash": "B3B78B0CE9C17DF3048238D8FB2D57B18A3BC664CCA9667DC5882EE62CF5E94C"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\integration\\test_debug_panel.gd",
+    "Hash": "00E0F24DA8D4B1CD6E1FE69D70E78727966FE3302F6ACEE3308F3170E3C074BF"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\integration\\test_debug_panel.gd.uid",
+    "Hash": "76CFB277A8A931626F1DAEB510657910D44CD03DAAED61AE8E9B92087BE5C63C"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\integration\\test_full_run.gd",
+    "Hash": "D40E73B72019127614D91407409CDAB0C705B489B07A8307C2FB4D722FB5746F"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\integration\\test_full_run.gd.uid",
+    "Hash": "A97B5BF6F914BA4644778BA3E17FE9AC3168AF2E0DFA4A0420F07B519905B8F7"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\integration\\test_m1_loop.gd",
+    "Hash": "8B0D2B0DA6FB0E1C65A3754D3562B6BE6B31488E9159748DFDF137B9533C552C"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\integration\\test_m1_loop.gd.uid",
+    "Hash": "9E0096B49F5978ADB3F509C50EA2621F627397B74BE8225F0A98541EA904BA9A"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\integration\\test_m2_app.gd",
+    "Hash": "FD776B5ACC75B82CD4772C41D3120D5FEB1F43C94647B3134C7BFB840049C8CD"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\integration\\test_m2_app.gd.uid",
+    "Hash": "616A91F6DC9615C7EE3FD3B820D3D29F482D32DD6169F9149328B5F8F85C3117"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\integration\\test_m2_party.gd",
+    "Hash": "DCB3C982952FBE5693613A002638713A4092EF0505E6C9E5F87B7C089599ED85"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\integration\\test_m2_party.gd.uid",
+    "Hash": "583BB40E307D30534B800E0791D782E1AE2A9D7456F8156A61B881F5B7CC74DC"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\integration\\test_m3_draws.gd",
+    "Hash": "DBDA9241FCE391E37293EF79F42BEB88F88576CEA548C27B3D23F00BD63F391C"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\integration\\test_m3_draws.gd.uid",
+    "Hash": "DBFDA276C8865FD217C584622C0DDF371C7813F0583D29F050B8B5555B6E9FEC"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\integration\\test_m3_rescue.gd",
+    "Hash": "2E0338F810BC3383B7D15DBDA56004A5F0D19D29910C2B66753DF2F12AAE2140"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\integration\\test_m3_rescue.gd.uid",
+    "Hash": "B29C47F38EF76F5525214A8849919D8676BFF73579C6C9B839A3BCD9DA8546E9"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\integration\\test_m4_chapter.gd",
+    "Hash": "47D4455FC7206B34DA7A7935CBF11E479C0087F99E3CABDD2C2FD6E82BF1977B"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\integration\\test_m4_chapter.gd.uid",
+    "Hash": "254C3AFCA8705202FAAA7EDB496B15142F49D042784F25D89B2D4B3B922A0A1F"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\integration\\test_persistence_v1.gd",
+    "Hash": "D3FE15D1A0662715315B63E494D73B29971F4431E7BA5210ED4FBCF65A5AC4B7"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\integration\\test_persistence_v1.gd.uid",
+    "Hash": "CCE35A902BD904A796DDF4F096B5F67D2D98F62BA9E9BB73804C1C3A19FDBDB0"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\integration\\test_persistence_v3.gd",
+    "Hash": "D09D53809ED835B911753523B2C1BD82915AC1AEFFB22FC9452653F363070A39"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\integration\\test_persistence_v3.gd.uid",
+    "Hash": "DF254888E42E5D3E2B9EC50C270B521CB492A597F34687ACCD11FB83DBB4EF6D"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\integration\\test_replay.gd",
+    "Hash": "FC6A0D868902702D0A9739F55F074332D3D0068A536F36C4622EEDC6AD760783"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\integration\\test_replay.gd.uid",
+    "Hash": "5756ACC8C48377C78CD49C093ABBB9ACAE4AA48F13741F286A0B30FD32615E1A"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\performance\\benchmark_capture.gd",
+    "Hash": "7133499672CA07EA5830FE2455033D75B8AEBBCC02DD13484CD3EC433434398E"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\performance\\benchmark_capture.gd.uid",
+    "Hash": "906AA43A22F2D8870798ABF94C6B8A5707D4DE632E2D7CFB34DD037DAA9A44D4"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\performance\\combat_stress.tscn",
+    "Hash": "1AF921452A4912B49285A635CF295BCB6C01DD50625DE5E9DA90A3CFD06B3AED"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\scenes\\test_m1_ui.gd",
+    "Hash": "503E800C11F171CE5835B8D67BF8ED41232B2480D9BFC8E89A5817C8944A07C1"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\scenes\\test_m1_ui.gd.uid",
+    "Hash": "D190DF04AC1F13E231558AAB51E562062930948CFDED4CC0A09A45821192A78C"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\scenes\\test_scene_smoke.gd",
+    "Hash": "12FD94008506DB24B5A2517BC97598116A13D1E346B57F790DF45FDBD7A20CB6"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\scenes\\test_scene_smoke.gd.uid",
+    "Hash": "B2DB23467DC0203DE01D908FFD63324385EE090D3C37C00A637519846547DBF0"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\unit\\test_combat.gd",
+    "Hash": "6E82A8E511A3D2F7D7CB09FB87EB26CDC8F439A8AA9A32690F1D3913FBBE06D7"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\unit\\test_combat.gd.uid",
+    "Hash": "248A7B42871576F7F37BA684AF7363B6ABB70463E57265672690999A1B78C835"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\unit\\test_companions.gd",
+    "Hash": "9C02C01188B0065F5CE51524A4A2845BBAF9391519E6DA8C6E513DEDA09D183B"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\unit\\test_companions.gd.uid",
+    "Hash": "1F345E7F3DF581230DD0437FDFBC718A68FD8034457FC79CCCE91FEDD41F7F82"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\unit\\test_corruption.gd",
+    "Hash": "4407FDCBEA6F75009605210795CD82D7A24E7159D54B51FD595880F56538687C"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\unit\\test_corruption.gd.uid",
+    "Hash": "96A5E3472054140199E1E29D921848D46BCF66E1968DD9EDE7A01034421DD7FE"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\unit\\test_events.gd",
+    "Hash": "344F0C784F0864E94CF46BD0CF300ED201099511E93BA7581E7CE7AC4427B680"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\unit\\test_events.gd.uid",
+    "Hash": "5D4930829CE8E59394F3305C6BA83FECD1AA25C7E143345380E2B212585AD50D"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\unit\\test_m3_passives.gd",
+    "Hash": "7D8E56308C5D7E175798C6EE9625B2C50A1D20BF2E7F753583B25185C8B1B2E1"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\unit\\test_m3_passives.gd.uid",
+    "Hash": "CFD58454B4F3BBFDA0DF8E33F9A55F4A91BF2A7A595BCBA3E5BA5321A21E32BC"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\unit\\test_permanent_progression.gd",
+    "Hash": "D5F04CC63AE0CD984D34E63E46D97E74A7AAE5B6A741B58657A43802A751A4A5"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\unit\\test_permanent_progression.gd.uid",
+    "Hash": "7DFC75A4E5A7E661D70F385E60CC041E34CA20BA5395DB21DFE21625F8E75834"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\unit\\test_profession_abilities.gd",
+    "Hash": "A3F27C122541A28B3823B0B321AC00E695098D1F800AAC4398AB1186326D40D9"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\unit\\test_profession_abilities.gd.uid",
+    "Hash": "CADC31D256239E25C4FC2C8B60B52149F17E7523C4667BECE81EDFBF0A641E78"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\unit\\test_promotion.gd",
+    "Hash": "EA87D2EC810B6D721D96EB0733E14B976F445861AA581676F0C7F44C7C314A84"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\unit\\test_promotion.gd.uid",
+    "Hash": "FB7CEC308BD7E40A59DD41DC2D49C6C5DC7D2A25FC80A4486D8E73D268570547"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\unit\\test_recruitment.gd",
+    "Hash": "F8CDA5F2A31C16850086E4656D7E49AD0D13E7BB53F40DE6AAA4AED8EA1D5E89"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\unit\\test_recruitment.gd.uid",
+    "Hash": "D566F0C52BAAE5549A29C0B6194ED8E0830CF4992376692EF9539105AAEF1101"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\unit\\test_rescue.gd",
+    "Hash": "BCCEFDDB770604B23CE261058A748A8E5433CC11C4AC369B776C6E23CCCC0BBB"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\unit\\test_rescue.gd.uid",
+    "Hash": "035A3E1387B9CF7CC05DF053716C4C1E356D6D922A0BA07890226778984C4167"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\unit\\test_run_outcomes.gd",
+    "Hash": "332022ACEE5FB293B21633BBCE9629E8F6EFBAC8A8A904C25211AA9ACA696BE6"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\unit\\test_run_outcomes.gd.uid",
+    "Hash": "2750B2ACB44DCFF9E44615182BA94A4BF9B2BF05E073B331D266297EA14C6B0B"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\unit\\test_run_upgrades.gd",
+    "Hash": "1F7479F57BC785EEF184883D2EBCD97A5C16CCD8B598B7A300AF931A9707020E"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\unit\\test_run_upgrades.gd.uid",
+    "Hash": "B87A4AB77EE1A1E2066A467EA9E49DCB05B5EEF6401C321B741CD43DADA49485"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\unit\\test_seed_streams.gd",
+    "Hash": "82F082AE71BA42F4425845B2CFFDCC8CD130D8CBB8D3F58B27784C4F65184A55"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\unit\\test_seed_streams.gd.uid",
+    "Hash": "E93C5BD2413A17D049CC3416E12C6EC62F25976433922711AD50C7D9C845B1F4"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\unit\\test_waves.gd",
+    "Hash": "0F890AD036410A78514790240DDA7F45027A49F81946F30F3625FF034B921B27"
+  },
+  {
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tests\\unit\\test_waves.gd.uid",
+    "Hash": "F6111339AE4F7B8713CAE876009E5122E50A7BDBC2D97C02F8365EA3F4D05E20"
+  }
+]
