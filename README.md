@@ -10,11 +10,11 @@ Offline Godot 4.5 survivor-style combat prototype with a guild hub, six collecti
 - Spec Kit: [Spec](specs/001-abyss-expedition-mvp/spec.md) · [Plan](specs/001-abyss-expedition-mvp/plan.md) · [Tasks](specs/001-abyss-expedition-mvp/tasks.md) · [Constitution](.specify/memory/constitution.md).
 - Evidence: [Convergence fixes / 收敛修复与当前验收](docs/validation/convergence-2026-10-15.md) · [Previous full verification / 此前完整验证](docs/validation/verification-2026-10-15.md) · [M4 gate](docs/validation/m4-gate.md) · [Documentation audit](docs/validation/documentation-dashboard.md).
 
-**Current build / 当前构建**：2026-10-16 收敛修复后，13 组 / 5,239 条原生断言、源码及实际 Windows EXE 三尺寸受控图形通过。性能仍超预算，参考机/显示延迟与人工验收开放。详见 [当前验证记录](docs/validation/convergence-2026-10-15.md)。
+**Current build / 当前构建**：2026-10-18 Q1战斗品质迭代：新扫斩、命中/击杀反馈、角色/首领、海岸遗迹与分区HUD。14组5,249原生断言、源码及新EXE三尺寸受控图形通过；体验和性能验收仍开放。详见 [实机前后与验证](docs/validation/quality-20261018.md)。
 
 ## Play the Windows demo
 
-1. Double-click `builds/windows/m4/AbyssExpedition.exe`. The embedded game data requires no separate PCK or Godot installation. Previous M1/M2/M3 builds are retained separately.
+1. Double-click `builds/windows/quality-20261018/AbyssExpedition.exe`. Previous M4 is retained in `builds/windows/m4/`. The embedded game data requires no separate PCK or Godot installation. Previous M1/M2/M3 builds are retained separately.
 2. In the guild, choose **Expedition**, then Aren (melee arc), Lia (straight arrows), or Milo (homing stars). All three starting classes are owned permanently without drawing. Recruited heroes become additional next-run selections.
 3. Use the displayed random seed or enter a decimal seed from **0 to 2147483647**, then choose **Start Expedition**. Clearing the field generates a new seed on the first press; press Start again to use it.
 4. Move with **WASD or arrow keys**. Attacks fire automatically toward nearby enemies. Collect the cyan diamond gems.
@@ -48,6 +48,8 @@ Open `project.godot` with the included `tools/godot-4.5/Godot_v4.5-stable_win64.
 ```
 
 Engine pin: `4.5.stable.official.876b29033`. The independently installed 4.7.2 binary is not used for validation.
+
+Q1 comparison captures and the separately retained build can be reproduced with `./tools/validate_quality.ps1` (diagnostic Dummy audio). See [Q1 specification](specs/001-abyss-expedition-mvp/quality-pass-20261018.md).
 
 ## Validate and rebuild
 

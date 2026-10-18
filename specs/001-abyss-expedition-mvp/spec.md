@@ -444,3 +444,7 @@ These are acceptance targets, not implemented/tested gameplay claims. Playtests 
 - Two equal-probability heroes plus token exchange need no pity system. Resources have no expiry, purchase option, or daily online requirement.
 - Constitution version 1.0.0 supplies original-content, readability, gameplay-first, reproducibility, and checkpoint governance. Engine/architecture/testing constraints apply in planning rather than becoming implementation instructions here.
 - This document covers the full requested MVP and bounds the next plan to Milestone 1. Later plans depend on verified earlier gates; no gameplay, assets, dependencies, or project settings are implemented by this specification step.
+## 授权品质增量（2026-10-18）
+
+用户已授权自主打磨现有核心体验。当前增量的范围、验收和不变条件见 [Q1战斗品质](quality-pass-20261018.md)；原FR/SC和未完成人工验收继续有效。
+

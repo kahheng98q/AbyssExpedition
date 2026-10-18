@@ -84,9 +84,13 @@ func _draw() -> void:
 		color = profession.visual_set.palette
 		if element == "frost": color = Color(0.4, 0.85, 1)
 	if homing:
-		draw_line(Vector2(-5, 0), Vector2(5, 0), color, 2)
-		draw_line(Vector2(0, -5), Vector2(0, 5), color, 2)
+		for i in range(4, 0, -1):
+			draw_circle((-direction * i * 4).round(), 3 - i * 0.4, Color(color, 0.5 - i * 0.08))
+		draw_colored_polygon(PackedVector2Array([Vector2(0, -6), Vector2(4, 0), Vector2(0, 6), Vector2(-4, 0)]), color)
+		draw_line(Vector2(-2, 0), Vector2(2, 0), Color("fff6df"), 2)
 	else:
+		draw_line(-direction * 21, -direction * 7, Color(color, 0.22), 2)
+		draw_line(-direction * 12, direction * 5, Color("09141d"), 4)
 		draw_line(-direction * 7, direction * 5, color, 2)
 		draw_line(direction * 5, -direction.rotated(0.6) * 2, color)
 		draw_line(direction * 5, -direction.rotated(-0.6) * 2, color)

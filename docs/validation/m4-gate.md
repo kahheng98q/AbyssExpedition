@@ -80,3 +80,9 @@ Stress result: seed 101 p95/p99 25.606/28.257 ms; seed 202 25.816/28.183 ms; see
 Additional release regression: the same M4 executable passed earlier M2 promotion/branch/companion/downing paths and M3 rescue/draw/exchange/history/reveal/reopen paths at all three window sizes. The real release denies all debug entry points (20 assertions), while source developer UI passes its graphical regression (97 assertions). Together with the native suites, this is **1,840 counted passing assertions**, plus the source/release graphical checks that track failures without counting assertions. The final summary Escape test exercises both the early input guard and armed close; consuming input before synchronous detachment prevents a null viewport access. No shipping source changed after the final export.
 
 Final retained Windows executable: `builds/windows/m4/AbyssExpedition.exe`, 97,101,752 bytes, SHA-256 `874471DAFE4164A6EA2706E79AE3B105C7C7BD4CBD3D8A48112050F15AA10E70`. Final source and actual-release Escape regressions both pass.
+
+## 后续Q1品质迭代 — 2026-10-18
+
+新表现和HUD已实现并经过14组5,249原生断言、三尺寸源码/实际新EXE受控图形验证。新构建独立保存在builds/windows/quality-20261018/，本页旧构建与性能证据保持保留。见[Q1前后、性能比较与体验假设](quality-20261018.md)。M4的人工体验/参考机/显示延迟gate仍未关闭。
+
+Q1最终实际release的seed101密集样本p95=13.768ms/p99=14.345ms，30秒预热＋120主动秒且工作负载有效，该样本达标。其余seed/参考机/延迟/人工验收仍开放；详见Q1报告，不能用这一样本抹去本页历史结果。

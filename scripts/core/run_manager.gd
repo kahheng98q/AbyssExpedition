@@ -8,6 +8,7 @@ signal state_changed
 signal run_finished(summary: Dictionary)
 signal rescue_presented
 signal event_presented
+signal hit_confirmed(point: Vector2, direction: Vector2, amount: float, fatal: bool, friendly: bool)
 
 var catalog: ContentCatalog
 var snapshot: RunStartSnapshot
@@ -73,6 +74,10 @@ func start(content: ContentCatalog, start_state: RunStartSnapshot, run_generatio
 		party.append(companion)
 		registry[companion.actor_id] = companion
 	phase = "active"
+	var feedback = preload("res://scripts/combat/combat_feedback.gd").new()
+	feedback.name = "CombatFeedback"
+	$CombatWorld.add_child(feedback)
+	feedback.bind_run(self)
 	$HUD/CombatHUD.bind_run(self)
 	camera.position = hero.position
 	state_changed.emit()

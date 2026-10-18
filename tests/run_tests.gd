@@ -11,6 +11,7 @@ class TestWatchdog extends Node:
 			printerr("FAIL: test watchdog expired")
 			get_tree().quit(3)
 const SUITES = {
+	"combat_feedback": ["res://tests/unit/test_combat_feedback.gd"],
 	"integration_m4": ["res://tests/unit/test_corruption.gd", "res://tests/integration/test_corruption_combat.gd", "res://tests/unit/test_events.gd", "res://tests/integration/test_m4_chapter.gd"],
 	"integration_m3": ["res://tests/integration/test_m3_rescue.gd", "res://tests/integration/test_m3_draws.gd"],
 	"recruitment": ["res://tests/unit/test_rescue.gd", "res://tests/unit/test_recruitment.gd", "res://tests/unit/test_m3_passives.gd"],

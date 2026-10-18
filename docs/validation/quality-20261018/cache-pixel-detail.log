@@ -1,0 +1,17 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+
+CACHE PIXEL COMPARE aren-combat changed=640/230400
+CACHE COLOR DELTA max=1.00000374019146 examples=[[221, 262, "5a5a38ff", "5a5938ff"], [222, 262, "5a5a38ff", "5a5938ff"], [220, 263, "5a5a38ff", "5a5938ff"], [219, 264, "5a5a38ff", "5a5938ff"]]
+CACHE PIXEL COMPARE aren-moving changed=510/230400
+CACHE COLOR DELTA max=1.00000374019146 examples=[[323, 322, "0b161aff", "0b151aff"], [362, 336, "0b161aff", "0b151aff"], [363, 336, "0b161aff", "0b151aff"], [346, 337, "0b161aff", "0b151aff"]]
+CACHE PIXEL COMPARE lia-combat changed=640/230400
+CACHE COLOR DELTA max=1.00000374019146 examples=[[221, 262, "5a5a38ff", "5a5938ff"], [222, 262, "5a5a38ff", "5a5938ff"], [220, 263, "5a5a38ff", "5a5938ff"], [219, 264, "5a5a38ff", "5a5938ff"]]
+CACHE PIXEL COMPARE lia-moving changed=520/230400
+CACHE COLOR DELTA max=1.00000374019146 examples=[[322, 322, "0b161aff", "0b151aff"], [397, 337, "0b161aff", "0b151aff"], [398, 337, "0b161aff", "0b151aff"], [398, 338, "0b161aff", "0b151aff"]]
+CACHE PIXEL COMPARE milo-combat changed=640/230400
+CACHE COLOR DELTA max=1.00000374019146 examples=[[221, 262, "5a5a38ff", "5a5938ff"], [222, 262, "5a5a38ff", "5a5938ff"], [220, 263, "5a5a38ff", "5a5938ff"], [219, 264, "5a5a38ff", "5a5938ff"]]
+CACHE PIXEL COMPARE milo-moving changed=525/230400
+CACHE COLOR DELTA max=1.00000374019146 examples=[[322, 322, "0b161aff", "0b151aff"], [345, 336, "0b161aff", "0b151aff"], [346, 336, "0b161aff", "0b151aff"], [361, 336, "0b161aff", "0b151aff"]]
+CACHE PIXEL COMPARE boss-warning changed=180/230400
+CACHE COLOR DELTA max=1.00000374019146 examples=[[26, 341, "272135ff", "262135ff"], [28, 341, "2d253aff", "2d253bff"], [33, 341, "2c2339ff", "2b2339ff"], [39, 341, "2f273dff", "2e273dff"]]
+CACHE PIXEL DIFFERENT FRAMES 7

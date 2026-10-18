@@ -1,0 +1,14 @@
+{
+  "label": "baseline",
+  "executable": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\builds\\windows\\m4\\AbyssExpedition.exe",
+  "sha256": "F7FF2552727165592DA061C4B708EED1087CF5966E0F17918665D7B392DD54CD",
+  "fixture_sha256": "7DCA1F8EFDA48F6198D31C0480F0C54F9B10EE15FA85937F64877C5594380A32",
+  "audio": "Dummy",
+  "seed": 101,
+  "warmup_active_seconds": 30,
+  "capture_active_seconds": 120,
+  "reference_acceptance": false,
+  "foreground": "not independently observed",
+  "power_mode": "not independently observed",
+  "note": "One seed comparison, no simultaneous validation processes intended; not a reference-hardware or input-latency acceptance."
+}

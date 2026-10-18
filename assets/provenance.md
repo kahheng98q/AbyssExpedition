@@ -27,3 +27,11 @@ Creator/source: project-authored GDScript drawing, no external asset source. Per
 ## Promotion preview reuse - 2026-10-16
 
 Promotion screens reuse project-authored ActorPresentation and profession VisualSet Resources at integer 2x. No external art or gameplay rules in UI. Original procedural placeholders remain replaceable by the planned original animation sheets. Actual release captures: screenshots/convergence-exe-m2-promotion-aren-1280.png and corresponding Lia/Milo screens.
+
+## Q1 original procedural presentation — 2026-10-18
+
+Original 2D drawing code in actor_presentation.gd, melee_arc.gd, projectile.gd, combat_feedback.gd and coast_field.gd creates armor/cloaks/weapons, drowned cult silhouettes, bone-crown single-eyed boss, hit sparks, trails and ruined coastal stonework. No downloaded/copied art, fonts or sounds added; Godot fallback font remains. Authoring: Codex for this project under the user's design authorization. Keep source attribution to this project; formal sprite sheets/animation production and audio are future replacement work. Design articles are references only; no art from those articles is distributed. Real before/v1/after engine captures are retained in screenshots/quality-20261018/ and are labeled controlled diagnostics.
+
+Q1性能修正：海岸原始程序图形由tools/bake_coast_art.gd通过Godot自己的2D渲染烘焙为assets/world/coast-0.png、coast-100.png。运行时按腐化比例混合，不改变碰撞。draw_field保留为可编辑来源；替换地形美术时重新烘焙并核对前后截图。这两张图是本项目原创生成资产，不来自参考游戏或第三方网站。
+
+Q1 enemy-atlas.png is a documentation-traceable, locally baked original sprite atlas: 7 current enemy silhouettes by 8 visual states (two motion poses, normal/hurt, uncorrupted/corrupted), generated only from this project's actor_presentation.gd by tools/bake_enemy_art.gd. Each 64x80 cell includes the original-size body plus decorative rings/shadow; hitboxes are unchanged. It is a performance atlas, not a claim of hand-authored final animation. Runtime warnings/health bars remain live; hero rendering remains procedural. Re-bake after changing source drawing or enemy VisualSet palettes.

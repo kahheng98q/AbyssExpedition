@@ -11,7 +11,23 @@ static func contains(origin: Vector2, facing: Vector2, radius: float, degrees: f
 	var difference = point - origin
 	return difference.length() <= radius and (difference.is_zero_approx() or facing.dot(difference.normalized()) >= cos(deg_to_rad(degrees * 0.5)))
 
+func _process(_delta: float) -> void:
+	queue_redraw()
+
 func _draw() -> void:
 	var half = deg_to_rad(angle * 0.5)
-	draw_arc(Vector2.ZERO, reach, direction.angle() - half, direction.angle() + half, 18, color, 3)
-	draw_arc(Vector2.ZERO, reach - 8, direction.angle() - half, direction.angle() + half, 18, Color(0.3, 0.8, 0.76, 0.4), 4)
+	var phase = clampf((10.0 - (expires - run.clock.tick)) / 10.0, 0, 1) if run != null else 0.4
+	var fade = 1.0 - phase
+	var start = direction.angle() - half
+	var end = direction.angle() + half
+	# The complete rim appears on the actual hit tick; the blade sweeps through it.
+	draw_arc(Vector2.ZERO, reach, start, end, 24, Color(color, fade * 0.6), 1)
+	var blade = lerpf(start, end, minf(1, phase * 1.6))
+	var tail = maxf(start, blade - half * 0.9)
+	var points = PackedVector2Array()
+	for i in range(13): points.append(Vector2.from_angle(lerpf(tail, blade, i / 12.0)) * reach)
+	for i in range(12, -1, -1): points.append(Vector2.from_angle(lerpf(tail, blade, i / 12.0)) * (reach - 5 - i * 0.5))
+	if blade > tail:
+		draw_colored_polygon(points, Color(color, fade * 0.75))
+		draw_arc(Vector2.ZERO, reach - 2, tail, blade, 18, Color(0.95, 1, 0.91, fade), 2)
+	draw_line(Vector2.from_angle(blade) * 12, Vector2.from_angle(blade) * reach, Color(1, 0.96, 0.79, fade), 2)

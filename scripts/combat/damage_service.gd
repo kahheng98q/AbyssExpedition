@@ -19,7 +19,9 @@ func resolve_tick_hits(run, tick: int) -> void:
 		var target = run.actor_by_id(hit.target)
 		if target == null or target.health.dead: continue
 		var value = amount(hit.damage, target.stats.defense, target.resistance * PassiveExecutor.incoming(target, tick))
+		var health_before: float = target.health.current
 		if target.health.receive(value, tick, target.is_hero):
+			run.hit_confirmed.emit(target.position, hit.direction, health_before - target.health.current, target.health.dead, target.is_hero)
 			PassiveExecutor.accepted_hit(target, tick)
 			if not target.resistant:
 				target.knockback += hit.direction * hit.get("knockback", 0.0)

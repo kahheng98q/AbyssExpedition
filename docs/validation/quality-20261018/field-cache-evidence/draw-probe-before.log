@@ -1,0 +1,7 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 546.30 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1650
+
+DRAW PROBE full calls=2503.0 process_ms=17.351
+DRAW PROBE no_field calls=1162.0 process_ms=17.351
+DRAW PROBE no_field_no_actors calls=690.0 process_ms=17.351
+DRAW PROBE no_field_no_actors_no_projectiles calls=690.0 process_ms=17.351
