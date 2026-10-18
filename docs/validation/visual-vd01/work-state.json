@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-17",
+  "scope": "Owner approve all/proceed authorized exact8-item Phases4\u20136; stop at G2, no gameplay/balance/G3. Reviewer checklists read-only.",
+  "candidate_sha256": "f187bd763fe92b69069722432c4534178c32206be6cf76a59ba9fe8fe7e95d42",
+  "embedded_pack_sha256": "c6d626b275117e8f5ec8c476ed6cc8574792a8b53bd3dab55927d8e565d98bfe",
+  "frozen_runtime": "Do not change runtime now; corrected6 nonblank props and painted shrine detail already passed final-r4 full5275 plusdebug69, actual source/release graphical and120tick paired EXE observations.",
+  "active_process_tool_session": null,
+  "running": "none; candidate handoff complete",
+  "baseline": [
+    "before/perf originalM4",
+    "before/perf-visual-r1 matching final P02 instrumentation"
+  ],
+  "obsolete_intermediate": "04a8 pack / f232 candidate in intermediate-04a8; after/perf and after/perf-visual are obsolete pre-prop-fix runs, retained not final.",
+  "canonical_captures": [
+    "screenshots/visual-vd01/before/release-r1",
+    "screenshots/visual-vd01/after/source-r3",
+    "screenshots/visual-vd01/after/release-r3"
+  ],
+  "latest_logs": [
+    "final-r4 full12 suites5275",
+    "final-debug-r1 debug69/source97/export97/denial20",
+    "final-release-r1 all actual M2/M3/M4 GUI+denial20+sourceDebug97",
+    "comparison/gameplay-r1120ticks equal separate catalog hashes",
+    "offline-browser-checks.json30 passed zero network",
+    "offline-links.json351 refs no missing concept hash unchanged"
+  ],
+  "next": [
+    "Owner G2 playable/visual review; human/reference/latency and remaining verification criteria are explicit, no G3 authorization."
+  ],
+  "human_pending": [
+    "10-person recognition/UI CSV only headers",
+    "physical<=100ms feedback equipment unavailable",
+    "reference performance host unavailable current Ryzen5800H GTX1650 misses budgets",
+    "physical-window letterbox and full wall-clock death/pause/speed/long-value/manual matrix pending"
+  ],
+  "skills": "speckit-implement applied; no subagents, no goals, no Git metadata assumed.",
+  "caution": "Evidence CSV caused Godot localization import errors; docs/validation/.gdignore and screenshots/.gdignore now fixed clean final-r4 import. Do not delete archives or regenerate original G1 package3c207...",
+  "machine_work_complete": true,
+  "g2_accepted": false
+}

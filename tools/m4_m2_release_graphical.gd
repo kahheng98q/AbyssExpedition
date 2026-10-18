@@ -29,7 +29,7 @@ func _initialize() -> void:
 func capture(name_value: String) -> void:
 	await process_frame
 	await RenderingServer.frame_post_draw
-	if root.get_texture().get_image().save_png("C:/Users/kahhe/Desktop/Project/new-game-project/screenshots/convergence-exe-m2-" + name_value + ".png") != OK: failures += 1
+	if root.get_texture().get_image().save_png("C:/Users/kahhe/Desktop/Project/new-game-project/docs/validation/visual-vd01/completion-r1/release-regression/captures/convergence-exe-m2-" + name_value + ".png") != OK: failures += 1
 
 func layout(screen, name_value: String) -> void:
 	await process_frame

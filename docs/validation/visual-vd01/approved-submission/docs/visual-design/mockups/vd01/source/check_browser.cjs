@@ -1,0 +1,37 @@
+const {chromium}=require('C:/Users/kahhe/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const fs=require('fs'),path=require('path'),{pathToFileURL}=require('url');
+(async()=>{
+ const root=path.resolve(__dirname,'../../../../..'),out=path.join(root,'docs/validation/visual-vd01'),browser=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true}),page=await browser.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'});
+ const errors=[],requests=[],checks=[],cancellations=[];page.on('pageerror',e=>errors.push(e.message));page.on('requestfailed',r=>{const s=r.url()+': '+r.failure()?.errorText;if(r.failure()?.errorText==='net::ERR_ABORTED'&&r.url().endsWith('.webm'))cancellations.push(s);else errors.push(s)});
+ await page.route(/^https?:/,r=>{requests.push(r.request().url());return r.abort()});
+ const check=(name,passed,detail)=>{checks.push({name,passed,detail});if(!passed)console.log('FAIL '+name,detail)};
+ await page.goto(pathToFileURL(path.join(root,'docs/visual-design/preview.html')).href);
+ await page.evaluate(()=>{document.querySelectorAll('img').forEach(i=>i.loading='eager')});await page.waitForFunction(()=>[...document.images].every(i=>i.complete));
+ const missing=await page.evaluate(()=>[...document.images].filter(i=>!i.naturalWidth).map(i=>i.getAttribute('src')));check('all page images load offline',!missing.length,missing);
+ await page.locator('#hud').scrollIntoViewIfNeeded();await page.screenshot({path:path.join(out,'preview-desktop.png'),fullPage:false});
+ await page.locator('[data-scene="level"]').click();await page.keyboard.press('1');check('fresh-input guard in HTML',!(await page.locator('#interaction-status').innerText()).includes('样稿试选'));
+ await page.waitForTimeout(220);await page.keyboard.press('2');check('numeric choice demo', (await page.locator('#interaction-status').innerText()).includes('Quick Hands'));
+ await page.keyboard.press('ArrowDown');await page.keyboard.press('Enter');await page.waitForTimeout(200);await page.keyboard.press('Enter');check('arrows and Enter demo',(await page.locator('#interaction-status').innerText()).includes('Vitality'));
+ await page.waitForTimeout(200);await page.locator('[data-choice="0"]').click();check('click choice demo',(await page.locator('#interaction-status').innerText()).includes('Might'));
+ await page.locator('#scale').selectOption('2');const dim=await page.locator('#stage-image').boundingBox();check('integer scale 2x',dim.width===1280&&dim.height===720,dim);
+ await page.locator('#scale').selectOption('3');const dim3=await page.locator('#stage-image').boundingBox();check('integer scale 3x',dim3.width===1920&&dim3.height===1080,dim3);await page.locator('#scale').selectOption('1');
+ await page.locator('[data-scene="battle"]').click();await page.locator('#condition').selectOption('stress');await page.locator('#rescue').selectOption('success');check('combined HUD and rescue variants',(await page.locator('#stage-image').getAttribute('src')).includes('hud-success.png'));
+ await page.locator('#grayscale').click();check('grayscale toggle',await page.locator('#stage').evaluate(e=>e.classList.contains('gray')));await page.locator('#grayscale').click();
+ await page.locator('[data-scene="baseline"]').click();check('REAL historical label and real image',(await page.locator('#stage-label').innerText()).includes('REAL')&&(await page.locator('#stage-image').getAttribute('src')).includes('screenshots/m4-release'));
+ await page.locator('[data-shrine="shrine-0.png"]').click();check('corruption0 shrine',(await page.locator('#shrine-image').getAttribute('src')).endsWith('shrine-0.png'));
+ await page.locator('[data-shrine="shrine-unlit.png"]').click();check('unlit shrine',(await page.locator('#shrine-image').getAttribute('src')).endsWith('shrine-unlit.png'));
+ await page.locator('[data-scene="battle"]').click();await page.locator('#condition').selectOption('normal');
+ await page.setViewportSize({width:390,height:844});await page.locator('#hud').scrollIntoViewIfNeeded();
+ check('mobile page stays within viewport',await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth),await page.evaluate(()=>({scrollWidth:document.documentElement.scrollWidth,innerWidth})));check('native board scrolls instead of fractional shrinking',(await page.locator('#stage-image').boundingBox()).width===640);
+ await page.screenshot({path:path.join(out,'preview-mobile.png')});
+ await page.setViewportSize({width:1440,height:1000});await page.locator('#units').scrollIntoViewIfNeeded();await page.screenshot({path:path.join(out,'preview-units.png')});
+ await page.goto(pathToFileURL(path.join(root,'docs/visual-design/mockups/vd01/motion-player.html')).href);await page.waitForFunction(()=>window.VDReady===true);check('motion player local sprites load',await page.evaluate(()=>window.VDReady));
+ await page.evaluate(()=>window.renderFrame('actors',3.1));await page.locator('canvas').screenshot({path:path.join(out,'motion-attack.png')});
+ await page.evaluate(()=>window.renderFrame('events',.15));await page.locator('canvas').screenshot({path:path.join(out,'motion-late.png')});
+ const allVideos=fs.readdirSync(path.join(root,'docs/visual-design/mockups/vd01')).filter(n=>n.endsWith('.webm'));const decoded=[];
+ for(const file of allVideos){const m=await page.evaluate(async f=>{const v=document.createElement('video');v.muted=true;v.src=f;await new Promise((res,rej)=>{v.onloadedmetadata=res;v.onerror=()=>rej(Error('metadata '+f))});v.currentTime=Math.min(.1,v.duration/2);await new Promise((res,rej)=>{v.onseeked=res;v.onerror=()=>rej(Error('decode '+f))});return {file:f,width:v.videoWidth,height:v.videoHeight,duration:v.duration,readyState:v.readyState}},file);decoded.push(m);check('video decode '+file,m.width===640&&m.height===360&&m.readyState>=2,m);}
+ await page.locator('#mode').selectOption('actors');await page.locator('#play').click();await page.waitForTimeout(100);check('playback control',await page.locator('#play').getAttribute('aria-pressed')==='true');await page.locator('#play').click();check('pause control',await page.locator('#play').getAttribute('aria-pressed')==='false');
+ check('zero HTTP requests',requests.length===0,requests);check('no browser script or resource errors',errors.length===0,errors);
+ const report={date:'2026-10-16',method:'headless Chrome file:// offline browser; reduced-motion; NOT Godot graphical test',passed:checks.filter(c=>c.passed).length,failed:checks.filter(c=>!c.passed).length,errors,remote_requests:requests,cancelled_video_prefetches:cancellations,note:'Aborted media prefetches are retained separately; each actual video is seeked and decoded independently.',checks,decoded};
+ fs.writeFileSync(path.join(out,'browser-checks.json'),JSON.stringify(report,null,2));await browser.close();console.log(JSON.stringify({passed:report.passed,failed:report.failed,errors}));if(report.failed)process.exitCode=1;
+})().catch(e=>{console.error(e);process.exitCode=1});

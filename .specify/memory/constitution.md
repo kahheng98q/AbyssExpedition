@@ -1,18 +1,18 @@
 <!--
-Sync Impact Report (temporary review note; remove before committing):
-Version change: unratified scaffold -> 1.0.0 (initial adoption).
-Modified principles: placeholder principles replaced by the eight project principles below.
-Added principles: I. Gameplay First; II. Modular Game Architecture;
-III. Original Intellectual Property; IV. Testable Development; V. Consistent Pixel Art;
-VI. Performance and Maintainability; VII. Scope Control; VIII. Incremental Delivery.
-Added sections: Game Identity and Project Constraints; Spec Kit Workflow and Quality Gates;
-concrete Governance rules.
-Removed sections: none; unused scaffold examples and placeholders removed.
-Compatibility review: specify, plan, tasks, implement, and analyze skills already load this
-constitution. The plan template already requires a Constitution Check. Generic template
-examples, including optional tests and online infrastructure, yield to this constitution.
-Dependent templates and commands: reviewed; no modifications required.
-Deferred TODOs: none. Feature-specific numeric art and performance targets belong in plans.
+Sync Impact Report:
+Version: 1.0.0 -> 1.1.0 (expanded autonomous execution/documentation guidance).
+Authorized by: project owner's workflow configuration request, 2026-10-18.
+Modified principles: IV Testable Development (automatic test/fix loop);
+VIII Incremental Delivery (dependent failures vs independent pending verification).
+Added section: Autonomous Implementation with Continuous Documentation.
+Removed principles: none. Owner authorization for constitutional amendments is retained;
+it is not routine task/phase approval. No gameplay, art budget or acceptance target changes.
+Synchronized: AGENTS.md; active 002 spec/plan/tasks and quickstart; workflow YAML/registry;
+checklist template execution note; dashboard/overview/README/development; approval register;
+Chinese historical-copy notices. Historical 001 acceptance and reviewer checklists unchanged.
+Migration: G0/G1/G2 become evidence checkpoints; G3 remains outside authorized scope.
+Generic skill STOP prompts yield to explicit project instructions in AGENTS.md.
+Deferred TODOs: none. Manual/hardware checks remain pending, not waived.
 -->
 
 # Abyss Expedition Constitution
@@ -75,6 +75,8 @@ Rationale: stable boundaries allow new characters and mechanics without rewritin
 - Test reports MUST state the command or procedure actually executed, its result, and any
   relevant seed or environment. Written tests, static inspection, and planned checks MUST NOT
   be reported as executed tests.
+- Developers MUST automatically diagnose and fix in-scope implementation errors, rerun affected
+  checks, and preserve failed-attempt evidence as well as the final result.
 - Unavailable tools, unexecuted checks, failures, and testing limitations MUST be recorded.
   An unverified acceptance criterion MUST remain explicitly unverified.
 
@@ -121,8 +123,9 @@ Rationale: stable boundaries allow new characters and mechanics without rewritin
   checkpoint and evidence of its outcome. Setup phases MAY deliver a validated project rather
   than playable gameplay.
 - Blocking import, parse, runtime, test, or integration errors MUST be fixed before proceeding
-  to the next implementation phase. Missing validation tooling MUST be reported as a limitation,
-  never as a passing check.
+  with work that depends on the failure. Developers MUST continue independent in-scope work
+  when safe. Missing tooling or human verification MUST be reported as pending limitations,
+  never as passing checks, and MUST NOT stop unrelated tasks.
 - Project setup, run instructions, test instructions, and developer documentation MUST be
   updated whenever a phase changes them. Required engine versions, dependencies, and relevant
   seeds/configuration MUST be documented sufficiently to reproduce the checks.
@@ -164,8 +167,29 @@ examples involving accounts, web APIs, servers, or optional tests MUST NOT overr
   MUST be recorded within the active feature scope rather than silently broadening it.
 - **Implement:** execute the active tasks incrementally. At each checkpoint, perform the planned
   checks, preserve existing functionality through relevant regression checks, record results
-  and limitations, and fix blockers before moving on. Completion claims MUST distinguish
+  and limitations, and fix implementation errors before dependent work. Completion claims MUST distinguish
   implemented work from verified behavior and identify any outstanding acceptance criteria.
+
+## Autonomous Implementation with Continuous Documentation
+
+- Agents MUST continue all authorized in-scope tasks in dependency order without routine human
+  approval between tasks or manual sign-off between phases. Technical checkpoints remain required.
+- Agents MUST NOT stop solely to request visual design approval. Versioned proposals, style
+  decisions and evidence MUST remain reviewable; actual owner decisions MUST never be invented.
+- After every phase, agents MUST update the offline visual dashboard, concise Chinese overview,
+  README documentation links, development record, task status and applicable validation evidence.
+- Manual checks that cannot be automated MUST stay pending with the reason and follow-up recorded.
+  Unavailable human reviewers, reference hardware or physical-display measurements MUST NOT block
+  unrelated work. Automated checks MUST NOT be substituted for those acceptance criteria.
+- Reviewer-owned checklist files and markers MUST remain read-only. Unchecked markers alone MUST
+  NOT trigger approval prompts; implementation evidence and unresolved findings belong separately.
+- User intervention MUST be requested only for genuine blockers requiring their input, high-risk
+  actions or required platform permissions. Unaffected work MUST continue when safe.
+- Scope, offline operation, originality, save safety, deterministic behavior, regression checks
+  and performance/acceptance targets remain binding. Scope expansion is not authorized by autonomy.
+- AGENTS.md and current feature workflow amendments supersede obsolete routine approval gates in
+  historical artifacts and generic skill/template prompts. A documentation/configuration update
+  alone MUST NOT initiate feature implementation.
 
 ## Governance
 
@@ -185,4 +209,4 @@ MINOR for new principles or materially expanded guidance; PATCH for clarificatio
 without changed obligations. Initial adoption is version 1.0.0. The original ratification date
 MUST remain unchanged in subsequent amendments.
 
-**Version**: 1.0.0 | **Ratified**: 2026-10-14 | **Last Amended**: 2026-10-14
+**Version**: 1.1.0 | **Ratified**: 2026-10-14 | **Last Amended**: 2026-10-18

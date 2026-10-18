@@ -1,0 +1,10 @@
+[
+  {
+    "path": "scripts/combat/actor_presentation.gd",
+    "sha256": "b2a0ab3bb91dfe361833de9c89131ed0fc607cd1a765eb0563c3aa0ba4964158"
+  },
+  {
+    "path": "scripts/combat/melee_arc.gd",
+    "sha256": "77818784f0ebdbf470d18b2b5dfb885e5fa8c6827e6d5c6b4e16c092a799009c"
+  }
+]

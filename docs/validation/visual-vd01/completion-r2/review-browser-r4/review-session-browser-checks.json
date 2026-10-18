@@ -1,0 +1,98 @@
+{
+  "synthetic_automation_only": true,
+  "checks": [
+    {
+      "name": "mobile setup fits offline",
+      "pass": true
+    },
+    {
+      "name": "undersized display cannot shrink a trial",
+      "pass": true
+    },
+    {
+      "name": "full-size display enables exposure",
+      "pass": true
+    },
+    {
+      "name": "real native frames at exact 2x",
+      "pass": true
+    },
+    {
+      "name": "answers hidden during recognition exposure",
+      "pass": true
+    },
+    {
+      "name": "six independent recognition answers",
+      "pass": true
+    },
+    {
+      "name": "UI early response opens one raw answer",
+      "pass": true
+    },
+    {
+      "name": "resize invalidates an exposed trial",
+      "pass": true
+    },
+    {
+      "name": "3x requires the complete display area",
+      "pass": true
+    },
+    {
+      "name": "exact 3x without clipping or fractional scaling",
+      "pass": true
+    },
+    {
+      "name": "raw JSON remains copyable even if browser cancels download",
+      "pass": true
+    },
+    {
+      "name": "automation is not asserted to be actual human evidence",
+      "pass": true
+    },
+    {
+      "name": "missing trials retained",
+      "pass": true
+    },
+    {
+      "name": "two-second exposure is measured and masked",
+      "pass": true
+    },
+    {
+      "name": "UI response signal retains elapsed time",
+      "pass": true
+    },
+    {
+      "name": "timeout never fabricates a timely UI response",
+      "pass": true
+    },
+    {
+      "name": "invalid raw record is preserved",
+      "pass": true
+    },
+    {
+      "name": "CSV exports raw unscored answers",
+      "pass": true
+    },
+    {
+      "name": "missing assets cannot produce valid exposure",
+      "pass": true
+    },
+    {
+      "name": "no uncaught browser errors or remote requests",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "network": [],
+  "downloadFailures": [
+    {
+      "format": "json",
+      "failure": "canceled"
+    },
+    {
+      "format": "csv",
+      "failure": "canceled"
+    }
+  ],
+  "export_limit": "Browser download result recorded separately; copyable raw text is the verified fallback."
+}

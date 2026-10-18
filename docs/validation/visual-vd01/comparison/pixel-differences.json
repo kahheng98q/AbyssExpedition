@@ -1,0 +1,150 @@
+{
+  "kind": "DERIVED difference analysis, not gameplay screenshot",
+  "pairs": [
+    {
+      "name": "combat-c0-1280.png",
+      "before_sha256": "8fe2194d5df3dc412bac71046bf40b29271d673f8b58faea3cd2d741b54720ed",
+      "after_sha256": "971e09c3b6465dcb6313f1b93f80061991ebd11b55c820ed031339a7de891c14",
+      "changed_pixels": 227724,
+      "total_pixels": 230400,
+      "derived_diff": "comparison/images-r1/combat-c0-1280.png"
+    },
+    {
+      "name": "combat-c0-1371.png",
+      "before_sha256": "8fe2194d5df3dc412bac71046bf40b29271d673f8b58faea3cd2d741b54720ed",
+      "after_sha256": "971e09c3b6465dcb6313f1b93f80061991ebd11b55c820ed031339a7de891c14",
+      "changed_pixels": 227724,
+      "total_pixels": 230400,
+      "derived_diff": "comparison/images-r1/combat-c0-1371.png"
+    },
+    {
+      "name": "combat-c0-1920.png",
+      "before_sha256": "8fe2194d5df3dc412bac71046bf40b29271d673f8b58faea3cd2d741b54720ed",
+      "after_sha256": "971e09c3b6465dcb6313f1b93f80061991ebd11b55c820ed031339a7de891c14",
+      "changed_pixels": 227724,
+      "total_pixels": 230400,
+      "derived_diff": "comparison/images-r1/combat-c0-1920.png"
+    },
+    {
+      "name": "combat-c100-1280.png",
+      "before_sha256": "d3461abf4a1c4b5661489d0b2e9be8ccb1d95435d3eac9bbb80d4eb818d2780e",
+      "after_sha256": "4255abba33755ed0c5c2a7147471890573cd3f02180a98215a231b709b360027",
+      "changed_pixels": 227724,
+      "total_pixels": 230400,
+      "derived_diff": "comparison/images-r1/combat-c100-1280.png"
+    },
+    {
+      "name": "combat-c100-1371.png",
+      "before_sha256": "d3461abf4a1c4b5661489d0b2e9be8ccb1d95435d3eac9bbb80d4eb818d2780e",
+      "after_sha256": "4255abba33755ed0c5c2a7147471890573cd3f02180a98215a231b709b360027",
+      "changed_pixels": 227724,
+      "total_pixels": 230400,
+      "derived_diff": "comparison/images-r1/combat-c100-1371.png"
+    },
+    {
+      "name": "combat-c100-1920.png",
+      "before_sha256": "d3461abf4a1c4b5661489d0b2e9be8ccb1d95435d3eac9bbb80d4eb818d2780e",
+      "after_sha256": "4255abba33755ed0c5c2a7147471890573cd3f02180a98215a231b709b360027",
+      "changed_pixels": 227724,
+      "total_pixels": 230400,
+      "derived_diff": "comparison/images-r1/combat-c100-1920.png"
+    },
+    {
+      "name": "level-up-1280.png",
+      "before_sha256": "d3a0ba61461b6323058065fac1f21179251e0941fbc6fb18ae79f61c3557d44a",
+      "after_sha256": "c5f68115d94739c5bc997673072fca87e4daeb76ea0a212a907bf6295897bc8f",
+      "changed_pixels": 230310,
+      "total_pixels": 230400,
+      "derived_diff": "comparison/images-r1/level-up-1280.png"
+    },
+    {
+      "name": "level-up-1371.png",
+      "before_sha256": "d3a0ba61461b6323058065fac1f21179251e0941fbc6fb18ae79f61c3557d44a",
+      "after_sha256": "c5f68115d94739c5bc997673072fca87e4daeb76ea0a212a907bf6295897bc8f",
+      "changed_pixels": 230310,
+      "total_pixels": 230400,
+      "derived_diff": "comparison/images-r1/level-up-1371.png"
+    },
+    {
+      "name": "level-up-1920.png",
+      "before_sha256": "d3a0ba61461b6323058065fac1f21179251e0941fbc6fb18ae79f61c3557d44a",
+      "after_sha256": "c5f68115d94739c5bc997673072fca87e4daeb76ea0a212a907bf6295897bc8f",
+      "changed_pixels": 230310,
+      "total_pixels": 230400,
+      "derived_diff": "comparison/images-r1/level-up-1920.png"
+    },
+    {
+      "name": "rescue-declined-1280.png",
+      "before_sha256": "81fafb026a75c4f4a0b1ab2312e778d20ed11871ddb14e90cfc50692b9e323b5",
+      "after_sha256": "ab8f610892f1a090c329a7aaef4331024f0f7a99ad0418f7f74445fadd08bd3d",
+      "changed_pixels": 227724,
+      "total_pixels": 230400,
+      "derived_diff": "comparison/images-r1/rescue-declined-1280.png"
+    },
+    {
+      "name": "rescue-declined-1371.png",
+      "before_sha256": "81fafb026a75c4f4a0b1ab2312e778d20ed11871ddb14e90cfc50692b9e323b5",
+      "after_sha256": "ab8f610892f1a090c329a7aaef4331024f0f7a99ad0418f7f74445fadd08bd3d",
+      "changed_pixels": 227724,
+      "total_pixels": 230400,
+      "derived_diff": "comparison/images-r1/rescue-declined-1371.png"
+    },
+    {
+      "name": "rescue-declined-1920.png",
+      "before_sha256": "81fafb026a75c4f4a0b1ab2312e778d20ed11871ddb14e90cfc50692b9e323b5",
+      "after_sha256": "ab8f610892f1a090c329a7aaef4331024f0f7a99ad0418f7f74445fadd08bd3d",
+      "changed_pixels": 227724,
+      "total_pixels": 230400,
+      "derived_diff": "comparison/images-r1/rescue-declined-1920.png"
+    },
+    {
+      "name": "rescue-failed-1280.png",
+      "before_sha256": "07128a08dfac84c8196405cb4aefe550eaa127d8f48c91d65dd3cb7a1783bc77",
+      "after_sha256": "3572fced8c885e380b63b1bc52af45d32a694c1f06988abfe9382b5230ea70c7",
+      "changed_pixels": 227724,
+      "total_pixels": 230400,
+      "derived_diff": "comparison/images-r1/rescue-failed-1280.png"
+    },
+    {
+      "name": "rescue-failed-1371.png",
+      "before_sha256": "07128a08dfac84c8196405cb4aefe550eaa127d8f48c91d65dd3cb7a1783bc77",
+      "after_sha256": "3572fced8c885e380b63b1bc52af45d32a694c1f06988abfe9382b5230ea70c7",
+      "changed_pixels": 227724,
+      "total_pixels": 230400,
+      "derived_diff": "comparison/images-r1/rescue-failed-1371.png"
+    },
+    {
+      "name": "rescue-failed-1920.png",
+      "before_sha256": "07128a08dfac84c8196405cb4aefe550eaa127d8f48c91d65dd3cb7a1783bc77",
+      "after_sha256": "3572fced8c885e380b63b1bc52af45d32a694c1f06988abfe9382b5230ea70c7",
+      "changed_pixels": 227724,
+      "total_pixels": 230400,
+      "derived_diff": "comparison/images-r1/rescue-failed-1920.png"
+    },
+    {
+      "name": "rescue-succeeded-1280.png",
+      "before_sha256": "b8529a2ce2d5d182ff2838647a5c51baa14320389472985512952d500935bc2a",
+      "after_sha256": "ab5970015a59621f9c3d54fb689b3672b06fbbd9f22988d810b1ddfd0b4368ad",
+      "changed_pixels": 227724,
+      "total_pixels": 230400,
+      "derived_diff": "comparison/images-r1/rescue-succeeded-1280.png"
+    },
+    {
+      "name": "rescue-succeeded-1371.png",
+      "before_sha256": "b8529a2ce2d5d182ff2838647a5c51baa14320389472985512952d500935bc2a",
+      "after_sha256": "ab5970015a59621f9c3d54fb689b3672b06fbbd9f22988d810b1ddfd0b4368ad",
+      "changed_pixels": 227724,
+      "total_pixels": 230400,
+      "derived_diff": "comparison/images-r1/rescue-succeeded-1371.png"
+    },
+    {
+      "name": "rescue-succeeded-1920.png",
+      "before_sha256": "b8529a2ce2d5d182ff2838647a5c51baa14320389472985512952d500935bc2a",
+      "after_sha256": "ab5970015a59621f9c3d54fb689b3672b06fbbd9f22988d810b1ddfd0b4368ad",
+      "changed_pixels": 227724,
+      "total_pixels": 230400,
+      "derived_diff": "comparison/images-r1/rescue-succeeded-1920.png"
+    }
+  ],
+  "visual_acceptance": "pending owner/human review"
+}

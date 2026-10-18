@@ -1,0 +1,10 @@
+[gd_scene load_steps=5 format=3]
+[ext_resource type="Script" path="res://scripts/world/coast_shrine_visual.gd" id="1"]
+[ext_resource type="TileSet" path="res://data/visuals/coast_shrine_tileset.tres" id="2"]
+[ext_resource type="Texture2D" path="res://assets/tiles/coast_shrine/props_vd01.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/tiles/coast_shrine/corruption_vd01.png" id="4"]
+[node name="ShrineVisual" type="Node2D"]
+script = ExtResource("1")
+tile_set = ExtResource("2")
+props = ExtResource("3")
+corruption_texture = ExtResource("4")

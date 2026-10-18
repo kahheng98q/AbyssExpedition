@@ -1,0 +1,187 @@
+{
+	"failures": [],
+	"kind": "controlled native rendered pixel equality, not human acceptance",
+	"records": [
+		{
+			"case": "sprite-00",
+			"exact_pixel_match": true,
+			"tick": 100
+		},
+		{
+			"case": "sprite-01",
+			"exact_pixel_match": true,
+			"tick": 101
+		},
+		{
+			"case": "sprite-02",
+			"exact_pixel_match": true,
+			"tick": 102
+		},
+		{
+			"case": "sprite-03",
+			"exact_pixel_match": true,
+			"tick": 103
+		},
+		{
+			"case": "sprite-04",
+			"exact_pixel_match": true,
+			"tick": 104
+		},
+		{
+			"case": "sprite-05",
+			"exact_pixel_match": true,
+			"tick": 105
+		},
+		{
+			"case": "sprite-06",
+			"exact_pixel_match": true,
+			"tick": 106
+		},
+		{
+			"case": "sprite-07",
+			"exact_pixel_match": true,
+			"tick": 107
+		},
+		{
+			"case": "sprite-08",
+			"exact_pixel_match": true,
+			"tick": 108
+		},
+		{
+			"case": "sprite-09",
+			"exact_pixel_match": true,
+			"tick": 109
+		},
+		{
+			"case": "sprite-10",
+			"exact_pixel_match": true,
+			"tick": 110
+		},
+		{
+			"case": "sprite-11",
+			"exact_pixel_match": true,
+			"tick": 111
+		},
+		{
+			"case": "sprite-12",
+			"exact_pixel_match": true,
+			"tick": 112
+		},
+		{
+			"case": "sprite-13",
+			"exact_pixel_match": true,
+			"tick": 113
+		},
+		{
+			"case": "sprite-14",
+			"exact_pixel_match": true,
+			"tick": 114
+		},
+		{
+			"case": "sprite-15",
+			"exact_pixel_match": true,
+			"tick": 115
+		},
+		{
+			"case": "sprite-16",
+			"exact_pixel_match": true,
+			"tick": 116
+		},
+		{
+			"case": "sprite-17",
+			"exact_pixel_match": true,
+			"tick": 117
+		},
+		{
+			"case": "fallback-00",
+			"exact_pixel_match": true,
+			"tick": 100
+		},
+		{
+			"case": "fallback-01",
+			"exact_pixel_match": true,
+			"tick": 101
+		},
+		{
+			"case": "fallback-02",
+			"exact_pixel_match": true,
+			"tick": 102
+		},
+		{
+			"case": "fallback-03",
+			"exact_pixel_match": true,
+			"tick": 103
+		},
+		{
+			"case": "fallback-04",
+			"exact_pixel_match": true,
+			"tick": 104
+		},
+		{
+			"case": "fallback-05",
+			"exact_pixel_match": true,
+			"tick": 105
+		},
+		{
+			"case": "fallback-06",
+			"exact_pixel_match": true,
+			"tick": 106
+		},
+		{
+			"case": "fallback-07",
+			"exact_pixel_match": true,
+			"tick": 107
+		},
+		{
+			"case": "fallback-08",
+			"exact_pixel_match": true,
+			"tick": 108
+		},
+		{
+			"case": "fallback-09",
+			"exact_pixel_match": true,
+			"tick": 109
+		},
+		{
+			"case": "fallback-10",
+			"exact_pixel_match": true,
+			"tick": 110
+		},
+		{
+			"case": "fallback-11",
+			"exact_pixel_match": true,
+			"tick": 111
+		},
+		{
+			"case": "fallback-12",
+			"exact_pixel_match": true,
+			"tick": 112
+		},
+		{
+			"case": "fallback-13",
+			"exact_pixel_match": true,
+			"tick": 113
+		},
+		{
+			"case": "fallback-14",
+			"exact_pixel_match": true,
+			"tick": 114
+		},
+		{
+			"case": "fallback-15",
+			"exact_pixel_match": true,
+			"tick": 115
+		},
+		{
+			"case": "fallback-16",
+			"exact_pixel_match": true,
+			"tick": 116
+		},
+		{
+			"case": "fallback-17",
+			"exact_pixel_match": true,
+			"tick": 117
+		}
+	],
+	"simulation_advanced": false
+}

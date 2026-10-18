@@ -1,0 +1,999 @@
+{
+  "sets": [
+    {
+      "role": "release",
+      "context": {
+        "utc": "2026-10-17T08:03:58.3821693Z",
+        "executable": "C:/Users/kahhe/Desktop/Project/new-game-project/builds/windows/m4/AbyssExpedition.console.exe",
+        "executable_sha256": "4002EEFFB14A7AF3DA16E5B0BE5B7F5DA773F2117D819B33226DBCD1D6562951",
+        "embedded_pack_sha256": "38EA36E5DFBC702510228A940BBD0D3FEB60F920DB527D2AAC56A6263791C2E0",
+        "harness_sha256": "CCE9B87F49BE8DED6864F8AC500CACB8427CA05FD9A49F524AF53F6EB3641CBD"
+      },
+      "records": 134,
+      "segments": [
+        {
+          "elapsed_usec": 824363,
+          "frame_end_exclusive": 16,
+          "frame_first": 0,
+          "input_action": "move_right",
+          "name": "move-right",
+          "position_end": [
+            564.79931640625,
+            270.0
+          ],
+          "position_start": [
+            480.0,
+            270.0
+          ],
+          "seconds_requested": 0.8,
+          "tick_end": 57,
+          "tick_start": 4
+        },
+        {
+          "elapsed_usec": 815413,
+          "frame_end_exclusive": 33,
+          "frame_first": 16,
+          "input_action": "move_down",
+          "name": "move-down",
+          "position_end": [
+            564.79931640625,
+            348.400299072266
+          ],
+          "position_start": [
+            564.79931640625,
+            270.0
+          ],
+          "seconds_requested": 0.8,
+          "tick_end": 106,
+          "tick_start": 57
+        },
+        {
+          "elapsed_usec": 816957,
+          "frame_end_exclusive": 50,
+          "frame_first": 33,
+          "input_action": "move_left",
+          "name": "move-left",
+          "position_end": [
+            486.400024414063,
+            348.400299072266
+          ],
+          "position_start": [
+            564.79931640625,
+            348.400299072266
+          ],
+          "seconds_requested": 0.8,
+          "tick_end": 155,
+          "tick_start": 106
+        },
+        {
+          "elapsed_usec": 816281,
+          "frame_end_exclusive": 67,
+          "frame_first": 50,
+          "input_action": "move_up",
+          "name": "move-up",
+          "position_end": [
+            486.400024414063,
+            270.0
+          ],
+          "position_start": [
+            486.400024414063,
+            348.400299072266
+          ],
+          "seconds_requested": 0.8,
+          "tick_end": 204,
+          "tick_start": 155
+        },
+        {
+          "elapsed_usec": 416800,
+          "frame_end_exclusive": 76,
+          "frame_first": 67,
+          "input_action": "",
+          "name": "idle",
+          "position_end": [
+            486.400024414063,
+            270.0
+          ],
+          "position_start": [
+            486.400024414063,
+            270.0
+          ],
+          "seconds_requested": 0.4,
+          "tick_end": 229,
+          "tick_start": 204
+        },
+        {
+          "elapsed_usec": 604579,
+          "frame_end_exclusive": 88,
+          "frame_first": 76,
+          "input_action": "",
+          "name": "manual-pause",
+          "position_end": [
+            486.400024414063,
+            270.0
+          ],
+          "position_start": [
+            486.400024414063,
+            270.0
+          ],
+          "seconds_requested": 0.6,
+          "tick_end": 229,
+          "tick_start": 229
+        },
+        {
+          "elapsed_usec": 400043,
+          "frame_end_exclusive": 96,
+          "frame_first": 88,
+          "input_action": "",
+          "name": "resume",
+          "position_end": [
+            486.400024414063,
+            270.0
+          ],
+          "position_start": [
+            486.400024414063,
+            270.0
+          ],
+          "seconds_requested": 0.4,
+          "tick_end": 253,
+          "tick_start": 229
+        },
+        {
+          "elapsed_usec": 43691,
+          "frame_end_exclusive": 97,
+          "frame_first": 96,
+          "input_action": "",
+          "name": "controlled-attack-first",
+          "position_end": [
+            486.400024414063,
+            270.0
+          ],
+          "position_start": [
+            486.400024414063,
+            270.0
+          ],
+          "seconds_requested": 0.04,
+          "tick_end": 254,
+          "tick_start": 253
+        },
+        {
+          "elapsed_usec": 66557,
+          "frame_end_exclusive": 99,
+          "frame_first": 97,
+          "input_action": "",
+          "name": "controlled-attack-hurt",
+          "position_end": [
+            486.400024414063,
+            270.0
+          ],
+          "position_start": [
+            486.400024414063,
+            270.0
+          ],
+          "seconds_requested": 0.035,
+          "tick_end": 258,
+          "tick_start": 254
+        },
+        {
+          "elapsed_usec": 122538,
+          "frame_end_exclusive": 102,
+          "frame_first": 99,
+          "input_action": "",
+          "name": "controlled-attack-resume",
+          "position_end": [
+            486.400024414063,
+            270.0
+          ],
+          "position_start": [
+            486.400024414063,
+            270.0
+          ],
+          "seconds_requested": 0.12,
+          "tick_end": 267,
+          "tick_start": 258
+        },
+        {
+          "elapsed_usec": 100050,
+          "frame_end_exclusive": 104,
+          "frame_first": 102,
+          "input_action": "",
+          "name": "controlled-late-hidden",
+          "position_end": [
+            486.400024414063,
+            270.0
+          ],
+          "position_start": [
+            486.400024414063,
+            270.0
+          ],
+          "seconds_requested": 0.1,
+          "tick_end": 273,
+          "tick_start": 267
+        },
+        {
+          "elapsed_usec": 93524,
+          "frame_end_exclusive": 106,
+          "frame_first": 104,
+          "input_action": "",
+          "name": "controlled-late-visible",
+          "position_end": [
+            486.400024414063,
+            270.0
+          ],
+          "position_start": [
+            486.400024414063,
+            270.0
+          ],
+          "seconds_requested": 0.08,
+          "tick_end": 277,
+          "tick_start": 273
+        },
+        {
+          "elapsed_usec": 116697,
+          "frame_end_exclusive": 109,
+          "frame_first": 106,
+          "input_action": "",
+          "name": "controlled-expired-event",
+          "position_end": [
+            486.400024414063,
+            270.0
+          ],
+          "position_start": [
+            486.400024414063,
+            270.0
+          ],
+          "seconds_requested": 0.08,
+          "tick_end": 284,
+          "tick_start": 277
+        },
+        {
+          "elapsed_usec": 216152,
+          "frame_end_exclusive": 114,
+          "frame_first": 109,
+          "input_action": "",
+          "name": "controlled-warning",
+          "position_end": [
+            486.400024414063,
+            270.0
+          ],
+          "position_start": [
+            486.400024414063,
+            270.0
+          ],
+          "seconds_requested": 0.2,
+          "tick_end": 297,
+          "tick_start": 284
+        },
+        {
+          "elapsed_usec": 66794,
+          "frame_end_exclusive": 116,
+          "frame_first": 114,
+          "input_action": "",
+          "name": "controlled-warning-hurt",
+          "position_end": [
+            486.400024414063,
+            270.0
+          ],
+          "position_start": [
+            486.400024414063,
+            270.0
+          ],
+          "seconds_requested": 0.035,
+          "tick_end": 301,
+          "tick_start": 297
+        },
+        {
+          "elapsed_usec": 216399,
+          "frame_end_exclusive": 121,
+          "frame_first": 116,
+          "input_action": "",
+          "name": "controlled-warning-resume",
+          "position_end": [
+            486.400024414063,
+            270.0
+          ],
+          "position_start": [
+            486.400024414063,
+            270.0
+          ],
+          "seconds_requested": 0.2,
+          "tick_end": 314,
+          "tick_start": 301
+        },
+        {
+          "elapsed_usec": 616575,
+          "frame_end_exclusive": 134,
+          "frame_first": 121,
+          "input_action": "",
+          "name": "controlled-death-and-actual-enemy-cleanup",
+          "position_end": [
+            486.400024414063,
+            270.0
+          ],
+          "position_start": [
+            486.400024414063,
+            270.0
+          ],
+          "seconds_requested": 0.6,
+          "tick_end": 351,
+          "tick_start": 314
+        }
+      ]
+    },
+    {
+      "role": "source",
+      "context": {
+        "utc": "2026-10-17T08:04:21.2667728Z",
+        "executable": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tools\\godot-4.5\\Godot_v4.5-stable_win64_console.exe",
+        "executable_sha256": "7B77F3735DEC3A32BB20AF29CC1900583795D1DE82A14F23D23350A88EC85FAF",
+        "embedded_pack_sha256": null,
+        "harness_sha256": "CCE9B87F49BE8DED6864F8AC500CACB8427CA05FD9A49F524AF53F6EB3641CBD"
+      },
+      "records": 163,
+      "segments": [
+        {
+          "elapsed_usec": 818029,
+          "frame_end_exclusive": 16,
+          "frame_first": 0,
+          "input_action": "move_right",
+          "name": "move-right",
+          "position_end": [
+            563.199340820313,
+            270.0
+          ],
+          "position_start": [
+            480.0,
+            270.0
+          ],
+          "seconds_requested": 0.8,
+          "tick_end": 59,
+          "tick_start": 7
+        },
+        {
+          "elapsed_usec": 815250,
+          "frame_end_exclusive": 33,
+          "frame_first": 16,
+          "input_action": "move_down",
+          "name": "move-down",
+          "position_end": [
+            563.199340820313,
+            348.400299072266
+          ],
+          "position_start": [
+            563.199340820313,
+            270.0
+          ],
+          "seconds_requested": 0.8,
+          "tick_end": 108,
+          "tick_start": 59
+        },
+        {
+          "elapsed_usec": 817469,
+          "frame_end_exclusive": 50,
+          "frame_first": 33,
+          "input_action": "move_left",
+          "name": "move-left",
+          "position_end": [
+            484.800018310547,
+            348.400299072266
+          ],
+          "position_start": [
+            563.199340820313,
+            348.400299072266
+          ],
+          "seconds_requested": 0.8,
+          "tick_end": 157,
+          "tick_start": 108
+        },
+        {
+          "elapsed_usec": 816872,
+          "frame_end_exclusive": 67,
+          "frame_first": 50,
+          "input_action": "move_up",
+          "name": "move-up",
+          "position_end": [
+            484.800018310547,
+            270.0
+          ],
+          "position_start": [
+            484.800018310547,
+            348.400299072266
+          ],
+          "seconds_requested": 0.8,
+          "tick_end": 206,
+          "tick_start": 157
+        },
+        {
+          "elapsed_usec": 416412,
+          "frame_end_exclusive": 76,
+          "frame_first": 67,
+          "input_action": "",
+          "name": "idle",
+          "position_end": [
+            484.800018310547,
+            270.0
+          ],
+          "position_start": [
+            484.800018310547,
+            270.0
+          ],
+          "seconds_requested": 0.4,
+          "tick_end": 231,
+          "tick_start": 206
+        },
+        {
+          "elapsed_usec": 618223,
+          "frame_end_exclusive": 89,
+          "frame_first": 76,
+          "input_action": "",
+          "name": "manual-pause",
+          "position_end": [
+            484.800018310547,
+            270.0
+          ],
+          "position_start": [
+            484.800018310547,
+            270.0
+          ],
+          "seconds_requested": 0.6,
+          "tick_end": 231,
+          "tick_start": 231
+        },
+        {
+          "elapsed_usec": 429430,
+          "frame_end_exclusive": 98,
+          "frame_first": 89,
+          "input_action": "",
+          "name": "resume",
+          "position_end": [
+            484.800018310547,
+            270.0
+          ],
+          "position_start": [
+            484.800018310547,
+            270.0
+          ],
+          "seconds_requested": 0.4,
+          "tick_end": 256,
+          "tick_start": 231
+        },
+        {
+          "elapsed_usec": 716678,
+          "frame_end_exclusive": 113,
+          "frame_first": 98,
+          "input_action": "move_right",
+          "name": "source-debug-2x",
+          "position_end": [
+            622.3984375,
+            270.0
+          ],
+          "position_start": [
+            484.800018310547,
+            270.0
+          ],
+          "seconds_requested": 0.7,
+          "tick_end": 342,
+          "tick_start": 256
+        },
+        {
+          "elapsed_usec": 416691,
+          "frame_end_exclusive": 122,
+          "frame_first": 113,
+          "input_action": "move_left",
+          "name": "source-reset-1x",
+          "position_end": [
+            582.399047851563,
+            270.0
+          ],
+          "position_start": [
+            622.3984375,
+            270.0
+          ],
+          "seconds_requested": 0.4,
+          "tick_end": 367,
+          "tick_start": 342
+        },
+        {
+          "elapsed_usec": 66108,
+          "frame_end_exclusive": 124,
+          "frame_first": 122,
+          "input_action": "",
+          "name": "controlled-attack-first",
+          "position_end": [
+            582.399047851563,
+            270.0
+          ],
+          "position_start": [
+            582.399047851563,
+            270.0
+          ],
+          "seconds_requested": 0.04,
+          "tick_end": 371,
+          "tick_start": 367
+        },
+        {
+          "elapsed_usec": 66726,
+          "frame_end_exclusive": 126,
+          "frame_first": 124,
+          "input_action": "",
+          "name": "controlled-attack-hurt",
+          "position_end": [
+            582.399047851563,
+            270.0
+          ],
+          "position_start": [
+            582.399047851563,
+            270.0
+          ],
+          "seconds_requested": 0.035,
+          "tick_end": 375,
+          "tick_start": 371
+        },
+        {
+          "elapsed_usec": 121669,
+          "frame_end_exclusive": 129,
+          "frame_first": 126,
+          "input_action": "",
+          "name": "controlled-attack-resume",
+          "position_end": [
+            582.399047851563,
+            270.0
+          ],
+          "position_start": [
+            582.399047851563,
+            270.0
+          ],
+          "seconds_requested": 0.12,
+          "tick_end": 384,
+          "tick_start": 375
+        },
+        {
+          "elapsed_usec": 144393,
+          "frame_end_exclusive": 132,
+          "frame_first": 129,
+          "input_action": "",
+          "name": "controlled-late-hidden",
+          "position_end": [
+            582.399047851563,
+            270.0
+          ],
+          "position_start": [
+            582.399047851563,
+            270.0
+          ],
+          "seconds_requested": 0.1,
+          "tick_end": 391,
+          "tick_start": 384
+        },
+        {
+          "elapsed_usec": 116582,
+          "frame_end_exclusive": 135,
+          "frame_first": 132,
+          "input_action": "",
+          "name": "controlled-late-visible",
+          "position_end": [
+            582.399047851563,
+            270.0
+          ],
+          "position_start": [
+            582.399047851563,
+            270.0
+          ],
+          "seconds_requested": 0.08,
+          "tick_end": 398,
+          "tick_start": 391
+        },
+        {
+          "elapsed_usec": 116734,
+          "frame_end_exclusive": 138,
+          "frame_first": 135,
+          "input_action": "",
+          "name": "controlled-expired-event",
+          "position_end": [
+            582.399047851563,
+            270.0
+          ],
+          "position_start": [
+            582.399047851563,
+            270.0
+          ],
+          "seconds_requested": 0.08,
+          "tick_end": 405,
+          "tick_start": 398
+        },
+        {
+          "elapsed_usec": 220207,
+          "frame_end_exclusive": 143,
+          "frame_first": 138,
+          "input_action": "",
+          "name": "controlled-warning",
+          "position_end": [
+            582.399047851563,
+            270.0
+          ],
+          "position_start": [
+            582.399047851563,
+            270.0
+          ],
+          "seconds_requested": 0.2,
+          "tick_end": 418,
+          "tick_start": 405
+        },
+        {
+          "elapsed_usec": 80363,
+          "frame_end_exclusive": 145,
+          "frame_first": 143,
+          "input_action": "",
+          "name": "controlled-warning-hurt",
+          "position_end": [
+            582.399047851563,
+            270.0
+          ],
+          "position_start": [
+            582.399047851563,
+            270.0
+          ],
+          "seconds_requested": 0.035,
+          "tick_end": 423,
+          "tick_start": 418
+        },
+        {
+          "elapsed_usec": 215570,
+          "frame_end_exclusive": 150,
+          "frame_first": 145,
+          "input_action": "",
+          "name": "controlled-warning-resume",
+          "position_end": [
+            582.399047851563,
+            270.0
+          ],
+          "position_start": [
+            582.399047851563,
+            270.0
+          ],
+          "seconds_requested": 0.2,
+          "tick_end": 436,
+          "tick_start": 423
+        },
+        {
+          "elapsed_usec": 616041,
+          "frame_end_exclusive": 163,
+          "frame_first": 150,
+          "input_action": "",
+          "name": "controlled-death-and-actual-enemy-cleanup",
+          "position_end": [
+            582.399047851563,
+            270.0
+          ],
+          "position_start": [
+            582.399047851563,
+            270.0
+          ],
+          "seconds_requested": 0.6,
+          "tick_end": 473,
+          "tick_start": 436
+        }
+      ]
+    },
+    {
+      "role": "before",
+      "context": {
+        "utc": "2026-10-17T08:04:31.5729331Z",
+        "executable": "C:/Users/kahhe/Desktop/Project/new-game-project/docs/validation/visual-vd01/before/build/AbyssExpedition.console.exe",
+        "executable_sha256": "4002EEFFB14A7AF3DA16E5B0BE5B7F5DA773F2117D819B33226DBCD1D6562951",
+        "embedded_pack_sha256": "965F0E7B9A6254FC3AC5ECD5D92EC87A682410A44A604EDC7C8C3C79703FF17B",
+        "harness_sha256": "CCE9B87F49BE8DED6864F8AC500CACB8427CA05FD9A49F524AF53F6EB3641CBD"
+      },
+      "records": 137,
+      "segments": [
+        {
+          "elapsed_usec": 802223,
+          "frame_end_exclusive": 15,
+          "frame_first": 0,
+          "input_action": "move_right",
+          "name": "move-right",
+          "position_end": [
+            563.199340820313,
+            270.0
+          ],
+          "position_start": [
+            480.0,
+            270.0
+          ],
+          "seconds_requested": 0.8,
+          "tick_end": 56,
+          "tick_start": 4
+        },
+        {
+          "elapsed_usec": 841991,
+          "frame_end_exclusive": 32,
+          "frame_first": 15,
+          "input_action": "move_down",
+          "name": "move-down",
+          "position_end": [
+            563.199340820313,
+            348.400299072266
+          ],
+          "position_start": [
+            563.199340820313,
+            270.0
+          ],
+          "seconds_requested": 0.8,
+          "tick_end": 105,
+          "tick_start": 56
+        },
+        {
+          "elapsed_usec": 834527,
+          "frame_end_exclusive": 49,
+          "frame_first": 32,
+          "input_action": "move_left",
+          "name": "move-left",
+          "position_end": [
+            483.200012207031,
+            348.400299072266
+          ],
+          "position_start": [
+            563.199340820313,
+            348.400299072266
+          ],
+          "seconds_requested": 0.8,
+          "tick_end": 155,
+          "tick_start": 105
+        },
+        {
+          "elapsed_usec": 832690,
+          "frame_end_exclusive": 66,
+          "frame_first": 49,
+          "input_action": "move_up",
+          "name": "move-up",
+          "position_end": [
+            483.200012207031,
+            268.399993896484
+          ],
+          "position_start": [
+            483.200012207031,
+            348.400299072266
+          ],
+          "seconds_requested": 0.8,
+          "tick_end": 205,
+          "tick_start": 155
+        },
+        {
+          "elapsed_usec": 416794,
+          "frame_end_exclusive": 75,
+          "frame_first": 66,
+          "input_action": "",
+          "name": "idle",
+          "position_end": [
+            483.200012207031,
+            268.399993896484
+          ],
+          "position_start": [
+            483.200012207031,
+            268.399993896484
+          ],
+          "seconds_requested": 0.4,
+          "tick_end": 230,
+          "tick_start": 205
+        },
+        {
+          "elapsed_usec": 604784,
+          "frame_end_exclusive": 87,
+          "frame_first": 75,
+          "input_action": "",
+          "name": "manual-pause",
+          "position_end": [
+            483.200012207031,
+            268.399993896484
+          ],
+          "position_start": [
+            483.200012207031,
+            268.399993896484
+          ],
+          "seconds_requested": 0.6,
+          "tick_end": 230,
+          "tick_start": 230
+        },
+        {
+          "elapsed_usec": 426895,
+          "frame_end_exclusive": 96,
+          "frame_first": 87,
+          "input_action": "",
+          "name": "resume",
+          "position_end": [
+            483.200012207031,
+            268.399993896484
+          ],
+          "position_start": [
+            483.200012207031,
+            268.399993896484
+          ],
+          "seconds_requested": 0.4,
+          "tick_end": 255,
+          "tick_start": 230
+        },
+        {
+          "elapsed_usec": 65996,
+          "frame_end_exclusive": 98,
+          "frame_first": 96,
+          "input_action": "",
+          "name": "controlled-attack-first",
+          "position_end": [
+            483.200012207031,
+            268.399993896484
+          ],
+          "position_start": [
+            483.200012207031,
+            268.399993896484
+          ],
+          "seconds_requested": 0.04,
+          "tick_end": 259,
+          "tick_start": 255
+        },
+        {
+          "elapsed_usec": 67106,
+          "frame_end_exclusive": 100,
+          "frame_first": 98,
+          "input_action": "",
+          "name": "controlled-attack-hurt",
+          "position_end": [
+            483.200012207031,
+            268.399993896484
+          ],
+          "position_start": [
+            483.200012207031,
+            268.399993896484
+          ],
+          "seconds_requested": 0.035,
+          "tick_end": 263,
+          "tick_start": 259
+        },
+        {
+          "elapsed_usec": 123085,
+          "frame_end_exclusive": 103,
+          "frame_first": 100,
+          "input_action": "",
+          "name": "controlled-attack-resume",
+          "position_end": [
+            483.200012207031,
+            268.399993896484
+          ],
+          "position_start": [
+            483.200012207031,
+            268.399993896484
+          ],
+          "seconds_requested": 0.12,
+          "tick_end": 272,
+          "tick_start": 263
+        },
+        {
+          "elapsed_usec": 143505,
+          "frame_end_exclusive": 106,
+          "frame_first": 103,
+          "input_action": "",
+          "name": "controlled-late-hidden",
+          "position_end": [
+            483.200012207031,
+            268.399993896484
+          ],
+          "position_start": [
+            483.200012207031,
+            268.399993896484
+          ],
+          "seconds_requested": 0.1,
+          "tick_end": 279,
+          "tick_start": 272
+        },
+        {
+          "elapsed_usec": 116832,
+          "frame_end_exclusive": 109,
+          "frame_first": 106,
+          "input_action": "",
+          "name": "controlled-late-visible",
+          "position_end": [
+            483.200012207031,
+            268.399993896484
+          ],
+          "position_start": [
+            483.200012207031,
+            268.399993896484
+          ],
+          "seconds_requested": 0.08,
+          "tick_end": 286,
+          "tick_start": 279
+        },
+        {
+          "elapsed_usec": 116300,
+          "frame_end_exclusive": 112,
+          "frame_first": 109,
+          "input_action": "",
+          "name": "controlled-expired-event",
+          "position_end": [
+            483.200012207031,
+            268.399993896484
+          ],
+          "position_start": [
+            483.200012207031,
+            268.399993896484
+          ],
+          "seconds_requested": 0.08,
+          "tick_end": 293,
+          "tick_start": 286
+        },
+        {
+          "elapsed_usec": 216617,
+          "frame_end_exclusive": 117,
+          "frame_first": 112,
+          "input_action": "",
+          "name": "controlled-warning",
+          "position_end": [
+            483.200012207031,
+            268.399993896484
+          ],
+          "position_start": [
+            483.200012207031,
+            268.399993896484
+          ],
+          "seconds_requested": 0.2,
+          "tick_end": 306,
+          "tick_start": 293
+        },
+        {
+          "elapsed_usec": 66153,
+          "frame_end_exclusive": 119,
+          "frame_first": 117,
+          "input_action": "",
+          "name": "controlled-warning-hurt",
+          "position_end": [
+            483.200012207031,
+            268.399993896484
+          ],
+          "position_start": [
+            483.200012207031,
+            268.399993896484
+          ],
+          "seconds_requested": 0.035,
+          "tick_end": 310,
+          "tick_start": 306
+        },
+        {
+          "elapsed_usec": 216433,
+          "frame_end_exclusive": 124,
+          "frame_first": 119,
+          "input_action": "",
+          "name": "controlled-warning-resume",
+          "position_end": [
+            483.200012207031,
+            268.399993896484
+          ],
+          "position_start": [
+            483.200012207031,
+            268.399993896484
+          ],
+          "seconds_requested": 0.2,
+          "tick_end": 323,
+          "tick_start": 310
+        },
+        {
+          "elapsed_usec": 616748,
+          "frame_end_exclusive": 137,
+          "frame_first": 124,
+          "input_action": "",
+          "name": "controlled-death-and-actual-enemy-cleanup",
+          "position_end": [
+            483.200012207031,
+            268.399993896484
+          ],
+          "position_start": [
+            483.200012207031,
+            268.399993896484
+          ],
+          "seconds_requested": 0.6,
+          "tick_end": 360,
+          "tick_start": 323
+        }
+      ]
+    }
+  ],
+  "method": "elapsed Time.get_ticks_usec timestamps, native process/render loop, actual simulation clock; explicit injected observer events are named",
+  "limits": "not physical display/video latency, reference performance, natural manual session or ten-person review"
+}

@@ -1,0 +1,9 @@
+{
+  "reference_acceptance": false,
+  "source": "supplemental P02, not original M4",
+  "sha256": "7B77F3735DEC3A32BB20AF29CC1900583795D1DE82A14F23D23350A88EC85FAF",
+  "fixture_sha256": "0C4F058641C0368A4BB756661A84540363135C586B282936C0BD2E22638749A3",
+  "smoke": true,
+  "mode": "after",
+  "executable": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tools\\godot-4.5\\Godot_v4.5-stable_win64_console.exe"
+}

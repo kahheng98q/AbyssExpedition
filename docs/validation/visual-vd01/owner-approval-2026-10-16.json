@@ -1,0 +1,43 @@
+{
+  "revision": "VD-01-M1",
+  "date": "2026-10-16",
+  "reviewer": "user / project owner",
+  "received_text": "approve",
+  "source": "direct human reply to the preceding VD-01-M1 design handoff in this chat",
+  "decision": "approve",
+  "submitted_package_sha256": "3c20729e329026ce012ab1a8f252d8aba059565f4b349491b6f8b7566072ba49",
+  "approved": [
+    "G0 written direction and written substitute for missing Concept Images 2/3",
+    "G1 exact eight-item concept package and UI rules",
+    "P01 edge relocation and upper-body viewport cropping proposal, with readable foot anchor and relevant danger retained",
+    "P02 supplemental 30 new base sword arcs and 100 new friendly base homing stars; inherited M4 workload and targets unchanged",
+    "P03 mirror-safe near-symmetric actor shading with independent foot shadows and in-budget semantic correction",
+    "recognition-protocol VD-01-M1-recognition-01",
+    "documented eight-item replacement plan and scope"
+  ],
+  "scope": [
+    "aren+swordsman",
+    "saltbound_thrall",
+    "skittering_brinejaw",
+    "coast shrine visuals",
+    "base sword reach48 angle100",
+    "existing friendly base homing star",
+    "CombatHUD",
+    "level_up"
+  ],
+  "support": [
+    "shared Theme and border",
+    "six shared icons",
+    "Aren portrait crop",
+    "read-only seed disclosure in existing pause screen"
+  ],
+  "remaining": [
+    "production cleanup and delivery validation",
+    "native UI / sprite / environment integration",
+    "G2 source/release regression, human readability, latency and performance acceptance",
+    "G3 expansion requires separate scope"
+  ],
+  "execution": "Approval recorded only in this turn. Original Phases1–3-only delivery is closed; T031–T087 not started. Approval of designs does not label them integrated or runtime verified.",
+  "archive": "docs/validation/visual-vd01/approved-submission",
+  "archived_files": 156
+}

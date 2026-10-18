@@ -1,0 +1,11 @@
+# Before / candidate comparison · 2026-10-17
+
+[Actual old/new executable120tick observations](comparison/gameplay-r1/comparison.json): positions/HP/hits/target/cooldown/spawn order/projectile paths agree exactly. Separate before and after catalog hashes remain protected; no replay compatibility bypass. The .console.exe files are identical thin launchers; actual embedded game pack hashes differ and are recorded separately.
+
+[Protected source changes](comparison/protected-source-changes.json) lists22 modified preexisting files: presentation/UI/resource registry/visual scenes, test selectors/fixtures and source-export exclusion. All preexisting gameplay data, actor health, combat coordinator, attack logic, AI, character factory, progression/promotions, recruitment, corruption rules, RNG and persistence files retain baseline hashes. Projectile simulate and arc contains functions are independently byte-for-byte equal ([checks](comparison/unchanged-functions.json)). New files are in candidate-files.json.
+
+[18 aligned native image pairs/diffs](comparison/pixel-differences.json) come from the same frozen capture harness, seed101/tick/camera/party/enemies and requested window sizes; manifests include actual fixture data. Diffs are derived analysis, clearly distinct from real captures. Intended visual changes: grouped HUD/choice cards and Theme; exact3 sprites; original geometry sword/star graphics; shrine ground/props/overlay and approved depth ordering. Entire background changes intentionally; a whole-frame expected mask would not prove quality, so no artificial zero-unreviewed-pixel result is reported.
+
+Board comparison: concept three named upgrades become the real seeded Resource offer, as required; six shrine landmark positions align with the G1 central view, while tide/repeated-instance density adapts to960×540 and needs owner judgment; top-edge body crop is P01-approved but actual readability remains G2. Other heroes/promotions/enemies/boss retain procedural graphics. No extra capability or combat number was introduced.
+
+Automated simulation equivalence and source-scope checks passed. Physical-window margin capture, full visual mismatch review, all glyph/long-value stress and human recognition remain pending. No unconditional SC-007/new visual baseline acceptance is claimed.

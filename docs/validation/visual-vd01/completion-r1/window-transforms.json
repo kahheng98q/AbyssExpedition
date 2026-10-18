@@ -1,0 +1,92 @@
+[
+  {
+    "role": "source",
+    "window": [
+      1280,
+      720
+    ],
+    "integer_scale": 2.0,
+    "left_top_right_bottom": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "method": "observed engine Window final transform; not physical-window screenshot"
+  },
+  {
+    "role": "source",
+    "window": [
+      1920,
+      1080
+    ],
+    "integer_scale": 3.0,
+    "left_top_right_bottom": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "method": "observed engine Window final transform; not physical-window screenshot"
+  },
+  {
+    "role": "source",
+    "window": [
+      1371,
+      779
+    ],
+    "integer_scale": 2.0,
+    "left_top_right_bottom": [
+      46.0,
+      30.0,
+      45.0,
+      29.0
+    ],
+    "method": "observed engine Window final transform; not physical-window screenshot"
+  },
+  {
+    "role": "release",
+    "window": [
+      1280,
+      720
+    ],
+    "integer_scale": 2.0,
+    "left_top_right_bottom": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "method": "observed engine Window final transform; not physical-window screenshot"
+  },
+  {
+    "role": "release",
+    "window": [
+      1920,
+      1080
+    ],
+    "integer_scale": 3.0,
+    "left_top_right_bottom": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "method": "observed engine Window final transform; not physical-window screenshot"
+  },
+  {
+    "role": "release",
+    "window": [
+      1371,
+      779
+    ],
+    "integer_scale": 2.0,
+    "left_top_right_bottom": [
+      46.0,
+      30.0,
+      45.0,
+      29.0
+    ],
+    "method": "observed engine Window final transform; not physical-window screenshot"
+  }
+]

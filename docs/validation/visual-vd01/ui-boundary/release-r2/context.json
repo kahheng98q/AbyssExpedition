@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-17T07:36:08.9832078Z",
+  "executable": "C:/Users/kahhe/Desktop/Project/new-game-project/builds/windows/m4/AbyssExpedition.console.exe",
+  "executable_sha256": "4002EEFFB14A7AF3DA16E5B0BE5B7F5DA773F2117D819B33226DBCD1D6562951",
+  "embedded_pack_sha256": "C6D626B275117E8F5EC8C476ED6CC8574792A8B53BD3DAB55927D8E565D98BFE",
+  "harness_sha256": "6BE15A5874D14B087DE4832CED489B5F7E95F311AE86520EA7F778579326CFDA",
+  "kind": "Native viewport and layout audit; not physical window capture"
+}

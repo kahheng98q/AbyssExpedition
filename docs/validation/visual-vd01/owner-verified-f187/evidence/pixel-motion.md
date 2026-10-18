@@ -1,0 +1,7 @@
+# Pixel / event sampling · 2026-10-17
+
+Actual frames: screenshots/visual-vd01/after/release-r3/motion/frame-000..059.png; source-r3 equivalent. Offline runtime-gallery plays the60 native engine frames at30FPS,2seconds, then masks. These are controlled run-tick samples, not ordinary wall-clock video. Bodies remain unrotated; only horizontal mirror and independent foot shadow. Four cardinal arcs rotate as approved; native nearest cells/anchors loaded without import errors. No atlas bleed was observed in inspected cardinal frames.
+
+Automated integration coverage: first observation mid-attack, attack→hurt→same attack resume, skip beyond expiry, valid enemy dead_at, lethal hero hurt_until−8, synthetic death final pose,2tick feedback,45tick warning independent of hurt, paused tick freeze, skipped/debug-speed tick sampling, four fixed mirrored anchors, basic/upgraded arc and basic/promoted/hostile star selection. Red/green moving-Thrall mirror regression retained. Existing enemy24tick cleanup logic is byte-for-byte unchanged; animation never owns removal, damage or results.
+
+Limits: current visual sequence manually steps projectiles/poses at render sample intervals; it is not physics-path/latency evidence. Actual120tick old/new simulation logs verify paths separately. Complete wall-clock death/pause/speed/interrupted clips and physical-window2×/3×/1371 letterbox/shimmer examination remain pending. Native captures do not establish displayed latency or human recognition.

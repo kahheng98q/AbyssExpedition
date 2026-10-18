@@ -1,0 +1,222 @@
+{
+  "schema": "VD01-human-review-1",
+  "participant": "TEST_AUTOMATION_NOT_HUMAN",
+  "created_at": "2026-10-18T02:06:20.248Z",
+  "candidate_sha256": "78405f80c49d1d9193a9e36d186539d43a478f02d6bf273717ad0879cccf0574",
+  "material_sha256": "eb97aa98f6e46e956a0e3cd85bd9a48713bbf336f487d75db692dd2a095343eb",
+  "protocol_sha256": "0a12cd7d77be3d6538bb1120eb93c568e8605a1d684dd598281a920c07bd97ac",
+  "order": [
+    {
+      "kind": "recognition",
+      "condition": "dense",
+      "scale": 2
+    },
+    {
+      "kind": "recognition",
+      "condition": "max-corruption",
+      "scale": 2
+    },
+    {
+      "kind": "ui",
+      "task": "hp",
+      "scale": 2
+    },
+    {
+      "kind": "ui",
+      "task": "levels",
+      "scale": 2
+    },
+    {
+      "kind": "ui",
+      "task": "focus",
+      "scale": 2
+    },
+    {
+      "kind": "recognition",
+      "condition": "normal",
+      "scale": 3
+    },
+    {
+      "kind": "recognition",
+      "condition": "dense",
+      "scale": 3
+    },
+    {
+      "kind": "recognition",
+      "condition": "max-corruption",
+      "scale": 3
+    },
+    {
+      "kind": "ui",
+      "task": "hp",
+      "scale": 3
+    },
+    {
+      "kind": "ui",
+      "task": "levels",
+      "scale": 3
+    },
+    {
+      "kind": "ui",
+      "task": "focus",
+      "scale": 3
+    },
+    {
+      "kind": "recognition",
+      "condition": "normal",
+      "scale": 2
+    }
+  ],
+  "records": [
+    {
+      "kind": "recognition",
+      "condition": "dense",
+      "scale": 2,
+      "missing": true,
+      "reason": "screen/equipment/participant unavailable",
+      "answers": {}
+    },
+    {
+      "kind": "recognition",
+      "condition": "max-corruption",
+      "scale": 2,
+      "started_at": "2026-10-18T02:06:20.479Z",
+      "requested_size": [
+        1280,
+        720
+      ],
+      "viewport": [
+        1920,
+        1080
+      ],
+      "device_pixel_ratio": 1,
+      "material_sha256": "e2916e9ed21124f80e21002e09c4898eccb8b3455655940fb699d6c80f427fa2",
+      "exposure_ms": 2009.5,
+      "stop_reason": "timeout",
+      "invalid": false,
+      "response_signal_ms": null,
+      "within_five_seconds": false,
+      "timing_valid": true,
+      "answers": {
+        "hero": "SYNTHETIC AUTOMATION — NOT A HUMAN ANSWER",
+        "thrall": "SYNTHETIC AUTOMATION — NOT A HUMAN ANSWER",
+        "brinejaw": "SYNTHETIC AUTOMATION — NOT A HUMAN ANSWER",
+        "direction": "SYNTHETIC AUTOMATION — NOT A HUMAN ANSWER",
+        "friendly_magic": "SYNTHETIC AUTOMATION — NOT A HUMAN ANSWER",
+        "danger": "SYNTHETIC AUTOMATION — NOT A HUMAN ANSWER"
+      },
+      "recorded_at": "2026-10-18T02:06:22.995Z"
+    },
+    {
+      "kind": "ui",
+      "task": "hp",
+      "scale": 2,
+      "started_at": "2026-10-18T02:06:23.043Z",
+      "requested_size": [
+        1280,
+        720
+      ],
+      "viewport": [
+        1920,
+        1080
+      ],
+      "device_pixel_ratio": 1,
+      "material_sha256": "4255abba33755ed0c5c2a7147471890573cd3f02180a98215a231b709b360027",
+      "exposure_ms": 28.900000005960464,
+      "stop_reason": "response",
+      "invalid": false,
+      "response_signal_ms": 28.900000005960464,
+      "within_five_seconds": true,
+      "timing_valid": true,
+      "answers": {
+        "answer": "SYNTHETIC AUTOMATION — NOT A HUMAN ANSWER"
+      },
+      "recorded_at": "2026-10-18T02:06:23.111Z"
+    },
+    {
+      "kind": "ui",
+      "task": "levels",
+      "scale": 2,
+      "started_at": "2026-10-18T02:06:23.145Z",
+      "requested_size": [
+        1280,
+        720
+      ],
+      "viewport": [
+        1920,
+        1080
+      ],
+      "device_pixel_ratio": 1,
+      "material_sha256": "4255abba33755ed0c5c2a7147471890573cd3f02180a98215a231b709b360027",
+      "exposure_ms": 5006.200000017881,
+      "stop_reason": "timeout",
+      "invalid": false,
+      "response_signal_ms": null,
+      "within_five_seconds": false,
+      "timing_valid": true,
+      "answers": {
+        "answer": "SYNTHETIC AUTOMATION — NOT A HUMAN ANSWER"
+      },
+      "recorded_at": "2026-10-18T02:06:28.611Z"
+    },
+    {
+      "kind": "ui",
+      "task": "focus",
+      "scale": 2,
+      "started_at": "2026-10-18T02:06:28.659Z",
+      "requested_size": [
+        1280,
+        720
+      ],
+      "viewport": [
+        1920,
+        1080
+      ],
+      "device_pixel_ratio": 1,
+      "material_sha256": "c5f68115d94739c5bc997673072fca87e4daeb76ea0a212a907bf6295897bc8f",
+      "exposure_ms": 31.399999976158142,
+      "stop_reason": "window-change",
+      "invalid": true,
+      "response_signal_ms": null,
+      "within_five_seconds": false,
+      "timing_valid": false,
+      "answers": {
+        "answer": "SYNTHETIC AUTOMATION — NOT A HUMAN ANSWER"
+      },
+      "recorded_at": "2026-10-18T02:06:28.744Z"
+    },
+    {
+      "kind": "recognition",
+      "condition": "normal",
+      "scale": 3,
+      "started_at": "2026-10-18T02:06:28.896Z",
+      "requested_size": [
+        1920,
+        1080
+      ],
+      "viewport": [
+        1920,
+        1080
+      ],
+      "device_pixel_ratio": 1,
+      "material_sha256": "c9cb39479c320cb6c83122c8eb958d8af1faa0f90d9aabb895510791dc8819ad",
+      "exposure_ms": 2008.9000000059605,
+      "stop_reason": "timeout",
+      "invalid": false,
+      "response_signal_ms": null,
+      "within_five_seconds": false,
+      "timing_valid": true,
+      "answers": {
+        "hero": "SYNTHETIC AUTOMATION — NOT A HUMAN ANSWER",
+        "thrall": "SYNTHETIC AUTOMATION — NOT A HUMAN ANSWER",
+        "brinejaw": "SYNTHETIC AUTOMATION — NOT A HUMAN ANSWER",
+        "direction": "SYNTHETIC AUTOMATION — NOT A HUMAN ANSWER",
+        "friendly_magic": "SYNTHETIC AUTOMATION — NOT A HUMAN ANSWER",
+        "danger": "SYNTHETIC AUTOMATION — NOT A HUMAN ANSWER"
+      },
+      "recorded_at": "2026-10-18T02:06:31.395Z"
+    }
+  ],
+  "origin": "Unverified browser responses; reviewer must confirm actual participant identity and conduct.",
+  "timing_limit": "Browser exposure and response signal only; not physical display latency."
+}

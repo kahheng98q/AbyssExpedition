@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="BossDefinition" load_steps=10 format=3]
+[ext_resource type="Script" path="res://scripts/data/boss_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/data/stat_block.gd" id="2"]
+[ext_resource type="Script" path="res://scripts/data/visual_set.gd" id="3"]
+[ext_resource type="Script" path="res://scripts/data/boss_pattern.gd" id="4"]
+[sub_resource type="Resource" id="stats"]
+script = ExtResource("2")
+max_health = 1200.0
+damage = 20.0
+speed = 18.0
+[sub_resource type="Resource" id="visual"]
+script = ExtResource("3")
+id = &"hierophant_visual"
+silhouette = "crown"
+palette = Color(0.93, 0.36, 0.5, 1)
+[sub_resource type="Resource" id="cone"]
+script = ExtResource("4")
+id = &"tide_cone"
+geometry = "cone"
+radius = 150.0
+angle = 70.0
+windup_ticks = 60
+[sub_resource type="Resource" id="circle"]
+script = ExtResource("4")
+id = &"ground_eruption"
+geometry = "circle"
+radius = 48.0
+windup_ticks = 75
+[resource]
+script = ExtResource("1")
+stats = SubResource("stats")
+visual_set = SubResource("visual")
+patterns = Array[ExtResource("4")]([SubResource("cone"), SubResource("circle")])

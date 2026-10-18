@@ -1,0 +1,10 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+
+FAIL: rescue offered at exactly minute four
+FAIL: accept pending rescue
+FAIL: inclusive radius boundary succeeds after 1800 continuous active ticks
+FAIL: leaving once permanently fails this opportunity
+FAIL: five minute ticket threshold 17999
+FAIL: five minute ticket threshold 18000
+FAIL: ten pull produces an atomic recruitment candidate
+SUITE recruitment: 9 assertions; 7 failures; 0 skipped

@@ -1,0 +1,426 @@
+{
+  "revision": "VD-01-M1",
+  "viewport": [
+    640,
+    360
+  ],
+  "rectangles": {
+    "hero": [
+      8,
+      8,
+      192,
+      40
+    ],
+    "xp": [
+      208,
+      8,
+      184,
+      40
+    ],
+    "stats": [
+      400,
+      8,
+      232,
+      40
+    ],
+    "boss": [
+      192,
+      56,
+      256,
+      28
+    ],
+    "party": [
+      8,
+      306,
+      200,
+      46
+    ],
+    "rescue": [
+      216,
+      310,
+      416,
+      38
+    ]
+  },
+  "union_area": 56496,
+  "ratio": 0.24520833333333333,
+  "method": "all panel/text/icon/bar regions contained inside listed disjoint rectangles; pixels checked separately",
+  "essential_font_px": 12,
+  "edge_variants": {
+    "top": {
+      "rectangles": {
+        "hero": [
+          8,
+          96,
+          192,
+          40
+        ],
+        "xp": [
+          208,
+          96,
+          184,
+          40
+        ],
+        "stats": [
+          400,
+          96,
+          232,
+          40
+        ],
+        "boss": [
+          192,
+          144,
+          256,
+          28
+        ],
+        "party": [
+          8,
+          306,
+          200,
+          46
+        ],
+        "rescue": [
+          216,
+          310,
+          416,
+          38
+        ]
+      },
+      "crop": "top body may crop at viewport; white cross marks foot anchor",
+      "status": "P01 candidate; not owner accepted",
+      "hero_foot_anchor_screen": [
+        320,
+        8
+      ]
+    },
+    "bottom": {
+      "rectangles": {
+        "hero": [
+          8,
+          8,
+          192,
+          40
+        ],
+        "xp": [
+          208,
+          8,
+          184,
+          40
+        ],
+        "stats": [
+          400,
+          8,
+          232,
+          40
+        ],
+        "boss": [
+          192,
+          56,
+          256,
+          28
+        ],
+        "party": [
+          8,
+          248,
+          200,
+          46
+        ],
+        "rescue": [
+          216,
+          252,
+          416,
+          38
+        ]
+      },
+      "crop": "top body may crop at viewport; white cross marks foot anchor",
+      "status": "P01 candidate; not owner accepted",
+      "hero_foot_anchor_screen": [
+        320,
+        352
+      ]
+    },
+    "left": {
+      "rectangles": {
+        "hero": [
+          8,
+          96,
+          192,
+          40
+        ],
+        "xp": [
+          208,
+          96,
+          184,
+          40
+        ],
+        "stats": [
+          400,
+          96,
+          232,
+          40
+        ],
+        "boss": [
+          192,
+          144,
+          256,
+          28
+        ],
+        "party": [
+          8,
+          306,
+          200,
+          46
+        ],
+        "rescue": [
+          216,
+          310,
+          416,
+          38
+        ]
+      },
+      "crop": "top body may crop at viewport; white cross marks foot anchor",
+      "status": "P01 candidate; not owner accepted",
+      "hero_foot_anchor_screen": [
+        8,
+        208
+      ]
+    },
+    "right": {
+      "rectangles": {
+        "hero": [
+          8,
+          96,
+          192,
+          40
+        ],
+        "xp": [
+          208,
+          96,
+          184,
+          40
+        ],
+        "stats": [
+          400,
+          96,
+          232,
+          40
+        ],
+        "boss": [
+          192,
+          144,
+          256,
+          28
+        ],
+        "party": [
+          8,
+          306,
+          200,
+          46
+        ],
+        "rescue": [
+          216,
+          310,
+          416,
+          38
+        ]
+      },
+      "crop": "top body may crop at viewport; white cross marks foot anchor",
+      "status": "P01 candidate; not owner accepted",
+      "hero_foot_anchor_screen": [
+        632,
+        208
+      ]
+    },
+    "top-left": {
+      "rectangles": {
+        "hero": [
+          8,
+          96,
+          192,
+          40
+        ],
+        "xp": [
+          208,
+          96,
+          184,
+          40
+        ],
+        "stats": [
+          400,
+          96,
+          232,
+          40
+        ],
+        "boss": [
+          192,
+          144,
+          256,
+          28
+        ],
+        "party": [
+          8,
+          306,
+          200,
+          46
+        ],
+        "rescue": [
+          216,
+          310,
+          416,
+          38
+        ]
+      },
+      "crop": "top body may crop at viewport; white cross marks foot anchor",
+      "status": "P01 candidate; not owner accepted",
+      "hero_foot_anchor_screen": [
+        8,
+        8
+      ]
+    },
+    "top-right": {
+      "rectangles": {
+        "hero": [
+          8,
+          96,
+          192,
+          40
+        ],
+        "xp": [
+          208,
+          96,
+          184,
+          40
+        ],
+        "stats": [
+          400,
+          96,
+          232,
+          40
+        ],
+        "boss": [
+          192,
+          144,
+          256,
+          28
+        ],
+        "party": [
+          8,
+          306,
+          200,
+          46
+        ],
+        "rescue": [
+          216,
+          310,
+          416,
+          38
+        ]
+      },
+      "crop": "top body may crop at viewport; white cross marks foot anchor",
+      "status": "P01 candidate; not owner accepted",
+      "hero_foot_anchor_screen": [
+        632,
+        8
+      ]
+    },
+    "bottom-left": {
+      "rectangles": {
+        "hero": [
+          8,
+          8,
+          192,
+          40
+        ],
+        "xp": [
+          208,
+          8,
+          184,
+          40
+        ],
+        "stats": [
+          400,
+          8,
+          232,
+          40
+        ],
+        "boss": [
+          192,
+          56,
+          256,
+          28
+        ],
+        "party": [
+          8,
+          248,
+          200,
+          46
+        ],
+        "rescue": [
+          216,
+          252,
+          416,
+          38
+        ]
+      },
+      "crop": "top body may crop at viewport; white cross marks foot anchor",
+      "status": "P01 candidate; not owner accepted",
+      "hero_foot_anchor_screen": [
+        8,
+        352
+      ]
+    },
+    "bottom-right": {
+      "rectangles": {
+        "hero": [
+          8,
+          8,
+          192,
+          40
+        ],
+        "xp": [
+          208,
+          8,
+          184,
+          40
+        ],
+        "stats": [
+          400,
+          8,
+          232,
+          40
+        ],
+        "boss": [
+          192,
+          56,
+          256,
+          28
+        ],
+        "party": [
+          8,
+          248,
+          200,
+          46
+        ],
+        "rescue": [
+          216,
+          252,
+          416,
+          38
+        ]
+      },
+      "crop": "top body may crop at viewport; white cross marks foot anchor",
+      "status": "P01 candidate; not owner accepted",
+      "hero_foot_anchor_screen": [
+        632,
+        352
+      ]
+    }
+  },
+  "large_value_tests": [
+    "Hero Lv30 / HP99999/99999",
+    "XP99999/99999",
+    "Coins999999",
+    "Long companion identity available in details; current catalog labels fit"
+  ],
+  "runtime_measurement": "not performed; P01 placement pending approval"
+}

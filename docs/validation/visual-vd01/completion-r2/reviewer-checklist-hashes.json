@@ -1,0 +1,26 @@
+[
+  {
+    "path": "specs/002-2d-art-direction/checklists/requirements.md",
+    "sha256": "b82beb4baf8a31b0330a41f6719bdaa2c75ca57f9cc974e0fae2ed69067df181",
+    "checked": 16,
+    "open": 0
+  },
+  {
+    "path": "specs/002-2d-art-direction/checklists/requirements.zh-CN.md",
+    "sha256": "5c361ce42c43d9c459ca2f610c32e2b452490f4692e61b43847f5298c250f9ea",
+    "checked": 16,
+    "open": 0
+  },
+  {
+    "path": "specs/002-2d-art-direction/checklists/visual-acceptance.md",
+    "sha256": "218e709d16388cda384fe1fc2b6f5f8052c6776fa0229b7eb78882e98490e652",
+    "checked": 0,
+    "open": 36
+  },
+  {
+    "path": "specs/002-2d-art-direction/checklists/visual-art-quality.md",
+    "sha256": "32179f7a8ebf4914e8d82eae3ccddc90d3f49dd79187554fd55efe01d7d85f3a",
+    "checked": 0,
+    "open": 40
+  }
+]

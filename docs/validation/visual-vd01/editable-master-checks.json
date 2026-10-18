@@ -1,0 +1,65 @@
+{
+  "files": [
+    {
+      "path": "assets/source/visual-vd01/aren.ora",
+      "sha256": "a5ed676bc441378fd3e7e9d89582c9d722acd9122174c68edcb491d3df3573b1",
+      "layers": 5,
+      "native_canvas": [
+        192,
+        240
+      ],
+      "merged_preview": true
+    },
+    {
+      "path": "assets/source/visual-vd01/brinejaw.ora",
+      "sha256": "6f8248f40a962ca3fd2c820dac74e323ec8b4bca007fdfeeeaa224d3eecd25fc",
+      "layers": 5,
+      "native_canvas": [
+        192,
+        160
+      ],
+      "merged_preview": true
+    },
+    {
+      "path": "assets/source/visual-vd01/effects.ora",
+      "sha256": "cd17acd77f3cce98bb9d1ef4742d110f1258ffd9d8b77f73f0862c898a71670e",
+      "layers": 2,
+      "native_canvas": [
+        160,
+        96
+      ],
+      "merged_preview": true
+    },
+    {
+      "path": "assets/source/visual-vd01/shrine.ora",
+      "sha256": "1a97ea083c79f82f7e082c1cb4bc07db592ccab1aa117f02f166091e0007a270",
+      "layers": 3,
+      "native_canvas": [
+        384,
+        224
+      ],
+      "merged_preview": false
+    },
+    {
+      "path": "assets/source/visual-vd01/thrall.ora",
+      "sha256": "aa3012f19bc843ef5994ad9978a0bb81b440c427d4d2f803159cf1040a42cc94",
+      "layers": 5,
+      "native_canvas": [
+        192,
+        240
+      ],
+      "merged_preview": true
+    },
+    {
+      "path": "assets/source/visual-vd01/ui.ora",
+      "sha256": "6c22c3d3d9bb1448335396a6d20fdfc297578257aa1e5446ad79f60be3776cf3",
+      "layers": 2,
+      "native_canvas": [
+        120,
+        24
+      ],
+      "merged_preview": true
+    }
+  ],
+  "status": "ZIP/XML/layer PNG structure verified; external art-editor manual opening not performed"
+}

@@ -1,0 +1,390 @@
+{
+  "material_sha256": "eb97aa98f6e46e956a0e3cd85bd9a48713bbf336f487d75db692dd2a095343eb",
+  "candidate_sha256": "78405f80c49d1d9193a9e36d186539d43a478f02d6bf273717ad0879cccf0574",
+  "reviewer_record": null,
+  "raw_rows": 0,
+  "scored_rows": 0,
+  "required_participants": 10,
+  "cells": [
+    {
+      "kind": "recognition",
+      "condition_or_task": "normal",
+      "size": "1280x720",
+      "item": "hero",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "normal",
+      "size": "1280x720",
+      "item": "thrall",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "normal",
+      "size": "1280x720",
+      "item": "brinejaw",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "normal",
+      "size": "1280x720",
+      "item": "direction",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "normal",
+      "size": "1280x720",
+      "item": "friendly_magic",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "normal",
+      "size": "1280x720",
+      "item": "danger",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "dense",
+      "size": "1280x720",
+      "item": "hero",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "dense",
+      "size": "1280x720",
+      "item": "thrall",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "dense",
+      "size": "1280x720",
+      "item": "brinejaw",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "dense",
+      "size": "1280x720",
+      "item": "direction",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "dense",
+      "size": "1280x720",
+      "item": "friendly_magic",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "dense",
+      "size": "1280x720",
+      "item": "danger",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "max-corruption",
+      "size": "1280x720",
+      "item": "hero",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "max-corruption",
+      "size": "1280x720",
+      "item": "thrall",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "max-corruption",
+      "size": "1280x720",
+      "item": "brinejaw",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "max-corruption",
+      "size": "1280x720",
+      "item": "direction",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "max-corruption",
+      "size": "1280x720",
+      "item": "friendly_magic",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "max-corruption",
+      "size": "1280x720",
+      "item": "danger",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "ui",
+      "condition_or_task": "hp",
+      "size": "1280x720",
+      "item": "answer",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "ui",
+      "condition_or_task": "levels",
+      "size": "1280x720",
+      "item": "answer",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "ui",
+      "condition_or_task": "focus",
+      "size": "1280x720",
+      "item": "answer",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "normal",
+      "size": "1920x1080",
+      "item": "hero",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "normal",
+      "size": "1920x1080",
+      "item": "thrall",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "normal",
+      "size": "1920x1080",
+      "item": "brinejaw",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "normal",
+      "size": "1920x1080",
+      "item": "direction",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "normal",
+      "size": "1920x1080",
+      "item": "friendly_magic",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "normal",
+      "size": "1920x1080",
+      "item": "danger",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "dense",
+      "size": "1920x1080",
+      "item": "hero",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "dense",
+      "size": "1920x1080",
+      "item": "thrall",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "dense",
+      "size": "1920x1080",
+      "item": "brinejaw",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "dense",
+      "size": "1920x1080",
+      "item": "direction",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "dense",
+      "size": "1920x1080",
+      "item": "friendly_magic",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "dense",
+      "size": "1920x1080",
+      "item": "danger",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "max-corruption",
+      "size": "1920x1080",
+      "item": "hero",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "max-corruption",
+      "size": "1920x1080",
+      "item": "thrall",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "max-corruption",
+      "size": "1920x1080",
+      "item": "brinejaw",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "max-corruption",
+      "size": "1920x1080",
+      "item": "direction",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "max-corruption",
+      "size": "1920x1080",
+      "item": "friendly_magic",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "recognition",
+      "condition_or_task": "max-corruption",
+      "size": "1920x1080",
+      "item": "danger",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "ui",
+      "condition_or_task": "hp",
+      "size": "1920x1080",
+      "item": "answer",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "ui",
+      "condition_or_task": "levels",
+      "size": "1920x1080",
+      "item": "answer",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    },
+    {
+      "kind": "ui",
+      "condition_or_task": "focus",
+      "size": "1920x1080",
+      "item": "answer",
+      "scored_participants": 0,
+      "correct": 0,
+      "status": "pending"
+    }
+  ],
+  "overall": "pending",
+  "limits": "Counts reviewer-supplied judgments only; does not authenticate participants, exact-value/save omissions, physical latency or G2 approval."
+}

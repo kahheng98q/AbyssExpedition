@@ -1,0 +1,1 @@
+3c20729e329026ce012ab1a8f252d8aba059565f4b349491b6f8b7566072ba49  docs/visual-design/mockups/vd01/package.json

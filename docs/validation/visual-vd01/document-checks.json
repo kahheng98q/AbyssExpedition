@@ -1,0 +1,624 @@
+{
+  "date": "2026-10-16",
+  "scope": "offline concept files only",
+  "passed": 119,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "protected runtime and historical hashes unchanged",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "unique IDs preview.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "unique IDs motion-player.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "unique IDs game-development-dashboard.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "offline HTML local links/media exist",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "offline pages contain no remote dependencies",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "audit guides README overview evidence markdown links",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "no fetch/server requirement",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "anchor in canvas aren",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "five states aren",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "region bounds aren/idle",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "region bounds aren/idle",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "region bounds aren/move",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "region bounds aren/move",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "region bounds aren/move",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "region bounds aren/move",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "region bounds aren/attack",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "region bounds aren/attack",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "region bounds aren/attack",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "region bounds aren/death",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "region bounds aren/death",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "region bounds aren/death",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "region bounds aren/death",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "distinct authored frames aren",
+      "passed": true,
+      "detail": {
+        "raw": 13,
+        "distinct": 13
+      }
+    },
+    {
+      "check": "anchor in canvas thrall",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "five states thrall",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "region bounds thrall/idle",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "region bounds thrall/move",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "region bounds thrall/move",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "region bounds thrall/death",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "region bounds thrall/death",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "region bounds thrall/death",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "distinct authored frames thrall",
+      "passed": true,
+      "detail": {
+        "raw": 6,
+        "distinct": 6
+      }
+    },
+    {
+      "check": "anchor in canvas brinejaw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "five states brinejaw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "region bounds brinejaw/idle",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "region bounds brinejaw/move",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "region bounds brinejaw/move",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "region bounds brinejaw/death",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "region bounds brinejaw/death",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "region bounds brinejaw/death",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "distinct authored frames brinejaw",
+      "passed": true,
+      "detail": {
+        "raw": 6,
+        "distinct": 6
+      }
+    },
+    {
+      "check": "effective effect frames sword",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "effective effect frames star",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "authored unique budget",
+      "passed": true,
+      "detail": {
+        "aren": 13,
+        "thrall": 6,
+        "brinejaw": 6,
+        "sword": 2,
+        "star": 2
+      }
+    },
+    {
+      "check": "Thrall attack N/A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "tiles and prop dimensions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "editable layered ORA actor-lineup.ora",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "editable layered ORA battle-hud.ora",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "editable layered ORA effects.ora",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "editable layered ORA hud-stress.ora",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "editable layered ORA level-up.ora",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "editable layered ORA shrine.ora",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/battle-hud-1x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/battle-hud-2x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/battle-hud-3x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/battle-hud-1371x779.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "letterbox asymmetric margins scales/battle-hud-1371x779.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/level-up-1x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/level-up-2x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/level-up-3x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/level-up-1371x779.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "letterbox asymmetric margins scales/level-up-1371x779.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/shrine-1x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/shrine-2x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/shrine-3x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/shrine-1371x779.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "letterbox asymmetric margins scales/shrine-1371x779.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/combat-dense-1x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/combat-dense-2x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/combat-dense-3x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/combat-dense-1371x779.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "letterbox asymmetric margins scales/combat-dense-1371x779.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/hud-stress-1x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/hud-stress-2x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/hud-stress-3x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/hud-stress-1371x779.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "letterbox asymmetric margins scales/hud-stress-1371x779.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/actor-lineup-1x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/actor-lineup-2x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/actor-lineup-3x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/actors-strip-1x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/actors-strip-2x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/actors-strip-3x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/effects-strip-1x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/effects-strip-2x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/effects-strip-3x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/ui-states-1x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/ui-states-2x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/ui-states-3x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/level-up-states-1x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/level-up-states-2x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/level-up-states-3x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/edge-top-2x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/edge-top-3x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/edge-bottom-2x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/edge-bottom-3x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/edge-left-2x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/edge-left-3x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/edge-right-2x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/edge-right-3x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/edge-top-left-2x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/edge-top-left-3x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/edge-top-right-2x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/edge-top-right-3x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/edge-bottom-left-2x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/edge-bottom-left-3x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/edge-bottom-right-2x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plate size scales/edge-bottom-right-3x.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HUD union <=25%",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "large value text fits proposed regions",
+      "passed": true,
+      "detail": {
+        "HP 99999 / 99999": 90,
+        "XP 99999 / 99999": 88,
+        "99:59  Coins 999999": 101,
+        "Long companion… 999/999": 143
+      }
+    },
+    {
+      "check": "contrast Ivory / Panel",
+      "passed": true,
+      "detail": 13.245
+    },
+    {
+      "check": "contrast Mist / Panel",
+      "passed": true,
+      "detail": 9.504
+    },
+    {
+      "check": "contrast Gold / Panel",
+      "passed": true,
+      "detail": 7.985
+    },
+    {
+      "check": "contrast Ally focus / Panel",
+      "passed": true,
+      "detail": 13.095
+    },
+    {
+      "check": "contrast Light border / Panel",
+      "passed": true,
+      "detail": 3.811
+    },
+    {
+      "check": "contrast Warning / bright ground",
+      "passed": true,
+      "detail": 5.547
+    },
+    {
+      "check": "contrast Warning / abyss",
+      "passed": true,
+      "detail": 6.32
+    },
+    {
+      "check": "all eight primary deliveries indexed",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "package_sha256": "3c20729e329026ce012ab1a8f252d8aba059565f4b349491b6f8b7566072ba49"
+}

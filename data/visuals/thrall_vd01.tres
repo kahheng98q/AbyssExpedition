@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="VisualSet" load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/data/visual_set.gd" id="1"]
+[ext_resource type="SpriteFrames" path="res://data/visuals/thrall_frames_vd01.tres" id="2"]
+[resource]
+script = ExtResource("1")
+id = &"thrall_vd01"
+silhouette = "diamond"
+sprite_frames = ExtResource("2")
+canvas_px = Vector2i(32, 48)
+anchor_px = Vector2i(16, 40)
+style_revision = "VD-01-P1"
+actor_kind = "enemy"
+contact_only = true
+warning_only = false

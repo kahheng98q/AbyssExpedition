@@ -1,0 +1,2877 @@
+{
+  "pairs": 574,
+  "identical": 574,
+  "rows": [
+    {
+      "role": "source",
+      "image": "brann-procedural-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "combat-c0-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "combat-c0-1371.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "combat-c0-1920.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "combat-c100-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "combat-c100-1371.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "combat-c100-1920.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "edge-0-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "edge-0-1371.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "edge-0-1920.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "edge-1-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "edge-1-1371.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "edge-1-1920.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "edge-2-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "edge-2-1371.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "edge-2-1920.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "edge-3-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "edge-3-1371.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "edge-3-1920.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "edge-4-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "edge-4-1371.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "edge-4-1920.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "edge-5-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "edge-5-1371.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "edge-5-1920.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "edge-6-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "edge-6-1371.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "edge-6-1920.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "edge-7-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "edge-7-1371.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "edge-7-1920.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "effects-approved-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "effects-upgraded-fallback-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "fallback-complete-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "level-up-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "level-up-1371.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "level-up-1920.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "promoted-aren-procedural-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "rescue-declined-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "rescue-declined-1371.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "rescue-declined-1920.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "rescue-failed-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "rescue-failed-1371.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "rescue-failed-1920.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "rescue-succeeded-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "rescue-succeeded-1371.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "rescue-succeeded-1920.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-000.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-001.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-002.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-003.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-004.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-005.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-006.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-007.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-008.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-009.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-010.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-011.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-012.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-013.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-014.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-015.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-016.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-017.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-018.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-019.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-020.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-021.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-022.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-023.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-024.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-025.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-026.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-027.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-028.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-029.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-030.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-031.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-032.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-033.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-034.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-035.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-036.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-037.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-038.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-039.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-040.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-041.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-042.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-043.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-044.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-045.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-046.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-047.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-048.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-049.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-050.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-051.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-052.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-053.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-054.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-055.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-056.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-057.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-058.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "motion/frame-059.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-000.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-001.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-002.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-003.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-004.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-005.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-006.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-007.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-008.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-009.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-010.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-011.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-012.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-013.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-014.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-015.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-016.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-017.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-018.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-019.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-020.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-021.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-022.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-023.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-024.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-025.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-026.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-027.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-028.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-029.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-030.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-031.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-032.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-033.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-034.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-035.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-036.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-037.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-038.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-039.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-040.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-041.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-042.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-043.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-044.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-045.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-046.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-047.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-048.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-049.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-050.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-051.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-052.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-053.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-054.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-055.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-056.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-057.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-058.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/dense/frame-059.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-000.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-001.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-002.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-003.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-004.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-005.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-006.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-007.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-008.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-009.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-010.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-011.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-012.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-013.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-014.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-015.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-016.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-017.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-018.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-019.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-020.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-021.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-022.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-023.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-024.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-025.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-026.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-027.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-028.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-029.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-030.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-031.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-032.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-033.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-034.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-035.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-036.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-037.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-038.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-039.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-040.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-041.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-042.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-043.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-044.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-045.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-046.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-047.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-048.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-049.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-050.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-051.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-052.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-053.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-054.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-055.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-056.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-057.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-058.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/max-corruption/frame-059.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-000.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-001.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-002.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-003.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-004.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-005.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-006.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-007.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-008.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-009.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-010.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-011.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-012.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-013.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-014.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-015.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-016.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-017.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-018.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-019.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-020.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-021.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-022.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-023.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-024.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-025.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-026.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-027.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-028.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-029.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-030.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-031.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-032.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-033.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-034.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-035.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-036.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-037.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-038.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-039.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-040.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-041.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-042.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-043.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-044.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-045.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-046.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-047.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-048.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-049.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-050.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-051.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-052.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-053.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-054.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-055.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-056.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-057.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-058.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "source",
+      "image": "recognition/normal/frame-059.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "brann-procedural-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "combat-c0-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "combat-c0-1371.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "combat-c0-1920.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "combat-c100-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "combat-c100-1371.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "combat-c100-1920.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "edge-0-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "edge-0-1371.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "edge-0-1920.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "edge-1-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "edge-1-1371.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "edge-1-1920.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "edge-2-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "edge-2-1371.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "edge-2-1920.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "edge-3-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "edge-3-1371.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "edge-3-1920.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "edge-4-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "edge-4-1371.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "edge-4-1920.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "edge-5-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "edge-5-1371.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "edge-5-1920.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "edge-6-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "edge-6-1371.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "edge-6-1920.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "edge-7-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "edge-7-1371.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "edge-7-1920.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "effects-approved-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "effects-upgraded-fallback-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "fallback-complete-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "level-up-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "level-up-1371.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "level-up-1920.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "promoted-aren-procedural-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "rescue-declined-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "rescue-declined-1371.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "rescue-declined-1920.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "rescue-failed-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "rescue-failed-1371.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "rescue-failed-1920.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "rescue-succeeded-1280.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "rescue-succeeded-1371.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "rescue-succeeded-1920.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-000.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-001.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-002.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-003.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-004.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-005.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-006.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-007.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-008.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-009.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-010.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-011.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-012.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-013.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-014.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-015.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-016.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-017.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-018.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-019.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-020.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-021.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-022.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-023.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-024.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-025.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-026.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-027.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-028.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-029.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-030.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-031.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-032.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-033.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-034.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-035.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-036.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-037.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-038.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-039.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-040.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-041.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-042.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-043.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-044.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-045.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-046.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-047.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-048.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-049.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-050.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-051.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-052.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-053.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-054.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-055.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-056.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-057.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-058.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "motion/frame-059.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-000.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-001.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-002.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-003.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-004.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-005.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-006.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-007.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-008.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-009.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-010.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-011.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-012.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-013.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-014.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-015.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-016.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-017.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-018.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-019.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-020.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-021.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-022.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-023.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-024.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-025.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-026.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-027.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-028.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-029.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-030.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-031.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-032.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-033.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-034.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-035.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-036.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-037.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-038.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-039.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-040.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-041.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-042.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-043.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-044.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-045.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-046.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-047.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-048.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-049.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-050.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-051.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-052.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-053.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-054.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-055.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-056.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-057.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-058.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/dense/frame-059.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-000.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-001.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-002.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-003.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-004.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-005.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-006.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-007.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-008.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-009.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-010.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-011.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-012.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-013.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-014.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-015.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-016.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-017.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-018.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-019.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-020.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-021.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-022.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-023.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-024.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-025.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-026.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-027.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-028.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-029.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-030.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-031.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-032.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-033.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-034.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-035.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-036.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-037.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-038.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-039.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-040.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-041.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-042.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-043.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-044.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-045.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-046.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-047.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-048.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-049.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-050.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-051.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-052.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-053.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-054.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-055.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-056.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-057.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-058.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/max-corruption/frame-059.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-000.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-001.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-002.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-003.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-004.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-005.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-006.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-007.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-008.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-009.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-010.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-011.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-012.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-013.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-014.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-015.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-016.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-017.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-018.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-019.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-020.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-021.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-022.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-023.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-024.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-025.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-026.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-027.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-028.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-029.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-030.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-031.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-032.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-033.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-034.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-035.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-036.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-037.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-038.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-039.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-040.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-041.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-042.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-043.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-044.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-045.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-046.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-047.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-048.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-049.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-050.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-051.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-052.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-053.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-054.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-055.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-056.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-057.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-058.png",
+      "changed_pixels": 0
+    },
+    {
+      "role": "release",
+      "image": "recognition/normal/frame-059.png",
+      "changed_pixels": 0
+    }
+  ],
+  "limits": "Native renderer captures; no physical display proof."
+}

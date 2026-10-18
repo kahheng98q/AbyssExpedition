@@ -1,0 +1,68 @@
+{
+  "revision": "VD-01-P1",
+  "runtime_lights": 0,
+  "dynamic_shadows": 0,
+  "fullscreen_effects": 0,
+  "shaders": 0,
+  "decorative_particles": 0,
+  "painted_highlights": "approved texture pixels",
+  "contact_shadow": "static unlit presentation draw",
+  "actor_root_motion": "unchanged",
+  "world": [
+    960,
+    540
+  ],
+  "z": {
+    "ground": -30,
+    "corruption": -20,
+    "props": -10,
+    "actors": 0,
+    "pickups": 5,
+    "projectiles": 10,
+    "effects": 10,
+    "telegraphs": 20
+  },
+  "human_readability": "pending",
+  "painted_prop_details": 1,
+  "ground_overlay_instances": 3,
+  "ground_overlay_crop": "native branch-only64x32; shrine eye stays on prop at finalZ-10",
+  "static_prop_designs": 6,
+  "prop_regions": [
+    [
+      0,
+      0,
+      64,
+      96
+    ],
+    [
+      64,
+      0,
+      32,
+      64
+    ],
+    [
+      96,
+      0,
+      32,
+      64
+    ],
+    [
+      128,
+      0,
+      32,
+      64
+    ],
+    [
+      160,
+      0,
+      32,
+      64
+    ],
+    [
+      192,
+      0,
+      32,
+      64
+    ]
+  ]
+}

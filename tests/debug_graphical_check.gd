@@ -182,7 +182,7 @@ func verify_xp_buttons() -> void:
 	key(KEY_F9)
 	await process_frame
 	check(not panel.overlay.visible and not app.run.pause.is_blocked(), "XP upgrades and debug panel can finish without leaving combat paused")
-	check(hud.values.get_global_rect().end.x <= 640, "HUD hero and run levels fit viewport")
+	check(hud.hero_label.get_global_rect().end.x <= 640 and hud.run_label.get_global_rect().end.x <= 640, "HUD hero and run levels fit viewport")
 	await capture("debug-xp-level-hud")
 	check(panel.service.execute("restart").ok and app.run.hero.permanent_level == 30, "restarted sandbox run loads permanent level from saved progression")
 	app.free()

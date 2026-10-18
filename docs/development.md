@@ -1,5 +1,10 @@
 # Milestone 1 development
 
+## 当前工作流 · 2026-10-18
+
+**Autonomous Implementation with Continuous Documentation** 已写入AGENTS.md、宪章v1.1.0和当前002规格/计划/任务。移除Spec Kit配置中的两处例行审批停点，通用未勾选清单提示服从持久指令；reviewer清单只读。范围内自动连续实施、测试修复、逐阶段文档；人工/参考机/显示延迟未验项保持pending并继续无关工作。只有真实阻塞、高风险行动或平台权限需用户介入。范围/数值/验收目标未变；本次未启动剩余实施、未运行Godot测试。见[一致性核对与保护校验](validation/workflow-2026-10-18.md)。下方旧授权/STOP说明为历史记录。
+
+
 Current implemented scope: M1 combat, M2 progression/promotions/companions, M3 recruitment/gacha, M4 corruption/events/chapter, and developer tools. Human acceptance and reference-hardware targets remain open; M4 stress measurements miss the frame budgets. See [visual dashboard](game-development-dashboard.html), [Chinese overview](IMPLEMENTATION_OVERVIEW.md) and [M4 evidence](validation/m4-gate.md). The notes below are historical deliveries; statements that M3/M4 were absent describe those earlier checkpoints.
 
 2026-10-15 full verification: corrected project.godot features metadata from 4.7 to the planned/pinned 4.5. Both baseline and post-fix `tools/run_validation.ps1 -M4 -Graphical -Export` completed successfully. Post-fix native coverage is 1,654 primary + 69 debug assertions, zero failures/skips. All 142 shipping/test scripts, 29 scenes and 51 Resources load. Source and actual release start headlessly; three-size source/release checks, current M4 prior-flow release regressions, F9 source/export/release restrictions and competing-writer/crash recovery pass. Content digest and starter victory ticks are unchanged. See [full commands, raw logs, new stress captures and unexecuted checks](validation/verification-2026-10-15.md). No gameplay logic/balance or acceptance checkboxes changed; ordinary human/reference-machine/latency gates remain open.
@@ -116,3 +121,66 @@ Documentation-only audit added the offline visual dashboard and Simplified Chine
 最终单次13组5,239原生断言全过，145脚本/29场景/51Resource递归加载通过；源码和实际M4 EXE的M2/M3/M4三尺寸受控图形、F9开发97/发布20通过，多进程锁通过。先前4551失败保留为历史；当前EXE已实际启动。最终自动运行用Dummy audio隔离本机WASAPI设备错误，项目音频未改。
 
 发布版三seed实际工作负载捕获有效，但p95为27.571/27.670/29.259ms，预算未达。参考机、显示反馈延迟、十人体验、二十次普通胜利、自然操作会话与阶段人工观察均未完成。最终报告、构建/采样hash、原始CSV和失败记录见[当前收敛修复报告](validation/convergence-2026-10-15.md)。未把通过数或任务勾选当作全MVP收敛。
+
+### Visual planning — 2026-10-16
+
+Documentation-only speckit-plan delivered [VD-01](../specs/002-2d-art-direction/plan.md), research/data model/contracts/quickstart, art/sprite/UI/inventory guides and an [offline preview scaffold](visual-design/preview.html). The owner explicitly added level-up UI to the first slice; a narrow scope addendum was synchronized to the specification and Chinese reading copies. Runtime code, scenes, data and production assets remain unchanged. G0/G1, full pixel mockups, production and all new runtime/human/performance evidence remain pending. No M1–M4 task acceptance was changed. See [document checks](validation/art-plan-2026-10-16.md).
+
+## Visual review remediation R1 — 2026-10-16
+
+Authorized documentation-only correction of nine review findings: eight primary deliveries, mutually exclusive environment rendering/fallback with final Z, explicit three-identity visual mapping, simulation-derived event phase (including hero/companion dead_at and short resistant feedback exceptions), edge HUD review, inherited plus targeted new-effect performance coverage, named test suites and versioned recognition protocol. Existing87 tasks remain unstarted.
+
+P01 edge/cropping, P02 supplemental population and P03 mirror shading are G1 decisions still pending, not approved implementation. Dashboard/overview/README and Chinese specification copies are synchronized; historical test evidence remains intact. No Godot/import/graphical/benchmark/human checks ran in this documentation task. Static checks and follow-up analysis are in [R1 record](validation/art-review-remediation-2026-10-16.md).
+
+## Visual audit / direction / mockups — 2026-10-16
+
+Owner explicitly authorized only Phases1–3 and replied `yes` to proceed with unchecked reviewer checklists. Delivered VD-01-M1 source audit, palette/sprite/animation/UI/inventory rules, eight original pixel concept deliverables and an [offline interactive preview](visual-design/preview.html). Draft mockup production is explicitly authorized before the actual G0 decision; it does not grant art/plan/runtime approval. G0/G1/P01–03 and recognition fixture decisions remain pending. T031+ was not started.
+
+The package includes layered ORA masters, transparent concept sheets (29 distinct cells), 16 tile/6 prop designs, six support icons, normal/dense/max corruption/grayscale/unlit views, combined HUD/rescue variants, eight edge/corner proposals, 51 integer/letterbox plates and 13 WebM motion demonstrations. Existing screenshot files remain REAL historical evidence, never repainted into new game captures. Boss/companions retain labeled fallback depictions. No reusable production sprites exist in assets; all new art remains under docs and needs production cleanup/acceptance.
+
+Validation executed: source/historical SHA256 protection, Pillow file/anchor/region/dedup/ORA/contrast/large-value/union checks, actual file:// Chrome keyboard/mouse/state/scale/reduced-motion/mobile/media-decode tests, and visual inspection of concept/page/selected motion frames. Initial duplicate Brinejaw pose was corrected; cancelled video-prefetch diagnostics are retained separately from genuine decoder errors. Exact final results and reproduction details: [phase1](validation/visual-vd01/phase-1.md), [phase2](validation/visual-vd01/phase-2.md), [phase3](validation/visual-vd01/phase-3.md). No Godot tests, new gameplay captures, benchmarks, latency measurements or participant review ran; protected runtime files and historical screenshots are unchanged. Historical performance/manual gates remain open. Stop at Gate A for [owner review](visual-design/APPROVALS.md).
+
+
+## VD-01-M1 owner design approval — 2026-10-16
+
+The owner directly replied `approve` to the submitted visual design handoff. Recorded G0/G1, written-reference substitution, P01/P02/P03, recognition protocol and the exact eight-item design/replacement scope. T015/T030 are checked; all30 Phase1–3 tasks are now closed. Submitted package SHA256 and complete referenced files were verified and archived before approval-label edits. See [decision](validation/visual-vd01/owner-approval-2026-10-16.json) and [approval register](visual-design/APPROVALS.md).
+
+This turn records design approval only. Original Phases1–3-only delivery remains the execution boundary; T031–T087 have not started. No production cleanup, runtime changes, engine tests, performance or human acceptance is claimed. G2/G3 remain open. Offline links and protected hashes are checked separately in the approval evidence.
+
+Approval validation found an existing difference from the original audit manifest: project.godot now lists config/features 4.7 rather than 4.5. This approval turn did not write that file and did not restore it. Other233 protected files and5 historical images match; submitted package/art files remain unchanged. The initial strict checker stopped on this difference; the separate read-only [approval check](validation/visual-vd01/approval-checks-2026-10-16.json) records it explicitly. Verify the pinned4.5 setup before any later implementation baseline capture.
+
+
+## Visual slice · Phase4 · 2026-10-17
+
+Owner approved all scoped continuation. Native Theme/components/HUD/level-up and pause seed are implemented, with no gameplay rule changes. Complete source/export/debug/release regressions passed after isolating screenshot outputs;42 new viewport captures. Character/environment production remains next. See [phase4 evidence and pending checks](validation/visual-vd01/phase-4.md). G2, human/reference-machine/latency criteria remain open.
+
+
+## Visual slice · Phase5 · 2026-10-17
+
+Bounded production exports and optional presentation integration complete;5 targeted suites719 assertions passed. Original gameplay/AI/progression/save logic retained; no simulation callback from animation. New actors/environment/effect/resource contracts and fallback evidence: [phase5](validation/visual-vd01/phase-5.md). Short diagnostic budgets fail; G2 remains pending.
+
+
+
+
+
+
+## Visual slice · current candidate · 2026-10-17
+
+Approved eight-item VD-01-P1 candidate integrated. Shared Theme/HUD/three-card upgrade, exact3 actor mappings, base arc/star, collision-free shrine and full fallback. Existing AI/combat/progression/save rules and data unchanged; source archive and before EXE retained. Full+final focused checks5,275 primary,debug69; source/export/release graphical,F9 denial,native queued input and120tick before/after executable observations passed. Screenshot wrappers now isolate evidence outputs after preserving failed overwrite logs. HUD all-control union24.61%; offline browser30 checks,zero network. Benchmark measurement finished; target/reference acceptance remains separate. Human recognition/UI,display latency,full physical-window/long-value/manual criteria and G2 remain open. [Exact files,build hash,commands and limits](validation/visual-vd01/review-package.md).
+
+### UI boundary follow-up · 2026-10-17
+
+Continued external verification only; runtime/assets/embedded EXE and approved concept hashes unchanged. Source51/release51 observations cover six current HUD names,12 upgrades, three requested window sizes and separate synthetic long-name/effect/numeric fixtures. Current font coverage/modal bounds/horizontal content checks pass; signed-int64 coins and nine-digit HP/XP remain exact and contained. Repeated effects wrap/scroll; synthetic long hero/upgrade titles are occluded/clipped and remain known limitations. First harness shallow-copy contamination/overstrict rectangle failures are retained and corrected in canonical source-r3/release-r2 evidence. [Measurements and screenshots](validation/visual-vd01/ui-boundary.md). No full regression/benchmark rerun: production files unchanged;5,344 remains the previous functional assertion total. No G2/G3 or human/hardware pass inferred.
+
+### Current slice completion · 2026-10-17 / VD-01-P2
+
+Owner reported `verified proceed the rest`, then explicitly chose remaining work on the current slice. Archived the verified f187 production files/embedded EXE and feedback. Only HUD heading, ChoiceCard heading wrapping and pause full-name detail changed in production. Red12→green0 text boundary failures; source/release54 cases each. Full12 suites5,278 + debug69=5,347 passed, source/export/F9/release checks passed.120 old/new executable ticks remain identical. Current native sets287 each include direct base/upgraded effect selectors and observed Window transforms; source163/release134/retained-before137 elapsed-clock frames cover movement/pause and explicitly injected observer events. Auxiliary source/release24 each show full synthetic long save paths and actual engine tooltip placement at12 corner/size cases. Existing out-of-slice10/11px labels retained.
+
+Windows mapped-file denial interrupted one release-test wrapper; evidence retained. Independent per-evidence harness locations fix the wrapper, and complete M2/M3/M4/F9 release rerun passed. New offline player13 checks, current gallery30 and dashboard4 passed with no network/errors. Full current-pack measurement completed separately: M4 p95=28.018/28.257/28.442ms; P02=17.955/17.744/17.965ms. All six valid30+120 active-second captures, all budget failures, exact P02 before/current fixture and new-population checks passed. Alternate host only; no reference/physical-latency pass. No visual owner feedback is converted to quantitative acceptance. [Current report/remaining gates](validation/visual-vd01/completion-r1.md). No G3 or gameplay optimization.
+
+
+### Current slice local completion · 2026-10-18 / VD-01-P3
+
+Continued only the authorized eight-item slice. Owner reports no reference machine, high-frame-rate equipment or ten participants. Cached unchanged ActorPresentation cues and MeleeArc draw commands; all other function bodies, art, scenes and simulation remain byte-identical to P2. Current source/release287 each match every prior native pixel;36 redraw-reference cases each pass. Source/release187-label ink scans distinguish6 intentional scroll cases; deliberate overflow canary detected.12 suites5278 + debug69 pass; actual M2/M3/M4 release, source/exported F9 and release denial pass. Current elapsed-clock source163/release138 frames retained.
+
+Six valid full captures: M4 p95=27.956/26.148/28.210ms, P02=32.443/20.458/14.778ms; onlyP02 seed303 meets both budgets. Short same-host ABBA p95(parent/cache/cache/parent)=32.054/28.282/27.495/35.209ms, diagnostic only. No acceptance inference from one seed or relative improvement. Offline randomized answer collection and conservative independent scorer delivered; no actual participant answers. Browser download cancellation is recorded; copyable raw export is provided. Formal checklists read-only;77/87 unchanged. [Evidence and remaining gates](validation/visual-vd01/completion-r2.md) · [review tool](visual-design/review-session.html).

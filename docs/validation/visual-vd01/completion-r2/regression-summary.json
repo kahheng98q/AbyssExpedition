@@ -1,0 +1,22 @@
+{
+  "primary_suites": {
+    "unit": 223,
+    "scene_smoke": 178,
+    "integration_m1": 77,
+    "replay": 44,
+    "full_run": 9,
+    "progression": 13,
+    "persistence": 343,
+    "abilities": 123,
+    "integration_m2": 45,
+    "recruitment": 293,
+    "integration_m3": 196,
+    "integration_m4": 3734
+  },
+  "primary_assertions": 5278,
+  "debug_assertions": 69,
+  "total_unique_functional_assertions": 5347,
+  "failures": 0,
+  "skipped": 0,
+  "limits": "Rendered comparisons, font scans, repeated GUI probes and tool tests are separate observations, not extra gameplay assertions."
+}

@@ -1,0 +1,738 @@
+{
+  "revision": "VD-01-P1",
+  "date": "2026-10-17",
+  "source": "original owner-approved VD-01-M1 authored pixels; no external art",
+  "production_note": "fixed lossless exports from reviewed native cells; no new poses or changed gameplay. Pixel inspection retained approved contours. Production art taste acceptance is pending G2.",
+  "distinct_actor_effect_cells": 29,
+  "tiles": 16,
+  "props": 6,
+  "icons": 6,
+  "ora_masters": 6,
+  "budget_pass": true,
+  "records": [
+    {
+      "canvas": [
+        32,
+        48
+      ],
+      "anchor": [
+        16,
+        40
+      ],
+      "sheet": "sprites/aren.png",
+      "body_bounds": [
+        4,
+        8,
+        24,
+        32
+      ],
+      "states": {
+        "idle": {
+          "applicable": true,
+          "regions": [
+            [
+              0,
+              0,
+              32,
+              48
+            ],
+            [
+              32,
+              0,
+              32,
+              48
+            ]
+          ],
+          "effective_frames": 2,
+          "fps": 6,
+          "loop": true
+        },
+        "move": {
+          "applicable": true,
+          "regions": [
+            [
+              0,
+              48,
+              32,
+              48
+            ],
+            [
+              32,
+              48,
+              32,
+              48
+            ],
+            [
+              64,
+              48,
+              32,
+              48
+            ],
+            [
+              96,
+              48,
+              32,
+              48
+            ]
+          ],
+          "effective_frames": 4,
+          "fps": 10,
+          "loop": true
+        },
+        "attack": {
+          "applicable": true,
+          "regions": [
+            [
+              0,
+              96,
+              32,
+              48
+            ],
+            [
+              32,
+              96,
+              32,
+              48
+            ],
+            [
+              64,
+              96,
+              32,
+              48
+            ]
+          ],
+          "effective_frames": 3,
+          "fps": 15,
+          "loop": false,
+          "event_origin": "attack_until-12",
+          "duration_ticks": 12
+        },
+        "hurt": {
+          "applicable": true,
+          "regions": [],
+          "effective_frames": 1,
+          "fps": 1,
+          "loop": false,
+          "reuse_of": "idle[0]",
+          "flash_until": "actual hurt_until; can be 2 or 8 ticks"
+        },
+        "death": {
+          "applicable": true,
+          "regions": [
+            [
+              0,
+              192,
+              32,
+              48
+            ],
+            [
+              32,
+              192,
+              32,
+              48
+            ],
+            [
+              64,
+              192,
+              32,
+              48
+            ],
+            [
+              96,
+              192,
+              32,
+              48
+            ]
+          ],
+          "effective_frames": 4,
+          "fps": 8,
+          "loop": false,
+          "event_origin": "valid dead_at; hero/companion lethal hurt_until-8",
+          "duration_ticks": 30,
+          "interruption": "results can immediately truncate; never delay cleanup"
+        }
+      },
+      "unique_cells": 13,
+      "facing": "one plus horizontal mirror; bodies never rotate",
+      "revision": "VD-01-P1",
+      "creator": "Codex / original local pixel masters",
+      "date": "2026-10-16",
+      "source": "assets/source/visual-vd01/aren.ora",
+      "export": "assets/sprites/actors/aren/base_swordsman_vd01.png",
+      "approved_concept_sha256": "3c20729e329026ce012ab1a8f252d8aba059565f4b349491b6f8b7566072ba49",
+      "production_status": "pixel export prepared; import and candidate review required",
+      "cleanup": "Fixed canvas/anchor, alpha, state regions, mirror-neutral semantic geometry and all distinct authored cells checked. No copied franchise imagery.",
+      "sha256": "a2b0ecf595af4905ef9aabae1825b3cb7c1db667fde39997aa8a481f5209c485",
+      "source_sha256": "a5ed676bc441378fd3e7e9d89582c9d722acd9122174c68edcb491d3df3573b1",
+      "export_sha256": "a2b0ecf595af4905ef9aabae1825b3cb7c1db667fde39997aa8a481f5209c485",
+      "production_export_date": "2026-10-17",
+      "actual_unique_pixel_cells": 13,
+      "approval_status": "G1 concept approved; runtime G2 pending"
+    },
+    {
+      "canvas": [
+        32,
+        48
+      ],
+      "anchor": [
+        16,
+        40
+      ],
+      "sheet": "sprites/thrall.png",
+      "body_bounds": [
+        5,
+        10,
+        22,
+        31
+      ],
+      "states": {
+        "idle": {
+          "applicable": true,
+          "regions": [
+            [
+              0,
+              0,
+              32,
+              48
+            ]
+          ],
+          "effective_frames": 1,
+          "fps": 4,
+          "loop": true
+        },
+        "move": {
+          "applicable": true,
+          "regions": [
+            [
+              0,
+              48,
+              32,
+              48
+            ],
+            [
+              32,
+              48,
+              32,
+              48
+            ]
+          ],
+          "effective_frames": 2,
+          "fps": 8,
+          "loop": true
+        },
+        "attack": {
+          "applicable": false,
+          "regions": [],
+          "effective_frames": 0,
+          "fps": 15,
+          "loop": false,
+          "reason": "contact-only pursuit; no attack event"
+        },
+        "hurt": {
+          "applicable": true,
+          "regions": [],
+          "effective_frames": 1,
+          "fps": 1,
+          "loop": false,
+          "reuse_of": "idle[0]",
+          "flash_until": "actual hurt_until; can be 2 or 8 ticks"
+        },
+        "death": {
+          "applicable": true,
+          "regions": [
+            [
+              0,
+              192,
+              32,
+              48
+            ],
+            [
+              32,
+              192,
+              32,
+              48
+            ],
+            [
+              64,
+              192,
+              32,
+              48
+            ]
+          ],
+          "effective_frames": 3,
+          "fps": 8,
+          "loop": false,
+          "event_origin": "valid dead_at; hero/companion lethal hurt_until-8",
+          "duration_ticks": 24,
+          "interruption": "results can immediately truncate; never delay cleanup"
+        }
+      },
+      "unique_cells": 6,
+      "facing": "one plus horizontal mirror; bodies never rotate",
+      "revision": "VD-01-P1",
+      "creator": "Codex / original local pixel masters",
+      "date": "2026-10-16",
+      "source": "assets/source/visual-vd01/thrall.ora",
+      "export": "assets/sprites/enemies/thrall_vd01.png",
+      "approved_concept_sha256": "3c20729e329026ce012ab1a8f252d8aba059565f4b349491b6f8b7566072ba49",
+      "production_status": "pixel export prepared; import and candidate review required",
+      "cleanup": "Fixed canvas/anchor, alpha, state regions, mirror-neutral semantic geometry and all distinct authored cells checked. No copied franchise imagery.",
+      "sha256": "fb54a5440bc96518cfd013478985b357642bb714d96c33f4efa8ab90acd0dac7",
+      "source_sha256": "aa3012f19bc843ef5994ad9978a0bb81b440c427d4d2f803159cf1040a42cc94",
+      "export_sha256": "fb54a5440bc96518cfd013478985b357642bb714d96c33f4efa8ab90acd0dac7",
+      "production_export_date": "2026-10-17",
+      "actual_unique_pixel_cells": 6,
+      "approval_status": "G1 concept approved; runtime G2 pending"
+    },
+    {
+      "canvas": [
+        32,
+        32
+      ],
+      "anchor": [
+        16,
+        24
+      ],
+      "sheet": "sprites/brinejaw.png",
+      "body_bounds": [
+        1,
+        7,
+        31,
+        18
+      ],
+      "states": {
+        "idle": {
+          "applicable": true,
+          "regions": [
+            [
+              0,
+              0,
+              32,
+              32
+            ]
+          ],
+          "effective_frames": 1,
+          "fps": 4,
+          "loop": true
+        },
+        "move": {
+          "applicable": true,
+          "regions": [
+            [
+              0,
+              32,
+              32,
+              32
+            ],
+            [
+              32,
+              32,
+              32,
+              32
+            ]
+          ],
+          "effective_frames": 2,
+          "fps": 10,
+          "loop": true
+        },
+        "warning": {
+          "applicable": true,
+          "regions": [],
+          "effective_frames": 1,
+          "fps": 1,
+          "loop": false,
+          "reuse_of": "idle[0]",
+          "event_origin": "deadline-45, only while warning",
+          "duration_ticks": 45
+        },
+        "hurt": {
+          "applicable": true,
+          "regions": [],
+          "effective_frames": 1,
+          "fps": 1,
+          "loop": false,
+          "reuse_of": "idle[0]",
+          "flash_until": "actual hurt_until; can be 2 or 8 ticks"
+        },
+        "death": {
+          "applicable": true,
+          "regions": [
+            [
+              0,
+              128,
+              32,
+              32
+            ],
+            [
+              32,
+              128,
+              32,
+              32
+            ],
+            [
+              64,
+              128,
+              32,
+              32
+            ]
+          ],
+          "effective_frames": 3,
+          "fps": 8,
+          "loop": false,
+          "event_origin": "valid dead_at; hero/companion lethal hurt_until-8",
+          "duration_ticks": 24,
+          "interruption": "results can immediately truncate; never delay cleanup"
+        }
+      },
+      "unique_cells": 6,
+      "facing": "one plus horizontal mirror; bodies never rotate",
+      "revision": "VD-01-P1",
+      "creator": "Codex / original local pixel masters",
+      "date": "2026-10-16",
+      "source": "assets/source/visual-vd01/brinejaw.ora",
+      "export": "assets/sprites/enemies/brinejaw_vd01.png",
+      "approved_concept_sha256": "3c20729e329026ce012ab1a8f252d8aba059565f4b349491b6f8b7566072ba49",
+      "production_status": "pixel export prepared; import and candidate review required",
+      "cleanup": "Fixed canvas/anchor, alpha, state regions, mirror-neutral semantic geometry and all distinct authored cells checked. No copied franchise imagery.",
+      "sha256": "68b257e101d7435ff98be9dc3510ad1ac33074d7b440953048c97b9fa19693e3",
+      "source_sha256": "6f8248f40a962ca3fd2c820dac74e323ec8b4bca007fdfeeeaa224d3eecd25fc",
+      "export_sha256": "68b257e101d7435ff98be9dc3510ad1ac33074d7b440953048c97b9fa19693e3",
+      "production_export_date": "2026-10-17",
+      "actual_unique_pixel_cells": 6,
+      "approval_status": "G1 concept approved; runtime G2 pending"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "assets/source/visual-vd01/aren.manifest.json",
+      "sha256": "847e79b4a74a1fa5cc5da7171a6d8c0a58d902b7072d90632bc40b447a08f061"
+    },
+    {
+      "path": "assets/source/visual-vd01/aren.ora",
+      "sha256": "a5ed676bc441378fd3e7e9d89582c9d722acd9122174c68edcb491d3df3573b1"
+    },
+    {
+      "path": "assets/source/visual-vd01/brinejaw.manifest.json",
+      "sha256": "dd3f629d5325383637e6a42b6b8f7f0c74a080508b805fa59b1ce9ce3ad9af25"
+    },
+    {
+      "path": "assets/source/visual-vd01/brinejaw.ora",
+      "sha256": "6f8248f40a962ca3fd2c820dac74e323ec8b4bca007fdfeeeaa224d3eecd25fc"
+    },
+    {
+      "path": "assets/source/visual-vd01/delivery.json",
+      "sha256": "0bb940b6d0107fe679f7af11021156c614d9f56efba4fa7c45a5d15fb7da1efe"
+    },
+    {
+      "path": "assets/source/visual-vd01/effects.manifest.json",
+      "sha256": "62f5451710890ae97c31cae892cf952c3c4902ce44b983ddf8273960e050cf76"
+    },
+    {
+      "path": "assets/source/visual-vd01/effects.ora",
+      "sha256": "cd17acd77f3cce98bb9d1ef4742d110f1258ffd9d8b77f73f0862c898a71670e"
+    },
+    {
+      "path": "assets/source/visual-vd01/shrine.manifest.json",
+      "sha256": "170ed3679d44a6077774aaeb5cc1a6cfd37415f76204549fb24389ecb6ec6a7d"
+    },
+    {
+      "path": "assets/source/visual-vd01/shrine.ora",
+      "sha256": "1a97ea083c79f82f7e082c1cb4bc07db592ccab1aa117f02f166091e0007a270"
+    },
+    {
+      "path": "assets/source/visual-vd01/thrall.manifest.json",
+      "sha256": "be0cf83f6cbb1013780007d91096bdf48428ff75052f730d237cf573f8a18b46"
+    },
+    {
+      "path": "assets/source/visual-vd01/thrall.ora",
+      "sha256": "aa3012f19bc843ef5994ad9978a0bb81b440c427d4d2f803159cf1040a42cc94"
+    },
+    {
+      "path": "assets/source/visual-vd01/ui.manifest.json",
+      "sha256": "13feb22d15b628da7197848f3c0c5c8494e5c4232c6dc8c3d7f0826c3a99212c"
+    },
+    {
+      "path": "assets/source/visual-vd01/ui.ora",
+      "sha256": "6c22c3d3d9bb1448335396a6d20fdfc297578257aa1e5446ad79f60be3776cf3"
+    }
+  ],
+  "deliveries": [
+    {
+      "id": "A01",
+      "selector": "hero aren+swordsman",
+      "creator": "Codex / original local pixel geometry and native UI",
+      "concept_date": "2026-10-16",
+      "production_date": "2026-10-17",
+      "rights": "original project assets; no external artwork or font binaries copied",
+      "source": [
+        {
+          "path": "assets/source/visual-vd01/aren.ora",
+          "sha256": "a5ed676bc441378fd3e7e9d89582c9d722acd9122174c68edcb491d3df3573b1"
+        },
+        {
+          "path": "assets/source/visual-vd01/aren.manifest.json",
+          "sha256": "847e79b4a74a1fa5cc5da7171a6d8c0a58d902b7072d90632bc40b447a08f061"
+        }
+      ],
+      "exports": [
+        {
+          "path": "assets/sprites/actors/aren/base_swordsman_vd01.png",
+          "sha256": "a2b0ecf595af4905ef9aabae1825b3cb7c1db667fde39997aa8a481f5209c485"
+        },
+        {
+          "path": "data/visuals/aren_frames_vd01.tres",
+          "sha256": "6849f30dbd71af2e78466103fc07aec74d2f38ff5926adf3d480b6756ad037de"
+        },
+        {
+          "path": "data/visuals/aren_vd01.tres",
+          "sha256": "8f6353ade4cc1f8a623f9b4ffbf87adfcc77ac551fe9f5f9c4b846c0958f6f3c"
+        }
+      ],
+      "state_anchor_manifest": "see source manifest; native region/state checks passed",
+      "G1": "approved original concept",
+      "integration": "current candidate",
+      "G2": "pending"
+    },
+    {
+      "id": "E01",
+      "selector": "enemy saltbound_thrall",
+      "creator": "Codex / original local pixel geometry and native UI",
+      "concept_date": "2026-10-16",
+      "production_date": "2026-10-17",
+      "rights": "original project assets; no external artwork or font binaries copied",
+      "source": [
+        {
+          "path": "assets/source/visual-vd01/thrall.ora",
+          "sha256": "aa3012f19bc843ef5994ad9978a0bb81b440c427d4d2f803159cf1040a42cc94"
+        },
+        {
+          "path": "assets/source/visual-vd01/thrall.manifest.json",
+          "sha256": "be0cf83f6cbb1013780007d91096bdf48428ff75052f730d237cf573f8a18b46"
+        }
+      ],
+      "exports": [
+        {
+          "path": "assets/sprites/enemies/thrall_vd01.png",
+          "sha256": "fb54a5440bc96518cfd013478985b357642bb714d96c33f4efa8ab90acd0dac7"
+        },
+        {
+          "path": "data/visuals/thrall_frames_vd01.tres",
+          "sha256": "bc3262b2d4c9a35c67e0fbc95b9c4ab386b3dbc84120bf478c6c67f5db2a0f3c"
+        },
+        {
+          "path": "data/visuals/thrall_vd01.tres",
+          "sha256": "d1a3f4feb9ab17bc8e4d0f38675a2bdf6cac4729ffddfc77b1b3fe55507acc23"
+        }
+      ],
+      "state_anchor_manifest": "see source manifest; native region/state checks passed",
+      "G1": "approved original concept",
+      "integration": "current candidate",
+      "G2": "pending"
+    },
+    {
+      "id": "E02",
+      "selector": "enemy skittering_brinejaw",
+      "creator": "Codex / original local pixel geometry and native UI",
+      "concept_date": "2026-10-16",
+      "production_date": "2026-10-17",
+      "rights": "original project assets; no external artwork or font binaries copied",
+      "source": [
+        {
+          "path": "assets/source/visual-vd01/brinejaw.ora",
+          "sha256": "6f8248f40a962ca3fd2c820dac74e323ec8b4bca007fdfeeeaa224d3eecd25fc"
+        },
+        {
+          "path": "assets/source/visual-vd01/brinejaw.manifest.json",
+          "sha256": "dd3f629d5325383637e6a42b6b8f7f0c74a080508b805fa59b1ce9ce3ad9af25"
+        }
+      ],
+      "exports": [
+        {
+          "path": "assets/sprites/enemies/brinejaw_vd01.png",
+          "sha256": "68b257e101d7435ff98be9dc3510ad1ac33074d7b440953048c97b9fa19693e3"
+        },
+        {
+          "path": "data/visuals/brinejaw_frames_vd01.tres",
+          "sha256": "7a1777acf20b6272253095a6b1770f796e7072b2da43350186969eb462bd358f"
+        },
+        {
+          "path": "data/visuals/brinejaw_vd01.tres",
+          "sha256": "7f2844e9e2c024dd4534c71acaef762ec6135871689c72b9c3af9073ab374bb3"
+        }
+      ],
+      "state_anchor_manifest": "see source manifest; native region/state checks passed",
+      "G1": "approved original concept",
+      "integration": "current candidate",
+      "G2": "pending"
+    },
+    {
+      "id": "W01",
+      "selector": "coast visual only",
+      "creator": "Codex / original local pixel geometry and native UI",
+      "concept_date": "2026-10-16",
+      "production_date": "2026-10-17",
+      "rights": "original project assets; no external artwork or font binaries copied",
+      "source": [
+        {
+          "path": "assets/source/visual-vd01/shrine.ora",
+          "sha256": "1a97ea083c79f82f7e082c1cb4bc07db592ccab1aa117f02f166091e0007a270"
+        },
+        {
+          "path": "assets/source/visual-vd01/shrine.manifest.json",
+          "sha256": "170ed3679d44a6077774aaeb5cc1a6cfd37415f76204549fb24389ecb6ec6a7d"
+        }
+      ],
+      "exports": [
+        {
+          "path": "assets/tiles/coast_shrine/terrain_vd01.png",
+          "sha256": "d8bd0e8494fa9b04a1956c31e2bd9fe4fc6ee81723317a57c6d149254bc69825"
+        },
+        {
+          "path": "assets/tiles/coast_shrine/props_vd01.png",
+          "sha256": "3c9ce2b401caf5fb1f0af05b886a551df277d6546fc139a4ffb143e14ee8eef5"
+        },
+        {
+          "path": "assets/tiles/coast_shrine/corruption_vd01.png",
+          "sha256": "bf4d2ca1de01d2205a31dd8a966da643089f08ee67f23bf5e8e7ec0e0f21e82a"
+        },
+        {
+          "path": "data/visuals/coast_shrine_tileset.tres",
+          "sha256": "8dc628ae3431c4257de4a279b6857f29b26067c1b61920f1ef8b3c0069d9b9a1"
+        }
+      ],
+      "state_anchor_manifest": "see source manifest; native region/state checks passed",
+      "G1": "approved original concept",
+      "integration": "current candidate",
+      "G2": "pending"
+    },
+    {
+      "id": "F01",
+      "selector": "base arc48/100",
+      "creator": "Codex / original local pixel geometry and native UI",
+      "concept_date": "2026-10-16",
+      "production_date": "2026-10-17",
+      "rights": "original project assets; no external artwork or font binaries copied",
+      "source": [
+        {
+          "path": "assets/source/visual-vd01/effects.ora",
+          "sha256": "cd17acd77f3cce98bb9d1ef4742d110f1258ffd9d8b77f73f0862c898a71670e"
+        },
+        {
+          "path": "assets/source/visual-vd01/effects.manifest.json",
+          "sha256": "62f5451710890ae97c31cae892cf952c3c4902ce44b983ddf8273960e050cf76"
+        }
+      ],
+      "exports": [
+        {
+          "path": "assets/effects/slice/sword_arc_vd01.png",
+          "sha256": "2e7392d122a832e22fb30215fd76a0ef575c70b0ce8612a72f6b4bb6aea20263"
+        },
+        {
+          "path": "data/visuals/sword_frames_vd01.tres",
+          "sha256": "878d87140c5e002bc8cd08da2e547ed4aeb04a6b6ffa7e733813991b1383274a"
+        }
+      ],
+      "state_anchor_manifest": "see source manifest; native region/state checks passed",
+      "G1": "approved original concept",
+      "integration": "current candidate",
+      "G2": "pending"
+    },
+    {
+      "id": "F02",
+      "selector": "existing friendly base homing",
+      "creator": "Codex / original local pixel geometry and native UI",
+      "concept_date": "2026-10-16",
+      "production_date": "2026-10-17",
+      "rights": "original project assets; no external artwork or font binaries copied",
+      "source": [
+        {
+          "path": "assets/source/visual-vd01/effects.ora",
+          "sha256": "cd17acd77f3cce98bb9d1ef4742d110f1258ffd9d8b77f73f0862c898a71670e"
+        },
+        {
+          "path": "assets/source/visual-vd01/effects.manifest.json",
+          "sha256": "62f5451710890ae97c31cae892cf952c3c4902ce44b983ddf8273960e050cf76"
+        }
+      ],
+      "exports": [
+        {
+          "path": "assets/effects/slice/homing_star_vd01.png",
+          "sha256": "ffd0c70628b4c6ae987f36378763d8c404e475990c65b9b1c54d189525f4fab6"
+        },
+        {
+          "path": "data/visuals/star_frames_vd01.tres",
+          "sha256": "1c9b472ed5de3b15bdca3fd2d9112555f9f077e0567c37656042c263e1d499f2"
+        }
+      ],
+      "state_anchor_manifest": "see source manifest; native region/state checks passed",
+      "G1": "approved original concept",
+      "integration": "current candidate",
+      "G2": "pending"
+    },
+    {
+      "id": "U01",
+      "selector": "CombatHUD",
+      "creator": "Codex / original local pixel geometry and native UI",
+      "concept_date": "2026-10-16",
+      "production_date": "2026-10-17",
+      "rights": "original project assets; no external artwork or font binaries copied",
+      "source": [
+        {
+          "path": "scripts/ui/combat_hud.gd",
+          "sha256": "2cac0ad957747d4e3a6df06127ee1f038e39d182106d78f2210c27b66110cda3"
+        },
+        {
+          "path": "data/themes/expedition_theme.tres",
+          "sha256": "23a4dbe7345c126dc431ee167c55414f8f244cee7ad66f108ae5712cb3bd6ee2"
+        }
+      ],
+      "exports": [
+        {
+          "path": "scenes/ui/combat_hud.tscn",
+          "sha256": "e8eb4800a1a397ce9e7ca78560ba3cee4127bb11a11ba7e2ffa2c66e989f7a84"
+        }
+      ],
+      "state_anchor_manifest": "see source manifest; native region/state checks passed",
+      "G1": "approved original concept",
+      "integration": "current candidate",
+      "G2": "pending"
+    },
+    {
+      "id": "U02",
+      "selector": "level_up",
+      "creator": "Codex / original local pixel geometry and native UI",
+      "concept_date": "2026-10-16",
+      "production_date": "2026-10-17",
+      "rights": "original project assets; no external artwork or font binaries copied",
+      "source": [
+        {
+          "path": "scripts/ui/level_up.gd",
+          "sha256": "a7be9a6c09d89089837c1c06fc5b719d6a412621e868a985f307e942410b1d70"
+        },
+        {
+          "path": "scripts/ui/components/choice_card.gd",
+          "sha256": "f45977884ac7332eb8d93d639508513828ab3fc5f15b743ac82aa39f25f312df"
+        },
+        {
+          "path": "data/themes/expedition_theme.tres",
+          "sha256": "23a4dbe7345c126dc431ee167c55414f8f244cee7ad66f108ae5712cb3bd6ee2"
+        }
+      ],
+      "exports": [
+        {
+          "path": "scenes/ui/level_up.tscn",
+          "sha256": "596fa266be8732625105d78c0439cdee1f45ee3bd8caffd54b004023ce64de34"
+        },
+        {
+          "path": "scenes/ui/components/choice_card.tscn",
+          "sha256": "1d7aa07592f4f3733bc1c45634b41a904bbb88ce80abaada93880e468ffb8fc2"
+        }
+      ],
+      "state_anchor_manifest": "see source manifest; native region/state checks passed",
+      "G1": "approved original concept",
+      "integration": "current candidate",
+      "G2": "pending"
+    }
+  ],
+  "candidate_sha256": "f187bd763fe92b69069722432c4534178c32206be6cf76a59ba9fe8fe7e95d42"
+}

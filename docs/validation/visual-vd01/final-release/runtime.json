@@ -1,0 +1,7 @@
+{
+  "runtime": "exe",
+  "dummy_audio": true,
+  "executable": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\builds\\windows\\m4\\AbyssExpedition.console.exe",
+  "executable_sha256": "4002EEFFB14A7AF3DA16E5B0BE5B7F5DA773F2117D819B33226DBCD1D6562951",
+  "pack_sha256": "04A8A4E4F45410C945C42098E2A7742B5554D661FB16A03B708EE28EC5A962C4"
+}

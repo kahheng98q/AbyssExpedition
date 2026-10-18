@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CharacterDefinition" load_steps=4 format=3]
+[ext_resource type="Script" path="res://scripts/characters/character_definition.gd" id="1"]
+[ext_resource type="Resource" path="res://data/professions/swordsman.tres" id="2"]
+[ext_resource type="Resource" path="res://data/skills/resolute.tres" id="3"]
+[resource]
+script = ExtResource("1")
+id = &"aren"
+display_name = "Aren"
+base_profession = ExtResource("2")
+description = "Short sweeping arc. Close in to hit several enemies."
+passive = ExtResource("3")

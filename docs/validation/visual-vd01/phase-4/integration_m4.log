@@ -1,0 +1,24 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+
+M4 EVENTS owned=false seed=0 sequence=["forbidden_altar", "lost_adventurer", "mysterious_merchant"]
+M4 EVENTS owned=false seed=1 sequence=["forbidden_altar", "lost_adventurer", "forbidden_altar"]
+M4 EVENTS owned=false seed=2 sequence=["forbidden_altar", "lost_adventurer", "forbidden_altar"]
+M4 EVENTS owned=false seed=42 sequence=["mysterious_merchant", "lost_adventurer", "mysterious_merchant"]
+M4 EVENTS owned=false seed=101 sequence=["mysterious_merchant", "lost_adventurer", "forbidden_altar"]
+M4 EVENTS owned=false seed=202 sequence=["mysterious_merchant", "lost_adventurer", "mysterious_merchant"]
+M4 EVENTS owned=false seed=303 sequence=["forbidden_altar", "lost_adventurer", "mysterious_merchant"]
+M4 EVENTS owned=false seed=8675309 sequence=["forbidden_altar", "lost_adventurer", "forbidden_altar"]
+M4 EVENTS owned=false seed=2147483646 sequence=["forbidden_altar", "lost_adventurer", "mysterious_merchant"]
+M4 EVENTS owned=false seed=2147483647 sequence=["forbidden_altar", "lost_adventurer", "forbidden_altar"]
+M4 EVENTS owned=true seed=0 sequence=["mysterious_merchant", "forbidden_altar", "lost_adventurer"]
+M4 EVENTS owned=true seed=1 sequence=["lost_adventurer", "lost_adventurer", "forbidden_altar"]
+M4 EVENTS owned=true seed=2 sequence=["forbidden_altar", "forbidden_altar", "forbidden_altar"]
+M4 EVENTS owned=true seed=42 sequence=["mysterious_merchant", "forbidden_altar", "mysterious_merchant"]
+M4 EVENTS owned=true seed=101 sequence=["forbidden_altar", "forbidden_altar", "mysterious_merchant"]
+M4 EVENTS owned=true seed=202 sequence=["forbidden_altar", "forbidden_altar", "lost_adventurer"]
+M4 EVENTS owned=true seed=303 sequence=["lost_adventurer", "forbidden_altar", "lost_adventurer"]
+M4 EVENTS owned=true seed=8675309 sequence=["mysterious_merchant", "forbidden_altar", "mysterious_merchant"]
+M4 EVENTS owned=true seed=2147483646 sequence=["lost_adventurer", "lost_adventurer", "forbidden_altar"]
+M4 EVENTS owned=true seed=2147483647 sequence=["forbidden_altar", "mysterious_merchant", "lost_adventurer"]
+Profile storage: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/m4-chapter-3122192/
+SUITE integration_m4: 3734 assertions; 0 failures; 0 skipped

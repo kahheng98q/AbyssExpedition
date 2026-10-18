@@ -1,0 +1,37 @@
+[
+  {
+    "pair": "Ivory / Panel",
+    "ratio": 13.245,
+    "target": 4.5
+  },
+  {
+    "pair": "Mist / Panel",
+    "ratio": 9.504,
+    "target": 4.5
+  },
+  {
+    "pair": "Gold / Panel",
+    "ratio": 7.985,
+    "target": 4.5
+  },
+  {
+    "pair": "Ally focus / Panel",
+    "ratio": 13.095,
+    "target": 3
+  },
+  {
+    "pair": "Light border / Panel",
+    "ratio": 3.811,
+    "target": 3
+  },
+  {
+    "pair": "Warning / bright ground",
+    "ratio": 5.547,
+    "target": 3
+  },
+  {
+    "pair": "Warning / abyss",
+    "ratio": 6.32,
+    "target": 3
+  }
+]

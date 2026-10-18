@@ -1,0 +1,118 @@
+{
+  "canvas": [
+    32,
+    32
+  ],
+  "anchor": [
+    16,
+    24
+  ],
+  "sheet": "sprites/brinejaw.png",
+  "body_bounds": [
+    1,
+    7,
+    31,
+    18
+  ],
+  "states": {
+    "idle": {
+      "applicable": true,
+      "regions": [
+        [
+          0,
+          0,
+          32,
+          32
+        ]
+      ],
+      "effective_frames": 1,
+      "fps": 4,
+      "loop": true
+    },
+    "move": {
+      "applicable": true,
+      "regions": [
+        [
+          0,
+          32,
+          32,
+          32
+        ],
+        [
+          32,
+          32,
+          32,
+          32
+        ]
+      ],
+      "effective_frames": 2,
+      "fps": 10,
+      "loop": true
+    },
+    "warning": {
+      "applicable": true,
+      "regions": [],
+      "effective_frames": 1,
+      "fps": 1,
+      "loop": false,
+      "reuse_of": "idle[0]",
+      "event_origin": "deadline-45, only while warning",
+      "duration_ticks": 45
+    },
+    "hurt": {
+      "applicable": true,
+      "regions": [],
+      "effective_frames": 1,
+      "fps": 1,
+      "loop": false,
+      "reuse_of": "idle[0]",
+      "flash_until": "actual hurt_until; can be 2 or 8 ticks"
+    },
+    "death": {
+      "applicable": true,
+      "regions": [
+        [
+          0,
+          128,
+          32,
+          32
+        ],
+        [
+          32,
+          128,
+          32,
+          32
+        ],
+        [
+          64,
+          128,
+          32,
+          32
+        ]
+      ],
+      "effective_frames": 3,
+      "fps": 8,
+      "loop": false,
+      "event_origin": "valid dead_at; hero/companion lethal hurt_until-8",
+      "duration_ticks": 24,
+      "interruption": "results can immediately truncate; never delay cleanup"
+    }
+  },
+  "unique_cells": 6,
+  "facing": "one plus horizontal mirror; bodies never rotate",
+  "revision": "VD-01-P1",
+  "creator": "Codex / original local pixel masters",
+  "date": "2026-10-17",
+  "source": "assets/source/visual-vd01/brinejaw.ora",
+  "export": "assets/sprites/enemies/brinejaw_vd01.png",
+  "approved_concept_sha256": "3c20729e329026ce012ab1a8f252d8aba059565f4b349491b6f8b7566072ba49",
+  "production_status": "pixel export prepared; import and candidate review required",
+  "cleanup": "Fixed canvas/anchor, alpha, state regions, mirror-neutral semantic geometry and all distinct authored cells checked. No copied franchise imagery.",
+  "sha256": "68b257e101d7435ff98be9dc3510ad1ac33074d7b440953048c97b9fa19693e3",
+  "source_sha256": "6f8248f40a962ca3fd2c820dac74e323ec8b4bca007fdfeeeaa224d3eecd25fc",
+  "export_sha256": "68b257e101d7435ff98be9dc3510ad1ac33074d7b440953048c97b9fa19693e3",
+  "production_export_date": "2026-10-17",
+  "actual_unique_pixel_cells": 6,
+  "approval_status": "G1 concept approved; runtime G2 pending",
+  "concept_creation_date": "2026-10-16"
+}

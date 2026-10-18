@@ -1,0 +1,923 @@
+{
+  "runtime_files": [
+    {
+      "path": "assets/effects/slice/homing_star_vd01.png",
+      "sha256": "ffd0c70628b4c6ae987f36378763d8c404e475990c65b9b1c54d189525f4fab6"
+    },
+    {
+      "path": "assets/effects/slice/homing_star_vd01.png.import",
+      "sha256": "f53ee6e9a65b5ba1a71cec3a624b40294bd9c01a626ddf150817737cd75dc3bc"
+    },
+    {
+      "path": "assets/effects/slice/sword_arc_vd01.png",
+      "sha256": "2e7392d122a832e22fb30215fd76a0ef575c70b0ce8612a72f6b4bb6aea20263"
+    },
+    {
+      "path": "assets/effects/slice/sword_arc_vd01.png.import",
+      "sha256": "90f36ba9b095b89451fd3f5ade335e325357b371108dfb6de5fa42cd363d29c0"
+    },
+    {
+      "path": "assets/sprites/actors/aren/base_swordsman_vd01.png",
+      "sha256": "a2b0ecf595af4905ef9aabae1825b3cb7c1db667fde39997aa8a481f5209c485"
+    },
+    {
+      "path": "assets/sprites/actors/aren/base_swordsman_vd01.png.import",
+      "sha256": "41a006869b43aa218f6d7c79108520b4f760df06fb115a9b2f20ce14b3a964bf"
+    },
+    {
+      "path": "assets/sprites/enemies/brinejaw_vd01.png",
+      "sha256": "68b257e101d7435ff98be9dc3510ad1ac33074d7b440953048c97b9fa19693e3"
+    },
+    {
+      "path": "assets/sprites/enemies/brinejaw_vd01.png.import",
+      "sha256": "07568c7a2b3f8209b39844b8fa522a6ef9f9b9ce72459c5a8e78974bb439dc16"
+    },
+    {
+      "path": "assets/sprites/enemies/thrall_vd01.png",
+      "sha256": "fb54a5440bc96518cfd013478985b357642bb714d96c33f4efa8ab90acd0dac7"
+    },
+    {
+      "path": "assets/sprites/enemies/thrall_vd01.png.import",
+      "sha256": "9c1944d1caa2ec34dcc05e8849b3d665efd6531429863ccae139d67333499aac"
+    },
+    {
+      "path": "assets/tiles/coast_shrine/corruption_vd01.png",
+      "sha256": "bf4d2ca1de01d2205a31dd8a966da643089f08ee67f23bf5e8e7ec0e0f21e82a"
+    },
+    {
+      "path": "assets/tiles/coast_shrine/corruption_vd01.png.import",
+      "sha256": "60d97d2f3de4cb9026a20562a7a3c999e5cc44215e367cbb02abe5baf683df2a"
+    },
+    {
+      "path": "assets/tiles/coast_shrine/props_vd01.png",
+      "sha256": "3c9ce2b401caf5fb1f0af05b886a551df277d6546fc139a4ffb143e14ee8eef5"
+    },
+    {
+      "path": "assets/tiles/coast_shrine/props_vd01.png.import",
+      "sha256": "fc7e02fd94ab3aff2ebdf73a84271b2ca596e87b7c97822c180d5a230a101af1"
+    },
+    {
+      "path": "assets/tiles/coast_shrine/terrain_vd01.png",
+      "sha256": "d8bd0e8494fa9b04a1956c31e2bd9fe4fc6ee81723317a57c6d149254bc69825"
+    },
+    {
+      "path": "assets/tiles/coast_shrine/terrain_vd01.png.import",
+      "sha256": "df292ef3f1515f2171741198d6a62aa6d39c8160be84cc625dd87243418c8623"
+    },
+    {
+      "path": "assets/ui/aren_portrait_vd01.png",
+      "sha256": "cc1aedbc929289434797d8177139118f316bf48c4332b2512cb1eaa572fd7ab2"
+    },
+    {
+      "path": "assets/ui/aren_portrait_vd01.png.import",
+      "sha256": "52e96aad9d40d43695d8ba1bf46dac3cd39a00d229aa92eed744f4da17c9dce0"
+    },
+    {
+      "path": "assets/ui/slice_icons_vd01.png",
+      "sha256": "3310b10acd39fed313b98e9b63e2d8c9dd769b4ad5b68bd29c50196d50c75fd1"
+    },
+    {
+      "path": "assets/ui/slice_icons_vd01.png.import",
+      "sha256": "c87de00a4c09989d0cfe6618cbb7fff6f0c1df5ca50441b571d3cd64661d6e88"
+    },
+    {
+      "path": "data/characters/aren.tres",
+      "sha256": "946b8e14d559709f8013c9f8133c5beb29c1c8debf419b63731ff51bbd80867f"
+    },
+    {
+      "path": "data/characters/brann.tres",
+      "sha256": "3633127e047b295865c60a5e858a05d28ad9f0f3aafe5bb33411ae0c0d1fb539"
+    },
+    {
+      "path": "data/characters/lia.tres",
+      "sha256": "6819c12e9d78a21ca349fa9f1a524ebf5d6a3ee4617261bede5cdd1c02346f8a"
+    },
+    {
+      "path": "data/characters/milo.tres",
+      "sha256": "24642e083c433f36b69338a18cb57fd966ca67c72df6df2fbc69f84d7c735d9c"
+    },
+    {
+      "path": "data/characters/nyra.tres",
+      "sha256": "bf9cb91ad11bebd426503955e08caa141c2e45334ddd84b4e71951e2bff7ad0d"
+    },
+    {
+      "path": "data/characters/sera.tres",
+      "sha256": "588d328b40ae2d9456b85abe09b30a1a058b7a24396760292a7df4631089c83c"
+    },
+    {
+      "path": "data/encounters/coast_corruption.tres",
+      "sha256": "1fc1fc2b5f0e0d4c484152a287ca4fa0fc938e85b687994b257ab35d1cc65b77"
+    },
+    {
+      "path": "data/encounters/coast_field.tres",
+      "sha256": "168fca9d650488dc147dfd333d7237ed97309714b560b310d8ce99ce99a8192a"
+    },
+    {
+      "path": "data/encounters/coast_waves.tres",
+      "sha256": "3832b4a6e23d6567e56dcdf1b6d1c1a29bc7c24446d12b8a59f13d87417fff6f"
+    },
+    {
+      "path": "data/encounters/tidebound_hierophant.tres",
+      "sha256": "7b9b71bfd1e0b19bfc8d00b609fd28ba819ca76eefd97cdcd4539be5aff6468b"
+    },
+    {
+      "path": "data/enemies/broodling.tres",
+      "sha256": "185aae8690d39a98ee7c6e81caffe94105763962bc1c4e327889f0286195884e"
+    },
+    {
+      "path": "data/enemies/lantern_cantor.tres",
+      "sha256": "3ef236d7cbeb252018a0072768141727de8f12b17fd591fbb4025b440456d70d"
+    },
+    {
+      "path": "data/enemies/reef_broodmother.tres",
+      "sha256": "bf406ff99d84ecd4a1d1cddef2624f52164f3b221f18f7a621edb464b808ab50"
+    },
+    {
+      "path": "data/enemies/saltbound_thrall.tres",
+      "sha256": "5afb265561d3f97320dcc4e76449ff1fe4003c4fa3b2783f0e97c816737280aa"
+    },
+    {
+      "path": "data/enemies/shellbound_husk.tres",
+      "sha256": "2bc53680fcdd4052600d7e0bada2f7df652b5e49523e58a6278ab00979a65851"
+    },
+    {
+      "path": "data/enemies/skittering_brinejaw.tres",
+      "sha256": "c8ff396feefe9ad16058e5173ccf43074b69590e617b19692202fbc8a6d357d0"
+    },
+    {
+      "path": "data/events/forbidden_altar.tres",
+      "sha256": "574244919b9d6a489503268e30d86d38ef468e52a1087551cd6cb37cfb1b2fe8"
+    },
+    {
+      "path": "data/events/lost_adventurer.tres",
+      "sha256": "3e2e4fc523f9c1d36de81c04502c4f6e33a40516e4727dd42b188e8d3758865c"
+    },
+    {
+      "path": "data/events/mysterious_merchant.tres",
+      "sha256": "a886a46cdaecc6cd2976cfdd8d67a17da53a292d1b7b6308809e548188b5d09e"
+    },
+    {
+      "path": "data/events/sera_rescue.tres",
+      "sha256": "e947e558c7199d24f737250bbec43b42bdf08951588d7fd621c764d8de079fb6"
+    },
+    {
+      "path": "data/gacha/guild_pool.tres",
+      "sha256": "102487d1a447d68f9f998cbf9949a5832cced3b7e05084b6e935c73905dbe80c"
+    },
+    {
+      "path": "data/professions/abyss_swordsman.tres",
+      "sha256": "2d811e577ebfcaf53b0013d6eb53843317ac2646d33717faeadd699319c6d046"
+    },
+    {
+      "path": "data/professions/archer.tres",
+      "sha256": "3e01d9c279b7c736f0eb87989413a30aff0bd42eabefaae397245293f95166f9"
+    },
+    {
+      "path": "data/professions/elemental_sage.tres",
+      "sha256": "8c88bb7c1de78041529316a670fe7c34bda41a8c2b91897193c73cfafa37891b"
+    },
+    {
+      "path": "data/professions/mage.tres",
+      "sha256": "43a5ece4f499799855f9804e13b12e1a2bbdfbd03ecf38826560a73d0de40f3a"
+    },
+    {
+      "path": "data/professions/sharpshooter.tres",
+      "sha256": "b521cd8fc7b6132b6d380a0b1112ce7ac39d55718ba771df0d63acbfe8f35cac"
+    },
+    {
+      "path": "data/professions/star_hunter.tres",
+      "sha256": "65c9e5585258f45d6d48bcef4e1e4fd2a62e104a52337c721a8dc515366bd0fb"
+    },
+    {
+      "path": "data/professions/swordmaster.tres",
+      "sha256": "9bf16a7138a95a6f12ef2dff0a79cfe31bd92edd7e10bfbee84f2772b62dc151"
+    },
+    {
+      "path": "data/professions/swordsman.tres",
+      "sha256": "17046c323a445c2c28b8bd7167174a30e1cda2ffde09c54cdd0e1d92b7284637"
+    },
+    {
+      "path": "data/professions/void_caster.tres",
+      "sha256": "67eb9c7297345353521e53296c80e7c01609d0c096290983100e9eff3e51c8f8"
+    },
+    {
+      "path": "data/skills/arcane_pulse.tres",
+      "sha256": "63063a9c97a57260b0531ba88579731bc6bee7f9fff89fe062b1f25dd71ad6cb"
+    },
+    {
+      "path": "data/skills/bastion.tres",
+      "sha256": "ad3964c393de72888e26d7b1d278ab7097a4ee107182d5409495559747e91889"
+    },
+    {
+      "path": "data/skills/far_sight.tres",
+      "sha256": "ceab6d7bf1224ab6ed258cb397c70767824168f7b9c9370bc39db7c72954d35e"
+    },
+    {
+      "path": "data/skills/fleet_step.tres",
+      "sha256": "9d02e15f753185077a7a7664347f0c3aa8084b8108cf424d3b7414e467cf49b8"
+    },
+    {
+      "path": "data/skills/guiding_light.tres",
+      "sha256": "a72bfc1ddd4865b1c65721a28bc7e316b99cb3741bb6214a029644cbfc10062d"
+    },
+    {
+      "path": "data/skills/resolute.tres",
+      "sha256": "ba4211a2afb28f42db9922920b20d92aca0583d383b9710cdcb4459cc9a7cd7c"
+    },
+    {
+      "path": "data/themes/expedition_theme.tres",
+      "sha256": "23a4dbe7345c126dc431ee167c55414f8f244cee7ad66f108ae5712cb3bd6ee2"
+    },
+    {
+      "path": "data/upgrades/battle_mend.tres",
+      "sha256": "c8116cc82a5e4060d6171942fbc1ed62a264832f8d0253097bc41f5a30064141"
+    },
+    {
+      "path": "data/upgrades/echo_strike.tres",
+      "sha256": "637bdab9d8c765d2edebbb1a5b7f4149d97de20279b1f56f26490bde8bb104fd"
+    },
+    {
+      "path": "data/upgrades/ember_touch.tres",
+      "sha256": "ce94bbdec452893144abc8c0b2ec4bef211cc9bee5a24212dc8c9f24a04c9a8a"
+    },
+    {
+      "path": "data/upgrades/force.tres",
+      "sha256": "58fe03b7d172b3e281bf985a03aee61de0bd06633a3be4fffaa1669167799df8"
+    },
+    {
+      "path": "data/upgrades/frost_mark.tres",
+      "sha256": "5ba7f43136641a97bfe83ace92f0d6b735551c1ea704c69046bc4d60e423a857"
+    },
+    {
+      "path": "data/upgrades/ironhide.tres",
+      "sha256": "33d81902b841b652281b17a72579b54e8834576f3b395c96c62a395bf3b41ef7"
+    },
+    {
+      "path": "data/upgrades/magnet.tres",
+      "sha256": "2e4645cbb1f100378075ade307ac2720958581f545c75dec557df91c6b2ede00"
+    },
+    {
+      "path": "data/upgrades/might.tres",
+      "sha256": "a08b2403831fa11aac382e8f20f9b676dd074d4682afe6d23b210d8f772f9f94"
+    },
+    {
+      "path": "data/upgrades/quick_hands.tres",
+      "sha256": "4cd52def6eb0a3ba2430e644884f8d077e6097b7e090eac0c730dd6884d0b43d"
+    },
+    {
+      "path": "data/upgrades/reach.tres",
+      "sha256": "b54747724fd3e302b1f2ba7853e3a1f7903b7a17dad311dadbabd72b50575818"
+    },
+    {
+      "path": "data/upgrades/swift_boots.tres",
+      "sha256": "c192461a80f03a6c99b1bcf3d9a38dee0a661e6539933c843654bb351bfd1546"
+    },
+    {
+      "path": "data/upgrades/vitality.tres",
+      "sha256": "4016c4cf3c0eb672b1a94c17af93150ddec0c65c89c487b8c36ff4ca5fa55876"
+    },
+    {
+      "path": "data/visuals/actor_overrides.tres",
+      "sha256": "cc24ce6d64a96acfc455929fab003ca0fdb071e066b0a3a5250772e2d6be55e3"
+    },
+    {
+      "path": "data/visuals/aren_frames_vd01.tres",
+      "sha256": "6849f30dbd71af2e78466103fc07aec74d2f38ff5926adf3d480b6756ad037de"
+    },
+    {
+      "path": "data/visuals/aren_vd01.tres",
+      "sha256": "8f6353ade4cc1f8a623f9b4ffbf87adfcc77ac551fe9f5f9c4b846c0958f6f3c"
+    },
+    {
+      "path": "data/visuals/brinejaw_frames_vd01.tres",
+      "sha256": "7a1777acf20b6272253095a6b1770f796e7072b2da43350186969eb462bd358f"
+    },
+    {
+      "path": "data/visuals/brinejaw_vd01.tres",
+      "sha256": "7f2844e9e2c024dd4534c71acaef762ec6135871689c72b9c3af9073ab374bb3"
+    },
+    {
+      "path": "data/visuals/coast_shrine_tileset.tres",
+      "sha256": "8dc628ae3431c4257de4a279b6857f29b26067c1b61920f1ef8b3c0069d9b9a1"
+    },
+    {
+      "path": "data/visuals/star_frames_vd01.tres",
+      "sha256": "1c9b472ed5de3b15bdca3fd2d9112555f9f077e0567c37656042c263e1d499f2"
+    },
+    {
+      "path": "data/visuals/sword_frames_vd01.tres",
+      "sha256": "878d87140c5e002bc8cd08da2e547ed4aeb04a6b6ffa7e733813991b1383274a"
+    },
+    {
+      "path": "data/visuals/thrall_frames_vd01.tres",
+      "sha256": "bc3262b2d4c9a35c67e0fbc95b9c4ab386b3dbc84120bf478c6c67f5db2a0f3c"
+    },
+    {
+      "path": "data/visuals/thrall_vd01.tres",
+      "sha256": "d1a3f4feb9ab17bc8e4d0f38675a2bdf6cac4729ffddfc77b1b3fe55507acc23"
+    },
+    {
+      "path": "data/weapons/arc.tres",
+      "sha256": "222a9e36394d01b322f04b2ae6d80432395c7d46c96f00ac49a402085784c463"
+    },
+    {
+      "path": "data/weapons/homing.tres",
+      "sha256": "778d61f794a24f535e2492fa0dd3523c635cb95239830c2cf61f6786699f9ca6"
+    },
+    {
+      "path": "data/weapons/straight.tres",
+      "sha256": "56bdbd11ec882090f6d9d106af4587f68a0266646912fae9784b0a8eaa621741"
+    },
+    {
+      "path": "export_presets.cfg",
+      "sha256": "57b1a3d927b85630fd4e78904e4b5e167293e0661e521753f54ad3e1783da3e8"
+    },
+    {
+      "path": "project.godot",
+      "sha256": "34e0b8db529d5f8bd2220f35ba30f491479e75ef8d806ee2356dbe97b16efa6a"
+    },
+    {
+      "path": "scenes/actors/boss.tscn",
+      "sha256": "323b33011b7b1887cb0e922a8daa3b78a6d54d9fb4e610c8b44a0c2636f80120"
+    },
+    {
+      "path": "scenes/actors/enemy.tscn",
+      "sha256": "c3e0213e36d1a3263a98688e5a8d777b64de3bd07d54a779267e6099c75cbc0f"
+    },
+    {
+      "path": "scenes/actors/hero.tscn",
+      "sha256": "d646cad3ec3555e5e2f14ef6ae45249fac221f54e97ff80f40108f4653c1ab85"
+    },
+    {
+      "path": "scenes/app/app.tscn",
+      "sha256": "bdf0bb972d756bec0e5163b978d26d3781564b249d906435b58193910312ee2c"
+    },
+    {
+      "path": "scenes/combat/damage_zone.tscn",
+      "sha256": "a98d26427d912e5e2f173c67fbb5f7241dcb781839929ed0137229ae7bb47d8b"
+    },
+    {
+      "path": "scenes/combat/melee_arc.tscn",
+      "sha256": "0f226539d84948f9827d436e724cb44350ebc5844ef1409270e56c9cf831a8f1"
+    },
+    {
+      "path": "scenes/combat/projectile.tscn",
+      "sha256": "981b741b9c5b4e16c0e4609be906c636ea523fae25565199015e0cdd68ce0279"
+    },
+    {
+      "path": "scenes/combat/pull_zone.tscn",
+      "sha256": "b5ee206490ed46f3240709e965683a3a2cc59183b139ef185d6f9909c5a31f4a"
+    },
+    {
+      "path": "scenes/combat/telegraph.tscn",
+      "sha256": "399debcb46f4e606cbe09a3c5f94fe412670ca80612109374266d6d12549bc6c"
+    },
+    {
+      "path": "scenes/debug/debug_panel.tscn",
+      "sha256": "2203fbf689060524b9ce4c8b6a5c53574d57860b6663530011b5b300a5f80e58"
+    },
+    {
+      "path": "scenes/events/rescue_zone.tscn",
+      "sha256": "8c6d146860cf842eed2f6d076ba08428c2424fbc826bf4fc73a2a401f9cbe837"
+    },
+    {
+      "path": "scenes/pickups/xp_gem.tscn",
+      "sha256": "c03d5117598c978e422a75922782206bdb779c0ec31151f885f42942e47f8704"
+    },
+    {
+      "path": "scenes/ui/character_selection.tscn",
+      "sha256": "2e183dec445b9d97e714d85dda3067d5fbd63dd6463ed3e3475b59e9b30257a3"
+    },
+    {
+      "path": "scenes/ui/combat_hud.tscn",
+      "sha256": "e8eb4800a1a397ce9e7ca78560ba3cee4127bb11a11ba7e2ffa2c66e989f7a84"
+    },
+    {
+      "path": "scenes/ui/components/action_button.tscn",
+      "sha256": "5298d98428d95dc00bc1bca8513b07492e41f2ea66a5e3a725a5dff844d26c5b"
+    },
+    {
+      "path": "scenes/ui/components/choice_card.tscn",
+      "sha256": "1d7aa07592f4f3733bc1c45634b41a904bbb88ce80abaada93880e468ffb8fc2"
+    },
+    {
+      "path": "scenes/ui/components/portrait.tscn",
+      "sha256": "235a34bd6e64ce7f01cbc9975034d94820311d8a7987d0d2b3fef4eef2caa908"
+    },
+    {
+      "path": "scenes/ui/components/skill_icon.tscn",
+      "sha256": "ab0aba70a600008850699c99daf1670db57e856f05c10c6c002b0793f1139603"
+    },
+    {
+      "path": "scenes/ui/components/status_indicator.tscn",
+      "sha256": "a26d2025699374dfa964541fe63c064aa163d30d0c62c78733991f106ec2bb27"
+    },
+    {
+      "path": "scenes/ui/components/tooltip.tscn",
+      "sha256": "d085789282d4482f108e4845f61585cf6e876df7b6f21c71269658dee5639513"
+    },
+    {
+      "path": "scenes/ui/components/value_bar.tscn",
+      "sha256": "90a614974b56a5cebf816d2106fcd762b2eba95d654af2ac476f64a2fc80b2a7"
+    },
+    {
+      "path": "scenes/ui/corruption_summary.tscn",
+      "sha256": "c5b24414df9f74f089910811e240624ba2d061e27a83b44c4d0621858d0aa8e1"
+    },
+    {
+      "path": "scenes/ui/event_choice.tscn",
+      "sha256": "a4262099c5d2aa7aa8438a7142e28a932dca2a0a5abf9a5349bf816aa833e3fa"
+    },
+    {
+      "path": "scenes/ui/guild.tscn",
+      "sha256": "2de87b65a90a4b384546919c295a8b6febb345f747dac9ebecb6edfadfed78fb"
+    },
+    {
+      "path": "scenes/ui/level_up.tscn",
+      "sha256": "596fa266be8732625105d78c0439cdee1f45ee3bd8caffd54b004023ce64de34"
+    },
+    {
+      "path": "scenes/ui/main_menu.tscn",
+      "sha256": "4103a46a41aab3daa5a76a6d0701dd44e85ea662ea739f6da98d041e9cb73f7b"
+    },
+    {
+      "path": "scenes/ui/pause_menu.tscn",
+      "sha256": "92649016d3423d737cfecd86e6e17fc5d0cda57406ce728656186db11c3af1f2"
+    },
+    {
+      "path": "scenes/ui/promotion.tscn",
+      "sha256": "8e700de37dab54831bbf9634572bb449606e1aa5352a620db36efbe2a2a287db"
+    },
+    {
+      "path": "scenes/ui/recruitment.tscn",
+      "sha256": "239f85e5f01d61904c3759971f5aeca810a35b30399246eff0c5ff1849559170"
+    },
+    {
+      "path": "scenes/ui/rescue_prompt.tscn",
+      "sha256": "6710754891470f3c37531d61f698a76e487bec4f3e5cb441508aa7a11824697f"
+    },
+    {
+      "path": "scenes/ui/roster.tscn",
+      "sha256": "9e312e29abf9df52b12d5a248ff1b41aa1055c1dc18a5ed5f1d033c7a52df2bd"
+    },
+    {
+      "path": "scenes/ui/run_results.tscn",
+      "sha256": "332395b28ae155a1fca3b0e9f01e3d11d5da3c75b85204093c30ad260695f602"
+    },
+    {
+      "path": "scenes/ui/save_error.tscn",
+      "sha256": "5cdbd41a87a88c24688567a62237e4d0aafc4c594a774ded2453376576424b13"
+    },
+    {
+      "path": "scenes/world/coast_field.tscn",
+      "sha256": "c39ab5833888a8d840d8bc78b13038d0dbf4f2995be93579731b4af65874ffa0"
+    },
+    {
+      "path": "scenes/world/expedition.tscn",
+      "sha256": "3634030fd31b49d37b6ad84c91d70311325707406a0a1bf7bb8cdc84d31e9eb3"
+    },
+    {
+      "path": "scenes/world/visuals/coast_shrine.tscn",
+      "sha256": "3479c7e2c8a5654c526eef855edfa30629f1d9d788a15334e27cd9e5ce20c1db"
+    },
+    {
+      "path": "scripts/abyss/corruption_service.gd",
+      "sha256": "01f0af9d76f9da649b439a86eceecc6d7fc57d8bcfd548f7691c431ddd519539"
+    },
+    {
+      "path": "scripts/abyss/event_director.gd",
+      "sha256": "5f2b7174908790e5c5acda2c4e15d71fc1a382e92afae54839322a83faf65625"
+    },
+    {
+      "path": "scripts/abyss/event_effects.gd",
+      "sha256": "c04b304c59bd507d40c2c4d835348c35c648055cd5a8c8ccc3ff36937f9d09fc"
+    },
+    {
+      "path": "scripts/characters/character_definition.gd",
+      "sha256": "f9cedd39190f565532f0aa401faf57d71ed434b223d2b71d3635eb720f2dd49d"
+    },
+    {
+      "path": "scripts/characters/character_factory.gd",
+      "sha256": "87b100fa601e3cefd9e47275f7c70c1e3f51ba34178dec639298b7e37a139719"
+    },
+    {
+      "path": "scripts/characters/companion_controller.gd",
+      "sha256": "71a95b20694991661cecc8b46b3fabe61fc3950e3cb2125c70792b25396cc40a"
+    },
+    {
+      "path": "scripts/characters/passive_executor.gd",
+      "sha256": "ed17ce3289cbcec268f3a446e534dfb65e06dd83cef0fcdb2882219c59cf3fa7"
+    },
+    {
+      "path": "scripts/characters/profession_definition.gd",
+      "sha256": "b61b33a69b2927bf03fadc9aaa19bcc3450b9d57486fe158293c65ce0e6e56f7"
+    },
+    {
+      "path": "scripts/characters/roster_service.gd",
+      "sha256": "34e7c61d9641535e83b144abb1f2ff0cbe5062e706393ee9b19bf1391ce8b13b"
+    },
+    {
+      "path": "scripts/characters/skill_definition.gd",
+      "sha256": "cb1169b75f0b01eb99ec3fe47c09aabe8bc30b8e66c272666091b5ef97b6cda1"
+    },
+    {
+      "path": "scripts/collection/draw_rng.gd",
+      "sha256": "0727aeba9624c4ac46ddcb2cfcc47cbebfc0a0302f647011784f0f3dac42d617"
+    },
+    {
+      "path": "scripts/collection/recruitment_history.gd",
+      "sha256": "34b682accfc0ed9c553f419f7f096984134e2c9952fe73f8c77526725d3dde38"
+    },
+    {
+      "path": "scripts/collection/recruitment_service.gd",
+      "sha256": "30bec9ff20049b8e41c48c129c1fa6365308a6f650eb4d3fdfe6f70b9bedccbc"
+    },
+    {
+      "path": "scripts/collection/rescue_objective.gd",
+      "sha256": "6f6d18f6f0a24d3b7a6641dbaff235a4d7812f854fb26d216a0db8c77d8a8693"
+    },
+    {
+      "path": "scripts/collection/rescue_zone.gd",
+      "sha256": "38ca00625958f3ea74db3b43b8ac3796f23da7f2dbdd2dcc3e2493730a9b59bc"
+    },
+    {
+      "path": "scripts/collection/token_exchange_service.gd",
+      "sha256": "0e803ed73936b3f37c62b56d98daf345c3c1e68bb574d5eb94ebdf06fa4f3388"
+    },
+    {
+      "path": "scripts/combat/actor.gd",
+      "sha256": "fb54d4595bc8a12a99e4bf6d6155eeaeb0938d46dc8211fe61696b732f5c47b7"
+    },
+    {
+      "path": "scripts/combat/actor_health.gd",
+      "sha256": "cc5fd1a8dea3d801ebac705ea370831480d106705a41f7c64648342693298d5e"
+    },
+    {
+      "path": "scripts/combat/actor_presentation.gd",
+      "sha256": "b2a0ab3bb91dfe361833de9c89131ed0fc607cd1a765eb0563c3aa0ba4964158"
+    },
+    {
+      "path": "scripts/combat/attack_executor.gd",
+      "sha256": "ca10ed35dc082500a83f224ce7e4e11882cfb3dcc0275fe41da65881c112aa42"
+    },
+    {
+      "path": "scripts/combat/boss_controller.gd",
+      "sha256": "77b2855203964811bed2ea1ccf76f8d7d2a7c5cedf508393beca7df03cb5b5c1"
+    },
+    {
+      "path": "scripts/combat/bow_branch_attacks.gd",
+      "sha256": "9dfcdc4c5b79fec062485df14fd46a41bcb3ab241dba95ab271465a6b030a995"
+    },
+    {
+      "path": "scripts/combat/brinejaw_behavior.gd",
+      "sha256": "f0a5f962ff5d5cf44fe9b9f89e5c222d6054c8d5d692d9ea50ca30b9fefd5101"
+    },
+    {
+      "path": "scripts/combat/broodmother_behavior.gd",
+      "sha256": "5aba6561263cae64e8d5596d72be283281bd81aed898d69fe6eb10fec133fcb1"
+    },
+    {
+      "path": "scripts/combat/cantor_behavior.gd",
+      "sha256": "e4fa01f4d0274723cce0d6c19828ab558cff5b726702daa8885ab82d05b2abef"
+    },
+    {
+      "path": "scripts/combat/damage_service.gd",
+      "sha256": "70910e42df5b4a9dc76ad35798e970b4e381e9cc27735abcff1b7cb0cb5ee69e"
+    },
+    {
+      "path": "scripts/combat/damage_zone.gd",
+      "sha256": "0ec0f4f5033de82bc54b3af24dd8b9e2a77712db5dc7dea32f9dfc541a8758d3"
+    },
+    {
+      "path": "scripts/combat/enemy_controller.gd",
+      "sha256": "4948f99ccbc59ca63e0c736443d7d3582a0266343d928d13b7a942970b908b0c"
+    },
+    {
+      "path": "scripts/combat/husk_behavior.gd",
+      "sha256": "e5e5d2ffdea7291fc6a8be148d1c8fd509caa29ca2d2ec5437e25a42472942fe"
+    },
+    {
+      "path": "scripts/combat/mage_branch_attacks.gd",
+      "sha256": "2574a6da72aff3fc819c29a1e6a844535cb871117c36f096c65eab56e8faddda"
+    },
+    {
+      "path": "scripts/combat/melee_arc.gd",
+      "sha256": "77818784f0ebdbf470d18b2b5dfb885e5fa8c6827e6d5c6b4e16c092a799009c"
+    },
+    {
+      "path": "scripts/combat/player_controller.gd",
+      "sha256": "dd879da9a6f083791eb9a0442e6856368a555e46d7f3f72b1b386aa0fe308b4f"
+    },
+    {
+      "path": "scripts/combat/projectile.gd",
+      "sha256": "38e8d5a0fb0d2c5c3de7f331195862d297f70983a16d70bec599a2740ffb14ed"
+    },
+    {
+      "path": "scripts/combat/spawn_director.gd",
+      "sha256": "bdce0b5b1d5b561958d5baeb7c4b97f24ab746f60f8bee37135b91b74a1aca70"
+    },
+    {
+      "path": "scripts/combat/status_effects.gd",
+      "sha256": "ae1fa753e51e61ce1efdce1ed510649668370778f4cc5acac308612339a57cf7"
+    },
+    {
+      "path": "scripts/combat/sword_branch_attacks.gd",
+      "sha256": "6d56f6934b02a2a825a97360bf3f2283420257b12a7c9db870c9dd19ab3c7261"
+    },
+    {
+      "path": "scripts/combat/targeting_service.gd",
+      "sha256": "a3e7d2bf6fde75371a19e40a75a2670a5e77a00f92171b460cfdedbde84b4675"
+    },
+    {
+      "path": "scripts/combat/telegraph.gd",
+      "sha256": "5d26b1d0780e1822d8b2b5f270e8eb65c2423e164b9b74241bed38514e233789"
+    },
+    {
+      "path": "scripts/combat/visual_animation.gd",
+      "sha256": "37c4c7ce98c90e36662fb56482acbc020045687600c6f0253f11fbc93baebdd1"
+    },
+    {
+      "path": "scripts/core/app_router.gd",
+      "sha256": "1ec2213aa26a7c8532782886171618ba7d16a142778fd1b327350ab7428d670b"
+    },
+    {
+      "path": "scripts/core/choice_coordinator.gd",
+      "sha256": "12ac89cb948f77fe5c0f08b82565747b91f31bebb7c2144fbf6934f296de6b03"
+    },
+    {
+      "path": "scripts/core/pause_coordinator.gd",
+      "sha256": "50f076444feb9f6a4f1e2030bb6ac1d4d3e77c2a408be3764087f699774a9cf7"
+    },
+    {
+      "path": "scripts/core/replay_trace.gd",
+      "sha256": "608f4a62334f0caf43621fd2d845dbfa9f9c1889eaa8e79069e3b712a3602d75"
+    },
+    {
+      "path": "scripts/core/run_clock.gd",
+      "sha256": "24d5348c53698c453e56e11665ae14058b36cfd8c9d4d5acd7f6bfb09e243bc8"
+    },
+    {
+      "path": "scripts/core/run_manager.gd",
+      "sha256": "9d82f914b0d3bce054aaed7a879266f0c08f25b374d8a6f6c55a6d6af31d504e"
+    },
+    {
+      "path": "scripts/core/run_start_snapshot.gd",
+      "sha256": "40f89978916078b11a83acfb094aed1a3450c0050b714fbeb46477d92cbb23cd"
+    },
+    {
+      "path": "scripts/core/run_summary.gd",
+      "sha256": "c59de8eb05b7c4877189cf602ff86f6c06b9995848d2ba88d2ba883abdfc2d7c"
+    },
+    {
+      "path": "scripts/core/seed_streams.gd",
+      "sha256": "7264c5f82b9256ddffd69f14adf552c4f14e4ac6304f756c2249804ae76de060"
+    },
+    {
+      "path": "scripts/core/simulation_coordinator.gd",
+      "sha256": "316732303f839fea03b19fca0ce0278e19f3b2cea96cd2d90170566335930020"
+    },
+    {
+      "path": "scripts/data/actor_visual_override.gd",
+      "sha256": "309c1f60f69b49d7f8c50fd203281a367181fb4e1611cb465db1a0b8e741c60a"
+    },
+    {
+      "path": "scripts/data/boss_definition.gd",
+      "sha256": "53b15b9d4d4ddb7c8837793af0a9a80f50d1e7fc78b113bfd36004602d7686d6"
+    },
+    {
+      "path": "scripts/data/boss_pattern.gd",
+      "sha256": "bb5004e9e654cb4323a61976b8661d048700dea5ba48d85785e653ac4a07b7c8"
+    },
+    {
+      "path": "scripts/data/content_catalog.gd",
+      "sha256": "b00601aae5e3c52c88c045977e6d9c4fe62f342e9583de4b1129bd290e79e277"
+    },
+    {
+      "path": "scripts/data/corruption_definition.gd",
+      "sha256": "a7f2d82697dc151acbd9c5b6101836ae73f32957318e0cd4ad7d5c6e62fbaddd"
+    },
+    {
+      "path": "scripts/data/effect_definition.gd",
+      "sha256": "08f75a53303c72e2ee657cb9478b29a0fb844f1f20e3535b858c1b34e7ed8737"
+    },
+    {
+      "path": "scripts/data/enemy_definition.gd",
+      "sha256": "6c8678c9fdb6d1fa372d8262b1d732fc468f3fccc655aae26b97266bea20bb26"
+    },
+    {
+      "path": "scripts/data/event_choice.gd",
+      "sha256": "53efde80ad0a14397949ca7878d2fc2e8911de5b27bda9a71a99c80226e34b8f"
+    },
+    {
+      "path": "scripts/data/event_definition.gd",
+      "sha256": "990f1192795b5ebb36fefe0fd793c2953f000a8c9ba91769eccc6098fb9076af"
+    },
+    {
+      "path": "scripts/data/field_definition.gd",
+      "sha256": "dfa00db6cf34fb3d5ba75bab76863d3c612b4c5aab9e3979ddc40321dc56aefb"
+    },
+    {
+      "path": "scripts/data/gacha_entry.gd",
+      "sha256": "795526c4e8de3a16f81ee41e2bb4d158c0e91d184f585c710ef3e0e9bbfa6d45"
+    },
+    {
+      "path": "scripts/data/gacha_pool_definition.gd",
+      "sha256": "1274b36b67046015cafefca292942e4ee47d46062d843adc829225c274aee533"
+    },
+    {
+      "path": "scripts/data/rescue_definition.gd",
+      "sha256": "c1c623c3a504f44d975d991eda603c896db0be998269bb7054abdd7f6580fee3"
+    },
+    {
+      "path": "scripts/data/stat_block.gd",
+      "sha256": "08469740a6f258bca32f0b97255ebbd4c6393b100213fc72e330e802211c2a9e"
+    },
+    {
+      "path": "scripts/data/upgrade_definition.gd",
+      "sha256": "0b649bdbb5bb5c1708d753c8e5b19fb085d09f9cebb9a70a284dc28cf33aa973"
+    },
+    {
+      "path": "scripts/data/visual_set.gd",
+      "sha256": "665d5c75b02d2805522c21b46ec2b6b00e5824385d44e74428f84350390bb69e"
+    },
+    {
+      "path": "scripts/data/wave_schedule.gd",
+      "sha256": "cf9194e885341ad2dba06f92620c1082c987829dc0802e11ce9255e2e4d8384c"
+    },
+    {
+      "path": "scripts/data/weapon_definition.gd",
+      "sha256": "4b4f5f6f7e82b492132ae72dca49cc2f7d97197d6d4e8decee570f1ad9ec88bc"
+    },
+    {
+      "path": "scripts/debug/battle_speed_controller.gd",
+      "sha256": "c465cc8bb87cc818a41ae3038366f484624a58c4c4f06f2ebd54d26aace60562"
+    },
+    {
+      "path": "scripts/debug/debug_action_service.gd",
+      "sha256": "211e470724707ad5d874fbcb9d9c0c772294150e93552040f373e87ab4562881"
+    },
+    {
+      "path": "scripts/debug/debug_panel.gd",
+      "sha256": "fd4389bcb0c5a2809c867659deeeb56d15eff6c524b44e6ad68519f60f17f88e"
+    },
+    {
+      "path": "scripts/persistence/profile_data.gd",
+      "sha256": "10ba2cbff7df73657b2dab08eae99efce1973f6682cbfbedd017bd1036812e7f"
+    },
+    {
+      "path": "scripts/persistence/profile_loader.gd",
+      "sha256": "47ebbac4e973481030f171bb0790b000ae9d8f46558437b1929c07b5130e9e69"
+    },
+    {
+      "path": "scripts/persistence/profile_lock.gd",
+      "sha256": "2c26f44f0c88ff417a3e02c18aeab3c1e594829dcca8fbc4903ce2741b1efdf7"
+    },
+    {
+      "path": "scripts/persistence/profile_migrations.gd",
+      "sha256": "7aaf72ff5a3ee5fb2a0ceb3f94983a6eb774c41e1b20efd17da56545e786fc88"
+    },
+    {
+      "path": "scripts/persistence/profile_store.gd",
+      "sha256": "5dac54e049c342015253c83c9279b04a5c24e0c00f97714b3cf312edd8c10458"
+    },
+    {
+      "path": "scripts/persistence/profile_validator.gd",
+      "sha256": "e0e689c33a983bed7e243e64d10107b198d0894ed9d0c574178ebf834cb8a7f9"
+    },
+    {
+      "path": "scripts/persistence/save_coordinator.gd",
+      "sha256": "63864aeda0e18d7b24247e21523686e993df4ce170fd34caf002db6a17289c39"
+    },
+    {
+      "path": "scripts/progression/owned_hero.gd",
+      "sha256": "9e6b2392ea29d9e0b244effb2ebfec5039feadf3761246816d6308d98ee2acd1"
+    },
+    {
+      "path": "scripts/progression/permanent_progression.gd",
+      "sha256": "98f406c01738f22ebc8bdbc00465c0e5a287eb0d7149f1875c2a990162640f9b"
+    },
+    {
+      "path": "scripts/progression/promotion_service.gd",
+      "sha256": "3aed4000db06ceef892f465d27f7f7aec0771a19f54326a6fa6884bd744bcc08"
+    },
+    {
+      "path": "scripts/progression/run_progression.gd",
+      "sha256": "9369d24055f2ec47d1decaf21b1baf3847a55c0d4048b26ddb887bd6dfa8a707"
+    },
+    {
+      "path": "scripts/progression/upgrade_effects.gd",
+      "sha256": "58d02844eb43054c3dc8f631b8f6d214d05a16d632e68bb64e20dd25862d68e0"
+    },
+    {
+      "path": "scripts/progression/upgrade_offer_service.gd",
+      "sha256": "72535d3b8205446423606be09be697dcde3e6e12dd7508ff08d3f4ad76366a6b"
+    },
+    {
+      "path": "scripts/progression/xp_pickup.gd",
+      "sha256": "9f5ca1cff9b22967c63c7151c136d001fad4c7d84d9cfbe83527f2f422b8e02b"
+    },
+    {
+      "path": "scripts/ui/character_selection.gd",
+      "sha256": "79bee5222abb3ddfb7dd65a6198489bdba6c0eb2064b3f83db31837784ab67dd"
+    },
+    {
+      "path": "scripts/ui/combat_hud.gd",
+      "sha256": "4f0a8761a73a0d27d58d7424eb16e85e5449a1c08536ef7ccf0205bc00f9b808"
+    },
+    {
+      "path": "scripts/ui/components/action_button.gd",
+      "sha256": "278dacaff4a40ab803e6ace404344bc49f039ae0cd78178804bffe13665bf25e"
+    },
+    {
+      "path": "scripts/ui/components/choice_card.gd",
+      "sha256": "7b6a6751eab4a92064c0c7b2d17d52e8f2bd7a367396fcf6d8c108fcee9ef3cd"
+    },
+    {
+      "path": "scripts/ui/components/portrait.gd",
+      "sha256": "ef6f01b885d7b92b2e4d86981ddb8b6730ff893ed4b8fb261dd10290226130e1"
+    },
+    {
+      "path": "scripts/ui/components/skill_icon.gd",
+      "sha256": "f00bbaf0333337942eb0b94047ece49798a35e161f975bdcf05e7e827c9c0491"
+    },
+    {
+      "path": "scripts/ui/components/status_indicator.gd",
+      "sha256": "9f456fbcc85f5b764511f0514951bdc2ee5b48196e74a76a8d1f9e94a25d3e7f"
+    },
+    {
+      "path": "scripts/ui/components/tooltip.gd",
+      "sha256": "f9054e4e4980503475f6fc2875e9f79a7b62ccb8cdf1c3d18defa87542b206cb"
+    },
+    {
+      "path": "scripts/ui/components/value_bar.gd",
+      "sha256": "807f443fe03070c7f290bd9bcf0bcedd851c2989bea665488b51b38659664de4"
+    },
+    {
+      "path": "scripts/ui/corruption_summary.gd",
+      "sha256": "fc5f529129df1e87ea8a1ee9b41a0dbc29330922b0ef04d7dbddbbe1e9016810"
+    },
+    {
+      "path": "scripts/ui/event_choice.gd",
+      "sha256": "e3085cf598423ef3420bdf46f51797b4e795232097b517692e3cdfbd298d9d48"
+    },
+    {
+      "path": "scripts/ui/guild.gd",
+      "sha256": "7d6f81517e2f6d82215356f8cc82d5e7c90a512136eeb18a631bc6bd7b92f9e7"
+    },
+    {
+      "path": "scripts/ui/level_up.gd",
+      "sha256": "a7be9a6c09d89089837c1c06fc5b719d6a412621e868a985f307e942410b1d70"
+    },
+    {
+      "path": "scripts/ui/main_menu.gd",
+      "sha256": "72c6fa0d51a7b2eb2edd2d547f385d5c5d1c1d489ae7b527799cf68b270df78d"
+    },
+    {
+      "path": "scripts/ui/pause_menu.gd",
+      "sha256": "baea4841ee5402118ffcd4ed6d3249fdd4b04adbb1e6d96bac99c967d51ceead"
+    },
+    {
+      "path": "scripts/ui/promotion.gd",
+      "sha256": "b2fe8eb22f216a097fee8aa0d6ab684d303460fd4d8a28eddae42251af73fec3"
+    },
+    {
+      "path": "scripts/ui/recruitment.gd",
+      "sha256": "82107d747f3fbe2aad7eb69eee337bd8ce40764bdb0d8173fa1aa08efd10d45f"
+    },
+    {
+      "path": "scripts/ui/rescue_prompt.gd",
+      "sha256": "e5789c94d468e85b9ecc93b216edad3e07e73606fda2f6f77c26b3ecfad64af7"
+    },
+    {
+      "path": "scripts/ui/roster.gd",
+      "sha256": "73fb378f8e6b7b5088bfff911cdeaf4d3821e3b1155efc0bb13f82bc69eaad76"
+    },
+    {
+      "path": "scripts/ui/run_results.gd",
+      "sha256": "a63f8b30572c12133e1ae0841c6c01e1654213814a0aee37361f8430bc74ec08"
+    },
+    {
+      "path": "scripts/ui/save_error.gd",
+      "sha256": "2ac951c5452ca97ffcf34aa4d42797ddda47ada70aaf054a0f96a60ad89167e8"
+    },
+    {
+      "path": "scripts/ui/screen.gd",
+      "sha256": "a3283616d518ba5b16af330c10e6fd3f101acb0a04bc54ad5e0cae0350c87e29"
+    },
+    {
+      "path": "scripts/world/coast_field.gd",
+      "sha256": "0a8c2369e421fde2832efb3c38da46ef79a5447a5d5197975fbf11f4180f161a"
+    },
+    {
+      "path": "scripts/world/coast_shrine_visual.gd",
+      "sha256": "08552cb5f345f708b0831a49d88756707cafd69a334c2a676170a9e4aff8a528"
+    }
+  ],
+  "embedded_release_sha256": "f7ff2552727165592da061c4b708eed1087cf5966e0f17918665d7b392dd54cd",
+  "engine": "4.5.stable.official.876b29033",
+  "candidate_sha256": "78405f80c49d1d9193a9e36d186539d43a478f02d6bf273717ad0879cccf0574",
+  "revision": "VD-01-P3 / retained draw commands",
+  "parent_candidate_sha256": "bbab5acb8f5e62ace5784d025ad1841c50b4cc08158f0bb9899720635d4339e3",
+  "concept_package_sha256": "3c20729e329026ce012ab1a8f252d8aba059565f4b349491b6f8b7566072ba49",
+  "status": "current local validation; no G2 quantitative acceptance or G3 inferred"
+}

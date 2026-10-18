@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-18",
+  "scope": "documentation and workflow configuration only",
+  "game_tests_run": false,
+  "checks": [
+    {
+      "check": "protected files SHA256",
+      "passed": true,
+      "detail": {
+        "files": 4967,
+        "changed": []
+      }
+    },
+    {
+      "check": "task IDs and checkbox states preserved",
+      "passed": true,
+      "detail": {
+        "tasks": 87,
+        "checked": 77,
+        "unchecked": 10,
+        "unique_ids": 87
+      }
+    },
+    {
+      "check": "workflow YAML parses; routine gates removed",
+      "passed": true,
+      "detail": {
+        "step_ids": [
+          "specify",
+          "plan",
+          "tasks",
+          "implement"
+        ]
+      }
+    },
+    {
+      "check": "workflow registry synchronized",
+      "passed": true,
+      "detail": {
+        "version": "1.1.0"
+      }
+    },
+    {
+      "check": "constitution version date principles",
+      "passed": true,
+      "detail": {
+        "version": "1.1.0",
+        "principles": 8,
+        "ratified": "2026-10-14"
+      }
+    },
+    {
+      "check": "requirement IDs retained",
+      "passed": true,
+      "detail": {
+        "FR": 25,
+        "SC": 7
+      }
+    },
+    {
+      "check": "consistent named workflow in all core documents",
+      "passed": true,
+      "detail": [
+        "AGENTS.md",
+        ".specify/memory/constitution.md",
+        "specs/002-2d-art-direction/spec.md",
+        "specs/002-2d-art-direction/plan.md",
+        "specs/002-2d-art-direction/tasks.md"
+      ]
+    },
+    {
+      "check": "obsolete operative STOP phrases removed",
+      "passed": true,
+      "detail": {
+        "forbidden_phrases_found": []
+      }
+    },
+    {
+      "check": "T084 reviewer checklist read-only",
+      "passed": true,
+      "detail": {
+        "marker": "unchecked",
+        "evidence": "separate review-package.md"
+      }
+    },
+    {
+      "check": "documentation local links and offline assets",
+      "passed": true,
+      "detail": {
+        "checked_links": 362,
+        "broken": [],
+        "remote_media": []
+      }
+    },
+    {
+      "check": "README dashboard overview and Spec Kit links",
+      "passed": true,
+      "detail": {
+        "documentation_links": "retained"
+      }
+    }
+  ],
+  "passed": true
+}

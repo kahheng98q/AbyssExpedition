@@ -18,7 +18,8 @@ func run(t) -> void:
 	screen.options = run.choices.offer.duplicate()
 	t.root.add_child(screen)
 	var count = 0
-	for node in screen.column.get_children():
+	for card in screen.cards:
+		var node = card.button
 		if node is Button: count += 1
 	t.check(count == 3, "exactly three level buttons")
 	t.check(t.root.get_viewport().gui_get_focus_owner() is Button, "keyboard focus is available")

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="WaveSchedule" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/data/wave_schedule.gd" id="1"]
+[resource]
+script = ExtResource("1")
+phases = Array[Dictionary]([
+{"start": 0, "end": 7200, "count": 4, "ids": ["saltbound_thrall"], "weights": [100], "introduce": []},
+{"start": 7200, "end": 14400, "count": 6, "ids": ["saltbound_thrall", "skittering_brinejaw"], "weights": [70, 30], "introduce": ["skittering_brinejaw"]},
+{"start": 14400, "end": 21600, "count": 8, "ids": ["saltbound_thrall", "skittering_brinejaw", "lantern_cantor"], "weights": [50, 25, 25], "introduce": ["lantern_cantor"]},
+{"start": 21600, "end": 28800, "count": 10, "ids": ["saltbound_thrall", "skittering_brinejaw", "lantern_cantor", "shellbound_husk"], "weights": [40, 20, 20, 20], "introduce": ["shellbound_husk"]},
+{"start": 28800, "end": 32400, "count": 12, "ids": ["saltbound_thrall", "skittering_brinejaw", "lantern_cantor", "shellbound_husk", "reef_broodmother"], "weights": [30, 20, 20, 20, 10], "introduce": ["reef_broodmother"]}])

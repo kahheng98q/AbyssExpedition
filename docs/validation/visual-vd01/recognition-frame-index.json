@@ -1,0 +1,998 @@
+{
+  "protocol": "VD-01-M1-recognition-01",
+  "clips": [
+    {
+      "condition": "normal",
+      "frames": [
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-000.png",
+          "sha256": "648f18bafc6f8d8d0ef4885cab7112ba00a258bdce4c4d65194abe82d305f06a"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-001.png",
+          "sha256": "648f18bafc6f8d8d0ef4885cab7112ba00a258bdce4c4d65194abe82d305f06a"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-002.png",
+          "sha256": "d2c0596a1d38057719305c80577245d00f79889fd839780a7aac4dc0013fd862"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-003.png",
+          "sha256": "fc183743435b8613338e414a8dc0b158b7927f4639120c1d8f5a183e718144bf"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-004.png",
+          "sha256": "208d5aef91ce1cf646629191d39c3ea04f50969ff4fdcebc08434defa95f3d03"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-005.png",
+          "sha256": "0aab2c39533d3a6e8059b4e9b460f36130696d4665991a51aca793f800579220"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-006.png",
+          "sha256": "648f18bafc6f8d8d0ef4885cab7112ba00a258bdce4c4d65194abe82d305f06a"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-007.png",
+          "sha256": "648f18bafc6f8d8d0ef4885cab7112ba00a258bdce4c4d65194abe82d305f06a"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-008.png",
+          "sha256": "e95a0b466bcd13cd801c2c575059c7d5ccd1dea9fd5444e3853084382a4f512b"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-009.png",
+          "sha256": "fc183743435b8613338e414a8dc0b158b7927f4639120c1d8f5a183e718144bf"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-010.png",
+          "sha256": "0aab2c39533d3a6e8059b4e9b460f36130696d4665991a51aca793f800579220"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-011.png",
+          "sha256": "0aab2c39533d3a6e8059b4e9b460f36130696d4665991a51aca793f800579220"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-012.png",
+          "sha256": "648f18bafc6f8d8d0ef4885cab7112ba00a258bdce4c4d65194abe82d305f06a"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-013.png",
+          "sha256": "c7d624271345f3c9228831b168efae605c16cffde84a43c617777abcd443435f"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-014.png",
+          "sha256": "e95a0b466bcd13cd801c2c575059c7d5ccd1dea9fd5444e3853084382a4f512b"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-015.png",
+          "sha256": "3a49c3d56878c3a3b71f2d54e5cc41abbfae7d749af7027f507ef28eac390c2d"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-016.png",
+          "sha256": "0aab2c39533d3a6e8059b4e9b460f36130696d4665991a51aca793f800579220"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-017.png",
+          "sha256": "0aab2c39533d3a6e8059b4e9b460f36130696d4665991a51aca793f800579220"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-018.png",
+          "sha256": "c7d624271345f3c9228831b168efae605c16cffde84a43c617777abcd443435f"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-019.png",
+          "sha256": "c7d624271345f3c9228831b168efae605c16cffde84a43c617777abcd443435f"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-020.png",
+          "sha256": "d2c0596a1d38057719305c80577245d00f79889fd839780a7aac4dc0013fd862"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-021.png",
+          "sha256": "3a49c3d56878c3a3b71f2d54e5cc41abbfae7d749af7027f507ef28eac390c2d"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-022.png",
+          "sha256": "0aab2c39533d3a6e8059b4e9b460f36130696d4665991a51aca793f800579220"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-023.png",
+          "sha256": "208d5aef91ce1cf646629191d39c3ea04f50969ff4fdcebc08434defa95f3d03"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-024.png",
+          "sha256": "c7d624271345f3c9228831b168efae605c16cffde84a43c617777abcd443435f"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-025.png",
+          "sha256": "648f18bafc6f8d8d0ef4885cab7112ba00a258bdce4c4d65194abe82d305f06a"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-026.png",
+          "sha256": "d2c0596a1d38057719305c80577245d00f79889fd839780a7aac4dc0013fd862"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-027.png",
+          "sha256": "3a49c3d56878c3a3b71f2d54e5cc41abbfae7d749af7027f507ef28eac390c2d"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-028.png",
+          "sha256": "208d5aef91ce1cf646629191d39c3ea04f50969ff4fdcebc08434defa95f3d03"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-029.png",
+          "sha256": "208d5aef91ce1cf646629191d39c3ea04f50969ff4fdcebc08434defa95f3d03"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-030.png",
+          "sha256": "648f18bafc6f8d8d0ef4885cab7112ba00a258bdce4c4d65194abe82d305f06a"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-031.png",
+          "sha256": "648f18bafc6f8d8d0ef4885cab7112ba00a258bdce4c4d65194abe82d305f06a"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-032.png",
+          "sha256": "d2c0596a1d38057719305c80577245d00f79889fd839780a7aac4dc0013fd862"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-033.png",
+          "sha256": "fc183743435b8613338e414a8dc0b158b7927f4639120c1d8f5a183e718144bf"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-034.png",
+          "sha256": "208d5aef91ce1cf646629191d39c3ea04f50969ff4fdcebc08434defa95f3d03"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-035.png",
+          "sha256": "0aab2c39533d3a6e8059b4e9b460f36130696d4665991a51aca793f800579220"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-036.png",
+          "sha256": "648f18bafc6f8d8d0ef4885cab7112ba00a258bdce4c4d65194abe82d305f06a"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-037.png",
+          "sha256": "648f18bafc6f8d8d0ef4885cab7112ba00a258bdce4c4d65194abe82d305f06a"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-038.png",
+          "sha256": "e95a0b466bcd13cd801c2c575059c7d5ccd1dea9fd5444e3853084382a4f512b"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-039.png",
+          "sha256": "fc183743435b8613338e414a8dc0b158b7927f4639120c1d8f5a183e718144bf"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-040.png",
+          "sha256": "0aab2c39533d3a6e8059b4e9b460f36130696d4665991a51aca793f800579220"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-041.png",
+          "sha256": "0aab2c39533d3a6e8059b4e9b460f36130696d4665991a51aca793f800579220"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-042.png",
+          "sha256": "648f18bafc6f8d8d0ef4885cab7112ba00a258bdce4c4d65194abe82d305f06a"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-043.png",
+          "sha256": "c7d624271345f3c9228831b168efae605c16cffde84a43c617777abcd443435f"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-044.png",
+          "sha256": "e95a0b466bcd13cd801c2c575059c7d5ccd1dea9fd5444e3853084382a4f512b"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-045.png",
+          "sha256": "3a49c3d56878c3a3b71f2d54e5cc41abbfae7d749af7027f507ef28eac390c2d"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-046.png",
+          "sha256": "0aab2c39533d3a6e8059b4e9b460f36130696d4665991a51aca793f800579220"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-047.png",
+          "sha256": "0aab2c39533d3a6e8059b4e9b460f36130696d4665991a51aca793f800579220"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-048.png",
+          "sha256": "c7d624271345f3c9228831b168efae605c16cffde84a43c617777abcd443435f"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-049.png",
+          "sha256": "c7d624271345f3c9228831b168efae605c16cffde84a43c617777abcd443435f"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-050.png",
+          "sha256": "d2c0596a1d38057719305c80577245d00f79889fd839780a7aac4dc0013fd862"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-051.png",
+          "sha256": "3a49c3d56878c3a3b71f2d54e5cc41abbfae7d749af7027f507ef28eac390c2d"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-052.png",
+          "sha256": "0aab2c39533d3a6e8059b4e9b460f36130696d4665991a51aca793f800579220"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-053.png",
+          "sha256": "208d5aef91ce1cf646629191d39c3ea04f50969ff4fdcebc08434defa95f3d03"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-054.png",
+          "sha256": "c7d624271345f3c9228831b168efae605c16cffde84a43c617777abcd443435f"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-055.png",
+          "sha256": "648f18bafc6f8d8d0ef4885cab7112ba00a258bdce4c4d65194abe82d305f06a"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-056.png",
+          "sha256": "d2c0596a1d38057719305c80577245d00f79889fd839780a7aac4dc0013fd862"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-057.png",
+          "sha256": "3a49c3d56878c3a3b71f2d54e5cc41abbfae7d749af7027f507ef28eac390c2d"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-058.png",
+          "sha256": "208d5aef91ce1cf646629191d39c3ea04f50969ff4fdcebc08434defa95f3d03"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/normal/frame-059.png",
+          "sha256": "208d5aef91ce1cf646629191d39c3ea04f50969ff4fdcebc08434defa95f3d03"
+        }
+      ],
+      "playback_fps": 30,
+      "seconds": 2,
+      "kind": "REAL controlled tick-sampled frames, not wall-clock video"
+    },
+    {
+      "condition": "dense",
+      "frames": [
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-000.png",
+          "sha256": "77695a746ca83eeb6a80bd45482e9b281c7daa559b5f98aa8d63a954371359d5"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-001.png",
+          "sha256": "77695a746ca83eeb6a80bd45482e9b281c7daa559b5f98aa8d63a954371359d5"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-002.png",
+          "sha256": "3a32b13222503e05fb4facc30aa81f64f11b8836e99fc65026816259c6117358"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-003.png",
+          "sha256": "1b15c844b17ba5934ba35b7ecb3d1e37c0de70c85c8e8b3f7b7cbb43eab628a6"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-004.png",
+          "sha256": "06790bf0e70b326536d80dfc2e238fc19aef3792a8ee5c66f0f17c6398c8ee39"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-005.png",
+          "sha256": "7f9868b26bb4ff99ae77214c0dcfbfde48f3eb5dd2d636f0cdcda3e4a07a8121"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-006.png",
+          "sha256": "77695a746ca83eeb6a80bd45482e9b281c7daa559b5f98aa8d63a954371359d5"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-007.png",
+          "sha256": "77695a746ca83eeb6a80bd45482e9b281c7daa559b5f98aa8d63a954371359d5"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-008.png",
+          "sha256": "fd0dfff983f9ce01495fceb60fbf73b264c11b182268f1255338f14a6db076da"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-009.png",
+          "sha256": "1b15c844b17ba5934ba35b7ecb3d1e37c0de70c85c8e8b3f7b7cbb43eab628a6"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-010.png",
+          "sha256": "7f9868b26bb4ff99ae77214c0dcfbfde48f3eb5dd2d636f0cdcda3e4a07a8121"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-011.png",
+          "sha256": "7f9868b26bb4ff99ae77214c0dcfbfde48f3eb5dd2d636f0cdcda3e4a07a8121"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-012.png",
+          "sha256": "77695a746ca83eeb6a80bd45482e9b281c7daa559b5f98aa8d63a954371359d5"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-013.png",
+          "sha256": "36649230b1bf85a0e46a675652155f9b103ff9a025a243d4c29da8e2105dac0c"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-014.png",
+          "sha256": "fd0dfff983f9ce01495fceb60fbf73b264c11b182268f1255338f14a6db076da"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-015.png",
+          "sha256": "57d1658a4e1d9cf3bd59324556c3f7a41414b386c432013c3d4598034774a537"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-016.png",
+          "sha256": "7f9868b26bb4ff99ae77214c0dcfbfde48f3eb5dd2d636f0cdcda3e4a07a8121"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-017.png",
+          "sha256": "7f9868b26bb4ff99ae77214c0dcfbfde48f3eb5dd2d636f0cdcda3e4a07a8121"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-018.png",
+          "sha256": "36649230b1bf85a0e46a675652155f9b103ff9a025a243d4c29da8e2105dac0c"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-019.png",
+          "sha256": "36649230b1bf85a0e46a675652155f9b103ff9a025a243d4c29da8e2105dac0c"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-020.png",
+          "sha256": "3a32b13222503e05fb4facc30aa81f64f11b8836e99fc65026816259c6117358"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-021.png",
+          "sha256": "57d1658a4e1d9cf3bd59324556c3f7a41414b386c432013c3d4598034774a537"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-022.png",
+          "sha256": "7f9868b26bb4ff99ae77214c0dcfbfde48f3eb5dd2d636f0cdcda3e4a07a8121"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-023.png",
+          "sha256": "06790bf0e70b326536d80dfc2e238fc19aef3792a8ee5c66f0f17c6398c8ee39"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-024.png",
+          "sha256": "36649230b1bf85a0e46a675652155f9b103ff9a025a243d4c29da8e2105dac0c"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-025.png",
+          "sha256": "77695a746ca83eeb6a80bd45482e9b281c7daa559b5f98aa8d63a954371359d5"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-026.png",
+          "sha256": "3a32b13222503e05fb4facc30aa81f64f11b8836e99fc65026816259c6117358"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-027.png",
+          "sha256": "57d1658a4e1d9cf3bd59324556c3f7a41414b386c432013c3d4598034774a537"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-028.png",
+          "sha256": "06790bf0e70b326536d80dfc2e238fc19aef3792a8ee5c66f0f17c6398c8ee39"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-029.png",
+          "sha256": "06790bf0e70b326536d80dfc2e238fc19aef3792a8ee5c66f0f17c6398c8ee39"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-030.png",
+          "sha256": "77695a746ca83eeb6a80bd45482e9b281c7daa559b5f98aa8d63a954371359d5"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-031.png",
+          "sha256": "77695a746ca83eeb6a80bd45482e9b281c7daa559b5f98aa8d63a954371359d5"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-032.png",
+          "sha256": "3a32b13222503e05fb4facc30aa81f64f11b8836e99fc65026816259c6117358"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-033.png",
+          "sha256": "1b15c844b17ba5934ba35b7ecb3d1e37c0de70c85c8e8b3f7b7cbb43eab628a6"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-034.png",
+          "sha256": "06790bf0e70b326536d80dfc2e238fc19aef3792a8ee5c66f0f17c6398c8ee39"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-035.png",
+          "sha256": "7f9868b26bb4ff99ae77214c0dcfbfde48f3eb5dd2d636f0cdcda3e4a07a8121"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-036.png",
+          "sha256": "77695a746ca83eeb6a80bd45482e9b281c7daa559b5f98aa8d63a954371359d5"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-037.png",
+          "sha256": "77695a746ca83eeb6a80bd45482e9b281c7daa559b5f98aa8d63a954371359d5"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-038.png",
+          "sha256": "fd0dfff983f9ce01495fceb60fbf73b264c11b182268f1255338f14a6db076da"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-039.png",
+          "sha256": "1b15c844b17ba5934ba35b7ecb3d1e37c0de70c85c8e8b3f7b7cbb43eab628a6"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-040.png",
+          "sha256": "7f9868b26bb4ff99ae77214c0dcfbfde48f3eb5dd2d636f0cdcda3e4a07a8121"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-041.png",
+          "sha256": "7f9868b26bb4ff99ae77214c0dcfbfde48f3eb5dd2d636f0cdcda3e4a07a8121"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-042.png",
+          "sha256": "77695a746ca83eeb6a80bd45482e9b281c7daa559b5f98aa8d63a954371359d5"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-043.png",
+          "sha256": "36649230b1bf85a0e46a675652155f9b103ff9a025a243d4c29da8e2105dac0c"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-044.png",
+          "sha256": "fd0dfff983f9ce01495fceb60fbf73b264c11b182268f1255338f14a6db076da"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-045.png",
+          "sha256": "57d1658a4e1d9cf3bd59324556c3f7a41414b386c432013c3d4598034774a537"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-046.png",
+          "sha256": "7f9868b26bb4ff99ae77214c0dcfbfde48f3eb5dd2d636f0cdcda3e4a07a8121"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-047.png",
+          "sha256": "7f9868b26bb4ff99ae77214c0dcfbfde48f3eb5dd2d636f0cdcda3e4a07a8121"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-048.png",
+          "sha256": "36649230b1bf85a0e46a675652155f9b103ff9a025a243d4c29da8e2105dac0c"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-049.png",
+          "sha256": "36649230b1bf85a0e46a675652155f9b103ff9a025a243d4c29da8e2105dac0c"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-050.png",
+          "sha256": "3a32b13222503e05fb4facc30aa81f64f11b8836e99fc65026816259c6117358"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-051.png",
+          "sha256": "57d1658a4e1d9cf3bd59324556c3f7a41414b386c432013c3d4598034774a537"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-052.png",
+          "sha256": "7f9868b26bb4ff99ae77214c0dcfbfde48f3eb5dd2d636f0cdcda3e4a07a8121"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-053.png",
+          "sha256": "06790bf0e70b326536d80dfc2e238fc19aef3792a8ee5c66f0f17c6398c8ee39"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-054.png",
+          "sha256": "36649230b1bf85a0e46a675652155f9b103ff9a025a243d4c29da8e2105dac0c"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-055.png",
+          "sha256": "77695a746ca83eeb6a80bd45482e9b281c7daa559b5f98aa8d63a954371359d5"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-056.png",
+          "sha256": "3a32b13222503e05fb4facc30aa81f64f11b8836e99fc65026816259c6117358"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-057.png",
+          "sha256": "57d1658a4e1d9cf3bd59324556c3f7a41414b386c432013c3d4598034774a537"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-058.png",
+          "sha256": "06790bf0e70b326536d80dfc2e238fc19aef3792a8ee5c66f0f17c6398c8ee39"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/dense/frame-059.png",
+          "sha256": "06790bf0e70b326536d80dfc2e238fc19aef3792a8ee5c66f0f17c6398c8ee39"
+        }
+      ],
+      "playback_fps": 30,
+      "seconds": 2,
+      "kind": "REAL controlled tick-sampled frames, not wall-clock video"
+    },
+    {
+      "condition": "max-corruption",
+      "frames": [
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-000.png",
+          "sha256": "941a4d4dba3c16046b25cb24e65ecd44ab26ff09306d1fbfcabd4387adf437bd"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-001.png",
+          "sha256": "941a4d4dba3c16046b25cb24e65ecd44ab26ff09306d1fbfcabd4387adf437bd"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-002.png",
+          "sha256": "97b6021ced76e87fbaeee2965a2b1b95115869bf922a006cb254a1e49387b186"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-003.png",
+          "sha256": "bb0874db580ce2fda5adea1c15abe92dd9c511d53e1a5598c16a14030ca370d2"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-004.png",
+          "sha256": "1fc6e99cfa7cd6183f9a6fe8edbb260765df8564bb8284de7eac835f664466ab"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-005.png",
+          "sha256": "313445417184f821f6787a9f5143f32eb86635608272b7e3de70358b2e4d201b"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-006.png",
+          "sha256": "941a4d4dba3c16046b25cb24e65ecd44ab26ff09306d1fbfcabd4387adf437bd"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-007.png",
+          "sha256": "941a4d4dba3c16046b25cb24e65ecd44ab26ff09306d1fbfcabd4387adf437bd"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-008.png",
+          "sha256": "062b97ddab486779e224a93abbbd69a411e9e3be1ca161d446f633fc76c0d3e1"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-009.png",
+          "sha256": "bb0874db580ce2fda5adea1c15abe92dd9c511d53e1a5598c16a14030ca370d2"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-010.png",
+          "sha256": "313445417184f821f6787a9f5143f32eb86635608272b7e3de70358b2e4d201b"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-011.png",
+          "sha256": "313445417184f821f6787a9f5143f32eb86635608272b7e3de70358b2e4d201b"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-012.png",
+          "sha256": "941a4d4dba3c16046b25cb24e65ecd44ab26ff09306d1fbfcabd4387adf437bd"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-013.png",
+          "sha256": "2dec5aacac9f21f88b747692d78336c283da0cf6caa3d76498a419eed37452f2"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-014.png",
+          "sha256": "062b97ddab486779e224a93abbbd69a411e9e3be1ca161d446f633fc76c0d3e1"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-015.png",
+          "sha256": "f268e6314e4c4ceeea01a16f515ba02e9ddc63ffcc2c7983e532bc78a7f5a8bf"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-016.png",
+          "sha256": "313445417184f821f6787a9f5143f32eb86635608272b7e3de70358b2e4d201b"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-017.png",
+          "sha256": "313445417184f821f6787a9f5143f32eb86635608272b7e3de70358b2e4d201b"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-018.png",
+          "sha256": "2dec5aacac9f21f88b747692d78336c283da0cf6caa3d76498a419eed37452f2"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-019.png",
+          "sha256": "2dec5aacac9f21f88b747692d78336c283da0cf6caa3d76498a419eed37452f2"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-020.png",
+          "sha256": "97b6021ced76e87fbaeee2965a2b1b95115869bf922a006cb254a1e49387b186"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-021.png",
+          "sha256": "f268e6314e4c4ceeea01a16f515ba02e9ddc63ffcc2c7983e532bc78a7f5a8bf"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-022.png",
+          "sha256": "313445417184f821f6787a9f5143f32eb86635608272b7e3de70358b2e4d201b"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-023.png",
+          "sha256": "1fc6e99cfa7cd6183f9a6fe8edbb260765df8564bb8284de7eac835f664466ab"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-024.png",
+          "sha256": "2dec5aacac9f21f88b747692d78336c283da0cf6caa3d76498a419eed37452f2"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-025.png",
+          "sha256": "941a4d4dba3c16046b25cb24e65ecd44ab26ff09306d1fbfcabd4387adf437bd"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-026.png",
+          "sha256": "97b6021ced76e87fbaeee2965a2b1b95115869bf922a006cb254a1e49387b186"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-027.png",
+          "sha256": "f268e6314e4c4ceeea01a16f515ba02e9ddc63ffcc2c7983e532bc78a7f5a8bf"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-028.png",
+          "sha256": "1fc6e99cfa7cd6183f9a6fe8edbb260765df8564bb8284de7eac835f664466ab"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-029.png",
+          "sha256": "1fc6e99cfa7cd6183f9a6fe8edbb260765df8564bb8284de7eac835f664466ab"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-030.png",
+          "sha256": "941a4d4dba3c16046b25cb24e65ecd44ab26ff09306d1fbfcabd4387adf437bd"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-031.png",
+          "sha256": "941a4d4dba3c16046b25cb24e65ecd44ab26ff09306d1fbfcabd4387adf437bd"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-032.png",
+          "sha256": "97b6021ced76e87fbaeee2965a2b1b95115869bf922a006cb254a1e49387b186"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-033.png",
+          "sha256": "bb0874db580ce2fda5adea1c15abe92dd9c511d53e1a5598c16a14030ca370d2"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-034.png",
+          "sha256": "1fc6e99cfa7cd6183f9a6fe8edbb260765df8564bb8284de7eac835f664466ab"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-035.png",
+          "sha256": "313445417184f821f6787a9f5143f32eb86635608272b7e3de70358b2e4d201b"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-036.png",
+          "sha256": "941a4d4dba3c16046b25cb24e65ecd44ab26ff09306d1fbfcabd4387adf437bd"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-037.png",
+          "sha256": "941a4d4dba3c16046b25cb24e65ecd44ab26ff09306d1fbfcabd4387adf437bd"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-038.png",
+          "sha256": "062b97ddab486779e224a93abbbd69a411e9e3be1ca161d446f633fc76c0d3e1"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-039.png",
+          "sha256": "bb0874db580ce2fda5adea1c15abe92dd9c511d53e1a5598c16a14030ca370d2"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-040.png",
+          "sha256": "313445417184f821f6787a9f5143f32eb86635608272b7e3de70358b2e4d201b"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-041.png",
+          "sha256": "313445417184f821f6787a9f5143f32eb86635608272b7e3de70358b2e4d201b"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-042.png",
+          "sha256": "941a4d4dba3c16046b25cb24e65ecd44ab26ff09306d1fbfcabd4387adf437bd"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-043.png",
+          "sha256": "2dec5aacac9f21f88b747692d78336c283da0cf6caa3d76498a419eed37452f2"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-044.png",
+          "sha256": "062b97ddab486779e224a93abbbd69a411e9e3be1ca161d446f633fc76c0d3e1"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-045.png",
+          "sha256": "f268e6314e4c4ceeea01a16f515ba02e9ddc63ffcc2c7983e532bc78a7f5a8bf"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-046.png",
+          "sha256": "313445417184f821f6787a9f5143f32eb86635608272b7e3de70358b2e4d201b"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-047.png",
+          "sha256": "313445417184f821f6787a9f5143f32eb86635608272b7e3de70358b2e4d201b"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-048.png",
+          "sha256": "2dec5aacac9f21f88b747692d78336c283da0cf6caa3d76498a419eed37452f2"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-049.png",
+          "sha256": "2dec5aacac9f21f88b747692d78336c283da0cf6caa3d76498a419eed37452f2"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-050.png",
+          "sha256": "97b6021ced76e87fbaeee2965a2b1b95115869bf922a006cb254a1e49387b186"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-051.png",
+          "sha256": "f268e6314e4c4ceeea01a16f515ba02e9ddc63ffcc2c7983e532bc78a7f5a8bf"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-052.png",
+          "sha256": "313445417184f821f6787a9f5143f32eb86635608272b7e3de70358b2e4d201b"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-053.png",
+          "sha256": "1fc6e99cfa7cd6183f9a6fe8edbb260765df8564bb8284de7eac835f664466ab"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-054.png",
+          "sha256": "2dec5aacac9f21f88b747692d78336c283da0cf6caa3d76498a419eed37452f2"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-055.png",
+          "sha256": "941a4d4dba3c16046b25cb24e65ecd44ab26ff09306d1fbfcabd4387adf437bd"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-056.png",
+          "sha256": "97b6021ced76e87fbaeee2965a2b1b95115869bf922a006cb254a1e49387b186"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-057.png",
+          "sha256": "f268e6314e4c4ceeea01a16f515ba02e9ddc63ffcc2c7983e532bc78a7f5a8bf"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-058.png",
+          "sha256": "1fc6e99cfa7cd6183f9a6fe8edbb260765df8564bb8284de7eac835f664466ab"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/recognition/max-corruption/frame-059.png",
+          "sha256": "1fc6e99cfa7cd6183f9a6fe8edbb260765df8564bb8284de7eac835f664466ab"
+        }
+      ],
+      "playback_fps": 30,
+      "seconds": 2,
+      "kind": "REAL controlled tick-sampled frames, not wall-clock video"
+    },
+    {
+      "condition": "motion",
+      "frames": [
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-000.png",
+          "sha256": "0806dedcc7745fd6b1b7c4ffe5394fe2ee53ee0e39590034ab19f1aa71d9f09b"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-001.png",
+          "sha256": "5fbac0307f1e0cc397b4bb1b7cf16c53cb99e6274615fc0cd8dcfc00ad3d4dc6"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-002.png",
+          "sha256": "bef1cdc42add980dc103e84b14ec299c756eadebee50e5459fd9dde83ea49148"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-003.png",
+          "sha256": "405f50343b4a8f86e80372e1633756b143f6a5ccda564bd2ac4ededff9bd3bc5"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-004.png",
+          "sha256": "202c9f2c3df12abbf523088bc8ee2ade3106134f93e7a5cb933e4b1b06893cc3"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-005.png",
+          "sha256": "879b8496e8ecaf0b1f720acd917854ba405182ce8caf21789727b03cef2c0397"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-006.png",
+          "sha256": "c44b133129680b2b926c558a3b09de2a69ed8d37f2fb0534ff85fc0424d4f074"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-007.png",
+          "sha256": "90a7bb23ef150534b8d75367397a5d7ec750d3a7f594d37b645e78fb2e822b9d"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-008.png",
+          "sha256": "dd16c852a1278e67286f96808af4addefb80db41b83a5920121873d39515c98b"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-009.png",
+          "sha256": "6670f05d039cb7ab743876896f807388ecb7e77baed2bd8558aa077a0b4b31f7"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-010.png",
+          "sha256": "7cc6c8807368b11f0fb593bf6a26b8bf68ccd29941c09e0e48b1169eb3b66e8a"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-011.png",
+          "sha256": "2b835e1c0ad8b9d012b83cd8951e75d309fe5d3aaeda9d367610c1bb53c90c98"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-012.png",
+          "sha256": "d8f6d75da0f9f970ffcc2852486487ba0c33551571492e3b0b2ed3504bed239a"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-013.png",
+          "sha256": "6cf940315e20a988f276ef2ba1bada2a7f1ac86c7df1df0ba693445787e5ac82"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-014.png",
+          "sha256": "c9d04334cb9f419f99c48842e230b5bd0f2e7d4ca7d0999501abdae019dc2aba"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-015.png",
+          "sha256": "1b2a751b7b564e15d940418404e977d7620d7ae88c867475f03edcbb214e4af0"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-016.png",
+          "sha256": "cbc47421af5045dfc1dcbe2d6aaeb25ce1b0e8a8a6be9041d8bfa1ff9618f409"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-017.png",
+          "sha256": "fd5d5184c1da7b58c5fbd84f0fc03993f35c645d58ecc6fa2deb5e0596b8ec7f"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-018.png",
+          "sha256": "402aeaee90705d27ca0bfc9ab6e3cf1f24baf8aa947adb5594d6ce2d978cd8c7"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-019.png",
+          "sha256": "413348eb8966c74fd7e0d440769c8bf2c9985fff7d431e0802d41172b77e14f5"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-020.png",
+          "sha256": "826ea66af7b2400ed0f5d0cd850d58c0f7b073550a40d241b05342f274a9b84d"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-021.png",
+          "sha256": "b1a0a28d2692a12e74f636a8ceb375010e28f202a7ebfefc157d120c6865e928"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-022.png",
+          "sha256": "5515834e85bbc43bdc6b6addfde1c90dc7f315b1e2f558b5381b07be15c55353"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-023.png",
+          "sha256": "eb80f31c7f3400fb5d6b1bb474e714bed25d5dfb2dac604f5c2ab93f9566388b"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-024.png",
+          "sha256": "6f3fcbe0b10c043804f770cb918ce33b1a214f9142f11c6448f7ff93b0529a4a"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-025.png",
+          "sha256": "88de5aea0d3cda2eb3a630556c85c699849b5238e424cb026a09f2f3c013dc8b"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-026.png",
+          "sha256": "9e78d745f448fc2c793ed6407615cf29dc3dcdafdd40d82d77e6e3bbcb289b31"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-027.png",
+          "sha256": "4852731b9a1f6360754d641ce86a561fc2ec1c02064c09905b3847e69b3ff72e"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-028.png",
+          "sha256": "d58a451b245ef98e3d2332bb7886688b29d2d8049c3c5031454ef410bc7fa91f"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-029.png",
+          "sha256": "d005deb4d35b6ff34a79b09ab048824bc2824ceaecb79c6375c8fdb07051e4da"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-030.png",
+          "sha256": "ab364ae2b82f734f54d7411834e4f1e0fe25aaf989348d89264bbc2faefebe14"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-031.png",
+          "sha256": "7d68e906e82ca47a9f35ff9d63dcf10ed6fc8f9337d1c358b8668de557f17925"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-032.png",
+          "sha256": "f65377e201a041838beba61d446c4c400a854e48ed46a5a3446d5fe468659048"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-033.png",
+          "sha256": "1babc894875c2b9092fff5c4ba19a23e195814bbacaaa3b20444493654e8be16"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-034.png",
+          "sha256": "94ca964aa22414dda89b48cf88df5052c614b3befd1c2a77d84a5042da54ae0d"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-035.png",
+          "sha256": "b9d9cd2ca491e9c7586673a61c8928eb2048e5c635d37efbb420174e0ee8c462"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-036.png",
+          "sha256": "3ef2796d158696b698180fdbf0d41000f29a00c9bbf5a334393d7aeb6788c359"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-037.png",
+          "sha256": "57b9b059a98605bb596016f7841b6cc401a2efb089250e3188ad0774056e3ddf"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-038.png",
+          "sha256": "72438220ad76c6fcb5166d7f9508f8b5d3e5a535d99d31b942851f800c7f2804"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-039.png",
+          "sha256": "1fa97d713e2ac2cf7f5c41d840fa486f225b7c171797afd60c2564e83a410dbe"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-040.png",
+          "sha256": "988e4966040c2c380a86b84e91203f89b7a5f545dbad5cde6eb624a9f4f01a7e"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-041.png",
+          "sha256": "d9a245e2dab40dbade5795ba2c9fac12718b4499fc300c896c95966c7b01d421"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-042.png",
+          "sha256": "ad2aa8d188859b6c5bc579b0cccf3fac2b07a811097cd16412988bd123255b4b"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-043.png",
+          "sha256": "51fdd6b68dff4e52d667b669c2b6ffeade4b4969368233f50f40257bbad81a54"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-044.png",
+          "sha256": "4f9cf3f2aacc553315f0b988f1a69054b7c60775ed73898f5f74c23b510107b9"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-045.png",
+          "sha256": "117246d41426574135ba52cc75d9b42b8de8f1bccf23ecc838d20a5a737e03de"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-046.png",
+          "sha256": "249130be3f1234465f544a27b44bde075ab3156b59014db18b21d538970b22ed"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-047.png",
+          "sha256": "371f9edd4220ef35e5a06cde1f5c0d38bf6b7d0c08a57fc59521b8d2576d019a"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-048.png",
+          "sha256": "4841c1b1cc453aa0240b646a9b3a3059a8485d2c52f337aafca66f2ddcc71b92"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-049.png",
+          "sha256": "398be4d0cc41005515cbc7ece3bc6e37b5ddef97d3f0022aa3389dc2e01caa94"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-050.png",
+          "sha256": "caaa2e6bde0f3557cb23cea02ec931c9fd7aaa2614aeac687dad325953c72f78"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-051.png",
+          "sha256": "b884f43c4f151131e38fd3523664586f9611ea0e09f832edc6f8c349d0200cf2"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-052.png",
+          "sha256": "c3c687de63a7e0e7176b674cd1de182932098dd722c7529996561a2e4e02fcf0"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-053.png",
+          "sha256": "e13a5fb631eb5258fdf5405b95d313c8dd60fe35243f3c675f4fb6cc522fb39b"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-054.png",
+          "sha256": "51fdd6b68dff4e52d667b669c2b6ffeade4b4969368233f50f40257bbad81a54"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-055.png",
+          "sha256": "ad2aa8d188859b6c5bc579b0cccf3fac2b07a811097cd16412988bd123255b4b"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-056.png",
+          "sha256": "7a495b464cc20704582c78a73cc5907a6e76e5106289e886e07339787afe0745"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-057.png",
+          "sha256": "4dacd346a4bb4ca8d8fde535527f755d981d5fbd9d45dff2e4455db06bf7ceb7"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-058.png",
+          "sha256": "2143089ba33866aa11f6a6ef5e959edaba975d18e8270c2ac3260f013c26b99e"
+        },
+        {
+          "path": "screenshots/visual-vd01/after/release-r3/motion/frame-059.png",
+          "sha256": "9a6146c37180e1c4e683d2fd3b9dd52fbd494732fbea1083310c2a3e1093a50a"
+        }
+      ],
+      "playback_fps": 30,
+      "seconds": 2,
+      "kind": "REAL controlled tick-sampled frames, not wall-clock video"
+    }
+  ],
+  "human_results": "0 participants; not conducted"
+}

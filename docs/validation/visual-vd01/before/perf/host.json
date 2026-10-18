@@ -1,0 +1,26 @@
+{
+  "mode": "release_executable",
+  "milestone": "m4",
+  "smoke": false,
+  "acceptance": false,
+  "build_path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\builds\\windows\\m4\\AbyssExpedition.exe",
+  "build_sha256": "965F0E7B9A6254FC3AC5ECD5D92EC87A682410A44A604EDC7C8C3C79703FF17B",
+  "pack_sha256": "965F0E7B9A6254FC3AC5ECD5D92EC87A682410A44A604EDC7C8C3C79703FF17B",
+  "fixture_sha256": "7DCA1F8EFDA48F6198D31C0480F0C54F9B10EE15FA85937F64877C5594380A32",
+  "os": "Microsoft Windows NT 10.0.26200.0",
+  "processor": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+  "ram_bytes": null,
+  "graphics": null,
+  "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+  "effective_power_mode": "not independently observed",
+  "hardware_query_errors": [
+    "Access to a CIM resource was not available to the client.",
+    "Access to a CIM resource was not available to the client."
+  ],
+  "profiler": "Godot Performance monitors; no external profiler attached by this wrapper",
+  "vsync_requested": false,
+  "audio_driver": "Dummy (diagnostic fixture only; gameplay settings unchanged)",
+  "process_launch_style": "Hidden; OS foreground state not independently observed",
+  "reference_target": "Windows 11 / i5-8400 / GTX 1050 Ti 4GB / 16GB RAM / SSD / 1920x1080 60Hz",
+  "notes": "Frame budgets are separate from capture validity. Displayed input/hit latency and human readability are not measured."
+}

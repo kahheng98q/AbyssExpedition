@@ -1,0 +1,5 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 546.30 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1650
+
+BENCH WARMUP COMPLETE seed=303 active=1.00s
+BENCH seed=303 samples=107 active=2.0s p95=25.939 p99=27.094 capture_valid=true budget_pass=false debug_build=true output=C:\Users\kahhe\Desktop\Project\new-game-project\docs\validation\visual-vd01\phase-5-perf-smoke

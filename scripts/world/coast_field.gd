@@ -1,12 +1,22 @@
 extends Node2D
 
 var corruption: int = 0
+@export var visual_scene: PackedScene
+var using_visual: bool = false
+var visual_subtree: Node2D
+var force_fallback: bool = false
 
 func set_corruption(value: int) -> void:
 	corruption = value
+	if visual_subtree!=null:visual_subtree.set_corruption(value)
 	queue_redraw()
 
 func _ready() -> void:
+	if visual_scene!=null:
+		visual_subtree=visual_scene.instantiate()
+		add_child(visual_subtree)
+		using_visual=visual_subtree.is_complete()
+		visual_subtree.visible=using_visual
 	# Actual physics walls supplement continuous-coordinate movement clamping.
 	for rectangle in [Rect2(-16, -16, 992, 16), Rect2(-16, 540, 992, 16), Rect2(-16, 0, 16, 540), Rect2(960, 0, 16, 540)]:
 		var body = StaticBody2D.new()
@@ -21,6 +31,8 @@ func _ready() -> void:
 		add_child(body)
 
 func _draw() -> void:
+	if visual_subtree!=null:visual_subtree.visible=using_visual and not force_fallback
+	if using_visual and not force_fallback:return
 	draw_rect(Rect2(0, 0, 960, 540), Color(0.075, 0.14, 0.16))
 	# Shallow tidal shelves are decorative, walkable and visually quiet.
 	for shelf in range(4):

@@ -35,16 +35,7 @@ func _ready() -> void:
 		add_child(debug_panel)
 
 func configure_theme() -> void:
-	var theme = Theme.new()
-	theme.default_font_size = 12
-	for state in ["normal", "hover", "pressed", "focus"]:
-		var box = StyleBoxFlat.new()
-		box.bg_color = Color(0.1, 0.19, 0.23) if state == "normal" else Color(0.17, 0.31, 0.35)
-		box.border_color = Color(0.58, 0.93, 0.86) if state == "focus" else Color(0.28, 0.5, 0.52)
-		box.set_border_width_all(2 if state == "focus" else 1)
-		box.content_margin_top = 5
-		box.content_margin_bottom = 5
-		theme.set_stylebox(state, "Button", box)
+	var theme = load("res://data/themes/expedition_theme.tres")
 	screen_host.theme = theme
 	modal_host.theme = theme
 
@@ -255,6 +246,7 @@ func refresh_modal(expected_generation: int = -1) -> void:
 	clear_host(modal_host)
 	if run.manual_token < 0: return
 	var screen = catalog.scene("pause_menu").instantiate()
+	screen.run = run
 	screen.resume_requested.connect(func():
 		run.toggle_manual_pause()
 		call_deferred("refresh_modal"))

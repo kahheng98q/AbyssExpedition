@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="UpgradeDefinition" load_steps=5 format=3]
+[ext_resource type="Script" path="res://scripts/data/upgrade_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/data/effect_definition.gd" id="2"]
+[sub_resource type="Resource" id="effect"]
+script = ExtResource("2")
+kind = &"percent"
+stat_category = &"max_health"
+amount = 0.1
+duration_ticks = 0
+[sub_resource type="Resource" id="healing"]
+script = ExtResource("2")
+kind = &"heal_added"
+stat_category = &"max_health"
+amount = 1.0
+[resource]
+script = ExtResource("1")
+id = &"vitality"
+label = "Vitality"
+description = "Maximum HP +10% of starting HP. Heal that increase."
+max_stacks = 0
+fallback = true
+effects = Array[ExtResource("2")]([SubResource("effect"), SubResource("healing")])

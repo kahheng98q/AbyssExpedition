@@ -1,0 +1,419 @@
+{
+  "revision": "VD-01-M1",
+  "status": "PROPOSED, not production cleanup or integration approval",
+  "creator": "Codex / locally authored original pixel geometry",
+  "date": "2026-10-16",
+  "rights": "Original project concept artwork; no external images copied. System fonts rendered for review, binaries not distributed. Owner acceptance pending.",
+  "actors": {
+    "aren": {
+      "canvas": [
+        32,
+        48
+      ],
+      "anchor": [
+        16,
+        40
+      ],
+      "sheet": "sprites/aren.png",
+      "body_bounds": [
+        4,
+        8,
+        24,
+        32
+      ],
+      "states": {
+        "idle": {
+          "applicable": true,
+          "regions": [
+            [
+              0,
+              0,
+              32,
+              48
+            ],
+            [
+              32,
+              0,
+              32,
+              48
+            ]
+          ],
+          "effective_frames": 2,
+          "fps": 6,
+          "loop": true
+        },
+        "move": {
+          "applicable": true,
+          "regions": [
+            [
+              0,
+              48,
+              32,
+              48
+            ],
+            [
+              32,
+              48,
+              32,
+              48
+            ],
+            [
+              64,
+              48,
+              32,
+              48
+            ],
+            [
+              96,
+              48,
+              32,
+              48
+            ]
+          ],
+          "effective_frames": 4,
+          "fps": 10,
+          "loop": true
+        },
+        "attack": {
+          "applicable": true,
+          "regions": [
+            [
+              0,
+              96,
+              32,
+              48
+            ],
+            [
+              32,
+              96,
+              32,
+              48
+            ],
+            [
+              64,
+              96,
+              32,
+              48
+            ]
+          ],
+          "effective_frames": 3,
+          "fps": 15,
+          "loop": false,
+          "event_origin": "attack_until-12",
+          "duration_ticks": 12
+        },
+        "hurt": {
+          "applicable": true,
+          "regions": [],
+          "effective_frames": 1,
+          "fps": 1,
+          "loop": false,
+          "reuse_of": "idle[0]",
+          "flash_until": "actual hurt_until; can be 2 or 8 ticks"
+        },
+        "death": {
+          "applicable": true,
+          "regions": [
+            [
+              0,
+              192,
+              32,
+              48
+            ],
+            [
+              32,
+              192,
+              32,
+              48
+            ],
+            [
+              64,
+              192,
+              32,
+              48
+            ],
+            [
+              96,
+              192,
+              32,
+              48
+            ]
+          ],
+          "effective_frames": 4,
+          "fps": 8,
+          "loop": false,
+          "event_origin": "valid dead_at; hero/companion lethal hurt_until-8",
+          "duration_ticks": 30,
+          "interruption": "results can immediately truncate; never delay cleanup"
+        }
+      },
+      "unique_cells": 13,
+      "facing": "one plus horizontal mirror; bodies never rotate"
+    },
+    "thrall": {
+      "canvas": [
+        32,
+        48
+      ],
+      "anchor": [
+        16,
+        40
+      ],
+      "sheet": "sprites/thrall.png",
+      "body_bounds": [
+        5,
+        10,
+        22,
+        31
+      ],
+      "states": {
+        "idle": {
+          "applicable": true,
+          "regions": [
+            [
+              0,
+              0,
+              32,
+              48
+            ]
+          ],
+          "effective_frames": 1,
+          "fps": 4,
+          "loop": true
+        },
+        "move": {
+          "applicable": true,
+          "regions": [
+            [
+              0,
+              48,
+              32,
+              48
+            ],
+            [
+              32,
+              48,
+              32,
+              48
+            ]
+          ],
+          "effective_frames": 2,
+          "fps": 8,
+          "loop": true
+        },
+        "attack": {
+          "applicable": false,
+          "regions": [],
+          "effective_frames": 0,
+          "fps": 15,
+          "loop": false,
+          "reason": "contact-only pursuit; no attack event"
+        },
+        "hurt": {
+          "applicable": true,
+          "regions": [],
+          "effective_frames": 1,
+          "fps": 1,
+          "loop": false,
+          "reuse_of": "idle[0]",
+          "flash_until": "actual hurt_until; can be 2 or 8 ticks"
+        },
+        "death": {
+          "applicable": true,
+          "regions": [
+            [
+              0,
+              192,
+              32,
+              48
+            ],
+            [
+              32,
+              192,
+              32,
+              48
+            ],
+            [
+              64,
+              192,
+              32,
+              48
+            ]
+          ],
+          "effective_frames": 3,
+          "fps": 8,
+          "loop": false,
+          "event_origin": "valid dead_at; hero/companion lethal hurt_until-8",
+          "duration_ticks": 24,
+          "interruption": "results can immediately truncate; never delay cleanup"
+        }
+      },
+      "unique_cells": 6,
+      "facing": "one plus horizontal mirror; bodies never rotate"
+    },
+    "brinejaw": {
+      "canvas": [
+        32,
+        32
+      ],
+      "anchor": [
+        16,
+        24
+      ],
+      "sheet": "sprites/brinejaw.png",
+      "body_bounds": [
+        1,
+        7,
+        31,
+        18
+      ],
+      "states": {
+        "idle": {
+          "applicable": true,
+          "regions": [
+            [
+              0,
+              0,
+              32,
+              32
+            ]
+          ],
+          "effective_frames": 1,
+          "fps": 4,
+          "loop": true
+        },
+        "move": {
+          "applicable": true,
+          "regions": [
+            [
+              0,
+              32,
+              32,
+              32
+            ],
+            [
+              32,
+              32,
+              32,
+              32
+            ]
+          ],
+          "effective_frames": 2,
+          "fps": 10,
+          "loop": true
+        },
+        "warning": {
+          "applicable": true,
+          "regions": [],
+          "effective_frames": 1,
+          "fps": 1,
+          "loop": false,
+          "reuse_of": "idle[0]",
+          "event_origin": "deadline-45, only while warning",
+          "duration_ticks": 45
+        },
+        "hurt": {
+          "applicable": true,
+          "regions": [],
+          "effective_frames": 1,
+          "fps": 1,
+          "loop": false,
+          "reuse_of": "idle[0]",
+          "flash_until": "actual hurt_until; can be 2 or 8 ticks"
+        },
+        "death": {
+          "applicable": true,
+          "regions": [
+            [
+              0,
+              128,
+              32,
+              32
+            ],
+            [
+              32,
+              128,
+              32,
+              32
+            ],
+            [
+              64,
+              128,
+              32,
+              32
+            ]
+          ],
+          "effective_frames": 3,
+          "fps": 8,
+          "loop": false,
+          "event_origin": "valid dead_at; hero/companion lethal hurt_until-8",
+          "duration_ticks": 24,
+          "interruption": "results can immediately truncate; never delay cleanup"
+        }
+      },
+      "unique_cells": 6,
+      "facing": "one plus horizontal mirror; bodies never rotate"
+    }
+  },
+  "effects": {
+    "sword": {
+      "sheet": "sprites/sword.png",
+      "canvas": [
+        64,
+        96
+      ],
+      "anchor": [
+        8,
+        48
+      ],
+      "unique_cells": 2,
+      "fps": 12,
+      "regions": [
+        [
+          0,
+          0,
+          64,
+          96
+        ],
+        [
+          64,
+          0,
+          64,
+          96
+        ]
+      ],
+      "lifetime": "sword expires=tick+10; removal tick>expires; star retains original projectile lifetime"
+    },
+    "star": {
+      "sheet": "sprites/star.png",
+      "canvas": [
+        16,
+        16
+      ],
+      "anchor": [
+        8,
+        8
+      ],
+      "unique_cells": 2,
+      "fps": 12,
+      "regions": [
+        [
+          0,
+          0,
+          16,
+          16
+        ],
+        [
+          16,
+          0,
+          16,
+          16
+        ]
+      ],
+      "lifetime": "sword expires=tick+10; removal tick>expires; star retains original projectile lifetime"
+    }
+  },
+  "authored_unique_cells": 29,
+  "ceiling": 58,
+  "not_gameplay_recordings": true
+}

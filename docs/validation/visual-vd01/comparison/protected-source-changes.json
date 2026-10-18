@@ -1,0 +1,112 @@
+[
+  {
+    "path": "scripts/combat/actor_presentation.gd",
+    "before_sha256": "4d7d05e85a3cc03769956ad8ef8939db4a967cf888a19aca52eab1fc2fc7cb09",
+    "after_sha256": "3112e72e077d40e22e72fa80a3cfe247ab9cd82fb51f4ba4aefcd4d7abf70d53"
+  },
+  {
+    "path": "scripts/combat/melee_arc.gd",
+    "before_sha256": "e8ff25fb5a0fdff74a15929751838cf14be482d3f8ecffbaea01107f685b100a",
+    "after_sha256": "baf59177a091029db7e27ea9ccc0a2df8fdeec7aacaea87043ce099eaf46d202"
+  },
+  {
+    "path": "scripts/combat/projectile.gd",
+    "before_sha256": "bc94c4aacce79a116e105e4db55e7d2b215d3d713ecc40ad2e36b715faa88b22",
+    "after_sha256": "38e8d5a0fb0d2c5c3de7f331195862d297f70983a16d70bec599a2740ffb14ed"
+  },
+  {
+    "path": "scripts/core/app_router.gd",
+    "before_sha256": "7791508be814070113c573a61e3f373d52491cedcaa740e275906f3b78210092",
+    "after_sha256": "1ec2213aa26a7c8532782886171618ba7d16a142778fd1b327350ab7428d670b"
+  },
+  {
+    "path": "scripts/data/content_catalog.gd",
+    "before_sha256": "ca7e38164a35f2d2e0df6b37ff9a376ecec92b47d23f1f028277efa16f62f6c8",
+    "after_sha256": "b00601aae5e3c52c88c045977e6d9c4fe62f342e9583de4b1129bd290e79e277"
+  },
+  {
+    "path": "scripts/data/visual_set.gd",
+    "before_sha256": "627585ff4d0f0dad9abecb25a363fcdff0d17c540f472e4f3f77869864fbfb4d",
+    "after_sha256": "665d5c75b02d2805522c21b46ec2b6b00e5824385d44e74428f84350390bb69e"
+  },
+  {
+    "path": "scripts/ui/combat_hud.gd",
+    "before_sha256": "dba1e9b53c55b9c7faaa5b381fc591573612cedfd11b8af826971c01cf56a0c0",
+    "after_sha256": "2cac0ad957747d4e3a6df06127ee1f038e39d182106d78f2210c27b66110cda3"
+  },
+  {
+    "path": "scripts/ui/level_up.gd",
+    "before_sha256": "b987e3fa242fdf6b57458a3359ace73150b18b75e8ac4a370a874181e9cd3a25",
+    "after_sha256": "a7be9a6c09d89089837c1c06fc5b719d6a412621e868a985f307e942410b1d70"
+  },
+  {
+    "path": "scripts/ui/pause_menu.gd",
+    "before_sha256": "527cdbbb842212ec1db0c88ccd64001aae381ebff849c50437872bbeb537ce25",
+    "after_sha256": "fe69280e7a2deffbe7fb5ea7f454496167e26dd82413160d98feddb3ba9e7cde"
+  },
+  {
+    "path": "scripts/ui/screen.gd",
+    "before_sha256": "1e4295dceab5770e04d05cafe75d5ed75162e4682e9d5d8770052db845cf6800",
+    "after_sha256": "a3283616d518ba5b16af330c10e6fd3f101acb0a04bc54ad5e0cae0350c87e29"
+  },
+  {
+    "path": "scripts/world/coast_field.gd",
+    "before_sha256": "c86d6b741187d27d02f20b378290875aed048b2a96b6126c52659f53c71b6a82",
+    "after_sha256": "0a8c2369e421fde2832efb3c38da46ef79a5447a5d5197975fbf11f4180f161a"
+  },
+  {
+    "path": "scenes/world/coast_field.tscn",
+    "before_sha256": "8ef4bc8828972bd32d45504d8adeed7993c3bc0ea5a786f56261b2e148f823bc",
+    "after_sha256": "c39ab5833888a8d840d8bc78b13038d0dbf4f2995be93579731b4af65874ffa0"
+  },
+  {
+    "path": "scenes/world/expedition.tscn",
+    "before_sha256": "62f77a8f04019eddc22c22fee93d8ab2244f7e5670c2ccaad2c9bf12f4af5474",
+    "after_sha256": "3634030fd31b49d37b6ad84c91d70311325707406a0a1bf7bb8cdc84d31e9eb3"
+  },
+  {
+    "path": "assets/provenance.md",
+    "before_sha256": "16e7aaced15e6195a559f54705be5ab7e91d0dfa5e374af2e1c2ecd39f42b2be",
+    "after_sha256": "3cd1893a8e771c3079688f1355055cc87b6113d2c347f2371e06cfe43d66caed"
+  },
+  {
+    "path": "tests/debug_graphical_check.gd",
+    "before_sha256": "c37fe6cb59d93dfce5e4bdd054582c63b20d55c5cdb02bb3acd860e3b3d81dd3",
+    "after_sha256": "48f274361b3e2ea236888c71ecdf87f712b280c59e023f6bba8732d90c603fba"
+  },
+  {
+    "path": "tests/run_tests.gd",
+    "before_sha256": "af61d03d7f37b9b502b75674891ae1e50eb5f4e1402d3fba0e5a1aabacc9dd08",
+    "after_sha256": "c977742f40b882b62be4079edaa6fad3db71a9b629df648a1728103d3f74d72d"
+  },
+  {
+    "path": "tests/script_manifest.gd",
+    "before_sha256": "fbdefd7b428428adb875919097ada59ee3a7aa114e53f2b82c803e975b96583d",
+    "after_sha256": "af50db38eb8a2b1ccf36ab2b35c774be2c853bdcc9f6c1968bbf2493f9b0dc7d"
+  },
+  {
+    "path": "tests/validate_content.gd",
+    "before_sha256": "9c53e76a8eafde050ad36f0762506999c591b7197574197c40304206cb6cf5ab",
+    "after_sha256": "370418bffbc421598385519df170d3de1bcbd25e57408c67893caccddb1f2687"
+  },
+  {
+    "path": "tests/integration/test_choice_pause.gd",
+    "before_sha256": "94c8ae34c250f82b708619bbe5e31caa27aa3b129647c47ca9cdb17362395556",
+    "after_sha256": "c59861eb2efd98d133aaf1fb58a265396800d0691cb2fe7e7c8cf96039320d1f"
+  },
+  {
+    "path": "tests/scenes/test_m1_ui.gd",
+    "before_sha256": "503e800c11f171ce5835b8d67bf8ed41232b2480d9bfc8e89a5817c8944a07c1",
+    "after_sha256": "e2994ae5ea51c7848b437d1e3cdd667520f605efcf87d5a2df220c61b16f4270"
+  },
+  {
+    "path": "tests/scenes/test_scene_smoke.gd",
+    "before_sha256": "38fdd0ff58a53ccf21370a066fa43e5a3e879470fb61ff5cfdd7d9fbcd6d5b8a",
+    "after_sha256": "51b08c22d43fcc86a652a614d58e3c4d00215e6d518056eddf0117c743656a07"
+  },
+  {
+    "path": "export_presets.cfg",
+    "before_sha256": "ff417180b41bac7bb3b595f723ba331fd0e4f70511e64fe3bdf245b5ab4bceff",
+    "after_sha256": "57b1a3d927b85630fd4e78904e4b5e167293e0661e521753f54ad3e1783da3e8"
+  }
+]

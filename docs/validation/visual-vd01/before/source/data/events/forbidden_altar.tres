@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="EventDefinition" load_steps=6 format=3]
+[ext_resource type="Script" path="res://scripts/data/event_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/data/event_choice.gd" id="2"]
+[sub_resource type="Resource" id="Choice0"]
+script = ExtResource("2")
+id = &"blood_tithe"
+presentation = "Blood Tithe: 20% max HP +25 corruption / +30% damage"
+costs = Array[Dictionary]([{"kind": "health", "amount": 0.2}, {"kind": "corruption", "amount": 25}])
+effects = Array[Dictionary]([{"kind": "damage", "amount": 0.3}])
+[sub_resource type="Resource" id="Choice1"]
+script = ExtResource("2")
+id = &"unbound_assault"
+presentation = "Unbound Assault: +35 corruption / +40% attack frequency"
+costs = Array[Dictionary]([{"kind": "corruption", "amount": 35}])
+effects = Array[Dictionary]([{"kind": "frequency", "amount": 0.4}])
+[sub_resource type="Resource" id="Choice2"]
+script = ExtResource("2")
+id = &"decline"
+presentation = "Decline / Escape"
+costs = Array[Dictionary]([])
+effects = Array[Dictionary]([])
+[resource]
+script = ExtResource("1")
+id = &"forbidden_altar"
+kind = &"forbidden_altar"
+presentation = "THE FORBIDDEN ALTAR"
+choices = Array[ExtResource("2")]([SubResource("Choice0"), SubResource("Choice1"), SubResource("Choice2")])

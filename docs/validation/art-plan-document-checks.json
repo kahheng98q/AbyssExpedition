@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-16",
+  "scope": "documentation-only static checks",
+  "checked_document_files": 22,
+  "local_references_checked": 274,
+  "issues": [],
+  "protected_files": 244,
+  "protected_sha256_before": "e9d23dd4587b8132fb4377a0313e5e9e07f2f71ace88ad0ea44865f0e1ec0115",
+  "protected_sha256_after": "e9d23dd4587b8132fb4377a0313e5e9e07f2f71ace88ad0ea44865f0e1ec0115",
+  "protected_files_unchanged": true,
+  "palette_contrast_on_panel": {
+    "ivory_text": 13.25,
+    "mist_text": 9.5,
+    "ally_focus": 13.1
+  },
+  "proposed_hud_union_px": 56496,
+  "proposed_hud_occupancy_percent": 24.5208,
+  "browser_render_review": "not executed: file protocol blocked by browser URL policy",
+  "godot_tests": "not run",
+  "visual_approval": "G0/G1/G2/G3 pending"
+}

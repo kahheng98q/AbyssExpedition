@@ -1,0 +1,119 @@
+[gd_resource type="Theme" load_steps=11 format=3]
+[sub_resource type="StyleBoxFlat" id="panel"]
+bg_color = Color(0.098039, 0.117647, 0.180392, 1)
+border_color = Color(0.407843, 0.486275, 0.533333, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+[sub_resource type="StyleBoxFlat" id="screen"]
+bg_color = Color(0.098039, 0.117647, 0.180392, 1)
+border_color = Color(0.407843, 0.486275, 0.533333, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+content_margin_left = 20.0
+content_margin_right = 20.0
+content_margin_top = 14.0
+content_margin_bottom = 14.0
+[sub_resource type="StyleBoxFlat" id="normal"]
+bg_color = Color(0.098039, 0.117647, 0.180392, 1)
+border_color = Color(0.407843, 0.486275, 0.533333, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+content_margin_left = 8.0
+content_margin_right = 8.0
+content_margin_top = 4.0
+content_margin_bottom = 4.0
+[sub_resource type="StyleBoxFlat" id="hover"]
+bg_color = Color(0.145098, 0.172549, 0.239216, 1)
+border_color = Color(0.839216, 0.682353, 0.407843, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+content_margin_left = 8.0
+content_margin_right = 8.0
+content_margin_top = 4.0
+content_margin_bottom = 4.0
+[sub_resource type="StyleBoxFlat" id="pressed"]
+bg_color = Color(0.145098, 0.172549, 0.239216, 1)
+border_color = Color(0.647059, 0.952941, 0.909804, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+content_margin_left = 8.0
+content_margin_right = 8.0
+content_margin_top = 4.0
+content_margin_bottom = 4.0
+[sub_resource type="StyleBoxFlat" id="focus"]
+bg_color = Color(0.098039, 0.117647, 0.180392, 1)
+border_color = Color(0.647059, 0.952941, 0.909804, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+content_margin_left = 8.0
+content_margin_right = 8.0
+content_margin_top = 4.0
+content_margin_bottom = 4.0
+[sub_resource type="StyleBoxFlat" id="disabled"]
+bg_color = Color(0.098039, 0.117647, 0.180392, 1)
+border_color = Color(0.239216, 0.298039, 0.360784, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+content_margin_left = 8.0
+content_margin_right = 8.0
+content_margin_top = 4.0
+content_margin_bottom = 4.0
+[sub_resource type="StyleBoxFlat" id="error"]
+bg_color = Color(0.098039, 0.117647, 0.180392, 1)
+border_color = Color(0.952941, 0.466667, 0.513725, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+[sub_resource type="StyleBoxFlat" id="pending"]
+bg_color = Color(0.098039, 0.117647, 0.180392, 1)
+border_color = Color(0.788235, 0.603922, 0.909804, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+[sub_resource type="StyleBoxFlat" id="bar"]
+bg_color = Color(0.145098, 0.172549, 0.239216, 1)
+border_color = Color(0.145098, 0.172549, 0.239216, 1)
+border_width_left = 0
+border_width_top = 0
+border_width_right = 0
+border_width_bottom = 0
+[resource]
+default_font_size = 12
+ScreenPanel/base_type = &"PanelContainer"
+ErrorLabel/base_type = &"Label"
+PendingLabel/base_type = &"Label"
+Label/colors/font_color = Color(0.913725, 0.901961, 0.847059, 1)
+ErrorLabel/colors/font_color = Color(0.952941, 0.466667, 0.513725, 1)
+PendingLabel/colors/font_color = Color(0.788235, 0.603922, 0.909804, 1)
+Button/styles/normal = SubResource("normal")
+Button/styles/hover = SubResource("hover")
+Button/styles/pressed = SubResource("pressed")
+Button/styles/focus = SubResource("focus")
+Button/styles/disabled = SubResource("disabled")
+Button/colors/font_color = Color(0.913725, 0.901961, 0.847059, 1)
+Button/colors/font_hover_color = Color(0.913725, 0.901961, 0.847059, 1)
+Button/colors/font_pressed_color = Color(0.913725, 0.901961, 0.847059, 1)
+Button/colors/font_focus_color = Color(0.913725, 0.901961, 0.847059, 1)
+Button/colors/font_disabled_color = Color(0.721569, 0.776471, 0.819608, 1)
+PanelContainer/styles/panel = SubResource("panel")
+ScreenPanel/styles/panel = SubResource("screen")
+ProgressBar/styles/background = SubResource("bar")
+ProgressBar/styles/fill = SubResource("bar")
+VBoxContainer/constants/separation = 8
+HBoxContainer/constants/separation = 8

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="UpgradeDefinition" load_steps=4 format=3]
+[ext_resource type="Script" path="res://scripts/data/upgrade_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/data/effect_definition.gd" id="2"]
+[sub_resource type="Resource" id="effect"]
+script = ExtResource("2")
+kind = &"echo"
+stat_category = &"echo"
+amount = 1
+duration_ticks = 0
+[resource]
+script = ExtResource("1")
+id = &"echo_strike"
+label = "Echo Strike"
+description = "Extra shot, or a 50% follow-up arc. Maximum 2."
+max_stacks = 2
+fallback = false
+effects = Array[ExtResource("2")]([SubResource("effect")])

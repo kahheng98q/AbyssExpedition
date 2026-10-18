@@ -17,15 +17,8 @@ func build(width: float = 430) -> void:
 	add_child(center)
 	panel = PanelContainer.new()
 	panel.custom_minimum_size.x = width
-	var box = StyleBoxFlat.new()
-	box.bg_color = Color(0.065, 0.11, 0.15)
-	box.border_color = Color(0.28, 0.51, 0.54)
-	box.set_border_width_all(1)
-	box.content_margin_left = 20
-	box.content_margin_right = 20
-	box.content_margin_top = 14
-	box.content_margin_bottom = 14
-	panel.add_theme_stylebox_override("panel", box)
+	theme = load("res://data/themes/expedition_theme.tres")
+	panel.theme_type_variation = &"ScreenPanel"
 	center.add_child(panel)
 	column = VBoxContainer.new()
 	column.add_theme_constant_override("separation", 7)

@@ -1,0 +1,14 @@
+[
+  {
+    "path": "scripts/ui/combat_hud.gd",
+    "sha256": "4f0a8761a73a0d27d58d7424eb16e85e5449a1c08536ef7ccf0205bc00f9b808"
+  },
+  {
+    "path": "scripts/ui/components/choice_card.gd",
+    "sha256": "7b6a6751eab4a92064c0c7b2d17d52e8f2bd7a367396fcf6d8c108fcee9ef3cd"
+  },
+  {
+    "path": "scripts/ui/pause_menu.gd",
+    "sha256": "baea4841ee5402118ffcd4ed6d3249fdd4b04adbb1e6d96bac99c967d51ceead"
+  }
+]

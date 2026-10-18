@@ -9,6 +9,18 @@ $validationDirectory = Join-Path $validationRoot 'docs/validation'
 if ($EvidenceDirectory) { $validationDirectory = [IO.Path]::GetFullPath($EvidenceDirectory, $validationRoot) }
 $runtimeData = Join-Path $PSScriptRoot 'runtime-appdata'
 New-Item -ItemType Directory -Force $validationDirectory,$runtimeData | Out-Null
+$validationCaptures = if ($EvidenceDirectory) { Join-Path $validationDirectory 'captures' } else { Join-Path $validationRoot 'screenshots' }
+New-Item -ItemType Directory -Force $validationCaptures | Out-Null
+function Get-GraphicalHarness([string]$file) {
+    if (-not $EvidenceDirectory) { return "res://tests/$file" }
+    $harnessDirectory = Join-Path $validationDirectory 'harnesses'
+    New-Item -ItemType Directory -Force $harnessDirectory | Out-Null
+    $text = [IO.File]::ReadAllText((Join-Path $validationRoot "tests/$file"))
+    $text = $text.Replace('res://screenshots/', $validationCaptures.Replace('\','/') + '/')
+    $target = Join-Path $harnessDirectory $file
+    [IO.File]::WriteAllText($target,$text)
+    return $target
+}
 function Invoke-Check([string]$name, [string[]]$arguments, [int]$expectedExit = 0, [int]$timeout = 60, [string]$executable = $godotBinary) {
     if ($DummyAudio) { $arguments = @('--audio-driver','Dummy') + $arguments }
     $info = [Diagnostics.ProcessStartInfo]::new()
@@ -52,10 +64,10 @@ foreach ($suite in $suites) {
 Invoke-Check 'reject-unknown-suite' @('--headless','--path',$validationRoot,'--log-file',(Join-Path $validationDirectory 'negative-engine.log'),'--script','res://tests/run_tests.gd','--','--suite','missing_suite') 2
 Invoke-Check 'reject-invalid-seed' @('--headless','--path',$validationRoot,'--log-file',(Join-Path $validationDirectory 'negative-engine.log'),'--script','res://tests/run_tests.gd','--','--seed','2147483648') 2
 if ($Graphical) {
-    if ($M4) { Invoke-Check 'm4-graphical' @('--path',$validationRoot,'--script','res://tests/m4_graphical_check.gd') }
-    Invoke-Check 'graphical' @('--path',$validationRoot,'--log-file',(Join-Path $validationDirectory 'graphical-engine.log'),'--script','res://tests/graphical_check.gd')
-    if ($M2) { Invoke-Check 'm2-graphical' @('--path',$validationRoot,'--log-file',(Join-Path $validationDirectory 'm2-graphical-engine.log'),'--script','res://tests/m2_graphical_check.gd') }
-    if ($M3 -or $M4) { Invoke-Check 'm3-graphical' @('--path',$validationRoot,'--log-file',(Join-Path $validationDirectory 'm3-graphical-engine.log'),'--script','res://tests/m3_graphical_check.gd') }
+    if ($M4) { Invoke-Check 'm4-graphical' @('--path',$validationRoot,'--script',(Get-GraphicalHarness 'm4_graphical_check.gd')) }
+    Invoke-Check 'graphical' @('--path',$validationRoot,'--log-file',(Join-Path $validationDirectory 'graphical-engine.log'),'--script',(Get-GraphicalHarness 'graphical_check.gd'))
+    if ($M2) { Invoke-Check 'm2-graphical' @('--path',$validationRoot,'--log-file',(Join-Path $validationDirectory 'm2-graphical-engine.log'),'--script',(Get-GraphicalHarness 'm2_graphical_check.gd')) }
+    if ($M3 -or $M4) { Invoke-Check 'm3-graphical' @('--path',$validationRoot,'--log-file',(Join-Path $validationDirectory 'm3-graphical-engine.log'),'--script',(Get-GraphicalHarness 'm3_graphical_check.gd')) }
 }
 if ($Export) {
     $exportDirectory = Join-Path $validationRoot $(if ($M4) { 'builds/windows/m4' } elseif ($M3) { 'builds/windows/m3' } else { 'builds/windows/m2' })
@@ -68,7 +80,7 @@ if ($Export) {
         $capture = ($capture -split "\r?\n" | ForEach-Object { "`t" + $_ }) -join "`n"
         $harness = $harness.Replace('extends SceneTree', ("extends SceneTree`n`nclass ErrorCapture:`n" + $capture))
         $harness = $harness.Replace('preload("res://tests/error_capture.gd").new()', 'ErrorCapture.new()')
-        $screenshots = $validationRoot.Replace('\','/') + "/screenshots/$milestoneId-release-"
+        $screenshots = $validationCaptures.Replace('\','/') + "/$milestoneId-release-"
         $harness = $harness.Replace(('"res://screenshots/' + $milestoneId + '-"'), ('"' + $screenshots + '"'))
         $harnessPath = Join-Path $PSScriptRoot "${milestoneId}_release_graphical.gd"
         [IO.File]::WriteAllText($harnessPath, $harness)

@@ -1,0 +1,127 @@
+{
+  "url_kind": "file://",
+  "checks": [
+    {
+      "name": "combat-c100/1280 local pair",
+      "pass": true
+    },
+    {
+      "name": "combat-c100/1920 local pair",
+      "pass": true
+    },
+    {
+      "name": "combat-c100/1371 local pair",
+      "pass": true
+    },
+    {
+      "name": "combat-c0/1280 local pair",
+      "pass": true
+    },
+    {
+      "name": "combat-c0/1920 local pair",
+      "pass": true
+    },
+    {
+      "name": "combat-c0/1371 local pair",
+      "pass": true
+    },
+    {
+      "name": "rescue-succeeded/1280 local pair",
+      "pass": true
+    },
+    {
+      "name": "rescue-succeeded/1920 local pair",
+      "pass": true
+    },
+    {
+      "name": "rescue-succeeded/1371 local pair",
+      "pass": true
+    },
+    {
+      "name": "rescue-failed/1280 local pair",
+      "pass": true
+    },
+    {
+      "name": "rescue-failed/1920 local pair",
+      "pass": true
+    },
+    {
+      "name": "rescue-failed/1371 local pair",
+      "pass": true
+    },
+    {
+      "name": "rescue-declined/1280 local pair",
+      "pass": true
+    },
+    {
+      "name": "rescue-declined/1920 local pair",
+      "pass": true
+    },
+    {
+      "name": "rescue-declined/1371 local pair",
+      "pass": true
+    },
+    {
+      "name": "level-up/1280 local pair",
+      "pass": true
+    },
+    {
+      "name": "level-up/1920 local pair",
+      "pass": true
+    },
+    {
+      "name": "level-up/1371 local pair",
+      "pass": true
+    },
+    {
+      "name": "gray comparison",
+      "pass": true
+    },
+    {
+      "name": "normal real60 frames / neutral mask",
+      "pass": true
+    },
+    {
+      "name": "dense real60 frames / neutral mask",
+      "pass": true
+    },
+    {
+      "name": "max-corruption real60 frames / neutral mask",
+      "pass": true
+    },
+    {
+      "name": "motion real60 frames / neutral mask",
+      "pass": true
+    },
+    {
+      "name": "integer image width 1",
+      "pass": true
+    },
+    {
+      "name": "integer image width 2",
+      "pass": true
+    },
+    {
+      "name": "integer image width 3",
+      "pass": true
+    },
+    {
+      "name": "mobile page has no outer overflow; native boards scroll locally",
+      "pass": true
+    },
+    {
+      "name": "concept + REAL preview all images local",
+      "pass": true
+    },
+    {
+      "name": "no browser errors",
+      "pass": true
+    },
+    {
+      "name": "zero network requests",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "network": []
+}

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="UpgradeDefinition" load_steps=4 format=3]
+[ext_resource type="Script" path="res://scripts/data/upgrade_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/data/effect_definition.gd" id="2"]
+[sub_resource type="Resource" id="effect"]
+script = ExtResource("2")
+kind = &"frost"
+stat_category = &"frost"
+amount = 0.2
+duration_ticks = 120
+stack_policy = "refresh"
+[resource]
+script = ExtResource("1")
+id = &"frost_mark"
+label = "Frost Mark"
+description = "Hits slow susceptible enemies 20% for 2 seconds."
+max_stacks = 1
+fallback = false
+effects = Array[ExtResource("2")]([SubResource("effect")])

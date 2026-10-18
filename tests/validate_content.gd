@@ -7,6 +7,11 @@ func run() -> void:
 	var catalog = ContentCatalog.new()
 	root.add_child(catalog)
 	var valid = catalog.load_all()
+	for row in [["hero",&"aren",&"swordsman"],["enemy",&"saltbound_thrall",&""],["enemy",&"skittering_brinejaw",&""]]:
+		if catalog.actor_visuals==null or catalog.actor_visuals.resolve(row[0],row[1],row[2])==null:
+			catalog.errors.append("expected production sprite mapping missing: "+str(row[1]));valid=false
+	for path in ["res://data/themes/expedition_theme.tres","res://data/visuals/coast_shrine_tileset.tres","res://scenes/world/visuals/coast_shrine.tscn"]:
+		if load(path)==null:catalog.errors.append("missing native visual: "+path);valid=false
 	for path in preload("res://tests/script_manifest.gd").PATHS:
 		var script = load(path)
 		if script == null or not script.can_instantiate():

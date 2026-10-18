@@ -1,0 +1,45 @@
+{
+  "current_checks": 67,
+  "rows": [
+    {
+      "path": "offline-browser-checks.json",
+      "checks": 30,
+      "failures": 0,
+      "downloadFailures": []
+    },
+    {
+      "path": "wallclock-browser-checks.json",
+      "checks": 13,
+      "failures": 0,
+      "downloadFailures": []
+    },
+    {
+      "path": "dashboard-browser-checks.json",
+      "checks": 4,
+      "failures": 0,
+      "downloadFailures": []
+    },
+    {
+      "path": "review-browser-r4/review-session-browser-checks.json",
+      "checks": 20,
+      "failures": 0,
+      "downloadFailures": [
+        {
+          "format": "json",
+          "failure": "canceled"
+        },
+        {
+          "format": "csv",
+          "failure": "canceled"
+        }
+      ]
+    }
+  ],
+  "historical_attempts_retained": [
+    "review-session-browser-checks.json",
+    "review-browser-r2/review-session-browser-checks.json",
+    "review-browser-r3/review-session-browser-checks.json"
+  ],
+  "human_results": 0,
+  "note": "JSON/CSV download canceled in automated browser; raw text export fallback verified. Initial resize wait and canceled-download attempts retained."
+}

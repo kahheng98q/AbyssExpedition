@@ -1,0 +1,9 @@
+# Final corrected candidate · 2026-10-17
+
+`run_validation.ps1 -M4 -Graphical -Export -DummyAudio -EvidenceDirectory docs/validation/visual-vd01/final-r4` completed the pinned4.5 import/parse/content, all12 suites, all four source graphical checks, release export and actual release graphical check. Primary **5,275** assertions,0 failures/skips in this full run; debug69 separately. Counts:{"abilities": 123, "full_run": 9, "integration_m1": 77, "integration_m2": 45, "integration_m3": 196, "integration_m4": 3734, "persistence": 343, "progression": 13, "recruitment": 293, "replay": 44, "scene_smoke": 175, "unit": 223}.
+
+New fixtures execute in their designated suites. Scene175 includes original-master prop regions, all6 nonblank independently cropped cells,0/100 painted shrine detail and depth. Original queued-input/keyboard/pause assertions remain. Red/green4-failure prop-region proof retained. Three automated starter outcomes match previous observations. Current content digest1eb094cd5188983e9a8890e4ffa43ad87a39ffd2d657a90b5c8886f439008fe5; simulation m4-convergence-1 unchanged.
+
+Previous failed runs are retained: fixed historical PNG overwrites were solved by independent capture destinations; final-r3 import treated evidence CSV as localization and failed. docs/validation and screenshots now have .gdignore, keeping test evidence outside Godot resource import/export. No engine error was waived. The final-r4 clean run includes the corrected six-prop regions and original painted shrine eye/branches. Earlier04a8 pack/measurements remain explicitly intermediate.
+
+Native captures are controlled engine views, not physical-window photos. Headless/native input tests are not a human play session. G2/reference-machine/latency/human criteria remain open. [Actual old/new EXE120tick comparison](comparison/gameplay-r1/comparison.json) retains separate catalog hashes and replay protection.

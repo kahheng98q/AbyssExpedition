@@ -1,0 +1,16 @@
+[
+  {
+    "file": "scripts/combat/actor_presentation.gd",
+    "changed_functions": [
+      "_process"
+    ],
+    "all_other_function_bodies_identical": true
+  },
+  {
+    "file": "scripts/combat/melee_arc.gd",
+    "changed_functions": [
+      "_process"
+    ],
+    "all_other_function_bodies_identical": true
+  }
+]

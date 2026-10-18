@@ -17,6 +17,16 @@ var hit_limit: int = 1
 var hit_ids: Array[int] = []
 var bounces: int = 0
 var element: String = ""
+var using_sprite: bool = false
+var force_fallback: bool = false
+var sprite_frames: SpriteFrames = preload("res://data/visuals/star_frames_vd01.tres")
+
+func _ready() -> void:
+	_process(0)
+
+func _process(_delta: float) -> void:
+	using_sprite=not force_fallback and homing and not hostile and (profession==null or not profession.is_promotion) and sprite_frames!=null and sprite_frames.has_animation(&"active") and sprite_frames.get_frame_count(&"active")>=2
+	queue_redraw()
 
 func simulate(tick: int) -> void:
 	if tick >= expires:
@@ -79,6 +89,9 @@ func simulate(tick: int) -> void:
 	queue_redraw()
 
 func _draw() -> void:
+	if using_sprite and run!=null:
+		draw_texture(sprite_frames.get_frame_texture(&"active",(run.clock.tick/5)%2),position.round()-position-Vector2(8,8))
+		return
 	var color = Color(1, 0.4, 0.3) if hostile else (Color(0.8, 0.6, 1) if homing else Color(0.83, 1, 0.6))
 	if profession != null and profession.is_promotion:
 		color = profession.visual_set.palette

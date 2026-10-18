@@ -1,0 +1,62 @@
+{
+  "sword": {
+    "sheet": "sprites/sword.png",
+    "canvas": [
+      64,
+      96
+    ],
+    "anchor": [
+      8,
+      48
+    ],
+    "unique_cells": 2,
+    "fps": 12,
+    "regions": [
+      [
+        0,
+        0,
+        64,
+        96
+      ],
+      [
+        64,
+        0,
+        64,
+        96
+      ]
+    ],
+    "lifetime": "sword expires=tick+10; removal tick>expires; star retains original projectile lifetime",
+    "export": "assets/effects/slice/sword_arc_vd01.png",
+    "sha256": "2e7392d122a832e22fb30215fd76a0ef575c70b0ce8612a72f6b4bb6aea20263"
+  },
+  "star": {
+    "sheet": "sprites/star.png",
+    "canvas": [
+      16,
+      16
+    ],
+    "anchor": [
+      8,
+      8
+    ],
+    "unique_cells": 2,
+    "fps": 12,
+    "regions": [
+      [
+        0,
+        0,
+        16,
+        16
+      ],
+      [
+        16,
+        0,
+        16,
+        16
+      ]
+    ],
+    "lifetime": "sword expires=tick+10; removal tick>expires; star retains original projectile lifetime",
+    "export": "assets/effects/slice/homing_star_vd01.png",
+    "sha256": "ffd0c70628b4c6ae987f36378763d8c404e475990c65b9b1c54d189525f4fab6"
+  }
+}

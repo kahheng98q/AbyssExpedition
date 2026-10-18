@@ -1,0 +1,2109 @@
+[
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0000.png",
+    "sha256": "a716d18b9e0a39f46075b4febb8090f97fad4887acc273bde4d5ca3d472a87f2",
+    "tick": 12,
+    "elapsed_usec": 57696
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0001.png",
+    "sha256": "0fff1c8a1e2f154a07d2ef71c00c040cbfbf9757cd963fb1ead0d5bcd458dfac",
+    "tick": 15,
+    "elapsed_usec": 122018
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0002.png",
+    "sha256": "fba1473fd8ce98620dde9ea0224205e218399465bf9644c4f9eca4db8db44e8f",
+    "tick": 19,
+    "elapsed_usec": 172015
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0003.png",
+    "sha256": "927442393f54896157665b30fe2febc805f92d75cd29c7791b32a8841e8baec2",
+    "tick": 22,
+    "elapsed_usec": 221994
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0004.png",
+    "sha256": "1887193f37c9604c878e866f6b517e62becaf2b00f5217f28688c1b0a23d1e8d",
+    "tick": 25,
+    "elapsed_usec": 272005
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0005.png",
+    "sha256": "32b745b968ef05c1939f10fea14e4dd9d3859ea3ec3643fab30ef81f72afb64c",
+    "tick": 28,
+    "elapsed_usec": 322082
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0006.png",
+    "sha256": "50121197ac0ac93c7df30632215868c4ee08003f47ee706e225236fe79ddecfb",
+    "tick": 31,
+    "elapsed_usec": 372532
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0007.png",
+    "sha256": "2aa5466bb7d5a2a7536fd7ed9d821bba7a7128d08157efc760bf46845902e57b",
+    "tick": 34,
+    "elapsed_usec": 427394
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0008.png",
+    "sha256": "8770b7d1d268ae0f05cfed35518437da2cb92b97a1fbf737e7083e353bb84c65",
+    "tick": 38,
+    "elapsed_usec": 488683
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0009.png",
+    "sha256": "3cb79b508a41c5610bede42fa58f0177ca07e78974d6d9b2a65a70ed16ac02ab",
+    "tick": 41,
+    "elapsed_usec": 538719
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0010.png",
+    "sha256": "3d097237ee5834201aee12b5eb942dd41e45bca1498826f6c5fbcd4e977e0cbe",
+    "tick": 44,
+    "elapsed_usec": 588688
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0011.png",
+    "sha256": "3b14d7ae30f532c89e9a34aa55a0cfd7b09561cda4751c79056e27d6d4073c71",
+    "tick": 47,
+    "elapsed_usec": 638676
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0012.png",
+    "sha256": "0f8aea8ebe00c0c16f0019a1809ca8c6b83f82bc373c5d48efd7647e4f5fe166",
+    "tick": 50,
+    "elapsed_usec": 688692
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0013.png",
+    "sha256": "0458a3875045af123f6031cc139e978b34ebd480de6df843419fa5d376c6b372",
+    "tick": 53,
+    "elapsed_usec": 738674
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0014.png",
+    "sha256": "16823ca46f75015ec4f1a657f72f5e0fb21e38bfb79a482474708f51ad2a1f97",
+    "tick": 56,
+    "elapsed_usec": 788662
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0015.png",
+    "sha256": "24ae3eb85fb9a0a5695c8e7ef7fe35d5cf2bf5b9f34afea0397c5e5623073148",
+    "tick": 59,
+    "elapsed_usec": 838687
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0016.png",
+    "sha256": "ae39618aa922667f59df2829128c09518ae9674006e26635eea64f9ebea54d3c",
+    "tick": 62,
+    "elapsed_usec": 888667
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0017.png",
+    "sha256": "31d25de6bb7eb430c8b9971e3395dcc270f942939cf7f98f1aeb579416e00369",
+    "tick": 65,
+    "elapsed_usec": 938681
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0018.png",
+    "sha256": "0d2701ca54626066ffaaacfbd4147e3e5b4a6b3ad40da9fab5344c76b68c50f0",
+    "tick": 68,
+    "elapsed_usec": 988690
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0019.png",
+    "sha256": "13f8e1c061eeed8bb95cd0de96f5de324766625e3a55761de8250da2032a6e91",
+    "tick": 71,
+    "elapsed_usec": 1038774
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0020.png",
+    "sha256": "c2a2aecc67fbeb998fb254a7c21de8fe5dd323fc39c08e2f230fda211fdc2c25",
+    "tick": 74,
+    "elapsed_usec": 1088699
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0021.png",
+    "sha256": "ee487ea8b8a2920dd01c634b91cf75b3eeab0e4af0e78146746eb84897539b76",
+    "tick": 77,
+    "elapsed_usec": 1138716
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0022.png",
+    "sha256": "ee1c5c899b6447a45ad79318d90bc6a554bea608cbd78206f62786e8ad2ea76e",
+    "tick": 80,
+    "elapsed_usec": 1188712
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0023.png",
+    "sha256": "741986c8544e42ae44e71b69cc28baf47a9a44a599aecb1fa1f386bf70503e80",
+    "tick": 83,
+    "elapsed_usec": 1238680
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0024.png",
+    "sha256": "dac1825d1b4825b152acd76cb1ce66fc0e9e302a6bf2ad1240adc6e00bc0e8c2",
+    "tick": 86,
+    "elapsed_usec": 1288698
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0025.png",
+    "sha256": "b54d740dcb95b739efb6667456c6bc13c6801120ec4d360dfc6f58e87006f59a",
+    "tick": 89,
+    "elapsed_usec": 1338709
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0026.png",
+    "sha256": "4e1a186e5254d620099f53bca5db96f9a4895888e37e1ce1e550eb573751f181",
+    "tick": 92,
+    "elapsed_usec": 1388655
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0027.png",
+    "sha256": "4e3bbe2085ef0193d85bcaec2bca97df03ddb77454f46de561cd95a2c77bcf0f",
+    "tick": 95,
+    "elapsed_usec": 1438693
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0028.png",
+    "sha256": "b0b773d883394e34265d853681ec91c9e791cc1adaf64ae6ee697d7b13a29045",
+    "tick": 98,
+    "elapsed_usec": 1488734
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0029.png",
+    "sha256": "9f8c634a26893e4ebdc6dcaed2ca1bce46ea3ba1b8d532f75e7e982914e46f1a",
+    "tick": 101,
+    "elapsed_usec": 1538708
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0030.png",
+    "sha256": "81587a6642e91ded4b50234305ded1e07839e071a23d5408b3e0b3dddbcc20e6",
+    "tick": 104,
+    "elapsed_usec": 1588678
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0031.png",
+    "sha256": "262155a8fa7ceef33c63f122e30fcd26cd6595dbadc9631ea2bfb63ab4464ba7",
+    "tick": 107,
+    "elapsed_usec": 1638696
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0032.png",
+    "sha256": "110e5dac52088d4f3921f9b80bc21200564f2795d2e1352de8de1ca5bdd70800",
+    "tick": 108,
+    "elapsed_usec": 1655327
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0033.png",
+    "sha256": "daf765c7b4e87932f39aa8f045606c858b183e9cb5fd7c6697e42baa311d9034",
+    "tick": 111,
+    "elapsed_usec": 1705355
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0034.png",
+    "sha256": "25fec7a78680aea3b4dfa35e0b13661306b5e55eec1537b3bb057a74ee90e6de",
+    "tick": 114,
+    "elapsed_usec": 1755355
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0035.png",
+    "sha256": "d32ac1f9a9a855333d1908d8dcb225f49834cf246e4d952f432506209b09b253",
+    "tick": 117,
+    "elapsed_usec": 1805342
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0036.png",
+    "sha256": "85f3442e1ef9b272555e206ebc0c4711ef187187466e7dd172f035622e63d304",
+    "tick": 120,
+    "elapsed_usec": 1855384
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0037.png",
+    "sha256": "9a6c7a87c4d922fadfb50d72fc30deb59ecd9adedb2b0347497742c99a6136b0",
+    "tick": 123,
+    "elapsed_usec": 1905385
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0038.png",
+    "sha256": "0b22ee20a5d484900f65185621b3d49ea6bc086b4e31bb9a5f99668d6800d952",
+    "tick": 126,
+    "elapsed_usec": 1955353
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0039.png",
+    "sha256": "30090a66ba04d80f08eeedfdccb23a485b7982fe5b42dc940ef63230381bd6fc",
+    "tick": 129,
+    "elapsed_usec": 2005365
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0040.png",
+    "sha256": "695352b91d95da56cd9cf4f40367099213ed3afb59811698ed5b1db2c979173a",
+    "tick": 132,
+    "elapsed_usec": 2055377
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0041.png",
+    "sha256": "2fedbf0a2c9d00c42db4d881e21b49b31cb90f42454a975427d0e4538cb2894e",
+    "tick": 135,
+    "elapsed_usec": 2105402
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0042.png",
+    "sha256": "6c20418f9a208375bad73cdf8c997178e25857bf23bdbe8941b0636a3b1c325c",
+    "tick": 138,
+    "elapsed_usec": 2155395
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0043.png",
+    "sha256": "39dcba23d1360317fa79eea3c95f8bcf688f03ce3a4fc2d66263c73d78b6e792",
+    "tick": 141,
+    "elapsed_usec": 2205400
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0044.png",
+    "sha256": "7ce4628df74d7f8cff202f61ec645c89e55c247875520af0c640cd9f79f3110b",
+    "tick": 144,
+    "elapsed_usec": 2255359
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0045.png",
+    "sha256": "a33172f24fd9bbe1e9e92dfc341df6bdcf812fc73d296bb88b13cd70c867ea46",
+    "tick": 147,
+    "elapsed_usec": 2305394
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0046.png",
+    "sha256": "f01138e48ed62f40d3be324036fa267dfe1519adafa0639f134e8a8a78adde40",
+    "tick": 150,
+    "elapsed_usec": 2355354
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0047.png",
+    "sha256": "d523010255c6bac21a98bcc34dbd626ed02436c05cfd8e700e67e02ed4759c6d",
+    "tick": 153,
+    "elapsed_usec": 2405337
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0048.png",
+    "sha256": "6f5c11ca25771faf5d9c051066e2b1d892bdd84709961f40915abe35c3e31529",
+    "tick": 156,
+    "elapsed_usec": 2455376
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0049.png",
+    "sha256": "fda2ed53fd79528108f855e4536482e2b50b37810ab65975ab09159a2888a9ef",
+    "tick": 157,
+    "elapsed_usec": 2471970
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0050.png",
+    "sha256": "6974eb560ce79245eea6b6b28480f2fccccd6cbbc0a8069d76044cfafd6a176a",
+    "tick": 160,
+    "elapsed_usec": 2522028
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0051.png",
+    "sha256": "2d151d6d006625144c03f4a0dfd1f2c92dc54f6496cda8ee3897ee07b2005773",
+    "tick": 163,
+    "elapsed_usec": 2572055
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0052.png",
+    "sha256": "30393a111f7e874a31f767249cdf1f013c80997e721cc6a9487c6a04f76768c3",
+    "tick": 166,
+    "elapsed_usec": 2622093
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0053.png",
+    "sha256": "b8e4029b702cbe968d762c92e566e6feb511331caee8dab3d4a666e487d78c1a",
+    "tick": 169,
+    "elapsed_usec": 2672054
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0054.png",
+    "sha256": "37c412d130964d18d135a28e54db7e60cb837f76c819628613e44ee964a2f27d",
+    "tick": 172,
+    "elapsed_usec": 2722044
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0055.png",
+    "sha256": "7b33062be389383e4bc4d35d623d3013b1be728ade64d2b93c35c81647f36850",
+    "tick": 175,
+    "elapsed_usec": 2772039
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0056.png",
+    "sha256": "58664a4abaebfad66db589ee35b0320d12199ba65367280d95291a437d4505a7",
+    "tick": 178,
+    "elapsed_usec": 2822030
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0057.png",
+    "sha256": "a34f829ec2c95c2b6419b554fc90bce8df1fde89166d15735c955ed0bc5e6006",
+    "tick": 181,
+    "elapsed_usec": 2872045
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0058.png",
+    "sha256": "6731417c3761e7e50aa74c69ebfe3122f72c24c01048dfb81aa2fd493ef691ef",
+    "tick": 184,
+    "elapsed_usec": 2922036
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0059.png",
+    "sha256": "2a4fea3f1b71fc0c5150e7f93f7358611c03c931886ff0a243b1470a419f1a39",
+    "tick": 187,
+    "elapsed_usec": 2972028
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0060.png",
+    "sha256": "9731cff8891aceff7842bee7648e479cb79d95d381cad578e365ae6262591143",
+    "tick": 190,
+    "elapsed_usec": 3022016
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0061.png",
+    "sha256": "dcbf25c26fd6cc1db9e5376c1af41bfeee2882be0b1d3bf517f2af6c78f08076",
+    "tick": 193,
+    "elapsed_usec": 3072026
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0062.png",
+    "sha256": "73c56369ac261e223fedb994cc0c96ecbe389aefd8349684c1b1cf2859fb87dd",
+    "tick": 196,
+    "elapsed_usec": 3122037
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0063.png",
+    "sha256": "e0f9a8eec2b15659882bd66c361a5d7e18d6ca9e20eb6b48df6c40b6fd496214",
+    "tick": 199,
+    "elapsed_usec": 3172050
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0064.png",
+    "sha256": "dda2b6ad0c795334356cfd9213c2d74ef1c3f38fbe7bb7e714d0f931478aac63",
+    "tick": 202,
+    "elapsed_usec": 3222052
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0065.png",
+    "sha256": "6ca04934c0426a5ca9bc57b01aa2e606cfe38ea5282abdb4f9e634b65e21feb6",
+    "tick": 205,
+    "elapsed_usec": 3272028
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0066.png",
+    "sha256": "e93945f6cda95a94533b534dc540482d3e3d612b853c7ebe56ba8f42dab52c6a",
+    "tick": 206,
+    "elapsed_usec": 3288691
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0067.png",
+    "sha256": "0201064519fb172d743680a908a45cd99ddefa7304063e9081fbce72fdc46858",
+    "tick": 209,
+    "elapsed_usec": 3338677
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0068.png",
+    "sha256": "5dee60e85608d998536c4097052a1b9203c104b115c79a3211ff5e6bd51873e2",
+    "tick": 212,
+    "elapsed_usec": 3388720
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0069.png",
+    "sha256": "5186aec617b6f7d12a43861a0e714ae3499b208b2d0630afc39576bbc075e4da",
+    "tick": 215,
+    "elapsed_usec": 3438715
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0070.png",
+    "sha256": "839f01b51b228c7dc67e82259915411931f347d295b7e446e0b1ff71aaf7e47a",
+    "tick": 218,
+    "elapsed_usec": 3488701
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0071.png",
+    "sha256": "fa4d87d1bff09e2bffa5ad89030bee3b961d265185a4c328b155ca8c402c8b23",
+    "tick": 221,
+    "elapsed_usec": 3538702
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0072.png",
+    "sha256": "a7019c7620dbe7f9ee9a0b09b871becc89eee3776a5fb0aee4a814cd025c6831",
+    "tick": 224,
+    "elapsed_usec": 3588804
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0073.png",
+    "sha256": "b461ae0a555c91dff71cc2abedf1fe9ea517f7273785931e0c20c9f2be35bb3e",
+    "tick": 227,
+    "elapsed_usec": 3638723
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0074.png",
+    "sha256": "b9c14243e29226c6812d29b05ec6554873b89a021e51871ca6ada544be8ef329",
+    "tick": 230,
+    "elapsed_usec": 3688738
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0075.png",
+    "sha256": "80c9e9544cd47cdc98c2f9da491452f4efd1731cd63645dd1df4a8e95f281c7e",
+    "tick": 230,
+    "elapsed_usec": 3706517
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0076.png",
+    "sha256": "80c9e9544cd47cdc98c2f9da491452f4efd1731cd63645dd1df4a8e95f281c7e",
+    "tick": 230,
+    "elapsed_usec": 3772037
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0077.png",
+    "sha256": "80c9e9544cd47cdc98c2f9da491452f4efd1731cd63645dd1df4a8e95f281c7e",
+    "tick": 230,
+    "elapsed_usec": 3822043
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0078.png",
+    "sha256": "80c9e9544cd47cdc98c2f9da491452f4efd1731cd63645dd1df4a8e95f281c7e",
+    "tick": 230,
+    "elapsed_usec": 3872046
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0079.png",
+    "sha256": "80c9e9544cd47cdc98c2f9da491452f4efd1731cd63645dd1df4a8e95f281c7e",
+    "tick": 230,
+    "elapsed_usec": 3922070
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0080.png",
+    "sha256": "80c9e9544cd47cdc98c2f9da491452f4efd1731cd63645dd1df4a8e95f281c7e",
+    "tick": 230,
+    "elapsed_usec": 3972035
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0081.png",
+    "sha256": "80c9e9544cd47cdc98c2f9da491452f4efd1731cd63645dd1df4a8e95f281c7e",
+    "tick": 230,
+    "elapsed_usec": 4022040
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0082.png",
+    "sha256": "80c9e9544cd47cdc98c2f9da491452f4efd1731cd63645dd1df4a8e95f281c7e",
+    "tick": 230,
+    "elapsed_usec": 4072077
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0083.png",
+    "sha256": "80c9e9544cd47cdc98c2f9da491452f4efd1731cd63645dd1df4a8e95f281c7e",
+    "tick": 230,
+    "elapsed_usec": 4122050
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0084.png",
+    "sha256": "80c9e9544cd47cdc98c2f9da491452f4efd1731cd63645dd1df4a8e95f281c7e",
+    "tick": 230,
+    "elapsed_usec": 4172058
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0085.png",
+    "sha256": "80c9e9544cd47cdc98c2f9da491452f4efd1731cd63645dd1df4a8e95f281c7e",
+    "tick": 230,
+    "elapsed_usec": 4222058
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0086.png",
+    "sha256": "80c9e9544cd47cdc98c2f9da491452f4efd1731cd63645dd1df4a8e95f281c7e",
+    "tick": 230,
+    "elapsed_usec": 4272044
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0087.png",
+    "sha256": "80c9e9544cd47cdc98c2f9da491452f4efd1731cd63645dd1df4a8e95f281c7e",
+    "tick": 230,
+    "elapsed_usec": 4322063
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0088.png",
+    "sha256": "b9c14243e29226c6812d29b05ec6554873b89a021e51871ca6ada544be8ef329",
+    "tick": 230,
+    "elapsed_usec": 4338657
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0089.png",
+    "sha256": "130361dd148eb822d610c7552a5a683b5b0965a8173f569d6ef13d3e2e0b1bb8",
+    "tick": 233,
+    "elapsed_usec": 4388727
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0090.png",
+    "sha256": "c773ec966c0152c4fa9d72e810837bfb7aa6185680f989c93827675f37d8334f",
+    "tick": 236,
+    "elapsed_usec": 4438728
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0091.png",
+    "sha256": "a16628a8fdb8099c59b47127e810b83baf1e4f30dc0026ce102fca4912bc16ff",
+    "tick": 239,
+    "elapsed_usec": 4488739
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0092.png",
+    "sha256": "9453c9727269744df47ab51766bce27622845b1e897334068d5d0ca2f1fc0fd1",
+    "tick": 242,
+    "elapsed_usec": 4538721
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0093.png",
+    "sha256": "9e62aba394239fa5cde4a626efffab10892cceb9c5f2ffc7f74ceaf70a021443",
+    "tick": 245,
+    "elapsed_usec": 4588746
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0094.png",
+    "sha256": "54f237e8356aa178ac8b3f11ebce2ef7db851f4a1236e11ba692bd8153b824dd",
+    "tick": 248,
+    "elapsed_usec": 4638754
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0095.png",
+    "sha256": "82a272023041a352a15d34255fb48577c5981cf2163e9b9ba5424ca8cf18618c",
+    "tick": 251,
+    "elapsed_usec": 4688754
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0096.png",
+    "sha256": "42cfcbcd78ee3556c6c88dcac792f27b0a734cd43026f368e11e46e2fcb20f81",
+    "tick": 254,
+    "elapsed_usec": 4738711
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0097.png",
+    "sha256": "59758189bb49e86cc7fdcb90f7de0a8ccea609df603affb42061e0a1af4d4f21",
+    "tick": 255,
+    "elapsed_usec": 4755336
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0098.png",
+    "sha256": "2268058ce5680c3f173eabac8f9c94162c3bfa580a0334c01f6904b4fb9d8d13",
+    "tick": 258,
+    "elapsed_usec": 4805378
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0099.png",
+    "sha256": "6341f6b70ce9f2a773592644bfb479b076f95ca80ce601fbd4fb46ce4b6ec773",
+    "tick": 259,
+    "elapsed_usec": 4822007
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0100.png",
+    "sha256": "05af7ca256a36cfd5c15e2df2bb1d3cc21f7b3e802a8b9518b375fdec6c41976",
+    "tick": 262,
+    "elapsed_usec": 4872045
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0101.png",
+    "sha256": "bcf62a5f96dce7aeb463dd95370f9fd4edba266be95f0194b4a698632edeaf98",
+    "tick": 263,
+    "elapsed_usec": 4888689
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0102.png",
+    "sha256": "530cd4ca11e73b65b0bf6cb3df8621e767412bc034e2270ce566d52cdf7bafef",
+    "tick": 266,
+    "elapsed_usec": 4938725
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0103.png",
+    "sha256": "9f27ff7f2c761fcfdb8c5fe1f7da9ac4f44d589eb12c5fecf2b96f3a3aed6576",
+    "tick": 269,
+    "elapsed_usec": 4988772
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0104.png",
+    "sha256": "ee3da310d3e62d6c3de6f0d3faf0ac225fe8c634e9eded902c534017eb4eb8af",
+    "tick": 272,
+    "elapsed_usec": 5038741
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0105.png",
+    "sha256": "b12a189c64d49a808dfa48f7ec41fdf5bb7c9339065334035dfe80651e6a2ae3",
+    "tick": 275,
+    "elapsed_usec": 5088734
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0106.png",
+    "sha256": "77510df64d2e540edc9895b9393205e3e228efe0ea2fc263d71aead1cfd93c8a",
+    "tick": 278,
+    "elapsed_usec": 5138765
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0107.png",
+    "sha256": "9c45c728c46287d737bf402d98040229eed58ed4ed8dd25f731c02a21fac3a90",
+    "tick": 279,
+    "elapsed_usec": 5155345
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0108.png",
+    "sha256": "85500ad2e6a755c9cc9a57781b9f3707e982bb7b9f8c38908895113ac56e85d2",
+    "tick": 282,
+    "elapsed_usec": 5205422
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0109.png",
+    "sha256": "a277cf45d3bd910023625b1797484f35fdcf6b82de51137afddae206f858a943",
+    "tick": 285,
+    "elapsed_usec": 5256006
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0110.png",
+    "sha256": "a277cf45d3bd910023625b1797484f35fdcf6b82de51137afddae206f858a943",
+    "tick": 286,
+    "elapsed_usec": 5272049
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0111.png",
+    "sha256": "6471178ef0f86b9e7ce86ee88689ffa80d5d0fae379e4ce145ac1acb212a33ee",
+    "tick": 289,
+    "elapsed_usec": 5322130
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0112.png",
+    "sha256": "aaa18efe2e80d1d4ba8f93c7d86acec5e7ba56c1ae1678d4d7339ca5df0ab271",
+    "tick": 292,
+    "elapsed_usec": 5372077
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0113.png",
+    "sha256": "31e3251f5be1004871e9b0aefad4bcbf502943bd02e868ece258dbd4940b3b89",
+    "tick": 293,
+    "elapsed_usec": 5388785
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0114.png",
+    "sha256": "1472ce811cff40e183a71656c6e84d86eeab1d2ba8743ea2b972f4aa64329089",
+    "tick": 296,
+    "elapsed_usec": 5438762
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0115.png",
+    "sha256": "76f9f0c55e77ece97d48d0d14ee26df69c3c3e489be046e55246c2a18c703180",
+    "tick": 299,
+    "elapsed_usec": 5488758
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0116.png",
+    "sha256": "4fc1258bf5a92c911d17761c5b6fe2fd3b2bf8eedc7c1cfc51a9e6aad257f842",
+    "tick": 302,
+    "elapsed_usec": 5538836
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0117.png",
+    "sha256": "62ab58672b9ffce948f9b8795d1652af35577135c61baa197b9500b0ad5df05c",
+    "tick": 305,
+    "elapsed_usec": 5588763
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0118.png",
+    "sha256": "60d0a6ae9f52d72840e0d08ca94268d10d39fb1a89068faa8c3685a978d38d2b",
+    "tick": 306,
+    "elapsed_usec": 5605351
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0119.png",
+    "sha256": "3ed9317c019dee4e036896f999f159b30c2c9a79c792a1a3b0d996fba9a0791d",
+    "tick": 309,
+    "elapsed_usec": 5655422
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0120.png",
+    "sha256": "4cd2bddceee0e7be642b20e65d7d1703f06ab8cbe7ef990fe856ff80ee2e8fb6",
+    "tick": 310,
+    "elapsed_usec": 5672046
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0121.png",
+    "sha256": "5510c672843dc5ca1caef353391e682c81af68b7087e2148b05f5a25a7c1f1c1",
+    "tick": 313,
+    "elapsed_usec": 5722061
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0122.png",
+    "sha256": "8a45cf1cf3f32c3063873bb55fa6229c4de91722a71de34262a28df63dc96d37",
+    "tick": 316,
+    "elapsed_usec": 5772073
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0123.png",
+    "sha256": "780dce007518a33b23ba45e77912542936f57a84fa35c4622b0b8bd3504b006e",
+    "tick": 319,
+    "elapsed_usec": 5822103
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0124.png",
+    "sha256": "92510c368d544499ac7b826fa7b53df3937565b0b8a30c7d7c48056e9b427255",
+    "tick": 322,
+    "elapsed_usec": 5872093
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0125.png",
+    "sha256": "384a71242fbaadbde3073c0df72f56278b30c5ca2901aa047952b4a435219c37",
+    "tick": 323,
+    "elapsed_usec": 5888756
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0126.png",
+    "sha256": "0a71d3fd241913ff8a6b95475c9176b50761f5a75c60d9d8adef0a5ad08bfab3",
+    "tick": 326,
+    "elapsed_usec": 5938776
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0127.png",
+    "sha256": "f7416ed11129a5b31f0686808e184a0aeeec63966a004314d64961a1ee541a0d",
+    "tick": 329,
+    "elapsed_usec": 5988721
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0128.png",
+    "sha256": "79a96cbd83c61ec64d3e0ef9e463fc6d4dd5dacd724fea2150a9b2ead70f18a1",
+    "tick": 332,
+    "elapsed_usec": 6038734
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0129.png",
+    "sha256": "e70d1f95160ddebf6f2c0edab997f48a276323fd7008dc4abe68311e5180ca25",
+    "tick": 335,
+    "elapsed_usec": 6088726
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0130.png",
+    "sha256": "d27609d22c1616745688a0748d03fe28e36738c2216df39d0caa74ca2e226a69",
+    "tick": 338,
+    "elapsed_usec": 6138786
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0131.png",
+    "sha256": "aa2f2899b9885d4efbb43fe075d0c7e4fdab9acae1cde58e84a5d64aca8f7c9e",
+    "tick": 341,
+    "elapsed_usec": 6188821
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0132.png",
+    "sha256": "49b9c4774f1b72240d3945c39a6c34249f7140ac08c8b6b197d9ea8062dae588",
+    "tick": 344,
+    "elapsed_usec": 6238734
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0133.png",
+    "sha256": "e0f0b06d92f9cca41de668a10e410aafe52d42b8d12b604d241ba69a622e415d",
+    "tick": 347,
+    "elapsed_usec": 6288744
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0134.png",
+    "sha256": "e51d95e28122bfb2a07e2216516c07abcc954321afc5c35b8e54698067365b4d",
+    "tick": 350,
+    "elapsed_usec": 6338740
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0135.png",
+    "sha256": "a441922ce02f2629785f98d51519edd26f673f6643c0f315027679200bc72242",
+    "tick": 353,
+    "elapsed_usec": 6388790
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0136.png",
+    "sha256": "e6d7491ded37cf9991a1d68bdc034a46a232bb076eea4d908a84700c30e5b3aa",
+    "tick": 356,
+    "elapsed_usec": 6438800
+  },
+  {
+    "build": "release",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-release/frame-0137.png",
+    "sha256": "61e0dce9ac7e8f149a24bf4be3213397346c8e800569040d2cca4fa13dea8bc7",
+    "tick": 359,
+    "elapsed_usec": 6488789
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0000.png",
+    "sha256": "be391e9095f2dd7dcc30bb901ccd36f91c7d572288b96ada408cb3f0f0fa1678",
+    "tick": 15,
+    "elapsed_usec": 59037
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0001.png",
+    "sha256": "13be112ca2a8a6925bc2ce2550829dc2a49e037afa18afa5aba8d284d34eedb8",
+    "tick": 17,
+    "elapsed_usec": 109116
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0002.png",
+    "sha256": "a1a4dd4c632ac731a573c8d1382bf434b3261fcfcf6f82525c094e005d21d761",
+    "tick": 21,
+    "elapsed_usec": 159090
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0003.png",
+    "sha256": "0656c9628d70068a272a942d35e5c8e1b5c4367a2cbfb30ee6574ddc1c8768d3",
+    "tick": 24,
+    "elapsed_usec": 209477
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0004.png",
+    "sha256": "b2c2adc5e5b4ebebdb94c5f03a73f3a1262c12ab5c59356528388043e0b5fb81",
+    "tick": 27,
+    "elapsed_usec": 259099
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0005.png",
+    "sha256": "70ea01d7117cbe500365e5c64b6bdff00a943730896029d055650d368876b67f",
+    "tick": 30,
+    "elapsed_usec": 309103
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0006.png",
+    "sha256": "ed734a7e45624df5df3b62e8752504412b38e4145435009379acc8fd12746499",
+    "tick": 33,
+    "elapsed_usec": 359112
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0007.png",
+    "sha256": "28f708dccd959646d72cedc198386220f5ca29f63cc206eb4d40b546adc22e8e",
+    "tick": 36,
+    "elapsed_usec": 414437
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0008.png",
+    "sha256": "dd410c5bc79465e8321fc6b5835fb12b96fc2c26e3fc227f70221e8c863428ee",
+    "tick": 40,
+    "elapsed_usec": 476119
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0009.png",
+    "sha256": "98f579f77b9d67b2aea0c8d7cc8adea8e0ced2eafd3ec88a546ea0fba83d1a68",
+    "tick": 43,
+    "elapsed_usec": 525773
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0010.png",
+    "sha256": "440af270c2617c84474364a1ddbea0fa61ae71fb3e43279f158c49226ca0b430",
+    "tick": 46,
+    "elapsed_usec": 575741
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0011.png",
+    "sha256": "9b5935bfc2018ec04bdb7883a38777e4a4b94b76eea6661a56fe1585c7af3e36",
+    "tick": 49,
+    "elapsed_usec": 625766
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0012.png",
+    "sha256": "114859b91f9bb20dec0d868267dd1a7dafc61a53b516a35bc0d6adf41251468e",
+    "tick": 52,
+    "elapsed_usec": 675782
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0013.png",
+    "sha256": "a92acc29bd5b1555cb3a3ee1d9d5e0d1e6a42b82b4fb14c6ab61b67d52dbd504",
+    "tick": 55,
+    "elapsed_usec": 725816
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0014.png",
+    "sha256": "a973fd9f61e539098ef1a2c3e8d48fe1f2824433eb6531f5ed654ee1d48d436e",
+    "tick": 58,
+    "elapsed_usec": 775765
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0015.png",
+    "sha256": "577b3be811ab394d88c1f979c0ca967935884f372131b8ef7a49c3dd055c36bb",
+    "tick": 61,
+    "elapsed_usec": 825767
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0016.png",
+    "sha256": "9fc363a289a5685eca6110fda3192f4898c429aba217c75c7e9e5202410b0c74",
+    "tick": 62,
+    "elapsed_usec": 842366
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0017.png",
+    "sha256": "e3bd25f10f97de07b991071c7aee6529195a48c2cd2199e5898335c9facea3ed",
+    "tick": 65,
+    "elapsed_usec": 892465
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0018.png",
+    "sha256": "8c3a41a36dca233ed9936160a21d106fb74de7faf9798452ddc0e93a0206143c",
+    "tick": 68,
+    "elapsed_usec": 942473
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0019.png",
+    "sha256": "230f7024874943de07a4dfec5a37a90acd4953417453914495b519ce9489f079",
+    "tick": 71,
+    "elapsed_usec": 992456
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0020.png",
+    "sha256": "2cd64d92880803dd72cf7d0874fe9b2004c82cb00d6946a71205aea8b182152b",
+    "tick": 74,
+    "elapsed_usec": 1042444
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0021.png",
+    "sha256": "5f6849ca8fccdf85837328f6a57953ed857b4b0aa8d849c218192672f81a1d70",
+    "tick": 77,
+    "elapsed_usec": 1092488
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0022.png",
+    "sha256": "3515d613ce93f381297b2ebe58bbdc353dec3870528be48e2fc7df09c5281ba2",
+    "tick": 80,
+    "elapsed_usec": 1142429
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0023.png",
+    "sha256": "0f488b1843ed3818dd678d045c5d5ec9648efa73670b8e5d43f43036f373d07a",
+    "tick": 83,
+    "elapsed_usec": 1192496
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0024.png",
+    "sha256": "89243b2c1de6e2c7cc02626ccb44041503d7e07e536e03a9679217045db71bf6",
+    "tick": 86,
+    "elapsed_usec": 1242418
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0025.png",
+    "sha256": "f9bf85893353c3f0a1b1ac33fbff91a3a72a8374ecd23a4762564806ef066b17",
+    "tick": 89,
+    "elapsed_usec": 1292435
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0026.png",
+    "sha256": "e57c0f4d42f055fe9e2703bc96f0d34e4dc21a74ef68b321b560412fa7033ce6",
+    "tick": 92,
+    "elapsed_usec": 1342441
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0027.png",
+    "sha256": "078e7423001d56d1775f5569ba21b15a182b8c005b9ad919757604ca3e8fde25",
+    "tick": 95,
+    "elapsed_usec": 1392466
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0028.png",
+    "sha256": "dbef2e1f4ce5658df1e07295362bc54e4836b16ffaeebe3ab164b78b46ffb01b",
+    "tick": 98,
+    "elapsed_usec": 1442478
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0029.png",
+    "sha256": "242bbaddea5496a3b25e96b226b68c9808cce115432c99b69712a6b740ec64a2",
+    "tick": 101,
+    "elapsed_usec": 1492462
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0030.png",
+    "sha256": "89a94172ebe66a1b369ef70f3e4e9d08a4e80027c323bc1b97463b2f9fe5eb8f",
+    "tick": 104,
+    "elapsed_usec": 1542427
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0031.png",
+    "sha256": "1b1e6ad792b70f3e5c4eb104676d033ba800e4ea290611773bad44f38ae18da4",
+    "tick": 107,
+    "elapsed_usec": 1592420
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0032.png",
+    "sha256": "c0f00adb9c349e4a7a1ae05ec247060709f6120c02b1315b2bc9c3f2bcf0dcc3",
+    "tick": 110,
+    "elapsed_usec": 1642438
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0033.png",
+    "sha256": "7e357a244d7b4d1f6109fdbdd00f79474cf2d2e83cf0a6c5bb5fb58bb12fb1f3",
+    "tick": 111,
+    "elapsed_usec": 1659097
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0034.png",
+    "sha256": "c8749b8677817403582a3b514441b4c8e1a480899a6dd76e329ebc0612ea8b78",
+    "tick": 114,
+    "elapsed_usec": 1709110
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0035.png",
+    "sha256": "534a9f50015b403495111eef7ef510379c4c3189e8eb2933274844b0984b4778",
+    "tick": 117,
+    "elapsed_usec": 1759098
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0036.png",
+    "sha256": "16a2c94adf528126148595aafb66ebae579f47e3a2b92aec7e0d20bdb7b8ffec",
+    "tick": 120,
+    "elapsed_usec": 1809077
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0037.png",
+    "sha256": "287c95f71a6b22f21e0c91bfc27f38dac7e1fca7530acaf34adf4303e5adb621",
+    "tick": 123,
+    "elapsed_usec": 1859102
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0038.png",
+    "sha256": "0a512da030be043f94a13a88238b7998a9b0a535993b72895fc40457d7520280",
+    "tick": 126,
+    "elapsed_usec": 1909106
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0039.png",
+    "sha256": "7022de8db3aac8f6f7e6a1282eec4ef71868587d866b0ff0342a58e02494c6c7",
+    "tick": 129,
+    "elapsed_usec": 1959107
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0040.png",
+    "sha256": "87c86d4d79edac12aa6fa6ac77383e3a13e51ea1a83a3343b6b833aedb907e2f",
+    "tick": 132,
+    "elapsed_usec": 2009109
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0041.png",
+    "sha256": "7c1f225135b2e13828a1e8b438f37401be32811318e9e95427257e96b7deba02",
+    "tick": 135,
+    "elapsed_usec": 2059145
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0042.png",
+    "sha256": "be4090227b923274dd3edde886673338ee51827a9b9c2edfbcc82287cbf807d5",
+    "tick": 138,
+    "elapsed_usec": 2109169
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0043.png",
+    "sha256": "1c7b4ef46a02c2e14a33d34e271c0ef3754bb9d79ae03f3527d81dd9ab6a48c3",
+    "tick": 141,
+    "elapsed_usec": 2159156
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0044.png",
+    "sha256": "ba9a06592cfcc902cd953d4aeb5016ccee94cf4dd9379fa62023844e69d5cd63",
+    "tick": 144,
+    "elapsed_usec": 2209131
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0045.png",
+    "sha256": "8b003a072b63b3941eaebb29185cfb2a291b730b0f448885ff4b0b6bdfe88f30",
+    "tick": 147,
+    "elapsed_usec": 2259202
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0046.png",
+    "sha256": "f99a5f62f662c62920d2fc60bb9e5a2333be57c5800502a61e2b31945516c491",
+    "tick": 150,
+    "elapsed_usec": 2309178
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0047.png",
+    "sha256": "6e9a25ec4b9bb09b8fa058e6336b3e5bf18adc553dc86c280f57dc94c4d25516",
+    "tick": 153,
+    "elapsed_usec": 2359121
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0048.png",
+    "sha256": "f51043a3402e109c4ef8a799ead7e79e3a9b4fde896393a6a21ff37634d6fe8b",
+    "tick": 156,
+    "elapsed_usec": 2409128
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0049.png",
+    "sha256": "3e6b567d691198368dff39e541aa0916b488f74ac0721c79a86f3a27f6d4a38f",
+    "tick": 159,
+    "elapsed_usec": 2459116
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0050.png",
+    "sha256": "79ceebc6795eed3fe2a34d651b8ecafa3e48b7a4f3a344865ca0c2409532510d",
+    "tick": 160,
+    "elapsed_usec": 2475744
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0051.png",
+    "sha256": "185d9e2efa3c02a861b159c983ba985317db393c21668c14f6c74e6a7ed659a9",
+    "tick": 163,
+    "elapsed_usec": 2525779
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0052.png",
+    "sha256": "696e13e449e4bb48c30c67c181b68dbcb10070b47ca15648e6202271dd702c43",
+    "tick": 166,
+    "elapsed_usec": 2575800
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0053.png",
+    "sha256": "65704d43060e9863c1699508b2b288c940d1708ff5d58a54fb4f8958739e78b6",
+    "tick": 169,
+    "elapsed_usec": 2625805
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0054.png",
+    "sha256": "1835566dcc1c43e4be2a0e9088998d5b15ed5fcbea7e99a1e1fd0d5f89dbda28",
+    "tick": 172,
+    "elapsed_usec": 2675807
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0055.png",
+    "sha256": "ead3a62ec3b5cd20e6b6e5e16ff335c99f463e2772eadfd490bf1319ef3ac723",
+    "tick": 175,
+    "elapsed_usec": 2725790
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0056.png",
+    "sha256": "9d9db6d5316f25a4ca1802de4ac97c487d0323864e1e9b44a48a8faf4a7aa150",
+    "tick": 178,
+    "elapsed_usec": 2775796
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0057.png",
+    "sha256": "850b714bc1884e673d95da4f38315402f3d0d16cb62da633a9d8152d04ca0763",
+    "tick": 181,
+    "elapsed_usec": 2825798
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0058.png",
+    "sha256": "9f2c97cbb4b40d35109361daeb1055f80431471e56b177c69c531344a783804d",
+    "tick": 184,
+    "elapsed_usec": 2875856
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0059.png",
+    "sha256": "93cd4c0c80e6a3ad7a5b5defdc45d8d8268d9df862a07b64b89d7ed2ebbbe2cc",
+    "tick": 187,
+    "elapsed_usec": 2925774
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0060.png",
+    "sha256": "53ced206c87d42fe2339bd5aa1e073164ddbc0c218281512180bb7fa4dc49e5d",
+    "tick": 190,
+    "elapsed_usec": 2975781
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0061.png",
+    "sha256": "3b6d1979795fd6035abf4f6729114f55facc3bad45588c59955dccdbba731286",
+    "tick": 193,
+    "elapsed_usec": 3025788
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0062.png",
+    "sha256": "44f8476cdf15d5d7728e0c66ce2533a9031e3695cafe32c4116fbcdccdc2ecf7",
+    "tick": 196,
+    "elapsed_usec": 3075786
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0063.png",
+    "sha256": "94138072ca7673aaa5981dd30cdb8ae844f16f200b9d0873c7dc98225b416e4c",
+    "tick": 199,
+    "elapsed_usec": 3125832
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0064.png",
+    "sha256": "e896c4365f3093d569369868f0dc0c385860bd5fe755cb420b624f541af8c2ae",
+    "tick": 202,
+    "elapsed_usec": 3175813
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0065.png",
+    "sha256": "441239a84bf6c624a7231b7f19fc69874ba880c700b600fd525e37be8913e586",
+    "tick": 205,
+    "elapsed_usec": 3225784
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0066.png",
+    "sha256": "d13df983b5a86682ad8105b382a2315dcef6054f644d7cda2c0dfb3e19a22074",
+    "tick": 208,
+    "elapsed_usec": 3275809
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0067.png",
+    "sha256": "63cf522ae522dddef5e56eb7a777f09dbbb5efd8fd4491e73a739109d9f0ef3a",
+    "tick": 209,
+    "elapsed_usec": 3292414
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0068.png",
+    "sha256": "d3831b67d5347ba1e8e41cadfc6daecad75446cb463ffdfcb9737058a42a232c",
+    "tick": 212,
+    "elapsed_usec": 3342459
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0069.png",
+    "sha256": "a53812459db843268fd2bab164d8368c5f6f5e0686189c0e83ad5d15f17afa91",
+    "tick": 215,
+    "elapsed_usec": 3392478
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0070.png",
+    "sha256": "273b970f222158779e01132394fe544ba45a158d40ae39d5c553cd215798c15f",
+    "tick": 218,
+    "elapsed_usec": 3442457
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0071.png",
+    "sha256": "30ea7fa665eddf5a50836f8c38c818da11311828fe4a56df9a0ffa01c69b8ce0",
+    "tick": 221,
+    "elapsed_usec": 3492491
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0072.png",
+    "sha256": "70f210320633feb57a9c6ba9027051fbc1e720bc2f2dea0e4a9b7c62a562fb1d",
+    "tick": 224,
+    "elapsed_usec": 3542466
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0073.png",
+    "sha256": "daa59ba6c476fcec7808a0cde79d5e59823daead79c9126c992e0d095f2af6a7",
+    "tick": 227,
+    "elapsed_usec": 3592475
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0074.png",
+    "sha256": "73b6e907cc1255e258412650ed6eb44dc30ff2a0b69765570e3017cc969973bb",
+    "tick": 230,
+    "elapsed_usec": 3642577
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0075.png",
+    "sha256": "0c45a38a0cdd1bc92890c453143434c014e5da4fbb86f93eb2a943ebe9835ece",
+    "tick": 233,
+    "elapsed_usec": 3692475
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0076.png",
+    "sha256": "528a74ab10c2fc50d9bd265b6fc362d88293cf41912214448d7833917f436a0d",
+    "tick": 233,
+    "elapsed_usec": 3709103
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0077.png",
+    "sha256": "528a74ab10c2fc50d9bd265b6fc362d88293cf41912214448d7833917f436a0d",
+    "tick": 233,
+    "elapsed_usec": 3759128
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0078.png",
+    "sha256": "528a74ab10c2fc50d9bd265b6fc362d88293cf41912214448d7833917f436a0d",
+    "tick": 233,
+    "elapsed_usec": 3809155
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0079.png",
+    "sha256": "528a74ab10c2fc50d9bd265b6fc362d88293cf41912214448d7833917f436a0d",
+    "tick": 233,
+    "elapsed_usec": 3859166
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0080.png",
+    "sha256": "528a74ab10c2fc50d9bd265b6fc362d88293cf41912214448d7833917f436a0d",
+    "tick": 233,
+    "elapsed_usec": 3909188
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0081.png",
+    "sha256": "528a74ab10c2fc50d9bd265b6fc362d88293cf41912214448d7833917f436a0d",
+    "tick": 233,
+    "elapsed_usec": 3959164
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0082.png",
+    "sha256": "528a74ab10c2fc50d9bd265b6fc362d88293cf41912214448d7833917f436a0d",
+    "tick": 233,
+    "elapsed_usec": 4009150
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0083.png",
+    "sha256": "528a74ab10c2fc50d9bd265b6fc362d88293cf41912214448d7833917f436a0d",
+    "tick": 233,
+    "elapsed_usec": 4059128
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0084.png",
+    "sha256": "528a74ab10c2fc50d9bd265b6fc362d88293cf41912214448d7833917f436a0d",
+    "tick": 233,
+    "elapsed_usec": 4109144
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0085.png",
+    "sha256": "528a74ab10c2fc50d9bd265b6fc362d88293cf41912214448d7833917f436a0d",
+    "tick": 233,
+    "elapsed_usec": 4159137
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0086.png",
+    "sha256": "528a74ab10c2fc50d9bd265b6fc362d88293cf41912214448d7833917f436a0d",
+    "tick": 233,
+    "elapsed_usec": 4209240
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0087.png",
+    "sha256": "528a74ab10c2fc50d9bd265b6fc362d88293cf41912214448d7833917f436a0d",
+    "tick": 233,
+    "elapsed_usec": 4259195
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0088.png",
+    "sha256": "528a74ab10c2fc50d9bd265b6fc362d88293cf41912214448d7833917f436a0d",
+    "tick": 233,
+    "elapsed_usec": 4309213
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0089.png",
+    "sha256": "0c45a38a0cdd1bc92890c453143434c014e5da4fbb86f93eb2a943ebe9835ece",
+    "tick": 233,
+    "elapsed_usec": 4325772
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0090.png",
+    "sha256": "fe0c58ad2711fe643ff38903004527e3b78d6ab29a1fa95b9b340602f1753e7b",
+    "tick": 236,
+    "elapsed_usec": 4375779
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0091.png",
+    "sha256": "ff9b3f28c0d14aee5531d39e956cee085b6dc910ba24cb995b113696e60a3d09",
+    "tick": 239,
+    "elapsed_usec": 4425803
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0092.png",
+    "sha256": "9affed6bb03968150e47ffda5137b141505259044c9e97ac2e5968ba74245475",
+    "tick": 242,
+    "elapsed_usec": 4475828
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0093.png",
+    "sha256": "d08b03570967ccd99b05a493d67c0223d79362f575cb79424d9935925b649e65",
+    "tick": 245,
+    "elapsed_usec": 4525857
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0094.png",
+    "sha256": "e465e1430af20d0e590ae834679c9e32803b300705444d9ce71bed104078a78e",
+    "tick": 248,
+    "elapsed_usec": 4575838
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0095.png",
+    "sha256": "9cdbf49537106837aa46a7f9c9db5d3fd20a77cebb6bf6cac2fe0f31571e3504",
+    "tick": 251,
+    "elapsed_usec": 4625821
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0096.png",
+    "sha256": "51bf7c14eba5b2221b713205da06df0ff89236acd0ba8d194ad43fcd52ce9396",
+    "tick": 254,
+    "elapsed_usec": 4675808
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0097.png",
+    "sha256": "bedd2355b34ff88450b9192b8fb5702eb020d3c8b1a963cb8f2ba6cdc5df170e",
+    "tick": 257,
+    "elapsed_usec": 4725830
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0098.png",
+    "sha256": "9827051d0d482282af3f839ebf2761c35e0e635082d2b259be05b6823d616ac0",
+    "tick": 259,
+    "elapsed_usec": 4742456
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0099.png",
+    "sha256": "81d43c387847c61f2000bb7553e35a7c533c9ef0ab163b5479370422b1ce69b0",
+    "tick": 264,
+    "elapsed_usec": 4792499
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0100.png",
+    "sha256": "ae924967fc2ce4580a189a20fe6e2ecb82f5d54ef453549562bc38d259decfc2",
+    "tick": 271,
+    "elapsed_usec": 4842527
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0101.png",
+    "sha256": "54dad5fa17f0338e500dde6608aeffbedc2e9d48439219961a7a05955acd88fe",
+    "tick": 276,
+    "elapsed_usec": 4892478
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0102.png",
+    "sha256": "137f1f7f492ea70e894c549ce513554928d140c8a65f5a24894dbf91f9fed97f",
+    "tick": 283,
+    "elapsed_usec": 4942561
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0103.png",
+    "sha256": "431b0f642d9d2f5009ad03d9a32379758d0529aa4b64cdf04b4bbbc3e39ce82b",
+    "tick": 288,
+    "elapsed_usec": 4992503
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0104.png",
+    "sha256": "c2fb7ed0fa2b2dcd568175202ce1a8d56fb73f69ec265c9937384c0814e8c03c",
+    "tick": 295,
+    "elapsed_usec": 5042577
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0105.png",
+    "sha256": "69fbfa672ad3edf081eeec372cf446285fca9ab2fa2fac5b168a4f5e5305db46",
+    "tick": 300,
+    "elapsed_usec": 5092481
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0106.png",
+    "sha256": "d9e51608163367910da6478a0d9146c00980b3f1a0fed23794cb510fd743419d",
+    "tick": 307,
+    "elapsed_usec": 5142513
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0107.png",
+    "sha256": "bdd2399be165b29ac6e9bf0dc1d68ff91b547c7c952d531d8ecc76af6cf6ff51",
+    "tick": 312,
+    "elapsed_usec": 5192514
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0108.png",
+    "sha256": "15e1b5792e59f98bad16fcfe879a51c57db4b996d7e35eb909bd96bf7560f26e",
+    "tick": 319,
+    "elapsed_usec": 5242565
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0109.png",
+    "sha256": "28f7cbbc19836a4664380c2dd7a691579abe664ac61168fe857a7fc7520efd57",
+    "tick": 325,
+    "elapsed_usec": 5292560
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0110.png",
+    "sha256": "3a93be1f03aa0021fa5104b9efe0126f95399fb07aa0ab171cdf4554c7862d3b",
+    "tick": 330,
+    "elapsed_usec": 5342516
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0111.png",
+    "sha256": "2ebe0526bb588e67fa32aa692fb9a1b127e12c852671936546b9311e7f49516e",
+    "tick": 337,
+    "elapsed_usec": 5392769
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0112.png",
+    "sha256": "beec88afd237d0604e74b4297b72f62f7262819f1d2454a31cba30782c270b3f",
+    "tick": 342,
+    "elapsed_usec": 5442538
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0113.png",
+    "sha256": "6cac326d76e69a32acf02a66840ddc034588dd53563c8dd999ceb31509bc4003",
+    "tick": 344,
+    "elapsed_usec": 5459145
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0114.png",
+    "sha256": "8b51637b2835ddbcc1b33d913af6abe1cf34ab3b45fc2f99feeb0a2c39af1c5d",
+    "tick": 346,
+    "elapsed_usec": 5509175
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0115.png",
+    "sha256": "c3d159a7d66db23b0f2c02648ad32644eec7637677e17e31a9501bbc777f9909",
+    "tick": 349,
+    "elapsed_usec": 5559174
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0116.png",
+    "sha256": "bc4b839a69c22d6213bcdcb4e14eafcf27f9592f81938191a2a72d366c469260",
+    "tick": 352,
+    "elapsed_usec": 5609186
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0117.png",
+    "sha256": "064b1a8e654a434121a97bc89c33ed3420ffdab7ce763af7a2a0d5e3e6485e5b",
+    "tick": 355,
+    "elapsed_usec": 5659220
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0118.png",
+    "sha256": "bfb91112bb038e5b021c11b191b19de374baffcd9a45b2c5bcd05f2822bb1e2c",
+    "tick": 358,
+    "elapsed_usec": 5709164
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0119.png",
+    "sha256": "c0d0bf8fa6f925cf117d743e355b273aa58590c0c5229e4b5bee3ebcbfbbd6bf",
+    "tick": 361,
+    "elapsed_usec": 5759256
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0120.png",
+    "sha256": "b048be2944114b362f28a2e96facd76402b5c1d790100ae5db31836f30dd9892",
+    "tick": 364,
+    "elapsed_usec": 5809178
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0121.png",
+    "sha256": "850c7df44a6b9a54e3e902d0bbd21c289975c0d7d277bce0e7ba2507427e6329",
+    "tick": 367,
+    "elapsed_usec": 5859461
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0122.png",
+    "sha256": "0ff41ce9e00b8a687ca65d3b6c6638fcddfa9148b631a50a7f6791f3537cc82a",
+    "tick": 368,
+    "elapsed_usec": 5875850
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0123.png",
+    "sha256": "e0d76044dcfe4939644ea7f7bdad0b32becf28907f8a3fcfd9ac235f617dff61",
+    "tick": 371,
+    "elapsed_usec": 5925899
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0124.png",
+    "sha256": "849f4c4f7c72ecd4f9747d9385dcbfc81172632ac653b8b738a4b702ba2bb37a",
+    "tick": 372,
+    "elapsed_usec": 5942477
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0125.png",
+    "sha256": "7c1e281d4f2f2235e848cedb4ea8972e91597544261993cc12936faa867e82af",
+    "tick": 375,
+    "elapsed_usec": 5992486
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0126.png",
+    "sha256": "7c1e281d4f2f2235e848cedb4ea8972e91597544261993cc12936faa867e82af",
+    "tick": 376,
+    "elapsed_usec": 6009118
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0127.png",
+    "sha256": "386ca4f7a54da0a021f04d340d6a0e85baa6253ae6f553ce04597ce3ade10fed",
+    "tick": 379,
+    "elapsed_usec": 6059214
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0128.png",
+    "sha256": "b49cc4deece9bb0667ca544f0543abf26e54281838876095b44c8103b6986496",
+    "tick": 382,
+    "elapsed_usec": 6109326
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0129.png",
+    "sha256": "dc2b7097b91f2d1e01db78393af7737a55911669fed323d9356a78f7c32bb902",
+    "tick": 385,
+    "elapsed_usec": 6159291
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0130.png",
+    "sha256": "8b0e832b8077ab923ddc18feab36135382be2a46ade30aa3bc604cccf99b5d2c",
+    "tick": 388,
+    "elapsed_usec": 6209204
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0131.png",
+    "sha256": "2865a8611c9bf1571fd143e4fc3c58f40eadcc83d75a2acc2d44b1689922e263",
+    "tick": 391,
+    "elapsed_usec": 6259187
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0132.png",
+    "sha256": "238035e22e14072b4c4d4f7d3ed2186ab86c6c2f94ff8c8baf22438c3b3af8d5",
+    "tick": 392,
+    "elapsed_usec": 6275817
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0133.png",
+    "sha256": "cf34c27169a2f0141c4651b08ed1e619e4e1134abf54643484cf8f1c32f66030",
+    "tick": 395,
+    "elapsed_usec": 6325848
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0134.png",
+    "sha256": "ff9c3f2dd3854227f44703eb9a98b5259f9664510ba9cb3c093b19e26ecd5e11",
+    "tick": 398,
+    "elapsed_usec": 6375820
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0135.png",
+    "sha256": "09ba90c7cb8178e85dfeced4649274d72c34554b008697a6a6097f34e0c241e8",
+    "tick": 399,
+    "elapsed_usec": 6392479
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0136.png",
+    "sha256": "175a472d2467fbff24b50246ce5e3abfdcf2947f429861450935cf2dc835fa15",
+    "tick": 402,
+    "elapsed_usec": 6442529
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0137.png",
+    "sha256": "868f8dc0af1b56b097d51814ae57fa4f7dde4ab00b53177d1b34b539f4755cf6",
+    "tick": 406,
+    "elapsed_usec": 6492505
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0138.png",
+    "sha256": "748511a662d2268a6faf3a7f0c2c21efacee0f18d5c0f12ebe61eb3cad3a1055",
+    "tick": 407,
+    "elapsed_usec": 6509160
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0139.png",
+    "sha256": "3c49725ee1f530138946b57c56787de3fc979ee2007c9c20811dee8da9500c20",
+    "tick": 410,
+    "elapsed_usec": 6559213
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0140.png",
+    "sha256": "0584f2483db74544acc8d8ee6ef5376dad5745cc9ed4b76fab69de7a9c01a27f",
+    "tick": 413,
+    "elapsed_usec": 6609233
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0141.png",
+    "sha256": "3788ab4a350177a484f16e93f1678c12d7b2154ffc234946e83b8e1ef887ce25",
+    "tick": 416,
+    "elapsed_usec": 6659160
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0142.png",
+    "sha256": "4177a2dd76da0b7afc5da0eb99b02330c299831e28c5a167cb6d1a875ef94561",
+    "tick": 419,
+    "elapsed_usec": 6709265
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0143.png",
+    "sha256": "419dda13147b9bdf3ffdde80916a7c66cbe53b65c211dddf951199cfe09ae120",
+    "tick": 420,
+    "elapsed_usec": 6725812
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0144.png",
+    "sha256": "0755f1541a93eb2dd383adc824274f125e25906459dcf39d96104db0534ef232",
+    "tick": 423,
+    "elapsed_usec": 6775859
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0145.png",
+    "sha256": "7d1b24ae6b8f928cfd89d688584ac8a131ffb9c87b9c0fd54332f36066596a19",
+    "tick": 424,
+    "elapsed_usec": 6792519
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0146.png",
+    "sha256": "34e07d6040926cced587200973e2b1dbd863836265469a2a045af4b86ebbf3b7",
+    "tick": 427,
+    "elapsed_usec": 6842491
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0147.png",
+    "sha256": "5aa9e6d2165004ae498bd7954f1957f72e6ad0316287b654bc7b9869531550cb",
+    "tick": 430,
+    "elapsed_usec": 6892540
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0148.png",
+    "sha256": "0160812c9b91f34cec11dcda8b5d2905df57fdf92b6229867721b193802fd0f1",
+    "tick": 433,
+    "elapsed_usec": 6942534
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0149.png",
+    "sha256": "1561ef9f6759eda155ac03a18e59eb244745be75af787f13bf543b5aa8c4e54d",
+    "tick": 437,
+    "elapsed_usec": 6992539
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0150.png",
+    "sha256": "095a2d8612cd2909d20f3fcd7bee18b8c1a1dd024b49251250f1cc9a4b068248",
+    "tick": 438,
+    "elapsed_usec": 7009145
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0151.png",
+    "sha256": "4db26ae54c3c3333e74f323741103135df606c1e840a7b365034889123974d51",
+    "tick": 441,
+    "elapsed_usec": 7059206
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0152.png",
+    "sha256": "24818513cdeb1f4895d43a43cb14527616567b8068f2e17c648a45823d273971",
+    "tick": 444,
+    "elapsed_usec": 7109307
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0153.png",
+    "sha256": "e3183d0c8b5e530cf130640fe9eba43b997c114f18ab18bc43acdd4b1d1f0115",
+    "tick": 447,
+    "elapsed_usec": 7159216
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0154.png",
+    "sha256": "76b6b51e682ae4bc908206be7d42f16e759c428a2fae76d9e1ba2ce35d04f73c",
+    "tick": 450,
+    "elapsed_usec": 7209277
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0155.png",
+    "sha256": "95a6b2e29e8ec6ac0a6ef2df9ab9d67cdaf182e46e53ba34984b9e5994985a79",
+    "tick": 453,
+    "elapsed_usec": 7259253
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0156.png",
+    "sha256": "a8d317534ea015d2af4f5808f1ff91ea084af83238d10a0395f53cd8416618ef",
+    "tick": 456,
+    "elapsed_usec": 7309197
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0157.png",
+    "sha256": "c5b4aa7798c28a2416a3a9b13c3db956fe0c3102e355a54c54cf3141290c2547",
+    "tick": 459,
+    "elapsed_usec": 7359202
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0158.png",
+    "sha256": "7809739c87b6d8b98043f5e70980fdea0f4c8a2db33985ff59782fb76f16d966",
+    "tick": 462,
+    "elapsed_usec": 7409181
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0159.png",
+    "sha256": "db0a0bed5b3c3988e31d52740c922e1b58767ec8bcecf84c5dbadf8b37e13c92",
+    "tick": 465,
+    "elapsed_usec": 7459225
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0160.png",
+    "sha256": "5e896aa9218d21001db82c655f27f671f80ec8779d4a1d09fccbf7e040b5cdd0",
+    "tick": 468,
+    "elapsed_usec": 7509209
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0161.png",
+    "sha256": "3fd90d4cddf718da3cad56079cf0014d282c04846548f9971800c22a7887d607",
+    "tick": 471,
+    "elapsed_usec": 7559242
+  },
+  {
+    "build": "source",
+    "path": "screenshots/visual-vd01/completion-r2/wallclock-source/frame-0162.png",
+    "sha256": "6c0b7c7a0f286fe423b985ad7cb15940c4b685f208403297d9cf6d69fe087944",
+    "tick": 474,
+    "elapsed_usec": 7609235
+  }
+]

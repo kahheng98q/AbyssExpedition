@@ -1,0 +1,31 @@
+{
+  "engine": "4.5.stable.official.876b29033",
+  "release_pack": "docs/validation/visual-vd01/before/build/AbyssExpedition.exe",
+  "release_pack_sha256": "965f0e7b9a6254fc3ac5ecd5d92ec87a682410a44a604edc7c8c3c79703ff17b",
+  "source_rollback_manifest": "before/rollback-manifest.json",
+  "captures": [
+    {
+      "path": "screenshots/visual-vd01/before/source-r2/capture-manifest.json",
+      "sha256": "ea719237b6e808648b8ead02c2533c03bad8b1386dbc55fdc6e9c0aca7a51622",
+      "records": 18,
+      "kind": "actual native viewport, not physical window"
+    },
+    {
+      "path": "screenshots/visual-vd01/before/release/capture-manifest.json",
+      "sha256": "ea719237b6e808648b8ead02c2533c03bad8b1386dbc55fdc6e9c0aca7a51622",
+      "records": 18,
+      "kind": "actual native viewport, not physical window"
+    },
+    {
+      "path": "screenshots/visual-vd01/before/release-r1/capture-manifest.json",
+      "sha256": "34e7304ef3f4b70c136bc8f48b1dde5ef3a5eb9ab4e5f120aaf7236eb1ee85f5",
+      "records": 18,
+      "kind": "actual native viewport, not physical window"
+    }
+  ],
+  "original_m4_perf": "before/perf",
+  "original_p02_perf": "before/perf-visual",
+  "matched_final_instrumentation_p02": "before/perf-visual-r1",
+  "physical_window_or_baseline_motion_clips": "pending; do not substitute native captures",
+  "profiles": "isolated tests only"
+}

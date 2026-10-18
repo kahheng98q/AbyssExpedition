@@ -1,0 +1,58 @@
+{
+  "checked": 77,
+  "total": 87,
+  "owner_visual_feedback_received": true,
+  "scope": "current eight-item slice only; no G3",
+  "tasks": [
+    {
+      "task": "T033",
+      "status": "open",
+      "reason": "Retained before build/native clips and full baselines exist; physical-window source/release capture matrix incomplete."
+    },
+    {
+      "task": "T073",
+      "status": "open",
+      "reason": "Current574 native captures and observed engine margins exist; physical-window capture matrix incomplete."
+    },
+    {
+      "task": "T074",
+      "status": "open",
+      "reason": "Elapsed-clock movement/pause/speed/interrupt/late/death evidence exists; physical-display shimmer/window review and full manual criteria open."
+    },
+    {
+      "task": "T077",
+      "status": "open",
+      "reason": "Controlled native inputs/current error paths/tooltip corners/long text verified; full natural human session and ink-bound review not supplied."
+    },
+    {
+      "task": "T078",
+      "status": "open",
+      "reason": "Full current-host measurement is separate from failed frame budgets and unavailable exact reference hardware."
+    },
+    {
+      "task": "T079",
+      "status": "open",
+      "reason": "No physical input/display timing device or raw measurement supplied; native timestamps do not substitute."
+    },
+    {
+      "task": "T080",
+      "status": "open",
+      "reason": "Simulation and native/pixel comparisons verified; complete physical/visual mismatch acceptance depends on remaining review."
+    },
+    {
+      "task": "T081",
+      "status": "open",
+      "reason": "Frozen current native clips prepared; zero structured ten-person recognition responses."
+    },
+    {
+      "task": "T082",
+      "status": "open",
+      "reason": "UI fixtures prepared; zero structured ten-person five-second UI responses."
+    },
+    {
+      "task": "T084",
+      "status": "open",
+      "reason": "Reviewer-owned checklist files/markers are read-only under speckit-implement; executed evidence is separate."
+    }
+  ]
+}

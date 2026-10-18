@@ -1,0 +1,21 @@
+{
+  "suites": {
+    "abilities": 123,
+    "full_run": 9,
+    "integration_m1": 77,
+    "integration_m2": 45,
+    "integration_m3": 196,
+    "integration_m4": 3734,
+    "persistence": 343,
+    "progression": 13,
+    "recruitment": 293,
+    "replay": 44,
+    "scene_smoke": 178,
+    "unit": 223
+  },
+  "primary_assertions": 5278,
+  "debug_assertions": 69,
+  "total": 5347,
+  "graphical_checks": "source/release/debug logs retained separately",
+  "limits": "automated execution, not human acceptance"
+}

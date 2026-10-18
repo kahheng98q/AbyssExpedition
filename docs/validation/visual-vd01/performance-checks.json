@@ -1,0 +1,392 @@
+{
+  "full_samples": [
+    {
+      "group": "before/perf",
+      "seed": 101,
+      "capture_valid": true,
+      "p95_ms": 28.086,
+      "p99_ms": 29.075,
+      "budget_pass": false,
+      "minimums": {
+        "boss": 1,
+        "effects": 30,
+        "enemies": 100,
+        "gems": 500,
+        "projectiles": 100,
+        "stored_coins": 608,
+        "stored_xp": 6512
+      },
+      "maximums": {
+        "boss": 1,
+        "effects": 31,
+        "enemies": 100,
+        "gems": 500,
+        "projectiles": 111,
+        "stored_coins": 882,
+        "stored_xp": 10348
+      }
+    },
+    {
+      "group": "before/perf",
+      "seed": 202,
+      "capture_valid": true,
+      "p95_ms": 28.401,
+      "p99_ms": 29.774,
+      "budget_pass": false,
+      "minimums": {
+        "boss": 1,
+        "effects": 30,
+        "enemies": 100,
+        "gems": 500,
+        "projectiles": 100,
+        "stored_coins": 608,
+        "stored_xp": 6512
+      },
+      "maximums": {
+        "boss": 1,
+        "effects": 31,
+        "enemies": 100,
+        "gems": 500,
+        "projectiles": 111,
+        "stored_coins": 882,
+        "stored_xp": 10348
+      }
+    },
+    {
+      "group": "before/perf",
+      "seed": 303,
+      "capture_valid": true,
+      "p95_ms": 28.029,
+      "p99_ms": 29.038,
+      "budget_pass": false,
+      "minimums": {
+        "boss": 1,
+        "effects": 30,
+        "enemies": 100,
+        "gems": 500,
+        "projectiles": 100,
+        "stored_coins": 608,
+        "stored_xp": 6512
+      },
+      "maximums": {
+        "boss": 1,
+        "effects": 31,
+        "enemies": 100,
+        "gems": 500,
+        "projectiles": 111,
+        "stored_coins": 882,
+        "stored_xp": 10348
+      }
+    },
+    {
+      "group": "before/perf-visual-r1",
+      "seed": 101,
+      "capture_valid": true,
+      "p95_ms": 31.689,
+      "p99_ms": 33.554,
+      "budget_pass": false,
+      "minimums": {
+        "boss": 1,
+        "effects": 30,
+        "enemies": 100,
+        "fallback_actors": 104,
+        "fallback_arcs": 30,
+        "fallback_stars": 100,
+        "gems": 500,
+        "new_actors": 0,
+        "new_arcs": 0,
+        "new_stars": 0,
+        "projectiles": 100,
+        "stored_coins": 655,
+        "stored_xp": 7170
+      },
+      "maximums": {
+        "boss": 1,
+        "effects": 31,
+        "enemies": 100,
+        "fallback_actors": 104,
+        "fallback_arcs": 31,
+        "fallback_stars": 101,
+        "gems": 500,
+        "new_actors": 0,
+        "new_arcs": 0,
+        "new_stars": 0,
+        "projectiles": 101,
+        "stored_coins": 1253,
+        "stored_xp": 15542
+      }
+    },
+    {
+      "group": "before/perf-visual-r1",
+      "seed": 202,
+      "capture_valid": true,
+      "p95_ms": 31.65,
+      "p99_ms": 33.228,
+      "budget_pass": false,
+      "minimums": {
+        "boss": 1,
+        "effects": 30,
+        "enemies": 100,
+        "fallback_actors": 104,
+        "fallback_arcs": 30,
+        "fallback_stars": 100,
+        "gems": 500,
+        "new_actors": 0,
+        "new_arcs": 0,
+        "new_stars": 0,
+        "projectiles": 100,
+        "stored_coins": 655,
+        "stored_xp": 7170
+      },
+      "maximums": {
+        "boss": 1,
+        "effects": 31,
+        "enemies": 100,
+        "fallback_actors": 104,
+        "fallback_arcs": 31,
+        "fallback_stars": 101,
+        "gems": 500,
+        "new_actors": 0,
+        "new_arcs": 0,
+        "new_stars": 0,
+        "projectiles": 101,
+        "stored_coins": 1253,
+        "stored_xp": 15542
+      }
+    },
+    {
+      "group": "before/perf-visual-r1",
+      "seed": 303,
+      "capture_valid": true,
+      "p95_ms": 31.482,
+      "p99_ms": 32.759,
+      "budget_pass": false,
+      "minimums": {
+        "boss": 1,
+        "effects": 30,
+        "enemies": 100,
+        "fallback_actors": 104,
+        "fallback_arcs": 30,
+        "fallback_stars": 100,
+        "gems": 500,
+        "new_actors": 0,
+        "new_arcs": 0,
+        "new_stars": 0,
+        "projectiles": 100,
+        "stored_coins": 655,
+        "stored_xp": 7170
+      },
+      "maximums": {
+        "boss": 1,
+        "effects": 31,
+        "enemies": 100,
+        "fallback_actors": 104,
+        "fallback_arcs": 31,
+        "fallback_stars": 101,
+        "gems": 500,
+        "new_actors": 0,
+        "new_arcs": 0,
+        "new_stars": 0,
+        "projectiles": 101,
+        "stored_coins": 1254,
+        "stored_xp": 15556
+      }
+    },
+    {
+      "group": "after/perf-r1",
+      "seed": 101,
+      "capture_valid": true,
+      "p95_ms": 28.552,
+      "p99_ms": 30.308,
+      "budget_pass": false,
+      "minimums": {
+        "boss": 1,
+        "effects": 30,
+        "enemies": 100,
+        "gems": 500,
+        "projectiles": 100,
+        "stored_coins": 604,
+        "stored_xp": 6456
+      },
+      "maximums": {
+        "boss": 1,
+        "effects": 31,
+        "enemies": 100,
+        "gems": 500,
+        "projectiles": 111,
+        "stored_coins": 882,
+        "stored_xp": 10348
+      }
+    },
+    {
+      "group": "after/perf-r1",
+      "seed": 202,
+      "capture_valid": true,
+      "p95_ms": 27.734,
+      "p99_ms": 29.324,
+      "budget_pass": false,
+      "minimums": {
+        "boss": 1,
+        "effects": 30,
+        "enemies": 100,
+        "gems": 500,
+        "projectiles": 100,
+        "stored_coins": 608,
+        "stored_xp": 6512
+      },
+      "maximums": {
+        "boss": 1,
+        "effects": 31,
+        "enemies": 100,
+        "gems": 500,
+        "projectiles": 111,
+        "stored_coins": 882,
+        "stored_xp": 10348
+      }
+    },
+    {
+      "group": "after/perf-r1",
+      "seed": 303,
+      "capture_valid": true,
+      "p95_ms": 28.879,
+      "p99_ms": 31.055,
+      "budget_pass": false,
+      "minimums": {
+        "boss": 1,
+        "effects": 30,
+        "enemies": 100,
+        "gems": 500,
+        "projectiles": 100,
+        "stored_coins": 608,
+        "stored_xp": 6512
+      },
+      "maximums": {
+        "boss": 1,
+        "effects": 31,
+        "enemies": 100,
+        "gems": 500,
+        "projectiles": 111,
+        "stored_coins": 882,
+        "stored_xp": 10348
+      }
+    },
+    {
+      "group": "after/perf-visual-r1",
+      "seed": 101,
+      "capture_valid": true,
+      "p95_ms": 31.719,
+      "p99_ms": 33.03,
+      "budget_pass": false,
+      "minimums": {
+        "boss": 1,
+        "effects": 30,
+        "enemies": 100,
+        "fallback_actors": 103,
+        "fallback_arcs": 0,
+        "fallback_stars": 0,
+        "gems": 500,
+        "new_actors": 1,
+        "new_arcs": 30,
+        "new_stars": 100,
+        "projectiles": 100,
+        "stored_coins": 655,
+        "stored_xp": 7170
+      },
+      "maximums": {
+        "boss": 1,
+        "effects": 31,
+        "enemies": 100,
+        "fallback_actors": 103,
+        "fallback_arcs": 0,
+        "fallback_stars": 0,
+        "gems": 500,
+        "new_actors": 1,
+        "new_arcs": 31,
+        "new_stars": 101,
+        "projectiles": 101,
+        "stored_coins": 1253,
+        "stored_xp": 15542
+      }
+    },
+    {
+      "group": "after/perf-visual-r1",
+      "seed": 202,
+      "capture_valid": true,
+      "p95_ms": 31.872,
+      "p99_ms": 34.054,
+      "budget_pass": false,
+      "minimums": {
+        "boss": 1,
+        "effects": 30,
+        "enemies": 100,
+        "fallback_actors": 103,
+        "fallback_arcs": 0,
+        "fallback_stars": 0,
+        "gems": 500,
+        "new_actors": 1,
+        "new_arcs": 30,
+        "new_stars": 100,
+        "projectiles": 100,
+        "stored_coins": 655,
+        "stored_xp": 7170
+      },
+      "maximums": {
+        "boss": 1,
+        "effects": 31,
+        "enemies": 100,
+        "fallback_actors": 103,
+        "fallback_arcs": 0,
+        "fallback_stars": 0,
+        "gems": 500,
+        "new_actors": 1,
+        "new_arcs": 31,
+        "new_stars": 101,
+        "projectiles": 101,
+        "stored_coins": 1253,
+        "stored_xp": 15542
+      }
+    },
+    {
+      "group": "after/perf-visual-r1",
+      "seed": 303,
+      "capture_valid": true,
+      "p95_ms": 31.66,
+      "p99_ms": 33.368,
+      "budget_pass": false,
+      "minimums": {
+        "boss": 1,
+        "effects": 30,
+        "enemies": 100,
+        "fallback_actors": 103,
+        "fallback_arcs": 0,
+        "fallback_stars": 0,
+        "gems": 500,
+        "new_actors": 1,
+        "new_arcs": 30,
+        "new_stars": 100,
+        "projectiles": 100,
+        "stored_coins": 655,
+        "stored_xp": 7170
+      },
+      "maximums": {
+        "boss": 1,
+        "effects": 31,
+        "enemies": 100,
+        "fallback_actors": 103,
+        "fallback_arcs": 0,
+        "fallback_stars": 0,
+        "gems": 500,
+        "new_actors": 1,
+        "new_arcs": 31,
+        "new_stars": 101,
+        "projectiles": 101,
+        "stored_coins": 1253,
+        "stored_xp": 15542
+      }
+    }
+  ],
+  "p02_fixture_sha256_matched": true,
+  "target_pass": false,
+  "reference_machine_acceptance": false,
+  "latency_measured": false
+}

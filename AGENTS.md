@@ -6,19 +6,34 @@ Instructions for Codex/AI coding agents working in this repository. Apply them a
 - Original offline single-player Godot **4.5** / GDScript survivor-like game: fantasy kingdom + Lovecraftian invasion.
 - Core: automatic combat, roster/companions, branching promotion, story recruitment, earned-ticket gacha, abyss corruption and events.
 - Current code spans **M1–M4** plus a developer-only F9 debug panel. Do not assume full acceptance: human playtests and performance targets remain open.
-- Source of requirements and boundaries: `.specify/memory/constitution.md`, `specs/001-abyss-expedition-mvp/spec.md`, `plan.md`, `tasks.md`, and relevant contracts.
+- Source of requirements and boundaries: `.specify/memory/constitution.md`, the active feature resolved by `.specify/feature.json` (currently `specs/002-2d-art-direction/`), and its `spec.md`, `plan.md`, `tasks.md` and contracts. `specs/001-abyss-expedition-mvp/` remains the gameplay requirements/evidence baseline.
 - Evidence and known limitations: `docs/validation/m4-gate.md`, `docs/validation/debug-panel.md`, `docs/development.md`, and `docs/benchmarks/`. Some historical notes describe earlier states; check the latest evidence and actual source.
 
 ## When implementing a change
 1. Inspect relevant code, data, scene, requirements and existing tests first; preserve working behavior and module boundaries.
-2. Follow the active Spec Kit specification and constitution. For significant new scope, first update or request appropriate specification/task approval. Never treat unimplemented roadmap items as implicitly authorized.
+2. Follow the active Spec Kit specification and constitution. Continue all authorized in-scope tasks without routine approval. Significant scope expansion requires an explicit specification/task update and user authorization; unimplemented roadmap items are not implicitly authorized.
 3. Use small changes, reusable systems, original assets, and data-driven `data/` Resources. Keep gameplay logic out of UI and visual assets. No backend, paid gacha or unauthorized dependencies.
 4. Keep deterministic runs, profile/save safety, the isolated developer F9 sandbox, and release-build debug restrictions intact.
 5. Test affected behavior. Use the pinned `tools/godot-4.5/` binary and applicable `tools/run_validation.ps1` switches; M4 full check: `./tools/run_validation.ps1 -M4 -Graphical -Export`. Run narrower checks when suitable. Do not claim graphical/manual testing from headless runs.
 6. Do not rerun the historical `tools/create_m1_content.ps1` over current content; it overwrites starter data.
 
+## Persistent workflow: Autonomous Implementation with Continuous Documentation
+
+Effective 2026-10-18; applies automatically in future sessions and Spec Kit runs.
+
+1. Execute all authorized in-scope tasks in dependency order. Do not ask for routine human approval between tasks or manual sign-off between phases. A phase checkpoint is a verification/documentation step, not a permission prompt.
+2. Automatically run applicable checks, diagnose implementation errors, fix them within scope and rerun affected checks. Resolve actual import, parse, runtime and functional regression failures before dependent work; continue independent work when safe.
+3. After every phase, automatically update the dashboard, Chinese overview, README links, development record, task evidence and applicable validation reports in the same task. Record actual commands, outcomes, failures and limitations, including documentation-only checks when appropriate.
+4. Preserve accurate status: distinguish implemented, automatically verified, failed, partially complete and pending manual verification. Never infer human acceptance, reference-machine performance, physical-display latency or visual approval from automated results.
+5. Do not stop solely for visual design approval. G0/G1/G2 are versioned design/evidence checkpoints, not routine execution gates. Prepare reviewable artifacts and continue within the existing scope and budgets. G3/full-roster production and other scope expansion remain unauthorized until explicitly requested.
+6. If a manual check cannot be automated, record its task/criterion, reason, available evidence and required follow-up as pending. Continue unrelated tasks; leave combined implementation/manual tasks incomplete until every required part has evidence. Missing assets/rights/tools block only work that genuinely depends on them.
+7. Reviewer-owned checklist files and markers are read-only. Unchecked markers alone do not require a continue/stop question. Record findings and evidence separately; update implementation-task markers only when their actual criteria are met. Preserve task IDs, completed work and historical decisions.
+8. Request user intervention only for a genuine blocker requiring their input, a high-risk action (for example irreversible data loss or destructive replacement), or required platform permissions. State the exact blocked action/reason and continue unaffected work. Missing manual acceptance alone is not a project-wide blocker.
+9. These explicit project instructions supersede obsolete routine approval/STOP prompts in historical feature documents, generic Spec Kit skills/templates and unchecked-checklist workflows. Preserve quality checks, safety, scope, licenses, save isolation and platform permission boundaries; do not self-approve owner decisions or reset failed baselines to claim success.
+10. A workflow-configuration or documentation-only request authorizes documentation/configuration edits only; it does not start the remaining gameplay or visual implementation tasks.
+
 ## Mandatory: automatic, visual implementation documentation
-After **every code implementation, feature change, meaningful bug fix, or completed Spec Kit implementation milestone**, update these documents in the **same task**, without waiting for a separate request:
+After **every code implementation, feature change, meaningful bug fix, completed phase, or completed Spec Kit implementation milestone**, update these documents in the **same task**, without waiting for a separate request:
 - `docs/game-development-dashboard.html` — create on first applicable update if missing; primary **offline, responsive, visual** game development dashboard.
 - `docs/IMPLEMENTATION_OVERVIEW.md` — create if missing; concise **Simplified Chinese** GitHub-readable overview.
 - `README.md` — keep a short documentation-links section pointing to both files (and existing Spec Kit docs).

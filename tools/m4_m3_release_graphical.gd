@@ -48,7 +48,7 @@ func capture(app, name_value: String) -> void:
 		if screen.get("panel") != null:
 			check(screen.panel.size.x <= 640 and screen.panel.size.y <= 360, "M3 panel fits viewport: " + name_value + " " + str(screen.panel.size))
 	await RenderingServer.frame_post_draw
-	check(root.get_texture().get_image().save_png("C:/Users/kahhe/Desktop/Project/new-game-project/screenshots/convergence-exe-m3-" + name_value + ".png") == OK, "capture " + name_value)
+	check(root.get_texture().get_image().save_png("C:/Users/kahhe/Desktop/Project/new-game-project/docs/validation/visual-vd01/final-release-r1/captures/convergence-exe-m3-" + name_value + ".png") == OK, "capture " + name_value)
 
 func press(app, prefix: String) -> void:
 	var screen = app.screen_host.get_child(0)

@@ -1,0 +1,6 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+
+FAIL: flat defense before resistance
+FAIL: minimum eligible damage
+FAIL: baseline damage
+SUITE unit: 3 assertions; 3 failures; 0 skipped

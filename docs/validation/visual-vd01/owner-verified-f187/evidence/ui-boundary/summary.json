@@ -1,0 +1,69 @@
+{
+  "candidate_sha256": "f187bd763fe92b69069722432c4534178c32206be6cf76a59ba9fe8fe7e95d42",
+  "embedded_release_sha256": "c6d626b275117e8f5ec8c476ed6cc8574792a8b53bd3dab55927d8e565d98bfe",
+  "production_files_unchanged": true,
+  "concept_package_unchanged": true,
+  "sets": [
+    {
+      "role": "source",
+      "audit": "docs/validation/visual-vd01/ui-boundary/source-r3/audit.json",
+      "audit_sha256": "92ad56191f339979f64fb212b8038d7bb1847a32d07bb8d92424386f2d61897f",
+      "context": {
+        "utc": "2026-10-17T07:35:53.7487728Z",
+        "executable": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tools\\godot-4.5\\Godot_v4.5-stable_win64_console.exe",
+        "executable_sha256": "7B77F3735DEC3A32BB20AF29CC1900583795D1DE82A14F23D23350A88EC85FAF",
+        "embedded_pack_sha256": null,
+        "harness_sha256": "6BE15A5874D14B087DE4832CED489B5F7E95F311AE86520EA7F778579326CFDA",
+        "kind": "Native viewport and layout audit; not physical window capture"
+      },
+      "records": 51,
+      "current_catalog_cases": 30,
+      "synthetic_boundary_cases": 21,
+      "unique_current_text_codepoints": 60,
+      "strict_failures": [],
+      "catalog_unchanged": true,
+      "current_missing_glyph_labels": 0,
+      "numeric_samples_within_containers": 18,
+      "long_effects_wrap_and_vertical_scroll": true
+    },
+    {
+      "role": "release",
+      "audit": "docs/validation/visual-vd01/ui-boundary/release-r2/audit.json",
+      "audit_sha256": "c17ba562fd631d46b6b323a44515f140d35567aa9b27623b96e450821ab4e5b4",
+      "context": {
+        "utc": "2026-10-17T07:36:08.9832078Z",
+        "executable": "C:/Users/kahhe/Desktop/Project/new-game-project/builds/windows/m4/AbyssExpedition.console.exe",
+        "executable_sha256": "4002EEFFB14A7AF3DA16E5B0BE5B7F5DA773F2117D819B33226DBCD1D6562951",
+        "embedded_pack_sha256": "C6D626B275117E8F5EC8C476ED6CC8574792A8B53BD3DAB55927D8E565D98BFE",
+        "harness_sha256": "6BE15A5874D14B087DE4832CED489B5F7E95F311AE86520EA7F778579326CFDA",
+        "kind": "Native viewport and layout audit; not physical window capture"
+      },
+      "records": 51,
+      "current_catalog_cases": 30,
+      "synthetic_boundary_cases": 21,
+      "unique_current_text_codepoints": 60,
+      "strict_failures": [],
+      "catalog_unchanged": true,
+      "current_missing_glyph_labels": 0,
+      "numeric_samples_within_containers": 18,
+      "long_effects_wrap_and_vertical_scroll": true
+    }
+  ],
+  "strict_scope": "Font.has_char coverage, current modal panel position and horizontal content extent only. Not zero clipped ink, full manual acceptance or a new unique assertion total.",
+  "confirmed_synthetic_limits": [
+    "Long hero name extends beyond hero panel and is occluded by XP panel.",
+    "Long upgrade heading extends beyond its button and is clipped at scroll viewport."
+  ],
+  "existing_geometry_diagnostic": "Abyss label Control extends one native pixel below its panel; no clipping ancestor. This is not an ink-clipping verdict or new area pass.",
+  "not_measured": [
+    "pixel ink bounds",
+    "physical window margins",
+    "natural manual session",
+    "tooltip edge matrix",
+    "long save paths",
+    "physical feedback latency",
+    "ten-person recognition/UI review"
+  ],
+  "first_attempt": "source-r1 is superseded: shallow-copy effects contaminated later synthetic samples; panel-rectangle overhang was also incorrectly classified as fatal. Source-r3/release-r2 duplicate the effects array, verify unchanged labels/effects, and separate diagnostics from strict checks.",
+  "gate": "G2 remains pending; no baseline replacement or G3 authorization inferred."
+}

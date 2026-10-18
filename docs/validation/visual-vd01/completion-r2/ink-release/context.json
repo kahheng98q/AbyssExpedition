@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-18T01:43:56.3924567Z",
+  "executable": "builds/windows/m4/AbyssExpedition.console.exe",
+  "executable_sha256": "4002EEFFB14A7AF3DA16E5B0BE5B7F5DA773F2117D819B33226DBCD1D6562951",
+  "embedded_pack_sha256": "F7FF2552727165592DA061C4B708EED1087CF5966E0F17918665D7B392DD54CD",
+  "harness_sha256": "1AFF4154FBEA22E99CC0BBE32BC4E7254BFADCDCDCB01C015B861CC52407FD8F",
+  "kind": "Native viewport and layout audit; not physical window capture"
+}

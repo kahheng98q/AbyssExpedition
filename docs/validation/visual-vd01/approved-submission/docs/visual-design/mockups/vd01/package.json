@@ -1,0 +1,1708 @@
+{
+  "revision": "VD-01-M1",
+  "date": "2026-10-16",
+  "status": "PROPOSED review package; G0/G1 pending; no runtime edit",
+  "deliveries": [
+    "A01",
+    "E01",
+    "E02",
+    "W01",
+    "F01",
+    "F02",
+    "U01",
+    "U02"
+  ],
+  "support": [
+    "shared icons",
+    "UI border",
+    "portrait crop",
+    "seed disclosure proposal"
+  ],
+  "scale_plates": [
+    {
+      "path": "scales/battle-hud-1x.png",
+      "size": [
+        640,
+        360
+      ],
+      "kind": "PROPOSED integer review plate"
+    },
+    {
+      "path": "scales/battle-hud-2x.png",
+      "size": [
+        1280,
+        720
+      ],
+      "kind": "PROPOSED integer review plate"
+    },
+    {
+      "path": "scales/battle-hud-3x.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "kind": "PROPOSED integer review plate"
+    },
+    {
+      "path": "scales/battle-hud-1371x779.png",
+      "size": [
+        1371,
+        779
+      ],
+      "content": [
+        45,
+        29,
+        1280,
+        720
+      ],
+      "margins": [
+        45,
+        46,
+        29,
+        30
+      ],
+      "kind": "PROPOSED drawn letterbox, not real-window capture"
+    },
+    {
+      "path": "scales/level-up-1x.png",
+      "size": [
+        640,
+        360
+      ],
+      "kind": "PROPOSED integer review plate"
+    },
+    {
+      "path": "scales/level-up-2x.png",
+      "size": [
+        1280,
+        720
+      ],
+      "kind": "PROPOSED integer review plate"
+    },
+    {
+      "path": "scales/level-up-3x.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "kind": "PROPOSED integer review plate"
+    },
+    {
+      "path": "scales/level-up-1371x779.png",
+      "size": [
+        1371,
+        779
+      ],
+      "content": [
+        45,
+        29,
+        1280,
+        720
+      ],
+      "margins": [
+        45,
+        46,
+        29,
+        30
+      ],
+      "kind": "PROPOSED drawn letterbox, not real-window capture"
+    },
+    {
+      "path": "scales/shrine-1x.png",
+      "size": [
+        640,
+        360
+      ],
+      "kind": "PROPOSED integer review plate"
+    },
+    {
+      "path": "scales/shrine-2x.png",
+      "size": [
+        1280,
+        720
+      ],
+      "kind": "PROPOSED integer review plate"
+    },
+    {
+      "path": "scales/shrine-3x.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "kind": "PROPOSED integer review plate"
+    },
+    {
+      "path": "scales/shrine-1371x779.png",
+      "size": [
+        1371,
+        779
+      ],
+      "content": [
+        45,
+        29,
+        1280,
+        720
+      ],
+      "margins": [
+        45,
+        46,
+        29,
+        30
+      ],
+      "kind": "PROPOSED drawn letterbox, not real-window capture"
+    },
+    {
+      "path": "scales/combat-dense-1x.png",
+      "size": [
+        640,
+        360
+      ],
+      "kind": "PROPOSED integer review plate"
+    },
+    {
+      "path": "scales/combat-dense-2x.png",
+      "size": [
+        1280,
+        720
+      ],
+      "kind": "PROPOSED integer review plate"
+    },
+    {
+      "path": "scales/combat-dense-3x.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "kind": "PROPOSED integer review plate"
+    },
+    {
+      "path": "scales/combat-dense-1371x779.png",
+      "size": [
+        1371,
+        779
+      ],
+      "content": [
+        45,
+        29,
+        1280,
+        720
+      ],
+      "margins": [
+        45,
+        46,
+        29,
+        30
+      ],
+      "kind": "PROPOSED drawn letterbox, not real-window capture"
+    },
+    {
+      "path": "scales/hud-stress-1x.png",
+      "size": [
+        640,
+        360
+      ],
+      "kind": "PROPOSED integer review plate"
+    },
+    {
+      "path": "scales/hud-stress-2x.png",
+      "size": [
+        1280,
+        720
+      ],
+      "kind": "PROPOSED integer review plate"
+    },
+    {
+      "path": "scales/hud-stress-3x.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "kind": "PROPOSED integer review plate"
+    },
+    {
+      "path": "scales/hud-stress-1371x779.png",
+      "size": [
+        1371,
+        779
+      ],
+      "content": [
+        45,
+        29,
+        1280,
+        720
+      ],
+      "margins": [
+        45,
+        46,
+        29,
+        30
+      ],
+      "kind": "PROPOSED drawn letterbox, not real-window capture"
+    },
+    {
+      "path": "scales/actor-lineup-1x.png",
+      "size": [
+        640,
+        360
+      ],
+      "kind": "PROPOSED design-sheet integer plate; not a game window"
+    },
+    {
+      "path": "scales/actor-lineup-2x.png",
+      "size": [
+        1280,
+        720
+      ],
+      "kind": "PROPOSED design-sheet integer plate; not a game window"
+    },
+    {
+      "path": "scales/actor-lineup-3x.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "kind": "PROPOSED design-sheet integer plate; not a game window"
+    },
+    {
+      "path": "scales/actors-strip-1x.png",
+      "size": [
+        640,
+        440
+      ],
+      "kind": "PROPOSED design-sheet integer plate; not a game window"
+    },
+    {
+      "path": "scales/actors-strip-2x.png",
+      "size": [
+        1280,
+        880
+      ],
+      "kind": "PROPOSED design-sheet integer plate; not a game window"
+    },
+    {
+      "path": "scales/actors-strip-3x.png",
+      "size": [
+        1920,
+        1320
+      ],
+      "kind": "PROPOSED design-sheet integer plate; not a game window"
+    },
+    {
+      "path": "scales/effects-strip-1x.png",
+      "size": [
+        640,
+        240
+      ],
+      "kind": "PROPOSED design-sheet integer plate; not a game window"
+    },
+    {
+      "path": "scales/effects-strip-2x.png",
+      "size": [
+        1280,
+        480
+      ],
+      "kind": "PROPOSED design-sheet integer plate; not a game window"
+    },
+    {
+      "path": "scales/effects-strip-3x.png",
+      "size": [
+        1920,
+        720
+      ],
+      "kind": "PROPOSED design-sheet integer plate; not a game window"
+    },
+    {
+      "path": "scales/ui-states-1x.png",
+      "size": [
+        960,
+        440
+      ],
+      "kind": "PROPOSED design-sheet integer plate; not a game window"
+    },
+    {
+      "path": "scales/ui-states-2x.png",
+      "size": [
+        1920,
+        880
+      ],
+      "kind": "PROPOSED design-sheet integer plate; not a game window"
+    },
+    {
+      "path": "scales/ui-states-3x.png",
+      "size": [
+        2880,
+        1320
+      ],
+      "kind": "PROPOSED design-sheet integer plate; not a game window"
+    },
+    {
+      "path": "scales/level-up-states-1x.png",
+      "size": [
+        1280,
+        720
+      ],
+      "kind": "PROPOSED design-sheet integer plate; not a game window"
+    },
+    {
+      "path": "scales/level-up-states-2x.png",
+      "size": [
+        2560,
+        1440
+      ],
+      "kind": "PROPOSED design-sheet integer plate; not a game window"
+    },
+    {
+      "path": "scales/level-up-states-3x.png",
+      "size": [
+        3840,
+        2160
+      ],
+      "kind": "PROPOSED design-sheet integer plate; not a game window"
+    },
+    {
+      "path": "scales/edge-top-2x.png",
+      "size": [
+        1280,
+        720
+      ],
+      "kind": "PROPOSED P01 edge plate"
+    },
+    {
+      "path": "scales/edge-top-3x.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "kind": "PROPOSED P01 edge plate"
+    },
+    {
+      "path": "scales/edge-bottom-2x.png",
+      "size": [
+        1280,
+        720
+      ],
+      "kind": "PROPOSED P01 edge plate"
+    },
+    {
+      "path": "scales/edge-bottom-3x.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "kind": "PROPOSED P01 edge plate"
+    },
+    {
+      "path": "scales/edge-left-2x.png",
+      "size": [
+        1280,
+        720
+      ],
+      "kind": "PROPOSED P01 edge plate"
+    },
+    {
+      "path": "scales/edge-left-3x.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "kind": "PROPOSED P01 edge plate"
+    },
+    {
+      "path": "scales/edge-right-2x.png",
+      "size": [
+        1280,
+        720
+      ],
+      "kind": "PROPOSED P01 edge plate"
+    },
+    {
+      "path": "scales/edge-right-3x.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "kind": "PROPOSED P01 edge plate"
+    },
+    {
+      "path": "scales/edge-top-left-2x.png",
+      "size": [
+        1280,
+        720
+      ],
+      "kind": "PROPOSED P01 edge plate"
+    },
+    {
+      "path": "scales/edge-top-left-3x.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "kind": "PROPOSED P01 edge plate"
+    },
+    {
+      "path": "scales/edge-top-right-2x.png",
+      "size": [
+        1280,
+        720
+      ],
+      "kind": "PROPOSED P01 edge plate"
+    },
+    {
+      "path": "scales/edge-top-right-3x.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "kind": "PROPOSED P01 edge plate"
+    },
+    {
+      "path": "scales/edge-bottom-left-2x.png",
+      "size": [
+        1280,
+        720
+      ],
+      "kind": "PROPOSED P01 edge plate"
+    },
+    {
+      "path": "scales/edge-bottom-left-3x.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "kind": "PROPOSED P01 edge plate"
+    },
+    {
+      "path": "scales/edge-bottom-right-2x.png",
+      "size": [
+        1280,
+        720
+      ],
+      "kind": "PROPOSED P01 edge plate"
+    },
+    {
+      "path": "scales/edge-bottom-right-3x.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "kind": "PROPOSED P01 edge plate"
+    }
+  ],
+  "hud_rectangles": {
+    "hero": [
+      8,
+      8,
+      192,
+      40
+    ],
+    "xp": [
+      208,
+      8,
+      184,
+      40
+    ],
+    "stats": [
+      400,
+      8,
+      232,
+      40
+    ],
+    "boss": [
+      192,
+      56,
+      256,
+      28
+    ],
+    "party": [
+      8,
+      306,
+      200,
+      46
+    ],
+    "rescue": [
+      216,
+      310,
+      416,
+      38
+    ]
+  },
+  "edges": {
+    "top": {
+      "rectangles": {
+        "hero": [
+          8,
+          96,
+          192,
+          40
+        ],
+        "xp": [
+          208,
+          96,
+          184,
+          40
+        ],
+        "stats": [
+          400,
+          96,
+          232,
+          40
+        ],
+        "boss": [
+          192,
+          144,
+          256,
+          28
+        ],
+        "party": [
+          8,
+          306,
+          200,
+          46
+        ],
+        "rescue": [
+          216,
+          310,
+          416,
+          38
+        ]
+      },
+      "crop": "top body may crop at viewport; white cross marks foot anchor",
+      "status": "P01 candidate; not owner accepted",
+      "hero_foot_anchor_screen": [
+        320,
+        8
+      ]
+    },
+    "bottom": {
+      "rectangles": {
+        "hero": [
+          8,
+          8,
+          192,
+          40
+        ],
+        "xp": [
+          208,
+          8,
+          184,
+          40
+        ],
+        "stats": [
+          400,
+          8,
+          232,
+          40
+        ],
+        "boss": [
+          192,
+          56,
+          256,
+          28
+        ],
+        "party": [
+          8,
+          248,
+          200,
+          46
+        ],
+        "rescue": [
+          216,
+          252,
+          416,
+          38
+        ]
+      },
+      "crop": "top body may crop at viewport; white cross marks foot anchor",
+      "status": "P01 candidate; not owner accepted",
+      "hero_foot_anchor_screen": [
+        320,
+        352
+      ]
+    },
+    "left": {
+      "rectangles": {
+        "hero": [
+          8,
+          96,
+          192,
+          40
+        ],
+        "xp": [
+          208,
+          96,
+          184,
+          40
+        ],
+        "stats": [
+          400,
+          96,
+          232,
+          40
+        ],
+        "boss": [
+          192,
+          144,
+          256,
+          28
+        ],
+        "party": [
+          8,
+          306,
+          200,
+          46
+        ],
+        "rescue": [
+          216,
+          310,
+          416,
+          38
+        ]
+      },
+      "crop": "top body may crop at viewport; white cross marks foot anchor",
+      "status": "P01 candidate; not owner accepted",
+      "hero_foot_anchor_screen": [
+        8,
+        208
+      ]
+    },
+    "right": {
+      "rectangles": {
+        "hero": [
+          8,
+          96,
+          192,
+          40
+        ],
+        "xp": [
+          208,
+          96,
+          184,
+          40
+        ],
+        "stats": [
+          400,
+          96,
+          232,
+          40
+        ],
+        "boss": [
+          192,
+          144,
+          256,
+          28
+        ],
+        "party": [
+          8,
+          306,
+          200,
+          46
+        ],
+        "rescue": [
+          216,
+          310,
+          416,
+          38
+        ]
+      },
+      "crop": "top body may crop at viewport; white cross marks foot anchor",
+      "status": "P01 candidate; not owner accepted",
+      "hero_foot_anchor_screen": [
+        632,
+        208
+      ]
+    },
+    "top-left": {
+      "rectangles": {
+        "hero": [
+          8,
+          96,
+          192,
+          40
+        ],
+        "xp": [
+          208,
+          96,
+          184,
+          40
+        ],
+        "stats": [
+          400,
+          96,
+          232,
+          40
+        ],
+        "boss": [
+          192,
+          144,
+          256,
+          28
+        ],
+        "party": [
+          8,
+          306,
+          200,
+          46
+        ],
+        "rescue": [
+          216,
+          310,
+          416,
+          38
+        ]
+      },
+      "crop": "top body may crop at viewport; white cross marks foot anchor",
+      "status": "P01 candidate; not owner accepted",
+      "hero_foot_anchor_screen": [
+        8,
+        8
+      ]
+    },
+    "top-right": {
+      "rectangles": {
+        "hero": [
+          8,
+          96,
+          192,
+          40
+        ],
+        "xp": [
+          208,
+          96,
+          184,
+          40
+        ],
+        "stats": [
+          400,
+          96,
+          232,
+          40
+        ],
+        "boss": [
+          192,
+          144,
+          256,
+          28
+        ],
+        "party": [
+          8,
+          306,
+          200,
+          46
+        ],
+        "rescue": [
+          216,
+          310,
+          416,
+          38
+        ]
+      },
+      "crop": "top body may crop at viewport; white cross marks foot anchor",
+      "status": "P01 candidate; not owner accepted",
+      "hero_foot_anchor_screen": [
+        632,
+        8
+      ]
+    },
+    "bottom-left": {
+      "rectangles": {
+        "hero": [
+          8,
+          8,
+          192,
+          40
+        ],
+        "xp": [
+          208,
+          8,
+          184,
+          40
+        ],
+        "stats": [
+          400,
+          8,
+          232,
+          40
+        ],
+        "boss": [
+          192,
+          56,
+          256,
+          28
+        ],
+        "party": [
+          8,
+          248,
+          200,
+          46
+        ],
+        "rescue": [
+          216,
+          252,
+          416,
+          38
+        ]
+      },
+      "crop": "top body may crop at viewport; white cross marks foot anchor",
+      "status": "P01 candidate; not owner accepted",
+      "hero_foot_anchor_screen": [
+        8,
+        352
+      ]
+    },
+    "bottom-right": {
+      "rectangles": {
+        "hero": [
+          8,
+          8,
+          192,
+          40
+        ],
+        "xp": [
+          208,
+          8,
+          184,
+          40
+        ],
+        "stats": [
+          400,
+          8,
+          232,
+          40
+        ],
+        "boss": [
+          192,
+          56,
+          256,
+          28
+        ],
+        "party": [
+          8,
+          248,
+          200,
+          46
+        ],
+        "rescue": [
+          216,
+          252,
+          416,
+          38
+        ]
+      },
+      "crop": "top body may crop at viewport; white cross marks foot anchor",
+      "status": "P01 candidate; not owner accepted",
+      "hero_foot_anchor_screen": [
+        632,
+        352
+      ]
+    }
+  },
+  "recognition_protocol_sha256": "0a12cd7d77be3d6538bb1120eb93c568e8605a1d684dd598281a920c07bd97ac",
+  "production_missing": true,
+  "assets": [
+    {
+      "path": "actor-lineup.png",
+      "sha256": "6b0f16929e6c6c6bc5cc9738aaffec161bcb983bac2053643982886b1c833e03",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "actors-motion.webm",
+      "sha256": "af2a50c6c059a85ba086a5a857fa3c6c3d14f6b2bdd3362a2f652ad8cbdf06c3",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "actors-strip.png",
+      "sha256": "4f56e072616a1aa36f17ffd6db663abb7e36fa872ac334589d0d71929671be2e",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "animation-manifest.json",
+      "sha256": "d9a977188506b512d340abf60899c8bee44f6b423a414bd268de9c97d474edff",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "battle-hud.png",
+      "sha256": "f099bd55af5f7d69e4e66ed0de995fd943b95bafad8554affb433221a0570d92",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "combat-dense-grayscale.png",
+      "sha256": "aae757a967db5bd783ce16a94ef24c828720d78e88dd909dadbebdccd307ac08",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "combat-dense-grayscale.webm",
+      "sha256": "6befd993df0eb76eddba102770466a366b64c85b9555066960a93a7a79d3b0a8",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "combat-dense-unlit.png",
+      "sha256": "8e6a1cc0735c1c5331630c040216412ade5694ae03afedd0bf7d6f84b3e7d37d",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "combat-dense-unlit.webm",
+      "sha256": "be4e29af1efe6b166aa6009117cec65c16c4c7deee2dab336dc14c13b9af808b",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "combat-dense.png",
+      "sha256": "6135142607820f7e4e997664bf18af1aac6ed28cd53d9d04c32714be67b81c83",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "combat-dense.webm",
+      "sha256": "61ea110016a724de319625d03fb3b1db1f142c6335b29c5cbe2e1581ab162f78",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "combat-directions.webm",
+      "sha256": "8e00d773a39df8ae52116ab4e108ee160b69aca7e8dd717362b5cca9091e0c05",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "combat-max-corruption-grayscale.png",
+      "sha256": "0447e8c6a8f733140b6bd438dbfcd63721882e784059805b788971ee37a537ec",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "combat-max-corruption-unlit.png",
+      "sha256": "6cb367f20440e7630e9a63f2cee92d6629d730a2cd3ba137ad8d158b669baa2e",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "combat-max-corruption.png",
+      "sha256": "882595c06d8aee457780f35a73719a1216e02dbf13119ed73268237a6878ddd9",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "combat-max-grayscale.webm",
+      "sha256": "83ff2ae5c6e74bac7328c908671ec795931075b518a4b86bee7ecc6038d4c00d",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "combat-max-unlit.webm",
+      "sha256": "0844029890d78e1f4377524558f6f5e8f03a216874b607aa7a390090c2a60830",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "combat-max.png",
+      "sha256": "882595c06d8aee457780f35a73719a1216e02dbf13119ed73268237a6878ddd9",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "combat-max.webm",
+      "sha256": "8933fcb0d5648c2c7c36c2831189ccc0ffa6d1e587fad3f5c5ee6ddd38c57d94",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "combat-motion.webm",
+      "sha256": "29ebeacb2519db14ba6d25680019ffa12127d26639450c1244bab6cde34922d8",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "combat-normal-grayscale.png",
+      "sha256": "bff70acec8c05e7b655b8257d0ffcbf842b1e37b89dd7ef0a6a9bfa705cdaafc",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "combat-normal-grayscale.webm",
+      "sha256": "301b85bbf8ab871d355078ad973372357eaf2ba4128c46ee39c6f1f50efc8874",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "combat-normal-unlit.png",
+      "sha256": "04ef14f9101ede81f1277cde1c2fd9641279420f3deb187d3657da34068f20b5",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "combat-normal-unlit.webm",
+      "sha256": "398719e2038ce3a08fa4272370865d9cc10117702da860d10e29a246297c149d",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "combat-normal.png",
+      "sha256": "f099bd55af5f7d69e4e66ed0de995fd943b95bafad8554affb433221a0570d92",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "edges/bottom-left.png",
+      "sha256": "9baa58db9c48b30e897288c5b39ddf7610eb8695a4b46eb0edc59995f3261bba",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "edges/bottom-right.png",
+      "sha256": "cdb0f924a37c2ddbc32248bf6f7d440fe4fef0187af97c9ffa9ae09379a13b7f",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "edges/bottom.png",
+      "sha256": "b476524f8b45496f75e8713c04869e402ab0fc44d707410227f14d6b9321dceb",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "edges/left.png",
+      "sha256": "560eddc0d1b5da1c40ea4749a0f1d715d8a7e7bfb788eb92d30b73563fd8cdc8",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "edges/right.png",
+      "sha256": "1fdc5b49d2844a31612d648e3129cdd28cd3a86d745e48832241e9c01ff0d6a0",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "edges/top-left.png",
+      "sha256": "ae5d385b631c30af8771e5b363084e1a135db1f7ac2ee2fb5a1ff4a8afbcca84",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "edges/top-right.png",
+      "sha256": "714429527f20126faba05d4086f8cc3a287adcc0ae6f4d260e2e49cd600758a5",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "edges/top.png",
+      "sha256": "69dbca8de4c65140942f60751807b8ecfc6146fa0b153cacd9c051c39da1a1d6",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "effects-motion.webm",
+      "sha256": "06c76fdf1081a1feafc0677c825ea980b3b4195a4d6e39536a21386a7e239c9e",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "effects-strip.png",
+      "sha256": "253c71f500beef1495cc4fdf3584f4d288407e35623149cd1581359169ed75b1",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "event-sampling.webm",
+      "sha256": "b1ec98c95980c8305d659aa14f4883642b9b8596b7d0ef258f0cae5334fe0983",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "hud-declined.png",
+      "sha256": "9875464f89aafea9ca63ccb71099e82bedda024928a0b2fd69a1e67d78b369a0",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "hud-failed.png",
+      "sha256": "73c1095646e47eee3a738c46ee54cb45b46645212a84b35a670397e02624c37f",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "hud-large-values.png",
+      "sha256": "20560bb634038d5a5bb4e5b4d36509ac6d884bfe5b6225f0697f3dbf33cf5292",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "hud-layout.json",
+      "sha256": "a9d68e2268c805f62de40ae92000de61043c7a2263491a83ddf34f78b146a672",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "hud-stress.png",
+      "sha256": "e00ccf1a6f82cc0c235512dee9d94ce892ade567159ea3a3efac1829304a974d",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "hud-success.png",
+      "sha256": "27645b49800cd7d4d2c1d291be1436c772cf6f9e97a1ca0ab5dcacf7c505e45d",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "layers/foreground.png",
+      "sha256": "0bbd310ecee3e7ba8b8224ecd6341e22899bcb115b67f28dbb43f282052c0ebe",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "layers/ground.png",
+      "sha256": "a0115200580797b907c03a0ea3e281067449d5fe57f3c4bef373b82e2fdd73e3",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "layers/midground.png",
+      "sha256": "4d62ac0726184de2dc250e235eee6710e12c2831f25e38f9ca716e05929a4e8c",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "level-focus-0.png",
+      "sha256": "d934751a64c44973de266c1fead4466fd83c4906f47c4dd326dab9144b5d2761",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "level-focus-1.png",
+      "sha256": "29015f3f6c32e62df3ebd1a2c168cd1b3695e67254a1b840875a450c3bfe4cf6",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "level-focus-2.png",
+      "sha256": "1eb3a2a6c9f86596133c9dd449e900131e636437ff684bf1b8020a8d5f2b6f92",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "level-up-states.png",
+      "sha256": "4e1190728e71361a2c047841d69846fc76175ef085127ef5b1026bbdb6d393c9",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "level-up.png",
+      "sha256": "d934751a64c44973de266c1fead4466fd83c4906f47c4dd326dab9144b5d2761",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "motion-data.js",
+      "sha256": "cf10753b02710d86a2dfaf1ce073b518eae68c0ab2c982ba2a145582a593077e",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "motion-player.html",
+      "sha256": "708e6a789474c51384cf418cdf1ca956a998e012fdc3b486ddd3bdea8d5790b6",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "motion-scene-dense-unlit.png",
+      "sha256": "e63fd89317edcf3322be75efe389f43be771640f131de458276345dea2c62136",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "motion-scene-dense.png",
+      "sha256": "a3fcada326f7f21be30e8024600d22e0bfbbf214e49b81d4d1408cc855d9ddbc",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "motion-scene-max-corruption-unlit.png",
+      "sha256": "ffba479d1b18ea8f55d8a8c75b91ec8598681f39c248f1cc08b8f2a01a5a7741",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "motion-scene-max-corruption.png",
+      "sha256": "707a909ac5eac631673f03a960a3dfca7ef0c14d28cebaf52b460e3bda886597",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "motion-scene-normal-unlit.png",
+      "sha256": "55e2f57b464a8f0e3cbd7c068bf582a71b3129b995079a0a4889a3bd2dec0326",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "motion-scene-normal.png",
+      "sha256": "73ed3e765993ad6aaef9e3e029af35e69a577bea1356ff41e10320f46bec8e69",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/actor-lineup-1x.png",
+      "sha256": "6b0f16929e6c6c6bc5cc9738aaffec161bcb983bac2053643982886b1c833e03",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/actor-lineup-2x.png",
+      "sha256": "94cfc2bd65319403fcc3a99b118ac6e9c35ad13f8e7ef0b169b394c39f36cea4",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/actor-lineup-3x.png",
+      "sha256": "3a917adbb492f561ffa30ba6d5d66e38e2c213745bd7d2675a61e82c6afd9675",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/actors-strip-1x.png",
+      "sha256": "4f56e072616a1aa36f17ffd6db663abb7e36fa872ac334589d0d71929671be2e",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/actors-strip-2x.png",
+      "sha256": "61caeeb7ca1e0c721828e933d26191018fe22ef27a8676cce61af8c286e5882b",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/actors-strip-3x.png",
+      "sha256": "18f4416f677a50ede2b6f6f67d65f9c814cad3f9c12ee44004fa013fa309ec7a",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/battle-hud-1371x779.png",
+      "sha256": "cd2c1005e2658454c5193607a8253209a6ca2a970fcf3d82b07fdad66a00d6d9",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/battle-hud-1x.png",
+      "sha256": "f099bd55af5f7d69e4e66ed0de995fd943b95bafad8554affb433221a0570d92",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/battle-hud-2x.png",
+      "sha256": "3297429cbc06bb79ccba8e17c4f0fa42c199766eba456afc1756cb458485bf9e",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/battle-hud-3x.png",
+      "sha256": "5eae2536b683862bf81a25e2b583ea47ce7929a3e7eb4b5088220792836f7ce0",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/combat-dense-1371x779.png",
+      "sha256": "787f05233bad320a4a8297d4e090a6c556226dc25b0335c2c1e2899f144627f2",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/combat-dense-1x.png",
+      "sha256": "6135142607820f7e4e997664bf18af1aac6ed28cd53d9d04c32714be67b81c83",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/combat-dense-2x.png",
+      "sha256": "242cca1373ed576e840cbf2045f8e2f4d11ac13d0a3a64c6bdfeb1cf1e27f6da",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/combat-dense-3x.png",
+      "sha256": "444f713856d530343c07576854b12f65b9581da64cde36f9febdaac68892b2b4",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/edge-bottom-2x.png",
+      "sha256": "44f356e75d9d1aa37d00ed2c79b400cfc5ab24a4a606e7ff126af19ae2fb6233",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/edge-bottom-3x.png",
+      "sha256": "977e2ea370d1dc132858fdc941a2f13c262e22eda0355d32d0f0d57e215394e4",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/edge-bottom-left-2x.png",
+      "sha256": "10d1c431d4d2ece4602cf29e9a684e67ef78a5b3ad80ad6db8454b78d9b1d26c",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/edge-bottom-left-3x.png",
+      "sha256": "0246f17322db4da2a04cb107d449eadd46c9c2bb62656b939319dc1c7366a103",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/edge-bottom-right-2x.png",
+      "sha256": "5e0efd30276907ee2d36f72a5bbfcb4e4285e7b2691925463ac4c307f3161a96",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/edge-bottom-right-3x.png",
+      "sha256": "1c64723e6cd7bdac3adc8bfc64b42b91a5b9b4b12dfd0a19fbe21d89030f5764",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/edge-left-2x.png",
+      "sha256": "0496e21c4cbe1e660ae00463d398dbaabaaed060e8e7731dd49b996bd01b6ab5",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/edge-left-3x.png",
+      "sha256": "89dfb68b14ebe16bf754fe1dc1ff69acc4aa66bb45cabea4a1a6e771a5de4118",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/edge-right-2x.png",
+      "sha256": "67f8b63ca45920982face13f7c5e60380491500c789fc4b76f0ac1f8c58b580f",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/edge-right-3x.png",
+      "sha256": "ac1f5e4c2924ea193c391eaec9acc3e5a6ed1f5ebb7f189cb35773b52d8fd3b6",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/edge-top-2x.png",
+      "sha256": "5f15c504a023aa22748b42f975a01421b5627644b2f427f4065b99a6a93e40ce",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/edge-top-3x.png",
+      "sha256": "710cf6e5f9ffe8c7e6be66f27bc0ed7c782e1ba20a6b0cb9db09089b8a0cd2fa",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/edge-top-left-2x.png",
+      "sha256": "1c8699b63527f28d779543bb9966c20ef13a935b9c3738a658225c26fd5f8c26",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/edge-top-left-3x.png",
+      "sha256": "2dbfe91f81fa18c3bdf9f0493b77df1f2d21eb424bee80de2767de6793fb2189",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/edge-top-right-2x.png",
+      "sha256": "49e119f045533928988e7c17043d22ea970deb5969706fe4277f6990d95d044a",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/edge-top-right-3x.png",
+      "sha256": "dcce73db2289bc045d2d1326932460d711dd0a4624e05ab0bc490ebf3b28466b",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/effects-strip-1x.png",
+      "sha256": "253c71f500beef1495cc4fdf3584f4d288407e35623149cd1581359169ed75b1",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/effects-strip-2x.png",
+      "sha256": "a99b903ad1982696568dc1807181a78fa8268ab982bb550b3e7cb439182883c8",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/effects-strip-3x.png",
+      "sha256": "0a320e1a41aac2f46bfc3ba02a5b057aee062e610726929bcbdc4e5f1a3ae5f0",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/hud-stress-1371x779.png",
+      "sha256": "d3b41ae6e029a155b5368023a9502ad6909fc8fc9e7e54b2e50bb9af7822cb13",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/hud-stress-1x.png",
+      "sha256": "e00ccf1a6f82cc0c235512dee9d94ce892ade567159ea3a3efac1829304a974d",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/hud-stress-2x.png",
+      "sha256": "21efc4795cbadb3607e86c865f7b9c3ef3a3aca9e188fad7b6b83010c8a3f7f4",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/hud-stress-3x.png",
+      "sha256": "b3187bd4cf1705e658472106199827b5795605d39641424a23128294d1800b3b",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/level-up-1371x779.png",
+      "sha256": "c1e9158d82f4c54895877d053de123f42e996f74bcf6a954810e4094700ef6e5",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/level-up-1x.png",
+      "sha256": "d934751a64c44973de266c1fead4466fd83c4906f47c4dd326dab9144b5d2761",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/level-up-2x.png",
+      "sha256": "c151a1ee75c7ebf850f13e793dcd2eae1302c6306caa72fbd307ebc8eb8e9091",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/level-up-3x.png",
+      "sha256": "4a035487904ab7e9b04ff6828173c1af03f377460448c20592d4b3ed955e5df2",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/level-up-states-1x.png",
+      "sha256": "4e1190728e71361a2c047841d69846fc76175ef085127ef5b1026bbdb6d393c9",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/level-up-states-2x.png",
+      "sha256": "b360964719cb7323c2944e153a793378a16537c4942602e29e9d8ccf8ba2e31b",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/level-up-states-3x.png",
+      "sha256": "016c4e5b6570b4ad18b2f902b55801bb132a97e4d61a569fb7cf868e2c01a981",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/shrine-1371x779.png",
+      "sha256": "194baf61c39100dfdfb9c2c794294ee7092c398319643fa66ca4b5ddafa97c1d",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/shrine-1x.png",
+      "sha256": "c6ef11c252482b40448f7c5faa84126b504e853eee70daa70813dbf55b3dcf80",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/shrine-2x.png",
+      "sha256": "1928f2778d8d37b77b3aff9be52715a36be498ba434b5a1d32ed16d62b1be5b8",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/shrine-3x.png",
+      "sha256": "a71488a0b05f5561543bf744594fe0eeacad893e2c3d06d346c6f886b5dddd53",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/ui-states-1x.png",
+      "sha256": "8a50393762f802219f11fba61841692f6aafb7de4b474b0fda4dbdd12b9de5bf",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/ui-states-2x.png",
+      "sha256": "9c44d3726f5e7499b1e7ce9734d6f078b661404c882a8009cff8582fc1278496",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "scales/ui-states-3x.png",
+      "sha256": "358fe2163446823702afc32bba68f4ecda1d59997e413d3c0714381c98065594",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "shrine-0.png",
+      "sha256": "61156d2163cee683ea05443169497d108380f925820e06c86c7c1a3bae86a591",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "shrine-unlit.png",
+      "sha256": "a8a472b274614b31f1027ea73fd516d07841df84a5f3b4e2b482ec18fd6b8ad0",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "shrine.png",
+      "sha256": "c6ef11c252482b40448f7c5faa84126b504e853eee70daa70813dbf55b3dcf80",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "source/actor-lineup.ora",
+      "sha256": "dce95a590f046ed6825ddb72a2ff48fdcda1c4ca36de53c2e0d7f265b39f4771",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "source/audit_sources.py",
+      "sha256": "57998e7b4e34314c10d5b4bead63a8835add89f1399154a3f63d280bf34a9757",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "source/battle-hud.ora",
+      "sha256": "6b3209496ce2d94b5042a30fc3d5331fa9e7cc551e72547489bbba4f3254f5e8",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "source/build_mockups.py",
+      "sha256": "222320dfdd4d18fba4a28c36c0127d588a55aa806a31f7465c0cb616780b167b",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "source/check_browser.cjs",
+      "sha256": "ffe04b6351dfb5db9d55aa9d2f92479f06be169f9b219c6c124725578bcef201",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "source/effects.ora",
+      "sha256": "c37af988bcdb95df324b55b76985d218c869524c1e424055c5c0b85a3229aca6",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "source/hud-stress.ora",
+      "sha256": "c362f1b89d71c599e5ead71423ce8b18023f4306856bcdecad22fa6af4e574b6",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "source/level-up.ora",
+      "sha256": "d16f778d79ada37740cdb4bb700bef7e20a31cb4657e7c5aa649ca1e0d3bb614",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "source/preview-additions.css",
+      "sha256": "d18fe7ce5362ae64bb3e25b6604c7d0719657ee6655e4e559d90929fe3741e81",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "source/record_motion.cjs",
+      "sha256": "22b9f3069657a28af29e2e4d85a4cb12f6ec4861966e3abfc5801d770ea578ee",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "source/shrine.ora",
+      "sha256": "526f5c764b61aa64f1d3754aa4289c28e9fee3b3da028078938dc10cb4d8e3dd",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "source/update_preview.py",
+      "sha256": "f982c57f17a6c8622b078379471075f7c411703778cd83b9046d66e204aa4ee5",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "source/validate_package.py",
+      "sha256": "30fd71f624311241b9ea4ecf0e621825324189dea2c3b02d79938b5602e4a5e8",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "sprites/aren.png",
+      "sha256": "a2b0ecf595af4905ef9aabae1825b3cb7c1db667fde39997aa8a481f5209c485",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "sprites/brinejaw.png",
+      "sha256": "68b257e101d7435ff98be9dc3510ad1ac33074d7b440953048c97b9fa19693e3",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "sprites/icons-concept.png",
+      "sha256": "3310b10acd39fed313b98e9b63e2d8c9dd769b4ad5b68bd29c50196d50c75fd1",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "sprites/props-concept.png",
+      "sha256": "3401cfadae61f015f911a3fa94d009013ee1bccfc4f2034da80aee7e00ab2d61",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "sprites/star.png",
+      "sha256": "ffd0c70628b4c6ae987f36378763d8c404e475990c65b9b1c54d189525f4fab6",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "sprites/sword.png",
+      "sha256": "2e7392d122a832e22fb30215fd76a0ef575c70b0ce8612a72f6b4bb6aea20263",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "sprites/terrain-concept.png",
+      "sha256": "d8bd0e8494fa9b04a1956c31e2bd9fe4fc6ee81723317a57c6d149254bc69825",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "sprites/thrall.png",
+      "sha256": "fb54a5440bc96518cfd013478985b357642bb714d96c33f4efa8ab90acd0dac7",
+      "status": "PROPOSED / original concept source or export"
+    },
+    {
+      "path": "ui-states.png",
+      "sha256": "8a50393762f802219f11fba61841692f6aafb7de4b474b0fda4dbdd12b9de5bf",
+      "status": "PROPOSED / original concept source or export"
+    }
+  ],
+  "animation_counts": {
+    "aren": 13,
+    "thrall": 6,
+    "brinejaw": 6,
+    "sword": 2,
+    "star": 2
+  },
+  "ora_sources": [
+    {
+      "path": "source/actor-lineup.ora",
+      "layer_count": 4
+    },
+    {
+      "path": "source/battle-hud.ora",
+      "layer_count": 4
+    },
+    {
+      "path": "source/effects.ora",
+      "layer_count": 4
+    },
+    {
+      "path": "source/hud-stress.ora",
+      "layer_count": 4
+    },
+    {
+      "path": "source/level-up.ora",
+      "layer_count": 2
+    },
+    {
+      "path": "source/shrine.ora",
+      "layer_count": 3
+    }
+  ],
+  "motion_files": [
+    "actors-motion.webm",
+    "combat-dense-grayscale.webm",
+    "combat-dense-unlit.webm",
+    "combat-dense.webm",
+    "combat-directions.webm",
+    "combat-max-grayscale.webm",
+    "combat-max-unlit.webm",
+    "combat-max.webm",
+    "combat-motion.webm",
+    "combat-normal-grayscale.webm",
+    "combat-normal-unlit.webm",
+    "effects-motion.webm",
+    "event-sampling.webm"
+  ],
+  "review_documents": [
+    {
+      "path": "README.md",
+      "sha256": "28e3cc3f271e639dd4e73862cb6de0ef4192c82cab868f522aaf56cb519e0c8c"
+    },
+    {
+      "path": "docs/IMPLEMENTATION_OVERVIEW.md",
+      "sha256": "d90792623bcb754618c71db8ab567a1aea3bfc5428a91c3a97d3010f158f6a0a"
+    },
+    {
+      "path": "docs/visual-design/ART_DIRECTION.md",
+      "sha256": "d6a1f8edda4ea8df0d47d26421494297a6b69d101a8a1890e50e548c7eb062ca"
+    },
+    {
+      "path": "docs/visual-design/SPRITE_SPEC.md",
+      "sha256": "cb7ddaf7b8b87eecc0b272b2ef732771778612623e763fe689763111c9e0dc82"
+    },
+    {
+      "path": "docs/visual-design/ANIMATION_REQUIREMENTS.md",
+      "sha256": "987324f07a9ddd2acd097256106081badc03277f21065f2b29cdedfb0d112256"
+    },
+    {
+      "path": "docs/visual-design/ASSET_INVENTORY.md",
+      "sha256": "26942f01e404a85047c0dbc624810b37c076ffb87b98474f6bc5ae7291a5be48"
+    },
+    {
+      "path": "docs/visual-design/UI_DESIGN.md",
+      "sha256": "1ecf868362cbbeda10cbe5f04197795ff0ff70cc2a420a26b4a15e3f5becb8a7"
+    },
+    {
+      "path": "docs/visual-design/APPROVALS.md",
+      "sha256": "f5b198e3fc719b82f608ca2796b9e747af521e061a3e540ac828cead6bc723ad"
+    },
+    {
+      "path": "specs/002-2d-art-direction/visual-audit.md",
+      "sha256": "87cfa071fc821145c6c01d2defec4403da7bfa32011905b2f43aa7b581a872a2"
+    },
+    {
+      "path": "specs/002-2d-art-direction/visual-audit.zh-CN.md",
+      "sha256": "56a77a67e6df3b4f595bcd1be9aab521aab442beef8d815d3e4d340d96e357bb"
+    },
+    {
+      "path": "docs/validation/visual-vd01/phase-1.md",
+      "sha256": "be33ac90e8595b17c24490b7226b8ac3cda79f14b9ff2e6bb6a26ab07b3a7344"
+    },
+    {
+      "path": "docs/validation/visual-vd01/phase-2.md",
+      "sha256": "913aab7b2c6d301bba9108848949d5cf41e7dc60d7130af18f224210f89ed7d7"
+    },
+    {
+      "path": "docs/validation/visual-vd01/phase-3.md",
+      "sha256": "d20e1eee69da42d3db70edf13871f3f1ce538ecc0e49ee9ad9c2875b6b17ff90"
+    },
+    {
+      "path": "docs/visual-design/preview.html",
+      "sha256": "98a810114b70c56a5be1d2f0387ddf56ed30d4bdf303271a58f0c2a56aa57d1e"
+    },
+    {
+      "path": "docs/visual-design/preview.js",
+      "sha256": "71c2f902879d339d73cd554adcaa29d03191d6c7e54ab2035767ec47b17039c7"
+    },
+    {
+      "path": "specs/002-2d-art-direction/plan.md",
+      "sha256": "99cc016f9d8dd308ac5f2fa3de3293e9ce93de6d1e048ffd6ccb7d529dcb58ef"
+    },
+    {
+      "path": "specs/002-2d-art-direction/tasks.md",
+      "sha256": "7fb5421ca5016a13c2698dccfed0498c20dddb478cc3191f3877067a22ca7b50"
+    },
+    {
+      "path": "docs/validation/visual-vd01/recognition-protocol.json",
+      "sha256": "0a12cd7d77be3d6538bb1120eb93c568e8605a1d684dd598281a920c07bd97ac"
+    },
+    {
+      "path": "docs/validation/visual-vd01/audit-baseline.json",
+      "sha256": "aed5807a2ac3835844f1d40ce4332711bf39314181bd196bd1a58685ee20718d"
+    },
+    {
+      "path": "docs/validation/visual-vd01/motion-recording.json",
+      "sha256": "69defbf12f99b2b9a7f6783623a1a43a484e60f40cb83565d50d578f083eceac"
+    },
+    {
+      "path": "docs/validation/visual-vd01/browser-checks.json",
+      "sha256": "7aaea9bed7cb13fd2f60f0206e7051c19fb26498fed74f1d2034515c467fee93"
+    }
+  ],
+  "review_document_hash_note": "Executed checker output and package-sha256.txt are external evidence, excluded to avoid recursive self-hashing. Approval decisions remain pending."
+}

@@ -1,0 +1,1080 @@
+{
+  "failures": [],
+  "limits": "Display-only error/long-path states, no save I/O. Tooltip absence/geometry remains a recorded finding, not silently passed. Existing10/11px out-of-slice labels remain unchanged. Not a natural manual session.",
+  "records": [
+    {
+      "full_path_preserved": true,
+      "kind": "REAL native renderer; explicitly synthetic display fixture; no save or retry executed",
+      "labels": [
+        {
+          "font_size": 20,
+          "rect": [
+            65.0,
+            62.0,
+            510.0,
+            28.0
+          ],
+          "text": "PROGRESS NEEDS ATTENTION"
+        },
+        {
+          "font_size": 12,
+          "rect": [
+            65.0,
+            97.0,
+            510.0,
+            37.0
+          ],
+          "text": "Synthetic review fixture: storage unavailable. Pending results must remain intact until Retry succeeds."
+        },
+        {
+          "font_size": 10,
+          "rect": [
+            65.0,
+            141.0,
+            510.0,
+            65.0
+          ],
+          "text": "Save location: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/"
+        },
+        {
+          "font_size": 11,
+          "rect": [
+            65.0,
+            213.0,
+            510.0,
+            16.0
+          ],
+          "text": "This action is pending. Retry saves the same result once."
+        }
+      ],
+      "name": "save-save-blocked-1280",
+      "panel_inside_viewport": true,
+      "panel_rect": [
+        45.0,
+        48.0,
+        550.0,
+        263.0
+      ],
+      "root_characters": 360,
+      "window": [
+        1280,
+        720
+      ],
+      "writer_state": "save-blocked",
+      "writes_attempted": false
+    },
+    {
+      "full_path_preserved": true,
+      "kind": "REAL native renderer; explicitly synthetic display fixture; no save or retry executed",
+      "labels": [
+        {
+          "font_size": 20,
+          "rect": [
+            65.0,
+            62.0,
+            510.0,
+            28.0
+          ],
+          "text": "PROGRESS NEEDS ATTENTION"
+        },
+        {
+          "font_size": 12,
+          "rect": [
+            65.0,
+            97.0,
+            510.0,
+            37.0
+          ],
+          "text": "Synthetic review fixture: storage unavailable. Pending results must remain intact until Retry succeeds."
+        },
+        {
+          "font_size": 10,
+          "rect": [
+            65.0,
+            141.0,
+            510.0,
+            65.0
+          ],
+          "text": "Save location: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/"
+        },
+        {
+          "font_size": 11,
+          "rect": [
+            65.0,
+            213.0,
+            510.0,
+            16.0
+          ],
+          "text": "Recovery is safe only after ALL other game instances are closed."
+        }
+      ],
+      "name": "save-locked-1280",
+      "panel_inside_viewport": true,
+      "panel_rect": [
+        45.0,
+        48.0,
+        550.0,
+        263.0
+      ],
+      "root_characters": 360,
+      "window": [
+        1280,
+        720
+      ],
+      "writer_state": "locked",
+      "writes_attempted": false
+    },
+    {
+      "full_path_preserved": true,
+      "kind": "REAL native renderer; explicitly synthetic display fixture; no save or retry executed",
+      "labels": [
+        {
+          "font_size": 20,
+          "rect": [
+            65.0,
+            74.0,
+            510.0,
+            28.0
+          ],
+          "text": "PROGRESS NEEDS ATTENTION"
+        },
+        {
+          "font_size": 12,
+          "rect": [
+            65.0,
+            109.0,
+            510.0,
+            37.0
+          ],
+          "text": "Synthetic review fixture: storage unavailable. Pending results must remain intact until Retry succeeds."
+        },
+        {
+          "font_size": 10,
+          "rect": [
+            65.0,
+            153.0,
+            510.0,
+            65.0
+          ],
+          "text": "Save location: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/"
+        }
+      ],
+      "name": "save-load-blocked-1280",
+      "panel_inside_viewport": true,
+      "panel_rect": [
+        45.0,
+        60.0,
+        550.0,
+        240.0
+      ],
+      "root_characters": 360,
+      "window": [
+        1280,
+        720
+      ],
+      "writer_state": "load-blocked",
+      "writes_attempted": false
+    },
+    {
+      "full_path_preserved": true,
+      "kind": "REAL native renderer; explicitly synthetic display fixture; no save or retry executed",
+      "labels": [
+        {
+          "font_size": 20,
+          "rect": [
+            65.0,
+            45.0,
+            510.0,
+            28.0
+          ],
+          "text": "PROGRESS NEEDS ATTENTION"
+        },
+        {
+          "font_size": 12,
+          "rect": [
+            65.0,
+            80.0,
+            510.0,
+            37.0
+          ],
+          "text": "Synthetic review fixture: storage unavailable. Pending results must remain intact until Retry succeeds."
+        },
+        {
+          "font_size": 10,
+          "rect": [
+            65.0,
+            124.0,
+            510.0,
+            65.0
+          ],
+          "text": "Save location: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/"
+        },
+        {
+          "font_size": 11,
+          "rect": [
+            65.0,
+            230.0,
+            510.0,
+            16.0
+          ],
+          "text": "A new profile loses existing progress. Damaged files are kept."
+        }
+      ],
+      "name": "save-recovery-required-1280",
+      "panel_inside_viewport": true,
+      "panel_rect": [
+        45.0,
+        31.0,
+        550.0,
+        297.0
+      ],
+      "root_characters": 360,
+      "window": [
+        1280,
+        720
+      ],
+      "writer_state": "recovery-required",
+      "writes_attempted": false
+    },
+    {
+      "bounds_in_640x360": true,
+      "embedded_subwindows": true,
+      "engine_owned_placement": true,
+      "hovered_control": "/root/action_button",
+      "kind": "REAL native renderer; explicitly synthetic display fixture; no save or retry executed",
+      "labels": [
+        {
+          "font_size": 12,
+          "rect": [
+            9.0,
+            3.0,
+            240.0,
+            57.0
+          ],
+          "text": "Unavailable while another action is pending. Retry preserves the same result without spending again."
+        }
+      ],
+      "name": "tooltip-corner-0-1280",
+      "tooltip_observed": true,
+      "tooltip_rect": [
+        58.0,
+        33.0,
+        258.0,
+        63.0
+      ],
+      "window": [
+        1280,
+        720
+      ]
+    },
+    {
+      "bounds_in_640x360": true,
+      "embedded_subwindows": true,
+      "engine_owned_placement": true,
+      "hovered_control": "/root/action_button",
+      "kind": "REAL native renderer; explicitly synthetic display fixture; no save or retry executed",
+      "labels": [
+        {
+          "font_size": 12,
+          "rect": [
+            9.0,
+            3.0,
+            240.0,
+            57.0
+          ],
+          "text": "Unavailable while another action is pending. Retry preserves the same result without spending again."
+        }
+      ],
+      "name": "tooltip-corner-1-1280",
+      "tooltip_observed": true,
+      "tooltip_rect": [
+        322.0,
+        33.0,
+        258.0,
+        63.0
+      ],
+      "window": [
+        1280,
+        720
+      ]
+    },
+    {
+      "bounds_in_640x360": true,
+      "embedded_subwindows": true,
+      "engine_owned_placement": true,
+      "hovered_control": "/root/action_button",
+      "kind": "REAL native renderer; explicitly synthetic display fixture; no save or retry executed",
+      "labels": [
+        {
+          "font_size": 12,
+          "rect": [
+            9.0,
+            3.0,
+            240.0,
+            57.0
+          ],
+          "text": "Unavailable while another action is pending. Retry preserves the same result without spending again."
+        }
+      ],
+      "name": "tooltip-corner-2-1280",
+      "tooltip_observed": true,
+      "tooltip_rect": [
+        58.0,
+        264.0,
+        258.0,
+        63.0
+      ],
+      "window": [
+        1280,
+        720
+      ]
+    },
+    {
+      "bounds_in_640x360": true,
+      "embedded_subwindows": true,
+      "engine_owned_placement": true,
+      "hovered_control": "/root/action_button",
+      "kind": "REAL native renderer; explicitly synthetic display fixture; no save or retry executed",
+      "labels": [
+        {
+          "font_size": 12,
+          "rect": [
+            9.0,
+            3.0,
+            240.0,
+            57.0
+          ],
+          "text": "Unavailable while another action is pending. Retry preserves the same result without spending again."
+        }
+      ],
+      "name": "tooltip-corner-3-1280",
+      "tooltip_observed": true,
+      "tooltip_rect": [
+        322.0,
+        264.0,
+        258.0,
+        63.0
+      ],
+      "window": [
+        1280,
+        720
+      ]
+    },
+    {
+      "full_path_preserved": true,
+      "kind": "REAL native renderer; explicitly synthetic display fixture; no save or retry executed",
+      "labels": [
+        {
+          "font_size": 20,
+          "rect": [
+            65.0,
+            62.0,
+            510.0,
+            28.0
+          ],
+          "text": "PROGRESS NEEDS ATTENTION"
+        },
+        {
+          "font_size": 12,
+          "rect": [
+            65.0,
+            97.0,
+            510.0,
+            37.0
+          ],
+          "text": "Synthetic review fixture: storage unavailable. Pending results must remain intact until Retry succeeds."
+        },
+        {
+          "font_size": 10,
+          "rect": [
+            65.0,
+            141.0,
+            510.0,
+            65.0
+          ],
+          "text": "Save location: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/"
+        },
+        {
+          "font_size": 11,
+          "rect": [
+            65.0,
+            213.0,
+            510.0,
+            16.0
+          ],
+          "text": "This action is pending. Retry saves the same result once."
+        }
+      ],
+      "name": "save-save-blocked-1920",
+      "panel_inside_viewport": true,
+      "panel_rect": [
+        45.0,
+        48.0,
+        550.0,
+        263.0
+      ],
+      "root_characters": 360,
+      "window": [
+        1920,
+        1080
+      ],
+      "writer_state": "save-blocked",
+      "writes_attempted": false
+    },
+    {
+      "full_path_preserved": true,
+      "kind": "REAL native renderer; explicitly synthetic display fixture; no save or retry executed",
+      "labels": [
+        {
+          "font_size": 20,
+          "rect": [
+            65.0,
+            62.0,
+            510.0,
+            28.0
+          ],
+          "text": "PROGRESS NEEDS ATTENTION"
+        },
+        {
+          "font_size": 12,
+          "rect": [
+            65.0,
+            97.0,
+            510.0,
+            37.0
+          ],
+          "text": "Synthetic review fixture: storage unavailable. Pending results must remain intact until Retry succeeds."
+        },
+        {
+          "font_size": 10,
+          "rect": [
+            65.0,
+            141.0,
+            510.0,
+            65.0
+          ],
+          "text": "Save location: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/"
+        },
+        {
+          "font_size": 11,
+          "rect": [
+            65.0,
+            213.0,
+            510.0,
+            16.0
+          ],
+          "text": "Recovery is safe only after ALL other game instances are closed."
+        }
+      ],
+      "name": "save-locked-1920",
+      "panel_inside_viewport": true,
+      "panel_rect": [
+        45.0,
+        48.0,
+        550.0,
+        263.0
+      ],
+      "root_characters": 360,
+      "window": [
+        1920,
+        1080
+      ],
+      "writer_state": "locked",
+      "writes_attempted": false
+    },
+    {
+      "full_path_preserved": true,
+      "kind": "REAL native renderer; explicitly synthetic display fixture; no save or retry executed",
+      "labels": [
+        {
+          "font_size": 20,
+          "rect": [
+            65.0,
+            74.0,
+            510.0,
+            28.0
+          ],
+          "text": "PROGRESS NEEDS ATTENTION"
+        },
+        {
+          "font_size": 12,
+          "rect": [
+            65.0,
+            109.0,
+            510.0,
+            37.0
+          ],
+          "text": "Synthetic review fixture: storage unavailable. Pending results must remain intact until Retry succeeds."
+        },
+        {
+          "font_size": 10,
+          "rect": [
+            65.0,
+            153.0,
+            510.0,
+            65.0
+          ],
+          "text": "Save location: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/"
+        }
+      ],
+      "name": "save-load-blocked-1920",
+      "panel_inside_viewport": true,
+      "panel_rect": [
+        45.0,
+        60.0,
+        550.0,
+        240.0
+      ],
+      "root_characters": 360,
+      "window": [
+        1920,
+        1080
+      ],
+      "writer_state": "load-blocked",
+      "writes_attempted": false
+    },
+    {
+      "full_path_preserved": true,
+      "kind": "REAL native renderer; explicitly synthetic display fixture; no save or retry executed",
+      "labels": [
+        {
+          "font_size": 20,
+          "rect": [
+            65.0,
+            45.0,
+            510.0,
+            28.0
+          ],
+          "text": "PROGRESS NEEDS ATTENTION"
+        },
+        {
+          "font_size": 12,
+          "rect": [
+            65.0,
+            80.0,
+            510.0,
+            37.0
+          ],
+          "text": "Synthetic review fixture: storage unavailable. Pending results must remain intact until Retry succeeds."
+        },
+        {
+          "font_size": 10,
+          "rect": [
+            65.0,
+            124.0,
+            510.0,
+            65.0
+          ],
+          "text": "Save location: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/"
+        },
+        {
+          "font_size": 11,
+          "rect": [
+            65.0,
+            230.0,
+            510.0,
+            16.0
+          ],
+          "text": "A new profile loses existing progress. Damaged files are kept."
+        }
+      ],
+      "name": "save-recovery-required-1920",
+      "panel_inside_viewport": true,
+      "panel_rect": [
+        45.0,
+        31.0,
+        550.0,
+        297.0
+      ],
+      "root_characters": 360,
+      "window": [
+        1920,
+        1080
+      ],
+      "writer_state": "recovery-required",
+      "writes_attempted": false
+    },
+    {
+      "bounds_in_640x360": true,
+      "embedded_subwindows": true,
+      "engine_owned_placement": true,
+      "hovered_control": "/root/action_button",
+      "kind": "REAL native renderer; explicitly synthetic display fixture; no save or retry executed",
+      "labels": [
+        {
+          "font_size": 12,
+          "rect": [
+            9.0,
+            3.0,
+            240.0,
+            57.0
+          ],
+          "text": "Unavailable while another action is pending. Retry preserves the same result without spending again."
+        }
+      ],
+      "name": "tooltip-corner-0-1920",
+      "tooltip_observed": true,
+      "tooltip_rect": [
+        58.0,
+        33.0,
+        258.0,
+        63.0
+      ],
+      "window": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "bounds_in_640x360": true,
+      "embedded_subwindows": true,
+      "engine_owned_placement": true,
+      "hovered_control": "/root/action_button",
+      "kind": "REAL native renderer; explicitly synthetic display fixture; no save or retry executed",
+      "labels": [
+        {
+          "font_size": 12,
+          "rect": [
+            9.0,
+            3.0,
+            240.0,
+            57.0
+          ],
+          "text": "Unavailable while another action is pending. Retry preserves the same result without spending again."
+        }
+      ],
+      "name": "tooltip-corner-1-1920",
+      "tooltip_observed": true,
+      "tooltip_rect": [
+        322.0,
+        33.0,
+        258.0,
+        63.0
+      ],
+      "window": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "bounds_in_640x360": true,
+      "embedded_subwindows": true,
+      "engine_owned_placement": true,
+      "hovered_control": "/root/action_button",
+      "kind": "REAL native renderer; explicitly synthetic display fixture; no save or retry executed",
+      "labels": [
+        {
+          "font_size": 12,
+          "rect": [
+            9.0,
+            3.0,
+            240.0,
+            57.0
+          ],
+          "text": "Unavailable while another action is pending. Retry preserves the same result without spending again."
+        }
+      ],
+      "name": "tooltip-corner-2-1920",
+      "tooltip_observed": true,
+      "tooltip_rect": [
+        58.0,
+        264.0,
+        258.0,
+        63.0
+      ],
+      "window": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "bounds_in_640x360": true,
+      "embedded_subwindows": true,
+      "engine_owned_placement": true,
+      "hovered_control": "/root/action_button",
+      "kind": "REAL native renderer; explicitly synthetic display fixture; no save or retry executed",
+      "labels": [
+        {
+          "font_size": 12,
+          "rect": [
+            9.0,
+            3.0,
+            240.0,
+            57.0
+          ],
+          "text": "Unavailable while another action is pending. Retry preserves the same result without spending again."
+        }
+      ],
+      "name": "tooltip-corner-3-1920",
+      "tooltip_observed": true,
+      "tooltip_rect": [
+        322.0,
+        264.0,
+        258.0,
+        63.0
+      ],
+      "window": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "full_path_preserved": true,
+      "kind": "REAL native renderer; explicitly synthetic display fixture; no save or retry executed",
+      "labels": [
+        {
+          "font_size": 20,
+          "rect": [
+            65.0,
+            62.0,
+            510.0,
+            28.0
+          ],
+          "text": "PROGRESS NEEDS ATTENTION"
+        },
+        {
+          "font_size": 12,
+          "rect": [
+            65.0,
+            97.0,
+            510.0,
+            37.0
+          ],
+          "text": "Synthetic review fixture: storage unavailable. Pending results must remain intact until Retry succeeds."
+        },
+        {
+          "font_size": 10,
+          "rect": [
+            65.0,
+            141.0,
+            510.0,
+            65.0
+          ],
+          "text": "Save location: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/"
+        },
+        {
+          "font_size": 11,
+          "rect": [
+            65.0,
+            213.0,
+            510.0,
+            16.0
+          ],
+          "text": "This action is pending. Retry saves the same result once."
+        }
+      ],
+      "name": "save-save-blocked-1371",
+      "panel_inside_viewport": true,
+      "panel_rect": [
+        45.0,
+        48.0,
+        550.0,
+        263.0
+      ],
+      "root_characters": 360,
+      "window": [
+        1371,
+        779
+      ],
+      "writer_state": "save-blocked",
+      "writes_attempted": false
+    },
+    {
+      "full_path_preserved": true,
+      "kind": "REAL native renderer; explicitly synthetic display fixture; no save or retry executed",
+      "labels": [
+        {
+          "font_size": 20,
+          "rect": [
+            65.0,
+            62.0,
+            510.0,
+            28.0
+          ],
+          "text": "PROGRESS NEEDS ATTENTION"
+        },
+        {
+          "font_size": 12,
+          "rect": [
+            65.0,
+            97.0,
+            510.0,
+            37.0
+          ],
+          "text": "Synthetic review fixture: storage unavailable. Pending results must remain intact until Retry succeeds."
+        },
+        {
+          "font_size": 10,
+          "rect": [
+            65.0,
+            141.0,
+            510.0,
+            65.0
+          ],
+          "text": "Save location: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/"
+        },
+        {
+          "font_size": 11,
+          "rect": [
+            65.0,
+            213.0,
+            510.0,
+            16.0
+          ],
+          "text": "Recovery is safe only after ALL other game instances are closed."
+        }
+      ],
+      "name": "save-locked-1371",
+      "panel_inside_viewport": true,
+      "panel_rect": [
+        45.0,
+        48.0,
+        550.0,
+        263.0
+      ],
+      "root_characters": 360,
+      "window": [
+        1371,
+        779
+      ],
+      "writer_state": "locked",
+      "writes_attempted": false
+    },
+    {
+      "full_path_preserved": true,
+      "kind": "REAL native renderer; explicitly synthetic display fixture; no save or retry executed",
+      "labels": [
+        {
+          "font_size": 20,
+          "rect": [
+            65.0,
+            74.0,
+            510.0,
+            28.0
+          ],
+          "text": "PROGRESS NEEDS ATTENTION"
+        },
+        {
+          "font_size": 12,
+          "rect": [
+            65.0,
+            109.0,
+            510.0,
+            37.0
+          ],
+          "text": "Synthetic review fixture: storage unavailable. Pending results must remain intact until Retry succeeds."
+        },
+        {
+          "font_size": 10,
+          "rect": [
+            65.0,
+            153.0,
+            510.0,
+            65.0
+          ],
+          "text": "Save location: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/"
+        }
+      ],
+      "name": "save-load-blocked-1371",
+      "panel_inside_viewport": true,
+      "panel_rect": [
+        45.0,
+        60.0,
+        550.0,
+        240.0
+      ],
+      "root_characters": 360,
+      "window": [
+        1371,
+        779
+      ],
+      "writer_state": "load-blocked",
+      "writes_attempted": false
+    },
+    {
+      "full_path_preserved": true,
+      "kind": "REAL native renderer; explicitly synthetic display fixture; no save or retry executed",
+      "labels": [
+        {
+          "font_size": 20,
+          "rect": [
+            65.0,
+            45.0,
+            510.0,
+            28.0
+          ],
+          "text": "PROGRESS NEEDS ATTENTION"
+        },
+        {
+          "font_size": 12,
+          "rect": [
+            65.0,
+            80.0,
+            510.0,
+            37.0
+          ],
+          "text": "Synthetic review fixture: storage unavailable. Pending results must remain intact until Retry succeeds."
+        },
+        {
+          "font_size": 10,
+          "rect": [
+            65.0,
+            124.0,
+            510.0,
+            65.0
+          ],
+          "text": "Save location: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/coastal-expedition-profile-recovery/"
+        },
+        {
+          "font_size": 11,
+          "rect": [
+            65.0,
+            230.0,
+            510.0,
+            16.0
+          ],
+          "text": "A new profile loses existing progress. Damaged files are kept."
+        }
+      ],
+      "name": "save-recovery-required-1371",
+      "panel_inside_viewport": true,
+      "panel_rect": [
+        45.0,
+        31.0,
+        550.0,
+        297.0
+      ],
+      "root_characters": 360,
+      "window": [
+        1371,
+        779
+      ],
+      "writer_state": "recovery-required",
+      "writes_attempted": false
+    },
+    {
+      "bounds_in_640x360": true,
+      "embedded_subwindows": true,
+      "engine_owned_placement": true,
+      "hovered_control": "/root/action_button",
+      "kind": "REAL native renderer; explicitly synthetic display fixture; no save or retry executed",
+      "labels": [
+        {
+          "font_size": 12,
+          "rect": [
+            9.0,
+            3.0,
+            240.0,
+            57.0
+          ],
+          "text": "Unavailable while another action is pending. Retry preserves the same result without spending again."
+        }
+      ],
+      "name": "tooltip-corner-0-1371",
+      "tooltip_observed": true,
+      "tooltip_rect": [
+        58.0,
+        33.0,
+        258.0,
+        63.0
+      ],
+      "window": [
+        1371,
+        779
+      ]
+    },
+    {
+      "bounds_in_640x360": true,
+      "embedded_subwindows": true,
+      "engine_owned_placement": true,
+      "hovered_control": "/root/action_button",
+      "kind": "REAL native renderer; explicitly synthetic display fixture; no save or retry executed",
+      "labels": [
+        {
+          "font_size": 12,
+          "rect": [
+            9.0,
+            3.0,
+            240.0,
+            57.0
+          ],
+          "text": "Unavailable while another action is pending. Retry preserves the same result without spending again."
+        }
+      ],
+      "name": "tooltip-corner-1-1371",
+      "tooltip_observed": true,
+      "tooltip_rect": [
+        322.0,
+        33.0,
+        258.0,
+        63.0
+      ],
+      "window": [
+        1371,
+        779
+      ]
+    },
+    {
+      "bounds_in_640x360": true,
+      "embedded_subwindows": true,
+      "engine_owned_placement": true,
+      "hovered_control": "/root/action_button",
+      "kind": "REAL native renderer; explicitly synthetic display fixture; no save or retry executed",
+      "labels": [
+        {
+          "font_size": 12,
+          "rect": [
+            9.0,
+            3.0,
+            240.0,
+            57.0
+          ],
+          "text": "Unavailable while another action is pending. Retry preserves the same result without spending again."
+        }
+      ],
+      "name": "tooltip-corner-2-1371",
+      "tooltip_observed": true,
+      "tooltip_rect": [
+        58.0,
+        264.0,
+        258.0,
+        63.0
+      ],
+      "window": [
+        1371,
+        779
+      ]
+    },
+    {
+      "bounds_in_640x360": true,
+      "embedded_subwindows": true,
+      "engine_owned_placement": true,
+      "hovered_control": "/root/action_button",
+      "kind": "REAL native renderer; explicitly synthetic display fixture; no save or retry executed",
+      "labels": [
+        {
+          "font_size": 12,
+          "rect": [
+            9.0,
+            3.0,
+            240.0,
+            57.0
+          ],
+          "text": "Unavailable while another action is pending. Retry preserves the same result without spending again."
+        }
+      ],
+      "name": "tooltip-corner-3-1371",
+      "tooltip_observed": true,
+      "tooltip_rect": [
+        322.0,
+        264.0,
+        258.0,
+        63.0
+      ],
+      "window": [
+        1371,
+        779
+      ]
+    }
+  ]
+}

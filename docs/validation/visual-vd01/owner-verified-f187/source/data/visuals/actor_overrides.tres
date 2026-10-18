@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="ActorVisualOverride" load_steps=8 format=3]
+[ext_resource type="Script" path="res://scripts/data/actor_visual_override.gd" id="1"]
+[ext_resource type="Resource" path="res://data/visuals/aren_vd01.tres" id="2"]
+[ext_resource type="Resource" path="res://data/visuals/thrall_vd01.tres" id="3"]
+[ext_resource type="Resource" path="res://data/visuals/brinejaw_vd01.tres" id="4"]
+[sub_resource type="Resource" id="aren"]
+script = ExtResource("1")
+id = &"aren_mapping"
+selector_kind = "hero"
+definition_id = &"aren"
+profession_id = &"swordsman"
+visual_set = ExtResource("2")
+[sub_resource type="Resource" id="thrall"]
+script = ExtResource("1")
+id = &"thrall_mapping"
+selector_kind = "enemy"
+definition_id = &"saltbound_thrall"
+visual_set = ExtResource("3")
+[sub_resource type="Resource" id="brinejaw"]
+script = ExtResource("1")
+id = &"brinejaw_mapping"
+selector_kind = "enemy"
+definition_id = &"skittering_brinejaw"
+visual_set = ExtResource("4")
+[resource]
+script = ExtResource("1")
+id = &"vd01_overrides"
+entries = Array[Resource]([SubResource("aren"), SubResource("thrall"), SubResource("brinejaw")])

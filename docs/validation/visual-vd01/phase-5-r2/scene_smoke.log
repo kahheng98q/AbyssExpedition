@@ -1,0 +1,17 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+
+Profile storage: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/scene-app-949369/
+FIXTURE test_visual_ui
+SUITE scene_smoke: 155 assertions; 2 failures; 0 skipped
+SCRIPT ERROR: Invalid access to property or key 'catalog' on a base object of type 'Dictionary'.
+   at: sync_sprite (res://scripts/combat/actor_presentation.gd:20)
+   GDScript backtrace (most recent call first):
+       [0] sync_sprite (res://scripts/combat/actor_presentation.gd:20)
+       [1] _process (res://scripts/combat/actor_presentation.gd:10)
+SCRIPT ERROR: Invalid access to property or key 'catalog' on a base object of type 'Dictionary'.
+   at: sync_sprite (res://scripts/combat/actor_presentation.gd:20)
+   GDScript backtrace (most recent call first):
+       [0] sync_sprite (res://scripts/combat/actor_presentation.gd:20)
+       [1] _process (res://scripts/combat/actor_presentation.gd:10)
+FAIL: engine/script error: res://scripts/combat/actor_presentation.gd:20 Invalid access to property or key 'catalog' on a base object of type 'Dictionary'. 
+FAIL: engine/script error: res://scripts/combat/actor_presentation.gd:20 Invalid access to property or key 'catalog' on a base object of type 'Dictionary'. 

@@ -1,0 +1,2621 @@
+[
+  {
+    "role": "release",
+    "frames": [
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0000.png",
+        "sha256": "a716d18b9e0a39f46075b4febb8090f97fad4887acc273bde4d5ca3d472a87f2",
+        "elapsed_usec": 62862,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0001.png",
+        "sha256": "0fff1c8a1e2f154a07d2ef71c00c040cbfbf9757cd963fb1ead0d5bcd458dfac",
+        "elapsed_usec": 112902,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0002.png",
+        "sha256": "92cab430bfcbf31130099afc14c793f09957647fc04826375bd22fe2f199b8e3",
+        "elapsed_usec": 162857,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0003.png",
+        "sha256": "162e91bbf2acae11c117c550a30b3e8e4ae46f365dc8a2b2397b73f168b70013",
+        "elapsed_usec": 212862,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0004.png",
+        "sha256": "1f2b3e32e27c6eef4de113fcdeb645c6535f39a660c4221f19cfb74f6071c5d1",
+        "elapsed_usec": 262830,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0005.png",
+        "sha256": "984fb9c3dcb6f6b80ee129a215f40f2374ad82b7fe51e69d5676d0829b3cc4d5",
+        "elapsed_usec": 312835,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0006.png",
+        "sha256": "faa92533a100f17774ee26396bd1b9cb065faf67ec444ff30b967e46a593b0f7",
+        "elapsed_usec": 362852,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0007.png",
+        "sha256": "81c48ccf67f88f5d98946d30fea62bf9ee1485b6e49baa36d3ad472b9ccb04ed",
+        "elapsed_usec": 412927,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0008.png",
+        "sha256": "0f97f776a7dad79a387804da2895ed89d9455a618fdbcb4075656969ec5d61a3",
+        "elapsed_usec": 462934,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0009.png",
+        "sha256": "06c6fbf9c7f0a6ab22a0643b761e7976d200ed133176eadcc4a58c6af475a8dd",
+        "elapsed_usec": 512981,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0010.png",
+        "sha256": "47337e44bcc5ef43165cd05bd9dc829e341df4cbed157cbb478c03a16cdb1e97",
+        "elapsed_usec": 562952,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0011.png",
+        "sha256": "65e9dc0e1f7f4aba0a582f7354d549b4f49934a7ab90fee9fb04c8e841f19cc8",
+        "elapsed_usec": 612937,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0012.png",
+        "sha256": "5f61923ba4c12a40b6bcf72a144cd22eba7e767750d53eb20695ce7817ba90eb",
+        "elapsed_usec": 662952,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0013.png",
+        "sha256": "d66d57d62316e31617aa707bc49d11fba3f9e44c1d4b9671354c8a0195b802e6",
+        "elapsed_usec": 712883,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0014.png",
+        "sha256": "f7a3f5ebdc20e9888a89a973953fa127671f074bfd8c39052660638d18ad1da9",
+        "elapsed_usec": 762951,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0015.png",
+        "sha256": "a40e7bc71b16b80db110fee0845327f750a5d6b0e1fdef61a92a68a2c34f959b",
+        "elapsed_usec": 813106,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0016.png",
+        "sha256": "91eee62fe4cf47f0787b0bdd8be4784b1b3ae886ae8f5134e26dadf99d3ad851",
+        "elapsed_usec": 829480,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0017.png",
+        "sha256": "255d72d4d3ca10bf3dbc27ece1abef1f9d6a3301df3565dbd7af4ffed5166ee8",
+        "elapsed_usec": 879569,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0018.png",
+        "sha256": "71377ef486c0cc733266f7cf21acea69349b80a2f57c8cee7465598d4b0467f1",
+        "elapsed_usec": 929577,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0019.png",
+        "sha256": "3a40dc563659aa47c81372054e03dc9e86a1960a26617a160dcc05bdfefa5c98",
+        "elapsed_usec": 979575,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0020.png",
+        "sha256": "a573830aa08105f21c4c5becd3e6d80e5c6503aee35258f0df3f8790de8b36c3",
+        "elapsed_usec": 1029565,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0021.png",
+        "sha256": "a6d78ce2a546e77d19abdacd13f99597b51b3107f2d8bf9e739405fef01a312e",
+        "elapsed_usec": 1079573,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0022.png",
+        "sha256": "ac27daf28babd9c56b14b1bedf5c9ad7927d45da883b1c937967bb47a899eaeb",
+        "elapsed_usec": 1129575,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0023.png",
+        "sha256": "cb5353e4f4e2d69f7d3864361dd3d30b660a159248e1a2b64f48ba5ebae5e2a4",
+        "elapsed_usec": 1179568,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0024.png",
+        "sha256": "1f65c03e6ae3dcb9e3921392460c229a563eb9b89567573ea58f2d20420e6ee5",
+        "elapsed_usec": 1229545,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0025.png",
+        "sha256": "bc3e9b4b39c6a209376c653faaa55c8fe565968cc239281b4987c7ec209bba10",
+        "elapsed_usec": 1279559,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0026.png",
+        "sha256": "c0bac9a3d021cfcead186607afb37bccfef771e4cabb0e386e01fae3fab0a1d2",
+        "elapsed_usec": 1329549,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0027.png",
+        "sha256": "e9437d08153ee1e8fa9c11f34e7f98a9ddc6a655643d8fda710946484c951dc1",
+        "elapsed_usec": 1379598,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0028.png",
+        "sha256": "8522c9fbf257e7a1b28e38e1e58a9ae552bcf04b3f071dda2537bebd1787e2a7",
+        "elapsed_usec": 1429554,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0029.png",
+        "sha256": "7678e2838535f72d997438c9c5077f0fdcb2e3584ccde90a78e2751d032cd869",
+        "elapsed_usec": 1479571,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0030.png",
+        "sha256": "ee26b53b4a2e300341685f30142b67131dfb98544ac383116dd213d9af7534c7",
+        "elapsed_usec": 1529563,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0031.png",
+        "sha256": "bc27f9b8182d7f4f2017edf36fdd609e02235e7eeab954e7ab2bc89ae4d8611d",
+        "elapsed_usec": 1579550,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0032.png",
+        "sha256": "85a1cd9808d6d3ac1bf2b5eb7d056ec3f5f18c62daecea8e4f8ab3f5d51a06a6",
+        "elapsed_usec": 1629537,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0033.png",
+        "sha256": "ab6d1c653c4673ab2b7082b2f6c142c1dfc5abb9357533115878d0f9282cf8f4",
+        "elapsed_usec": 1646200,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0034.png",
+        "sha256": "5940d8411d8323127864bcbac65bc7757c96bd36fdb10369695fdb5f813201c9",
+        "elapsed_usec": 1696261,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0035.png",
+        "sha256": "2919d02413d90d6f511e85dec61df2098ba2b066e81125ee196e4855de1a2b3c",
+        "elapsed_usec": 1746243,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0036.png",
+        "sha256": "25034024db68458bc26360e14c98afe4cc2a39d5f4d629522fe111f39cdb2f6d",
+        "elapsed_usec": 1796229,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0037.png",
+        "sha256": "4a3248ca592529a8fa46d4f76830308c68d01fb7f48f57adcb46066a63249277",
+        "elapsed_usec": 1846230,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0038.png",
+        "sha256": "78d07638e5aaa20e315f6241fb7c8a41c6d7ddbc0d7a35fb78a230a799fcc760",
+        "elapsed_usec": 1896206,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0039.png",
+        "sha256": "814c3a369c8e63e520d1447973288f02e6654f62d6ffb572e86fb8bcb52293f6",
+        "elapsed_usec": 1946233,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0040.png",
+        "sha256": "9720692f387bc58e851a967d68b200acdef56749d5b5296dfbbf6f4b18c449a6",
+        "elapsed_usec": 1996228,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0041.png",
+        "sha256": "e4df4cf02cf8af74e9540f6b834d8352fa847b3d470893639362536f57369492",
+        "elapsed_usec": 2046203,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0042.png",
+        "sha256": "539cb52b26e98beb7fe5b586d369389f49efd83cc4377ee60bb6760885198aea",
+        "elapsed_usec": 2096245,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0043.png",
+        "sha256": "2b87245b54f433ba5014f93514a5b539dc568600dcdc38c672416b0704ce57d1",
+        "elapsed_usec": 2146246,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0044.png",
+        "sha256": "6f06ad2f0aa7c13ff05d20c47f416250e3839563614de65e4c6c36896908b8c0",
+        "elapsed_usec": 2196224,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0045.png",
+        "sha256": "6010ed13cc04b6ba35c9feec2de99fbd255495fc072d82d1aa88692c1e2e9b67",
+        "elapsed_usec": 2246253,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0046.png",
+        "sha256": "8c38c24e1af62a2db6bc1607368d4e0378b6460a5745c9bd61db0ffd9a8096bf",
+        "elapsed_usec": 2296297,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0047.png",
+        "sha256": "1f1831cea760686709304baf4b2ef395cf38cd909208b394464456d88c54f758",
+        "elapsed_usec": 2346229,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0048.png",
+        "sha256": "bb715d326b290e06f808980e9c184511a5d4f6227578f759473b006428d578b2",
+        "elapsed_usec": 2396231,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0049.png",
+        "sha256": "6510f4ea998282c27fbd15f1d3b0431f780f3283f0feda2bf5311b36a85169e9",
+        "elapsed_usec": 2446210,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0050.png",
+        "sha256": "bcf45cd7edadf8aa6fde179629e3502101522e09eeaf87f533c62fc9252d7217",
+        "elapsed_usec": 2462842,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0051.png",
+        "sha256": "d7fbf9c2a795bc173f38f0b3e568f070d918c610eaccf785bd993a765953d5ba",
+        "elapsed_usec": 2512902,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0052.png",
+        "sha256": "b823c46d2b088b6c7708c0a9d16aaef1fab2575a53f69f311326d81018691f78",
+        "elapsed_usec": 2563330,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0053.png",
+        "sha256": "ca5158db63b0312683aab87447954ae2f95b9f556b15884f40f70b856237e986",
+        "elapsed_usec": 2613321,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0054.png",
+        "sha256": "ce91be295ba8ff0a9e2f056d7d55211b92be9992a997dbe5d3ce950954e73209",
+        "elapsed_usec": 2662900,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0055.png",
+        "sha256": "1aee6869fef5cd50fd048ce4e4710abd2534c16d68434ac9471cb336ac5d5131",
+        "elapsed_usec": 2712932,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0056.png",
+        "sha256": "d122c1f9eab7682085ad8266a4174ec48a82ddc75d0970835eb5a90d1b7aa75a",
+        "elapsed_usec": 2762895,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0057.png",
+        "sha256": "d39e8e75cc836d82dcf8a61c597e9a054cb2f35c37bc4c8fe32cbf1b16adf0f7",
+        "elapsed_usec": 2812923,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0058.png",
+        "sha256": "55ceabb37efdba1cc20199ab008192d378c868402f62cb8b7bdac32ed6199caf",
+        "elapsed_usec": 2862902,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0059.png",
+        "sha256": "a08ec2be405487632d928e72103d42818ca56c1cb1624e66adc5c260c08b1936",
+        "elapsed_usec": 2912903,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0060.png",
+        "sha256": "328c7200a8871db7ed5d5ecc9564f9be58a096ce1fe1ffe60f04c2b4d93b6acc",
+        "elapsed_usec": 2962893,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0061.png",
+        "sha256": "0e434f6715cf0b959b95a1a3ea8eb6e2b0d5b5f0ca048fee187c3631222a6c2e",
+        "elapsed_usec": 3012896,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0062.png",
+        "sha256": "26ee557c9ddb87def6f1c499ef7674b17d61e62c6342ece36c74626c574bca3b",
+        "elapsed_usec": 3062905,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0063.png",
+        "sha256": "b0698cb0fecc108cc90cb40c20e1e4d00e4e5ddd715c96719c72027f77a609be",
+        "elapsed_usec": 3112937,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0064.png",
+        "sha256": "c22d10a747618d9834795b32b6193a764fc253736cd907313206b71859b34247",
+        "elapsed_usec": 3162901,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0065.png",
+        "sha256": "95bf024e23f8d08ffb8beacde60eba8d722f26dedd62dce03ef402d29f697a63",
+        "elapsed_usec": 3212867,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0066.png",
+        "sha256": "7eb55d864005049474ec37432bb1ba20c4227b911e936ee049bfe86ffeb8967f",
+        "elapsed_usec": 3262906,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0067.png",
+        "sha256": "9fab05f767faf383ab782f132cde7eebaa5d13f10586d30b20409efb78247786",
+        "elapsed_usec": 3279556,
+        "segment": "idle"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0068.png",
+        "sha256": "ac4b3ff4a1b1f303ec658bc7354f5041c8d8cf446b4e8e34e310b0544d5d091f",
+        "elapsed_usec": 3329581,
+        "segment": "idle"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0069.png",
+        "sha256": "d1b0f23388c7f7de510bc4d8a05725c4cd8a48ed5f8c9e5b595c717cd3f08614",
+        "elapsed_usec": 3379609,
+        "segment": "idle"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0070.png",
+        "sha256": "20ca9065ceb6c6faec892f8c46f46d9e9d6ae3692d10ce41e942d14da4eb7c39",
+        "elapsed_usec": 3429572,
+        "segment": "idle"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0071.png",
+        "sha256": "989c6c25c5623ae08bc0f83850e0a7213eba75690778ebf1404663b49616b66f",
+        "elapsed_usec": 3479598,
+        "segment": "idle"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0072.png",
+        "sha256": "3a0a33779aa79172446afd585441098618657675ffaeb87684f2e0e5e75aa9cb",
+        "elapsed_usec": 3529611,
+        "segment": "idle"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0073.png",
+        "sha256": "58aff5f181dc891030586e05183a405dfbd4bc94a67baa504c6c7acaa543af21",
+        "elapsed_usec": 3579595,
+        "segment": "idle"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0074.png",
+        "sha256": "13cc272a7bd528586a0fb5a194ebb7a7e2f4eb817dd69c3439079edfbcee3cb2",
+        "elapsed_usec": 3629568,
+        "segment": "idle"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0075.png",
+        "sha256": "2301ed5c2f38ef6e5f54188e7297a30474401e7a6e40b45371cbcc3ef4f15cff",
+        "elapsed_usec": 3679616,
+        "segment": "idle"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0076.png",
+        "sha256": "e7d0bd63e69592e7c6b401a135bca24bf1398326b3e67f68cd8d9f9da0442f23",
+        "elapsed_usec": 3697124,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0077.png",
+        "sha256": "e7d0bd63e69592e7c6b401a135bca24bf1398326b3e67f68cd8d9f9da0442f23",
+        "elapsed_usec": 3762901,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0078.png",
+        "sha256": "e7d0bd63e69592e7c6b401a135bca24bf1398326b3e67f68cd8d9f9da0442f23",
+        "elapsed_usec": 3812895,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0079.png",
+        "sha256": "e7d0bd63e69592e7c6b401a135bca24bf1398326b3e67f68cd8d9f9da0442f23",
+        "elapsed_usec": 3862923,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0080.png",
+        "sha256": "e7d0bd63e69592e7c6b401a135bca24bf1398326b3e67f68cd8d9f9da0442f23",
+        "elapsed_usec": 3912891,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0081.png",
+        "sha256": "e7d0bd63e69592e7c6b401a135bca24bf1398326b3e67f68cd8d9f9da0442f23",
+        "elapsed_usec": 3963125,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0082.png",
+        "sha256": "e7d0bd63e69592e7c6b401a135bca24bf1398326b3e67f68cd8d9f9da0442f23",
+        "elapsed_usec": 4029647,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0083.png",
+        "sha256": "e7d0bd63e69592e7c6b401a135bca24bf1398326b3e67f68cd8d9f9da0442f23",
+        "elapsed_usec": 4079615,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0084.png",
+        "sha256": "e7d0bd63e69592e7c6b401a135bca24bf1398326b3e67f68cd8d9f9da0442f23",
+        "elapsed_usec": 4129563,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0085.png",
+        "sha256": "e7d0bd63e69592e7c6b401a135bca24bf1398326b3e67f68cd8d9f9da0442f23",
+        "elapsed_usec": 4179568,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0086.png",
+        "sha256": "e7d0bd63e69592e7c6b401a135bca24bf1398326b3e67f68cd8d9f9da0442f23",
+        "elapsed_usec": 4229562,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0087.png",
+        "sha256": "e7d0bd63e69592e7c6b401a135bca24bf1398326b3e67f68cd8d9f9da0442f23",
+        "elapsed_usec": 4279583,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0088.png",
+        "sha256": "d3882c6b4a28f3dc7985e3e68bb0c114f3f80719c1f63712813ecba2886dcd70",
+        "elapsed_usec": 4329552,
+        "segment": "resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0089.png",
+        "sha256": "098d8576c2daa753c25fa012541e2cec5ff64f7b474b404b8175b5bea9f67a90",
+        "elapsed_usec": 4379651,
+        "segment": "resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0090.png",
+        "sha256": "c84e9f8613766f49c3bf3f3f3b2ae7467ae0fea9568c19437e57635474512144",
+        "elapsed_usec": 4429613,
+        "segment": "resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0091.png",
+        "sha256": "9801f01a5957d665ac55f052cc7eda7eed238d843a2ce85dd086f71cc1ff79d8",
+        "elapsed_usec": 4479655,
+        "segment": "resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0092.png",
+        "sha256": "134609450d9a162acc41181a92e80a5bb62eed827f0df7da142ca727b7a75d58",
+        "elapsed_usec": 4529589,
+        "segment": "resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0093.png",
+        "sha256": "a6483359ef40f379735a4b4cc1e67c5c2c08c67209ed76255d2cae00b85a9053",
+        "elapsed_usec": 4579594,
+        "segment": "resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0094.png",
+        "sha256": "bdf98318a256c564b473c806748e2278ed03d63de3d92db2349a225dc476e625",
+        "elapsed_usec": 4629583,
+        "segment": "resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0095.png",
+        "sha256": "cd0612ae863d229850b8effe953ec6e7fc7151cab07ed538e49941332c90fcdb",
+        "elapsed_usec": 4679610,
+        "segment": "resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0096.png",
+        "sha256": "b42d79190c387a071d799441a541efff8613eb60478821c3a62e226c2e40f63a",
+        "elapsed_usec": 4729597,
+        "segment": "controlled-attack-first"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0097.png",
+        "sha256": "e1d0a26620f0201585bb5ddf0501ac01f695fbd91550248e0c266ca2cb962d26",
+        "elapsed_usec": 4746199,
+        "segment": "controlled-attack-hurt"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0098.png",
+        "sha256": "cbd49ecbf597baafd4b0a6902b6f6f1c2e57bcc87972476a98dc4bf716fc5a4b",
+        "elapsed_usec": 4796671,
+        "segment": "controlled-attack-hurt"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0099.png",
+        "sha256": "06d437634a6268ea18ebfac97ab50011ac1f50e764b70a9d07f2ffda18a307ab",
+        "elapsed_usec": 4812883,
+        "segment": "controlled-attack-resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0100.png",
+        "sha256": "a3dc58d785bce9ae1fafe9937a331a13812ffb15e5876be186d5e9f9863ea5c7",
+        "elapsed_usec": 4862925,
+        "segment": "controlled-attack-resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0101.png",
+        "sha256": "d72f328fba1c635fac511b3458201edb41423e19eb7dcfd1fd417a32e32c0a51",
+        "elapsed_usec": 4912893,
+        "segment": "controlled-attack-resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0102.png",
+        "sha256": "06f672fe8590e0d325b4bdbb6f561f84eb9432d34fc066994499612cf5e013ce",
+        "elapsed_usec": 4962987,
+        "segment": "controlled-late-hidden"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0103.png",
+        "sha256": "17860c6142482c9c2ace38d376b6590c3bc496608401190ebce4779cab124f47",
+        "elapsed_usec": 5012959,
+        "segment": "controlled-late-hidden"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0104.png",
+        "sha256": "2f9a80602bafd3240466411ec45b3b31d8357b1462804ba6ee99691cad57bfc8",
+        "elapsed_usec": 5062934,
+        "segment": "controlled-late-visible"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0105.png",
+        "sha256": "0c274ecda1a19952b62b590b2d2cde3395fccaa626c33afbad022602995923f4",
+        "elapsed_usec": 5113000,
+        "segment": "controlled-late-visible"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0106.png",
+        "sha256": "0fc4dfb5dfa6331db019b03bca8869345d46770f75fc45bd4833bb8a19eaf51a",
+        "elapsed_usec": 5129512,
+        "segment": "controlled-expired-event"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0107.png",
+        "sha256": "6facd987e8ec72861ccee8863beef72dddcfab0913a14b31307fc3ac82e91e52",
+        "elapsed_usec": 5179602,
+        "segment": "controlled-expired-event"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0108.png",
+        "sha256": "c81d8d8f2709f236bd4642405863ae583297cecfb88f52c7404416ad3b02011a",
+        "elapsed_usec": 5229583,
+        "segment": "controlled-expired-event"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0109.png",
+        "sha256": "55ccc786412ae102d986ca71daacf7bc26eb53d1c3e1e98842457cca67d50ec2",
+        "elapsed_usec": 5246195,
+        "segment": "controlled-warning"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0110.png",
+        "sha256": "d22e7e07d74eed4b816dc0c0ab6c6291d2c71f6ef66fcf11c95830e80faac6d5",
+        "elapsed_usec": 5296254,
+        "segment": "controlled-warning"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0111.png",
+        "sha256": "97b17f81a716e1db687c5a5f8deb5969329e883d67bf2096fd16ee50abc698f5",
+        "elapsed_usec": 5346308,
+        "segment": "controlled-warning"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0112.png",
+        "sha256": "67453251361cf18c020e8dbc9b5531f8703a80579f03fa7a89d1f4cb0a5615de",
+        "elapsed_usec": 5396260,
+        "segment": "controlled-warning"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0113.png",
+        "sha256": "628331be63b1ce6cfc247ad8ac06050da364cccba7faf9919c362980b0a2e7fc",
+        "elapsed_usec": 5446230,
+        "segment": "controlled-warning"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0114.png",
+        "sha256": "b74ebf8bf189409946e54b2058fe4cb60f0fc34934cd99a7bf4c8e4b7f5fd19d",
+        "elapsed_usec": 5462855,
+        "segment": "controlled-warning-hurt"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0115.png",
+        "sha256": "dfe60815df5fb60a95466ad3b31ae7964a26eda3dec010708622e65f98efbbd4",
+        "elapsed_usec": 5512943,
+        "segment": "controlled-warning-hurt"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0116.png",
+        "sha256": "1bb86d1d253e9c72856d5935f72eeaa3c01c70ca49916cd41352afbcb4f9b13e",
+        "elapsed_usec": 5529547,
+        "segment": "controlled-warning-resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0117.png",
+        "sha256": "d37435df89217f24f1cba8d616c5627bfb1c6f01ddcaa860bed729bb81130ddf",
+        "elapsed_usec": 5579642,
+        "segment": "controlled-warning-resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0118.png",
+        "sha256": "408dcc2761629e8278f7a5f35b021edf714de8f9f1d4e394b5c0a371f8c5c06a",
+        "elapsed_usec": 5629653,
+        "segment": "controlled-warning-resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0119.png",
+        "sha256": "dee202db02013f5031b6875f960d5dcf0eb96d0fe7e1dc4748f9cafd346a1c2d",
+        "elapsed_usec": 5679615,
+        "segment": "controlled-warning-resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0120.png",
+        "sha256": "7c438dc738ed486c4ae9867088a5e53e5e1e8f965b03566605618da307fb6981",
+        "elapsed_usec": 5729623,
+        "segment": "controlled-warning-resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0121.png",
+        "sha256": "5601dc5e88a58d21e256218298b9e315932dbbae52c143fe7d61df4a78c776d5",
+        "elapsed_usec": 5746193,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0122.png",
+        "sha256": "b59f8e7c0b627bcf9e94fd0beeefba025bfda688c10f0133fb79d8ffd9a43fa7",
+        "elapsed_usec": 5796284,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0123.png",
+        "sha256": "dd39192d611b20c0d1fa4d0a72ca17036c213e74929ced7399485fc10e7c31f1",
+        "elapsed_usec": 5846311,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0124.png",
+        "sha256": "0c4d7a02a80634028e206a9f60efe1a3029915db1c73a6418d30d85adb174097",
+        "elapsed_usec": 5896265,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0125.png",
+        "sha256": "90951c04be5969780d7869e89b00df5d61acdf320b938e79cd031ae7f1b80174",
+        "elapsed_usec": 5946327,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0126.png",
+        "sha256": "4245329fa4d58862c65bfab34f6e9a17babf7816123bfc8fab9534888cd168bf",
+        "elapsed_usec": 5996289,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0127.png",
+        "sha256": "1b76819f2d0231bd933dd0bcdb709af02cfd25605f30a11fbcedb22f3f430ef9",
+        "elapsed_usec": 6046304,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0128.png",
+        "sha256": "5d28b014d2fe588c577113ac6f844249d70571a9e80f0e2489ad9b5706d87d0b",
+        "elapsed_usec": 6096254,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0129.png",
+        "sha256": "62673cc22f6ba87a14a0b99bd12e85ab92e1e399a96369ee1c50fd000b17b3f0",
+        "elapsed_usec": 6146262,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0130.png",
+        "sha256": "bcfbcbde312e52c4a87d6660d8444a8a20641d018d5d06ea502d8347a00f03ac",
+        "elapsed_usec": 6196251,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0131.png",
+        "sha256": "4eb5fb94c74fc9cfa51568cd51c36c8963e949aa6873e3d4a55df77f66a15eee",
+        "elapsed_usec": 6246322,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0132.png",
+        "sha256": "76735eee5974207677b10a7c56a25f9300b91695da6279fb33ca0f73ea2a96b1",
+        "elapsed_usec": 6296316,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-release/frame-0133.png",
+        "sha256": "7212156fb79e546be4b5603f257888e08e6b0ae785a37b6425ee1f6e2e538921",
+        "elapsed_usec": 6346290,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      }
+    ]
+  },
+  {
+    "role": "source",
+    "frames": [
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0000.png",
+        "sha256": "be391e9095f2dd7dcc30bb901ccd36f91c7d572288b96ada408cb3f0f0fa1678",
+        "elapsed_usec": 55822,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0001.png",
+        "sha256": "13be112ca2a8a6925bc2ce2550829dc2a49e037afa18afa5aba8d284d34eedb8",
+        "elapsed_usec": 105861,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0002.png",
+        "sha256": "178afa598f3e46c2cba463407cb7e30ccfc5511e7d390fcb84b17bf866c71102",
+        "elapsed_usec": 155894,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0003.png",
+        "sha256": "2f9dd70fccf29be57e9f21ee6a33b73ccb7d188cc9ccbcef34146626e1197182",
+        "elapsed_usec": 205922,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0004.png",
+        "sha256": "7214600549ce3c9d194c6dbff6813b23df564da7624ee372cc2d0e07f35a15e5",
+        "elapsed_usec": 255876,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0005.png",
+        "sha256": "a580fd10885e5a677a007f4e64a7fe508fe90b635ebd0551ca6535630d758eb6",
+        "elapsed_usec": 305882,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0006.png",
+        "sha256": "7bf6c051d2faf7d021024a8a44cf5745883ee8228325e44a7e17b9c79b5401e2",
+        "elapsed_usec": 356176,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0007.png",
+        "sha256": "bb870c7ff91ba32aa0dbeffd577978be956ea033773b00a8e0e20e6cb05853fa",
+        "elapsed_usec": 406297,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0008.png",
+        "sha256": "c26f3fb2d60f9f37049a7ff8dd14fb50e2a1894c7dda9bc45b9c8fb202d89dfb",
+        "elapsed_usec": 455904,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0009.png",
+        "sha256": "87775e327a9d99945399326ce4c1a840d03a9ca11e6f566117f38d6bb90a074d",
+        "elapsed_usec": 506140,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0010.png",
+        "sha256": "75416f64c9fff2fd440fa533b362676379b8d5d987aeb672a8e5c8014334f8ef",
+        "elapsed_usec": 555935,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0011.png",
+        "sha256": "ba93754fc0a2d5e457b7688d0328f927061242f441a408e5ddaca3bd008bb543",
+        "elapsed_usec": 605945,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0012.png",
+        "sha256": "4b4d90966f4526d9361e431a4c62bb6b01051fd520bff03c871d348a7bd667e6",
+        "elapsed_usec": 655868,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0013.png",
+        "sha256": "fe430bf4a05acf91b27021138d65a947a15f1032391c4d0faa2bc6f1b6f3ce4c",
+        "elapsed_usec": 706405,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0014.png",
+        "sha256": "f3a085d99941d2f2d41f13d0f6f58923b60f7c4774c8e6adfdf2b26f3fd594d7",
+        "elapsed_usec": 755913,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0015.png",
+        "sha256": "a995e45b310bf1eaaf61bd8588b3bc35a10bd341f9b216d13ddb5031b5b7cdf5",
+        "elapsed_usec": 805926,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0016.png",
+        "sha256": "80320b133c3f53d8d5c4b8913af29f0ef48d4795b0194355a0539c5cbbaf44d4",
+        "elapsed_usec": 822476,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0017.png",
+        "sha256": "ab8f94b7624daf8cecf747a44cfe1b05f843025c8604c607356cbccf71007a91",
+        "elapsed_usec": 872584,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0018.png",
+        "sha256": "ecda87a07c3fa4d501af6311ae6b21e272b349045741f1a8074f41dcf67032b7",
+        "elapsed_usec": 922584,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0019.png",
+        "sha256": "0f2a7d27a1ad1b2f213fbb0657c926b6a5d908a51a110b1163ad06f5cb4fa56c",
+        "elapsed_usec": 972587,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0020.png",
+        "sha256": "d27ae9efb013b8df6946c98f0b2f5043abf9762ceafb3a7caf13412c48054184",
+        "elapsed_usec": 1023096,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0021.png",
+        "sha256": "0e99382d5ed48cca68e8cb7e93f89024e0388cd3066309c523177854b7f67d3d",
+        "elapsed_usec": 1072599,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0022.png",
+        "sha256": "e4474f80969451efac865fadd5b2b9f7e1e3c76cdd9d1a131a746dc500d0bf9e",
+        "elapsed_usec": 1122549,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0023.png",
+        "sha256": "376fa67183d4b65edf6ed47f074568db99589439ed0ec118e655b8dc9dd40292",
+        "elapsed_usec": 1172573,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0024.png",
+        "sha256": "3924183b6d3f7474137a49d2f0aab8ee9869057880df0402adbd832af85b72e6",
+        "elapsed_usec": 1222561,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0025.png",
+        "sha256": "9cd60b332a7946653f23cd473f79bdfa437583422f871ae700aad3e4a3c1dc5d",
+        "elapsed_usec": 1272591,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0026.png",
+        "sha256": "72242968754b29aaf92b507496c21cd9feab23fb407f7c22e52f1941b6ec2488",
+        "elapsed_usec": 1322497,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0027.png",
+        "sha256": "9fe0764eeda6ec2727dec7badba822aac912091c788f20bc8df295384ac19060",
+        "elapsed_usec": 1372619,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0028.png",
+        "sha256": "2adb7d4db6f876653cedea4c63a079ed0112e99aa435d2aeaff77a6eeb0c9978",
+        "elapsed_usec": 1422572,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0029.png",
+        "sha256": "f048fa8ae7f726441523c96728399394178576b8e229a61c5c369568aecfcdd8",
+        "elapsed_usec": 1472566,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0030.png",
+        "sha256": "7a1effbe4a10aaf64996099279d712c00c4824a7c3d708628ea6755810787220",
+        "elapsed_usec": 1522516,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0031.png",
+        "sha256": "9298af376e8939d0a1f4d38a4f05e7cda40bd6985ca9c9d08c0756bc41728f2d",
+        "elapsed_usec": 1572568,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0032.png",
+        "sha256": "4c3e426c73fb77ecf72b2e2548d116b908b24cdf2840cf0bae3fc45cea33c0e2",
+        "elapsed_usec": 1622596,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0033.png",
+        "sha256": "26c266228a9607bab5ca18fe5192b358ab866295928807071b72380f033f7687",
+        "elapsed_usec": 1639227,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0034.png",
+        "sha256": "5ed75f24c6ef42fe38bbaeb66643b51f1310eb050bdc80e7ac461f04309b8d74",
+        "elapsed_usec": 1689237,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0035.png",
+        "sha256": "159e0c7f6a8d803e27c8bb810d4817d294902fff3b53b4d90361a6028c33b7ed",
+        "elapsed_usec": 1739243,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0036.png",
+        "sha256": "7d6ba88c3e0ed09fd952f8c530e76f2fdd1d7d1c7bf2177a123fd9683f69b876",
+        "elapsed_usec": 1789263,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0037.png",
+        "sha256": "234a52b29336d848dfaa23147d9b054c0bdd8d03b478975a7d35ea2a9c6aeda2",
+        "elapsed_usec": 1839263,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0038.png",
+        "sha256": "1b896e82ee279d10d38dd40ead39b96d5a3c056ba521df84f8a0f3c3181367ff",
+        "elapsed_usec": 1889190,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0039.png",
+        "sha256": "d0686238fde4f537f159c3d32bfad597997e57bb7017b926cfaad0278eb807d9",
+        "elapsed_usec": 1939227,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0040.png",
+        "sha256": "b3ec7b2ddeab42bd5bc32eb8fd009681e942c6e281efd8a332913d31092dedb5",
+        "elapsed_usec": 1989223,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0041.png",
+        "sha256": "0b41413930c02df63e76dfd1502cc46c9319c57d3a14e81a5d7571eb7c223d4a",
+        "elapsed_usec": 2039230,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0042.png",
+        "sha256": "682d185893ae59859296a47087b7249f386e156b5b40d36ea5141a4d7d8802e9",
+        "elapsed_usec": 2089255,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0043.png",
+        "sha256": "f0a1d80dce785aae9abcc754ea35f6a6bdd52f24fabdfd4b4df8b73e4eece665",
+        "elapsed_usec": 2139438,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0044.png",
+        "sha256": "c2a5d995d4c5cf52826b3bbf0ac0f2d8d4773f7b21273ead7490fd059449deb7",
+        "elapsed_usec": 2189301,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0045.png",
+        "sha256": "ba4fa98932f3476eb67150b834c2c0335b06fc08c6e50655886ba5ead3a8c974",
+        "elapsed_usec": 2239248,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0046.png",
+        "sha256": "ff1e71533c31a2b81c0c868cd0778a77ee801e9f5d12c57e972872d51a600f8d",
+        "elapsed_usec": 2289236,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0047.png",
+        "sha256": "6d9020112ec7c174111c769316209881e3f8755acc9765b96750e2fcaacecd95",
+        "elapsed_usec": 2339247,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0048.png",
+        "sha256": "cca3df428197b3a4bd13e22d02bb3c1e88da18f931915b4aa7adbec30cf8de75",
+        "elapsed_usec": 2389269,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0049.png",
+        "sha256": "c88ebb163e723dce268926c2b44d3ec3c5f704075298cb0d4c52009d04b404a2",
+        "elapsed_usec": 2439243,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0050.png",
+        "sha256": "4c4aca3a7bdbe1b3d388b53a5600b79e108a09cfd3bae7be69f5eeff23f4ef6d",
+        "elapsed_usec": 2455820,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0051.png",
+        "sha256": "418a7743fcb1e9c2c8f6616908cb7cf908666f7ff4a93e66f21b2f484e231ed6",
+        "elapsed_usec": 2505952,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0052.png",
+        "sha256": "7c2c09041c5deac9922f32c7af5d9d701e1d316a5a744689c9795acdd35ea927",
+        "elapsed_usec": 2555889,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0053.png",
+        "sha256": "39873e7cad18e0d671dc8fa912ab706331e62cc894e696ed2bdb63c3ed5559fb",
+        "elapsed_usec": 2605924,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0054.png",
+        "sha256": "a5fb361586ed2846e1341666ca15269429833e726f08850d87719bc7c9ce7517",
+        "elapsed_usec": 2655914,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0055.png",
+        "sha256": "937c15765389dcb468d492e39429747ffedfdaf3be0fe26f7e5f2c17f8fd51ed",
+        "elapsed_usec": 2705935,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0056.png",
+        "sha256": "42dc53001da835d788b6ca5b2af5677580fc153c8e819ee2c59c5ea973cda537",
+        "elapsed_usec": 2755928,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0057.png",
+        "sha256": "55b45bc5249cf07a1fb31119c4bb2f115ce89629ad48bf519de992a9455973d1",
+        "elapsed_usec": 2805964,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0058.png",
+        "sha256": "48e08701f3aa8ed1e48655ef27ac8cb5f511c30cc9719d8a45194b463b5be344",
+        "elapsed_usec": 2855952,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0059.png",
+        "sha256": "40f4a80a18cfbe53c0922dab3318bbd1f38f81035de758064264c4921742ad38",
+        "elapsed_usec": 2905933,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0060.png",
+        "sha256": "c2df04041d3341bd57c32a5763fc7083ce373e5c67088883150adfc493fe0958",
+        "elapsed_usec": 2955950,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0061.png",
+        "sha256": "03c090207fa2970518e008e9ef71073b2a975cb410fe2812352a9239882c1a6f",
+        "elapsed_usec": 3005914,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0062.png",
+        "sha256": "c073d33089b7eff766b3347a2317ec3c4254cba0a767fe1f67ad62140867a138",
+        "elapsed_usec": 3055936,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0063.png",
+        "sha256": "b13b6e745d78a67386f8921fdbfd7a950a450263ba72eb9341cc72de41948cf9",
+        "elapsed_usec": 3105930,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0064.png",
+        "sha256": "75058b17093db57c8b6878c115c3cc40c2e5d85b75bbd7864c6e4f6a39317ced",
+        "elapsed_usec": 3155955,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0065.png",
+        "sha256": "1d55b5301946164bffb16c084c9cc06f705aa5f640bbd789074a3fdff1c1b9fc",
+        "elapsed_usec": 3205960,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0066.png",
+        "sha256": "a65b48955d6b16ec85446fdcff8bea4b43045c8e25246225acb805b2eba8704e",
+        "elapsed_usec": 3255975,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0067.png",
+        "sha256": "af67ad18fdb969ec5c179817e88e980ac4cddd0237296b8b758c4d7a0391ffd9",
+        "elapsed_usec": 3272537,
+        "segment": "idle"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0068.png",
+        "sha256": "15d81e12b2db1397cdacac5886d9208c43a8689caf6eccdd6f1474d84cb13ae5",
+        "elapsed_usec": 3322614,
+        "segment": "idle"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0069.png",
+        "sha256": "32b840488260d1de9010c69855a64b042830dd37091b0b1cbc5ab16393c76e0c",
+        "elapsed_usec": 3372609,
+        "segment": "idle"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0070.png",
+        "sha256": "05dff745af74047c535eb40caa4509b333a841df391238d95dbbed8fb59de7ed",
+        "elapsed_usec": 3422590,
+        "segment": "idle"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0071.png",
+        "sha256": "c8c59e1d8dbba212471f6069e2b6a06545e9aa9b58b80ea1772c70a038818e8a",
+        "elapsed_usec": 3472645,
+        "segment": "idle"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0072.png",
+        "sha256": "77e2370020bbac5f45448a17a0e74bae5e778ce928dbe9aaa375baa6a929d632",
+        "elapsed_usec": 3522622,
+        "segment": "idle"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0073.png",
+        "sha256": "c1904252bcd07a44fe9526e2d4f2692c5d21782f81ea20931544b32b411a7ae5",
+        "elapsed_usec": 3572980,
+        "segment": "idle"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0074.png",
+        "sha256": "f082b2c0e76d9520a64e4153b6cf84617d484294dd9a86717794ffd9f8ccaff8",
+        "elapsed_usec": 3622595,
+        "segment": "idle"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0075.png",
+        "sha256": "b92be27e56a1c020d21ad23d49958f2666982d3fc73c93953e5a9c26613d58d9",
+        "elapsed_usec": 3672589,
+        "segment": "idle"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0076.png",
+        "sha256": "34b949aaa566b7425d2b3ed1686ac1fa8e19331e50f25d6af177d3198622832a",
+        "elapsed_usec": 3689172,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0077.png",
+        "sha256": "34b949aaa566b7425d2b3ed1686ac1fa8e19331e50f25d6af177d3198622832a",
+        "elapsed_usec": 3739301,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0078.png",
+        "sha256": "34b949aaa566b7425d2b3ed1686ac1fa8e19331e50f25d6af177d3198622832a",
+        "elapsed_usec": 3789254,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0079.png",
+        "sha256": "34b949aaa566b7425d2b3ed1686ac1fa8e19331e50f25d6af177d3198622832a",
+        "elapsed_usec": 3839312,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0080.png",
+        "sha256": "34b949aaa566b7425d2b3ed1686ac1fa8e19331e50f25d6af177d3198622832a",
+        "elapsed_usec": 3889295,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0081.png",
+        "sha256": "34b949aaa566b7425d2b3ed1686ac1fa8e19331e50f25d6af177d3198622832a",
+        "elapsed_usec": 3939291,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0082.png",
+        "sha256": "34b949aaa566b7425d2b3ed1686ac1fa8e19331e50f25d6af177d3198622832a",
+        "elapsed_usec": 3989275,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0083.png",
+        "sha256": "34b949aaa566b7425d2b3ed1686ac1fa8e19331e50f25d6af177d3198622832a",
+        "elapsed_usec": 4039274,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0084.png",
+        "sha256": "34b949aaa566b7425d2b3ed1686ac1fa8e19331e50f25d6af177d3198622832a",
+        "elapsed_usec": 4089262,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0085.png",
+        "sha256": "34b949aaa566b7425d2b3ed1686ac1fa8e19331e50f25d6af177d3198622832a",
+        "elapsed_usec": 4139259,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0086.png",
+        "sha256": "34b949aaa566b7425d2b3ed1686ac1fa8e19331e50f25d6af177d3198622832a",
+        "elapsed_usec": 4189413,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0087.png",
+        "sha256": "34b949aaa566b7425d2b3ed1686ac1fa8e19331e50f25d6af177d3198622832a",
+        "elapsed_usec": 4255915,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0088.png",
+        "sha256": "34b949aaa566b7425d2b3ed1686ac1fa8e19331e50f25d6af177d3198622832a",
+        "elapsed_usec": 4290387,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0089.png",
+        "sha256": "b92be27e56a1c020d21ad23d49958f2666982d3fc73c93953e5a9c26613d58d9",
+        "elapsed_usec": 4306665,
+        "segment": "resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0090.png",
+        "sha256": "1cab1e6b8e7a1fcc53065c542a6e261392fac67f09680b1cc63c80632a29388b",
+        "elapsed_usec": 4372618,
+        "segment": "resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0091.png",
+        "sha256": "a308a63d96cbbd82912da5caa63f7635eba694156fbcb8839d1e833f2e3adb64",
+        "elapsed_usec": 4422665,
+        "segment": "resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0092.png",
+        "sha256": "2c6f21e85e708ee40b1d8b445426b6c080fb075d523988a5a5847e97ed90717f",
+        "elapsed_usec": 4472648,
+        "segment": "resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0093.png",
+        "sha256": "6c04300a6072805d6a58518d6c43c27632abf122adf07a7165e6b9e95604321a",
+        "elapsed_usec": 4522602,
+        "segment": "resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0094.png",
+        "sha256": "e09102acf58fdf49480cfd0d0ccdc35dc6133a0230682f328fe4df377e7d25cc",
+        "elapsed_usec": 4572625,
+        "segment": "resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0095.png",
+        "sha256": "c345fe41a730e959b12f1a67be76502bd7e8ed798b1a0185456cbb63ccbbc813",
+        "elapsed_usec": 4622648,
+        "segment": "resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0096.png",
+        "sha256": "e17041d2c8c2b6fd13e76a427ac74c4b3ebdbde028678be7b303d27a18ce3409",
+        "elapsed_usec": 4672649,
+        "segment": "resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0097.png",
+        "sha256": "e485db308ee8c8c44de0906bc902fc5e0c8bf9b23996b77f822992ba1d5b60c5",
+        "elapsed_usec": 4722590,
+        "segment": "resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0098.png",
+        "sha256": "ab34a3628f4f1a5155d4d845d5cd97664bc9d55aedb2bdda1019cb0474e81a7b",
+        "elapsed_usec": 4739182,
+        "segment": "source-debug-2x"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0099.png",
+        "sha256": "df19af8e0e3fa9b14ea8435d5bee4b72002ca5bfb12b9602baf5c4136c676cbd",
+        "elapsed_usec": 4789264,
+        "segment": "source-debug-2x"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0100.png",
+        "sha256": "c84f1428a1972cef7a5e8d4ed9fe4b536f508d7913a358828449c6dc37cb0895",
+        "elapsed_usec": 4839336,
+        "segment": "source-debug-2x"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0101.png",
+        "sha256": "b8925dc9bd9973959a99956418074d2b37c30d22b47b29a05d236c4cc88905b8",
+        "elapsed_usec": 4889206,
+        "segment": "source-debug-2x"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0102.png",
+        "sha256": "63beff727109f3090844d2e155f7299e72a0e0f3095df2c3651209db03a77426",
+        "elapsed_usec": 4939325,
+        "segment": "source-debug-2x"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0103.png",
+        "sha256": "3ee8dd47a506be81e7e7f7b7c0e057630f15301b867879e03b21fce69420bc76",
+        "elapsed_usec": 4989290,
+        "segment": "source-debug-2x"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0104.png",
+        "sha256": "47f137406467f52b983d345cc745ec9529e3eadaf6457837c4bea50170f114dd",
+        "elapsed_usec": 5039320,
+        "segment": "source-debug-2x"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0105.png",
+        "sha256": "b0c90f3aca128851685b4c7403c750d2647600b8633ebdfad256629b5c95b22d",
+        "elapsed_usec": 5089273,
+        "segment": "source-debug-2x"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0106.png",
+        "sha256": "33e0b6b61d4ec60388035df279064355528a6e77d2362550235cabb2b30a6d1b",
+        "elapsed_usec": 5139297,
+        "segment": "source-debug-2x"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0107.png",
+        "sha256": "a799952df592c5db1ecf6bdc38b9abe67c1991013b405f63327673162c2449a7",
+        "elapsed_usec": 5189345,
+        "segment": "source-debug-2x"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0108.png",
+        "sha256": "1fec5dc54e0a3c7348c1a01627ba881ee86aa59e9fab313fe7599f418cfa8c36",
+        "elapsed_usec": 5239277,
+        "segment": "source-debug-2x"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0109.png",
+        "sha256": "90e2b26c6e115457c138042a4f5bdef035044182fcc467f5aeeb16e263795dab",
+        "elapsed_usec": 5289287,
+        "segment": "source-debug-2x"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0110.png",
+        "sha256": "438c0739e72a69f8f59e12a7282a4ecdb658ac0b9c525584db8fd28cf17fdb1a",
+        "elapsed_usec": 5339294,
+        "segment": "source-debug-2x"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0111.png",
+        "sha256": "56df849966961e010c36dc505d86123b217e08604daef870b87385bdd586bb11",
+        "elapsed_usec": 5389291,
+        "segment": "source-debug-2x"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0112.png",
+        "sha256": "dc0f27f840efc4730f27b78e3e14d12a70069109aee4c6980d6e878ea51a9be5",
+        "elapsed_usec": 5439315,
+        "segment": "source-debug-2x"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0113.png",
+        "sha256": "f8a6f0376b11c419e7aa2bf8dc5b17fa009ca85a18573821da12cd5ceb4dacd0",
+        "elapsed_usec": 5455852,
+        "segment": "source-reset-1x"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0114.png",
+        "sha256": "f995109bf8675dc8964671dc1e8d16ebde1c7dcbf62062c12a3d1c136734d2ae",
+        "elapsed_usec": 5505950,
+        "segment": "source-reset-1x"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0115.png",
+        "sha256": "b4da27d0c924eaf114e6cbfa0388d4360c6ff74bca480eccdcf6fd865d3df6cf",
+        "elapsed_usec": 5556103,
+        "segment": "source-reset-1x"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0116.png",
+        "sha256": "03ae4781d654b001a42092a164a044a7b432be0e3005ec23681f9a223923db18",
+        "elapsed_usec": 5606005,
+        "segment": "source-reset-1x"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0117.png",
+        "sha256": "7b7d65f8a23ac1268d1549899cde276833891bbc36b1023781d912e2bc0b5d26",
+        "elapsed_usec": 5655978,
+        "segment": "source-reset-1x"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0118.png",
+        "sha256": "d5d8b110cc27f102b97b87b672e5364fa63f6a05e4f79759f51a4fc62f58895c",
+        "elapsed_usec": 5705995,
+        "segment": "source-reset-1x"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0119.png",
+        "sha256": "fc8061c211a9b7b9ccc62b44928d848dae01919e6323179ced6295baac12552c",
+        "elapsed_usec": 5755955,
+        "segment": "source-reset-1x"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0120.png",
+        "sha256": "0731c2d1e792259d8a053834c84697a9e386fa0d845035a0a94196e5323dac4a",
+        "elapsed_usec": 5805983,
+        "segment": "source-reset-1x"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0121.png",
+        "sha256": "3646cc376ccf2c21c6468ccbcb58926a3c7c1a9adc7b805094411edb4839b6fa",
+        "elapsed_usec": 5855942,
+        "segment": "source-reset-1x"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0122.png",
+        "sha256": "9aa681c0946c44dcc0dc1103567e516d0c35e53649f4566a07d5ee776cdeb6e3",
+        "elapsed_usec": 5872518,
+        "segment": "controlled-attack-first"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0123.png",
+        "sha256": "e2b3b67c84c69b24e5882c58110c193c90cd8c337b99fb20cabcd3c88f59db27",
+        "elapsed_usec": 5922610,
+        "segment": "controlled-attack-first"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0124.png",
+        "sha256": "2e338e2a4dafb210c7ec7cc951dbe583f0f83c0d61832d403c9689527f48e169",
+        "elapsed_usec": 5939178,
+        "segment": "controlled-attack-hurt"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0125.png",
+        "sha256": "b052c5037011f2f8d07bed78963693c875c26e8c9138fd87f5e9134c345b6100",
+        "elapsed_usec": 5989302,
+        "segment": "controlled-attack-hurt"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0126.png",
+        "sha256": "d7569322258b37343679a3ea1aa89a23e9e34256a5dcdcda9f1d80d334b8e7a1",
+        "elapsed_usec": 6005833,
+        "segment": "controlled-attack-resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0127.png",
+        "sha256": "69b27188755ee4f840c7baa597a8a27624c6950ad7095868173a6634517687a1",
+        "elapsed_usec": 6055966,
+        "segment": "controlled-attack-resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0128.png",
+        "sha256": "6d8644bbf26800914f17d98988de085488ce589e5f6d5fc6e235292a4baa3552",
+        "elapsed_usec": 6105993,
+        "segment": "controlled-attack-resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0129.png",
+        "sha256": "68aa0290a401b1971484dcee8a68f210d562451a252847842c6dbee0d1ffdbcc",
+        "elapsed_usec": 6155952,
+        "segment": "controlled-late-hidden"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0130.png",
+        "sha256": "d0795b0e822dbef4f7f8ee2196b0d5c5941354aeef1d3fb4228b12155cbd2320",
+        "elapsed_usec": 6205964,
+        "segment": "controlled-late-hidden"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0131.png",
+        "sha256": "5153bb46cc78d4122669801bb685cfb9c8fd33391ef9b6f8c262830294f82024",
+        "elapsed_usec": 6255961,
+        "segment": "controlled-late-hidden"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0132.png",
+        "sha256": "49b899d809cd5d4fd9570b49cb6dfee96033956be8328b5ce1ddcf93b33f1cb8",
+        "elapsed_usec": 6272526,
+        "segment": "controlled-late-visible"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0133.png",
+        "sha256": "9e2741f6b6024ef1f880eb5859767716c82062ac9fbe53df4e201f6fcb326d4d",
+        "elapsed_usec": 6322635,
+        "segment": "controlled-late-visible"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0134.png",
+        "sha256": "336e8564fbf0c286d4f56d9b02da1eb65a4388473a09c0a79e8393819522a317",
+        "elapsed_usec": 6372627,
+        "segment": "controlled-late-visible"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0135.png",
+        "sha256": "72493f87af25e2640f3a05652151b40bc494243604c94ec776fcedfab11c6be3",
+        "elapsed_usec": 6389176,
+        "segment": "controlled-expired-event"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0136.png",
+        "sha256": "0e1c0e7cb9e4b5f2b7dca37d3459c51bf43e555862e939208b237864a68e4bfd",
+        "elapsed_usec": 6439315,
+        "segment": "controlled-expired-event"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0137.png",
+        "sha256": "562618fd184d3f25f4bad90cda6e16701ce125c88d6656f9ada2c2de8a8571fc",
+        "elapsed_usec": 6489278,
+        "segment": "controlled-expired-event"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0138.png",
+        "sha256": "49fcc33aa2420b1b46baa84535d1cad411eabe3817d1e64396671fee1b62565c",
+        "elapsed_usec": 6505845,
+        "segment": "controlled-warning"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0139.png",
+        "sha256": "05d72919c8a9e73d87fe4b0cdd27b31134f61846071741cc85aa39d0c9d89122",
+        "elapsed_usec": 6555965,
+        "segment": "controlled-warning"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0140.png",
+        "sha256": "e069a6536840458598eb33d74579c8acc5e59bec20a8d92bdac147cd38fbecf0",
+        "elapsed_usec": 6605992,
+        "segment": "controlled-warning"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0141.png",
+        "sha256": "1ea43ed745498dff88b327aa4381e5bd38ee09783c8d2f2a6893105ffc441310",
+        "elapsed_usec": 6655990,
+        "segment": "controlled-warning"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0142.png",
+        "sha256": "8c5e26ea9773fc3252c954993951d747a049e574d5252807ebc2062104e33cc4",
+        "elapsed_usec": 6706079,
+        "segment": "controlled-warning"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0143.png",
+        "sha256": "0e670d81173a3c2e97bd646a77b372337c0b1c1cd9eb96e2f8770f95c4fe5456",
+        "elapsed_usec": 6724629,
+        "segment": "controlled-warning-hurt"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0144.png",
+        "sha256": "e370aedbe03bd581796e880f3aa2f0e3c1faf7bc96eddabda1b3795f4792e958",
+        "elapsed_usec": 6789322,
+        "segment": "controlled-warning-hurt"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0145.png",
+        "sha256": "b300519a251fa66c82a08e874fcf66db0a45cc12a2deb425a85b3352959b03f0",
+        "elapsed_usec": 6805927,
+        "segment": "controlled-warning-resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0146.png",
+        "sha256": "3728d9e35e7ffcfba9d282f295a951f642fc5ead6e53807ce423d4816e5a6b2c",
+        "elapsed_usec": 6855953,
+        "segment": "controlled-warning-resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0147.png",
+        "sha256": "bd58541fe1807d52ac177c258efae0f12219dd96eba34bac436c3c247b7a8d6a",
+        "elapsed_usec": 6905981,
+        "segment": "controlled-warning-resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0148.png",
+        "sha256": "124acfd9e26c0d1f7a20f4a116d4778c69a1b4768041a99be7afb25f05ccd709",
+        "elapsed_usec": 6955970,
+        "segment": "controlled-warning-resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0149.png",
+        "sha256": "ff9cb1569c692b23171be5d237a5c82d17e36f56291134729b082befac727264",
+        "elapsed_usec": 7005968,
+        "segment": "controlled-warning-resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0150.png",
+        "sha256": "589d3c1e89d8a0fa3e604499d3485577c06e65fffb4f4b66e8cc74f3c04919dc",
+        "elapsed_usec": 7022536,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0151.png",
+        "sha256": "4340ab5c7b27a906a112ff491720405a8f38c8092317f28351e91bb7da3007a4",
+        "elapsed_usec": 7072654,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0152.png",
+        "sha256": "ca618b075d439f8a8cbfb546e0d911f42943c2fdf631d0afa9849c608a173f12",
+        "elapsed_usec": 7122641,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0153.png",
+        "sha256": "60068e2b60f6c2d23db3df9814ed6a4b4afb8f4d4f0f33dddfd0d59bc8c24bda",
+        "elapsed_usec": 7172634,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0154.png",
+        "sha256": "414fb816b446bfab262c807e955ec7690ec69dcde637d4a15a8245912d94865a",
+        "elapsed_usec": 7222667,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0155.png",
+        "sha256": "7c038e7f5e0edd0487873fcb79ed6cdc70d58f365defbee063f6b84c32253010",
+        "elapsed_usec": 7272658,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0156.png",
+        "sha256": "f3642964ebc35f52f358d050d185f35ee6dce355aff285911221aa04eacd84e5",
+        "elapsed_usec": 7322637,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0157.png",
+        "sha256": "523e4891589ab8bb5304ea62196c98a8c98987c250f9a8eac602bf2d03ab224b",
+        "elapsed_usec": 7372629,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0158.png",
+        "sha256": "05924d998f445fba5e2d457b0d78790196c51831c95111975dc4897c0a1c10dd",
+        "elapsed_usec": 7422648,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0159.png",
+        "sha256": "30c82645d24866cb1439c8517968c13ac25b60e645a45a25faa29f1c401bf6d0",
+        "elapsed_usec": 7472643,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0160.png",
+        "sha256": "497ef423ae657e12ed9314c55b80fdaf3e70a7f6a1d76df409bcab6cea7de895",
+        "elapsed_usec": 7522655,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0161.png",
+        "sha256": "5facbda882d38fbe3949a7800fcca22a83e9c115ff5f1800386330f463c214c9",
+        "elapsed_usec": 7572669,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-source-r2/frame-0162.png",
+        "sha256": "6a463cd6506f2556bfb2fb0f43fb6e997b94666297bd1abcf7e667b70828be83",
+        "elapsed_usec": 7622630,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      }
+    ]
+  },
+  {
+    "role": "before",
+    "frames": [
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0000.png",
+        "sha256": "4875a2bdf079575dff039b79ad08364f4326de4d40c1dd1d6a6146f995e33e3d",
+        "elapsed_usec": 84876,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0001.png",
+        "sha256": "500bce59fcc15f3979e1b1244931965a75ccbe467a7703684146883db912cf85",
+        "elapsed_usec": 134884,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0002.png",
+        "sha256": "98525971269785876658ebb4be1f550be0a1038fb3198c161193ba750980cb09",
+        "elapsed_usec": 184908,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0003.png",
+        "sha256": "800e87ab2f4122b86386949aa7344e753df4e7cc441f380c627e654bf9d5fe9e",
+        "elapsed_usec": 234841,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0004.png",
+        "sha256": "9a62eb1a21020a983139d199ada841bfd7b15eaa895c69c93f4e51669052f3d6",
+        "elapsed_usec": 284877,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0005.png",
+        "sha256": "da73d5c6d46e28ec55d114484746892835946f427c7271b9a487a37f56d65d05",
+        "elapsed_usec": 334844,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0006.png",
+        "sha256": "fd87688fe95afa15f2ceab4c2c858181a88f82962b97f38f566f496fb7800711",
+        "elapsed_usec": 384852,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0007.png",
+        "sha256": "d988534188ca2539d28f9043b48a924427ab1ae5a04b1d65a601a98707b0dda6",
+        "elapsed_usec": 434864,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0008.png",
+        "sha256": "0c0f3077b4710414b25bb53a5d08cbe8e311db6db212222a7ce3932fe8d4677e",
+        "elapsed_usec": 484874,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0009.png",
+        "sha256": "b9d65f96f722d1224ade81266b5ee81df43075922c0fbee4e4688eeb62e81c04",
+        "elapsed_usec": 534925,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0010.png",
+        "sha256": "93e647ab106cbc7fdc48550a96d940dff80a0c3a1e090bac96b3843f703b9888",
+        "elapsed_usec": 584887,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0011.png",
+        "sha256": "fc8e2acb3b46a95643d0e245b8d510950ad92424941e643866a7447d1d45cbdb",
+        "elapsed_usec": 634906,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0012.png",
+        "sha256": "d6b2a083ff451b572a4cfa184857dddc23104eac50862c64061555e05382621c",
+        "elapsed_usec": 684875,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0013.png",
+        "sha256": "e3aaeef18c47d8516417845b63490434089c418ba5cb9df3204a57734a1b4129",
+        "elapsed_usec": 734928,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0014.png",
+        "sha256": "377c3597ccbd97978fd432126d5cb1d788d3936f3de94173eda8b2fdfd155262",
+        "elapsed_usec": 784938,
+        "segment": "move-right"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0015.png",
+        "sha256": "51f229ceacaf84f782a6c2e002280644e17faadb6074fc6f3117411fa9563735",
+        "elapsed_usec": 834858,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0016.png",
+        "sha256": "85076cf9ab6e02c4ecd62f1c7ce769dd9c3de614864813290a4cf28db76d15e5",
+        "elapsed_usec": 884944,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0017.png",
+        "sha256": "f834406f14175e9c5ee6cb2dea645502554a1bd65f44a7fbfd6cfb2a8d77bc45",
+        "elapsed_usec": 934907,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0018.png",
+        "sha256": "e012141c86cf57bd1c6a22c6a8ddb8e77c2680e4dd8005fd16c85dfb78ea8be9",
+        "elapsed_usec": 984901,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0019.png",
+        "sha256": "29287e45440ed3db93dbabe27b8ed2e8000d4f29c0c576a90233d84e13c3cb7e",
+        "elapsed_usec": 1034908,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0020.png",
+        "sha256": "ee6cba7f93ca871091e331fec8fe25eadae622c75a16f9c5fee1491dfefff18b",
+        "elapsed_usec": 1084887,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0021.png",
+        "sha256": "d324e88d146174a2281539cc5e4c063e8ec0f0582ec6f2c2a2d8ae11c741e4c0",
+        "elapsed_usec": 1135004,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0022.png",
+        "sha256": "733b44633d94bf7d7863c237174b241b5fff67eb040c69d9ea92b4497607fb1c",
+        "elapsed_usec": 1184915,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0023.png",
+        "sha256": "7182bf1ba97f3459d3469b1ddce375d9247d52d572dc262265577e63d40bf7e7",
+        "elapsed_usec": 1234921,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0024.png",
+        "sha256": "e92c2e96094f23d4bfcf38e90e8a7e2d2e8c9c27f966c9e54978588b343b9eed",
+        "elapsed_usec": 1284981,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0025.png",
+        "sha256": "0d9299fe100c3d78e80d6f7fb746cf84202c36144057a215b88cbd71e71c01d8",
+        "elapsed_usec": 1334907,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0026.png",
+        "sha256": "c89a45d434e2ff8a404dd5cb3feb34a9d7871e908c0ca5e52cc690829e64b94c",
+        "elapsed_usec": 1384902,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0027.png",
+        "sha256": "c49e74d92bcf910c149e41dd2a6c15ffdb384cc07402e600f6d815f7027a87c9",
+        "elapsed_usec": 1434860,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0028.png",
+        "sha256": "6911c33f555a2bfcf29bad3f92b077a18481dec72b9531d98f2ea5f564d5ccb5",
+        "elapsed_usec": 1484922,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0029.png",
+        "sha256": "55008d29d67ad103e72f491d15adbecd874fa9e344dd5bad87765e06858c871b",
+        "elapsed_usec": 1534910,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0030.png",
+        "sha256": "4fb9ba2214f02fae68d65f6f83ace4ded3a4721405fa8ad19deaed6317a036ae",
+        "elapsed_usec": 1584875,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0031.png",
+        "sha256": "b4a6a1335a376d5ee11a5293e622cc4207c8d54f145a46be4b7804f12b25120d",
+        "elapsed_usec": 1634892,
+        "segment": "move-down"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0032.png",
+        "sha256": "b28034dd2be062d017f12eb6e13bace962b566197bde4ac223fe0e1e60153e6e",
+        "elapsed_usec": 1651448,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0033.png",
+        "sha256": "f1fe51fc955fd65b5d66689e3f66d3383472c4bea96ab499b6ab439ce5d3b42f",
+        "elapsed_usec": 1701529,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0034.png",
+        "sha256": "7a63200d8369abcf74a5af0d063c2cb285b9a9865f273971b0a7b0f7c06b99b9",
+        "elapsed_usec": 1751602,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0035.png",
+        "sha256": "7fd0f22749d413e79620ad37e2b4ed367a5ddaa2259b9304e12f48a5ea695686",
+        "elapsed_usec": 1801579,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0036.png",
+        "sha256": "d5a8467558ecec317dca8e641e78b1938215a716359b2e1dfdbe222c81d3f155",
+        "elapsed_usec": 1851559,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0037.png",
+        "sha256": "baed809503f28db7c0f42f53d93fd451193c3a2d578ffb066d6656449bec6ff1",
+        "elapsed_usec": 1901562,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0038.png",
+        "sha256": "9be25d695e8febc57117c93190973c72db6bd32de741eebc5fd90cc6d16e2ee3",
+        "elapsed_usec": 1951983,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0039.png",
+        "sha256": "916ece354a824f4e6cb9413d32d05ebc5d2c301282d4ec156fae0e4e71dab3fa",
+        "elapsed_usec": 2018215,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0040.png",
+        "sha256": "6c5f11436a7455429c02d155e11e4ea4ba4cb5260c0233590ab1532a724b4b66",
+        "elapsed_usec": 2068231,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0041.png",
+        "sha256": "cf563a8436f34f180aa1a0fa0539d4edd38ede37a2fd7a729d8655471dcec661",
+        "elapsed_usec": 2118232,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0042.png",
+        "sha256": "f89feec4112270435fc6d63ae7bbfa164812794b30682b5152c7c4ce47288ab3",
+        "elapsed_usec": 2168262,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0043.png",
+        "sha256": "7009c053f207638915cf12ca6b7aad3c715171165d55a4ae7c8a745442f7fa59",
+        "elapsed_usec": 2218223,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0044.png",
+        "sha256": "032966b043efaeb0d3200ba5bb471f39d74694b36cb4e4e6370778cf50d0e61f",
+        "elapsed_usec": 2268246,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0045.png",
+        "sha256": "42281d3950d84d1c659212f38b1fdb973e3c5668161769c36b97ae2a7eb5843c",
+        "elapsed_usec": 2318235,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0046.png",
+        "sha256": "e80480f8e9b9c7ba5c62a99daa86389d4dd61a58110c00fc81dce07b45552fb0",
+        "elapsed_usec": 2368252,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0047.png",
+        "sha256": "2bf3615584e4a3ad97ba2626ac1400a8d205a39357b2f1abf95b4308d9468eb5",
+        "elapsed_usec": 2418275,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0048.png",
+        "sha256": "62b00ad4cfdd8d8c5b1607165e1e0bff80d3bede24d23f80af12490c560b0978",
+        "elapsed_usec": 2468252,
+        "segment": "move-left"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0049.png",
+        "sha256": "50957a03718e48964ece198d81eab4a60019a4ba4d077df73e549192180260c2",
+        "elapsed_usec": 2484820,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0050.png",
+        "sha256": "b2c5d621337d27c5ba451f2ac95913017d13bd00f8f9b55b602fb9ddb6459347",
+        "elapsed_usec": 2534943,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0051.png",
+        "sha256": "abee86ea826405051af4fb5de824bc9d62fe31ca4961c04375f6de2f9eceeff9",
+        "elapsed_usec": 2584896,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0052.png",
+        "sha256": "e1b120f0fafc29739aefadee71ca278e9fb5423bb6589d7eb9e6a27823a578f9",
+        "elapsed_usec": 2634901,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0053.png",
+        "sha256": "559c93c9d1c2591b71195649e0018aef37c6d35d61ac800c2746a580ae3de52d",
+        "elapsed_usec": 2684889,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0054.png",
+        "sha256": "5722aaf591b47cae8e13641fb919810a692b7e526ed8aecfeac2f525296c51fc",
+        "elapsed_usec": 2734909,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0055.png",
+        "sha256": "c5485824615261557ae5c21bade957c00012f5c76bb729f232b43d5875a38604",
+        "elapsed_usec": 2784919,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0056.png",
+        "sha256": "ef84b3c56fa29d6a649cd53261512cc512ef4f9b242d0bda4e8640622b59dd96",
+        "elapsed_usec": 2834932,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0057.png",
+        "sha256": "1d563e74a17f4d1f6950ed64ff595f29e9f2433084202bf8005ea3b0b913acac",
+        "elapsed_usec": 2885128,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0058.png",
+        "sha256": "73695acd5cd8ff1d2a7833d7360e1a588c35dc7d209f3fa6758e04fa5dce132d",
+        "elapsed_usec": 2935022,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0059.png",
+        "sha256": "077bb02de1682140978b5077cf95fdb218c975bf0341a2564f017958a6a44d0a",
+        "elapsed_usec": 2984982,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0060.png",
+        "sha256": "88fdaf0c6b8308d3e5d69bc288545376187814359b4ef2777467ce8d256330f0",
+        "elapsed_usec": 3034929,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0061.png",
+        "sha256": "66bcdeb49461116a6771e9b44c7b5009f2d7b6c5af054ba9bb01246bb00b72c2",
+        "elapsed_usec": 3084935,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0062.png",
+        "sha256": "00dd8a727d3eda44ffbbbe71534e5531023f76dca2001ae1ffcfc128de88b022",
+        "elapsed_usec": 3134891,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0063.png",
+        "sha256": "0c9e66c63f89ffd5f8e3ff9d643bc202c237ff6147da58ba6fd7e190b43f92e1",
+        "elapsed_usec": 3185348,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0064.png",
+        "sha256": "ec998815ea3941d7b638da149ac33a519de9df202fc8c9dfaa0d14cec65c4393",
+        "elapsed_usec": 3251580,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0065.png",
+        "sha256": "6732e594a601b0679823bdb5f624323d28dc9db734704d34c989b9b2a760d599",
+        "elapsed_usec": 3301605,
+        "segment": "move-up"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0066.png",
+        "sha256": "0e2f7adf477eb502d2900f195c5ae46798617422446f6820aa6680420f4ac8f5",
+        "elapsed_usec": 3318196,
+        "segment": "idle"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0067.png",
+        "sha256": "0e2f7adf477eb502d2900f195c5ae46798617422446f6820aa6680420f4ac8f5",
+        "elapsed_usec": 3368281,
+        "segment": "idle"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0068.png",
+        "sha256": "0e2f7adf477eb502d2900f195c5ae46798617422446f6820aa6680420f4ac8f5",
+        "elapsed_usec": 3418248,
+        "segment": "idle"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0069.png",
+        "sha256": "e6b4e69d1448634cd45c3b25347df3a27dcc6a360c7f94204b024a34a225ae1f",
+        "elapsed_usec": 3468257,
+        "segment": "idle"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0070.png",
+        "sha256": "e6b4e69d1448634cd45c3b25347df3a27dcc6a360c7f94204b024a34a225ae1f",
+        "elapsed_usec": 3518272,
+        "segment": "idle"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0071.png",
+        "sha256": "e6b4e69d1448634cd45c3b25347df3a27dcc6a360c7f94204b024a34a225ae1f",
+        "elapsed_usec": 3568281,
+        "segment": "idle"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0072.png",
+        "sha256": "e6b4e69d1448634cd45c3b25347df3a27dcc6a360c7f94204b024a34a225ae1f",
+        "elapsed_usec": 3618260,
+        "segment": "idle"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0073.png",
+        "sha256": "e6b4e69d1448634cd45c3b25347df3a27dcc6a360c7f94204b024a34a225ae1f",
+        "elapsed_usec": 3668276,
+        "segment": "idle"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0074.png",
+        "sha256": "e6b4e69d1448634cd45c3b25347df3a27dcc6a360c7f94204b024a34a225ae1f",
+        "elapsed_usec": 3718257,
+        "segment": "idle"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0075.png",
+        "sha256": "c17da80dea57276b8512e678a6700882b018f723dab233c4e7b96fd08dc6881d",
+        "elapsed_usec": 3736505,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0076.png",
+        "sha256": "c17da80dea57276b8512e678a6700882b018f723dab233c4e7b96fd08dc6881d",
+        "elapsed_usec": 3801669,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0077.png",
+        "sha256": "c17da80dea57276b8512e678a6700882b018f723dab233c4e7b96fd08dc6881d",
+        "elapsed_usec": 3868249,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0078.png",
+        "sha256": "c17da80dea57276b8512e678a6700882b018f723dab233c4e7b96fd08dc6881d",
+        "elapsed_usec": 3918246,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0079.png",
+        "sha256": "c17da80dea57276b8512e678a6700882b018f723dab233c4e7b96fd08dc6881d",
+        "elapsed_usec": 3968251,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0080.png",
+        "sha256": "c17da80dea57276b8512e678a6700882b018f723dab233c4e7b96fd08dc6881d",
+        "elapsed_usec": 4018293,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0081.png",
+        "sha256": "c17da80dea57276b8512e678a6700882b018f723dab233c4e7b96fd08dc6881d",
+        "elapsed_usec": 4068260,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0082.png",
+        "sha256": "c17da80dea57276b8512e678a6700882b018f723dab233c4e7b96fd08dc6881d",
+        "elapsed_usec": 4118252,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0083.png",
+        "sha256": "c17da80dea57276b8512e678a6700882b018f723dab233c4e7b96fd08dc6881d",
+        "elapsed_usec": 4168261,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0084.png",
+        "sha256": "c17da80dea57276b8512e678a6700882b018f723dab233c4e7b96fd08dc6881d",
+        "elapsed_usec": 4218265,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0085.png",
+        "sha256": "c17da80dea57276b8512e678a6700882b018f723dab233c4e7b96fd08dc6881d",
+        "elapsed_usec": 4268251,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0086.png",
+        "sha256": "c17da80dea57276b8512e678a6700882b018f723dab233c4e7b96fd08dc6881d",
+        "elapsed_usec": 4318228,
+        "segment": "manual-pause"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0087.png",
+        "sha256": "e6b4e69d1448634cd45c3b25347df3a27dcc6a360c7f94204b024a34a225ae1f",
+        "elapsed_usec": 4337343,
+        "segment": "resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0088.png",
+        "sha256": "e6b4e69d1448634cd45c3b25347df3a27dcc6a360c7f94204b024a34a225ae1f",
+        "elapsed_usec": 4401609,
+        "segment": "resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0089.png",
+        "sha256": "e6b4e69d1448634cd45c3b25347df3a27dcc6a360c7f94204b024a34a225ae1f",
+        "elapsed_usec": 4451634,
+        "segment": "resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0090.png",
+        "sha256": "f8da7838f569a3e336336009895621a5476eedfe612fdf02e676cfc3eb27b409",
+        "elapsed_usec": 4501608,
+        "segment": "resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0091.png",
+        "sha256": "f8da7838f569a3e336336009895621a5476eedfe612fdf02e676cfc3eb27b409",
+        "elapsed_usec": 4551605,
+        "segment": "resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0092.png",
+        "sha256": "f8da7838f569a3e336336009895621a5476eedfe612fdf02e676cfc3eb27b409",
+        "elapsed_usec": 4601593,
+        "segment": "resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0093.png",
+        "sha256": "f8da7838f569a3e336336009895621a5476eedfe612fdf02e676cfc3eb27b409",
+        "elapsed_usec": 4651594,
+        "segment": "resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0094.png",
+        "sha256": "f8da7838f569a3e336336009895621a5476eedfe612fdf02e676cfc3eb27b409",
+        "elapsed_usec": 4701604,
+        "segment": "resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0095.png",
+        "sha256": "f8da7838f569a3e336336009895621a5476eedfe612fdf02e676cfc3eb27b409",
+        "elapsed_usec": 4751598,
+        "segment": "resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0096.png",
+        "sha256": "257cdd06e166225afe321eea91941382524dae9ff7e171512301b7bf2c17eac3",
+        "elapsed_usec": 4768185,
+        "segment": "controlled-attack-first"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0097.png",
+        "sha256": "257cdd06e166225afe321eea91941382524dae9ff7e171512301b7bf2c17eac3",
+        "elapsed_usec": 4818245,
+        "segment": "controlled-attack-first"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0098.png",
+        "sha256": "8ba4a20b89ae5bc6c6f0d288dacbd30caa8a19761e8009e4963c8b8245327560",
+        "elapsed_usec": 4834865,
+        "segment": "controlled-attack-hurt"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0099.png",
+        "sha256": "9f4274393d2118f6a1b1a793bd8853b595f41e7291178cf6249bf215b3b5f1f1",
+        "elapsed_usec": 4884949,
+        "segment": "controlled-attack-hurt"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0100.png",
+        "sha256": "9f4274393d2118f6a1b1a793bd8853b595f41e7291178cf6249bf215b3b5f1f1",
+        "elapsed_usec": 4901527,
+        "segment": "controlled-attack-resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0101.png",
+        "sha256": "f1d7a8b1383073b2d98a5113d6503f2398080a0431476d4d57a53408cfc70096",
+        "elapsed_usec": 4951757,
+        "segment": "controlled-attack-resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0102.png",
+        "sha256": "99cc8d272b895db2e59862bef9d31792274c37b46210df63e51d968acdf6a91f",
+        "elapsed_usec": 5001579,
+        "segment": "controlled-attack-resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0103.png",
+        "sha256": "cb668c11b4a672726ff622530e584a41dfe939b6148b3a89006b1fa435f556a2",
+        "elapsed_usec": 5051602,
+        "segment": "controlled-late-hidden"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0104.png",
+        "sha256": "8c3f7ba537ffd6e9e9d601c2d8417973cc3f9512e9a353ab75e19dd810fac1fe",
+        "elapsed_usec": 5101571,
+        "segment": "controlled-late-hidden"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0105.png",
+        "sha256": "f1c3b3692dd7bd2270f6b6693175db054162e799880283d105ecfd78a425c8c9",
+        "elapsed_usec": 5151619,
+        "segment": "controlled-late-hidden"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0106.png",
+        "sha256": "2d8e14fc142f59cb4004e2e40dca8fb625a194abd11bbc9f6f42ae43d783ec8c",
+        "elapsed_usec": 5168197,
+        "segment": "controlled-late-visible"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0107.png",
+        "sha256": "947533640b1e778364e7bbef71469a2d99b6017d96a13fac8e2df02cef586508",
+        "elapsed_usec": 5218283,
+        "segment": "controlled-late-visible"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0108.png",
+        "sha256": "192671975f02479aa5f5ee78a0762a93c43c205e6369e543fba34c27295711c3",
+        "elapsed_usec": 5268265,
+        "segment": "controlled-late-visible"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0109.png",
+        "sha256": "85a0f78cfe0c0e58f00da460ae56589103f76e779fefd7988a3cb411016bbdb3",
+        "elapsed_usec": 5284856,
+        "segment": "controlled-expired-event"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0110.png",
+        "sha256": "1f96d8e3770ba7dd2da99633baa5709a24ea644a9ac603b4711785e270014b92",
+        "elapsed_usec": 5334901,
+        "segment": "controlled-expired-event"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0111.png",
+        "sha256": "00b14309cc02b99eacef00642b615513e45fcf446647fe2e11a4c228e7d5ae47",
+        "elapsed_usec": 5384936,
+        "segment": "controlled-expired-event"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0112.png",
+        "sha256": "da70cb2ebd339ed75b9a488e94f94df62f068a271309d4137cd944864287ac60",
+        "elapsed_usec": 5401509,
+        "segment": "controlled-warning"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0113.png",
+        "sha256": "d7ee111632ec8502637fc3e38bcb0122c60a29f28fa268845c694d85546d54c2",
+        "elapsed_usec": 5451595,
+        "segment": "controlled-warning"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0114.png",
+        "sha256": "6d3e225a3c1c71280a2e47665567f9e92c4f0ded92e3dfc622262773b2611659",
+        "elapsed_usec": 5501608,
+        "segment": "controlled-warning"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0115.png",
+        "sha256": "2ba44ff1ad067cebdc11d20de3f60a37dcc959de883a14f8c861eec5bd2a49f8",
+        "elapsed_usec": 5551636,
+        "segment": "controlled-warning"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0116.png",
+        "sha256": "4a32f3d88f61b5c4cb0fb7a8f2939043490d6d6e43b7667b9f86a7aff6fbe71c",
+        "elapsed_usec": 5601649,
+        "segment": "controlled-warning"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0117.png",
+        "sha256": "e1323f18ca07562946238924b45fbf980f5e3a1a60682fe8cda3c62a9370f5ee",
+        "elapsed_usec": 5618211,
+        "segment": "controlled-warning-hurt"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0118.png",
+        "sha256": "e0f247ad4c05702df01d34d0edf12814a705153145130e5813ab96f32b5ea9da",
+        "elapsed_usec": 5668330,
+        "segment": "controlled-warning-hurt"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0119.png",
+        "sha256": "e0f247ad4c05702df01d34d0edf12814a705153145130e5813ab96f32b5ea9da",
+        "elapsed_usec": 5684855,
+        "segment": "controlled-warning-resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0120.png",
+        "sha256": "0745988bd7559fe5837e31740a9a04e5f20ec0159b9f6019335d3931097e56fa",
+        "elapsed_usec": 5735010,
+        "segment": "controlled-warning-resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0121.png",
+        "sha256": "daa35792a3bcf3ad9bbecb8376443422feffb51869e3279bb15842cd81ec40bc",
+        "elapsed_usec": 5784953,
+        "segment": "controlled-warning-resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0122.png",
+        "sha256": "2758a7680b009c325a7123c826f1dcde0af86fa6a0ce4ddddb071c2461b436a0",
+        "elapsed_usec": 5834982,
+        "segment": "controlled-warning-resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0123.png",
+        "sha256": "859d1c1a384054694753490ef67e4f13f242e59fe97a287e5a00d927d9a3fbd0",
+        "elapsed_usec": 5884986,
+        "segment": "controlled-warning-resume"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0124.png",
+        "sha256": "de9b2427ff2c33bc3fa54fcd11b993d29fcac059a8c33cf84f050d9d848c7b62",
+        "elapsed_usec": 5901551,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0125.png",
+        "sha256": "e27cac4c232ddb3da1a588c2f3cac6fa505ab44a5ffd22cf38782e8d5c931ea8",
+        "elapsed_usec": 5951617,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0126.png",
+        "sha256": "4a4fad5086e9bcd9bf8e1d55b39182320cb97ec3a11d3be4ba50a08ff01dff49",
+        "elapsed_usec": 6001608,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0127.png",
+        "sha256": "5e147e7d350273b6eab7654818987a7d0a6af39b21c1828d1b37793526224a90",
+        "elapsed_usec": 6051622,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0128.png",
+        "sha256": "3481600cca616546080482387301a2045a30362dcf1c21ac216d67b73cd90b0b",
+        "elapsed_usec": 6101609,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0129.png",
+        "sha256": "874f1ce33404efed7b0d3938cb4ab1303495ea0d4f757bf8ce86947729795c13",
+        "elapsed_usec": 6151630,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0130.png",
+        "sha256": "5fcc072e4a734cb49db17876a74f1165b7347b6ddf49d6ead9892ffc9bcf9d31",
+        "elapsed_usec": 6201584,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0131.png",
+        "sha256": "e56924db0965199f8ecc722c27885b6d107008d659985592cde2a159de09b0fd",
+        "elapsed_usec": 6251626,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0132.png",
+        "sha256": "7f8dd90cbbd1304b689c26623920b72bb40f0280b77a97b3c857d5e18cd156da",
+        "elapsed_usec": 6301617,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0133.png",
+        "sha256": "97df8007a87dc07b84671fdf285f33a252bf76de5d56baed13f5de25dde6d452",
+        "elapsed_usec": 6351623,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0134.png",
+        "sha256": "b78a0378d02dd43f97386dd4a8bb84a0e6b438be1b996bed3531c8e4a66cfc5e",
+        "elapsed_usec": 6401612,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0135.png",
+        "sha256": "96d1e9cfc32e1734ee0bebbdfe0e7a675eb35c891e3a5f772f82bd8a9d94fc31",
+        "elapsed_usec": 6451611,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      },
+      {
+        "path": "screenshots/visual-vd01/completion-r1/wallclock-before/frame-0136.png",
+        "sha256": "4c84681786eec116699a19427bef480b136ae4fa6a3f763cad6977790d152d7d",
+        "elapsed_usec": 6501626,
+        "segment": "controlled-death-and-actual-enemy-cleanup"
+      }
+    ]
+  }
+]

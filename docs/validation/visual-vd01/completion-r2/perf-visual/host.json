@@ -1,0 +1,10 @@
+{
+  "mode": "after",
+  "fixture_sha256": "0C4F058641C0368A4BB756661A84540363135C586B282936C0BD2E22638749A3",
+  "source": "supplemental P02, not original M4",
+  "smoke": false,
+  "embedded_pack_sha256": "F7FF2552727165592DA061C4B708EED1087CF5966E0F17918665D7B392DD54CD",
+  "reference_acceptance": false,
+  "executable": "builds/windows/m4/AbyssExpedition.console.exe",
+  "sha256": "4002EEFFB14A7AF3DA16E5B0BE5B7F5DA773F2117D819B33226DBCD1D6562951"
+}

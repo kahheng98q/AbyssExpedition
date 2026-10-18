@@ -1,0 +1,30 @@
+[
+  {
+    "role": "source",
+    "records": 24,
+    "save_states": 12,
+    "observed_tooltip_corners": 12,
+    "context": {
+      "utc": "2026-10-17T08:15:23.6774686Z",
+      "executable": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tools\\godot-4.5\\Godot_v4.5-stable_win64_console.exe",
+      "executable_sha256": "7B77F3735DEC3A32BB20AF29CC1900583795D1DE82A14F23D23350A88EC85FAF",
+      "embedded_pack_sha256": null,
+      "harness_sha256": "EE5C2C68FBFB62D78B3458928F8A3AF7F1891BEDF11A5CFF35F5413CDA197176"
+    },
+    "manifest": "docs/validation/visual-vd01/completion-r1/aux-source/manifest.json"
+  },
+  {
+    "role": "release",
+    "records": 24,
+    "save_states": 12,
+    "observed_tooltip_corners": 12,
+    "context": {
+      "utc": "2026-10-17T08:16:34.5253849Z",
+      "executable": "C:/Users/kahhe/Desktop/Project/new-game-project/builds/windows/m4/AbyssExpedition.console.exe",
+      "executable_sha256": "4002EEFFB14A7AF3DA16E5B0BE5B7F5DA773F2117D819B33226DBCD1D6562951",
+      "embedded_pack_sha256": "38EA36E5DFBC702510228A940BBD0D3FEB60F920DB527D2AAC56A6263791C2E0",
+      "harness_sha256": "EE5C2C68FBFB62D78B3458928F8A3AF7F1891BEDF11A5CFF35F5413CDA197176"
+    },
+    "manifest": "docs/validation/visual-vd01/completion-r1/aux-release/manifest.json"
+  }
+]

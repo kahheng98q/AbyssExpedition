@@ -1,0 +1,634 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="dark light">
+<meta name="description" content="深渊远征2D视觉规格历史译文及2026-10-18自主工作流说明。离线可读。">
+<title>深渊远征 · 2D 视觉美术方向 | 简体中文版</title>
+<style>
+:root{--bg:#0d111b;--panel:#151b29;--line:#30384b;--text:#e5e9f0;--muted:#b0b9cd;--violet:#c2a5f3;--cyan:#a7ddd7;--gold:#efc083;--link:#b5d8ff}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.85 "Microsoft YaHei","PingFang SC",system-ui,sans-serif}a{color:var(--link);text-underline-offset:4px;overflow-wrap:anywhere}a:hover{color:#fff}a:focus-visible,summary:focus-visible,.table-wrap:focus-visible{outline:3px solid var(--gold);outline-offset:4px}.skip{position:absolute;left:12px;top:-80px;background:var(--panel);padding:8px 15px;z-index:10}.skip:focus{top:10px}.shell{max-width:1460px;margin:auto;padding:0 40px}.mast{border-bottom:1px solid var(--line);background:linear-gradient(125deg,#17202e,#201b32 65%,#131a28)}.mast .shell{padding-top:48px;padding-bottom:35px}.eyebrow{font:12px/1.6 Consolas,monospace;letter-spacing:2px;color:var(--violet)}h1{font-size:clamp(30px,4.5vw,52px);line-height:1.25;letter-spacing:-1px;margin:14px 0}h1 span{display:block;color:var(--cyan);font-size:.47em;letter-spacing:2px;margin-top:12px}.lead{color:var(--muted);max-width:800px;margin:20px 0}.chips{display:flex;flex-wrap:wrap;gap:9px}.chip{border:1px solid var(--line);background:#151b2b;padding:4px 11px;font-size:12px;color:var(--muted);border-radius:3px}.chip.pending{border-color:#715c3d;color:var(--gold)}.shortcuts{display:flex;gap:20px;flex-wrap:wrap;margin-top:23px;font-size:13px}.layout{display:grid;grid-template-columns:238px minmax(0,1fr);gap:44px;align-items:start}.sidebar{position:sticky;top:0;max-height:100vh;overflow-y:auto;padding:30px 8px 32px 0;scrollbar-width:thin}.sidebar summary{font-size:13px;color:var(--cyan);cursor:pointer}.sidebar nav{display:flex;flex-direction:column;gap:8px;margin-top:18px}.sidebar nav a{font-size:12px;line-height:1.6;color:var(--muted);text-decoration:none;padding:6px 9px;border-left:2px solid var(--line)}.sidebar nav a:hover{color:var(--cyan);border-color:var(--cyan);background:var(--panel)}main{min-width:0;padding:32px 0 60px}.notice{padding:16px 20px;border:1px solid #66523c;background:#211e1b;color:#efd2a5;font-size:14px;margin-bottom:30px}.doc-section{border-top:1px solid var(--line);padding-top:26px;margin-top:30px}.section-marker{font:12px Consolas,monospace;letter-spacing:2px;color:var(--violet)}h2{font-size:25px;line-height:1.5;color:var(--cyan);margin:34px 0 18px;scroll-margin-top:24px}h3{font-size:20px;line-height:1.5;color:var(--violet);margin:30px 0 14px}h4{font-size:17px;color:var(--gold);margin:25px 0 12px}p,li{overflow-wrap:anywhere}p{margin:13px 0}li{margin:9px 0}ul,ol{padding-left:25px}strong{color:#f1f3f9}em{color:var(--muted)}code{font:13px/1.7 Consolas,monospace;color:#d3c6ed;background:#202738;padding:2px 5px;border-radius:3px;overflow-wrap:anywhere}hr{border:0;border-top:1px dashed var(--line);margin:30px 0}.table-wrap{overflow-x:auto;border:1px solid var(--line);margin:20px 0;scrollbar-width:thin}table{border-collapse:collapse;width:100%;font-size:13px;line-height:1.8;min-width:660px}th,td{padding:12px 14px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line);min-width:140px}th{background:#202638;color:#e7d6ff;font-weight:600}tr:last-child td{border-bottom:0}tbody tr:nth-child(even){background:#141b29}td:first-child{color:var(--cyan)}.gallery{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:24px}.gallery figure{margin:0;background:var(--panel);border:1px solid var(--line);min-width:0}.gallery img{display:block;width:100%;height:auto;image-rendering:pixelated}.gallery figcaption{padding:12px 14px;font-size:12px;color:var(--muted)}footer{border-top:1px solid var(--line);padding:24px 0 32px;font-size:12px;color:var(--muted)}input[type=checkbox]{accent-color:var(--cyan)}@media(max-width:1050px){.shell{padding-left:24px;padding-right:24px}.layout{grid-template-columns:190px minmax(0,1fr);gap:25px}}@media(max-width:760px){.shell{padding-left:18px;padding-right:18px}.mast .shell{padding-top:30px;padding-bottom:26px}.layout{display:block}.sidebar{position:static;max-height:none;padding:18px 0 0;border-bottom:1px solid var(--line)}.sidebar nav{display:grid;grid-template-columns:1fr 1fr;max-height:260px;overflow-y:auto;margin-bottom:18px;gap:5px}.sidebar nav a{font-size:12px}main{padding-top:18px}.notice{padding:13px 15px}.gallery{grid-template-columns:1fr}h2{font-size:22px}body{font-size:15px}.shortcuts{gap:10px 18px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}@media print{body{background:#fff;color:#111;font-size:10pt}.mast{background:#fff}.shell{max-width:none;padding:0}.layout{display:block}.sidebar,.skip,.shortcuts{display:none}main{padding-top:0}.notice{background:#fff;border-color:#999;color:#333}h1,h2,h3,h4,strong{color:#111}p,li,.lead,em{color:#222}a{color:#164c73}code{background:#eee;color:#222}.table-wrap{overflow:visible;break-inside:auto}table{min-width:0;font-size:8pt}th,td{min-width:0;padding:6px;border-color:#aaa}th,tbody tr:nth-child(even){background:#eee;color:#111}td:first-child{color:#111}.gallery figure{background:#fff}footer{color:#444}}
+.sidebar nav .level-1{color:var(--cyan);font-weight:600;margin-top:12px}.sidebar nav .level-3{font-size:11px;padding-left:17px}h5{font-size:16px;color:var(--gold);margin:24px 0 12px}</style>
+</head>
+<body id="top">
+<div class="notice" style="margin:16px" role="note"><strong>当前工作流 · 2026-10-18</strong>：自主实施与持续文档（Autonomous Implementation with Continuous Documentation）。按技术依赖连续执行已授权范围内任务，无任务/阶段/视觉例行签批；自动测试修复并逐阶段同步文档。人工/硬件未验项保持pending，继续无关工作，reviewer清单只读。仅真实阻塞、高风险行动、平台权限需用户介入。以下正文为2026-10-16历史译文，例行审批/STOP措辞已废止；最新条款见<a href="spec.md">当前规格</a>、<a href="plan.md">计划</a>、<a href="tasks.md">任务</a>、<a href="../../AGENTS.md">持久指令</a>。本次仅改文档/配置，无新增游戏或人工验收。</div>
+<div class="notice" style="margin:16px" role="note"><strong>当前交付 · VD-01-M1 · 2026-10-16</strong>：第1–3阶段审计、规范与八件原创像素概念样稿已交付；<a href="../../docs/visual-design/preview.html">离线交互预览</a> · <a href="../../docs/validation/visual-vd01/phase-3.md">实际检查与限制</a>。G0/G1/参考替代/边缘/容量/镜像仍待owner决定，生产清稿和Godot集成未开始。以下规划轮次“样稿缺失”等措辞保留为历史状态，不代表当前交付。</div>
+<div class="notice" style="margin:16px" role="note"><strong>规划补充 · 2026-10-16</strong>：VD-01计划已交付；用户明确加入升级UI，首批按1英雄+2敌人+1环境+2效果+2UI计8件，FR-011与G1/SC-001范围相应更新。若seed移出HUD，现有暂停页保留只读披露。58帧上限与玩法/审批规则不变。完整像素样稿及生产资产仍缺，G0/G1待批准；以下规格条款已同步R1；末尾原始质量清单勾选仅为历史作者审查，不能代表R1或视觉验收。<a href="plan.md">技术计划</a> · <a href="../../docs/visual-design/preview.html">离线规划预览</a></div>
+<div class="notice" style="margin:16px" role="note"><strong>评审修订 R1 · 2026-10-16</strong>：本轮获授权修订文档，不构成G0/G1批准或实施。首批纠正为八件（1+2+1+2+2）；共享Theme/图标/头像/暂停seed披露是支持项。历史报告保留，其九件计数由本说明纠正。P01边缘裁切与HUD避让、P02额外负载（候选30新版剑弧/100新版追踪星）、P03镜像明暗仍待同一G1版本冻结；不授权改变相机、碰撞、模拟或性能目标。 <a href="../../docs/validation/art-review-remediation-2026-10-16.md">修订与复查记录</a></div>
+<a class="skip" href="#spec">跳到完整规格</a>
+<header class="mast"><div class="shell"><div class="eyebrow">ABYSS EXPEDITION / VISUAL DIRECTION / 002</div><h1>2D 视觉美术方向<span>深渊远征 · 完整简体中文副本</span></h1><p class="lead">暗黑哥特遗迹、紫色深渊腐化与可爱像素角色。以小规模视觉切片先确定风格，再逐批制作。</p><div class="chips"><span class="chip">2026-10-16 · 规格澄清</span><span class="chip">纯 2D · 离线阅读</span><span class="chip">独立于 M1–M4</span><span class="chip pending">历史译文 / 现行规则见顶部</span></div><div class="shortcuts"><a href="spec.md">英文规格</a><a href="spec.zh-CN.md">中文 Markdown</a><a href="../../docs/game-development-dashboard.html">开发图鉴</a><a href="#audit">资产/UI 审计</a><a href="#quality">质量清单</a></div></div></header>
+<div class="shell layout"><aside class="sidebar"><details open><summary>阅读目录</summary><nav aria-label="文档目录"><a href="#s-1" class="level-1">功能规格：Abyss Expedition — 2D 视觉美术方向</a>
+<a href="#s-2" class="level-2">Clarifications</a>
+<a href="#s-3" class="level-3">Session 2026-10-16</a>
+<a href="#s-4" class="level-2">用户场景与测试（必填）</a>
+<a href="#s-5" class="level-3">用户故事 1：评审统一的视觉切片（优先级 P1）</a>
+<a href="#s-6" class="level-3">用户故事 2：在黑暗环境中看清战斗（优先级 P1）</a>
+<a href="#s-7" class="level-3">用户故事 3：在现有界面中清晰决策（优先级 P2）</a>
+<a href="#s-8" class="level-3">用户故事 4：低成本制作可复用原创美术（优先级 P2）</a>
+<a href="#s-9" class="level-3">边界情形</a>
+<a href="#s-10" class="level-2">需求（必填）</a>
+<a href="#s-11" class="level-3">功能需求</a>
+<a href="#s-12" class="level-3">明确技术约束</a>
+<a href="#s-13" class="level-3">美术一致性与初始制作预算</a>
+<a href="#s-14" class="level-3">审批与推广门槛</a>
+<a href="#s-15" class="level-3">关键实体（涉及数据时填写）</a>
+<a href="#s-16" class="level-2">成功标准（必填）</a>
+<a href="#s-17" class="level-3">可测量结果</a>
+<a href="#s-18" class="level-2">假设</a>
+<a href="#a-22" class="level-1">视觉/UI 基线审计 — 2D 美术方向</a>
+<a href="#a-23" class="level-2">证据与优先顺序</a>
+<a href="#a-24" class="level-2">已有、缺失与计划资产</a>
+<a href="#a-25" class="level-2">UI 清单与设计缺口</a>
+<a href="#a-26" class="level-2">原规格任务实际查看的截图证据</a>
+<a href="#a-27" class="level-2">验收依赖与当前状态</a>
+<a href="#q-28" class="level-1">规格质量清单：Abyss Expedition — 2D 视觉美术方向</a>
+<a href="#q-29" class="level-2">内容质量</a>
+<a href="#q-30" class="level-2">需求完整性</a>
+<a href="#q-31" class="level-2">功能准备程度</a>
+<a href="#q-32" class="level-2">说明</a></nav></details></aside><main>
+<div class="notice"><strong>状态说明</strong>：这是英文规格、审计与质量清单的中文副本。视觉切片未实现，G0–G3 尚未批准；历史截图与测试数字不代表本次重新验证。翻译不改变原需求或授权。</div>
+<article class="doc-section" id="spec"><div class="section-marker">01 / 完整视觉规格</div><h2 id="s-1">功能规格：Abyss Expedition — 2D 视觉美术方向</h2>
+<p><strong>功能分支</strong>：未创建；未配置分支创建钩子。</p>
+<p><strong>功能目录</strong>：<code>specs/002-2d-art-direction</code></p>
+<p><strong>创建日期</strong>：2026-10-16</p>
+<p><strong>状态</strong>：草案。当前仅完成规格编写；美术制作、设计样稿（mockup）及场景集成尚未获批，也未实施。</p>
+<p><strong>中文副本</strong>：译自同目录的 <a href="spec.md">英文规格</a>。保留原有需求编号、范围、数值与审批状态；本翻译不构成新的美术审批或实施授权。<a href="#top">离线 HTML 阅读版</a>同时收录规格、资产/UI 审计和质量清单。</p>
+<p><strong>需求输入</strong>：为现有可玩游戏建立首个统一、适合实际生产的视觉形象：环境采用文字描述中 Concept Image 3 的暗黑哥特遗迹与紫色诡异氛围；角色采用 Concept Image 2 的可爱、富有表情的像素风格，敌人形象鲜明。坚持纯 2D、近俯视视角、低制作成本、清晰的生存战斗和紧凑 UI；在全面替换前，先审批具有代表性的视觉切片。本步骤不修改玩法、平衡或代码。</p>
+<p>这是独立于 <a href="../001-abyss-expedition-mvp/spec.md">M1–M4 玩法规格</a>、<a href="../001-abyss-expedition-mvp/plan.md">计划</a>和任务的<strong>新视觉功能</strong>。它不关闭或重开既有验收门槛，不引入 M5 玩法里程碑，也不授权实施。<a href="../../.specify/memory/constitution.md">项目宪法</a>仍具有约束力。已有<a href="../../docs/art-direction.md">美术说明</a>是历史占位规范，不是获批的正式美术手册。本规格建立首份正式视觉设计基线，不假定此前已有设计批准。</p>
+<h3 id="s-2">Clarifications</h3>
+<h4 id="s-3">Session 2026-10-16</h4>
+<ul>
+<li>Q: 正式美术是否沿用当前 640×360 逻辑画面和 1× 相机缩放？ → A: 是。保留 640×360、固定 1×、纯 2D 近俯视，不新增玩家缩放；1280×720、1920×1080 分别按整数 2×、3× 显示。</li>
+<li>Q: 在 640×360、1× 相机下，首批英雄画布与角色比例采用什么规格？ → A: 英雄 32×48 画布、身体约 24×32；地砖 32×32，世界中 1:1 显示；普通敌人 32×32 或 32×48，首领保留 64×64。Thrall 身高或 Brinejaw 身宽从英雄 32 像素身体高度的 0.75–1.0 倍起步。G1 样稿验证身体与拥挤遮挡；透明留边不改变碰撞或攻击距离。</li>
+<li>Q: 切片是否先用单套角色朝向加左右镜像，仅在辨识失败时追加四方向动画？ → A: 是。身体不旋转，先用镜像身体与方向 VFX 验证上下左右移动/攻击。待机/移动/攻击或预警/受击/死亡最低有效序列帧：英雄 2/4/3/1/4，敌人各 1/2/1/1/3；剑击、魔法各至少 2 帧。受击可复用姿态加闪白，接触伤害敌人不新增攻击。保留 58 个独立原绘帧格上限，追加朝向须修订估算并获批。</li>
+</ul>
+<h3 id="s-4">用户场景与测试（必填）</h3>
+<h4 id="s-5">用户故事 1：评审统一的视觉切片（优先级 P1）</h4>
+<p>作为项目负责人，我能够在投入资产制作或修改可玩场景前，评审一个规模小、具有代表性的视觉方案。</p>
+<p><strong>优先原因</strong>：先用有限样本检验可爱角色与压迫感遗迹的组合，避免将不合适的风格扩散到全游戏。</p>
+<p><strong>独立验证</strong>：依据资产审计、选定方向和审批门槛评审离线切片资料包，无需修改游戏。</p>
+<p><strong>验收场景</strong>：</p>
+<ol>
+<li><strong>假设</strong>当前为程序绘制原型，<strong>当</strong>提交切片方案时，<strong>则</strong>设计板必须准确展示一名可玩剑士、两种不同的现有敌人、一处腐化神龛、一段剑击序列、一段魔法特效序列、一套重设计战斗 HUD 和一套升级选择 UI（共八件），并明确标为拟议美术。</li>
+<li><strong>假设</strong>本次会话尚未提供 Concept Image 2 和 3，<strong>当</strong>评审方向时，<strong>则</strong>必须说明参考图缺失；在批准样稿前，由评审者提供图片进行比对，或由负责人明确批准以文字方向替代图片。不得声称符合未见过的图片。</li>
+<li><strong>假设</strong>样稿尚无负责人批准记录，<strong>当</strong>考虑实施时，<strong>则</strong>不得编辑场景、修改运行时 UI 构建或替换已接线视觉资源。规格质量通过不等于美术获批。</li>
+<li><strong>假设</strong>负责人否决了某一部分，<strong>当</strong>修订时，<strong>则</strong>必须保留被否决版本的可追溯记录，只有后续获批版本才能推进。</li>
+</ol>
+<hr />
+<h4 id="s-6">用户故事 2：在黑暗环境中看清战斗（优先级 P1）</h4>
+<p>作为玩家，即使大量敌人与紫色腐化特效同时出现，我仍能找到自己的英雄、理解攻击方向并躲避危险。</p>
+<p><strong>优先原因</strong>：氛围美术必须保留移动、自动战斗与危险辨识能力。</p>
+<p><strong>独立验证</strong>：在目标显示尺寸下评审普通与密集战斗设计板或片段；切片实施后，在获批的可玩版本中重复相同辨识测试。</p>
+<p><strong>验收场景</strong>：</p>
+<ol>
+<li><strong>假设</strong>英雄、两种切片敌人、友方魔法与腐化同时出现，<strong>当</strong>评审者观看两秒战斗片段时，<strong>则</strong>不单凭颜色也能识别英雄、敌人种类、攻击方向和危险区域。</li>
+<li><strong>假设</strong>最大腐化、重叠预警与神龛灯光同时出现，<strong>当</strong>特效达到峰值时，<strong>则</strong>预警边界仍清晰高于装饰，符合既有危险几何范围，并保留原有预警时长。</li>
+<li><strong>假设</strong>为控制成本降低表现特效，<strong>当</strong>战斗继续时，<strong>则</strong>伤害、治疗、索敌、冷却、敌人数、生成顺序、弹道与移动均与未修改的玩法基线一致。</li>
+</ol>
+<hr />
+<h4 id="s-7">用户故事 3：在现有界面中清晰决策（优先级 P2）</h4>
+<p>作为玩家，我能通过紧凑统一的界面选角色、比较升级与转职、管理队伍，并理解奖励或存档问题。</p>
+<p><strong>优先原因</strong>：共同的视觉语言能减少困惑，同时保留既定界面契约。</p>
+<p><strong>独立验证</strong>：将拟议布局与<a href="../001-abyss-expedition-mvp/contracts/ui.md">既有 UI 契约</a>对照；运行时集成前，以静态设计板或可点击样稿检查焦点、可读性和状态覆盖。</p>
+<p><strong>验收场景</strong>：</p>
+<ol>
+<li><strong>假设</strong>提交升级界面方案，<strong>当</strong>玩家比较三个选项时，<strong>则</strong>名称、准确效果、叠加次数、当前焦点和 1/2/3 快捷键清晰可见；保留暂停、不可重抽、不可跳过的行为。</li>
+<li><strong>假设</strong>提交选角或转职方案，<strong>当</strong>玩家比较角色形象时，<strong>则</strong>当前职业、两个可选分支外观、保留被动、费用、永久性、禁用原因和取消路径均明确，不能将预览误认为已提交的选择。</li>
+<li><strong>假设</strong>遇到长列表、货币不足、待保存或恢复的抽取结果，<strong>当</strong>评审相应界面时，<strong>则</strong>完整保留必要信息和可达操作，包括键盘焦点与滚动，文字不得越出面板。</li>
+</ol>
+<hr />
+<h4 id="s-8">用户故事 4：低成本制作可复用原创美术（优先级 P2）</h4>
+<p>作为美术或开发者，我能区分可复用占位与缺失成品，在不制作多余动画组、不抄用现有游戏作品的前提下，完成一致的替换资产。</p>
+<p><strong>优先原因</strong>：小团队需要明确替换顺序、共享组件和制作上限。</p>
+<p><strong>独立验证</strong>：不修改游戏即可审查资产台账、风格规则与切片预算；每项计划交付都要具有身份、状态覆盖、复用决定、来源与验收目标。</p>
+<p><strong>验收场景</strong>：</p>
+<ol>
+<li><strong>假设</strong>已有资产清单，<strong>当</strong>估算制作工作量时，<strong>则</strong>程序绘制、历史截图、缺失正式资产与计划替换必须分列状态。</li>
+<li><strong>假设</strong>设计转职形象或同职业第二名英雄，<strong>当</strong>提出方案时，<strong>则</strong>尽量复用已批准的身体与动画系列，同时保留清晰职业轮廓和独立角色识别特征。</li>
+<li><strong>假设</strong>交付新资产，<strong>当</strong>评审时，<strong>则</strong>必须记录作者、允许使用的来源、占位状态、替换目标与适用风格版本；无授权或照搬知名作品的美术不得验收。</li>
+</ol>
+<h4 id="s-9">边界情形</h4>
+<ul>
+<li>友方紫色魔法、虚空职业同伴与腐化敌人并存：通过轮廓、描边和形状表达阵营，不能只依赖紫色。</li>
+<li>灯光、前景拱门、雾层或粒子穿过预警：装饰必须让位，不得隐藏攻击边界或遮住英雄脚部。</li>
+<li>敌人与英雄重叠、同伴倒地，或受击/死亡打断攻击：阵营与状态优先级仍清楚；动画结束不能延迟玩法。</li>
+<li>腐化为 0 或 100：两种表现均保持可行走地面清晰，碰撞完全一致。除非现有事件明确提供交互，否则神龛只是装饰。</li>
+<li>窗口为 1280×720、1920×1080 或既有不规则尺寸 1371×779：保持清晰缩放、黑边与键盘可达性。</li>
+<li>长名字、较大 HP/XP 数字、六名英雄、十条有序抽取结果或长存档路径：关键信息与操作必须可见或可滚动到达，优先压缩装饰性文字。</li>
+<li>默认、悬停、键盘焦点、按下、禁用、错误与待处理状态并存：焦点与禁用原因不能仅用颜色区分。</li>
+<li>镜像会反转独特武器徽记或有语义的标记：修正该标记，避免为此增加整套动画。</li>
+<li>基线性能已不达标：不能因视觉好看或相对略有改善，就宣称性能验收通过。</li>
+<li>缺少必要图片、源文件、许可或批准：明确记录依赖并保持待处理，不得用未标注的假截图替代。</li>
+</ul>
+<h3 id="s-10">需求（必填）</h3>
+<h4 id="s-11">功能需求</h4>
+<h5>范围、证据与审批</h5>
+<ul>
+<li><strong>FR-001</strong>：必须保留现有离线生存玩法循环、全部玩法/平衡数值、存档、确定性随机流、转职/招募规则和仅开发版可用的 F9 限制。表现动画与装饰随机性不得决定模拟结果。</li>
+<li><strong>FR-002</strong>：必须维护可追溯到文件路径的视觉/UI 审计，分开记录已有运行时表现、缺失成品和拟议替换。初始基线见<a href="visual-audit.zh-CN.md">资产/UI 审计</a>；截图必须标为历史证据，不能称为新截图或已批准目标。</li>
+<li><strong>FR-003</strong>：必须以文字描述的 Concept Image 3 氛围及 Concept Image 2 角色吸引力作为初始简报。取得参考图或负责人明确批准文字替代前，实际图片对比保持待处理。不得假定两张参考图归项目所有。</li>
+<li><strong>FR-004</strong>：修改已接线场景、运行时视觉脚本或资源前，必须由负责人按下文 G0/G1 明确批准具有版本号的样稿包；扩展到切片之外前，必须通过 G2 批准已实施外观。批准须记录版本、范围、评审人、日期、决定与剩余限制；沉默或检查通过均不等于批准。</li>
+</ul>
+<h5>统一视觉语言</h5>
+<ul>
+<li><strong>FR-005</strong>：世界必须结合破损哥特石构、残破拱门、低饱和冷色石材与克制的紫色诡异增生。以分层 2D 地面、中景遗迹、稀疏前景和氛围点缀表现深度，可行走战斗平面保持安静。装饰不得改变现有场地外形、边界或可通行区域。 新环境与旧程序背景必须互斥绘制，必要资源不可用时完整回退；保留四墙，接线前定义世界层最终Z。</li>
+<li><strong>FR-006</strong>：角色在原生游戏尺寸下必须具有可爱且富表情的比例、可辨认的脸和夸张的标志装备。威胁采用令人记忆深刻的原创轮廓与怪异解剖母题；恐怖来自不对称、空洞、眼睛和异常生长，避免嘈杂细节或写实血腥。</li>
+<li><strong>FR-007</strong>：全部资产必须统一近俯视透视、像素密度、描边/明暗、色彩语义、光向、接地和动画状态规范。后续计划/美术手册必须沿用下方已澄清的分辨率、相机、尺寸与动画规则，再制作可复用美术；改变基准须修订 G1 资料包，不能由绘制者静默改变。 G1须决定P03镜像明暗和语义标记处理，世界仍左上光；近对称角色明暗仅为候选。</li>
+<li><strong>FR-008</strong>：去色或被群体部分遮挡后，职业身份仍须可辨。剑、弓、杖三系必须在装备/身体外形上有区别；六条转职分支必须具有换色之外的形状或装备特征。同职业招募角色复用动画系列时，仍须用发型、服装、脸或徽记区分。</li>
+<li><strong>FR-009</strong>：色彩语义必须明确区分浅色/青色阵营及拾取提示、橙色描边预警、红色命中和紫色环境腐化。友方紫色攻击必须带友方形状/描边。包括灰度评审在内，装饰显著性均不得高于角色与预警。</li>
+<li><strong>FR-010</strong>：灯光必须用低成本 2D 手法营造神龛焦点与纵深，并具备清晰的无灯光回退。切片默认采用手绘明暗/仿自发光精灵，新增运行时灯光、动态阴影、全屏后处理及装饰粒子层均为零。后续实测计划最多可提议一盏共享无阴影神龛灯与明确的可选特效上限，经 G1 评审并取得 SC-006 证据后才可推广。不得依赖逐角色/弹体灯光；可选雾、扭曲、辉光和粒子须让位于阵营、预警、碰撞线索及 HUD，不能为降成本删除现有攻击或其负载。</li>
+</ul>
+<h5>首个视觉垂直切片</h5>
+<ul>
+<li><strong>FR-011</strong>：首个切片必须限定为 Aren 现有基础 Swordsman 外观、Saltbound Thrall 与 Skittering Brinejaw、一套腐化神龛环境、一段现有剑弧动画、一段现有追踪星魔法特效、一套战斗 HUD 外观/布局及一套升级选择 UI（共八件）。复用当前身份和行为，不引入新敌人类型、职业技能、收集物、地图规则或平衡改动。</li>
+<li><strong>FR-012</strong>：神龛必须是现有海岸场地的视觉处理，保留潮汐/邪教背景。魔法单独作为既有友方特效预览或既有施法者攻击展示，不能给 Aren 新增魔法能力。设计板中只展示两种敌人，不代表可从正式流程删除其他波次或首领。</li>
+<li><strong>FR-013</strong>：切片样稿必须包含准确的 640×360 原生构图、整数 2×/3× 展示及 1371×779 留黑边布局、普通/预警重叠密集战斗、腐化 0/100、角色剪影、动画序列、HUD 普通/首领/双同伴/救援及上述非模态状态同时出现的组合。展示所选画布与实际身体边界、接地点、上下左右移动/攻击和最低帧播放；附灰度/不依赖颜色辨识及手绘光/无灯光对照。均为未来交付物，本步骤不制作。 增加四边四角英雄脚锚、邻近危险和组合HUD样稿；制作片段前冻结普通/密集/最大腐化的数量、屏幕分布、重叠及答案表，G1审批同一版本协议。</li>
+<li><strong>FR-014</strong>：角色具有相应状态时，切片动画必须覆盖待机、移动、攻击/预警、受击与死亡；清晰度允许时复用帧、镜像及变色/姿态效果。剑击方向/命中、Brinejaw 冲刺预警与魔法阵营必须清楚。保留死亡＞受击＞攻击＞移动＞待机的优先级与现有响应及时的命中时机。 短事件按原模拟起点采样，不按首次观察或中断恢复重置；迟到/跳tick显示当前有效帧，不补播过期打击或延长状态/清理；详见表现合同。</li>
+<li><strong>FR-015</strong>：切片估算必须采用下文有限的初始预算；更多朝向、逐英雄专属绑定、过场动画和全角色精修资产须待切片后评审。优先使用共享地砖、精灵裁切头像、面板边框、图标与特效系列，避免重复制作。</li>
+</ul>
+<h5>UI 与其他界面覆盖</h5>
+<ul>
+<li><strong>FR-016</strong>：战斗 HUD 信息顺序必须为：（1）英雄当前/最大 HP 与即时首领/危险或救援警报；（2）本局 XP/阈值、Run Lv、主动时间；（3）紧凑英雄身份/永久 Hero Lv、腐化 0–100、金币，以及有同伴时最多两人的 HP/倒地。首领 HP、救援进度/结果只在相关状态显示，不能覆盖英雄或预警边界；关键提示不依赖颜色或极小正文。种子和准确腐化修正可移到容易发现的现有暂停/详情页，精确信息不丢失。首领、双同伴、救援、最大腐化同时出现时，全部非模态面板、文字、图标、条形表合计须留出至少 75% 视口无遮挡，不仅计算装饰框；以占用矩形并集核算，组件间空白不计占用。 面积与玩法遮挡分别验收。G1须决定P01边缘避让/裁切；上部身体边界裁切仅为待审提案，脚锚/定位和相关危险仍须可读；不得改相机、物理根或可走范围。</li>
+<li><strong>FR-017</strong>：升级、选角、名册和转职必须满足故事 3 与既有 UI 契约。图标可以缩短重复文字，但不能替代准确升级效果、所有权、费用、不可逆警告、已保存/未保存状态或禁用原因。</li>
+<li><strong>FR-018</strong>：主菜单及全部现有界面必须有视觉处理与状态清单：公会、招募/抽取确认/有序揭晓/历史/兑换、救援提示、事件选择、腐化摘要、暂停/放弃、结算/章节完成、存档错误/恢复。保留当前公会入口；主菜单皮肤设计不授权新增启动步骤。F9 仅统一样式和沙盒标识，保持仅开发版可用及档案隔离。</li>
+<li><strong>FR-019</strong>：UI 必须统一克制的像素边框、间距、文字层级、图标含义，以及选中/焦点/禁用状态。正文建议沿用 12 逻辑像素起步；更小文字必须为非关键信息，并单独通过可读性评审。关键文字前景/背景对比度至少 4.5:1，焦点与关键图标/边界提示相对相邻颜色至少 3:1。本功能不新增游戏本地化系统或扩大游戏翻译范围。</li>
+<li><strong>FR-020</strong>：保留全部既有键鼠路径、模态暂停、要求新输入边沿的保护、滚动和明确确认。视觉过渡不得延迟输入、自动确认选择、跳过保存门槛，或在结算前将已赚取奖励误示为已保存。</li>
+</ul>
+<h5>交付与验证</h5>
+<ul>
+<li><strong>FR-021</strong>：资产必须是项目原创美术或明确可用的辅助资源，在来源台账记录作者/来源/许可与替换状态。不得复制受版权保护的游戏精灵、UI、地图、角色、构图或品牌。灵感参考不等于可导入资产的许可；不授权新增付费或运行时依赖。</li>
+<li><strong>FR-022</strong>：未来交付包含可编辑母稿、导出、共享色板/风格版本、动画/状态清单和对应当前表现的替换映射。仅替换 G1/G3 准确批准的角色/特效/UI 系列，且全部适用状态、接地点、来源与方向线索已通过评审。其他占位继续工作，局部美术不能抹除受击、死亡、预警、职业或阵营反馈。台账区分占位、拟议、获批、已集成/已验证；替换验收前保留程序源和前截图以便整批回退，历史证据不覆盖。切片获批不授权替换其余英雄/敌人/首领/界面，宽画布不扩大碰撞。 数据映射分别匹配Aren+swordsman及两种获批敌人ID；正常接线缺预期资源必须失败，另用故障注入验证回退，不能以回退成功宣称新美术接线。</li>
+<li><strong>FR-023</strong>：运行时验收须在三种既有尺寸下检查源码及 Windows 发布版视觉，执行受影响功能回归和普通/密集游玩。保留既有预警时机/几何范围，以及显示端输入/命中反馈 ≤100 ms 的目标。未执行检查、硬件缺失和人工验收必须明确待处理。 新合同/UI/集成fixture分别加入已有unit/scene_smoke/integration_m1并保留执行证据；覆盖中断恢复、迟到、跳tick、背景切换及边缘HUD遮挡。
+<ul>
+<li>视觉回归须成对捕获替换前后相同起始快照、种子（主要视觉集用 101）、输入/选择序列、模拟 tick、相机位置、队伍/成长、敌人位置/状态和腐化。性能仍使用 101/202/303。记录构建/版本、渲染器、尺寸/倍率、夹具状态和特效设置；不匹配的旧截图仅作背景。</li>
+<li>捕获原生 640×360，以及源码/发布版 1280×720、1920×1080、1371×779。覆盖普通/密集、腐化 0/100、重叠首领预警、双同伴含倒地、救援进行/成功/失败、全部适用动画状态，必须包含已批准的组合 HUD 压力状态。上下左右移动、帧时序、命中响应和预警时长用片段验证，静帧不能证明时序。</li>
+<li>对齐叠加/差分图，并记录允许替换区域。未经评审的变化区域、关键提示缺失、意外玩法几何变化、关键 UI 裁切须为零；美术本来就会改变，不以整图像素完全相同判通过。检查整数像素块、运动闪烁、脚底锚点、灰度轮廓、HUD 占用与对比度，再把 G2 获接受截图保留为带版本的视觉基线。更新基线须负责人明确记录范围与原因，不自动用失败新图覆盖；人工辨识与延迟另行验收。</li>
+</ul>
+</li>
+<li><strong>FR-024</strong>：性能验收必须保留现有最大腐化代表负载与流畅目标；可简化特效，但不能删除约定攻击或减少负载。全面推广美术前必须对切片进行条件匹配的前后测量。既有性能失败与视觉品质、相对改善须分别报告。</li>
+<li><strong>FR-025</strong>：本规格步骤只修改文档和活动功能指针，不制作正式资产或样稿，不修改代码/场景/资源/项目设置，不实施切片，不创建玩法任务，也不将原里程碑标为验收完成。</li>
+</ul>
+<h4 id="s-12">明确技术约束</h4>
+<p>以下约束来自用户要求或既有项目，用于约束后续规划，不是实现代码方案。</p>
+<ul>
+<li>Godot <strong>4.5</strong>，纯 <strong>2D</strong> 近俯视，正交地面网格；以手绘/分层表现深度，不采用菱形等距网格或相机倾斜。禁止 3D 模型、场景、环境和渲染，不迁移引擎或渲染器。</li>
+<li>允许酌情使用 <code>Sprite2D</code>、<code>AnimatedSprite2D</code>、<code>TileMapLayer</code>、2D 灯光、着色器与粒子，但不要求每类资产都使用；保留当前 Compatibility 渲染器支持与离线运行。</li>
+<li>正式基准必须保留实际 <strong>640×360 逻辑渲染分辨率</strong>、固定 Camera2D zoom (1,1)、纯 2D 近俯视，不新增玩家缩放。默认 1280×720 窗口与 1920×1080 显示分别是整数 2×/3× 呈现，不是不同渲染分辨率。保留 960×540 世界、相机呈现坐标取整、关闭相机平滑、最近邻采样和整数缩放。不得改变物理、既有英雄碰撞占地或攻击范围。正式地砖与角色尺寸另行澄清；历史 16×16/32×32 占位不冻结成品尺寸。</li>
+<li>像素美术导出必须最近邻、无 mipmap、无有损压缩；角色/地砖不得分数缩放或混合像素密度。模拟坐标保持连续，只对呈现取整。1371×779 内仍显示 1280×720 的 2× 内容并留黑边，两侧余量允许相差一显示像素，不拉伸填满。检查运动、镜像、旋转攻击特效和图集边缘的模糊、闪烁、串色。无需新增位图字体制作任务，关键既有文字须满足 FR-019。</li>
+<li>精确图集布局、节点层级、着色算法与可选特效的测量预算由后续计划确定；本文不规定正式实现。</li>
+</ul>
+<h4 id="s-13">美术一致性与初始制作预算</h4>
+<p>下方分辨率、相机、尺寸、朝向策略与最低帧数为已澄清制作约束；其余低成本默认值用于后续计划与 G1 评审，不代表资产已存在或 G0/G1 获批。</p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="规格数据表"><table>
+<thead>
+<tr>
+<th>项目</th>
+<th>初始制作规则</th>
+<th>评审证据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>透视与像素</td>
+<td>统一浅俯视；脚底接地对齐；单一原生像素网格；角色不混用平滑/矢量画风</td>
+<td>原生、2×、3× 接地与透视板</td>
+</tr>
+<tr>
+<td>地砖与世界比例</td>
+<td>正式地砖单元 32×32；1× 相机下一源像素＝一逻辑/世界像素；640×360 可见 20×11.25 个地砖单元，允许边缘半砖</td>
+<td>保留 960×540 世界与既有边界，装饰裁切而非把碰撞扩展到地砖整数倍</td>
+</tr>
+<tr>
+<td>角色画布与比例</td>
+<td>英雄画布 32×48，身体约 24×32（不含武器/VFX）；普通敌人 32×32 或 32×48；Thrall 身高 / Brinejaw 身宽 24–32 像素；首领保留 64×64</td>
+<td>接地点锚在既有角色原点，英雄碰撞直径仍为 16 像素；2× 显示时英雄身体约 48×64。复用精灵表制作前须通过 G1 并排及拥挤样稿；不得填满画布或按画面扩大碰撞</td>
+</tr>
+<tr>
+<td>明暗与调色</td>
+<td>深色描边；每种材质 2–3 个明度层级；统一左上方手绘光；大面积安静表面</td>
+<td>共享色板与灰度构图</td>
+</tr>
+<tr>
+<td>可爱英雄/怪异敌人</td>
+<td>英雄头部约为身高三分之一；脸与剑有识别点；Thrall 高挑破损类人，Brinejaw 低矮宽阔似蟹</td>
+<td>三个黑色剪影与原生尺寸彩色列阵</td>
+</tr>
+<tr>
+<td>职业系列</td>
+<td>Swordmaster 双刃；Abyss Swordsman 幽灵披肩；Sharpshooter 长弓；Star Hunter 星形弓端；Elemental Sage 分色元素披肩；Void Caster 环形杖头</td>
+<td>后续分支总览板；保留当前身份母题</td>
+</tr>
+<tr>
+<td>英雄动画</td>
+<td>待机/移动/攻击/受击/死亡最低有效序列帧为 2/4/3/1/4；各状态原绘上限仍为 4/6/4/2/6，合计最多 22 格</td>
+<td>待机、移动、攻击、死亡须有不同的有效姿态；受击可复用姿态加闪白，重复同图不满足多帧最低值</td>
+</tr>
+<tr>
+<td>两种敌人动画</td>
+<td>每种待机/移动/攻击或预警/受击/死亡最低有效序列帧为 1/2/1/1/3；各状态上限仍为 2/4/2/2/4，合计最多 14 格</td>
+<td>待机、受击、预警可复用姿态并配清晰变色/预警；接触伤害 Thrall 的攻击记不适用，保留既有接触/命中反馈，不新增攻击</td>
+</tr>
+<tr>
+<td>剑击与魔法</td>
+<td>各 2–4 个有效帧，有不同运动/命中姿态；清晰时复用旋转、变色和播放</td>
+<td>剑击方向/命中与友方归属；旋转限于 VFX，不旋转身体或使预警偏离实际边界</td>
+</tr>
+<tr>
+<td>朝向与总量</td>
+<td>每状态一个原绘朝向加左右镜像，不强制四方向精灵表；三角色与两特效最多 <strong>58 个独立原绘动画帧格</strong>，镜像与复用受击姿态只计一次</td>
+<td>G1 须展示普通/密集场景上下左右移动与攻击；辨识失败须修订朝向、成本并获批后才能制作，不能旋转身体代替方向绘制</td>
+</tr>
+<tr>
+<td>时序</td>
+<td>沿用起始目标：英雄待机 6 FPS、移动 10、攻击/受击 12、死亡 8；敌人/特效时序由计划对照现有线索记录</td>
+<td>视觉播放绝不控制攻击、伤害、预警或移除时机</td>
+</tr>
+<tr>
+<td>神龛套件</td>
+<td>最多 16 种基础地砖设计、6 件模块道具，外加一套共享腐化叠层</td>
+<td>地面、墙/拱碎片、神龛焦点与可复用碎屑；不新增碰撞道具</td>
+</tr>
+<tr>
+<td>UI 复用</td>
+<td>一套共享面板/按钮/边框；头像先裁切游戏美术；专属菜单动画前先使用静态主视觉</td>
+<td>组件与状态板；不逐屏制作独立装饰套装</td>
+</tr>
+<tr>
+<td>灯光成本</td>
+<td>先用手绘渐变/精灵神龛焦点；默认不新增动态灯光、阴影、全屏后处理或装饰粒子层；实测计划获评审后最多一盏共享无阴影灯</td>
+<td>手绘/无灯光对照与 SC-006 匹配负载；不依赖逐敌人灯光，不暗示新增特效设置菜单</td>
+</tr>
+</tbody>
+</table></div>
+<p>最低值指各适用状态序列的有效帧，上限计独立原绘帧格；上述复用/闪白为明确例外，不能丢失反馈。58 格是上限，不承诺新绘 58 张。五种状态均须有清单条目，玩法不存在的状态以源码依据记不适用。美术时序与历史占位目标不同须在后续计划评审；玩法时序不变，被打断动画无需播完才推进玩法。</p>
+<h4 id="s-14">审批与推广门槛</h4>
+<div class="table-wrap" tabindex="0" role="region" aria-label="规格数据表"><table>
+<thead>
+<tr>
+<th>门槛</th>
+<th>必备评审资料</th>
+<th>负责人决定与允许的下一步</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>G0 — 方向</td>
+<td>源码审计、文字方向、Concept 2/3 实图或明确认可文字替代、风格与成本草案</td>
+<td>记录方向批准后才视参考/风格为定稿；等待期间可继续规划与文档修订</td>
+</tr>
+<tr>
+<td>G1 — 切片样稿</td>
+<td>FR-013 准确尺寸板/序列与组合 HUD 压力态；画布/身体列阵、四向播放、最低帧/状态清单、手绘光/无灯光和灰度对照；色板/字体/焦点、估算及准确替换清单</td>
+<td>明确批准指定版本及替换范围，实施仍须获批计划/任务；本次澄清只确认数值规则，不批准未见样稿；此前不编辑场景</td>
+</tr>
+<tr>
+<td>G2 — 可玩切片</td>
+<td>已批准 G1 版本；源码/发布版截图与片段；辨识评审；玩法未变回归；匹配性能结果及失败披露</td>
+<td>扩大制作/集成前需负责人明确验收视觉；性能失败不能标为通过或静默豁免</td>
+</tr>
+<tr>
+<td>G3 — 其余界面/资产</td>
+<td>与已接受切片一致的逐系列小批次、受影响界面/状态样稿；实改前各自完成类似 G1 的审批</td>
+<td>每次只扩展一批获批内容，不从切片批准推定全面批准</td>
+</tr>
+</tbody>
+</table></div>
+<p>规格创建时全部门槛均为<strong>待处理</strong>。若性能仍未达到既有目标，G2 可单独记录视觉意见，但全面集成仍须等待符合宪法、经明确评审的整改/推广决定；本功能不授权玩法优化或放宽目标。</p>
+<h4 id="s-15">关键实体（涉及数据时填写）</h4>
+<ul>
+<li><strong>视觉资产记录</strong>：资产/角色/职业 ID、当前路径与证据、占位/拟议/获批/已集成/已验证状态、替换及保留回退、复用系列、作者/许可、版本、画布/身体边界、接地点、状态/方向/帧覆盖和审批。</li>
+<li><strong>风格基线</strong>：透视、像素尺度、色彩语义、描边/明暗、字体/间距、动画规范和特效层级；美术与 UI 共享对应版本。</li>
+<li><strong>样稿包</strong>：范围/版本、参考资料可用性、设计板/动画序列、目标显示尺寸、成本估算与对应需求；不得标成运行时证据。</li>
+<li><strong>审批记录</strong>：门槛、资料包版本、具名负责人/评审者、日期、批准/修订/否决、允许范围与未满足条件。</li>
+<li><strong>验收证据</strong>：需求编号、构建/版本、测试夹具/种子/队伍、显示与硬件条件、实做检查、产物、结果及待完成人工/性能项；与既有玩法结论分开。</li>
+</ul>
+<h3 id="s-16">成功标准（必填）</h3>
+<h4 id="s-17">可测量结果</h4>
+<p>下列均为<strong>未来验收目标</strong>，并非已完成测试。</p>
+<ul>
+<li><strong>SC-001</strong>：场景工作前，八项切片交付物（一英雄、两敌人、一环境、一剑击动画、一魔法特效、一战斗 HUD、一升级 UI）全部具有可评审样稿，且负责人对同一版本明确作出决定；未获批运行时视觉改动为零。对应 FR-003/004/011–015/025；故事 1；G0/G1。</li>
+<li><strong>SC-002</strong>：十人辨识评审中，至少八人在普通、密集和最大腐化各条件下，以 2×、3× 尺寸观看两秒片段后，正确辨认英雄、两种敌人轮廓、剑击方向、友方魔法和危险区域。逐项记录答案，不得用总分掩盖单条件失败。对应 FR-005–010/013/014；故事 2；G2。 每项目×条件×尺寸分别要求8/10，两敌分开计分；方向片段明确上/下/左/右。保存预先冻结fixture/答案/原始记录，样本变更重测受影响条件。</li>
+<li><strong>SC-003</strong>：十人界面评审中，至少八人在无指导情况下，每任务五秒内找到 HP、区分永久与本局等级、辨认当前焦点升级，并说明转职费用/永久性。准确费用/奖励及待处理/已保存状态相对既有契约零遗漏。对应 FR-016–020；故事 3；G1/G3。</li>
+<li><strong>SC-004</strong>：全部范围内界面/状态通过三尺寸布局评审：关键文字裁切、不可达操作、仅颜色关键提示、缺失禁用/焦点状态均为零。最大非模态 HUD 占可见游玩区域不超过 25%，文字/图标对比度满足 FR-019。对应 FR-016–020/023；故事 3；G1/G2/G3。 矩形并集合格不能豁免四边四角遮挡；实机对照G1批准的P01，未定继续pending。</li>
+<li><strong>SC-005</strong>：每项计划正式资产均有源路径、状态、来源许可、复用、状态覆盖、审批、原生尺寸和接地点边界记录。适用动画满足最低有效帧规则，明确记录复用/不适用例外；切片满足 58 个独立原绘帧、16 基础地砖、6 道具上限，或制作前获批修订估算。不交付复制游戏美术。对应 FR-002/007/008/014/015/021/022；故事 4；G1/G3。</li>
+<li><strong>SC-006</strong>：保持代表负载不变：最大腐化、100 普通敌人、1 首领、2 同伴、至少 30 攻击特效、100 移动弹体和 500 宝石。三个既有种子分别主动时间预热 30 秒、采样 120 秒，均须满足 p95 帧耗时 ≤16.67 ms、p99 ≤25 ms；显示端输入/命中反馈 ≤100 ms。采用既有参考条件，其他硬件只作补充证据。对应 FR-010/023/024；故事 2；G2。现有结果尚未达标。 原基准不变，另测命中新sprite的额外负载并分开报告。P02数量待G1（候选30新版剑弧/100新版追踪星）；记录角色/剑弧/星的新表现与回退数量，沿用参考机/种子/时长/帧耗时门槛，不能用程序填充效果证明新路径覆盖。</li>
+<li><strong>SC-007</strong>：在起始快照、种子和决定一致时，受影响战斗/成长/保存/调试回归不得出现视觉替换导致的玩法差异；预警保留既有几何及最短时长。FR-023 成对视觉截图矩阵与运动片段中，未经评审的改动区域、关键提示缺失、关键 UI 裁切均为零；预期美术变化可追溯到获批版本。未执行检查或未达标项明确待处理。对应 FR-001/012/014/020/023/024；故事 2–3；G2/G3。</li>
+</ul>
+<h3 id="s-18">假设</h3>
+<ul>
+<li>初始面向桌面键鼠及现有 Windows 源码/发布版验证路径。本视觉功能不新增平台、本地化、音频、控制或无障碍设置。</li>
+<li>用户对 Concept Image 2/3 的文字描述足以起草规格。实图未附上，也没有可读本地路径，其准确构图/色板未知。参考一致性是 G0 依赖，不是编造细节或停止写文档的理由。</li>
+<li>现有源码与资源用于确认可玩行为；既有截图是历史审计证据。本次不产生新玩法或性能结果。见<a href="../../docs/validation/convergence-2026-10-15.md">最新玩法验证</a>和<a href="../../docs/benchmarks/m4.md">性能限制</a>。</li>
+<li>原美术说明与来源台账仅用于兼容和复用参考，不能替代本次首份正式方向评审；不推定以往已获视觉批准。</li>
+<li>项目负责人拥有审批权。后续计划必须在开工前记录实际评审人、特效预算、测量条件与制作规范。本任务未取得 G0/G1 批准。</li>
+<li>全部现有界面均纳入设计覆盖，但仅代表性切片作为首批拟议制作。首领、其他敌人、全部六角色身份和六转职分支仍为后续替换计划，不授权全面内容扩张。</li>
+<li>性能参考条件继承玩法计划：Windows 11、i5-8400、GTX 1050 Ti 4 GB、16 GB RAM、SSD、1920×1080/60 Hz、Compatibility 发布版；不限帧负载与显示反馈分别测量。当前主机历史结果不构成参考机验收。</li>
+<li>排除范围：新机制、平衡改动、新职业/敌人/地图、3D、引擎迁移、后端/付费抽卡、新依赖、本步骤代码实现与全面场景替换。</li>
+</ul>
+</article><article class="doc-section" id="audit"><div class="section-marker">02 / 资产与 UI 审计</div><h2 id="a-22">视觉/UI 基线审计 — 2D 美术方向</h2>
+<p><strong>日期</strong>：2026-10-16 · <strong>功能</strong>：<a href="#spec">中文规格</a> · <strong>方法</strong>：检查源码/资源/场景，并查看既有截图文件。本规格任务未启动新引擎测试、制作美术、批准样稿或进行玩法测试。</p>
+<p><strong>中文副本</strong>：译自<a href="visual-audit.md">英文审计</a>，属于同一份历史基线的翻译，不代表重新运行了审计中的游戏检查。</p>
+<h3 id="a-23">证据与优先顺序</h3>
+<p>本审计服务于首份正式制作视觉规格。已有<a href="../../docs/art-direction.md">占位规范</a>、<a href="../../assets/provenance.md">资产来源</a>和<a href="../../assets/effects/m2-branches.md">特效说明</a>是历史证据，不是先前的正式设计批准。<a href="../001-abyss-expedition-mvp/contracts/ui.md">玩法 UI 契约</a>规定必须保留的行为。当前源码接线的优先级高于旧截图标签。</p>
+<p><code>assets/</code> 清单包含来源及占位/特效 Markdown 说明，没有完成的角色/敌人动画精灵表、地砖集或 UI 美术。根目录 <code>icon.svg</code> 是应用图标，不是正式游戏资产套件。<code>screenshots/</code> 图片是证据，不能当成可复用精灵。Concept Image 2 和 3 尚缺失，不声称现有美术与它们匹配。</p>
+<h3 id="a-24">已有、缺失与计划资产</h3>
+<p>各列分别表达状态：“已有”仅表示在源码中找到，不代表正式美术验收。下表所有替换均为<strong>计划中/未实现</strong>，等待负责人批准。不得仅凭截图或历史清单将资产标为完成。</p>
+<div class="table-wrap" role="region" aria-label="数据表，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>系列</th>
+<th>已有运行时/源码证据</th>
+<th>缺失正式美术</th>
+<th>计划替换/复用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>六名英雄</td>
+<td><a href="../../data/characters/aren.tres">角色 Resource</a>，<code>data/characters/</code> 六项；<a href="../../scripts/combat/actor_presentation.gd">ActorPresentation</a> 绘制剑/弓/星形</td>
+<td>独立且富表情的角色精灵表与头像</td>
+<td>切片 Aren；后续 Lia/Milo/Sera/Brann/Nyra。共享职业动作，独立发型/服装/徽记；头像先裁切已批准精灵</td>
+</tr>
+<tr>
+<td>三基础/六转职职业</td>
+<td><code>data/professions/</code> 九份 Resource；<a href="../../assets/effects/m2-branches.md">分支母题</a>；<a href="../../scripts/ui/promotion.gd">转职 UI</a> 实例化真实 actor/VisualSet 预览</td>
+<td>完整状态表与统一原生尺度分支身份图</td>
+<td>保留剑/弓/杖系列及六分支现有轮廓；共享身体/动作，避免逐英雄专属动画</td>
+</tr>
+<tr>
+<td>六种普通敌人身份</td>
+<td><code>data/enemies/</code>：Thrall、Brinejaw、Cantor、Husk、Broodmother、Broodling；绘制菱形/蟹/灯笼/壳/触手/三角</td>
+<td>姿态与威胁提示一致的原创精灵表</td>
+<td>切片 Thrall、Brinejaw；其他后续制作。腐化变体叠层复用基础轮廓</td>
+</tr>
+<tr>
+<td>首领</td>
+<td><a href="../../data/encounters/tidebound_hierophant.tres">Tidebound Hierophant 定义</a>；程序绘制冠、眼、触手</td>
+<td>正式 64×64 首领状态表与配套 VFX</td>
+<td>后续原创邪教/深渊轮廓；保留预警模式和画面尺寸/碰撞占地关系</td>
+</tr>
+<tr>
+<td>地形/神龛</td>
+<td><a href="../../scripts/world/coast_field.gd">CoastField</a> 绘制 960×540 地面、潮汐浅滩、邪教石与边界；<a href="../../scenes/world/coast_field.tscn">场景</a> 为带脚本 Node2D</td>
+<td>哥特模块地砖、神龛焦点道具与纵深层</td>
+<td>切片一套海岸腐化神龛；复用地面/墙/拱碎片及叠层；保持可行走区与边界</td>
+</tr>
+<tr>
+<td>动画</td>
+<td>ActorPresentation 内有程序起伏、瞄准线、受击闪白、死亡姿态与无敌环；见<a href="../../assets/sprites/placeholders/README.md">占位说明</a></td>
+<td>手绘动画表、状态/朝向清单与可编辑母稿</td>
+<td>保留五状态优先级；预算内小规模共享/镜像；动画只消费状态</td>
+</tr>
+<tr>
+<td>剑击/魔法</td>
+<td><a href="../../scripts/combat/melee_arc.gd">剑弧</a>、<a href="../../scripts/combat/projectile.gd">弹体</a>、<a href="../../data/weapons/homing.tres">追踪武器</a></td>
+<td>剑击方向/命中与友方魔法像素序列</td>
+<td>切片现有剑弧与追踪星；魔法预览不赋予 Aren 新技能</td>
+</tr>
+<tr>
+<td>其他 VFX/拾取物</td>
+<td><a href="../../scripts/combat/telegraph.gd">预警</a>、<a href="../../scripts/combat/damage_zone.gd">伤害区</a>、<a href="../../scripts/progression/xp_pickup.gd">XP 拾取</a>、<a href="../../scripts/collection/rescue_zone.gd">救援区</a></td>
+<td>统一特效图集、命中/区域/图标</td>
+<td>后续复用预警描边与特效系列；保留橙色危险、青色菱形 XP 和精确危险几何</td>
+</tr>
+<tr>
+<td>灯光/纵深</td>
+<td>平面程序地面与腐化变色；源码/场景搜索未发现已接线的 Sprite2D、AnimatedSprite2D、TileMapLayer、2D 灯、粒子或 ShaderMaterial 表现</td>
+<td>正式分层美术及获批灯光/特效处理</td>
+<td>先绘制纵深与单一低成本神龛焦点；后续按测量结果酌情加入 2D 灯光/着色器/粒子</td>
+</tr>
+<tr>
+<td>UI/字体</td>
+<td><a href="../../scripts/ui/screen.gd">共享 Screen</a>、<a href="../../scripts/core/app_router.gd">应用主题</a>、<code>scripts/ui/</code>；来源说明记录使用 Godot 内置字体</td>
+<td>共享正式面板/图标/头像规范和评审布局</td>
+<td>复用主题/组件；保留契约、准确数值、焦点及保存门槛；不假定需要外部字体</td>
+</tr>
+</tbody>
+</table></div>
+<p>六名角色是六个数据项，并非现有六套独立精灵：Aren/Brann 共用 Swordsman，Lia/Nyra 共用 Archer，Milo/Sera 共用 Mage。六种普通敌人定义包含召唤物 Broodling；历史“五种敌人行为”统计口径不同，不表示新增了第六种独立行为。</p>
+<h3 id="a-25">UI 清单与设计缺口</h3>
+<p><code>scenes/ui/</code> 大多为 Control 空壳，界面由脚本在运行时构建。因此“修改场景前批准”也覆盖运行时布局/主题脚本及关联资源；仅改脚本不能绕过 G1。</p>
+<div class="table-wrap" role="region" aria-label="数据表，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>界面/现有源码</th>
+<th>当前表现与缺口</th>
+<th>拟议处理/须保留状态</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../scripts/ui/combat_hud.gd">战斗 HUD</a></td>
+<td>平顶栏长文字，腐化/队伍/救援独立标签，原型进度条</td>
+<td>紧凑状态分组，区分 Hero Lv/Run Lv，HP/XP/时间、首领、双同伴/倒地、救援、腐化/金币及可发现种子/详情；切片优先</td>
+</tr>
+<tr>
+<td><a href="../../scripts/ui/level_up.gd">升级</a></td>
+<td>文字按钮，效果与次数准确来自 Resource</td>
+<td>三张统一选择卡、清楚层级、可选共享图标；保留焦点/1–3、不可跳过/重抽、暂停与排队选择</td>
+</tr>
+<tr>
+<td><a href="../../scripts/ui/character_selection.gd">选角</a></td>
+<td>已有角色文字网格/滚动、种子输入/错误，无独立头像</td>
+<td>精灵裁切形象、选中/当前职业、仅可选已拥有角色、清楚种子/预览/开始；新档与全六人状态</td>
+</tr>
+<tr>
+<td><a href="../../scripts/ui/roster.gd">名册</a></td>
+<td>可滚动属性/队伍/转职操作</td>
+<td>紧凑共享角色行/卡；主控/同伴/倒地区别；0–2 同伴、验证、保存/取消</td>
+</tr>
+<tr>
+<td><a href="../../scripts/ui/promotion.gd">转职</a></td>
+<td>两个真实程序分支预览及文字操作</td>
+<td>明确双分支形象比较、当前数值/效果、保留被动、永久性/费用、锁定/选中/确认/取消</td>
+</tr>
+<tr>
+<td><a href="../../scripts/ui/guild.gd">公会</a></td>
+<td>当前入口中心：章节、余额、收集路径与链接</td>
+<td>克制神龛/公会框架、共享角色图标、紧凑余额；新档/收集齐/章节完成；不新增导航步骤</td>
+</tr>
+<tr>
+<td><a href="../../scripts/ui/main_menu.gd">主菜单</a></td>
+<td>历史场景/脚本仍在；当前 <code>show_menu()</code> 跳转公会</td>
+<td>为历史界面记录共享主视觉/标题/按钮处理；旧菜单截图不代表当前启动界面</td>
+</tr>
+<tr>
+<td><a href="../../scripts/ui/recruitment.gd">招募</a></td>
+<td>池子、确认、揭晓、兑换、历史均用共享文字面板</td>
+<td>同一框架/图标；十条有序结果、重复标签、概率/费用、余额不足/全拥有/空记录与中断恢复</td>
+</tr>
+<tr>
+<td><a href="../../scripts/ui/rescue_prompt.gd">救援提示</a></td>
+<td>暂停文字邀请；现有区域与 HUD 显示进度</td>
+<td>紧凑邀请/奖励；接受/拒绝、进行/失败/成功、Sera/重复票券、已赚取/已结算</td>
+</tr>
+<tr>
+<td><a href="../../scripts/ui/event_choice.gd">事件选择</a></td>
+<td>商人/祭坛/救援相关选项显示准确费用与禁用原因</td>
+<td>共享选择卡，费用/风险层级；无暗扣、免费离开、可支付性、腐化/生命限制</td>
+</tr>
+<tr>
+<td><a href="../../scripts/ui/corruption_summary.gd">腐化摘要</a></td>
+<td>C 键查看文字阈值</td>
+<td>紧凑准确阈值行与统一紫色母题，区别橙色危险；保留全部详情</td>
+</tr>
+<tr>
+<td><a href="../../scripts/ui/pause_menu.gd">暂停</a></td>
+<td>共享模态控件与放弃确认</td>
+<td>统一暂停/确认/破坏性状态；不得释放其他暂停原因或自动确认</td>
+</tr>
+<tr>
+<td><a href="../../scripts/ui/run_results.gd">结算</a></td>
+<td>结果、成员收益/封顶、保存奖励与回放条件说明</td>
+<td>紧凑结果层级、保存/章节/回放变化提示；胜/负/封顶/队伍与同种子路径</td>
+</tr>
+<tr>
+<td><a href="../../scripts/ui/save_error.gd">存档/恢复</a></td>
+<td>存储错误、长路径、重试/恢复/新档或锁提示</td>
+<td>高可读共享模态，换行/滚动、损失警告、明确确认、新版本/锁定/待处理；不得装饰性关闭</td>
+</tr>
+<tr>
+<td><a href="../../scripts/debug/debug_panel.gd">F9 开发面板</a></td>
+<td>四页签、滚动、沙盒标识与隔离操作</td>
+<td>批准后仅统一主题；不新增调试能力、不写正常档案、不在发布版显示</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="a-26">原规格任务实际查看的截图证据</h3>
+<p>均为既有文件，<strong>不是新测试截图、目标样稿或 Concept Image 2/3</strong>。原规格任务已目视检查图片；文件名/构建声明属于历史证据，不构成新可执行文件验证。</p>
+<div class="table-wrap" role="region" aria-label="数据表，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>既有图片</th>
+<th>观察/限制</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../screenshots/m4-release-boss-double-eruption-1280.png">M4 发布版首领/腐化 100</a></td>
+<td>平暗场地、几何英雄/敌人、橙色扇形/圆形预警、密集 HUD 文本、绿色救援边界；适合作为杂乱度与提示优先级基线</td>
+</tr>
+<tr>
+<td><a href="../../screenshots/convergence-exe-m2-promotion-aren-1280.png">Aren 转职</a></td>
+<td>两个真实程序分支预览、描边按钮、费用/永久性及禁用确认；提升美术时保留功能</td>
+</tr>
+<tr>
+<td><a href="../../screenshots/convergence-exe-m2-selection-1280.png">选角</a></td>
+<td>文字三初始角色、种子、滚动容器，无独立头像</td>
+</tr>
+<tr>
+<td><a href="../../screenshots/convergence-exe-m4-guild-1280.png">当前公会</a></td>
+<td>扁平文字中心，含收集和路径；源码确认这是普通入口</td>
+</tr>
+<tr>
+<td><a href="../../screenshots/menu.png">历史 M1 菜单</a></td>
+<td>旧原型标题/帮助声称无永久成长，已不适用于当前玩法；仅用于历史菜单表现审计</td>
+</tr>
+</tbody>
+</table></div>
+<p>升级、招募、恢复等其余界面仅检查源码，原规格任务未重新游玩，也未完成视觉验收。未生成合成总览或替换截图。</p>
+<h3 id="a-27">验收依赖与当前状态</h3>
+<div class="table-wrap" role="region" aria-label="数据表，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>项目</th>
+<th>规格创建时实际状态</th>
+<th>下一份所需证据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>视觉功能规格</td>
+<td>草案已写；需求质量另行检查</td>
+<td>负责人评审，再按请求规划</td>
+</tr>
+<tr>
+<td>资产/UI 基线</td>
+<td>已检查源码与五张现有图片</td>
+<td>提交拟议美术时刷新审计</td>
+</tr>
+<tr>
+<td>Concept Image 2/3</td>
+<td>缺失，已有文字描述</td>
+<td>提供参考图或在 G0 明确记录文字替代批准</td>
+</tr>
+<tr>
+<td>正式风格/样稿</td>
+<td>未制作、未批准</td>
+<td>G0 方向与带版本/决定的 G1 包</td>
+</tr>
+<tr>
+<td>视觉切片/新精灵/UI 皮肤</td>
+<td>未实现</td>
+<td>正式替换前，先有获批计划/任务和 G1</td>
+</tr>
+<tr>
+<td>其余角色/敌人/首领/界面</td>
+<td>设计覆盖已规划，制作延后</td>
+<td>G2 切片评审，再逐系列 G3 批准</td>
+</tr>
+<tr>
+<td>玩法自动检查</td>
+<td>原规格任务只引用历史证据</td>
+<td>后续受影响回归；不能继承为视觉验收通过</td>
+</tr>
+<tr>
+<td>性能</td>
+<td>历史最新发布版 p95 为 27.571 / 27.670 / 29.259 ms，超出 16.67 ms</td>
+<td>匹配测量及参考机验收；<a href="../../docs/validation/convergence-2026-10-15.md">当前证据</a>、<a href="../../docs/benchmarks/m4.md">协议</a></td>
+</tr>
+<tr>
+<td>人工辨识、显示延迟、审美</td>
+<td>待处理，静态检查不能证明</td>
+<td>十人测试、反馈观察及负责人明确视觉决定</td>
+</tr>
+</tbody>
+</table></div>
+<p>不得修改玩法规格/任务复选框、旧美术约定或历史日志，以暗示本视觉功能已经验收。</p>
+<section aria-labelledby="evidence-title"><h3 id="evidence-title">历史截图速览</h3><p>以下四张均来自项目现有截图，仅用于查看原型基线；不是本规格制作的新美术或样稿。</p><div class="gallery">
+<figure><a href="../../screenshots/m4-release-boss-double-eruption-1280.png"><img src="../../screenshots/m4-release-boss-double-eruption-1280.png" width="640" height="360" loading="lazy" alt="历史M4战斗截图，显示几何角色、首领、重叠橙色预警和原型HUD"></a><figcaption>历史证据 · M4 战斗 / 腐化 100</figcaption></figure>
+<figure><a href="../../screenshots/convergence-exe-m2-promotion-aren-1280.png"><img src="../../screenshots/convergence-exe-m2-promotion-aren-1280.png" width="640" height="360" loading="lazy" alt="历史Aren转职界面，显示剑圣与深渊剑士程序占位预览"></a><figcaption>历史证据 · Aren 双分支转职预览</figcaption></figure>
+<figure><a href="../../screenshots/convergence-exe-m2-selection-1280.png"><img src="../../screenshots/convergence-exe-m2-selection-1280.png" width="640" height="360" loading="lazy" alt="历史选角界面，显示三名初始角色、种子输入和滚动容器"></a><figcaption>历史证据 · 选角与种子</figcaption></figure>
+<figure><a href="../../screenshots/convergence-exe-m4-guild-1280.png"><img src="../../screenshots/convergence-exe-m4-guild-1280.png" width="640" height="360" loading="lazy" alt="历史公会入口界面，显示远征、队伍、招募和角色获取路径"></a><figcaption>历史证据 · 当前公会入口</figcaption></figure>
+</div></section></article><article class="doc-section" id="quality"><div class="section-marker">03 / 规格质量清单</div><h2 id="q-28">规格质量清单：Abyss Expedition — 2D 视觉美术方向</h2>
+<p><strong>目的</strong>：进入规划前验证规格完整性与质量。
+<strong>创建日期</strong>：2026-10-16
+<strong>功能</strong>：<a href="#spec">中文规格</a>
+<strong>评审</strong>：规格作者在 <code>$speckit-specify</code> 阶段完成的自检。勾选仅表示需求质量符合要求，不代表负责人批准、资产已交付或执行过玩法/视觉验收。
+<strong>中文副本</strong>：译自<a href="checklists/requirements.md">英文清单</a>；下列检查结果属于原规格任务，不能当成本次翻译新增的游戏测试结果。</p>
+<h3 id="q-29">内容质量</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> 除用户明确要求/项目继承约束外，不包含语言、框架、API 等实现细节；没有代码、节点层级或算法设计。</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> 聚焦用户价值与制作需求。</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> 面向非技术相关者撰写，技术约束单列。</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> 全部必填部分完成。</li>
+</ul>
+<h3 id="q-30">需求完整性</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> 无未解决澄清标记；缺失参考图具有明确 G0 依赖和负责人批准文字替代的路径。</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> 需求可测试、无歧义。</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> 成功标准可测量。</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> 成功标准描述可观察结果，不依赖实现细节。</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> 验收场景完整。</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> 已识别边界情形。</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> 范围边界明确。</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> 依赖与假设已列明。</li>
+</ul>
+<h3 id="q-31">功能准备程度</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> 每项功能需求均由用户场景、制作规则、门槛及 SC 映射给出验收标准。</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> 用户故事覆盖主要流程。</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> 已定义可测量结果；是否达成仍待未来验收。</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> 未混入未请求的实现设计。</li>
+</ul>
+<h3 id="q-32">说明</h3>
+<ul>
+<li>评审结果为 <strong>16/16 项质量准则满足</strong>，按下述明确约束解释；不等于 16 项已执行测试，也不等于任何美术获批。</li>
+<li>通用清单中的“不涉及技术”按本次明确需求解释：Godot 4/纯 2D 和允许的 2D 表现工具是用户约束，予以保留。既有 4.5/Compatibility/尺度默认值防止意外迁移。数值化风格/成本是拟议、可评审的制作边界，不是代码；详细技术设计由后续计划负责。</li>
+<li>G0–G3 全部待处理。Concept Image 2/3 缺失不妨碍起草或规划，但图片匹配必须等实际图片可用，或负责人明确接受文字替代后才能通过。</li>
+<li>规格与审计不声称资产已完成、新运行时检查已执行、性能已达标或十人测试已完成。</li>
+<li>原规格任务实际执行的文档检查：六份文档共 <strong>174 个本地目标，零失效路径</strong>。功能指针 JSON 指向 <code>specs/002-2d-art-direction</code>，包含四个用户故事、25 条功能需求与七项成功标准。对 scripts/scenes/data/assets/tests、原玩法功能及 <code>project.godot</code> 内 <strong>244 份既有文件</strong>比较 SHA-256，未发现修改或删除。这只是静态文档/范围验证，没有运行 Godot 测试、性能测试或人工试玩。</li>
+<li>工具限制：尝试 <code>specify preset resolve spec-template</code> 时，Windows 应用控制阻止运行 <code>specify.exe</code>。项目中未发现预设/覆盖栈或扩展配置，因此回退使用已检查的 <code>.specify/templates/spec-template.md</code>，保留必填章节顺序。未运行分支或扩展钩子；不需要因此改玩法或绕过工具策略。</li>
+<li>可进入 <code>$speckit-plan</code> 定义实施细节与评审包，但这不授权修改场景；仍须先有 G1 样稿批准及获批实施规划。</li>
+</ul>
+</article><details class="notice"><summary>本轮澄清与校验</summary><p>2026-10-16：三项已答澄清同步到中英文规格；数值基准已确认，美术、样稿及游戏集成仍待审批。页内导航和表格保持离线可读。<a href="../../docs/validation/art-clarify-2026-10-16.md">本轮静态检查与限制</a></p><p>本轮不运行游戏、性能或人工视觉验收；保留原审计和质量清单中的历史记录。中文页未进行浏览器目视验证。</p></details></main></div><footer><div class="shell">Abyss Expedition · 中文文档副本 · 原稿与译文均保留。此页无需网络、CDN 或服务器，可双击离线阅读。<a href="#top">返回顶部 ↑</a></div></footer></body></html>

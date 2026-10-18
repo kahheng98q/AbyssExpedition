@@ -1,0 +1,1 @@
+Intermediate candidate04a8a4e4 / f2329f74 retained. Its after/perf and after/perf-visual runs are not final post-prop-fix performance. Two prop crops were blank, one combined two designs; fixed later. Binary and captures retained, no final art acceptance claimed.

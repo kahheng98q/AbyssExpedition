@@ -1,0 +1,9 @@
+{
+  "current_source_frames": 163,
+  "current_release_frames": 138,
+  "before_frames": 137,
+  "source_segments": 19,
+  "release_segments": 17,
+  "failures": 0,
+  "kind": "actual elapsed-clock engine captures, not physical video"
+}

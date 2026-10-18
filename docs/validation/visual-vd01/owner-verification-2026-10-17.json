@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-17",
+  "reviewer": "user / project owner",
+  "message": "verified proceed the rest",
+  "scope_clarification": "完成当前切片的剩余工作",
+  "candidate_sha256": "f187bd763fe92b69069722432c4534178c32206be6cf76a59ba9fe8fe7e95d42",
+  "embedded_release_sha256": "c6d626b275117e8f5ec8c476ed6cc8574792a8b53bd3dab55927d8e565d98bfe",
+  "decision": "owner reports current slice verified; continue remaining fixes and verification of current eight-item slice",
+  "art_feedback": "accepted as reviewed current reference; no detailed test method supplied",
+  "restrictions": [
+    "No G3 expansion",
+    "Do not infer ten participants, measured physical latency, reference-machine budgets or release-readiness",
+    "Changes after this revision require separate truthful evidence"
+  ],
+  "archive": "owner-verified-f187/"
+}

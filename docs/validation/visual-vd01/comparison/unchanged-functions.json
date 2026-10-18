@@ -1,0 +1,12 @@
+[
+  {
+    "path": "scripts/combat/projectile.gd",
+    "function": "simulate",
+    "identical": true
+  },
+  {
+    "path": "scripts/combat/melee_arc.gd",
+    "function": "contains",
+    "identical": true
+  }
+]

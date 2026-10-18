@@ -1,0 +1,41 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+
+FIXTURE test_visual_contract
+INVULNERABILITY QUEUE PROBE: attempts=10000 retained_ids=0 elapsed_us=6471
+SUITE unit: 229 assertions; 6 failures; 0 skipped
+ERROR: Animation 'move' doesn't exist.
+   at: get_frame_texture (scene/resources/sprite_frames.h:83)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/unit/test_visual_contract.gd:23)
+       [1] run (res://tests/run_tests.gd:73)
+ERROR: Animation 'move' doesn't exist.
+   at: set_frame (scene/resources/sprite_frames.cpp:54)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/unit/test_visual_contract.gd:23)
+       [1] run (res://tests/run_tests.gd:73)
+ERROR: Animation 'move' doesn't exist.
+   at: get_frame_texture (scene/resources/sprite_frames.h:83)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/unit/test_visual_contract.gd:23)
+       [1] run (res://tests/run_tests.gd:73)
+ERROR: Animation 'move' doesn't exist.
+   at: set_frame (scene/resources/sprite_frames.cpp:54)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/unit/test_visual_contract.gd:23)
+       [1] run (res://tests/run_tests.gd:73)
+ERROR: Animation 'move' doesn't exist.
+   at: get_frame_texture (scene/resources/sprite_frames.h:83)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/unit/test_visual_contract.gd:23)
+       [1] run (res://tests/run_tests.gd:73)
+ERROR: Animation 'move' doesn't exist.
+   at: set_frame (scene/resources/sprite_frames.cpp:54)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/unit/test_visual_contract.gd:23)
+       [1] run (res://tests/run_tests.gd:73)
+FAIL: engine/script error: scene/resources/sprite_frames.h:83 Condition "!E" is true. Returning: Ref<Texture2D>() Animation 'move' doesn't exist.
+FAIL: engine/script error: scene/resources/sprite_frames.cpp:54 Condition "!E" is true. Animation 'move' doesn't exist.
+FAIL: engine/script error: scene/resources/sprite_frames.h:83 Condition "!E" is true. Returning: Ref<Texture2D>() Animation 'move' doesn't exist.
+FAIL: engine/script error: scene/resources/sprite_frames.cpp:54 Condition "!E" is true. Animation 'move' doesn't exist.
+FAIL: engine/script error: scene/resources/sprite_frames.h:83 Condition "!E" is true. Returning: Ref<Texture2D>() Animation 'move' doesn't exist.
+FAIL: engine/script error: scene/resources/sprite_frames.cpp:54 Condition "!E" is true. Animation 'move' doesn't exist.

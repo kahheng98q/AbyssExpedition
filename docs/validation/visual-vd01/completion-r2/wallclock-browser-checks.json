@@ -1,0 +1,58 @@
+{
+  "checks": [
+    {
+      "name": "release native frames load locally",
+      "pass": true
+    },
+    {
+      "name": "release real recorded pause has frozen tick",
+      "pass": true
+    },
+    {
+      "name": "source native frames load locally",
+      "pass": true
+    },
+    {
+      "name": "source real recorded pause has frozen tick",
+      "pass": true
+    },
+    {
+      "name": "before native frames load locally",
+      "pass": true
+    },
+    {
+      "name": "before real recorded pause has frozen tick",
+      "pass": true
+    },
+    {
+      "name": "source-only existing debug speed segment",
+      "pass": true
+    },
+    {
+      "name": "release has no debug speed segment",
+      "pass": true
+    },
+    {
+      "name": "integer scale 1",
+      "pass": true
+    },
+    {
+      "name": "integer scale 2",
+      "pass": true
+    },
+    {
+      "name": "integer scale 3",
+      "pass": true
+    },
+    {
+      "name": "mobile board scrolls within its own container",
+      "pass": true
+    },
+    {
+      "name": "no browser errors or network requests",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "network": []
+}

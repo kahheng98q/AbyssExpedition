@@ -1,0 +1,93 @@
+{
+  "tiles": 16,
+  "props": 6,
+  "tile_px": [
+    32,
+    32
+  ],
+  "world": [
+    960,
+    540
+  ],
+  "collision": false,
+  "navigation": false,
+  "overlay_family": 1,
+  "dynamic_lights": 0,
+  "dynamic_shadows": 0,
+  "shaders": 0,
+  "revision": "VD-01-P1",
+  "source_layers": [
+    "terrain16 native cells",
+    "clean six props",
+    "corruption original glyph pixels"
+  ],
+  "source_note": "unmodified production atlases packaged as separate native ORA layers; no merged preview supplied",
+  "prop_regions": [
+    [
+      0,
+      0,
+      64,
+      96
+    ],
+    [
+      64,
+      0,
+      32,
+      64
+    ],
+    [
+      96,
+      0,
+      32,
+      64
+    ],
+    [
+      128,
+      0,
+      32,
+      64
+    ],
+    [
+      160,
+      0,
+      32,
+      64
+    ],
+    [
+      192,
+      0,
+      32,
+      64
+    ]
+  ],
+  "runtime_layer_roles": {
+    "ground_corruption": -20,
+    "painted_prop_detail": -10
+  },
+  "runtime_landmarks": [
+    [
+      600,
+      150
+    ],
+    [
+      192,
+      164
+    ],
+    [
+      244,
+      294
+    ],
+    [
+      699,
+      342
+    ],
+    [
+      303,
+      202
+    ],
+    [
+      752,
+      397
+    ]
+  ]
+}

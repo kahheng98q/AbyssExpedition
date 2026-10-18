@@ -1,0 +1,136 @@
+{
+  "method": "offline Chrome WebCodecs VP8 / exact timestamp WebM / original canvas mockups; not game capture",
+  "reports": [
+    {
+      "mode": "actors",
+      "file": "actors-motion.webm",
+      "requested_seconds": 8,
+      "encoded_frames": 240,
+      "bytes": 392245,
+      "width": 640,
+      "height": 360,
+      "duration": 8
+    },
+    {
+      "mode": "effects",
+      "file": "effects-motion.webm",
+      "requested_seconds": 4,
+      "encoded_frames": 120,
+      "bytes": 247888,
+      "width": 640,
+      "height": 360,
+      "duration": 4
+    },
+    {
+      "mode": "normal",
+      "file": "combat-motion.webm",
+      "requested_seconds": 2,
+      "encoded_frames": 60,
+      "bytes": 187205,
+      "width": 640,
+      "height": 360,
+      "duration": 2
+    },
+    {
+      "mode": "dense",
+      "file": "combat-dense.webm",
+      "requested_seconds": 2,
+      "encoded_frames": 60,
+      "bytes": 233779,
+      "width": 640,
+      "height": 360,
+      "duration": 2
+    },
+    {
+      "mode": "max-corruption",
+      "file": "combat-max.webm",
+      "requested_seconds": 2,
+      "encoded_frames": 60,
+      "bytes": 232950,
+      "width": 640,
+      "height": 360,
+      "duration": 2
+    },
+    {
+      "mode": "normal-grayscale",
+      "file": "combat-normal-grayscale.webm",
+      "requested_seconds": 2,
+      "encoded_frames": 60,
+      "bytes": 155203,
+      "width": 640,
+      "height": 360,
+      "duration": 2
+    },
+    {
+      "mode": "dense-grayscale",
+      "file": "combat-dense-grayscale.webm",
+      "requested_seconds": 2,
+      "encoded_frames": 60,
+      "bytes": 192527,
+      "width": 640,
+      "height": 360,
+      "duration": 2
+    },
+    {
+      "mode": "max-corruption-grayscale",
+      "file": "combat-max-grayscale.webm",
+      "requested_seconds": 2,
+      "encoded_frames": 60,
+      "bytes": 192931,
+      "width": 640,
+      "height": 360,
+      "duration": 2
+    },
+    {
+      "mode": "normal-unlit",
+      "file": "combat-normal-unlit.webm",
+      "requested_seconds": 2,
+      "encoded_frames": 60,
+      "bytes": 187457,
+      "width": 640,
+      "height": 360,
+      "duration": 2
+    },
+    {
+      "mode": "dense-unlit",
+      "file": "combat-dense-unlit.webm",
+      "requested_seconds": 2,
+      "encoded_frames": 60,
+      "bytes": 233775,
+      "width": 640,
+      "height": 360,
+      "duration": 2
+    },
+    {
+      "mode": "max-corruption-unlit",
+      "file": "combat-max-unlit.webm",
+      "requested_seconds": 2,
+      "encoded_frames": 60,
+      "bytes": 232325,
+      "width": 640,
+      "height": 360,
+      "duration": 2
+    },
+    {
+      "mode": "directions",
+      "file": "combat-directions.webm",
+      "requested_seconds": 2,
+      "encoded_frames": 60,
+      "bytes": 241048,
+      "width": 640,
+      "height": 360,
+      "duration": 2
+    },
+    {
+      "mode": "events",
+      "file": "event-sampling.webm",
+      "requested_seconds": 3,
+      "encoded_frames": 90,
+      "bytes": 182680,
+      "width": 640,
+      "height": 360,
+      "duration": 3
+    }
+  ],
+  "errors": []
+}

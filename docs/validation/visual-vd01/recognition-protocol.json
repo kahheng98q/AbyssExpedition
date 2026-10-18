@@ -1,0 +1,21 @@
+{
+  "revision": "VD-01-M1-recognition-01",
+  "date": "2026-10-16",
+  "status": "draft frozen before composition; owner approval pending",
+  "kind": "drawn proposal, not runtime, not a benchmark",
+  "viewport": [640, 360],
+  "camera": {"world_center": [480,270], "zoom": 1},
+  "clip_seconds": 2,
+  "conditions": [
+    {"id":"normal","corruption":0,"hero":[320,208],"thralls":[[206,175],[415,249]],"brinejaws":[[438,172],[242,260]],"companions":[[279,231],[358,247]],"boss":[493,211],"sword_direction":"east","sword_count":1,"friendly_stars":[[304,246],[393,236]],"warnings":[{"center":[493,211],"radius":62},{"center":[413,205],"radius":52}],"overlap":"warning circles overlap; two stars overlap troop paths","visible_total":{"hero":[1,1],"thrall":[2,2],"brinejaw":[2,2],"companions":[2,2],"boss":[1,1],"sword":[1,1],"star":[2,2],"danger":[2,2]}},
+    {"id":"dense","corruption":50,"hero":[320,208],"thralls":[[206,175],[415,249],[260,170],[354,180],[383,220],[190,259],[476,279],[310,283]],"brinejaws":[[438,172],[242,260],[270,217],[367,258],[454,237],[215,218]],"companions":[[279,231],[358,247]],"boss":[493,211],"sword_direction":"east","sword_count":1,"friendly_stars":[[304,246],[393,236]],"warnings":[{"center":[493,211],"radius":62},{"center":[413,205],"radius":52}],"overlap":"hero arc overlaps enemy; companion and Brinejaw overlap; warnings overlap actors","visible_total":{"hero":[1,1],"thrall":[8,8],"brinejaw":[6,6],"companions":[2,2],"boss":[1,1],"sword":[1,1],"star":[2,2],"danger":[2,2]}},
+    {"id":"max-corruption","copy_positions_from":"dense","corruption":100,"sword_direction":"east","visible_total":{"hero":[1,1],"thrall":[8,8],"brinejaw":[6,6],"companions":[2,2],"boss":[1,1],"sword":[1,1],"star":[2,2],"danger":[2,2]}}
+  ],
+  "sizes": [[1280,720],[1920,1080]],
+  "separate_direction_plate": ["east","south","west","north"],
+  "items_scored_separately": ["hero location","Thrall identity","Brinejaw identity","sword cardinal direction","friendly magic owner Milo","orange outlined danger zones"],
+  "answer_key": {"hero":"Aren at 320,208","thrall":"tall torn cloak","brinejaw":"low broad shell and claws","direction":"east","friendly_magic":"Milo, companion at 358,247; not Aren","danger":"two overlapping orange circles at 493,211 radius62 and 413,205 radius52"},
+  "procedure":"Ten uncoached participants. Randomized condition and size order. Two second exposure then neutral mask. Collect six independent answers before revealing keys. Score each item x condition x size independently; >=8/10 each. Retain failures and raw answers. Do not substitute easier fixtures. Revisions must change fixture revision/hashes and rerun affected samples.",
+  "human_results":"not conducted; proposed populations are not M4 maximum benchmark populations",
+  "g1_approval":"pending"
+}

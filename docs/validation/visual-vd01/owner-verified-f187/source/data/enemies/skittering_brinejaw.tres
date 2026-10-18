@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="EnemyDefinition" load_steps=6 format=3]
+[ext_resource type="Script" path="res://scripts/data/enemy_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/data/stat_block.gd" id="2"]
+[ext_resource type="Script" path="res://scripts/data/visual_set.gd" id="3"]
+[sub_resource type="Resource" id="stats"]
+script = ExtResource("2")
+max_health = 30.0
+damage = 5.0
+speed = 34.0
+[sub_resource type="Resource" id="visual"]
+script = ExtResource("3")
+id = &"skittering_brinejaw_visual"
+silhouette = "crab"
+palette = Color(1, 0.48, 0.32, 1)
+[resource]
+script = ExtResource("1")
+id = &"skittering_brinejaw"
+behavior_kind = "rush"
+stats = SubResource("stats")
+visual_set = SubResource("visual")
+damage_reduction = 1
+summon_definition = &"broodling"

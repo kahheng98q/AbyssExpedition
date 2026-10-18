@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-16",
+  "kind": "documentation-only static checks; no Godot or visual/runtime acceptance",
+  "checks": {
+    "documents_checked": 27,
+    "local_links_checked": 449,
+    "missing_links": [],
+    "html": [
+      {
+        "path": "docs/game-development-dashboard.html",
+        "structural_errors": [],
+        "unclosed": [],
+        "images": 16
+      },
+      {
+        "path": "docs/visual-design/preview.html",
+        "structural_errors": [],
+        "unclosed": [],
+        "images": 1
+      },
+      {
+        "path": "specs/002-2d-art-direction/spec.zh-CN.html",
+        "structural_errors": [],
+        "unclosed": [],
+        "images": 4
+      }
+    ],
+    "requirements": {
+      "FR": 25,
+      "SC": 7
+    },
+    "translated_ids_match": {
+      "FR": true,
+      "SC": true
+    },
+    "task_count": 87,
+    "sequential_unique_tasks": true,
+    "completed_tasks": 0,
+    "scope_checks": {
+      "story_level_up": true,
+      "fr_eight": true,
+      "sc_eight": true,
+      "html_SC001_eight": true
+    },
+    "suite_checks": {
+      "T034": true,
+      "T055": true,
+      "T058": true
+    },
+    "pending_choices": true
+  },
+  "protected_scope": {
+    "roots": [
+      "scripts",
+      "scenes",
+      "data",
+      "assets",
+      "tests",
+      "tools",
+      "specs/001-abyss-expedition-mvp"
+    ],
+    "extensions": [
+      ".gd",
+      ".tscn",
+      ".tres",
+      ".ps1",
+      ".py",
+      ".md",
+      ".png",
+      ".json",
+      ".uid"
+    ],
+    "extra_files": [
+      "project.godot",
+      "export_presets.cfg",
+      ".specify/memory/constitution.md"
+    ],
+    "before": {
+      "count": 3750,
+      "sha256": "733031d060f19acbc777457334316b5f3a8098518c02d3c4026abace916d97b7"
+    },
+    "after": {
+      "count": 3750,
+      "sha256": "733031d060f19acbc777457334316b5f3a8098518c02d3c4026abace916d97b7"
+    },
+    "unchanged": true
+  }
+}

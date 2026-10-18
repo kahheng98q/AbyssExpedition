@@ -1,0 +1,15 @@
+{
+  "checks": [
+    {
+      "script": "tools/record_visual_candidate.py",
+      "guard_triggered": true,
+      "message": "Legacy P1 recorder stopped: owner-verified reference is frozen. Use tools/record_visual_completion.py for current P2 evidence."
+    },
+    {
+      "script": "tools/finalize_visual_docs.py",
+      "guard_triggered": true,
+      "message": "Legacy P1 document generator stopped: preserve the owner-verified reference. Current evidence uses tools/record_visual_completion.py; do not overwrite P2 docs with historical counts."
+    }
+  ],
+  "protected_documents_unchanged": true
+}

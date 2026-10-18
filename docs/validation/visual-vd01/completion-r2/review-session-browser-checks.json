@@ -1,0 +1,19 @@
+{
+  "synthetic_automation_only": true,
+  "checks": [
+    {
+      "name": "mobile setup fits offline",
+      "pass": true
+    },
+    {
+      "name": "undersized display cannot shrink a trial",
+      "pass": true
+    },
+    {
+      "name": "full-size display enables exposure",
+      "pass": false
+    }
+  ],
+  "errors": [],
+  "network": []
+}

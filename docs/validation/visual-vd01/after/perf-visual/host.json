@@ -1,0 +1,9 @@
+{
+  "reference_acceptance": false,
+  "mode": "after",
+  "executable": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\builds\\windows\\m4\\AbyssExpedition.exe",
+  "fixture_sha256": "0C4F058641C0368A4BB756661A84540363135C586B282936C0BD2E22638749A3",
+  "sha256": "04A8A4E4F45410C945C42098E2A7742B5554D661FB16A03B708EE28EC5A962C4",
+  "smoke": false,
+  "source": "supplemental P02, not original M4"
+}

@@ -1,0 +1,61 @@
+{
+  "candidate_sha256": "f187bd763fe92b69069722432c4534178c32206be6cf76a59ba9fe8fe7e95d42",
+  "release_pack_sha256": "c6d626b275117e8f5ec8c476ed6cc8574792a8b53bd3dab55927d8e565d98bfe",
+  "kind": "REAL controlled viewport; physical-window capture pending",
+  "sets": [
+    {
+      "role": "before",
+      "manifest": "screenshots/visual-vd01/before/release-r1/capture-manifest.json",
+      "manifest_sha256": "34e7304ef3f4b70c136bc8f48b1dde5ef3a5eb9ab4e5f120aaf7236eb1ee85f5",
+      "context": {
+        "mode": "before",
+        "executable": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\docs\\validation\\visual-vd01\\before\\build\\AbyssExpedition.console.exe",
+        "executable_sha256": "4002EEFFB14A7AF3DA16E5B0BE5B7F5DA773F2117D819B33226DBCD1D6562951",
+        "embedded_pack_sha256": "965F0E7B9A6254FC3AC5ECD5D92EC87A682410A44A604EDC7C8C3C79703FF17B",
+        "harness_sha256": "102F70DEBF9F9C03E683C557F9AF924F348B40C5CA576F9CBA9BD5277C0109B4",
+        "utc": "2026-10-17T00:20:25.3991393Z",
+        "capture_kind": "native Godot viewport, not physical-window screenshot"
+      },
+      "records": 18,
+      "engine": "4.5-stable (official)",
+      "renderer": "gl_compatibility",
+      "failures": 0
+    },
+    {
+      "role": "source",
+      "manifest": "screenshots/visual-vd01/after/source-r3/capture-manifest.json",
+      "manifest_sha256": "403c9cf7ad434f8342a2d9d9f9320a39ecfbfb9c0ea1958998e7a271db6bad16",
+      "context": {
+        "mode": "after",
+        "executable": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tools\\godot-4.5\\Godot_v4.5-stable_win64_console.exe",
+        "executable_sha256": "7B77F3735DEC3A32BB20AF29CC1900583795D1DE82A14F23D23350A88EC85FAF",
+        "embedded_pack_sha256": null,
+        "harness_sha256": "102F70DEBF9F9C03E683C557F9AF924F348B40C5CA576F9CBA9BD5277C0109B4",
+        "utc": "2026-10-17T00:52:36.0024265Z",
+        "capture_kind": "native Godot viewport, not physical-window screenshot"
+      },
+      "records": 285,
+      "engine": "4.5-stable (official)",
+      "renderer": "gl_compatibility",
+      "failures": 0
+    },
+    {
+      "role": "release",
+      "manifest": "screenshots/visual-vd01/after/release-r3/capture-manifest.json",
+      "manifest_sha256": "1ea0e17c660ed92cae13adeffe1a14f67d4e26556e56e8befabf8edd0034676e",
+      "context": {
+        "mode": "after",
+        "executable": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\builds\\windows\\m4\\AbyssExpedition.console.exe",
+        "executable_sha256": "4002EEFFB14A7AF3DA16E5B0BE5B7F5DA773F2117D819B33226DBCD1D6562951",
+        "embedded_pack_sha256": "C6D626B275117E8F5EC8C476ED6CC8574792A8B53BD3DAB55927D8E565D98BFE",
+        "harness_sha256": "102F70DEBF9F9C03E683C557F9AF924F348B40C5CA576F9CBA9BD5277C0109B4",
+        "utc": "2026-10-17T00:52:47.9175788Z",
+        "capture_kind": "native Godot viewport, not physical-window screenshot"
+      },
+      "records": 285,
+      "engine": "4.5-stable (official)",
+      "renderer": "gl_compatibility",
+      "failures": 0
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "date": "2026-10-16",
+  "method": "headless Chrome file:// offline browser; reduced-motion; NOT Godot graphical test",
+  "passed": 32,
+  "failed": 0,
+  "errors": [],
+  "remote_requests": [],
+  "cancelled_video_prefetches": [
+    "file:///C:/Users/kahhe/Desktop/Project/new-game-project/docs/visual-design/mockups/vd01/actors-motion.webm: net::ERR_ABORTED",
+    "file:///C:/Users/kahhe/Desktop/Project/new-game-project/docs/visual-design/mockups/vd01/combat-dense-unlit.webm: net::ERR_ABORTED",
+    "file:///C:/Users/kahhe/Desktop/Project/new-game-project/docs/visual-design/mockups/vd01/combat-dense.webm: net::ERR_ABORTED",
+    "file:///C:/Users/kahhe/Desktop/Project/new-game-project/docs/visual-design/mockups/vd01/combat-max-unlit.webm: net::ERR_ABORTED",
+    "file:///C:/Users/kahhe/Desktop/Project/new-game-project/docs/visual-design/mockups/vd01/combat-max.webm: net::ERR_ABORTED",
+    "file:///C:/Users/kahhe/Desktop/Project/new-game-project/docs/visual-design/mockups/vd01/effects-motion.webm: net::ERR_ABORTED",
+    "file:///C:/Users/kahhe/Desktop/Project/new-game-project/docs/visual-design/mockups/vd01/event-sampling.webm: net::ERR_ABORTED"
+  ],
+  "note": "Aborted media prefetches are retained separately; each actual video is seeked and decoded independently.",
+  "checks": [
+    {
+      "name": "all page images load offline",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "fresh-input guard in HTML",
+      "passed": true
+    },
+    {
+      "name": "numeric choice demo",
+      "passed": true
+    },
+    {
+      "name": "arrows and Enter demo",
+      "passed": true
+    },
+    {
+      "name": "click choice demo",
+      "passed": true
+    },
+    {
+      "name": "integer scale 2x",
+      "passed": true,
+      "detail": {
+        "x": 179,
+        "y": 311.921875,
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "name": "integer scale 3x",
+      "passed": true,
+      "detail": {
+        "x": 179,
+        "y": 311.921875,
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "combined HUD and rescue variants",
+      "passed": true
+    },
+    {
+      "name": "grayscale toggle",
+      "passed": true
+    },
+    {
+      "name": "REAL historical label and real image",
+      "passed": true
+    },
+    {
+      "name": "corruption0 shrine",
+      "passed": true
+    },
+    {
+      "name": "unlit shrine",
+      "passed": true
+    },
+    {
+      "name": "mobile page stays within viewport",
+      "passed": true,
+      "detail": {
+        "scrollWidth": 390,
+        "innerWidth": 390
+      }
+    },
+    {
+      "name": "native board scrolls instead of fractional shrinking",
+      "passed": true
+    },
+    {
+      "name": "motion player local sprites load",
+      "passed": true
+    },
+    {
+      "name": "video decode actors-motion.webm",
+      "passed": true,
+      "detail": {
+        "file": "actors-motion.webm",
+        "width": 640,
+        "height": 360,
+        "duration": 8,
+        "readyState": 4
+      }
+    },
+    {
+      "name": "video decode combat-dense-grayscale.webm",
+      "passed": true,
+      "detail": {
+        "file": "combat-dense-grayscale.webm",
+        "width": 640,
+        "height": 360,
+        "duration": 2,
+        "readyState": 4
+      }
+    },
+    {
+      "name": "video decode combat-dense-unlit.webm",
+      "passed": true,
+      "detail": {
+        "file": "combat-dense-unlit.webm",
+        "width": 640,
+        "height": 360,
+        "duration": 2,
+        "readyState": 4
+      }
+    },
+    {
+      "name": "video decode combat-dense.webm",
+      "passed": true,
+      "detail": {
+        "file": "combat-dense.webm",
+        "width": 640,
+        "height": 360,
+        "duration": 2,
+        "readyState": 4
+      }
+    },
+    {
+      "name": "video decode combat-directions.webm",
+      "passed": true,
+      "detail": {
+        "file": "combat-directions.webm",
+        "width": 640,
+        "height": 360,
+        "duration": 2,
+        "readyState": 4
+      }
+    },
+    {
+      "name": "video decode combat-max-grayscale.webm",
+      "passed": true,
+      "detail": {
+        "file": "combat-max-grayscale.webm",
+        "width": 640,
+        "height": 360,
+        "duration": 2,
+        "readyState": 4
+      }
+    },
+    {
+      "name": "video decode combat-max-unlit.webm",
+      "passed": true,
+      "detail": {
+        "file": "combat-max-unlit.webm",
+        "width": 640,
+        "height": 360,
+        "duration": 2,
+        "readyState": 4
+      }
+    },
+    {
+      "name": "video decode combat-max.webm",
+      "passed": true,
+      "detail": {
+        "file": "combat-max.webm",
+        "width": 640,
+        "height": 360,
+        "duration": 2,
+        "readyState": 4
+      }
+    },
+    {
+      "name": "video decode combat-motion.webm",
+      "passed": true,
+      "detail": {
+        "file": "combat-motion.webm",
+        "width": 640,
+        "height": 360,
+        "duration": 2,
+        "readyState": 4
+      }
+    },
+    {
+      "name": "video decode combat-normal-grayscale.webm",
+      "passed": true,
+      "detail": {
+        "file": "combat-normal-grayscale.webm",
+        "width": 640,
+        "height": 360,
+        "duration": 2,
+        "readyState": 4
+      }
+    },
+    {
+      "name": "video decode combat-normal-unlit.webm",
+      "passed": true,
+      "detail": {
+        "file": "combat-normal-unlit.webm",
+        "width": 640,
+        "height": 360,
+        "duration": 2,
+        "readyState": 4
+      }
+    },
+    {
+      "name": "video decode effects-motion.webm",
+      "passed": true,
+      "detail": {
+        "file": "effects-motion.webm",
+        "width": 640,
+        "height": 360,
+        "duration": 4,
+        "readyState": 4
+      }
+    },
+    {
+      "name": "video decode event-sampling.webm",
+      "passed": true,
+      "detail": {
+        "file": "event-sampling.webm",
+        "width": 640,
+        "height": 360,
+        "duration": 3,
+        "readyState": 4
+      }
+    },
+    {
+      "name": "playback control",
+      "passed": true
+    },
+    {
+      "name": "pause control",
+      "passed": true
+    },
+    {
+      "name": "zero HTTP requests",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no browser script or resource errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "decoded": [
+    {
+      "file": "actors-motion.webm",
+      "width": 640,
+      "height": 360,
+      "duration": 8,
+      "readyState": 4
+    },
+    {
+      "file": "combat-dense-grayscale.webm",
+      "width": 640,
+      "height": 360,
+      "duration": 2,
+      "readyState": 4
+    },
+    {
+      "file": "combat-dense-unlit.webm",
+      "width": 640,
+      "height": 360,
+      "duration": 2,
+      "readyState": 4
+    },
+    {
+      "file": "combat-dense.webm",
+      "width": 640,
+      "height": 360,
+      "duration": 2,
+      "readyState": 4
+    },
+    {
+      "file": "combat-directions.webm",
+      "width": 640,
+      "height": 360,
+      "duration": 2,
+      "readyState": 4
+    },
+    {
+      "file": "combat-max-grayscale.webm",
+      "width": 640,
+      "height": 360,
+      "duration": 2,
+      "readyState": 4
+    },
+    {
+      "file": "combat-max-unlit.webm",
+      "width": 640,
+      "height": 360,
+      "duration": 2,
+      "readyState": 4
+    },
+    {
+      "file": "combat-max.webm",
+      "width": 640,
+      "height": 360,
+      "duration": 2,
+      "readyState": 4
+    },
+    {
+      "file": "combat-motion.webm",
+      "width": 640,
+      "height": 360,
+      "duration": 2,
+      "readyState": 4
+    },
+    {
+      "file": "combat-normal-grayscale.webm",
+      "width": 640,
+      "height": 360,
+      "duration": 2,
+      "readyState": 4
+    },
+    {
+      "file": "combat-normal-unlit.webm",
+      "width": 640,
+      "height": 360,
+      "duration": 2,
+      "readyState": 4
+    },
+    {
+      "file": "effects-motion.webm",
+      "width": 640,
+      "height": 360,
+      "duration": 4,
+      "readyState": 4
+    },
+    {
+      "file": "event-sampling.webm",
+      "width": 640,
+      "height": 360,
+      "duration": 3,
+      "readyState": 4
+    }
+  ]
+}

@@ -1,0 +1,761 @@
+{
+  "revision": "VD-01-P3-review-01",
+  "candidate_sha256": "78405f80c49d1d9193a9e36d186539d43a478f02d6bf273717ad0879cccf0574",
+  "embedded_release_sha256": "f7ff2552727165592da061c4b708eed1087cf5966e0f17918665d7b392dd54cd",
+  "protocol_sha256": "0a12cd7d77be3d6538bb1120eb93c568e8605a1d684dd598281a920c07bd97ac",
+  "protocol_revision": "VD-01-M1-recognition-01",
+  "folder": "../../screenshots/visual-vd01/completion-r2/cache-release/",
+  "frames": {
+    "normal": {
+      "frames": [
+        {
+          "file": "recognition/normal/frame-000.png",
+          "sha256": "648f18bafc6f8d8d0ef4885cab7112ba00a258bdce4c4d65194abe82d305f06a"
+        },
+        {
+          "file": "recognition/normal/frame-001.png",
+          "sha256": "648f18bafc6f8d8d0ef4885cab7112ba00a258bdce4c4d65194abe82d305f06a"
+        },
+        {
+          "file": "recognition/normal/frame-002.png",
+          "sha256": "d2c0596a1d38057719305c80577245d00f79889fd839780a7aac4dc0013fd862"
+        },
+        {
+          "file": "recognition/normal/frame-003.png",
+          "sha256": "fc183743435b8613338e414a8dc0b158b7927f4639120c1d8f5a183e718144bf"
+        },
+        {
+          "file": "recognition/normal/frame-004.png",
+          "sha256": "208d5aef91ce1cf646629191d39c3ea04f50969ff4fdcebc08434defa95f3d03"
+        },
+        {
+          "file": "recognition/normal/frame-005.png",
+          "sha256": "0aab2c39533d3a6e8059b4e9b460f36130696d4665991a51aca793f800579220"
+        },
+        {
+          "file": "recognition/normal/frame-006.png",
+          "sha256": "648f18bafc6f8d8d0ef4885cab7112ba00a258bdce4c4d65194abe82d305f06a"
+        },
+        {
+          "file": "recognition/normal/frame-007.png",
+          "sha256": "648f18bafc6f8d8d0ef4885cab7112ba00a258bdce4c4d65194abe82d305f06a"
+        },
+        {
+          "file": "recognition/normal/frame-008.png",
+          "sha256": "e95a0b466bcd13cd801c2c575059c7d5ccd1dea9fd5444e3853084382a4f512b"
+        },
+        {
+          "file": "recognition/normal/frame-009.png",
+          "sha256": "fc183743435b8613338e414a8dc0b158b7927f4639120c1d8f5a183e718144bf"
+        },
+        {
+          "file": "recognition/normal/frame-010.png",
+          "sha256": "0aab2c39533d3a6e8059b4e9b460f36130696d4665991a51aca793f800579220"
+        },
+        {
+          "file": "recognition/normal/frame-011.png",
+          "sha256": "0aab2c39533d3a6e8059b4e9b460f36130696d4665991a51aca793f800579220"
+        },
+        {
+          "file": "recognition/normal/frame-012.png",
+          "sha256": "648f18bafc6f8d8d0ef4885cab7112ba00a258bdce4c4d65194abe82d305f06a"
+        },
+        {
+          "file": "recognition/normal/frame-013.png",
+          "sha256": "c7d624271345f3c9228831b168efae605c16cffde84a43c617777abcd443435f"
+        },
+        {
+          "file": "recognition/normal/frame-014.png",
+          "sha256": "e95a0b466bcd13cd801c2c575059c7d5ccd1dea9fd5444e3853084382a4f512b"
+        },
+        {
+          "file": "recognition/normal/frame-015.png",
+          "sha256": "3a49c3d56878c3a3b71f2d54e5cc41abbfae7d749af7027f507ef28eac390c2d"
+        },
+        {
+          "file": "recognition/normal/frame-016.png",
+          "sha256": "0aab2c39533d3a6e8059b4e9b460f36130696d4665991a51aca793f800579220"
+        },
+        {
+          "file": "recognition/normal/frame-017.png",
+          "sha256": "0aab2c39533d3a6e8059b4e9b460f36130696d4665991a51aca793f800579220"
+        },
+        {
+          "file": "recognition/normal/frame-018.png",
+          "sha256": "c7d624271345f3c9228831b168efae605c16cffde84a43c617777abcd443435f"
+        },
+        {
+          "file": "recognition/normal/frame-019.png",
+          "sha256": "c7d624271345f3c9228831b168efae605c16cffde84a43c617777abcd443435f"
+        },
+        {
+          "file": "recognition/normal/frame-020.png",
+          "sha256": "d2c0596a1d38057719305c80577245d00f79889fd839780a7aac4dc0013fd862"
+        },
+        {
+          "file": "recognition/normal/frame-021.png",
+          "sha256": "3a49c3d56878c3a3b71f2d54e5cc41abbfae7d749af7027f507ef28eac390c2d"
+        },
+        {
+          "file": "recognition/normal/frame-022.png",
+          "sha256": "0aab2c39533d3a6e8059b4e9b460f36130696d4665991a51aca793f800579220"
+        },
+        {
+          "file": "recognition/normal/frame-023.png",
+          "sha256": "208d5aef91ce1cf646629191d39c3ea04f50969ff4fdcebc08434defa95f3d03"
+        },
+        {
+          "file": "recognition/normal/frame-024.png",
+          "sha256": "c7d624271345f3c9228831b168efae605c16cffde84a43c617777abcd443435f"
+        },
+        {
+          "file": "recognition/normal/frame-025.png",
+          "sha256": "648f18bafc6f8d8d0ef4885cab7112ba00a258bdce4c4d65194abe82d305f06a"
+        },
+        {
+          "file": "recognition/normal/frame-026.png",
+          "sha256": "d2c0596a1d38057719305c80577245d00f79889fd839780a7aac4dc0013fd862"
+        },
+        {
+          "file": "recognition/normal/frame-027.png",
+          "sha256": "3a49c3d56878c3a3b71f2d54e5cc41abbfae7d749af7027f507ef28eac390c2d"
+        },
+        {
+          "file": "recognition/normal/frame-028.png",
+          "sha256": "208d5aef91ce1cf646629191d39c3ea04f50969ff4fdcebc08434defa95f3d03"
+        },
+        {
+          "file": "recognition/normal/frame-029.png",
+          "sha256": "208d5aef91ce1cf646629191d39c3ea04f50969ff4fdcebc08434defa95f3d03"
+        },
+        {
+          "file": "recognition/normal/frame-030.png",
+          "sha256": "648f18bafc6f8d8d0ef4885cab7112ba00a258bdce4c4d65194abe82d305f06a"
+        },
+        {
+          "file": "recognition/normal/frame-031.png",
+          "sha256": "648f18bafc6f8d8d0ef4885cab7112ba00a258bdce4c4d65194abe82d305f06a"
+        },
+        {
+          "file": "recognition/normal/frame-032.png",
+          "sha256": "d2c0596a1d38057719305c80577245d00f79889fd839780a7aac4dc0013fd862"
+        },
+        {
+          "file": "recognition/normal/frame-033.png",
+          "sha256": "fc183743435b8613338e414a8dc0b158b7927f4639120c1d8f5a183e718144bf"
+        },
+        {
+          "file": "recognition/normal/frame-034.png",
+          "sha256": "208d5aef91ce1cf646629191d39c3ea04f50969ff4fdcebc08434defa95f3d03"
+        },
+        {
+          "file": "recognition/normal/frame-035.png",
+          "sha256": "0aab2c39533d3a6e8059b4e9b460f36130696d4665991a51aca793f800579220"
+        },
+        {
+          "file": "recognition/normal/frame-036.png",
+          "sha256": "648f18bafc6f8d8d0ef4885cab7112ba00a258bdce4c4d65194abe82d305f06a"
+        },
+        {
+          "file": "recognition/normal/frame-037.png",
+          "sha256": "648f18bafc6f8d8d0ef4885cab7112ba00a258bdce4c4d65194abe82d305f06a"
+        },
+        {
+          "file": "recognition/normal/frame-038.png",
+          "sha256": "e95a0b466bcd13cd801c2c575059c7d5ccd1dea9fd5444e3853084382a4f512b"
+        },
+        {
+          "file": "recognition/normal/frame-039.png",
+          "sha256": "fc183743435b8613338e414a8dc0b158b7927f4639120c1d8f5a183e718144bf"
+        },
+        {
+          "file": "recognition/normal/frame-040.png",
+          "sha256": "0aab2c39533d3a6e8059b4e9b460f36130696d4665991a51aca793f800579220"
+        },
+        {
+          "file": "recognition/normal/frame-041.png",
+          "sha256": "0aab2c39533d3a6e8059b4e9b460f36130696d4665991a51aca793f800579220"
+        },
+        {
+          "file": "recognition/normal/frame-042.png",
+          "sha256": "648f18bafc6f8d8d0ef4885cab7112ba00a258bdce4c4d65194abe82d305f06a"
+        },
+        {
+          "file": "recognition/normal/frame-043.png",
+          "sha256": "c7d624271345f3c9228831b168efae605c16cffde84a43c617777abcd443435f"
+        },
+        {
+          "file": "recognition/normal/frame-044.png",
+          "sha256": "e95a0b466bcd13cd801c2c575059c7d5ccd1dea9fd5444e3853084382a4f512b"
+        },
+        {
+          "file": "recognition/normal/frame-045.png",
+          "sha256": "3a49c3d56878c3a3b71f2d54e5cc41abbfae7d749af7027f507ef28eac390c2d"
+        },
+        {
+          "file": "recognition/normal/frame-046.png",
+          "sha256": "0aab2c39533d3a6e8059b4e9b460f36130696d4665991a51aca793f800579220"
+        },
+        {
+          "file": "recognition/normal/frame-047.png",
+          "sha256": "0aab2c39533d3a6e8059b4e9b460f36130696d4665991a51aca793f800579220"
+        },
+        {
+          "file": "recognition/normal/frame-048.png",
+          "sha256": "c7d624271345f3c9228831b168efae605c16cffde84a43c617777abcd443435f"
+        },
+        {
+          "file": "recognition/normal/frame-049.png",
+          "sha256": "c7d624271345f3c9228831b168efae605c16cffde84a43c617777abcd443435f"
+        },
+        {
+          "file": "recognition/normal/frame-050.png",
+          "sha256": "d2c0596a1d38057719305c80577245d00f79889fd839780a7aac4dc0013fd862"
+        },
+        {
+          "file": "recognition/normal/frame-051.png",
+          "sha256": "3a49c3d56878c3a3b71f2d54e5cc41abbfae7d749af7027f507ef28eac390c2d"
+        },
+        {
+          "file": "recognition/normal/frame-052.png",
+          "sha256": "0aab2c39533d3a6e8059b4e9b460f36130696d4665991a51aca793f800579220"
+        },
+        {
+          "file": "recognition/normal/frame-053.png",
+          "sha256": "208d5aef91ce1cf646629191d39c3ea04f50969ff4fdcebc08434defa95f3d03"
+        },
+        {
+          "file": "recognition/normal/frame-054.png",
+          "sha256": "c7d624271345f3c9228831b168efae605c16cffde84a43c617777abcd443435f"
+        },
+        {
+          "file": "recognition/normal/frame-055.png",
+          "sha256": "648f18bafc6f8d8d0ef4885cab7112ba00a258bdce4c4d65194abe82d305f06a"
+        },
+        {
+          "file": "recognition/normal/frame-056.png",
+          "sha256": "d2c0596a1d38057719305c80577245d00f79889fd839780a7aac4dc0013fd862"
+        },
+        {
+          "file": "recognition/normal/frame-057.png",
+          "sha256": "3a49c3d56878c3a3b71f2d54e5cc41abbfae7d749af7027f507ef28eac390c2d"
+        },
+        {
+          "file": "recognition/normal/frame-058.png",
+          "sha256": "208d5aef91ce1cf646629191d39c3ea04f50969ff4fdcebc08434defa95f3d03"
+        },
+        {
+          "file": "recognition/normal/frame-059.png",
+          "sha256": "208d5aef91ce1cf646629191d39c3ea04f50969ff4fdcebc08434defa95f3d03"
+        }
+      ],
+      "sha256": "c9cb39479c320cb6c83122c8eb958d8af1faa0f90d9aabb895510791dc8819ad"
+    },
+    "dense": {
+      "frames": [
+        {
+          "file": "recognition/dense/frame-000.png",
+          "sha256": "77695a746ca83eeb6a80bd45482e9b281c7daa559b5f98aa8d63a954371359d5"
+        },
+        {
+          "file": "recognition/dense/frame-001.png",
+          "sha256": "77695a746ca83eeb6a80bd45482e9b281c7daa559b5f98aa8d63a954371359d5"
+        },
+        {
+          "file": "recognition/dense/frame-002.png",
+          "sha256": "3a32b13222503e05fb4facc30aa81f64f11b8836e99fc65026816259c6117358"
+        },
+        {
+          "file": "recognition/dense/frame-003.png",
+          "sha256": "1b15c844b17ba5934ba35b7ecb3d1e37c0de70c85c8e8b3f7b7cbb43eab628a6"
+        },
+        {
+          "file": "recognition/dense/frame-004.png",
+          "sha256": "06790bf0e70b326536d80dfc2e238fc19aef3792a8ee5c66f0f17c6398c8ee39"
+        },
+        {
+          "file": "recognition/dense/frame-005.png",
+          "sha256": "7f9868b26bb4ff99ae77214c0dcfbfde48f3eb5dd2d636f0cdcda3e4a07a8121"
+        },
+        {
+          "file": "recognition/dense/frame-006.png",
+          "sha256": "77695a746ca83eeb6a80bd45482e9b281c7daa559b5f98aa8d63a954371359d5"
+        },
+        {
+          "file": "recognition/dense/frame-007.png",
+          "sha256": "77695a746ca83eeb6a80bd45482e9b281c7daa559b5f98aa8d63a954371359d5"
+        },
+        {
+          "file": "recognition/dense/frame-008.png",
+          "sha256": "fd0dfff983f9ce01495fceb60fbf73b264c11b182268f1255338f14a6db076da"
+        },
+        {
+          "file": "recognition/dense/frame-009.png",
+          "sha256": "1b15c844b17ba5934ba35b7ecb3d1e37c0de70c85c8e8b3f7b7cbb43eab628a6"
+        },
+        {
+          "file": "recognition/dense/frame-010.png",
+          "sha256": "7f9868b26bb4ff99ae77214c0dcfbfde48f3eb5dd2d636f0cdcda3e4a07a8121"
+        },
+        {
+          "file": "recognition/dense/frame-011.png",
+          "sha256": "7f9868b26bb4ff99ae77214c0dcfbfde48f3eb5dd2d636f0cdcda3e4a07a8121"
+        },
+        {
+          "file": "recognition/dense/frame-012.png",
+          "sha256": "77695a746ca83eeb6a80bd45482e9b281c7daa559b5f98aa8d63a954371359d5"
+        },
+        {
+          "file": "recognition/dense/frame-013.png",
+          "sha256": "36649230b1bf85a0e46a675652155f9b103ff9a025a243d4c29da8e2105dac0c"
+        },
+        {
+          "file": "recognition/dense/frame-014.png",
+          "sha256": "fd0dfff983f9ce01495fceb60fbf73b264c11b182268f1255338f14a6db076da"
+        },
+        {
+          "file": "recognition/dense/frame-015.png",
+          "sha256": "57d1658a4e1d9cf3bd59324556c3f7a41414b386c432013c3d4598034774a537"
+        },
+        {
+          "file": "recognition/dense/frame-016.png",
+          "sha256": "7f9868b26bb4ff99ae77214c0dcfbfde48f3eb5dd2d636f0cdcda3e4a07a8121"
+        },
+        {
+          "file": "recognition/dense/frame-017.png",
+          "sha256": "7f9868b26bb4ff99ae77214c0dcfbfde48f3eb5dd2d636f0cdcda3e4a07a8121"
+        },
+        {
+          "file": "recognition/dense/frame-018.png",
+          "sha256": "36649230b1bf85a0e46a675652155f9b103ff9a025a243d4c29da8e2105dac0c"
+        },
+        {
+          "file": "recognition/dense/frame-019.png",
+          "sha256": "36649230b1bf85a0e46a675652155f9b103ff9a025a243d4c29da8e2105dac0c"
+        },
+        {
+          "file": "recognition/dense/frame-020.png",
+          "sha256": "3a32b13222503e05fb4facc30aa81f64f11b8836e99fc65026816259c6117358"
+        },
+        {
+          "file": "recognition/dense/frame-021.png",
+          "sha256": "57d1658a4e1d9cf3bd59324556c3f7a41414b386c432013c3d4598034774a537"
+        },
+        {
+          "file": "recognition/dense/frame-022.png",
+          "sha256": "7f9868b26bb4ff99ae77214c0dcfbfde48f3eb5dd2d636f0cdcda3e4a07a8121"
+        },
+        {
+          "file": "recognition/dense/frame-023.png",
+          "sha256": "06790bf0e70b326536d80dfc2e238fc19aef3792a8ee5c66f0f17c6398c8ee39"
+        },
+        {
+          "file": "recognition/dense/frame-024.png",
+          "sha256": "36649230b1bf85a0e46a675652155f9b103ff9a025a243d4c29da8e2105dac0c"
+        },
+        {
+          "file": "recognition/dense/frame-025.png",
+          "sha256": "77695a746ca83eeb6a80bd45482e9b281c7daa559b5f98aa8d63a954371359d5"
+        },
+        {
+          "file": "recognition/dense/frame-026.png",
+          "sha256": "3a32b13222503e05fb4facc30aa81f64f11b8836e99fc65026816259c6117358"
+        },
+        {
+          "file": "recognition/dense/frame-027.png",
+          "sha256": "57d1658a4e1d9cf3bd59324556c3f7a41414b386c432013c3d4598034774a537"
+        },
+        {
+          "file": "recognition/dense/frame-028.png",
+          "sha256": "06790bf0e70b326536d80dfc2e238fc19aef3792a8ee5c66f0f17c6398c8ee39"
+        },
+        {
+          "file": "recognition/dense/frame-029.png",
+          "sha256": "06790bf0e70b326536d80dfc2e238fc19aef3792a8ee5c66f0f17c6398c8ee39"
+        },
+        {
+          "file": "recognition/dense/frame-030.png",
+          "sha256": "77695a746ca83eeb6a80bd45482e9b281c7daa559b5f98aa8d63a954371359d5"
+        },
+        {
+          "file": "recognition/dense/frame-031.png",
+          "sha256": "77695a746ca83eeb6a80bd45482e9b281c7daa559b5f98aa8d63a954371359d5"
+        },
+        {
+          "file": "recognition/dense/frame-032.png",
+          "sha256": "3a32b13222503e05fb4facc30aa81f64f11b8836e99fc65026816259c6117358"
+        },
+        {
+          "file": "recognition/dense/frame-033.png",
+          "sha256": "1b15c844b17ba5934ba35b7ecb3d1e37c0de70c85c8e8b3f7b7cbb43eab628a6"
+        },
+        {
+          "file": "recognition/dense/frame-034.png",
+          "sha256": "06790bf0e70b326536d80dfc2e238fc19aef3792a8ee5c66f0f17c6398c8ee39"
+        },
+        {
+          "file": "recognition/dense/frame-035.png",
+          "sha256": "7f9868b26bb4ff99ae77214c0dcfbfde48f3eb5dd2d636f0cdcda3e4a07a8121"
+        },
+        {
+          "file": "recognition/dense/frame-036.png",
+          "sha256": "77695a746ca83eeb6a80bd45482e9b281c7daa559b5f98aa8d63a954371359d5"
+        },
+        {
+          "file": "recognition/dense/frame-037.png",
+          "sha256": "77695a746ca83eeb6a80bd45482e9b281c7daa559b5f98aa8d63a954371359d5"
+        },
+        {
+          "file": "recognition/dense/frame-038.png",
+          "sha256": "fd0dfff983f9ce01495fceb60fbf73b264c11b182268f1255338f14a6db076da"
+        },
+        {
+          "file": "recognition/dense/frame-039.png",
+          "sha256": "1b15c844b17ba5934ba35b7ecb3d1e37c0de70c85c8e8b3f7b7cbb43eab628a6"
+        },
+        {
+          "file": "recognition/dense/frame-040.png",
+          "sha256": "7f9868b26bb4ff99ae77214c0dcfbfde48f3eb5dd2d636f0cdcda3e4a07a8121"
+        },
+        {
+          "file": "recognition/dense/frame-041.png",
+          "sha256": "7f9868b26bb4ff99ae77214c0dcfbfde48f3eb5dd2d636f0cdcda3e4a07a8121"
+        },
+        {
+          "file": "recognition/dense/frame-042.png",
+          "sha256": "77695a746ca83eeb6a80bd45482e9b281c7daa559b5f98aa8d63a954371359d5"
+        },
+        {
+          "file": "recognition/dense/frame-043.png",
+          "sha256": "36649230b1bf85a0e46a675652155f9b103ff9a025a243d4c29da8e2105dac0c"
+        },
+        {
+          "file": "recognition/dense/frame-044.png",
+          "sha256": "fd0dfff983f9ce01495fceb60fbf73b264c11b182268f1255338f14a6db076da"
+        },
+        {
+          "file": "recognition/dense/frame-045.png",
+          "sha256": "57d1658a4e1d9cf3bd59324556c3f7a41414b386c432013c3d4598034774a537"
+        },
+        {
+          "file": "recognition/dense/frame-046.png",
+          "sha256": "7f9868b26bb4ff99ae77214c0dcfbfde48f3eb5dd2d636f0cdcda3e4a07a8121"
+        },
+        {
+          "file": "recognition/dense/frame-047.png",
+          "sha256": "7f9868b26bb4ff99ae77214c0dcfbfde48f3eb5dd2d636f0cdcda3e4a07a8121"
+        },
+        {
+          "file": "recognition/dense/frame-048.png",
+          "sha256": "36649230b1bf85a0e46a675652155f9b103ff9a025a243d4c29da8e2105dac0c"
+        },
+        {
+          "file": "recognition/dense/frame-049.png",
+          "sha256": "36649230b1bf85a0e46a675652155f9b103ff9a025a243d4c29da8e2105dac0c"
+        },
+        {
+          "file": "recognition/dense/frame-050.png",
+          "sha256": "3a32b13222503e05fb4facc30aa81f64f11b8836e99fc65026816259c6117358"
+        },
+        {
+          "file": "recognition/dense/frame-051.png",
+          "sha256": "57d1658a4e1d9cf3bd59324556c3f7a41414b386c432013c3d4598034774a537"
+        },
+        {
+          "file": "recognition/dense/frame-052.png",
+          "sha256": "7f9868b26bb4ff99ae77214c0dcfbfde48f3eb5dd2d636f0cdcda3e4a07a8121"
+        },
+        {
+          "file": "recognition/dense/frame-053.png",
+          "sha256": "06790bf0e70b326536d80dfc2e238fc19aef3792a8ee5c66f0f17c6398c8ee39"
+        },
+        {
+          "file": "recognition/dense/frame-054.png",
+          "sha256": "36649230b1bf85a0e46a675652155f9b103ff9a025a243d4c29da8e2105dac0c"
+        },
+        {
+          "file": "recognition/dense/frame-055.png",
+          "sha256": "77695a746ca83eeb6a80bd45482e9b281c7daa559b5f98aa8d63a954371359d5"
+        },
+        {
+          "file": "recognition/dense/frame-056.png",
+          "sha256": "3a32b13222503e05fb4facc30aa81f64f11b8836e99fc65026816259c6117358"
+        },
+        {
+          "file": "recognition/dense/frame-057.png",
+          "sha256": "57d1658a4e1d9cf3bd59324556c3f7a41414b386c432013c3d4598034774a537"
+        },
+        {
+          "file": "recognition/dense/frame-058.png",
+          "sha256": "06790bf0e70b326536d80dfc2e238fc19aef3792a8ee5c66f0f17c6398c8ee39"
+        },
+        {
+          "file": "recognition/dense/frame-059.png",
+          "sha256": "06790bf0e70b326536d80dfc2e238fc19aef3792a8ee5c66f0f17c6398c8ee39"
+        }
+      ],
+      "sha256": "66944aad081121d924f71cd861bafef498efd0ed27675968e5259e36b53f8ee7"
+    },
+    "max-corruption": {
+      "frames": [
+        {
+          "file": "recognition/max-corruption/frame-000.png",
+          "sha256": "941a4d4dba3c16046b25cb24e65ecd44ab26ff09306d1fbfcabd4387adf437bd"
+        },
+        {
+          "file": "recognition/max-corruption/frame-001.png",
+          "sha256": "941a4d4dba3c16046b25cb24e65ecd44ab26ff09306d1fbfcabd4387adf437bd"
+        },
+        {
+          "file": "recognition/max-corruption/frame-002.png",
+          "sha256": "97b6021ced76e87fbaeee2965a2b1b95115869bf922a006cb254a1e49387b186"
+        },
+        {
+          "file": "recognition/max-corruption/frame-003.png",
+          "sha256": "bb0874db580ce2fda5adea1c15abe92dd9c511d53e1a5598c16a14030ca370d2"
+        },
+        {
+          "file": "recognition/max-corruption/frame-004.png",
+          "sha256": "1fc6e99cfa7cd6183f9a6fe8edbb260765df8564bb8284de7eac835f664466ab"
+        },
+        {
+          "file": "recognition/max-corruption/frame-005.png",
+          "sha256": "313445417184f821f6787a9f5143f32eb86635608272b7e3de70358b2e4d201b"
+        },
+        {
+          "file": "recognition/max-corruption/frame-006.png",
+          "sha256": "941a4d4dba3c16046b25cb24e65ecd44ab26ff09306d1fbfcabd4387adf437bd"
+        },
+        {
+          "file": "recognition/max-corruption/frame-007.png",
+          "sha256": "941a4d4dba3c16046b25cb24e65ecd44ab26ff09306d1fbfcabd4387adf437bd"
+        },
+        {
+          "file": "recognition/max-corruption/frame-008.png",
+          "sha256": "062b97ddab486779e224a93abbbd69a411e9e3be1ca161d446f633fc76c0d3e1"
+        },
+        {
+          "file": "recognition/max-corruption/frame-009.png",
+          "sha256": "bb0874db580ce2fda5adea1c15abe92dd9c511d53e1a5598c16a14030ca370d2"
+        },
+        {
+          "file": "recognition/max-corruption/frame-010.png",
+          "sha256": "313445417184f821f6787a9f5143f32eb86635608272b7e3de70358b2e4d201b"
+        },
+        {
+          "file": "recognition/max-corruption/frame-011.png",
+          "sha256": "313445417184f821f6787a9f5143f32eb86635608272b7e3de70358b2e4d201b"
+        },
+        {
+          "file": "recognition/max-corruption/frame-012.png",
+          "sha256": "941a4d4dba3c16046b25cb24e65ecd44ab26ff09306d1fbfcabd4387adf437bd"
+        },
+        {
+          "file": "recognition/max-corruption/frame-013.png",
+          "sha256": "2dec5aacac9f21f88b747692d78336c283da0cf6caa3d76498a419eed37452f2"
+        },
+        {
+          "file": "recognition/max-corruption/frame-014.png",
+          "sha256": "062b97ddab486779e224a93abbbd69a411e9e3be1ca161d446f633fc76c0d3e1"
+        },
+        {
+          "file": "recognition/max-corruption/frame-015.png",
+          "sha256": "f268e6314e4c4ceeea01a16f515ba02e9ddc63ffcc2c7983e532bc78a7f5a8bf"
+        },
+        {
+          "file": "recognition/max-corruption/frame-016.png",
+          "sha256": "313445417184f821f6787a9f5143f32eb86635608272b7e3de70358b2e4d201b"
+        },
+        {
+          "file": "recognition/max-corruption/frame-017.png",
+          "sha256": "313445417184f821f6787a9f5143f32eb86635608272b7e3de70358b2e4d201b"
+        },
+        {
+          "file": "recognition/max-corruption/frame-018.png",
+          "sha256": "2dec5aacac9f21f88b747692d78336c283da0cf6caa3d76498a419eed37452f2"
+        },
+        {
+          "file": "recognition/max-corruption/frame-019.png",
+          "sha256": "2dec5aacac9f21f88b747692d78336c283da0cf6caa3d76498a419eed37452f2"
+        },
+        {
+          "file": "recognition/max-corruption/frame-020.png",
+          "sha256": "97b6021ced76e87fbaeee2965a2b1b95115869bf922a006cb254a1e49387b186"
+        },
+        {
+          "file": "recognition/max-corruption/frame-021.png",
+          "sha256": "f268e6314e4c4ceeea01a16f515ba02e9ddc63ffcc2c7983e532bc78a7f5a8bf"
+        },
+        {
+          "file": "recognition/max-corruption/frame-022.png",
+          "sha256": "313445417184f821f6787a9f5143f32eb86635608272b7e3de70358b2e4d201b"
+        },
+        {
+          "file": "recognition/max-corruption/frame-023.png",
+          "sha256": "1fc6e99cfa7cd6183f9a6fe8edbb260765df8564bb8284de7eac835f664466ab"
+        },
+        {
+          "file": "recognition/max-corruption/frame-024.png",
+          "sha256": "2dec5aacac9f21f88b747692d78336c283da0cf6caa3d76498a419eed37452f2"
+        },
+        {
+          "file": "recognition/max-corruption/frame-025.png",
+          "sha256": "941a4d4dba3c16046b25cb24e65ecd44ab26ff09306d1fbfcabd4387adf437bd"
+        },
+        {
+          "file": "recognition/max-corruption/frame-026.png",
+          "sha256": "97b6021ced76e87fbaeee2965a2b1b95115869bf922a006cb254a1e49387b186"
+        },
+        {
+          "file": "recognition/max-corruption/frame-027.png",
+          "sha256": "f268e6314e4c4ceeea01a16f515ba02e9ddc63ffcc2c7983e532bc78a7f5a8bf"
+        },
+        {
+          "file": "recognition/max-corruption/frame-028.png",
+          "sha256": "1fc6e99cfa7cd6183f9a6fe8edbb260765df8564bb8284de7eac835f664466ab"
+        },
+        {
+          "file": "recognition/max-corruption/frame-029.png",
+          "sha256": "1fc6e99cfa7cd6183f9a6fe8edbb260765df8564bb8284de7eac835f664466ab"
+        },
+        {
+          "file": "recognition/max-corruption/frame-030.png",
+          "sha256": "941a4d4dba3c16046b25cb24e65ecd44ab26ff09306d1fbfcabd4387adf437bd"
+        },
+        {
+          "file": "recognition/max-corruption/frame-031.png",
+          "sha256": "941a4d4dba3c16046b25cb24e65ecd44ab26ff09306d1fbfcabd4387adf437bd"
+        },
+        {
+          "file": "recognition/max-corruption/frame-032.png",
+          "sha256": "97b6021ced76e87fbaeee2965a2b1b95115869bf922a006cb254a1e49387b186"
+        },
+        {
+          "file": "recognition/max-corruption/frame-033.png",
+          "sha256": "bb0874db580ce2fda5adea1c15abe92dd9c511d53e1a5598c16a14030ca370d2"
+        },
+        {
+          "file": "recognition/max-corruption/frame-034.png",
+          "sha256": "1fc6e99cfa7cd6183f9a6fe8edbb260765df8564bb8284de7eac835f664466ab"
+        },
+        {
+          "file": "recognition/max-corruption/frame-035.png",
+          "sha256": "313445417184f821f6787a9f5143f32eb86635608272b7e3de70358b2e4d201b"
+        },
+        {
+          "file": "recognition/max-corruption/frame-036.png",
+          "sha256": "941a4d4dba3c16046b25cb24e65ecd44ab26ff09306d1fbfcabd4387adf437bd"
+        },
+        {
+          "file": "recognition/max-corruption/frame-037.png",
+          "sha256": "941a4d4dba3c16046b25cb24e65ecd44ab26ff09306d1fbfcabd4387adf437bd"
+        },
+        {
+          "file": "recognition/max-corruption/frame-038.png",
+          "sha256": "062b97ddab486779e224a93abbbd69a411e9e3be1ca161d446f633fc76c0d3e1"
+        },
+        {
+          "file": "recognition/max-corruption/frame-039.png",
+          "sha256": "bb0874db580ce2fda5adea1c15abe92dd9c511d53e1a5598c16a14030ca370d2"
+        },
+        {
+          "file": "recognition/max-corruption/frame-040.png",
+          "sha256": "313445417184f821f6787a9f5143f32eb86635608272b7e3de70358b2e4d201b"
+        },
+        {
+          "file": "recognition/max-corruption/frame-041.png",
+          "sha256": "313445417184f821f6787a9f5143f32eb86635608272b7e3de70358b2e4d201b"
+        },
+        {
+          "file": "recognition/max-corruption/frame-042.png",
+          "sha256": "941a4d4dba3c16046b25cb24e65ecd44ab26ff09306d1fbfcabd4387adf437bd"
+        },
+        {
+          "file": "recognition/max-corruption/frame-043.png",
+          "sha256": "2dec5aacac9f21f88b747692d78336c283da0cf6caa3d76498a419eed37452f2"
+        },
+        {
+          "file": "recognition/max-corruption/frame-044.png",
+          "sha256": "062b97ddab486779e224a93abbbd69a411e9e3be1ca161d446f633fc76c0d3e1"
+        },
+        {
+          "file": "recognition/max-corruption/frame-045.png",
+          "sha256": "f268e6314e4c4ceeea01a16f515ba02e9ddc63ffcc2c7983e532bc78a7f5a8bf"
+        },
+        {
+          "file": "recognition/max-corruption/frame-046.png",
+          "sha256": "313445417184f821f6787a9f5143f32eb86635608272b7e3de70358b2e4d201b"
+        },
+        {
+          "file": "recognition/max-corruption/frame-047.png",
+          "sha256": "313445417184f821f6787a9f5143f32eb86635608272b7e3de70358b2e4d201b"
+        },
+        {
+          "file": "recognition/max-corruption/frame-048.png",
+          "sha256": "2dec5aacac9f21f88b747692d78336c283da0cf6caa3d76498a419eed37452f2"
+        },
+        {
+          "file": "recognition/max-corruption/frame-049.png",
+          "sha256": "2dec5aacac9f21f88b747692d78336c283da0cf6caa3d76498a419eed37452f2"
+        },
+        {
+          "file": "recognition/max-corruption/frame-050.png",
+          "sha256": "97b6021ced76e87fbaeee2965a2b1b95115869bf922a006cb254a1e49387b186"
+        },
+        {
+          "file": "recognition/max-corruption/frame-051.png",
+          "sha256": "f268e6314e4c4ceeea01a16f515ba02e9ddc63ffcc2c7983e532bc78a7f5a8bf"
+        },
+        {
+          "file": "recognition/max-corruption/frame-052.png",
+          "sha256": "313445417184f821f6787a9f5143f32eb86635608272b7e3de70358b2e4d201b"
+        },
+        {
+          "file": "recognition/max-corruption/frame-053.png",
+          "sha256": "1fc6e99cfa7cd6183f9a6fe8edbb260765df8564bb8284de7eac835f664466ab"
+        },
+        {
+          "file": "recognition/max-corruption/frame-054.png",
+          "sha256": "2dec5aacac9f21f88b747692d78336c283da0cf6caa3d76498a419eed37452f2"
+        },
+        {
+          "file": "recognition/max-corruption/frame-055.png",
+          "sha256": "941a4d4dba3c16046b25cb24e65ecd44ab26ff09306d1fbfcabd4387adf437bd"
+        },
+        {
+          "file": "recognition/max-corruption/frame-056.png",
+          "sha256": "97b6021ced76e87fbaeee2965a2b1b95115869bf922a006cb254a1e49387b186"
+        },
+        {
+          "file": "recognition/max-corruption/frame-057.png",
+          "sha256": "f268e6314e4c4ceeea01a16f515ba02e9ddc63ffcc2c7983e532bc78a7f5a8bf"
+        },
+        {
+          "file": "recognition/max-corruption/frame-058.png",
+          "sha256": "1fc6e99cfa7cd6183f9a6fe8edbb260765df8564bb8284de7eac835f664466ab"
+        },
+        {
+          "file": "recognition/max-corruption/frame-059.png",
+          "sha256": "1fc6e99cfa7cd6183f9a6fe8edbb260765df8564bb8284de7eac835f664466ab"
+        }
+      ],
+      "sha256": "e2916e9ed21124f80e21002e09c4898eccb8b3455655940fb699d6c80f427fa2"
+    }
+  },
+  "ui": {
+    "hp": {
+      "file": "combat-c100-1280.png",
+      "sha256": "4255abba33755ed0c5c2a7147471890573cd3f02180a98215a231b709b360027"
+    },
+    "levels": {
+      "file": "combat-c100-1280.png",
+      "sha256": "4255abba33755ed0c5c2a7147471890573cd3f02180a98215a231b709b360027"
+    },
+    "focus": {
+      "file": "level-up-1280.png",
+      "sha256": "c5f68115d94739c5bc997673072fca87e4daeb76ea0a212a907bf6295897bc8f"
+    }
+  },
+  "results": "none; preparation only",
+  "material_sha256": "eb97aa98f6e46e956a0e3cd85bd9a48713bbf336f487d75db692dd2a095343eb"
+}

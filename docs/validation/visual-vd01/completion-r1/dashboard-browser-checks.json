@@ -1,0 +1,22 @@
+{
+  "checks": [
+    {
+      "name": "all actual local dashboard images load",
+      "pass": true
+    },
+    {
+      "name": "current corrected candidate in hero preview",
+      "pass": true
+    },
+    {
+      "name": "mobile outer layout stays within viewport",
+      "pass": true
+    },
+    {
+      "name": "no browser errors or network requests",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "network": []
+}

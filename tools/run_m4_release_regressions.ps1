@@ -6,6 +6,8 @@ $releasePack = Join-Path $releaseRoot 'builds/windows/m4/AbyssExpedition.exe'
 if ($UseTemplate) { $releaseBinary = Join-Path $PSScriptRoot 'godot-4.5-templates/templates/windows_release_x86_64.exe' }
 $releaseEvidence = if ($EvidenceDirectory) { [IO.Path]::GetFullPath($EvidenceDirectory, $releaseRoot) } else { Join-Path $releaseRoot 'docs/validation' }
 New-Item -ItemType Directory -Force -Path $releaseEvidence | Out-Null
+$captureDirectory = if ($EvidenceDirectory) { Join-Path $releaseEvidence 'captures' } else { Join-Path $releaseRoot 'screenshots' }
+New-Item -ItemType Directory -Force -Path $captureDirectory | Out-Null
 Write-Output ('RELEASE RUNTIME: ' + $(if ($UseTemplate) { 'unmodified pinned release template + exported pack; not a launch of the generated executable' } else { 'generated executable' }))
 $runtimeLabel = if ($UseTemplate) { 'template' } else { 'exe' }
 [ordered]@{ runtime = $runtimeLabel; dummy_audio = [bool]$DummyAudio; executable = $releaseBinary; executable_sha256 = (Get-FileHash -LiteralPath $releaseBinary -Algorithm SHA256).Hash; pack_sha256 = (Get-FileHash -LiteralPath $releasePack -Algorithm SHA256).Hash } | ConvertTo-Json | Set-Content -Encoding utf8 (Join-Path $releaseEvidence 'runtime.json')
@@ -42,14 +44,16 @@ foreach ($id in $(if ($M4Only) { @('m4') } else { @('m2','m3','m4') })) {
     $capture = ($capture -split "\r?\n" | ForEach-Object { "`t" + $_ }) -join "`n"
     $harness = $harness.Replace('extends SceneTree', ("extends SceneTree`n`nclass ErrorCapture:`n" + $capture))
     $harness = $harness.Replace('preload("res://tests/error_capture.gd").new()', 'ErrorCapture.new()')
-    $screenshots = $releaseRoot.Replace('\','/') + "/screenshots/convergence-$runtimeLabel-$id-"
+    $screenshots = $captureDirectory.Replace('\','/') + "/convergence-$runtimeLabel-$id-"
     $harness = $harness.Replace(('"res://screenshots/' + $id + '-"'), ('"' + $screenshots + '"'))
-    $scriptPath = Join-Path $PSScriptRoot "m4_${id}_release_graphical.gd"
+    $harnessDirectory = if ($EvidenceDirectory) { Join-Path $releaseEvidence 'harnesses' } else { $PSScriptRoot }
+    New-Item -ItemType Directory -Force $harnessDirectory | Out-Null
+    $scriptPath = Join-Path $harnessDirectory "m4_${id}_release_graphical.gd"
     [IO.File]::WriteAllText($scriptPath, $harness)
     $probeName = if ($id -eq 'm4') { 'm4-current-release' } else { "m4-prior-$id-release" }
     Invoke-ReleaseProbe $probeName $scriptPath
 }
 if (-not $M4Only) {
     Invoke-ReleaseProbe 'm4-debug-release-denial' (Join-Path $releaseRoot 'tests/debug_release_probe.gd')
-    Invoke-ReleaseProbe 'm4-debug-graphical' (Join-Path $releaseRoot 'tests/debug_graphical_check.gd') (Join-Path $PSScriptRoot 'godot-4.5/Godot_v4.5-stable_win64_console.exe') @('--','--captures',(Join-Path $releaseRoot 'screenshots'))
+    Invoke-ReleaseProbe 'm4-debug-graphical' (Join-Path $releaseRoot 'tests/debug_graphical_check.gd') (Join-Path $PSScriptRoot 'godot-4.5/Godot_v4.5-stable_win64_console.exe') @('--','--captures',$captureDirectory)
 }

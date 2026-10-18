@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="ProfessionDefinition" load_steps=7 format=3]
+[ext_resource type="Script" path="res://scripts/characters/profession_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/data/stat_block.gd" id="2"]
+[ext_resource type="Script" path="res://scripts/data/visual_set.gd" id="3"]
+[ext_resource type="Resource" path="res://data/weapons/straight.tres" id="4"]
+[sub_resource type="Resource" id="stats"]
+script = ExtResource("2")
+reach = 160.0
+damage = 36.0
+frequency = 1.2
+max_health = 150.0
+[sub_resource type="Resource" id="visual"]
+script = ExtResource("3")
+id = &"star_hunter_visual"
+silhouette = "bow"
+palette = Color(0.36, 0.64, 1, 1)
+[resource]
+script = ExtResource("1")
+id = &"star_hunter"
+base_id = &"archer"
+is_promotion = true
+attack_policy = &"star_hunter"
+starting_stats = SubResource("stats")
+weapon = ExtResource("4")
+visual_set = SubResource("visual")
+description = "Arrows ricochet once to a different enemy; every fifth marks one 0.5s impact."
+secondary_damage = 1
+effect_radius = 48.0
+effect_period = 30

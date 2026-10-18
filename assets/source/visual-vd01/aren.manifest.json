@@ -1,0 +1,160 @@
+{
+  "canvas": [
+    32,
+    48
+  ],
+  "anchor": [
+    16,
+    40
+  ],
+  "sheet": "sprites/aren.png",
+  "body_bounds": [
+    4,
+    8,
+    24,
+    32
+  ],
+  "states": {
+    "idle": {
+      "applicable": true,
+      "regions": [
+        [
+          0,
+          0,
+          32,
+          48
+        ],
+        [
+          32,
+          0,
+          32,
+          48
+        ]
+      ],
+      "effective_frames": 2,
+      "fps": 6,
+      "loop": true
+    },
+    "move": {
+      "applicable": true,
+      "regions": [
+        [
+          0,
+          48,
+          32,
+          48
+        ],
+        [
+          32,
+          48,
+          32,
+          48
+        ],
+        [
+          64,
+          48,
+          32,
+          48
+        ],
+        [
+          96,
+          48,
+          32,
+          48
+        ]
+      ],
+      "effective_frames": 4,
+      "fps": 10,
+      "loop": true
+    },
+    "attack": {
+      "applicable": true,
+      "regions": [
+        [
+          0,
+          96,
+          32,
+          48
+        ],
+        [
+          32,
+          96,
+          32,
+          48
+        ],
+        [
+          64,
+          96,
+          32,
+          48
+        ]
+      ],
+      "effective_frames": 3,
+      "fps": 15,
+      "loop": false,
+      "event_origin": "attack_until-12",
+      "duration_ticks": 12
+    },
+    "hurt": {
+      "applicable": true,
+      "regions": [],
+      "effective_frames": 1,
+      "fps": 1,
+      "loop": false,
+      "reuse_of": "idle[0]",
+      "flash_until": "actual hurt_until; can be 2 or 8 ticks"
+    },
+    "death": {
+      "applicable": true,
+      "regions": [
+        [
+          0,
+          192,
+          32,
+          48
+        ],
+        [
+          32,
+          192,
+          32,
+          48
+        ],
+        [
+          64,
+          192,
+          32,
+          48
+        ],
+        [
+          96,
+          192,
+          32,
+          48
+        ]
+      ],
+      "effective_frames": 4,
+      "fps": 8,
+      "loop": false,
+      "event_origin": "valid dead_at; hero/companion lethal hurt_until-8",
+      "duration_ticks": 30,
+      "interruption": "results can immediately truncate; never delay cleanup"
+    }
+  },
+  "unique_cells": 13,
+  "facing": "one plus horizontal mirror; bodies never rotate",
+  "revision": "VD-01-P1",
+  "creator": "Codex / original local pixel masters",
+  "date": "2026-10-17",
+  "source": "assets/source/visual-vd01/aren.ora",
+  "export": "assets/sprites/actors/aren/base_swordsman_vd01.png",
+  "approved_concept_sha256": "3c20729e329026ce012ab1a8f252d8aba059565f4b349491b6f8b7566072ba49",
+  "production_status": "pixel export prepared; import and candidate review required",
+  "cleanup": "Fixed canvas/anchor, alpha, state regions, mirror-neutral semantic geometry and all distinct authored cells checked. No copied franchise imagery.",
+  "sha256": "a2b0ecf595af4905ef9aabae1825b3cb7c1db667fde39997aa8a481f5209c485",
+  "source_sha256": "a5ed676bc441378fd3e7e9d89582c9d722acd9122174c68edcb491d3df3573b1",
+  "export_sha256": "a2b0ecf595af4905ef9aabae1825b3cb7c1db667fde39997aa8a481f5209c485",
+  "production_export_date": "2026-10-17",
+  "actual_unique_pixel_cells": 13,
+  "approval_status": "G1 concept approved; runtime G2 pending",
+  "concept_creation_date": "2026-10-16"
+}

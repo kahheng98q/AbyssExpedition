@@ -1,0 +1,50 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>VD-01 · 动作样稿播放器</title>
+<style>body{margin:0;padding:16px;background:#10121c;color:#e9e6d8;font:14px system-ui}canvas{display:block;image-rendering:pixelated;width:640px;height:360px;max-width:none}button,select{background:#191e2e;color:#e9e6d8;border:1px solid #687c88;padding:8px;margin:0 8px 12px 0;font:inherit}button:focus-visible,select:focus-visible{outline:2px solid #a5f3e8}.scroll{overflow:auto}p{color:#b8c6d1}a{color:#a5f3e8}</style>
+<p>PROPOSED · 原创像素动作示意 · 非游戏录像</p><label>预览 <select id="mode"><option value="actors">三单位 / 五状态 / 四向</option><option value="effects">剑弧 / Milo 追踪星</option><option value="normal">正常构图 · 2秒</option><option value="dense">密集构图 · 2秒</option><option value="max-corruption">腐化100 · 2秒</option><option value="events">中断 / 恢复 / 迟到采样</option></select></label><button id="play" aria-pressed="false">播放</button><button id="reset">回到首帧</button><div class="scroll"><canvas width="640" height="360" aria-label="非实机动画提案"></canvas></div><p id="status" role="status">正在加载本地 PNG…</p><a href="../../preview.html">返回设计预览</a>
+<script src="motion-data.js"></script><script>
+'use strict';
+const cv=document.querySelector('canvas'),ctx=cv.getContext('2d'),D=window.VD_DATA,base={},sheets={};
+const load=src=>new Promise((resolve,reject)=>{const i=new Image();i.onload=()=>resolve(i);i.onerror=()=>reject(Error(src));i.src=D.images[src]||src});
+window.ready=Promise.all([...Object.entries(D.manifest.actors),...Object.entries(D.manifest.effects)].map(async([k,v])=>sheets[k]=await load(v.sheet)).concat(['normal','dense','max-corruption'].flatMap(k=>['','-unlit'].map(async ext=>base[k+ext]=await load('motion-scene-'+k+ext+'.png')))));
+function label(s,x,y,size=12,col='#e9e6d8'){ctx.fillStyle=col;ctx.font=size+'px "Segoe UI",sans-serif';ctx.fillText(s,x,y)}
+function pose(kind,state,age,tick=0){let e=D.manifest.actors[kind].states[state];if(!e||!e.applicable)return null;if(e.reuse_of)e=D.manifest.actors[kind].states.idle;const n=e.regions.length;return e.regions[e.loop?Math.floor(age*e.fps)%n:Math.min(n-1,Math.floor(age*e.fps))]}
+function body(kind,x,y,state,age,mirror=false,scale=1){const a=D.manifest.actors[kind],r=pose(kind,state,age);if(!r)return;ctx.save();ctx.translate(x,y);ctx.scale(mirror?-scale:scale,scale);if(state==='hurt')ctx.filter='brightness(0) invert(1)';ctx.drawImage(sheets[kind],...r,-a.anchor[0]+(mirror?1:0),-a.anchor[1],r[2],r[3]);ctx.restore()}
+function effect(kind,x,y,age,angle=0){const a=D.manifest.effects[kind],r=a.regions[Math.floor(age*a.fps)%a.regions.length];ctx.save();ctx.translate(x,y);ctx.rotate(angle);ctx.drawImage(sheets[kind],...r,-a.anchor[0],-a.anchor[1],r[2],r[3]);ctx.restore()}
+function frame(mode,t){ctx.imageSmoothingEnabled=false;ctx.fillStyle='#10121c';ctx.fillRect(0,0,640,360);
+ const grayscale=mode.endsWith('-grayscale'),unlit=mode.endsWith('-unlit'),directional=mode==='directions';let key=directional?'dense':mode.replace(/-grayscale$|-unlit$/,'');
+ if(base[key]){if(grayscale)ctx.filter='grayscale(1)';ctx.drawImage(base[key+(unlit?'-unlit':'')],0,0);let q=D.protocol.conditions.find(q=>q.id===key);if(q.copy_positions_from)q={...D.protocol.conditions.find(v=>v.id===q.copy_positions_from),...q};
+   const ph=t%1,dir=directional?Math.floor(t*2)%4:0;
+   q.thralls.forEach(p=>body('thrall',...p,'move',t,p[0]>320));q.brinejaws.forEach(p=>body('brinejaw',...p,'move',t,p[0]>320));
+   ctx.strokeStyle='#a5f3e8';ctx.beginPath();ctx.ellipse(320,208,13,5,0,0,Math.PI*2);ctx.stroke();body('aren',320,208,ph<.2?'attack':'move',ph<.2?ph:ph-.2,dir===2);if((directional?t%.5:ph)<.183)effect('sword',320,208,directional?t%.5:ph,dir*Math.PI/2);
+   q.friendly_stars.forEach(p=>effect('star',...p,t));q.warnings.forEach(w=>{const [x,y]=w.center,r=w.radius;ctx.strokeStyle='#10121c';ctx.lineWidth=4;ctx.beginPath();ctx.arc(x,y,r,0,Math.PI*2);ctx.stroke();ctx.strokeStyle='#ffb454';ctx.lineWidth=2;ctx.stroke()});ctx.lineWidth=1;ctx.filter='none';return;}
+ label('PROPOSED / '+({actors:'FIVE STATES · FOUR DIRECTIONS',effects:'EXISTING ATTACKS ONLY',events:'EVENT PHASE / NEVER RESTART'}[mode]),20,30,20,'#d6ae68');
+ if(mode==='actors'){
+  const phase=t%8,state=phase<1?'idle':phase<3?'move':phase<3.2?'attack':phase<3.333?'hurt':phase<4?'move':phase<4.5?'death':'idle',age=phase<1?phase:phase<3?phase-1:phase<3.2?phase-3:phase<3.333?phase-3.2:phase<4?phase-3.333:phase<4.5?phase-4:phase-4.5;
+  label(state.toUpperCase()+' · t '+phase.toFixed(2)+'s · one facing + mirror',20,58,12,'#b8c6d1');
+  ['EAST','SOUTH','WEST','NORTH'].forEach((dir,col)=>{let x=92+col*154;label(dir,x-24,92,12,'#a5f3e8');['aren','thrall','brinejaw'].forEach((k,row)=>{
+   let st=state,localAge=age;if(k==='thrall'&&st==='attack')st='move';if(k==='brinejaw'&&phase>=3&&phase<3.75){st='warning';localAge=phase-3}else if(k==='brinejaw'&&phase>=3.75&&phase<3.883){st='hurt';localAge=phase-3.75}if(k!=='aren'&&phase>=4.4&&phase<4.5){st='idle';localAge=0}
+   const delta=st==='move'?Math.round(Math.sin(t*5)*4):0,dx=col===0?delta:col===2?-delta:0,dy=col===1?delta:col===3?-delta:0;
+   ctx.strokeStyle='#3d4c5c';ctx.beginPath();ctx.moveTo(x-16,153+row*82);ctx.lineTo(x+16,153+row*82);ctx.stroke();
+   body(k,x+dx,150+row*82+dy,st,localAge,col===2,1);if(k==='aren'&&state==='attack')effect('sword',x,150,age,col*Math.PI/2);
+   if(k==='brinejaw'&&st==='warning'){ctx.strokeStyle='#ffb454';ctx.beginPath();ctx.arc(x,314,18,0,Math.PI*2);ctx.stroke()}
+  })});label('Thrall attack = N/A / contact only. Brinejaw warning = 45 ticks.',20,348,12,'#b8c6d1');
+ } else if(mode==='effects'){
+  ['EAST','SOUTH','WEST','NORTH'].forEach((s,i)=>{const x=80+i*160;label(s,x-20,85,12,'#a5f3e8');body('aren',x,175,'attack',t%.2,i===2);if(t%.4<.183)effect('sword',x,175,t%.4,i*Math.PI/2);effect('star',x+Math.round(Math.sin(t*4)*20),260,t)});
+  label('Sword: reach48 / 100° / original cleanup. Star belongs to Milo.',20,320,12,'#b8c6d1');label('Bodies never rotate. Nonbasic attacks keep procedural fallback.',20,343,12,'#b8c6d1');
+ } else {
+  const tick=Math.floor(t*60)%60;label('Authoritative event starts at tick 0; attack_until = 12',20,66,16,'#a5f3e8');
+  [['Continuous',false,false],['Hurt interruption',true,false],['First seen tick 9',false,true]].forEach(([s,hurt,late],i)=>{
+    const x=110+i*205;label(s,x-70,110,12);if(tick<12&&(!late||tick>=9)){const state=hurt&&tick>=4&&tick<8?'hurt':'attack';body('aren',x,210,state,tick/60,false,2)}else if(tick>=12)body('aren',x,210,'idle',0,false,2);
+    label('tick '+tick,x-45,250,12,'#d6ae68');label(tick>=12?'event expired':late&&tick<9?'not observed':hurt&&tick>=4&&tick<8?'hurt only':'frame '+Math.min(2,Math.floor(tick/4)),x-60,276,12,'#b8c6d1')
+  });label('Resume tick8 -> frame2. Late tick9 -> frame2. No catch-up impact.',20,321,12);label('Pause freezes tick; debug speed uses tick. This is a design example.',20,345,12,'#b8c6d1');
+ }
+}
+window.renderFrame=frame;window.VDReady=false;let playing=false,origin=0,raf=0;
+function loop(now){if(!playing)return;frame(document.querySelector('#mode').value,(now-origin)/1000);raf=requestAnimationFrame(loop)}
+function stop(){playing=false;cancelAnimationFrame(raf);document.querySelector('#play').setAttribute('aria-pressed','false');document.querySelector('#play').textContent='播放'}
+document.querySelector('#play').onclick=()=>{if(playing){stop();return}playing=true;origin=performance.now();document.querySelector('#play').setAttribute('aria-pressed','true');document.querySelector('#play').textContent='暂停';raf=requestAnimationFrame(loop)};
+document.querySelector('#reset').onclick=()=>{stop();frame(document.querySelector('#mode').value,0)};document.querySelector('#mode').onchange=()=>{stop();frame(document.querySelector('#mode').value,0)};
+window.ready.then(()=>{window.VDReady=true;frame('actors',0);document.querySelector('#status').textContent='本地素材已加载 · 默认静止，按播放查看';}).catch(e=>document.querySelector('#status').textContent='素材缺失：'+e.message);
+window.recordVideo=async function(mode,seconds){await window.ready;stop();let chunks=[];let stream=cv.captureStream(30),r=new MediaRecorder(stream,{mimeType:'video/webm;codecs=vp8',videoBitsPerSecond:2000000});let done=new Promise(resolve=>r.onstop=resolve);r.ondataavailable=e=>chunks.push(e.data);r.start();for(let n=0;n<seconds*30;n++){frame(mode,n/30);await new Promise(resolve=>setTimeout(resolve,1000/30))}r.stop();await done;stream.getTracks().forEach(t=>t.stop());const buf=await new Blob(chunks,{type:'video/webm'}).arrayBuffer();let bin='';for(const b of new Uint8Array(buf))bin+=String.fromCharCode(b);return btoa(bin)};
+window.encodeFrames=async function(mode,seconds){await window.ready;stop();const chunks=[],failures=[];const enc=new VideoEncoder({output:chunk=>{let data=new Uint8Array(chunk.byteLength);chunk.copyTo(data);let bin='';for(const b of data)bin+=String.fromCharCode(b);chunks.push({timestamp:chunk.timestamp,key:chunk.type==='key',data:btoa(bin)})},error:e=>failures.push(String(e))});enc.configure({codec:'vp8',width:640,height:360,bitrate:2000000,framerate:30});for(let n=0;n<seconds*30;n++){frame(mode,n/30);const f=new VideoFrame(cv,{timestamp:Math.round(n*1000000/30),duration:Math.round(1000000/30)});enc.encode(f,{keyFrame:n%30===0});f.close();if(n%30===29)await enc.flush()}await enc.flush();enc.close();if(failures.length)throw Error(failures.join());return chunks};
+</script></html>

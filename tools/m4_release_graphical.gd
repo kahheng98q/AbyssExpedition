@@ -40,7 +40,7 @@ func capture(app, name_value: String) -> void:
 		if screen.get("panel") != null:
 			check(screen.panel.size.x <= 640 and screen.panel.size.y <= 360, "panel fits viewport: " + name_value + str(screen.panel.size))
 	await RenderingServer.frame_post_draw
-	check(root.get_texture().get_image().save_png("C:/Users/kahhe/Desktop/Project/new-game-project/screenshots/m4-release-" + name_value + ".png") == OK, "capture " + name_value)
+	check(root.get_texture().get_image().save_png("C:/Users/kahhe/Desktop/Project/new-game-project/docs/validation/visual-vd01/completion-r2/regression/captures/m4-release-" + name_value + ".png") == OK, "capture " + name_value)
 
 func force_event(app, kind: String) -> void:
 	app.run.events.current = {"id": 99, "tick": app.run.clock.tick, "kind": kind}

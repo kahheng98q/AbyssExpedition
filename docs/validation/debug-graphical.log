@@ -1,10 +1,40 @@
 Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
 OpenGL API 3.3.0 NVIDIA 546.30 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1650
 
-Profile storage: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/debug-access-26904-1707270/
-Profile storage: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/debug-xp-buttons-26904-2604971/
-Profile storage: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/debug-graphical-26904-3135553/
+Profile storage: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/debug-access-7260-1512839/
+Profile storage: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/debug-xp-buttons-7260-2347929/
+Profile storage: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/debug-graphical-7260-2916663/
 DEBUG GRAPHICAL window=(1280, 720) actual=(1280, 720) four tabs / scroll / promotion / paused native input
 DEBUG GRAPHICAL window=(1920, 1080) actual=(1920, 1080) four tabs / scroll / promotion / paused native input
 DEBUG GRAPHICAL window=(1371, 813) actual=(1371, 813) four tabs / scroll / promotion / paused native input
-DEBUG GRAPHICAL: assertions=97 failures=0
+DEBUG GRAPHICAL: assertions=102 failures=10
+ERROR: Can't save PNG at path: 'C:\Users\kahhe\Desktop\Project\new-game-project\screenshots/debug-xp-level-buttons.png'.
+   at: save_image (drivers/png/resource_saver_png.cpp:56)
+   GDScript backtrace (most recent call first):
+       [0] capture (res://tests/debug_graphical_check.gd:39)
+FAIL: capture debug-xp-level-buttons
+ERROR: Can't save PNG at path: 'C:\Users\kahhe\Desktop\Project\new-game-project\screenshots/debug-1371-tab-2.png'.
+   at: save_image (drivers/png/resource_saver_png.cpp:56)
+   GDScript backtrace (most recent call first):
+       [0] capture (res://tests/debug_graphical_check.gd:39)
+FAIL: capture debug-1371-tab-2
+ERROR: Can't save PNG at path: 'C:\Users\kahhe\Desktop\Project\new-game-project\screenshots/debug-1371-tab-2-bottom.png'.
+   at: save_image (drivers/png/resource_saver_png.cpp:56)
+   GDScript backtrace (most recent call first):
+       [0] capture (res://tests/debug_graphical_check.gd:39)
+FAIL: capture debug-1371-tab-2-bottom
+ERROR: Can't save PNG at path: 'C:\Users\kahhe\Desktop\Project\new-game-project\screenshots/debug-1371-tab-3.png'.
+   at: save_image (drivers/png/resource_saver_png.cpp:56)
+   GDScript backtrace (most recent call first):
+       [0] capture (res://tests/debug_graphical_check.gd:39)
+FAIL: capture debug-1371-tab-3
+ERROR: Can't save PNG at path: 'C:\Users\kahhe\Desktop\Project\new-game-project\screenshots/debug-1371-tab-3-bottom.png'.
+   at: save_image (drivers/png/resource_saver_png.cpp:56)
+   GDScript backtrace (most recent call first):
+       [0] capture (res://tests/debug_graphical_check.gd:39)
+FAIL: capture debug-1371-tab-3-bottom
+FAIL: drivers/png/resource_saver_png.cpp:56 Condition "err" is true. Returning: err Can't save PNG at path: 'C:\Users\kahhe\Desktop\Project\new-game-project\screenshots/debug-xp-level-buttons.png'.
+FAIL: drivers/png/resource_saver_png.cpp:56 Condition "err" is true. Returning: err Can't save PNG at path: 'C:\Users\kahhe\Desktop\Project\new-game-project\screenshots/debug-1371-tab-2.png'.
+FAIL: drivers/png/resource_saver_png.cpp:56 Condition "err" is true. Returning: err Can't save PNG at path: 'C:\Users\kahhe\Desktop\Project\new-game-project\screenshots/debug-1371-tab-2-bottom.png'.
+FAIL: drivers/png/resource_saver_png.cpp:56 Condition "err" is true. Returning: err Can't save PNG at path: 'C:\Users\kahhe\Desktop\Project\new-game-project\screenshots/debug-1371-tab-3.png'.
+FAIL: drivers/png/resource_saver_png.cpp:56 Condition "err" is true. Returning: err Can't save PNG at path: 'C:\Users\kahhe\Desktop\Project\new-game-project\screenshots/debug-1371-tab-3-bottom.png'.

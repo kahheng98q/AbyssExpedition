@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-16",
+  "scope": "approval documentation only",
+  "approved_package_sha256": "3c20729e329026ce012ab1a8f252d8aba059565f4b349491b6f8b7566072ba49",
+  "submitted_package_unchanged": true,
+  "artifacts_unchanged": 134,
+  "archive_verified": true,
+  "archived_files": 156,
+  "protected_runtime_files_matching_original_baseline": 233,
+  "runtime_baseline_drift": [
+    {
+      "path": "project.godot",
+      "bytes": 1114,
+      "sha256": "34e0b8db529d5f8bd2220f35ba30f491479e75ef8d806ee2356dbe97b16efa6a",
+      "current_sha256": "c5e590e641c9f8bf0825dee0138975134abb1336e71bc48ac587af53d86bd329"
+    }
+  ],
+  "drift_note": "Initial approval checker stopped on project.godot drift. Current config/features says 4.7 versus original 4.5; no tool in this approval task wrote project.godot. Difference preserved, not repaired or silently accepted. Verify pinned engine before later implementation.",
+  "historical_images_unchanged": 5,
+  "local_links_checked": 202,
+  "broken_links": [],
+  "completed_phase1_3_tasks": 30,
+  "future_tasks_started": 0,
+  "godot_tests_run": false,
+  "prior_file_browser_results": "retained historical evidence, not rerun"
+}

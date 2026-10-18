@@ -34,6 +34,7 @@ var errors: Array[String] = []
 var resources: Array[Resource] = []
 var packed: Dictionary = {}
 var digest: String = ""
+var actor_visuals: ActorVisualOverride
 
 func load_all() -> bool:
 	errors.clear()
@@ -59,6 +60,12 @@ func load_all() -> bool:
 	rescue = definition("res://data/events/sera_rescue.tres", RescueDefinition)
 	corruption = definition("res://data/encounters/coast_corruption.tres", CorruptionDefinition)
 	resources.append_array([waves, field, boss, pool, rescue, corruption])
+	actor_visuals = definition("res://data/visuals/actor_overrides.tres", ActorVisualOverride)
+	resources.append(actor_visuals)
+	for name_value in ["aren", "thrall", "brinejaw"]:
+		resources.append(definition("res://data/visuals/%s_vd01.tres" % name_value, VisualSet))
+	for name_value in ["aren", "thrall", "brinejaw", "sword", "star"]:
+		resources.append(definition("res://data/visuals/%s_frames_vd01.tres" % name_value, SpriteFrames))
 	events.clear()
 	for id in ["mysterious_merchant", "forbidden_altar", "lost_adventurer"]:
 		var event = definition("res://data/events/%s.tres" % id, EventDefinition)

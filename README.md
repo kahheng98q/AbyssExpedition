@@ -1,16 +1,23 @@
 # Abyss Expedition — Milestone 4 — Abyss and Aetheran Coast
 
-Offline Godot 4.5 survivor-style combat prototype with a guild hub, six collectible heroes, Sera's story rescue, earned-ticket recruitment, duplicate-token exchange and persistent progression. Six promotion branches and up to two AI companions remain available. Corruption brings XP rewards and tougher future waves; seeded contracts and three event types shape each coastal expedition. Original procedural placeholders; fully offline.
+Offline Godot 4.5 survivor-style combat prototype with a guild hub, six collectible heroes, Sera's story rescue, earned-ticket recruitment, duplicate-token exchange and persistent progression. Six promotion branches and up to two AI companions remain available. Corruption brings XP rewards and tougher future waves; seeded contracts and three event types shape each coastal expedition. The approved first visual slice uses original pixel sprites and a coastal shrine; other identities retain procedural rendering. Fully offline.
 
+
+**Development workflow / 开发工作流（2026-10-18）**：Autonomous Implementation with Continuous Documentation。
+已授权范围内连续实施、自动测试修复、逐阶段更新文档，无例行任务/阶段/视觉签批；人工未验项保持pending，reviewer清单只读。仅真实阻塞、高风险行动或平台权限需介入。见[持久指令](AGENTS.md)、[宪章v1.1.0](.specify/memory/constitution.md)和[工作流核对记录](docs/validation/workflow-2026-10-18.md)。本次仅工作流配置更新，游戏构建与既有验收结果未变。
 
 ## Documentation / 开发文档
 
 - [Visual Development Dashboard / 离线开发图鉴](docs/game-development-dashboard.html) — screenshots, characters, promotion trees and verified status; open locally in a browser.
 - [Implementation Overview / 中文实现概览](docs/IMPLEMENTATION_OVERVIEW.md) — playable scope, limits and quick launch.
 - Spec Kit: [Spec](specs/001-abyss-expedition-mvp/spec.md) · [Plan](specs/001-abyss-expedition-mvp/plan.md) · [Tasks](specs/001-abyss-expedition-mvp/tasks.md) · [Constitution](.specify/memory/constitution.md).
+- Visual design: [离线概念与实机预览](docs/visual-design/preview.html) · [当前候选/验证](docs/validation/visual-vd01/review-package.md) · [素材/缺口](docs/visual-design/ASSET_INVENTORY.md) · [审批](docs/visual-design/APPROVALS.md)。
+- Visual Spec Kit: [Spec](specs/002-2d-art-direction/spec.md) · [中文](specs/002-2d-art-direction/spec.zh-CN.html) · [Plan](specs/002-2d-art-direction/plan.md) · [Tasks](specs/002-2d-art-direction/tasks.md)。
 - Evidence: [Convergence fixes / 收敛修复与当前验收](docs/validation/convergence-2026-10-15.md) · [Previous full verification / 此前完整验证](docs/validation/verification-2026-10-15.md) · [M4 gate](docs/validation/m4-gate.md) · [Documentation audit](docs/validation/documentation-dashboard.md).
 
-**Current build / 当前构建**：2026-10-16 收敛修复后，13 组 / 5,239 条原生断言、源码及实际 Windows EXE 三尺寸受控图形通过。性能仍超预算，参考机/显示延迟与人工验收开放。详见 [当前验证记录](docs/validation/convergence-2026-10-15.md)。
+**Current build / 当前构建**：2026-10-18 VD-01-P3本机收尾：缓存重复绘制，574组原生像素不变、字形边界检查及5,347功能断言通过。六组完整性能仅1组达标；真实窗口、参考机、显示延迟与十人评审仍待验。[本轮记录](docs/validation/visual-vd01/completion-r2.md) · [离线答卷](docs/visual-design/review-session.html)。
+
+新增[真实时钟动作播放器](docs/visual-design/wallclock-gallery.html)，可离线对照原版/当前发布/源码的移动、暂停和状态中断；原生视口采样不能代替物理显示延迟测量。
 
 ## Play the Windows demo
 
@@ -23,7 +30,7 @@ Offline Godot 4.5 survivor-style combat prototype with a guild hub, six collecti
 7. The Tidebound Hierophant enters at **9:00 active time**. Avoid orange cone/circle warnings. Defeat it to win; there is no automatic victory at 10:00. Death ends the run.
 8. Results save permanent rewards before offering **Retry**, **New Expedition**, or character selection. Run upgrades and health reset; Retry retains earned permanent progress and warns when starting progression or Sera ownership changes replay conditions.
 
-The current M4 executable exports and launches successfully; M2/M3/M4 controlled graphical flows and release debug restrictions pass. Human acceptance, reference-machine performance and displayed latency remain open; see [current evidence](docs/validation/convergence-2026-10-15.md).
+The current M4 executable exports and launches successfully; M2/M3/M4 controlled graphical flows and release debug restrictions pass. Human acceptance, reference-machine performance and displayed latency remain open; see [current evidence](docs/validation/visual-vd01/review-package.md).
 
 Open **Roster / party / promote** before starting. Confirm one active hero and zero to two other owned heroes as companions. Scroll or Tab to reach controls in longer screens. Each participant gains 20 permanent XP per full active minute plus 100 for victory, including downed companions; victory also grants one shared promotion item. Abandonment grants no rewards. Permanent levels need 100 XP each, cap at 30, and add 2% starting HP/damage per level.
 

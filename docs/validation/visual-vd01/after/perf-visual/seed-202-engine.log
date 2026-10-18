@@ -1,0 +1,8 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 546.30 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1650
+
+BENCH WARMUP COMPLETE seed=202 active=30.02s
+BENCH PROGRESS seed=202 captured_active=30.0/120.0s
+BENCH PROGRESS seed=202 captured_active=60.0/120.0s
+BENCH PROGRESS seed=202 captured_active=90.0/120.0s
+BENCH seed=202 samples=4677 active=120.0s p95=31.792 p99=32.980 capture_valid=true budget_pass=false debug_build=false output=C:\Users\kahhe\Desktop\Project\new-game-project\docs\validation\visual-vd01\after\perf-visual

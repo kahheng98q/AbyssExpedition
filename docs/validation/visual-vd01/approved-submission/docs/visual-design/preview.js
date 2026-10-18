@@ -1,0 +1,20 @@
+'use strict';
+(() => {
+const dir='mockups/vd01/',stage=document.querySelector('#stage'),im=document.querySelector('#stage-image'),status=document.querySelector('#interaction-status'),label=document.querySelector('#stage-label'),hit=document.querySelector('#choice-hitboxes');
+let scene='battle',choice=0,armedAt=0,lastCommit=-Infinity;
+const desc={battle:'PROPOSED：海岸神殿战斗HUD概念，Aren及两敌像素样稿，保留首领与同伴占位',level:'PROPOSED：Might、Quick Hands、Vitality三选一像素界面，焦点可交互',lineup:'PROPOSED：三单位原向、镜像、剪影、脚锚概念对照',baseline:'REAL：历史M4实机截图，程序占位与原HUD；不是本轮游戏运行结果'};
+function current(){if(scene==='baseline')return '../../screenshots/m4-release-boss-double-eruption-1280.png';if(scene==='lineup')return dir+'actor-lineup.png';if(scene==='level')return dir+'level-focus-'+choice+'.png';const q=document.querySelector('#condition').value,r=document.querySelector('#rescue').value;return dir+(q==='normal'?'battle-hud.png':q==='dense'?'combat-dense.png':q==='max'?'combat-max.png':r==='active'?'hud-stress.png':'hud-'+r+'.png')}
+function render(){im.src=current();im.alt=desc[scene];document.querySelector('#stage-original').href=im.src;label.textContent=scene==='baseline'?'REAL · 历史实机':'PROPOSED · VD-01-M1 样稿';label.className='chip '+(scene==='baseline'?'real':'proposed');hit.hidden=scene!=='level';for(const b of document.querySelectorAll('[data-scene]'))b.setAttribute('aria-pressed',String(b.dataset.scene===scene));for(const id of ['condition','rescue'])document.querySelector('#'+id).disabled=scene!=='battle'}
+for(const b of document.querySelectorAll('[data-scene]'))b.addEventListener('click',()=>{scene=b.dataset.scene;armedAt=performance.now()+180;render();status.textContent=scene==='level'?'交互概念：可选卡；选择不会写存档或发放奖励。':scene==='baseline'?'历史图用于视觉对照；构图和数据不与样稿完全匹配。':'PROPOSED · 尚未接入游戏';});
+for(const id of ['condition','rescue'])document.querySelector('#'+id).addEventListener('change',render);
+document.querySelector('#scale').addEventListener('change',e=>{const s=Number(e.target.value);stage.style.width=640*s+'px';stage.style.height=360*s+'px';im.style.setProperty('width',640*s+'px','important');im.style.setProperty('height',360*s+'px','important');hit.style.transform='scale('+s+')';hit.style.transformOrigin='top left';hit.style.width='640px';hit.style.height='360px';});
+document.querySelector('#grayscale').onclick=e=>{const b=e.currentTarget,on=b.getAttribute('aria-pressed')!=='true';b.setAttribute('aria-pressed',String(on));stage.classList.toggle('gray',on)};
+const choices=[...document.querySelectorAll('[data-choice]')],names=['Might','Quick Hands','Vitality'];
+function commit(index){if(performance.now()<armedAt||performance.now()-lastCommit<180)return;lastCommit=performance.now();choice=index;render();status.textContent='样稿试选：'+names[index]+'。未发放收益、未保存。可继续比较。';}
+choices.forEach((b,i)=>{b.addEventListener('focus',()=>{choice=i;if(scene==='level')render()});b.addEventListener('click',()=>commit(i));});
+document.addEventListener('keydown',e=>{if(scene!=='level'||e.repeat||e.target.matches('select,input,textarea')||performance.now()<armedAt)return;if(['ArrowDown','ArrowRight','ArrowUp','ArrowLeft'].includes(e.key)){e.preventDefault();choice=(choice+(e.key==='ArrowDown'||e.key==='ArrowRight'?1:2))%3;render();choices[choice].focus();}else if(/^[123]$/.test(e.key)){e.preventDefault();commit(Number(e.key)-1);}else if(e.key==='Enter'&&(e.target===document.body||hit.contains(e.target))){e.preventDefault();commit(choice);}});
+document.querySelector('#edge').onchange=e=>{const i=document.querySelector('#edge-image');i.src=dir+'edges/'+e.target.value+'.png';i.alt='PROPOSED：'+e.target.selectedOptions[0].text+'边缘脚锚与危险/HUD对照；P01待批准'};
+for(const b of document.querySelectorAll('[data-shrine]'))b.onclick=()=>{document.querySelector('#shrine-image').src=dir+b.dataset.shrine;for(const n of document.querySelectorAll('[data-shrine]'))n.setAttribute('aria-pressed',String(n===b));document.querySelector('#shrine-image').alt='PROPOSED：神殿'+b.textContent+'样稿对照，未接入Godot'};
+im.onerror=()=>{status.textContent='MISSING · 当前本地素材未能加载，请检查解压目录；不要将缺图当作已交付。'};
+render();
+})();
