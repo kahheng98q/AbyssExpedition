@@ -76,6 +76,7 @@ func verify_debug_access() -> void:
 	await process_frame
 	await RenderingServer.frame_post_draw
 	check(panel.launcher.is_visible_in_tree() and not panel.overlay.visible, "debug launcher discoverable before first F9")
+	check(not panel.banner.visible, "startup hint does not obscure guild content")
 	check(root.title.contains("Developer Build"), "window title identifies developer build")
 	await capture("debug-access-menu")
 	app.writer.state = "save-blocked"
@@ -88,10 +89,23 @@ func verify_debug_access() -> void:
 	key(KEY_F9)
 	await process_frame
 	check(not panel.overlay.visible and not paused, "logical F9 closes panel opened by mouse in menu")
+	for route in ["show_guild", "show_selection", "show_roster", "show_recruitment", "show_promotion"]:
+		if route == "show_promotion": app.show_promotion("aren")
+		else: app.call(route)
+		await process_frame
+		await process_frame
+		app.initialize_debug_ui()
+		check(app.debug_panel == panel and app.find_children("DeveloperDebug", "CanvasLayer", true, false).size() == 1, route + " keeps one panel")
+		await click_control(panel.launcher)
+		check(panel.overlay.visible and paused, route + " real mouse DEV opens panel above screen")
+		key(KEY_F9)
+		await process_frame
+		check(not panel.overlay.visible and not paused, route + " real F9 closes panel")
 	app.mount_run(RunStartSnapshot.new(101, &"lia"))
 	app.run.set_physics_process(false)
 	await process_frame
 	await capture("debug-access-combat")
+	check(not panel.banner.get_global_rect().intersects(app.run.get_node("HUD/CombatHUD").hero_label.get_global_rect()), "sandbox banner does not overlap hero HUD")
 	check(Rect2(0, 0, 640, 360).encloses(panel.launcher.get_global_rect()), "debug launcher fits combat viewport")
 	await click_control(panel.launcher)
 	check(panel.overlay.visible and paused and app.run.pause.is_blocked(), "mouse debug launcher opens and pauses combat")
@@ -122,6 +136,20 @@ func verify_debug_access() -> void:
 	await process_frame
 	check(not panel.overlay.visible and app.run.pause.is_blocked() and app.run.manual_token >= 0, "F9 close preserves pre-existing manual pause")
 	app.run.toggle_manual_pause()
+	await click_control(panel.launcher)
+	check(panel.service.execute("restart").ok, "restart action succeeds from open panel")
+	app.run.set_physics_process(false)
+	await process_frame
+	check(app.debug_panel == panel and not panel.overlay.visible and not paused, "restart restores accessible unpaused existing panel")
+	await click_control(panel.launcher)
+	check(panel.overlay.visible and app.run.pause.is_blocked(), "DEV works after restart")
+	key(KEY_F9)
+	app.run.finish("abandonment")
+	await process_frame
+	await process_frame
+	await click_control(panel.launcher)
+	check(app.run == null and panel.overlay.visible, "DEV works over settled results")
+	key(KEY_F9)
 	app.free()
 	await process_frame
 	paused = false

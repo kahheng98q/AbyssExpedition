@@ -46,21 +46,37 @@ if ($M2) { $suites += @('progression','persistence','abilities','integration_m2'
 if ($M3 -or $M4) { $suites += @('recruitment','integration_m3') }
 if ($M4) { $suites += @('integration_m4') }
 if ($OnlySuites.Count -gt 0) { $suites = $OnlySuites }
+# Protected development feature: even focused milestone/polish runs keep this gate.
+if ($suites -notcontains 'debug_panel') { $suites += 'debug_panel' }
 foreach ($suite in $suites) {
     Invoke-Check $suite @('--headless','--fixed-fps','60','--path',$validationRoot,'--log-file',(Join-Path $validationDirectory "$suite-engine.log"),'--script','res://tests/run_tests.gd','--','--suite',$suite)
 }
 Invoke-Check 'reject-unknown-suite' @('--headless','--path',$validationRoot,'--log-file',(Join-Path $validationDirectory 'negative-engine.log'),'--script','res://tests/run_tests.gd','--','--suite','missing_suite') 2
 Invoke-Check 'reject-invalid-seed' @('--headless','--path',$validationRoot,'--log-file',(Join-Path $validationDirectory 'negative-engine.log'),'--script','res://tests/run_tests.gd','--','--seed','2147483648') 2
 if ($Graphical) {
-    if ($M4) { Invoke-Check 'm4-graphical' @('--path',$validationRoot,'--script','res://tests/m4_graphical_check.gd') }
-    Invoke-Check 'graphical' @('--path',$validationRoot,'--log-file',(Join-Path $validationDirectory 'graphical-engine.log'),'--script','res://tests/graphical_check.gd')
-    if ($M2) { Invoke-Check 'm2-graphical' @('--path',$validationRoot,'--log-file',(Join-Path $validationDirectory 'm2-graphical-engine.log'),'--script','res://tests/m2_graphical_check.gd') }
-    if ($M3 -or $M4) { Invoke-Check 'm3-graphical' @('--path',$validationRoot,'--log-file',(Join-Path $validationDirectory 'm3-graphical-engine.log'),'--script','res://tests/m3_graphical_check.gd') }
+    $gameplayCaptures = Join-Path $validationDirectory 'gameplay-captures'
+    New-Item -ItemType Directory -Force $gameplayCaptures | Out-Null
+    $debugCaptures = Join-Path $validationDirectory 'debug-captures'
+    New-Item -ItemType Directory -Force $debugCaptures | Out-Null
+    Invoke-Check 'debug-graphical' @('--path',$validationRoot,'--log-file',(Join-Path $validationDirectory 'debug-graphical-engine.log'),'--script','res://tests/debug_graphical_check.gd','--','--captures',$debugCaptures)
+    if ($M4) {
+        $m4Captures = Join-Path $validationDirectory 'm4-captures'
+        New-Item -ItemType Directory -Force $m4Captures | Out-Null
+        Invoke-Check 'm4-graphical' @('--path',$validationRoot,'--log-file',(Join-Path $validationDirectory 'm4-graphical-engine.log'),'--script','res://tests/m4_graphical_check.gd','--','--captures',$m4Captures)
+    }
+    Invoke-Check 'graphical' @('--path',$validationRoot,'--log-file',(Join-Path $validationDirectory 'graphical-engine.log'),'--script','res://tests/graphical_check.gd','--','--captures',$gameplayCaptures)
+    if ($M2) { Invoke-Check 'm2-graphical' @('--path',$validationRoot,'--log-file',(Join-Path $validationDirectory 'm2-graphical-engine.log'),'--script','res://tests/m2_graphical_check.gd','--','--captures',$gameplayCaptures) }
+    if ($M3 -or $M4) { Invoke-Check 'm3-graphical' @('--path',$validationRoot,'--log-file',(Join-Path $validationDirectory 'm3-graphical-engine.log'),'--script','res://tests/m3_graphical_check.gd','--','--captures',$gameplayCaptures) }
 }
 if ($Export) {
     $exportDirectory = Join-Path $validationRoot $(if ($M4) { 'builds/windows/m4' } elseif ($M3) { 'builds/windows/m3' } else { 'builds/windows/m2' })
     New-Item -ItemType Directory -Force $exportDirectory | Out-Null
     Invoke-Check 'export' @('--headless','--path',$validationRoot,'--export-release','Windows Desktop',(Join-Path $exportDirectory 'AbyssExpedition.exe'))
+    Invoke-Check 'debug-release-denial' @('--headless','--path',$validationRoot,'--script',(Join-Path $validationRoot 'tests/debug_release_probe.gd')) 0 60 (Join-Path $exportDirectory 'AbyssExpedition.console.exe')
+    Invoke-Check 'debug-export' @('--headless','--path',$validationRoot,'--export-debug','Windows Desktop',(Join-Path $exportDirectory 'AbyssExpedition-debug.exe'))
+    if ($Graphical) {
+        Invoke-Check 'debug-exported-graphical' @('--path',$validationRoot,'--script',(Join-Path $validationRoot 'tests/debug_graphical_check.gd'),'--','--captures',$debugCaptures) 0 60 (Join-Path $exportDirectory 'AbyssExpedition-debug.console.exe')
+    }
     if ($Graphical -and $M2) {
         $milestoneId = if ($M4) { 'm4' } elseif ($M3) { 'm3' } else { 'm2' }
         $harness = [IO.File]::ReadAllText((Join-Path $validationRoot "tests/${milestoneId}_graphical_check.gd"))

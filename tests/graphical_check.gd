@@ -9,7 +9,11 @@ func capture(name_value: String) -> void:
 	await process_frame
 	await RenderingServer.frame_post_draw
 	var image = root.get_texture().get_image()
-	var error = image.save_png("res://screenshots/" + name_value + ".png")
+	var capture_path = "res://screenshots/" + name_value + ".png"
+	var args = OS.get_cmdline_user_args()
+	if args.has("--captures"):
+		capture_path = args[args.find("--captures") + 1].path_join(name_value + ".png")
+	var error = image.save_png(capture_path)
 	if error != OK: failures += 1
 
 func run() -> void:

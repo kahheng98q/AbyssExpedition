@@ -29,7 +29,11 @@ func capture(app, name_value: String) -> void:
 		if screen.get("panel") != null:
 			check(screen.panel.size.x <= 640 and screen.panel.size.y <= 360, "M3 panel fits viewport: " + name_value + " " + str(screen.panel.size))
 	await RenderingServer.frame_post_draw
-	check(root.get_texture().get_image().save_png("res://screenshots/m3-" + name_value + ".png") == OK, "capture " + name_value)
+	var capture_path = "res://screenshots/m3-" + name_value + ".png"
+	var args = OS.get_cmdline_user_args()
+	if args.has("--captures"):
+		capture_path = args[args.find("--captures") + 1].path_join("m3-" + name_value + ".png")
+	check(root.get_texture().get_image().save_png(capture_path) == OK, "capture " + name_value)
 
 func press(app, prefix: String) -> void:
 	var screen = app.screen_host.get_child(0)

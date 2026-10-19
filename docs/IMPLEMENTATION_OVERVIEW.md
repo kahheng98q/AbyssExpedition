@@ -6,6 +6,8 @@ Godot 4.5离线单人原型。走位自动战斗、拾取升级，局外成长�
 
 **What's New · 2026-10-18**：重做扫斩、命中/击杀反馈、职业姿态、首领与海岸遗迹；HUD分区显示生命、成长、倒计时和腐化。实机复查修复首版文字遮挡。仍为原创程序像素美术，已有性能用敌人图集，手工角色动画与音效仍待完善。
 
+**DEV保护修复 · 2026-10-18**：[原有面板](developer-debug-panel.md)保留；角落DEV/F9跨界面、暂停、重开可用，启动器改跑当前源码，常规验证强制回归。原生126项、源码及实际Debug图形各118项、实际Release禁用41项通过；物理键鼠烟测待人工验收。[证据](validation/debug-protected-20261018.md)。
+
 | 范围 | 已实现并验证 | 待人工验收 |
 | --- | --- | --- |
 | M1 Combat / Q1 | 三攻击、12升级、命中反馈、新HUD | 打击感、辨识、长局疲劳 |
@@ -17,7 +19,7 @@ Godot 4.5离线单人原型。走位自动战斗、拾取升级，局外成长�
 
 ## 启动与测试
 
-双击新构建 `builds/windows/quality-20261018/AbyssExpedition.exe`，旧M4另存。公会选 Expedition；WASD/方向键移动，自动攻击；1/2/3选升级，Esc暂停，C看腐化。Roster调整转职/同伴；Recruit招募。开发源码F9为隔离沙盒，发布版禁用。
+双击发布版 `builds/windows/quality-20261018/AbyssExpedition.exe`。开发测试双击根目录 `Play Debug.cmd`，用DEV/F9开隔离沙盒；发布版禁用。公会选 Expedition；WASD/方向键移动，自动攻击；1/2/3升级，Esc暂停，C看腐化。Roster调转职/同伴；Recruit招募。
 
 ```powershell
 & './tools/godot-4.5/Godot_v4.5-stable_win64.exe' --path .

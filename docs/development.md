@@ -1,5 +1,11 @@
 # Milestone 1 development
 
+## Developer Debug Panel protection — 2026-10-18
+
+原有面板由App长期持有，未发现被切场景删除。实际入口漂移：Play Debug.cmd仍指向10月15日旧构建，Q1默认EXE为禁用调试的Release。现改为固定引擎运行当前源码；原按钮改为常驻DEV，F9登记InputMap，挂载函数幂等。保留全部28动作、沙盒存档与暂停所有权，不改玩法。
+
+常规验证强制debug_panel，Graphical覆盖点击/键盘/切换/暂停/重开；Export加入debug导出与真实release禁用探针。完整13组5,297原生断言通过；源码及实际新Debug图形各118项、新Release禁用41项通过。首次4551失败保留；重新导出的实际Debug/Release已成功运行。图形复跑发现M4/M1旧PNG覆盖失败，现M1–M4均独立输出证据目录。真人物理键鼠烟测待做。见[本轮证据](validation/debug-protected-20261018.md)与[使用/人工烟测](developer-debug-panel.md)。AGENTS已永久保护本功能。以下保留历史开发记录。
+
 Current implemented scope: M1 combat, M2 progression/promotions/companions, M3 recruitment/gacha, M4 corruption/events/chapter, and developer tools. Human acceptance and reference-hardware targets remain open; M4 stress measurements miss the frame budgets. See [visual dashboard](game-development-dashboard.html), [Chinese overview](IMPLEMENTATION_OVERVIEW.md) and [M4 evidence](validation/m4-gate.md). The notes below are historical deliveries; statements that M3/M4 were absent describe those earlier checkpoints.
 
 2026-10-15 full verification: corrected project.godot features metadata from 4.7 to the planned/pinned 4.5. Both baseline and post-fix `tools/run_validation.ps1 -M4 -Graphical -Export` completed successfully. Post-fix native coverage is 1,654 primary + 69 debug assertions, zero failures/skips. All 142 shipping/test scripts, 29 scenes and 51 Resources load. Source and actual release start headlessly; three-size source/release checks, current M4 prior-flow release regressions, F9 source/export/release restrictions and competing-writer/crash recovery pass. Content digest and starter victory ticks are unchanged. See [full commands, raw logs, new stress captures and unexecuted checks](validation/verification-2026-10-15.md). No gameplay logic/balance or acceptance checkboxes changed; ordinary human/reference-machine/latency gates remain open.

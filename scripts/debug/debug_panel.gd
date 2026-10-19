@@ -39,24 +39,36 @@ func _ready() -> void:
 	overlay.hide()
 
 func build() -> void:
+	var access = Control.new()
+	access.name = "DeveloperAccess"
+	access.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+	access.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	add_child(access)
 	launcher = Button.new()
 	launcher.name = "OpenDebugPanel"
-	launcher.text = "Debug · F9"
-	launcher.position = Vector2(548, 45)
-	launcher.size = Vector2(84, 24)
+	launcher.text = "DEV"
+	access.add_child(launcher)
+	launcher.set_anchors_and_offsets_preset(Control.PRESET_TOP_RIGHT)
+	launcher.offset_left = -52
+	launcher.offset_right = -8
+	launcher.offset_top = 45
+	launcher.offset_bottom = 69
 	launcher.theme = app.screen_host.theme
 	launcher.tooltip_text = "Open developer panel. Press F9, or Fn + F9 on media-key keyboards."
 	launcher.pressed.connect(open_panel)
-	add_child(launcher)
 	banner = Label.new()
-	banner.position = Vector2(405, 75)
-	banner.size = Vector2(227, 20)
+	access.add_child(banner)
+	banner.set_anchors_and_offsets_preset(Control.PRESET_CENTER_BOTTOM)
+	banner.offset_left = -108
+	banner.offset_right = 108
+	banner.offset_top = -23
+	banner.offset_bottom = -3
+	banner.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	banner.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	banner.add_theme_font_size_override("font_size", 10)
 	banner.add_theme_color_override("font_color", Color(1, 0.8, 0.35))
 	banner.mouse_filter = Control.MOUSE_FILTER_IGNORE
-	add_child(banner)
-	banner.text = "DEVELOPER BUILD · F9 or Debug"
+	banner.hide()
 	overlay = Control.new()
 	overlay.name = "DebugOverlay"
 	overlay.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
@@ -226,7 +238,7 @@ func update_branches() -> void:
 
 func _input(event: InputEvent) -> void:
 	if not OS.has_feature("debug") or overlay == null: return
-	if event is InputEventKey and event.pressed and not event.echo and (event.keycode == KEY_F9 or event.physical_keycode == KEY_F9):
+	if event is InputEventKey and event.pressed and not event.echo and (event.is_action_pressed("debug_panel_toggle") or event.keycode == KEY_F9 or event.physical_keycode == KEY_F9):
 		if overlay.visible: close_panel()
 		else: open_panel()
 		get_viewport().set_input_as_handled()
@@ -240,6 +252,8 @@ func open_panel() -> bool:
 	var outcome = service.ensure_session()
 	if not outcome.ok:
 		banner.text = "Debug unavailable: " + outcome.message
+		banner.offset_top = -63
+		banner.show()
 		return false
 	if overlay.visible: return true
 	if first_open:
@@ -323,8 +337,11 @@ func show_feedback(outcome: Dictionary) -> void:
 
 func _process(delta: float) -> void:
 	if not OS.has_feature("debug") or overlay == null: return
-	if service.active: banner.text = "DEBUG SANDBOX · F9 · %.0f FPS" % Engine.get_frames_per_second()
-	elif banner.text.begins_with("DEBUG SANDBOX"): banner.text = "DEVELOPER BUILD · F9 or Debug"
+	if service.active:
+		banner.offset_top = -23
+		banner.text = "DEBUG SANDBOX · F9 · %.0f FPS" % Engine.get_frames_per_second()
+		banner.show()
+	elif banner.text.begins_with("DEBUG SANDBOX"): banner.hide()
 	refresh_elapsed += delta
 	if overlay.visible and refresh_elapsed >= 0.25:
 		refresh_elapsed = 0

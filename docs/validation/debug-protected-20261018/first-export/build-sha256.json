@@ -1,0 +1,22 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "0C7E025893C854AE9498F1807B0C1A3CD82405B9B5C0AFB0006C72437F3F0BCF",
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\builds\\windows\\debug-protected-20261018\\AbyssExpedition-debug.console.exe"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "0B2429708171D2978E1C87CE5985F1E6755BFE13A62EED6AA28617C5820E84DB",
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\builds\\windows\\debug-protected-20261018\\AbyssExpedition-debug.exe"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "4002EEFFB14A7AF3DA16E5B0BE5B7F5DA773F2117D819B33226DBCD1D6562951",
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\builds\\windows\\debug-protected-20261018\\AbyssExpedition.console.exe"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "0AF5A3649CFECA3AE89784BBF2D5B6AC6308B82D0175404169C5A0306F47162D",
+    "Path": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\builds\\windows\\debug-protected-20261018\\AbyssExpedition.exe"
+  }
+]

@@ -28,11 +28,16 @@ func _ready() -> void:
 	else:
 		save_continuation = show_menu
 		show_save_error()
-	if OS.has_feature("debug"):
-		get_window().title = "Abyss Expedition — Developer Build · F9 / Debug"
-		debug_panel = load("res://scenes/debug/debug_panel.tscn").instantiate()
-		debug_panel.app = self
-		add_child(debug_panel)
+	initialize_debug_ui()
+
+func initialize_debug_ui() -> void:
+	# App survives every implemented screen/run transition. Keep the existing
+	# panel outside the replaceable screen, modal and expedition hosts.
+	if not OS.has_feature("debug") or is_instance_valid(debug_panel): return
+	get_window().title = "Abyss Expedition — Developer Build · F9 / DEV"
+	debug_panel = load("res://scenes/debug/debug_panel.tscn").instantiate()
+	debug_panel.app = self
+	add_child(debug_panel)
 
 func configure_theme() -> void:
 	var theme = Theme.new()
@@ -49,6 +54,12 @@ func configure_theme() -> void:
 	modal_host.theme = theme
 
 func configure_input() -> void:
+	if OS.has_feature("debug"):
+		if not InputMap.has_action("debug_panel_toggle"): InputMap.add_action("debug_panel_toggle")
+		var shortcut = InputEventKey.new()
+		shortcut.physical_keycode = KEY_F9
+		if not InputMap.action_has_event("debug_panel_toggle", shortcut):
+			InputMap.action_add_event("debug_panel_toggle", shortcut)
 	for entry in [["move_left", KEY_A, KEY_LEFT], ["move_right", KEY_D, KEY_RIGHT], ["move_up", KEY_W, KEY_UP], ["move_down", KEY_S, KEY_DOWN]]:
 		if not InputMap.has_action(entry[0]): InputMap.add_action(entry[0])
 		for code in entry.slice(1):

@@ -9,6 +9,7 @@ Offline Godot 4.5 survivor-style combat prototype with a guild hub, six collecti
 - [Implementation Overview / 中文实现概览](docs/IMPLEMENTATION_OVERVIEW.md) — playable scope, limits and quick launch.
 - Spec Kit: [Spec](specs/001-abyss-expedition-mvp/spec.md) · [Plan](specs/001-abyss-expedition-mvp/plan.md) · [Tasks](specs/001-abyss-expedition-mvp/tasks.md) · [Constitution](.specify/memory/constitution.md).
 - Evidence: [Convergence fixes / 收敛修复与当前验收](docs/validation/convergence-2026-10-15.md) · [Previous full verification / 此前完整验证](docs/validation/verification-2026-10-15.md) · [M4 gate](docs/validation/m4-gate.md) · [Documentation audit](docs/validation/documentation-dashboard.md).
+- Debug: [DEV / F9 使用与人工烟测](docs/developer-debug-panel.md) · [2026-10-18 保护性修复与回归](docs/validation/debug-protected-20261018.md).
 
 **Current build / 当前构建**：2026-10-18 Q1战斗品质迭代：新扫斩、命中/击杀反馈、角色/首领、海岸遗迹与分区HUD。14组5,249原生断言、源码及新EXE三尺寸受控图形通过；体验和性能验收仍开放。详见 [实机前后与验证](docs/validation/quality-20261018.md)。
 
@@ -67,9 +68,9 @@ Definitions live in `data/`, scenes in `scenes/`, and systems in `scripts/`. The
 
 ## Developer playtesting
 
-Run builds/windows/debug-panel/AbyssExpedition-debug.exe or F5 in Godot, enter combat and press F9. Four tabs provide levels/XP, promotion and temporary branch previews, safe enemy/boss spawning, companions, invincibility/god mode, 1x/2x/4x speed and isolated test saves. Opening pauses combat; closing preserves existing pause reasons. The sandbox banner means normal saves and rewards are isolated. System > Discard session / normal menu restores the normal profile.
+Double-click **Play Debug.cmd** to run current source with pinned Godot 4.5, or F5 in that editor. Click the persistent corner **DEV** button or press **F9** in menus, guild, selection, battle, pause or results. Restart retains the same panel. The normal Q1 release executable intentionally has no developer controls. Four existing tabs preserve levels/XP, promotion and temporary branch previews, safe enemy/boss spawning, companions, invincibility/god mode, 1x/2x/4x speed and isolated test saves. Opening pauses combat; closing preserves existing pause reasons. System > Discard session / normal menu restores the normal profile.
 
-Use tools/run_debug_validation.ps1 to regress M1/M2, test the panel and build/probe debug and release exports. Release F9 and debug actions are disabled. Full controls, limitations, changed files and manual checks: docs/developer-debug-panel.md. Actual test evidence: docs/validation/debug-panel.md.
+`tools/run_validation.ps1` always includes `debug_panel`; `-Graphical` covers DEV/F9/transitions and `-Export` includes actual-release denial plus debug export. Use `tools/run_debug_validation.ps1` for dedicated export probes. Release F9 and all debug actions are disabled. [Controls and manual checks](docs/developer-debug-panel.md) · [current results and failure history](docs/validation/debug-protected-20261018.md).
 
 
 ## Abyss choices

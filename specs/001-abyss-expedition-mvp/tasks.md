@@ -454,3 +454,15 @@ All checklist boxes remain open at generation. Document-format/coverage validati
 [本轮报告和前后截图](../../docs/validation/quality-20261018.md)。本轮没有关闭T180/T181/T182/T183/T190或历史人工/参考机验收；完整性能结果以报告为准。
 
 - [X] T198 基于密集场景实测定位Q1首版性能回退，缓存原创地形与敌人图集（静止诊断总调用2503→723），保留源码/生成资产与失败结果，重跑受影响图形/反馈检查及单seed完整30+120秒压力采样；结果见Q1报告，参考硬件gate保持开放。
+
+## Phase 16: Protected Developer Debug Panel（2026-10-18，用户明确授权修复与永久保护）
+
+范围：复用原有面板，修复最新开发入口与回归缺口；不得新增玩法或删除原有动作。验收：Debug下DEV/F9跨已实现画面、暂停/重开可用，单实例高层渲染；28动作保留接线；Release无入口且全部动作拒绝；常规验证、AGENTS与同任务文档永久覆盖。
+
+- [X] T199 检查场景/脚本、初始化、InputMap、图层、debug限制和暂停/切换。确认源码原面板仍存在；旧启动器与Release默认交付导致入口漂移，F9未登记InputMap、正常验证未含debug。修复前新增回归126项有3失败，保留日志。
+- [X] T200 复用App单实例、常驻DEV与登记F9；启动器改运行当前源码；保持28动作、沙盒与暂停隔离。跨画面/重开/暂停及接线回归126项、源码图形118项通过。
+- [X] T201 将debug加入常规验证及Graphical/Export分支；全13组5,297断言、源码M1–M4图形通过；新Debug/Release导出成功，实际Release全部动作拒绝41项通过。更新AGENTS、Dashboard、概览、README、开发/验证文档与人工烟测。
+- [X] T202 最终重新导出的实际Debug EXE三尺寸图形118项、Release禁用41项通过。首轮Application Control 4551失败保留为历史；未改OS安全设置。
+- [ ] T203 真人完成Play Debug.cmd物理F9/Fn/鼠标、焦点/缩放、跨界面/暂停/重开烟测；注入事件与截图不代替人工验收。
+
+[本轮修复和逐项证据](../../docs/validation/debug-protected-20261018.md)。保留历史人工/性能gate；无未授权里程碑或玩法变更。

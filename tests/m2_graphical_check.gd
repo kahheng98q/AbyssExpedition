@@ -10,7 +10,11 @@ func _initialize() -> void:
 func capture(name_value: String) -> void:
 	await process_frame
 	await RenderingServer.frame_post_draw
-	if root.get_texture().get_image().save_png("res://screenshots/m2-" + name_value + ".png") != OK: failures += 1
+	var capture_path = "res://screenshots/m2-" + name_value + ".png"
+	var args = OS.get_cmdline_user_args()
+	if args.has("--captures"):
+		capture_path = args[args.find("--captures") + 1].path_join("m2-" + name_value + ".png")
+	if root.get_texture().get_image().save_png(capture_path) != OK: failures += 1
 
 func layout(screen, name_value: String) -> void:
 	await process_frame
