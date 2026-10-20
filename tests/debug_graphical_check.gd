@@ -280,6 +280,9 @@ func run() -> void:
 	app.run.state_changed.emit()
 	await capture("debug-promoted-party-combat")
 	app.free()
+	# Let the native mixer retire stopped playbacks before process shutdown.
+	var mixer_cleanup_deadline = Time.get_ticks_msec()+250
+	while Time.get_ticks_msec()<mixer_cleanup_deadline: await process_frame
 	await process_frame
 	paused = false
 	for error in capture_errors.errors: check(false, error)

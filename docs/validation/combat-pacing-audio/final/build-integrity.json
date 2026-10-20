@@ -1,0 +1,10 @@
+{
+  "source_hash": "bb5eee5d1ce6ac3566bdb7e3a60da143184eb26bff57a50109980e0fc152b791",
+  "source_matches_release": true,
+  "source_matches_performance": true,
+  "source_matches_recording": true,
+  "release_sha256_matches": true,
+  "benchmark_fixture_matches": true,
+  "recording_fixture_matches": true,
+  "historical_screenshot_modifications": 0
+}

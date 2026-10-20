@@ -1,0 +1,8 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+
+Profile storage: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/pacing-observer-450342/
+SUITE pacing: 286 assertions; 4 failures; 0 skipped
+FAIL: final snapshot includes pending spawns and boss damage
+FAIL: session can report after terminating reservations: early_exit
+FAIL: session can report after terminating reservations: death
+FAIL: session can report after terminating reservations: watchdog

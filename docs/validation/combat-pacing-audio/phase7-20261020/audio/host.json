@@ -1,0 +1,10 @@
+{
+  "mode": "Audio",
+  "build_hash": "fa5614aab670a76126d66d13894ff2481e00e9a85199d18277f2e0dd5a30dfd3",
+  "fixture_hash": "1af5b040974c0bb476b5dce282f45acfd37b4b63e8762e25b4964db5f1be8776",
+  "audio_fixture_sha256": "77DEE78AE27B7BD9220F3EA889866A2C81E6986C55E09DCBED49A675ED37FBE6",
+  "loopback_fixture_sha256": "9F6F23CE6A112AE9DAA1B7465860587AEBE6C478D10CEF779A4A64F6D57B19D7",
+  "engine": "4.5.stable.official.876b29033",
+  "loopback": "WASAPI shared render endpoint; raw native samples",
+  "listening_acceptance": "not executed"
+}

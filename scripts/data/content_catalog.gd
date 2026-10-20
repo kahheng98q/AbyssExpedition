@@ -23,6 +23,7 @@ var skills: Dictionary = {}
 var weapons: Dictionary = {}
 var enemies: Dictionary = {}
 var upgrades: Dictionary = {}
+var combat_audio: CombatAudioDefinition
 var waves: WaveSchedule
 var field: FieldDefinition
 var boss: BossDefinition
@@ -52,6 +53,8 @@ func load_all() -> bool:
 			if String(resource.id) != id_value: errors.append(path + ": ID mismatch")
 			group[2][StringName(id_value)] = resource
 			resources.append(resource)
+	combat_audio = definition("res://data/audio/combat_audio.tres", CombatAudioDefinition)
+	resources.append(combat_audio)
 	waves = definition("res://data/encounters/coast_waves.tres", WaveSchedule)
 	field = definition("res://data/encounters/coast_field.tres", FieldDefinition)
 	boss = definition("res://data/encounters/tidebound_hierophant.tres", BossDefinition)
@@ -75,6 +78,9 @@ func load_all() -> bool:
 		for phase in waves.phases:
 			for id_value in phase.ids:
 				if not enemies.has(StringName(id_value)): errors.append("coast_waves: unknown enemy " + id_value)
+		for segment in waves.opening_segments:
+			for id_value in segment.slots:
+				if not enemies.has(StringName(id_value)): errors.append("coast_waves opening: unknown enemy " + String(id_value))
 	for enemy in enemies.values():
 		if enemy.behavior_kind == "summoner" and not enemies.has(enemy.summon_definition): errors.append("unknown summon ID")
 	for id in [&"swordsman", &"archer", &"mage"]:

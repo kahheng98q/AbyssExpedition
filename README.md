@@ -8,19 +8,20 @@ Offline Godot 4.5 survivor-style combat prototype with a guild hub, six collecti
 - [Visual Development Dashboard / 离线开发图鉴](docs/game-development-dashboard.html) — screenshots, characters, promotion trees and verified status; open locally in a browser.
 - [Implementation Overview / 中文实现概览](docs/IMPLEMENTATION_OVERVIEW.md) — playable scope, limits and quick launch.
 - Spec Kit: [Spec](specs/001-abyss-expedition-mvp/spec.md) · [Plan](specs/001-abyss-expedition-mvp/plan.md) · [Tasks](specs/001-abyss-expedition-mvp/tasks.md) · [Constitution](.specify/memory/constitution.md).
+- 当前实施： [002 计划](specs/002-combat-pacing-audio/plan.md) · [任务清单](specs/002-combat-pacing-audio/tasks.md) · [验证指南](specs/002-combat-pacing-audio/quickstart.md) · [2026-10-20 Phase 7实施](docs/validation/combat-pacing-audio/phase7-20261020/results.md) — 完整快照/终结计数/性能守卫已修复并通过窄测；完整M4/图形/新Debug及Release通过，人工验收开放。
 - Evidence: [Convergence fixes / 收敛修复与当前验收](docs/validation/convergence-2026-10-15.md) · [Previous full verification / 此前完整验证](docs/validation/verification-2026-10-15.md) · [M4 gate](docs/validation/m4-gate.md) · [Documentation audit](docs/validation/documentation-dashboard.md).
 - Debug: [DEV / F9 使用与人工烟测](docs/developer-debug-panel.md) · [2026-10-18 保护性修复与回归](docs/validation/debug-protected-20261018.md).
 
-**Current build / 当前构建**：2026-10-18 Q1战斗品质迭代：新扫斩、命中/击杀反馈、角色/首领、海岸遗迹与分区HUD。14组5,249原生断言、源码及新EXE三尺寸受控图形通过；体验和性能验收仍开放。详见 [实机前后与验证](docs/validation/quality-20261018.md)。
+**Current source / 当前源码**：2026-10-20 Phase 7修复完整快照、终结计数、性能守卫，并恢复固定4.5元数据。16组9,232断言及源码/实际Debug/Release受控图形通过，Release拒绝开发动作；真实WASAPI新录音8声部、检测削波0。当前构建为`phase7-release-20261020`；自然九局/九对、人工试听/五人理解/盲听、物理DEV及性能完整验收仍开放。[本轮证据](docs/validation/combat-pacing-audio/phase7-20261020/results.md)。
 
 ## Play the Windows demo
 
-1. Double-click `builds/windows/quality-20261018/AbyssExpedition.exe`. Previous M4 is retained in `builds/windows/m4/`. The embedded game data requires no separate PCK or Godot installation. Previous M1/M2/M3 builds are retained separately.
+1. Double-click `builds/windows/combat-pacing-audio/phase7-release-20261020/AbyssExpedition.exe`. The October 19 `acceptance-release-v4` build is retained. Previous Q1 and M4 are retained in `builds/windows/quality-20261018/` and `builds/windows/m4/`. The embedded game data requires no separate PCK or Godot installation. Previous M1/M2/M3 builds are retained separately.
 2. In the guild, choose **Expedition**, then Aren (melee arc), Lia (straight arrows), or Milo (homing stars). All three starting classes are owned permanently without drawing. Recruited heroes become additional next-run selections.
 3. Use the displayed random seed or enter a decimal seed from **0 to 2147483647**, then choose **Start Expedition**. Clearing the field generates a new seed on the first press; press Start again to use it.
 4. Move with **WASD or arrow keys**. Attacks fire automatically toward nearby enemies. Collect the cyan diamond gems.
 5. At level-up, choose one of three upgrades by clicking, pressing **1/2/3**, or using arrows and **Enter**. The world stays frozen until you choose.
-6. **Escape** pauses; Resume continues. Abandon requires a second confirmation. Escape cannot skip an upgrade.
+6. Losing window focus pauses the run; regaining focus releases only its own pause reason. **Escape** pauses; Resume continues. Abandon requires a second confirmation. Escape cannot skip an upgrade.
 7. The Tidebound Hierophant enters at **9:00 active time**. Avoid orange cone/circle warnings. Defeat it to win; there is no automatic victory at 10:00. Death ends the run.
 8. Results save permanent rewards before offering **Retry**, **New Expedition**, or character selection. Run upgrades and health reset; Retry retains earned permanent progress and warns when starting progression or Sera ownership changes replay conditions.
 
@@ -55,8 +56,9 @@ Q1 comparison captures and the separately retained build can be reproduced with 
 ## Validate and rebuild
 
 ```powershell
-& './tools/run_validation.ps1' -M4 -Graphical -Export
-& './tools/run_debug_validation.ps1' -SkipRegression
+$validationId = [DateTime]::UtcNow.ToString('yyyyMMdd-HHmmss-fff')
+& './tools/run_validation.ps1' -M4 -Graphical -Export -BuildDirectory "builds/windows/combat-pacing-audio/$validationId" -EvidenceDirectory "docs/validation/combat-pacing-audio/$validationId"
+& './tools/run_debug_validation.ps1' -SkipRegression -BuildDirectory "builds/windows/combat-pacing-audio/$validationId-debug" -EvidenceDirectory "docs/validation/combat-pacing-audio/$validationId-debug"
 & './tools/run_m4_release_regressions.ps1'
 & './tools/check_m2_lock.ps1'
 & './tools/run_m4_benchmarks.ps1'

@@ -1,32 +1,25 @@
 # Abyss Expedition · 实现概览
 
-[离线开发图鉴](game-development-dashboard.html) · [Q1实机前后与验证](validation/quality-20261018.md) · [M4 gate](validation/m4-gate.md)
+[离线开发图鉴](game-development-dashboard.html) · [002验收矩阵](validation/combat-pacing-audio/acceptance.md) · [历史M4 gate](validation/m4-gate.md)
 
-Godot 4.5离线单人原型。走位自动战斗、拾取升级，局外成长、转职、同伴与招募，再以腐化契约挑战海岸首领。M1–M4已接线；人工体验与性能验收仍开放。
+Godot 4.5 离线单人原型：走位自动战斗、拾取升级，局外成长、六分支转职、同伴与招募，再以腐化契约挑战海岸首领。M1–M4已接线；人工体验和历史参考机目标仍开放。
 
-**What's New · 2026-10-18**：重做扫斩、命中/击杀反馈、职业姿态、首领与海岸遗迹；HUD分区显示生命、成长、倒计时和腐化。实机复查修复首版文字遮挡。仍为原创程序像素美术，已有性能用敌人图集，手工角色动画与音效仍待完善。
+**What's New · 2026-10-20**：Phase 7完成完整快照、终结计数、性能守卫和4.5构建修复。16组9,232断言及源码/新Debug/Release图形通过；新录音8声部/削波0，本机开启p95 15.172ms。自然九局/九对、真人试听/五人测试、物理DEV及完整后台环境仍开放。[实施证据](validation/combat-pacing-audio/phase7-20261020/results.md)。
 
-**DEV保护修复 · 2026-10-18**：[原有面板](developer-debug-panel.md)保留；角落DEV/F9跨界面、暂停、重开可用，启动器改跑当前源码，常规验证强制回归。原生126项、源码及实际Debug图形各118项、实际Release禁用41项通过；物理键鼠烟测待人工验收。[证据](validation/debug-protected-20261018.md)。
-
-| 范围 | 已实现并验证 | 待人工验收 |
+| 范围 | 当前状态 | 待验 |
 | --- | --- | --- |
-| M1 Combat / Q1 | 三攻击、12升级、命中反馈、新HUD | 打击感、辨识、长局疲劳 |
-| M2 Progression | 等级1–30、6分支、双同伴、保存 | 自然操作流程 |
-| M3 Recruitment | 救援、票券招募、代币兑换、历史 | 完整手动会话 |
-| M4 Abyss | 腐化、三事件、契约、章节 | 契约理解、性能 |
-
-**验证**：14组5,249原生断言全过；源码和新EXE三尺寸受控图形通过，开发F9及发布禁用通过。三角色固定输入前后状态相同，存档/数值未改。自动通过不代表已证明好玩；参考机、显示延迟、十人体验和二十次普通胜利仍待完成。Q1最终单seed压力p95为13.768ms，达到该样本预算；三seed/参考机验收仍开放，历史失败保留。
+| M1 / 002 Combat | 近场、编排、音频自动检查通过；部分完成 | 自然九局/九对、听感 |
+| M2 Progression | 等级1–30、六分支、双同伴、存档已验证 | 自然操作 |
+| M3 / M4 | 招募、救援、腐化、事件、章节已验证 | 玩法理解、长局体验 |
+| DEV/F9 | 源码及Debug单例、沙盒/跨屏、Release拒绝已验证 | 物理键鼠全控件 |
 
 ## 启动与测试
 
-双击发布版 `builds/windows/quality-20261018/AbyssExpedition.exe`。开发测试双击根目录 `Play Debug.cmd`，用DEV/F9开隔离沙盒；发布版禁用。公会选 Expedition；WASD/方向键移动，自动攻击；1/2/3升级，Esc暂停，C看腐化。Roster调转职/同伴；Recruit招募。
+当前发布版：`builds/windows/combat-pacing-audio/phase7-release-20261020/AbyssExpedition.exe`；源码双击根目录 `Play Debug.cmd`，DEV/F9进入隔离沙盒。WASD/方向键移动、自动攻击；1/2/3升级，Esc暂停，C查看腐化。失焦暂停，回焦只释放focus。
 
 ```powershell
-& './tools/godot-4.5/Godot_v4.5-stable_win64.exe' --path .
 ./tools/run_validation.ps1 -M4 -DummyAudio
-./tools/validate_quality.ps1
+./tools/validate_pacing_audio.ps1 -Mode Record -EvidenceDirectory docs/validation/combat-pacing-audio/my-natural-v1
 ```
 
-第二条为功能回归；第三条保存Q1截图、检查三尺寸并单独导出。Dummy audio诊断不能替代音频验收。
-
-[Quickstart](../specs/001-abyss-expedition-mvp/quickstart.md) · [开发记录](development.md) · [Spec](../specs/001-abyss-expedition-mvp/spec.md) · [Plan](../specs/001-abyss-expedition-mvp/plan.md) · [Tasks](../specs/001-abyss-expedition-mvp/tasks.md)
+第二条需真人完成三职业×三seed；保持首个合法升级与免费事件，不用DEV。Dummy仅诊断。[完整运行指南](../specs/002-combat-pacing-audio/quickstart.md) · [任务](../specs/002-combat-pacing-audio/tasks.md) · [开发记录](development.md) · [历史Q1](validation/quality-20261018.md)

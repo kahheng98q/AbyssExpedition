@@ -1,0 +1,1243 @@
+{
+	"device": "Default",
+	"driver": "WASAPI",
+	"engine": "4.5-stable (official)",
+	"events": [
+		{
+			"fact": {
+
+			},
+			"kind": "scenario_start",
+			"scenario": "normal-aren",
+			"wall_ms": 996
+		},
+		{
+			"fact": {
+				"cue": "attack_arc",
+				"generation": 1,
+				"slot_index": 1,
+				"tick": 0
+			},
+			"kind": "cue_started",
+			"scenario": "normal-aren",
+			"wall_ms": 1012
+		},
+		{
+			"fact": {
+				"activation_id": 1,
+				"generation": 1,
+				"is_companion": false,
+				"source_id": 0,
+				"tick": 0,
+				"weapon_mode": "arc"
+			},
+			"kind": "attack_committed",
+			"scenario": "normal-aren",
+			"wall_ms": 1012
+		},
+		{
+			"fact": {
+				"cue": "hit",
+				"generation": 1,
+				"slot_index": 2,
+				"tick": 1
+			},
+			"kind": "cue_started",
+			"scenario": "normal-aren",
+			"wall_ms": 1012
+		},
+		{
+			"fact": {
+				"actual_damage": 23.4,
+				"fatal": false,
+				"generation": 1,
+				"request_id": 1,
+				"target_id": 1,
+				"target_role": "enemy",
+				"tick": 1
+			},
+			"kind": "damage_accepted",
+			"scenario": "normal-aren",
+			"wall_ms": 1012
+		},
+		{
+			"fact": {
+				"cue": "hero_hurt",
+				"generation": 1,
+				"slot_index": 1,
+				"tick": 35
+			},
+			"kind": "cue_started",
+			"scenario": "normal-aren",
+			"wall_ms": 1432
+		},
+		{
+			"fact": {
+				"actual_damage": 4.5,
+				"fatal": false,
+				"generation": 1,
+				"request_id": 2,
+				"target_id": 0,
+				"target_role": "hero",
+				"tick": 35
+			},
+			"kind": "damage_accepted",
+			"scenario": "normal-aren",
+			"wall_ms": 1432
+		},
+		{
+			"fact": {
+				"cue": "attack_arc",
+				"generation": 1,
+				"slot_index": 1,
+				"tick": 50
+			},
+			"kind": "cue_started",
+			"scenario": "normal-aren",
+			"wall_ms": 1682
+		},
+		{
+			"fact": {
+				"activation_id": 2,
+				"generation": 1,
+				"is_companion": false,
+				"source_id": 0,
+				"tick": 50,
+				"weapon_mode": "arc"
+			},
+			"kind": "attack_committed",
+			"scenario": "normal-aren",
+			"wall_ms": 1682
+		},
+		{
+			"fact": {
+				"cue": "hit",
+				"generation": 1,
+				"slot_index": 2,
+				"tick": 51
+			},
+			"kind": "cue_started",
+			"scenario": "normal-aren",
+			"wall_ms": 1699
+		},
+		{
+			"fact": {
+				"actual_damage": 23.4,
+				"fatal": false,
+				"generation": 1,
+				"request_id": 3,
+				"target_id": 1,
+				"target_role": "enemy",
+				"tick": 51
+			},
+			"kind": "damage_accepted",
+			"scenario": "normal-aren",
+			"wall_ms": 1699
+		},
+		{
+			"fact": {
+				"cue": "hero_hurt",
+				"generation": 1,
+				"slot_index": 1,
+				"tick": 80
+			},
+			"kind": "cue_started",
+			"scenario": "normal-aren",
+			"wall_ms": 2182
+		},
+		{
+			"fact": {
+				"actual_damage": 4.5,
+				"fatal": false,
+				"generation": 1,
+				"request_id": 4,
+				"target_id": 0,
+				"target_role": "hero",
+				"tick": 80
+			},
+			"kind": "damage_accepted",
+			"scenario": "normal-aren",
+			"wall_ms": 2182
+		},
+		{
+			"fact": {
+				"cue": "attack_arc",
+				"generation": 1,
+				"slot_index": 1,
+				"tick": 100
+			},
+			"kind": "cue_started",
+			"scenario": "normal-aren",
+			"wall_ms": 2516
+		},
+		{
+			"fact": {
+				"activation_id": 3,
+				"generation": 1,
+				"is_companion": false,
+				"source_id": 0,
+				"tick": 100,
+				"weapon_mode": "arc"
+			},
+			"kind": "attack_committed",
+			"scenario": "normal-aren",
+			"wall_ms": 2516
+		},
+		{
+			"fact": {
+				"cue": "kill",
+				"generation": 1,
+				"slot_index": 2,
+				"tick": 101
+			},
+			"kind": "cue_started",
+			"scenario": "normal-aren",
+			"wall_ms": 2532
+		},
+		{
+			"fact": {
+				"actual_damage": 23.2,
+				"fatal": true,
+				"generation": 1,
+				"request_id": 5,
+				"target_id": 1,
+				"target_role": "enemy",
+				"tick": 101
+			},
+			"kind": "damage_accepted",
+			"scenario": "normal-aren",
+			"wall_ms": 2532
+		},
+		{
+			"fact": {
+				"cue": "attack_arc",
+				"generation": 1,
+				"slot_index": 1,
+				"tick": 201
+			},
+			"kind": "cue_started",
+			"scenario": "normal-aren",
+			"wall_ms": 4199
+		},
+		{
+			"fact": {
+				"activation_id": 4,
+				"generation": 1,
+				"is_companion": false,
+				"source_id": 0,
+				"tick": 201,
+				"weapon_mode": "arc"
+			},
+			"kind": "attack_committed",
+			"scenario": "normal-aren",
+			"wall_ms": 4199
+		},
+		{
+			"fact": {
+				"cue": "kill",
+				"generation": 1,
+				"slot_index": 2,
+				"tick": 202
+			},
+			"kind": "cue_started",
+			"scenario": "normal-aren",
+			"wall_ms": 4215
+		},
+		{
+			"fact": {
+				"actual_damage": 35.0,
+				"fatal": true,
+				"generation": 1,
+				"request_id": 6,
+				"target_id": 4,
+				"target_role": "enemy",
+				"tick": 202
+			},
+			"kind": "damage_accepted",
+			"scenario": "normal-aren",
+			"wall_ms": 4215
+		},
+		{
+			"fact": {
+
+			},
+			"kind": "scenario_end",
+			"scenario": "normal-aren",
+			"wall_ms": 4999
+		},
+		{
+			"fact": {
+
+			},
+			"kind": "scenario_start",
+			"scenario": "normal-lia",
+			"wall_ms": 5011
+		},
+		{
+			"fact": {
+				"cue": "attack_straight",
+				"generation": 2,
+				"slot_index": 1,
+				"tick": 0
+			},
+			"kind": "cue_started",
+			"scenario": "normal-lia",
+			"wall_ms": 5033
+		},
+		{
+			"fact": {
+				"activation_id": 1,
+				"generation": 2,
+				"is_companion": false,
+				"source_id": 0,
+				"tick": 0,
+				"weapon_mode": "straight"
+			},
+			"kind": "attack_committed",
+			"scenario": "normal-lia",
+			"wall_ms": 5033
+		},
+		{
+			"fact": {
+				"cue": "hit",
+				"generation": 2,
+				"slot_index": 2,
+				"tick": 5
+			},
+			"kind": "cue_started",
+			"scenario": "normal-lia",
+			"wall_ms": 5099
+		},
+		{
+			"fact": {
+				"actual_damage": 23.4,
+				"fatal": false,
+				"generation": 2,
+				"request_id": 1,
+				"target_id": 1,
+				"target_role": "enemy",
+				"tick": 5
+			},
+			"kind": "damage_accepted",
+			"scenario": "normal-lia",
+			"wall_ms": 5099
+		},
+		{
+			"fact": {
+				"cue": "hero_hurt",
+				"generation": 2,
+				"slot_index": 1,
+				"tick": 35
+			},
+			"kind": "cue_started",
+			"scenario": "normal-lia",
+			"wall_ms": 5599
+		},
+		{
+			"fact": {
+				"actual_damage": 5.0,
+				"fatal": false,
+				"generation": 2,
+				"request_id": 2,
+				"target_id": 0,
+				"target_role": "hero",
+				"tick": 35
+			},
+			"kind": "damage_accepted",
+			"scenario": "normal-lia",
+			"wall_ms": 5599
+		},
+		{
+			"fact": {
+				"cue": "attack_straight",
+				"generation": 2,
+				"slot_index": 1,
+				"tick": 50
+			},
+			"kind": "cue_started",
+			"scenario": "normal-lia",
+			"wall_ms": 5849
+		},
+		{
+			"fact": {
+				"activation_id": 2,
+				"generation": 2,
+				"is_companion": false,
+				"source_id": 0,
+				"tick": 50,
+				"weapon_mode": "straight"
+			},
+			"kind": "attack_committed",
+			"scenario": "normal-lia",
+			"wall_ms": 5849
+		},
+		{
+			"fact": {
+				"cue": "hit",
+				"generation": 2,
+				"slot_index": 2,
+				"tick": 51
+			},
+			"kind": "cue_started",
+			"scenario": "normal-lia",
+			"wall_ms": 5866
+		},
+		{
+			"fact": {
+				"actual_damage": 23.4,
+				"fatal": false,
+				"generation": 2,
+				"request_id": 3,
+				"target_id": 1,
+				"target_role": "enemy",
+				"tick": 51
+			},
+			"kind": "damage_accepted",
+			"scenario": "normal-lia",
+			"wall_ms": 5866
+		},
+		{
+			"fact": {
+				"cue": "hero_hurt",
+				"generation": 2,
+				"slot_index": 1,
+				"tick": 80
+			},
+			"kind": "cue_started",
+			"scenario": "normal-lia",
+			"wall_ms": 6349
+		},
+		{
+			"fact": {
+				"actual_damage": 5.0,
+				"fatal": false,
+				"generation": 2,
+				"request_id": 4,
+				"target_id": 0,
+				"target_role": "hero",
+				"tick": 80
+			},
+			"kind": "damage_accepted",
+			"scenario": "normal-lia",
+			"wall_ms": 6349
+		},
+		{
+			"fact": {
+				"cue": "attack_straight",
+				"generation": 2,
+				"slot_index": 1,
+				"tick": 100
+			},
+			"kind": "cue_started",
+			"scenario": "normal-lia",
+			"wall_ms": 6682
+		},
+		{
+			"fact": {
+				"activation_id": 3,
+				"generation": 2,
+				"is_companion": false,
+				"source_id": 0,
+				"tick": 100,
+				"weapon_mode": "straight"
+			},
+			"kind": "attack_committed",
+			"scenario": "normal-lia",
+			"wall_ms": 6682
+		},
+		{
+			"fact": {
+				"cue": "kill",
+				"generation": 2,
+				"slot_index": 2,
+				"tick": 101
+			},
+			"kind": "cue_started",
+			"scenario": "normal-lia",
+			"wall_ms": 6699
+		},
+		{
+			"fact": {
+				"actual_damage": 23.2,
+				"fatal": true,
+				"generation": 2,
+				"request_id": 5,
+				"target_id": 1,
+				"target_role": "enemy",
+				"tick": 101
+			},
+			"kind": "damage_accepted",
+			"scenario": "normal-lia",
+			"wall_ms": 6699
+		},
+		{
+			"fact": {
+				"cue": "attack_straight",
+				"generation": 2,
+				"slot_index": 1,
+				"tick": 150
+			},
+			"kind": "cue_started",
+			"scenario": "normal-lia",
+			"wall_ms": 7516
+		},
+		{
+			"fact": {
+				"activation_id": 4,
+				"generation": 2,
+				"is_companion": false,
+				"source_id": 0,
+				"tick": 150,
+				"weapon_mode": "straight"
+			},
+			"kind": "attack_committed",
+			"scenario": "normal-lia",
+			"wall_ms": 7516
+		},
+		{
+			"fact": {
+				"cue": "kill",
+				"generation": 2,
+				"slot_index": 1,
+				"tick": 165
+			},
+			"kind": "cue_started",
+			"scenario": "normal-lia",
+			"wall_ms": 7765
+		},
+		{
+			"fact": {
+				"actual_damage": 35.0,
+				"fatal": true,
+				"generation": 2,
+				"request_id": 6,
+				"target_id": 4,
+				"target_role": "enemy",
+				"tick": 165
+			},
+			"kind": "damage_accepted",
+			"scenario": "normal-lia",
+			"wall_ms": 7765
+		},
+		{
+			"fact": {
+				"cue": "attack_straight",
+				"generation": 2,
+				"slot_index": 1,
+				"tick": 200
+			},
+			"kind": "cue_started",
+			"scenario": "normal-lia",
+			"wall_ms": 8349
+		},
+		{
+			"fact": {
+				"activation_id": 5,
+				"generation": 2,
+				"is_companion": false,
+				"source_id": 0,
+				"tick": 200,
+				"weapon_mode": "straight"
+			},
+			"kind": "attack_committed",
+			"scenario": "normal-lia",
+			"wall_ms": 8349
+		},
+		{
+			"fact": {
+				"cue": "kill",
+				"generation": 2,
+				"slot_index": 1,
+				"tick": 209
+			},
+			"kind": "cue_started",
+			"scenario": "normal-lia",
+			"wall_ms": 8499
+		},
+		{
+			"fact": {
+				"actual_damage": 35.0,
+				"fatal": true,
+				"generation": 2,
+				"request_id": 7,
+				"target_id": 3,
+				"target_role": "enemy",
+				"tick": 209
+			},
+			"kind": "damage_accepted",
+			"scenario": "normal-lia",
+			"wall_ms": 8499
+		},
+		{
+			"fact": {
+
+			},
+			"kind": "scenario_end",
+			"scenario": "normal-lia",
+			"wall_ms": 9015
+		},
+		{
+			"fact": {
+
+			},
+			"kind": "scenario_start",
+			"scenario": "normal-milo",
+			"wall_ms": 9028
+		},
+		{
+			"fact": {
+				"cue": "attack_homing",
+				"generation": 3,
+				"slot_index": 1,
+				"tick": 0
+			},
+			"kind": "cue_started",
+			"scenario": "normal-milo",
+			"wall_ms": 9032
+		},
+		{
+			"fact": {
+				"activation_id": 1,
+				"generation": 3,
+				"is_companion": false,
+				"source_id": 0,
+				"tick": 0,
+				"weapon_mode": "homing"
+			},
+			"kind": "attack_committed",
+			"scenario": "normal-milo",
+			"wall_ms": 9032
+		},
+		{
+			"fact": {
+				"cue": "hit",
+				"generation": 3,
+				"slot_index": 2,
+				"tick": 7
+			},
+			"kind": "cue_started",
+			"scenario": "normal-milo",
+			"wall_ms": 9149
+		},
+		{
+			"fact": {
+				"actual_damage": 23.4,
+				"fatal": false,
+				"generation": 3,
+				"request_id": 1,
+				"target_id": 1,
+				"target_role": "enemy",
+				"tick": 7
+			},
+			"kind": "damage_accepted",
+			"scenario": "normal-milo",
+			"wall_ms": 9149
+		},
+		{
+			"fact": {
+				"cue": "hero_hurt",
+				"generation": 3,
+				"slot_index": 1,
+				"tick": 35
+			},
+			"kind": "cue_started",
+			"scenario": "normal-milo",
+			"wall_ms": 9615
+		},
+		{
+			"fact": {
+				"actual_damage": 5.0,
+				"fatal": false,
+				"generation": 3,
+				"request_id": 2,
+				"target_id": 0,
+				"target_role": "hero",
+				"tick": 35
+			},
+			"kind": "damage_accepted",
+			"scenario": "normal-milo",
+			"wall_ms": 9615
+		},
+		{
+			"fact": {
+				"cue": "attack_homing",
+				"generation": 3,
+				"slot_index": 1,
+				"tick": 50
+			},
+			"kind": "cue_started",
+			"scenario": "normal-milo",
+			"wall_ms": 9866
+		},
+		{
+			"fact": {
+				"activation_id": 2,
+				"generation": 3,
+				"is_companion": false,
+				"source_id": 0,
+				"tick": 50,
+				"weapon_mode": "homing"
+			},
+			"kind": "attack_committed",
+			"scenario": "normal-milo",
+			"wall_ms": 9866
+		},
+		{
+			"fact": {
+				"cue": "hit",
+				"generation": 3,
+				"slot_index": 2,
+				"tick": 52
+			},
+			"kind": "cue_started",
+			"scenario": "normal-milo",
+			"wall_ms": 9899
+		},
+		{
+			"fact": {
+				"actual_damage": 23.4,
+				"fatal": false,
+				"generation": 3,
+				"request_id": 3,
+				"target_id": 1,
+				"target_role": "enemy",
+				"tick": 52
+			},
+			"kind": "damage_accepted",
+			"scenario": "normal-milo",
+			"wall_ms": 9899
+		},
+		{
+			"fact": {
+				"cue": "hero_hurt",
+				"generation": 3,
+				"slot_index": 1,
+				"tick": 80
+			},
+			"kind": "cue_started",
+			"scenario": "normal-milo",
+			"wall_ms": 10365
+		},
+		{
+			"fact": {
+				"actual_damage": 5.0,
+				"fatal": false,
+				"generation": 3,
+				"request_id": 4,
+				"target_id": 0,
+				"target_role": "hero",
+				"tick": 80
+			},
+			"kind": "damage_accepted",
+			"scenario": "normal-milo",
+			"wall_ms": 10365
+		},
+		{
+			"fact": {
+				"cue": "attack_homing",
+				"generation": 3,
+				"slot_index": 1,
+				"tick": 100
+			},
+			"kind": "cue_started",
+			"scenario": "normal-milo",
+			"wall_ms": 10699
+		},
+		{
+			"fact": {
+				"activation_id": 3,
+				"generation": 3,
+				"is_companion": false,
+				"source_id": 0,
+				"tick": 100,
+				"weapon_mode": "homing"
+			},
+			"kind": "attack_committed",
+			"scenario": "normal-milo",
+			"wall_ms": 10699
+		},
+		{
+			"fact": {
+				"cue": "kill",
+				"generation": 3,
+				"slot_index": 2,
+				"tick": 101
+			},
+			"kind": "cue_started",
+			"scenario": "normal-milo",
+			"wall_ms": 10715
+		},
+		{
+			"fact": {
+				"actual_damage": 23.2,
+				"fatal": true,
+				"generation": 3,
+				"request_id": 5,
+				"target_id": 1,
+				"target_role": "enemy",
+				"tick": 101
+			},
+			"kind": "damage_accepted",
+			"scenario": "normal-milo",
+			"wall_ms": 10715
+		},
+		{
+			"fact": {
+				"cue": "attack_homing",
+				"generation": 3,
+				"slot_index": 1,
+				"tick": 150
+			},
+			"kind": "cue_started",
+			"scenario": "normal-milo",
+			"wall_ms": 11532
+		},
+		{
+			"fact": {
+				"activation_id": 4,
+				"generation": 3,
+				"is_companion": false,
+				"source_id": 0,
+				"tick": 150,
+				"weapon_mode": "homing"
+			},
+			"kind": "attack_committed",
+			"scenario": "normal-milo",
+			"wall_ms": 11532
+		},
+		{
+			"fact": {
+				"cue": "kill",
+				"generation": 3,
+				"slot_index": 1,
+				"tick": 169
+			},
+			"kind": "cue_started",
+			"scenario": "normal-milo",
+			"wall_ms": 11849
+		},
+		{
+			"fact": {
+				"actual_damage": 35.0,
+				"fatal": true,
+				"generation": 3,
+				"request_id": 6,
+				"target_id": 4,
+				"target_role": "enemy",
+				"tick": 169
+			},
+			"kind": "damage_accepted",
+			"scenario": "normal-milo",
+			"wall_ms": 11849
+		},
+		{
+			"fact": {
+				"cue": "attack_homing",
+				"generation": 3,
+				"slot_index": 1,
+				"tick": 200
+			},
+			"kind": "cue_started",
+			"scenario": "normal-milo",
+			"wall_ms": 12366
+		},
+		{
+			"fact": {
+				"activation_id": 5,
+				"generation": 3,
+				"is_companion": false,
+				"source_id": 0,
+				"tick": 200,
+				"weapon_mode": "homing"
+			},
+			"kind": "attack_committed",
+			"scenario": "normal-milo",
+			"wall_ms": 12366
+		},
+		{
+			"fact": {
+				"cue": "kill",
+				"generation": 3,
+				"slot_index": 1,
+				"tick": 212
+			},
+			"kind": "cue_started",
+			"scenario": "normal-milo",
+			"wall_ms": 12565
+		},
+		{
+			"fact": {
+				"actual_damage": 35.0,
+				"fatal": true,
+				"generation": 3,
+				"request_id": 7,
+				"target_id": 3,
+				"target_role": "enemy",
+				"tick": 212
+			},
+			"kind": "damage_accepted",
+			"scenario": "normal-milo",
+			"wall_ms": 12566
+		},
+		{
+			"fact": {
+
+			},
+			"kind": "scenario_end",
+			"scenario": "normal-milo",
+			"wall_ms": 13032
+		},
+		{
+			"fact": {
+				"cue": "hero_hurt",
+				"generation": 4,
+				"slot_index": 1,
+				"tick": 0
+			},
+			"kind": "cue_started",
+			"scenario": "synthetic-eight-voice-mix",
+			"wall_ms": 13044
+		},
+		{
+			"fact": {
+				"cue": "hero_hurt",
+				"generation": 4,
+				"slot_index": 2,
+				"tick": 0
+			},
+			"kind": "cue_started",
+			"scenario": "synthetic-eight-voice-mix",
+			"wall_ms": 13044
+		},
+		{
+			"fact": {
+				"cue": "hero_hurt",
+				"generation": 4,
+				"slot_index": 3,
+				"tick": 0
+			},
+			"kind": "cue_started",
+			"scenario": "synthetic-eight-voice-mix",
+			"wall_ms": 13044
+		},
+		{
+			"fact": {
+				"cue": "hero_hurt",
+				"generation": 4,
+				"slot_index": 4,
+				"tick": 0
+			},
+			"kind": "cue_started",
+			"scenario": "synthetic-eight-voice-mix",
+			"wall_ms": 13044
+		},
+		{
+			"fact": {
+				"cue": "hero_hurt",
+				"generation": 4,
+				"slot_index": 5,
+				"tick": 0
+			},
+			"kind": "cue_started",
+			"scenario": "synthetic-eight-voice-mix",
+			"wall_ms": 13044
+		},
+		{
+			"fact": {
+				"cue": "hero_hurt",
+				"generation": 4,
+				"slot_index": 6,
+				"tick": 0
+			},
+			"kind": "cue_started",
+			"scenario": "synthetic-eight-voice-mix",
+			"wall_ms": 13044
+		},
+		{
+			"fact": {
+				"cue": "hero_hurt",
+				"generation": 4,
+				"slot_index": 7,
+				"tick": 0
+			},
+			"kind": "cue_started",
+			"scenario": "synthetic-eight-voice-mix",
+			"wall_ms": 13044
+		},
+		{
+			"fact": {
+				"cue": "level",
+				"generation": 4,
+				"slot_index": 0,
+				"tick": 0
+			},
+			"kind": "cue_started",
+			"scenario": "synthetic-eight-voice-mix",
+			"wall_ms": 13044
+		},
+		{
+			"fact": {
+				"voices": 8
+			},
+			"kind": "stress_started",
+			"scenario": "synthetic-eight-voice-mix",
+			"wall_ms": 13044
+		},
+		{
+			"fact": {
+				"cue": "hero_hurt",
+				"generation": 4,
+				"slot_index": 1,
+				"tick": 0
+			},
+			"kind": "cue_started",
+			"scenario": "synthetic-eight-voice-mix",
+			"wall_ms": 13549
+		},
+		{
+			"fact": {
+				"cue": "hero_hurt",
+				"generation": 4,
+				"slot_index": 2,
+				"tick": 0
+			},
+			"kind": "cue_started",
+			"scenario": "synthetic-eight-voice-mix",
+			"wall_ms": 13549
+		},
+		{
+			"fact": {
+				"cue": "hero_hurt",
+				"generation": 4,
+				"slot_index": 3,
+				"tick": 0
+			},
+			"kind": "cue_started",
+			"scenario": "synthetic-eight-voice-mix",
+			"wall_ms": 13549
+		},
+		{
+			"fact": {
+				"cue": "hero_hurt",
+				"generation": 4,
+				"slot_index": 4,
+				"tick": 0
+			},
+			"kind": "cue_started",
+			"scenario": "synthetic-eight-voice-mix",
+			"wall_ms": 13549
+		},
+		{
+			"fact": {
+				"cue": "hero_hurt",
+				"generation": 4,
+				"slot_index": 5,
+				"tick": 0
+			},
+			"kind": "cue_started",
+			"scenario": "synthetic-eight-voice-mix",
+			"wall_ms": 13549
+		},
+		{
+			"fact": {
+				"cue": "hero_hurt",
+				"generation": 4,
+				"slot_index": 6,
+				"tick": 0
+			},
+			"kind": "cue_started",
+			"scenario": "synthetic-eight-voice-mix",
+			"wall_ms": 13549
+		},
+		{
+			"fact": {
+				"cue": "hero_hurt",
+				"generation": 4,
+				"slot_index": 7,
+				"tick": 0
+			},
+			"kind": "cue_started",
+			"scenario": "synthetic-eight-voice-mix",
+			"wall_ms": 13549
+		},
+		{
+			"fact": {
+				"cue": "level",
+				"generation": 4,
+				"slot_index": 0,
+				"tick": 0
+			},
+			"kind": "cue_started",
+			"scenario": "synthetic-eight-voice-mix",
+			"wall_ms": 13549
+		},
+		{
+			"fact": {
+				"voices": 8
+			},
+			"kind": "stress_started",
+			"scenario": "synthetic-eight-voice-mix",
+			"wall_ms": 13549
+		},
+		{
+			"fact": {
+				"cue": "hero_hurt",
+				"generation": 4,
+				"slot_index": 1,
+				"tick": 0
+			},
+			"kind": "cue_started",
+			"scenario": "synthetic-eight-voice-mix",
+			"wall_ms": 14065
+		},
+		{
+			"fact": {
+				"cue": "hero_hurt",
+				"generation": 4,
+				"slot_index": 2,
+				"tick": 0
+			},
+			"kind": "cue_started",
+			"scenario": "synthetic-eight-voice-mix",
+			"wall_ms": 14065
+		},
+		{
+			"fact": {
+				"cue": "hero_hurt",
+				"generation": 4,
+				"slot_index": 3,
+				"tick": 0
+			},
+			"kind": "cue_started",
+			"scenario": "synthetic-eight-voice-mix",
+			"wall_ms": 14065
+		},
+		{
+			"fact": {
+				"cue": "hero_hurt",
+				"generation": 4,
+				"slot_index": 4,
+				"tick": 0
+			},
+			"kind": "cue_started",
+			"scenario": "synthetic-eight-voice-mix",
+			"wall_ms": 14065
+		},
+		{
+			"fact": {
+				"cue": "hero_hurt",
+				"generation": 4,
+				"slot_index": 5,
+				"tick": 0
+			},
+			"kind": "cue_started",
+			"scenario": "synthetic-eight-voice-mix",
+			"wall_ms": 14065
+		},
+		{
+			"fact": {
+				"cue": "hero_hurt",
+				"generation": 4,
+				"slot_index": 6,
+				"tick": 0
+			},
+			"kind": "cue_started",
+			"scenario": "synthetic-eight-voice-mix",
+			"wall_ms": 14065
+		},
+		{
+			"fact": {
+				"cue": "hero_hurt",
+				"generation": 4,
+				"slot_index": 7,
+				"tick": 0
+			},
+			"kind": "cue_started",
+			"scenario": "synthetic-eight-voice-mix",
+			"wall_ms": 14065
+		},
+		{
+			"fact": {
+				"cue": "level",
+				"generation": 4,
+				"slot_index": 0,
+				"tick": 0
+			},
+			"kind": "cue_started",
+			"scenario": "synthetic-eight-voice-mix",
+			"wall_ms": 14066
+		},
+		{
+			"fact": {
+				"voices": 8
+			},
+			"kind": "stress_started",
+			"scenario": "synthetic-eight-voice-mix",
+			"wall_ms": 14066
+		},
+		{
+			"fact": {
+				"cue": "kill",
+				"generation": 4,
+				"slot_index": 1,
+				"tick": 0
+			},
+			"kind": "cue_started",
+			"scenario": "negative-facts-pause-restart",
+			"wall_ms": 14582
+		},
+		{
+			"fact": {
+				"actual_damage": 35.0,
+				"fatal": true,
+				"generation": 4,
+				"request_id": 1,
+				"target_id": 1,
+				"target_role": "enemy",
+				"tick": 0
+			},
+			"kind": "damage_accepted",
+			"scenario": "negative-facts-pause-restart",
+			"wall_ms": 14582
+		},
+		{
+			"fact": {
+				"activation_id": 999,
+				"generation": 4,
+				"is_companion": false,
+				"source_id": 0,
+				"tick": 1,
+				"weapon_mode": "arc"
+			},
+			"kind": "attack_committed",
+			"scenario": "negative-facts-pause-restart",
+			"wall_ms": 14582
+		},
+		{
+			"fact": {
+				"cue": "level",
+				"generation": 4,
+				"slot_index": 0,
+				"tick": 0
+			},
+			"kind": "cue_started",
+			"scenario": "negative-facts-pause-restart",
+			"wall_ms": 15185
+		},
+		{
+			"fact": {
+				"offer": 1
+			},
+			"kind": "upgrade_mounted",
+			"scenario": "negative-facts-pause-restart",
+			"wall_ms": 15199
+		}
+	],
+	"failures": [],
+	"limitation": "controlled scenarios and synthetic worst-case mix; listening/identification still require humans",
+	"peak_voices": 8,
+	"sample_rate": 48000.0,
+	"simulation": "combat-pacing-audio-1",
+	"started_unix": 1792406353.831,
+	"started_utc": "2026-10-19T10:39:13"
+}

@@ -21,6 +21,10 @@ func resolve_tick_hits(run, tick: int) -> void:
 		var value = amount(hit.damage, target.stats.defense, target.resistance * PassiveExecutor.incoming(target, tick))
 		var health_before: float = target.health.current
 		if target.health.receive(value, tick, target.is_hero):
+			var role: StringName = &"companion" if target.is_companion else (&"hero" if target.is_hero else (&"boss" if target.is_boss else &"enemy"))
+			var fact = {"generation":generation,"tick":tick,"request_id":hit.id,"target_id":target.actor_id,"target_role":role,"actual_damage":health_before-target.health.current,"fatal":target.health.dead}
+			fact.make_read_only()
+			run.damage_accepted.emit(fact)
 			run.hit_confirmed.emit(target.position, hit.direction, health_before - target.health.current, target.health.dead, target.is_hero)
 			PassiveExecutor.accepted_hit(target, tick)
 			if not target.resistant:

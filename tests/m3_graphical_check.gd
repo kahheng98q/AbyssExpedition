@@ -65,6 +65,7 @@ func run() -> void:
 		app.show_selection()
 		app.mount_run(RunStartSnapshot.new(101, &"aren"))
 		app.run.set_physics_process(false)
+		app.set_window_focused(true) # Controlled fixture; physical focus tested separately.
 		app.run.clock.tick = 14400
 		app.run.simulation.stage = 3
 		app.run.simulation.advance(app.run, Vector2.ZERO)
@@ -137,6 +138,9 @@ func run() -> void:
 		await capture(app, "selection-six-" + str(dimensions.x))
 		print("GRAPHICAL M3 window=%s actual=%s guild / rescue / settlement / single+ten / cancel+exchange / reopen / history / collection" % [dimensions, DisplayServer.window_get_size()])
 		app.free()
+		# Let the native mixer retire stopped playbacks before process shutdown.
+		var mixer_cleanup_deadline = Time.get_ticks_msec()+250
+		while Time.get_ticks_msec()<mixer_cleanup_deadline: await process_frame
 		await process_frame
 		paused = false
 	for error in error_capture.snapshot(): check(false, "M3 graphical runtime: " + error)

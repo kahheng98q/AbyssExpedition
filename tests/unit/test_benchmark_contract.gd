@@ -28,5 +28,17 @@ func run(t) -> void:
 		xp += gem.value
 		coins += gem.coins
 	t.check(gems == 500 and xp == 5010 and coins == 501, "fixture merging preserves every reward exactly")
+	t.check(probe.has_method("audio_validation_error"), "benchmark validates realaudio comparison contract")
+	if probe.has_method("audio_validation_error"):
+		var good={"enabled":true,"driver":"WASAPI","device":"Default","sample_rate":48000,"same_machine_target":true,"cue_count":20,"peak_voices":8,"debug_build":false,"debugger_active":false,"warmup":30.0,"capture":120.0,"samples":7200,"size":Vector2i(1920,1080),"vsync":DisplayServer.VSYNC_DISABLED}
+		t.check(probe.audio_validation_error(good)=="", "valid real audio stress accepted")
+		for entry in [["driver","Dummy"],["cue_count",0],["peak_voices",9],["debug_build",true],["debugger_active",true],["warmup",1.0],["capture",2.0],["samples",0],["size",Vector2i(1280,720)],["vsync",DisplayServer.VSYNC_ENABLED]]:
+			var bad=good.duplicate()
+			bad[entry[0]]=entry[1]
+			t.check(probe.audio_validation_error(bad)!="", "reject invalid audio benchmark "+str(entry))
+		for entry in [["same_machine_target",false],["device",""],["sample_rate",0]]:
+			var bad=good.duplicate()
+			bad[entry[0]]=entry[1]
+			t.check(probe.audio_validation_error(bad)!="", "reject wrong target/unknown device: "+str(entry))
 	probe.free()
 	Fixture.dispose(f)

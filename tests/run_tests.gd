@@ -11,6 +11,8 @@ class TestWatchdog extends Node:
 			printerr("FAIL: test watchdog expired")
 			get_tree().quit(3)
 const SUITES = {
+	"combat_audio": ["res://tests/unit/test_voice_allocator.gd", "res://tests/integration/test_audio_facts.gd", "res://tests/integration/test_combat_audio.gd", "res://tests/unit/test_audio_content.gd"],
+	"pacing": ["res://tests/integration/test_pacing.gd", "res://tests/unit/test_waves.gd", "res://tests/integration/test_choice_pause.gd", "res://tests/integration/test_replay.gd"],
 	"combat_feedback": ["res://tests/unit/test_combat_feedback.gd"],
 	"integration_m4": ["res://tests/unit/test_corruption.gd", "res://tests/integration/test_corruption_combat.gd", "res://tests/unit/test_events.gd", "res://tests/integration/test_m4_chapter.gd"],
 	"integration_m3": ["res://tests/integration/test_m3_rescue.gd", "res://tests/integration/test_m3_draws.gd"],
@@ -72,6 +74,10 @@ func run() -> void:
 			continue
 		var fixture = script.new()
 		await fixture.run(self)
+	# AudioServer releases stopped native playback on its mixer thread. Allow its
+	# shutdown work to finish even when --fixed-fps accelerates test frames.
+	var mix_deadline = Time.get_ticks_msec() + 250
+	while Time.get_ticks_msec() < mix_deadline: await process_frame
 	for error in error_capture.snapshot(): check(false, "engine/script error: " + error)
 	OS.remove_logger(error_capture)
 	print("SUITE %s: %d assertions; %d failures; 0 skipped" % [suite, assertions, failures])

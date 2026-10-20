@@ -1,0 +1,45 @@
+{
+  "origin": "original mathematical synthesis; no samples/downloads",
+  "private_seed": 20261019,
+  "sample_rate": 44100,
+  "channels": 1,
+  "bits": 16,
+  "source_peak_budget": 0.5,
+  "cues": {
+    "attack_arc": {
+      "seconds": 0.09,
+      "sha256": "036efd04087659a0ed95f88a1a8b52dd7c43ee3855c20353c6ea543994995a49",
+      "peak": 0.47998046875
+    },
+    "attack_straight": {
+      "seconds": 0.1,
+      "sha256": "851f5ec7735ec0f94e888820a0bcdb5452877dd746f9d000e4436fd960a418f0",
+      "peak": 0.47998046875
+    },
+    "attack_homing": {
+      "seconds": 0.12,
+      "sha256": "33cda6b61142d774ebdc2b0d25d9f2da220758053c8bab3be69a3dd6378b8940",
+      "peak": 0.47998046875
+    },
+    "hit": {
+      "seconds": 0.06498866213151927,
+      "sha256": "1d4cf2a1e305a4ee5c916dfef9bd6b10c43a391f85c91e54a00d7adbb9b52833",
+      "peak": 0.47998046875
+    },
+    "kill": {
+      "seconds": 0.13,
+      "sha256": "f05b19f909d1f4e7bdc9eef99718a0113d3e1f50d6982c6f6dd6b53e30379144",
+      "peak": 0.47998046875
+    },
+    "hero_hurt": {
+      "seconds": 0.11498866213151927,
+      "sha256": "bc1eb99d7c6066f41705bb280e1ed2c98bcca7f38944d7e5e1f9755b9c84fab5",
+      "peak": 0.47998046875
+    },
+    "level": {
+      "seconds": 0.15598639455782312,
+      "sha256": "5c68cd35644b011e5e8d58eff87c631a3565ad9f0bc7382aa46f03ff0b87c077",
+      "peak": 0.47998046875
+    }
+  }
+}

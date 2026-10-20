@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="CombatAudioDefinition" load_steps=9 format=3]
+[ext_resource type="Script" path="res://scripts/data/combat_audio_definition.gd" id="1"]
+[ext_resource type="AudioStream" path="res://assets/audio/attack_arc.wav" id="2"]
+[ext_resource type="AudioStream" path="res://assets/audio/attack_straight.wav" id="3"]
+[ext_resource type="AudioStream" path="res://assets/audio/attack_homing.wav" id="4"]
+[ext_resource type="AudioStream" path="res://assets/audio/hit.wav" id="5"]
+[ext_resource type="AudioStream" path="res://assets/audio/kill.wav" id="6"]
+[ext_resource type="AudioStream" path="res://assets/audio/hero_hurt.wav" id="7"]
+[ext_resource type="AudioStream" path="res://assets/audio/level.wav" id="8"]
+[resource]
+script = ExtResource("1")
+cues = {
+"attack_arc": {"stream": ExtResource("2"), "gain_db": -26.0, "priority": 20, "bus": &"CombatSFX"},
+"attack_straight": {"stream": ExtResource("3"), "gain_db": -26.0, "priority": 20, "bus": &"CombatSFX"},
+"attack_homing": {"stream": ExtResource("4"), "gain_db": -26.0, "priority": 20, "bus": &"CombatSFX"},
+"hit": {"stream": ExtResource("5"), "gain_db": -24.0, "priority": 30, "bus": &"CombatSFX"},
+"kill": {"stream": ExtResource("6"), "gain_db": -20.0, "priority": 40, "bus": &"CombatSFX"},
+"hero_hurt": {"stream": ExtResource("7"), "gain_db": -16.0, "priority": 50, "bus": &"CombatSFX"},
+"level": {"stream": ExtResource("8"), "gain_db": -12.0, "priority": 50, "bus": &"ChoiceSFX"}
+}

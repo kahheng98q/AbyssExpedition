@@ -448,3 +448,6 @@ These are acceptance targets, not implemented/tested gameplay claims. Playtests 
 
 用户已授权自主打磨现有核心体验。当前增量的范围、验收和不变条件见 [Q1战斗品质](quality-pass-20261018.md)；原FR/SC和未完成人工验收继续有效。
 
+
+
+> 2026-10-19 增量说明：首波场边默认现由[002 FR002近场位置合同](../002-combat-pacing-audio/spec.md#requirements-mandatory)覆盖，仅首波位置；45tick预警、安全/容量、后段规则与历史证据保留。前120秒全Thrall基础默认现由002 FR004/005固定四槽与额外Thrall规则覆盖；7200tick后五主阶段、腐化、幼体与首领合同保留。新规则已接线，不以此说明当作验收。

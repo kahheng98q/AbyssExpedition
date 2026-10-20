@@ -7,6 +7,10 @@ func capture(t, seed_value: int, cosmetics: bool, owned: bool = false) -> Dictio
 	if owned: payload.owned.sera = OwnedHero.record("sera")
 	var f = Fixture.create_party(t, payload, seed_value)
 	var run = f.run
+	run.combat_audio.set_enabled(cosmetics)
+	if cosmetics:
+		run.combat_audio.definition = run.combat_audio.definition.duplicate(true)
+		run.combat_audio.definition.cues.attack_arc.gain_db -= 2.0
 	for tick in range(0, 32400, 600):
 		run.clock.tick = tick
 		run.corruption.advance(tick)
@@ -33,10 +37,35 @@ func capture(t, seed_value: int, cosmetics: bool, owned: bool = false) -> Dictio
 	return result
 
 func run(t) -> void:
+	var state = RunStartSnapshot.new(101, &"aren")
+	var protocol = ReplayTrace.new(state, "catalog-hash")
+	t.check(protocol.metadata.get("spawn_encoding", "") == "reservation-events-v2", "trace declares stable reservation lifecycle format")
+	t.check(protocol.has_method("compatible"), "trace can reject incompatible inputs before simulation")
+	if protocol.has_method("compatible"):
+		var frozen = protocol.snapshot()
+		t.check(protocol.compatible(frozen), "matching metadata accepted")
+		frozen.start.simulation = "old"
+		t.check(not protocol.compatible(frozen), "simulation mismatch rejected")
+		frozen = protocol.snapshot()
+		frozen.start.catalog = "changed"
+		t.check(not protocol.compatible(frozen), "catalog mismatch rejected")
+		protocol.spawns.append({"reservation_id": 1, "scheduled_tick": 0, "slot_index": 0, "source": "opening", "tick": 0, "result": "planned"})
+		var encoded = JSON.parse_string(JSON.stringify(protocol.snapshot()))
+		t.check(encoded.spawns[0].reservation_id == 1 and encoded.spawns[0].source == "opening", "stable trace fields survive JSON encoding")
+		frozen = protocol.snapshot()
+		frozen["audio_diagnostics"] = {"cue_started": [999]}
+		t.check(protocol.compatible(frozen), "audio diagnostics excluded from gameplay metadata")
 	var recorded = await capture_movement(t)
 	t.check(not recorded.trace.get("inputs", []).is_empty(), "real simulation records tick-indexed movement")
 	var replayed = await capture_movement(t, recorded.trace.get("inputs", []))
-	t.check(recorded.trace == replayed.trace and recorded.position.is_equal_approx(replayed.position), "recorded movement replays real waves, occupancy, level/event choices and pauses")
+	t.check(recorded.trace == replayed.trace and recorded.position.is_equal_approx(replayed.position) and recorded.final == replayed.final, "recorded movement replays real waves, occupancy, level/event choices and pauses")
+	var observer = preload("res://tests/fixtures/pacing_observer.gd")
+	for field in ["spawns", "boss_hits", "rescue", "corruption_last_minute", "pending_rewards", "registry"]:
+		t.check(recorded.final.has(field), "audio replay compares extended state: " + field)
+	var changed = recorded.final.duplicate(true)
+	changed.spawns.boss_pending = not changed.spawns.boss_pending
+	var diff = observer.differences(recorded.final, changed, "final")
+	t.check(diff.size()==1 and diff[0].path=="final/spawns/boss_pending", "replay detects a single pending-state divergence")
 	for owned in [false, true]:
 		for seed_value in SEEDS:
 			var a = capture(t, seed_value, false, owned)
@@ -47,6 +76,10 @@ func run(t) -> void:
 func capture_movement(t, recorded = null) -> Dictionary:
 	var f = Fixture.create(t, &"aren", 101)
 	var run = f.run
+	run.combat_audio.set_enabled(recorded != null)
+	if recorded != null:
+		run.combat_audio.definition = run.combat_audio.definition.duplicate(true)
+		run.combat_audio.definition.cues.attack_arc.stream = run.combat_audio.definition.cues.attack_homing.stream
 	run.hero.health.invulnerable_until = 100000 # identical controlled starting condition
 	var injected = false
 	var pause_checked = false
@@ -77,7 +110,9 @@ func capture_movement(t, recorded = null) -> Dictionary:
 			pause_checked = true
 		run.simulation.advance(run, direction)
 		await t.physics_frame
-	var result = {"trace": run.trace.snapshot(), "position": run.hero.position}
+	var observer = preload("res://tests/fixtures/pacing_observer.gd").new()
+	observer.run = run
+	var result = {"trace": run.trace.snapshot(), "position": run.hero.position, "final": observer.final_state()}
 	Fixture.dispose(f)
 	await t.process_frame
 	return result

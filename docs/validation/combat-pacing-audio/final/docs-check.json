@@ -1,0 +1,31 @@
+{
+  "files_checked": 32,
+  "local_references": 298,
+  "image_tags": 21,
+  "missing_alt": [],
+  "remote_runtime_resources": [],
+  "broken": [],
+  "frozen_stimuli_checked": 100,
+  "human_responses_generated": 0,
+  "human_response_files_found": 0,
+  "overview_chinese_characters_entire_file": 356,
+  "open_tasks": [
+    "T018",
+    "T032",
+    "T052",
+    "T053",
+    "T059",
+    "T060",
+    "T061"
+  ],
+  "checklists_read_only_counts": {
+    "pacing-audio.md": {
+      "total": 38,
+      "unchecked": 38
+    },
+    "requirements.md": {
+      "total": 16,
+      "unchecked": 0
+    }
+  }
+}

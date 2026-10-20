@@ -3,4 +3,6 @@
 [ext_resource type="PackedScene" path="res://scenes/world/coast_field.tscn" id="2"]
 [resource]
 script = ExtResource("1")
-collision_scene = ExtResource("2")
+collision_scene = ExtResource("2")opening_radius_min = 128.0
+opening_radius_max = 160.0
+opening_attempts = 16

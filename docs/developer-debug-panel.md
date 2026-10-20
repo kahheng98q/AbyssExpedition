@@ -123,3 +123,8 @@ Modified:
 - scripts/progression/upgrade_effects.gd — derive stats without replaying heals
 - tests/run_tests.gd and tests/script_manifest.gd — suite/script registration
 - README.md and docs/development.md — playtest/run/architecture notes
+
+
+## 002 暂停与音效补充 · 2026-10-19
+
+失焦单独持有focus暂停；回到窗口只释放自身token。DEV打开时战斗声及升级声随debug token冻结，关闭后仍尊重level/manual/focus等原因。App继续持有唯一面板，原控件/沙盒与Play Debug.cmd启动方式保留。物理键鼠清单仍待人工执行；本切片证据见[验收矩阵](validation/combat-pacing-audio/acceptance.md)。

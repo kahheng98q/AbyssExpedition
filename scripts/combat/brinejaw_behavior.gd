@@ -5,6 +5,7 @@ static func decide(actor, run, tick: int) -> Vector2:
 	if actor.ai_state == "warning":
 		if tick >= actor.deadline:
 			actor.ai_state = "rush"
+			run.rush_started.emit(tick, actor.actor_id)
 			actor.deadline = tick + 30
 		return Vector2.ZERO
 	if actor.ai_state == "rush":

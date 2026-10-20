@@ -74,3 +74,6 @@ M3 draws use independent saved RNG seed/state and monotonically increasing draw 
 - Minute tick → corruption update → queue event if due → once choices complete snapshot wave modifiers → warned spawn. An event cost checks health/coins/headroom atomically before any effect.
 
 All signal subscriptions are owned by the composition root or corresponding instance and cleaned up at run exit. Late signals with another run generation are discarded; callbacks do not keep freed nodes alive.
+
+
+> 2026-10-19 增量说明：首波场边默认现由[002 FR002近场位置合同](../../002-combat-pacing-audio/contracts/pacing.md)覆盖，仅首波位置；45tick预警、安全/容量、后段规则与历史证据保留。前120秒全Thrall基础默认现由002 FR004/005固定四槽与额外Thrall规则覆盖；7200tick后五主阶段、腐化、幼体与首领合同保留。新规则已接线，不以此说明当作验收。

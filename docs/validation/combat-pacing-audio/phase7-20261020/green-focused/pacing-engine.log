@@ -1,0 +1,6 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+
+Profile storage: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/pacing-observer-480151/
+FAIL: snapshot detects spawn state change: opening_origin
+FAIL: complete snapshot is portable JSON without Node IDs
+SUITE pacing: 326 assertions; 2 failures; 0 skipped

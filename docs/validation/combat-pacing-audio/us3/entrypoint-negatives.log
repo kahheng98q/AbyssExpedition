@@ -1,0 +1,5 @@
+unknown-parameter: REJECT: A parameter cannot be found that matches parameter name 'Unknown'.
+replay-missing-input: REJECT: Replay requires -InputDirectory.
+reuse-directory: REJECT: Evidence directory already exists; preserve it and choose a new run-id.
+benchmark-missing-release: REJECT: Benchmark requires the absolute current Release console executable path.
+record-invalid-release-flag: REJECT: -ReleaseExecutable is only valid for Benchmark.

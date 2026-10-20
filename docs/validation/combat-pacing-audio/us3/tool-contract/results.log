@@ -1,0 +1,3 @@
+hash-mismatch REJECT: Frozen manifest version/hash/sample count mismatch; record a complete new group.
+missing-sample REJECT: Could not find file 'C:\Users\kahhe\Desktop\Project\new-game-project\docs\validation\combat-pacing-audio\us3\tool-contract\missing-sample\aren-101.json'.
+missing-group REJECT: Frozen manifest version/hash/sample count mismatch; record a complete new group.

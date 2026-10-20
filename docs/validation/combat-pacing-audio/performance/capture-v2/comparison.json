@@ -1,0 +1,6 @@
+{
+  "capture_valid": true,
+  "same_final_workload": true,
+  "enabled_budget_pass": true,
+  "human_or_reference_acceptance": false
+}

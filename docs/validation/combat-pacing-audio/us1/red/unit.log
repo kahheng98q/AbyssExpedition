@@ -1,0 +1,10 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+
+INVULNERABILITY QUEUE PROBE: attempts=10000 retained_ids=0 elapsed_us=6679
+SUITE unit: 208 assertions; 6 failures; 0 skipped
+FAIL: opening field contract exists
+FAIL: opening origin initialized by RunManager before tick0
+FAIL: opening radius within 128–160
+FAIL: opening radius within 128–160
+FAIL: opening radius within 128–160
+FAIL: opening radius within 128–160

@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-20",
+  "source": "benchmark-enabled-environment.json",
+  "focus": "per-frame Window.has_focus; see enabled/m4-101.json",
+  "power": "approximately 10s scheme observations plus before/after",
+  "background_processes_visible": [
+    "AbyssExpedition",
+    "conhost"
+  ],
+  "full_host_background_load_verified": false,
+  "reason": "Get-Process in the execution scope only exposed benchmark engine/console helper processes; a separate probe exposed only its own PowerShell. These observations do not establish all host background CPU/GPU load. Original raw data is retained.",
+  "T073": "partial; leave unchecked even if local frame-time and comparator sample gates pass",
+  "sources": [
+    "performance/benchmark-enabled-environment.json",
+    "performance/benchmark-disabled-environment.json"
+  ],
+  "tool_comparison_scope": "comparison.json sc007_sample_pass and environment_observed refer to the validated local sample and available sampler; not full host or human/reference acceptance."
+}

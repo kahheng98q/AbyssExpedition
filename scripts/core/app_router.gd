@@ -11,10 +11,14 @@ var writer: SaveCoordinator = SaveCoordinator.new()
 var save_continuation: Callable
 var settled_generations: Dictionary = {}
 var debug_panel
+var focus_token: int = -1
+var window_focused: bool = true
 
 func _ready() -> void:
 	process_mode = Node.PROCESS_MODE_ALWAYS
 	get_tree().auto_accept_quit = false
+	# Headless has no physical window; graphical sessions use actual initial focus.
+	window_focused = DisplayServer.get_name() == "headless" or get_window().has_focus()
 	configure_input()
 	configure_theme()
 	if not catalog.load_all():
@@ -77,15 +81,19 @@ func clear_host(host: Node) -> void:
 		child.queue_free()
 
 func leave_run() -> void:
+	# Disconnect audio before debug cleanup can release a token and drain its FIFO.
+	if is_instance_valid(run) and is_instance_valid(run.combat_audio): run.combat_audio.shutdown()
 	if is_instance_valid(debug_panel): debug_panel.on_run_exit()
 	get_tree().paused = false
 	clear_host(modal_host)
 	if is_instance_valid(run):
+		run.spawns.terminate(run)
 		run.phase = "disposed"
 		run.pause.cancel_all()
 		expedition_host.remove_child(run)
 		run.queue_free()
 	run = null
+	focus_token = -1
 
 func show_menu() -> void:
 	show_guild()
@@ -212,6 +220,7 @@ func mount_saved_run(seed_value: int) -> void:
 	run.event_presented.connect(func(): call_deferred("show_event", mounted_generation))
 	run.run_finished.connect(func(summary): call_deferred("show_results", summary, mounted_generation))
 	run.start(catalog, snapshot, generation)
+	set_window_focused(window_focused)
 
 func _process(_delta: float) -> void:
 	if is_instance_valid(run): get_tree().paused = run.phase != "active" or run.pause.is_blocked()
@@ -219,6 +228,7 @@ func _process(_delta: float) -> void:
 func show_choice(identity: int, options: Array, expected_generation: int = -1) -> void:
 	if expected_generation >= 0 and expected_generation != generation: return
 	if not is_instance_valid(run) or run.phase != "active": return
+	if identity != run.choices.offer_id or options != run.choices.offer or options.is_empty(): return
 	clear_host(modal_host)
 	var screen = catalog.scene("level_up").instantiate()
 	screen.run = run
@@ -226,6 +236,7 @@ func show_choice(identity: int, options: Array, expected_generation: int = -1) -
 	screen.options = options
 	screen.confirmed.connect(func(offer_id, upgrade_id): run.choices.confirm(run, offer_id, upgrade_id))
 	modal_host.add_child(screen)
+	run.combat_audio.present_level(run.generation, identity)
 	if is_instance_valid(debug_panel): debug_panel.capture_focus()
 
 func show_event(expected_generation: int = -1) -> void:
@@ -367,5 +378,18 @@ func _exit_tree() -> void:
 	if is_instance_valid(debug_panel): debug_panel.shutdown()
 	writer.close()
 
+func set_window_focused(focused: bool) -> void:
+	window_focused = focused
+	if not is_instance_valid(run) or run.phase != "active":
+		focus_token = -1
+		return
+	if not focused and focus_token < 0:
+		focus_token = run.pause.acquire("focus", "app-focus")
+	elif focused and focus_token >= 0:
+		run.pause.release(focus_token, "app-focus")
+		focus_token = -1
+
 func _notification(what: int) -> void:
+	if what == NOTIFICATION_APPLICATION_FOCUS_OUT: set_window_focused(false)
+	elif what == NOTIFICATION_APPLICATION_FOCUS_IN: set_window_focused(true)
 	if what == NOTIFICATION_WM_CLOSE_REQUEST: quit_game()

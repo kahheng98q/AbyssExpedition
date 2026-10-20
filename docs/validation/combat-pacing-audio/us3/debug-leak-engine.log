@@ -1,0 +1,151 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+TextServer: Added interface "Dummy"
+TextServer: Added interface "ICU / HarfBuzz / Graphite (Built-in)"
+Unrecognized output string "misc2" in mapping:
+030000000d0f00000202000000000000,Horipad O Nintendo Switch 2 Controller,a:b1,b:b0,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,misc1:b13,misc2:b14,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b2,platform:Windows,
+Unrecognized output string "misc2" in mapping:
+030000000d0f00009601000000000000,Horipad Steam,a:b0,b:b1,back:b10,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,misc2:b2,paddle1:b5,paddle2:b15,paddle3:b18,paddle4:b19,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:a4,start:b11,x:b3,y:b4,platform:Windows,
+Unrecognized output string "misc2" in mapping:
+030000007e0500006920000000000000,Nintendo Switch 2 Pro Controller,a:b0,b:b1,back:b14,dpdown:b8,dpleft:b10,dpright:b9,dpup:b11,guide:b16,leftshoulder:b12,leftstick:b15,lefttrigger:b13,leftx:a0,lefty:a1~,misc1:b17,misc2:b20,paddle1:b18,paddle2:b19,rightshoulder:b4,rightstick:b7,righttrigger:b5,rightx:a2,righty:a3~,start:b6,x:b2,y:b3,platform:Windows,
+Using "default" pen tablet driver...
+
+TextServer: Primary interface set to: "ICU / HarfBuzz / Graphite (Built-in)".
+Loading resource: res://default_bus_layout.tres
+CORE API HASH: 2213950498
+EDITOR API HASH: 3825216437
+Loading resource: res://tests/run_tests.gd
+SceneTreeFTI: traversal method DEFAULT
+Loaded system CA certificates
+Loading resource: res://tests/integration/test_debug_panel.gd
+Loading resource: res://scenes/app/app.tscn
+Loading resource: res://scripts/core/app_router.gd
+Loading resource: res://data/characters/aren.tres
+Loading resource: res://data/professions/swordsman.tres
+Loading resource: res://data/weapons/arc.tres
+Loading resource: res://scenes/combat/projectile.tscn
+Loading resource: res://scripts/combat/projectile.gd
+Loading resource: res://data/skills/resolute.tres
+Loading resource: res://data/characters/lia.tres
+Loading resource: res://data/professions/archer.tres
+Loading resource: res://data/weapons/straight.tres
+Loading resource: res://data/skills/fleet_step.tres
+Loading resource: res://data/characters/milo.tres
+Loading resource: res://data/professions/mage.tres
+Loading resource: res://data/weapons/homing.tres
+Loading resource: res://data/skills/arcane_pulse.tres
+Loading resource: res://data/characters/sera.tres
+Loading resource: res://data/skills/guiding_light.tres
+Loading resource: res://data/characters/brann.tres
+Loading resource: res://data/skills/bastion.tres
+Loading resource: res://data/characters/nyra.tres
+Loading resource: res://data/skills/far_sight.tres
+Loading resource: res://data/professions/swordmaster.tres
+Loading resource: res://data/professions/abyss_swordsman.tres
+Loading resource: res://data/professions/sharpshooter.tres
+Loading resource: res://data/professions/star_hunter.tres
+Loading resource: res://data/professions/elemental_sage.tres
+Loading resource: res://data/professions/void_caster.tres
+Loading resource: res://data/enemies/saltbound_thrall.tres
+Loading resource: res://data/enemies/skittering_brinejaw.tres
+Loading resource: res://data/enemies/lantern_cantor.tres
+Loading resource: res://data/enemies/shellbound_husk.tres
+Loading resource: res://data/enemies/reef_broodmother.tres
+Loading resource: res://data/enemies/broodling.tres
+Loading resource: res://data/upgrades/might.tres
+Loading resource: res://data/upgrades/quick_hands.tres
+Loading resource: res://data/upgrades/reach.tres
+Loading resource: res://data/upgrades/echo_strike.tres
+Loading resource: res://data/upgrades/ironhide.tres
+Loading resource: res://data/upgrades/vitality.tres
+Loading resource: res://data/upgrades/swift_boots.tres
+Loading resource: res://data/upgrades/magnet.tres
+Loading resource: res://data/upgrades/force.tres
+Loading resource: res://data/upgrades/ember_touch.tres
+Loading resource: res://data/upgrades/frost_mark.tres
+Loading resource: res://data/upgrades/battle_mend.tres
+Loading resource: res://data/audio/combat_audio.tres
+Loading resource: res://assets/audio/attack_arc.wav
+Loading resource: res://.godot/imported/attack_arc.wav-c69a02adcc8409739faf15340090f6eb.sample
+Loading resource: res://assets/audio/attack_straight.wav
+Loading resource: res://.godot/imported/attack_straight.wav-b49fad6ed8574b784c6f878ff6a1cb06.sample
+Loading resource: res://assets/audio/attack_homing.wav
+Loading resource: res://.godot/imported/attack_homing.wav-fefb75ed45c7e084b5b83bf154801151.sample
+Loading resource: res://assets/audio/hit.wav
+Loading resource: res://.godot/imported/hit.wav-96dc477cdf4a42f381370dba6e3f75ce.sample
+Loading resource: res://assets/audio/kill.wav
+Loading resource: res://.godot/imported/kill.wav-7069c9e8c1a3e278ded04275cbe384ec.sample
+Loading resource: res://assets/audio/hero_hurt.wav
+Loading resource: res://.godot/imported/hero_hurt.wav-c4cd84c7ffc118c9cd81d3a3a5515dd9.sample
+Loading resource: res://assets/audio/level.wav
+Loading resource: res://.godot/imported/level.wav-5ce5e39cbd899481c66220f27724e372.sample
+Loading resource: res://data/encounters/coast_waves.tres
+Loading resource: res://data/encounters/coast_field.tres
+Loading resource: res://scenes/world/coast_field.tscn
+Loading resource: res://scripts/world/coast_field.gd
+Loading resource: res://assets/world/coast-0.png
+Loading resource: res://.godot/imported/coast-0.png-74b8b9aa8278476299149a0fe9c1bfdf.ctex
+Loading resource: res://assets/world/coast-100.png
+Loading resource: res://.godot/imported/coast-100.png-3d6375829d8bcee1830a162d57dc3b3f.ctex
+Loading resource: res://data/encounters/tidebound_hierophant.tres
+Loading resource: res://data/gacha/guild_pool.tres
+Loading resource: res://data/events/sera_rescue.tres
+Loading resource: res://data/encounters/coast_corruption.tres
+Loading resource: res://data/events/mysterious_merchant.tres
+Loading resource: res://data/events/forbidden_altar.tres
+Loading resource: res://data/events/lost_adventurer.tres
+Loading resource: res://scenes/ui/event_choice.tscn
+Loading resource: res://scripts/ui/event_choice.gd
+Loading resource: res://scenes/ui/corruption_summary.tscn
+Loading resource: res://scripts/ui/corruption_summary.gd
+Loading resource: res://scenes/ui/guild.tscn
+Loading resource: res://scripts/ui/guild.gd
+Loading resource: res://scenes/ui/recruitment.tscn
+Loading resource: res://scripts/ui/recruitment.gd
+Loading resource: res://scenes/ui/rescue_prompt.tscn
+Loading resource: res://scripts/ui/rescue_prompt.gd
+Loading resource: res://scenes/events/rescue_zone.tscn
+Loading resource: res://scripts/collection/rescue_zone.gd
+Loading resource: res://scenes/app/app.tscn
+Loading resource: res://scenes/world/expedition.tscn
+Loading resource: res://scripts/core/run_manager.gd
+Loading resource: res://scenes/ui/combat_hud.tscn
+Loading resource: res://scripts/ui/combat_hud.gd
+Loading resource: res://scenes/actors/hero.tscn
+Loading resource: res://scripts/combat/actor.gd
+Loading resource: res://scripts/combat/actor_presentation.gd
+Loading resource: res://assets/actors/enemy-atlas.png
+Loading resource: res://.godot/imported/enemy-atlas.png-64c3eac443ae3b34b0437bd04dab2465.ctex
+Loading resource: res://scenes/actors/enemy.tscn
+Loading resource: res://scenes/actors/boss.tscn
+Loading resource: res://scenes/combat/melee_arc.tscn
+Loading resource: res://scripts/combat/melee_arc.gd
+Loading resource: res://scenes/combat/telegraph.tscn
+Loading resource: res://scripts/combat/telegraph.gd
+Loading resource: res://scenes/pickups/xp_gem.tscn
+Loading resource: res://scripts/progression/xp_pickup.gd
+Loading resource: res://scenes/ui/main_menu.tscn
+Loading resource: res://scripts/ui/main_menu.gd
+Loading resource: res://scenes/ui/character_selection.tscn
+Loading resource: res://scripts/ui/character_selection.gd
+Loading resource: res://scenes/ui/level_up.tscn
+Loading resource: res://scripts/ui/level_up.gd
+Loading resource: res://scenes/ui/pause_menu.tscn
+Loading resource: res://scripts/ui/pause_menu.gd
+Loading resource: res://scenes/ui/run_results.tscn
+Loading resource: res://scripts/ui/run_results.gd
+Loading resource: res://scenes/ui/save_error.tscn
+Loading resource: res://scripts/ui/save_error.gd
+Loading resource: res://scenes/combat/damage_zone.tscn
+Loading resource: res://scripts/combat/damage_zone.gd
+Loading resource: res://scenes/combat/pull_zone.tscn
+Loading resource: res://scenes/ui/roster.tscn
+Loading resource: res://scripts/ui/roster.gd
+Loading resource: res://scenes/ui/promotion.tscn
+Loading resource: res://scripts/ui/promotion.gd
+Profile storage: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/debug-normal-502783/
+Loading resource: res://scenes/debug/debug_panel.tscn
+Loading resource: res://scripts/debug/debug_panel.gd
+SUITE debug_panel: 126 assertions; 0 failures; 0 skipped
+XR: Clearing primary interface
+XR: Removed interface "Native mobile"
+XR: Removed interface "OpenXR"

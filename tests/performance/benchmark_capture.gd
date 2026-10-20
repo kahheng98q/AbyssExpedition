@@ -10,6 +10,11 @@ var prior: int = 0
 var milestone: String = "m2"
 var output: String = ""
 var smoke: bool = false
+var pacing_audio_mode: String = ""
+var pacing_diagnostic: bool = false
+var unfocused_samples: int = 0
+var capture_audio_start: int = 0
+var voice_peak: int = 0
 var vsync_on: bool = false
 var started: int = 0
 var capture_start: int = -1
@@ -23,16 +28,21 @@ var workload_ok: bool = true
 var minimums: Dictionary = {}
 var maximums: Dictionary = {}
 var last_report_tick: int = 0
-var raw: Array[String] = ["seed,sample,tick,frame_ms,enemies,boss,effects,projectiles,gems,stored_xp,stored_coins,process_ms,physics_ms,draw_calls,nodes,memory_bytes"]
+var raw: Array[String] = ["seed,sample,tick,frame_ms,enemies,boss,effects,projectiles,gems,stored_xp,stored_coins,process_ms,physics_ms,draw_calls,nodes,memory_bytes,audio_cues,audio_voices"]
 
 func _ready() -> void:
 	var args = OS.get_cmdline_user_args()
 	var i = 0
 	while i < args.size():
 		match args[i]:
+			"--diagnostic": pacing_diagnostic = true
 			"--m4": milestone = "m4"
 			"--smoke": smoke = true
 			"--vsync-on": vsync_on = true
+			"--pacing-audio":
+				if i+1>=args.size() or args[i+1] not in ["enabled","disabled"]: get_tree().quit(2); return
+				i+=1
+				pacing_audio_mode=args[i]
 			"--seed", "--output":
 				if i + 1 >= args.size(): get_tree().quit(2); return
 				i += 1
@@ -41,6 +51,12 @@ func _ready() -> void:
 				else: get_tree().quit(2); return
 			_: get_tree().quit(2); return
 		i += 1
+	if pacing_audio_mode != "":
+		if smoke or seed_value!=101 or milestone!="m4" or OS.has_feature("debug") or EngineDebugger.is_active() or AudioServer.get_driver_name()=="Dummy":
+			printerr("FAIL: pacing audio benchmark requires seed101/full M4/real audio/current Release without debugger")
+			get_tree().quit(2); return
+	elif pacing_diagnostic:
+		get_tree().quit(2); return
 	if smoke:
 		warmup = 1.0
 		capture = 2.0
@@ -58,6 +74,7 @@ func _ready() -> void:
 	profile.active = "milo"
 	profile.companions = ["aren", "lia"]
 	run.start(catalog, RosterService.snapshot(profile, seed_value))
+	if pacing_audio_mode!="": run.combat_audio.set_enabled(pacing_audio_mode=="enabled")
 	if milestone == "m4": run.corruption.add(100)
 	run.hero.stats.pickup_radius = 0
 	for member in run.party: member.health.invulnerable_until = 2147483647
@@ -73,7 +90,7 @@ func active_count(host: Node) -> int:
 	return count
 
 func workload() -> Dictionary:
-	var counts = {"enemies": 0, "boss": 0, "effects": active_count(run.effects), "projectiles": 0, "gems": 0, "stored_xp": 0, "stored_coins": 0}
+	var counts = {"enemies": 0, "boss": 0, "effects": active_count(run.effects), "projectiles": 0, "gems": 0, "stored_xp": 0, "stored_coins": 0, "audio_cues":run.combat_audio.allocator.accepted, "audio_voices":run.combat_audio.allocator.active_count()}
 	for actor in run.enemies:
 		if actor.health.dead: continue
 		if actor.is_boss: counts.boss += 1
@@ -159,11 +176,15 @@ func _process(_delta: float) -> void:
 		capture_start = run.clock.tick
 		finish_tick = capture_start + roundi(capture * 60)
 		capture_wall = now
+		capture_audio_start=run.combat_audio.allocator.accepted
+		voice_peak=0
 		last_report_tick = capture_start
 		print("BENCH WARMUP COMPLETE seed=%d active=%.2fs" % [seed_value, capture_start / 60.0])
 		return
 	times.append(frame_ms)
+	if not get_window().has_focus(): unfocused_samples += 1
 	var c = observed
+	voice_peak=maxi(voice_peak,c.audio_voices)
 	if run.clock.tick - last_report_tick >= 1800:
 		last_report_tick = run.clock.tick
 		print("BENCH PROGRESS seed=%d captured_active=%.1f/%.1fs" % [seed_value, (run.clock.tick - capture_start) / 60.0, capture])
@@ -174,6 +195,7 @@ func _process(_delta: float) -> void:
 	var expected_xp = fixture_xp + run.kills * roundi(10 * run.corruption.modifiers().xp)
 	workload_ok = workload_ok and c.stored_xp == expected_xp and c.stored_coins == fixture_coins + run.kills and run.coins == 0
 	raw.append("%d,%d,%d,%.4f,%d,%d,%d,%d,%d,%d,%d,%.4f,%.4f,%d,%d,%d" % [seed_value, times.size(), run.clock.tick, frame_ms, c.enemies, c.boss, c.effects, c.projectiles, c.gems, c.stored_xp, c.stored_coins, Performance.get_monitor(Performance.TIME_PROCESS) * 1000, Performance.get_monitor(Performance.TIME_PHYSICS_PROCESS) * 1000, Performance.get_monitor(Performance.RENDER_TOTAL_DRAW_CALLS_IN_FRAME), Performance.get_monitor(Performance.OBJECT_NODE_COUNT), Performance.get_monitor(Performance.MEMORY_STATIC)])
+	raw[-1] += ",%d,%d" % [c.audio_cues,c.audio_voices]
 	if run.clock.tick >= finish_tick: finish(now)
 
 func finish(now: int) -> void:
@@ -181,9 +203,26 @@ func finish(now: int) -> void:
 	var p95 = times[mini(times.size() - 1, floori(times.size() * 0.95))]
 	var p99 = times[mini(times.size() - 1, floori(times.size() * 0.99))]
 	var summary = {"seed": seed_value, "milestone": milestone, "smoke": smoke, "capture_valid": workload_ok, "frame_budget_pass": p95 <= 16.67 and p99 <= 25, "reference_acceptance": false, "latency_measured": false, "sample_count": times.size(), "warmup_active_seconds": capture_start / 60.0, "capture_active_seconds": (run.clock.tick - capture_start) / 60.0, "capture_wall_seconds": (now - capture_wall) / 1000000.0, "p50_ms": times[floori(times.size() * 0.5)], "p95_ms": p95, "p99_ms": p99, "max_ms": times.back(), "minimums": minimums, "maximums": maximums, "engine": Engine.get_version_info().string, "simulation": ReplayTrace.SIMULATION_VERSION, "catalog": catalog.digest, "debug_build": OS.has_feature("debug"), "renderer": RenderingServer.get_current_rendering_method(), "gpu": RenderingServer.get_video_adapter_name(), "os": OS.get_name() + " " + OS.get_version(), "processor": OS.get_processor_name(), "processor_count": OS.get_processor_count(), "window_observed": [DisplayServer.window_get_size().x, DisplayServer.window_get_size().y], "vsync_observed": DisplayServer.window_get_vsync_mode(), "debugger_active": EngineDebugger.is_active(), "fixture_rewards_preserved": workload_ok}
+	if pacing_audio_mode!="":
+		var audio_state={"enabled":pacing_audio_mode=="enabled","driver":AudioServer.get_driver_name(),"device":AudioServer.output_device,"sample_rate":AudioServer.get_mix_rate(),"cue_count":run.combat_audio.allocator.accepted-capture_audio_start,"peak_voices":voice_peak,"debug_build":OS.has_feature("debug"),"debugger_active":EngineDebugger.is_active(),"warmup":capture_start/60.0,"capture":(run.clock.tick-capture_start)/60.0,"samples":times.size(),"size":DisplayServer.window_get_size(),"vsync":DisplayServer.window_get_vsync_mode()}
+		audio_state["same_machine_target"] = OS.get_processor_name().contains("5800H") and RenderingServer.get_video_adapter_name().contains("1650")
+		var audio_error=audio_validation_error(audio_state, not pacing_diagnostic)
+		summary["audio"]=audio_state
+		summary["audio_mode"]=pacing_audio_mode
+		summary["audio_validation_error"]=audio_error
+		workload_ok=workload_ok and audio_error.is_empty()
+		summary["capture_valid"]=workload_ok
+		summary["reference_acceptance"]=false
+		summary["same_machine_target"]=OS.get_processor_name().contains("5800H") and RenderingServer.get_video_adapter_name().contains("1650")
+		summary["build_hash"] = OS.get_environment("ABYSS_PACING_BUILD_HASH")
+		summary["fixture_hash"] = OS.get_environment("ABYSS_PACING_BENCHMARK_HASH")
+		summary["diagnostic"] = pacing_diagnostic
 	summary["engine_static_memory_available"] = Performance.get_monitor(Performance.MEMORY_STATIC) > 0
 	summary["engine_pid"] = OS.get_process_id()
 	summary["retained_hit_ids"] = run.damage.consumed.size()
+	summary["kills"]=run.kills
+	summary["window_focused_at_finish"]=get_window().has_focus()
+	summary["focus_observation"] = {"samples":times.size(),"unfocused_samples":unfocused_samples,"fully_focused":unfocused_samples==0,"method":"Window.has_focus at every captured render frame"}
 	summary["requests_created"] = run.request_id
 	summary["engine_max_fps"] = Engine.max_fps
 	summary["physics_ticks_per_second"] = Engine.physics_ticks_per_second
@@ -197,3 +236,15 @@ func finish(now: int) -> void:
 	file.close()
 	print("BENCH seed=%d samples=%d active=%.1fs p95=%.3f p99=%.3f capture_valid=%s budget_pass=%s debug_build=%s output=%s" % [seed_value, times.size(), summary.capture_active_seconds, p95, p99, workload_ok, summary.frame_budget_pass, summary.debug_build, ProjectSettings.globalize_path(output)])
 	get_tree().quit(0 if workload_ok else 1)
+
+static func audio_validation_error(state: Dictionary, require_target: bool = true) -> String:
+	if state.driver=="Dummy": return "real audio driver required"
+	if require_target and not state.get("same_machine_target",false): return "SC007 target hardware required"
+	if str(state.get("device","")).is_empty() or state.get("sample_rate",0)<=0: return "known real audio endpoint required"
+	if state.debug_build or state.debugger_active: return "actual Release without debugger required"
+	if state.warmup<30.0 or state.capture<120.0 or state.samples<=0: return "insufficient active sample duration"
+	if state.size!=Vector2i(1920,1080) or state.vsync!=DisplayServer.VSYNC_DISABLED: return "wrong display/VSync"
+	if state.peak_voices>8: return "voice budget exceeded"
+	if state.enabled and (state.cue_count<=0 or state.peak_voices<=0): return "enabled comparison actually silent"
+	if not state.enabled and (state.cue_count!=0 or state.peak_voices!=0): return "disabled comparison played audio"
+	return ""

@@ -88,6 +88,7 @@ func run() -> void:
 		if not app.writer.mutate(capped, app.writer.revision(), app.writer.operation_id()): failures += 1
 		app.mount_run(RunStartSnapshot.new(101, &"aren"))
 		app.run.set_physics_process(false)
+		app.set_window_focused(true) # Controlled fixture; physical focus tested separately.
 		app.run.clock.tick = 3600
 		app.run.finish("victory")
 		await process_frame
@@ -95,6 +96,9 @@ func run() -> void:
 		await capture("cap-results-" + str(dimensions.x))
 		print("GRAPHICAL M2 window=%s actual=%s roster / 3 visual previews / 6 branch combat / followers / downing / actual XP caps" % [dimensions, DisplayServer.window_get_size()])
 	app.free()
+	# Let the native mixer retire stopped playbacks before process shutdown.
+	var mixer_cleanup_deadline = Time.get_ticks_msec()+250
+	while Time.get_ticks_msec()<mixer_cleanup_deadline: await process_frame
 	await process_frame
 	paused = false
 	for error in error_capture.snapshot():

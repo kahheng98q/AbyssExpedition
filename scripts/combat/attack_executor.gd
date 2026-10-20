@@ -29,6 +29,9 @@ static func try_activate(actor, run, tick: int) -> bool:
 			else: run.followups.append({"due": tick + i * echo.followup_ticks, "origin": actor.position, "direction": facing, "reach": actor.stats.reach, "angle": weapon.arc_angle, "damage": value * echo.secondary_scale, "knockback": actor.stats.knockback, "burn": run.progression.has(&"ember_touch"), "frost": run.progression.has(&"frost_mark")})
 		else:
 			fire_shot(actor, run, tick, target, facing, value, facing.orthogonal() * (i * 6 - extras * 3))
+	var fact = {"generation":run.generation,"tick":tick,"source_id":actor.actor_id,"is_companion":actor.is_companion,"weapon_mode":StringName(weapon.mode),"activation_id":actor.activations}
+	fact.make_read_only()
+	run.attack_committed.emit(fact)
 	return true
 
 static func fire_shot(actor, run, tick: int, target, facing: Vector2, value: float, offset: Vector2 = Vector2.ZERO) -> void:

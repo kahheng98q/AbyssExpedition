@@ -1,0 +1,18 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+
+FAIL: opening segments are authored Resource data
+INVULNERABILITY QUEUE PROBE: attempts=10000 retained_ids=0 elapsed_us=6735
+FAIL: exact fixed opening slots at tick 0
+FAIL: exact fixed opening slots at tick 600
+FAIL: exact fixed opening slots at tick 1200
+FAIL: exact fixed opening slots at tick 1800
+FAIL: exact fixed opening slots at tick 2400
+FAIL: exact fixed opening slots at tick 3000
+FAIL: exact fixed opening slots at tick 3600
+FAIL: exact fixed opening slots at tick 4200
+FAIL: exact fixed opening slots at tick 4800
+FAIL: exact fixed opening slots at tick 5400
+FAIL: exact fixed opening slots at tick 6000
+FAIL: exact fixed opening slots at tick 6600
+FAIL: 12 waves /48 base slots /40T4B4C
+SUITE unit: 279 assertions; 14 failures; 0 skipped
