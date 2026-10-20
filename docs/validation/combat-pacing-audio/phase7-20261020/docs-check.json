@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-20",
+  "method": "inline read-only audit using tools/check_002_docs.py helpers; historical report preserved",
+  "files_checked": 34,
+  "local_references": 360,
+  "image_tags": 21,
+  "broken": [],
+  "missing_alt": [],
+  "remote_runtime_resources": [],
+  "frozen_stimuli_checked": 100,
+  "human_responses_generated": 0,
+  "human_response_files_found": 0,
+  "tasks": 75,
+  "checked_tasks": 61,
+  "open_tasks": [
+    "T018",
+    "T032",
+    "T052",
+    "T053",
+    "T059",
+    "T060",
+    "T061",
+    "T067",
+    "T068",
+    "T069",
+    "T070",
+    "T071",
+    "T072",
+    "T073"
+  ],
+  "task_ids_unique": true,
+  "checklists_read_only_counts": {
+    "pacing-audio.md": {
+      "total": 38,
+      "checked": 0,
+      "unchecked": 38
+    },
+    "requirements.md": {
+      "total": 16,
+      "checked": 16,
+      "unchecked": 0
+    }
+  },
+  "overview_chinese_characters_entire_file": 331,
+  "spec_plan_unchanged": {
+    "spec.md": true,
+    "plan.md": true
+  },
+  "implementation_files_match_tested_state": {
+    "project.godot": true,
+    "tests/fixtures/pacing_observer.gd": true,
+    "tests/fixtures/pacing_session.gd": true,
+    "tests/integration/test_pacing.gd": true,
+    "tests/integration/test_replay.gd": true,
+    "tests/performance/benchmark_capture.gd": true,
+    "tests/unit/test_benchmark_contract.gd": true,
+    "tools/validate_pacing_audio.ps1": true,
+    "tools/pacing_benchmark_contract.ps1": true,
+    "tools/test_pacing_benchmark.ps1": true
+  },
+  "gameplay_scene_data_changes_excluding_project_metadata": [],
+  "browser_responsive_visual_review": false,
+  "source_screenshots_viewed": [
+    "graphical-opening-2.png",
+    "choice-dev.png"
+  ],
+  "before_after_extension_hooks_present": false
+}

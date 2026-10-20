@@ -21,7 +21,11 @@ func capture(app, name_value: String) -> void:
 		if screen.get("panel") != null:
 			check(screen.panel.size.x <= 640 and screen.panel.size.y <= 360, "panel fits viewport: " + name_value + str(screen.panel.size))
 	await RenderingServer.frame_post_draw
-	check(root.get_texture().get_image().save_png("res://screenshots/m4-" + name_value + ".png") == OK, "capture " + name_value)
+	var capture_path = "res://screenshots/m4-" + name_value + ".png"
+	var args = OS.get_cmdline_user_args()
+	if args.has("--captures"):
+		capture_path = args[args.find("--captures") + 1].path_join("m4-" + name_value + ".png")
+	check(root.get_texture().get_image().save_png(capture_path) == OK, "capture " + name_value)
 
 func force_event(app, kind: String) -> void:
 	app.run.events.current = {"id": 99, "tick": app.run.clock.tick, "kind": kind}
@@ -51,6 +55,7 @@ func run() -> void:
 		await capture(app, "guild-" + str(dimensions.x))
 		app.mount_run(RunStartSnapshot.new(101, &"aren"))
 		app.run.set_physics_process(false)
+		app.set_window_focused(true) # Controlled fixture; physical focus tested separately.
 		for threshold in [0, 25, 50, 75, 100]:
 			app.run.corruption.add(threshold - app.run.corruption.value)
 			for i in range(5): app.run.spawn_enemy(StringName(ContentCatalog.ENEMIES[i]), app.run.hero.position + Vector2(-120 + i * 60, 65))
@@ -59,6 +64,7 @@ func run() -> void:
 		var info = InputEventKey.new()
 		info.keycode = KEY_C
 		info.pressed = true
+		app.set_window_focused(true) # Synthetic GUI fixture owns focus at each injected action.
 		app._unhandled_key_input(info)
 		await capture(app, "thresholds-" + str(dimensions.x))
 		var summary_screen = app.modal_host.get_child(0)
@@ -104,6 +110,7 @@ func run() -> void:
 		check(app.run.coins == 0, "graphical merchant Might")
 		app.run.clock.tick = 14400
 		app.run.simulation.stage = 3
+		app.set_window_focused(true) # Synthetic GUI fixture owns focus at each injected action.
 		app.run.simulation.advance(app.run, Vector2.ZERO)
 		await capture(app, "rescue-" + str(dimensions.x))
 		app.run.choices.resolve_rescue(app.run, true)
@@ -121,8 +128,10 @@ func run() -> void:
 		BossController.decide(boss, app.run, 32445)
 		await capture(app, "boss-double-eruption-" + str(dimensions.x))
 		check(app.run.boss_hits.size() == 3, "cone plus two committed eruption warnings")
+		app.set_window_focused(true) # Synthetic GUI fixture owns focus at each injected action.
 		app.run.queue_hit(boss, 100000, Vector2.ZERO, 0, false, false)
 		app.run.simulation.stage = 1
+		app.set_window_focused(true) # Synthetic GUI fixture owns focus at each injected action.
 		app.run.simulation.advance(app.run, Vector2.ZERO)
 		await process_frame
 		await capture(app, "chapter-saved-" + str(dimensions.x))
@@ -131,8 +140,12 @@ func run() -> void:
 		await capture(app, "guild-completed-" + str(dimensions.x))
 		app.mount_run(RunStartSnapshot.new(101, &"aren"))
 		app.run.set_physics_process(false)
+		app.set_window_focused(true) # Controlled fixture; physical focus tested separately.
 		check(app.run.corruption.value == 0 and app.run.coins == 0 and app.run.hero.contract_bonuses.is_empty() and app.run.boss_actor == null, "repeat chapter resets all temporary state and requires another boss")
 		app.free()
+		# Let the native mixer retire stopped playbacks before process shutdown.
+		var mixer_cleanup_deadline = Time.get_ticks_msec()+250
+		while Time.get_ticks_msec()<mixer_cleanup_deadline: await process_frame
 		paused = false
 		await process_frame
 		var writer = SaveCoordinator.new(location)

@@ -1,0 +1,11 @@
+{
+  "mode": "Benchmark",
+  "seed": 101,
+  "build_hash": "b47641d6f7160dd8730837d147b53be1ac478ec677d85b2818d3599af0b699f6",
+  "release_sha256": "B47B1DB84D2A91D7EC6B005FADAF059B82F16940CACCC72EF6EEC439B1C8F4DD",
+  "fixture_sha256": "D95E40688352A1BBFD02E88C69672CEC1710A67100903648CC8DB2BACF7D8F7C",
+  "power_mode": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+  "foreground": "window focus at finish is recorded in each sample; full foreground residency not independently observed",
+  "background_load": "not independently observed",
+  "normalization_applied": false
+}

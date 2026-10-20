@@ -1,0 +1,5 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+
+FAIL: trace declares stable reservation lifecycle format
+FAIL: trace can reject incompatible inputs before simulation
+SUITE replay: 46 assertions; 2 failures; 0 skipped

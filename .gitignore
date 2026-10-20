@@ -13,3 +13,15 @@ builds/
 docs/**/*.translation
 docs/**/*.import
 __pycache__/
+
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+.vscode/
+.idea/
+.env*

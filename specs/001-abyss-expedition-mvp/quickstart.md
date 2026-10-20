@@ -165,3 +165,7 @@ M1 acceptance: Stories 1–3 / FR-001–FR-014 / SC-001–SC-004 and SC-010–SC
 A read-only PowerShell check inspected all seven generated Markdown documents: 15 relative document links resolved; code fences were balanced; no unresolved planning/template markers remained. A separate requirement-ID/range check found all 42 functional requirements and all 12 success criteria represented in this guide. The author also reviewed milestone boundaries, Resource/runtime separation, event ordering and save transaction consistency against the specification and constitution. These checks validate planning artifacts only; they are not Godot or gameplay tests. The existing project configuration remains unchanged, and no application files were created.
 
 M4 corruption summary: C (Escape or Return closes it). Run `tools/run_m4_benchmarks.ps1` for maximum-corruption stress captures. The full-run policy now makes real event contract choices; it is a controlled accelerated verification, not a human duration study. The final M4 executable launches successfully on this host; the historical M3 block remains recorded in M3 evidence.
+
+## Q1当前构建 — 2026-10-18
+
+本轮独立构建为 `builds/windows/quality-20261018/AbyssExpedition.exe`。已有M4构建保持保留。战斗反馈/场景/HUD改动的前后截图、14组5,249原生断言、三尺寸源/实际EXE图形验证与限制见[Q1报告](../../docs/validation/quality-20261018.md)。运行 `./tools/validate_quality.ps1` 可重现本轮图形与单独导出；其Dummy audio是诊断配置，不改变正常游戏音频设置。

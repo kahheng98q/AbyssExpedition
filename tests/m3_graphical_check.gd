@@ -29,7 +29,11 @@ func capture(app, name_value: String) -> void:
 		if screen.get("panel") != null:
 			check(screen.panel.size.x <= 640 and screen.panel.size.y <= 360, "M3 panel fits viewport: " + name_value + " " + str(screen.panel.size))
 	await RenderingServer.frame_post_draw
-	check(root.get_texture().get_image().save_png("res://screenshots/m3-" + name_value + ".png") == OK, "capture " + name_value)
+	var capture_path = "res://screenshots/m3-" + name_value + ".png"
+	var args = OS.get_cmdline_user_args()
+	if args.has("--captures"):
+		capture_path = args[args.find("--captures") + 1].path_join("m3-" + name_value + ".png")
+	check(root.get_texture().get_image().save_png(capture_path) == OK, "capture " + name_value)
 
 func press(app, prefix: String) -> void:
 	var screen = app.screen_host.get_child(0)
@@ -61,6 +65,7 @@ func run() -> void:
 		app.show_selection()
 		app.mount_run(RunStartSnapshot.new(101, &"aren"))
 		app.run.set_physics_process(false)
+		app.set_window_focused(true) # Controlled fixture; physical focus tested separately.
 		app.run.clock.tick = 14400
 		app.run.simulation.stage = 3
 		app.run.simulation.advance(app.run, Vector2.ZERO)
@@ -133,6 +138,9 @@ func run() -> void:
 		await capture(app, "selection-six-" + str(dimensions.x))
 		print("GRAPHICAL M3 window=%s actual=%s guild / rescue / settlement / single+ten / cancel+exchange / reopen / history / collection" % [dimensions, DisplayServer.window_get_size()])
 		app.free()
+		# Let the native mixer retire stopped playbacks before process shutdown.
+		var mixer_cleanup_deadline = Time.get_ticks_msec()+250
+		while Time.get_ticks_msec()<mixer_cleanup_deadline: await process_frame
 		await process_frame
 		paused = false
 	for error in error_capture.snapshot(): check(false, "M3 graphical runtime: " + error)

@@ -1,5 +1,38 @@
 # Milestone 1 development
 
+## Phase 7实施 — 2026-10-20
+
+恢复固定4.5元数据，补齐最终玩法快照/完整精度JSON、终结后计数和目标机/两轮设备性能守卫，增加负例并取得red/green；T065/T066/T074/T075已完成；16组9,232断言、源码/实际Debug/Release受控图形通过。新WASAPI录音8声部、削波0；当前Release真实性能开/关各30+120主动秒采集完成，开启p95 15.172ms/p99 19.647ms、max76.035ms。两轮逐帧focus均无失焦，电源方案一致；进程观察范围不含完整主机后台负载，T073保持部分完成。无真人自然轨迹、五人答案或物理烟测结果，相关项继续开放。逐项结果与实际命令见[实施证据](validation/combat-pacing-audio/phase7-20261020/results.md)。
+
+## Game Polish 收敛核查 — 2026-10-20
+
+活动002：核对12 FR/7 SC/13场景、64既有任务、14计划约束和8项宪法原则，发现11项partial（HIGH7/MEDIUM4），仅追加Phase7 T065–T075，原64任务字节前缀/spec/plan/应用源码均保留。新增重点：最终玩法快照遗漏状态、终结前计数、性能目标机/设备一致性守卫；续办自然九局/九对、试听、五人理解/盲听及物理DEV。
+
+实际执行固定4.5的 `tools/run_validation.ps1 -M4 -Graphical -DummyAudio`：16组9,178断言，0失败/跳过；源码M1–M4三尺寸、音频/focus15、DEV118受控图形通过。当前源码摘要与昨日v4构建/录音/性能不同，`project.godot`含4.7元数据；Benchmark前置hash拒绝已实际验证。没有改配置、导出、录音、跑性能或代填人工结果。旧证据按原构建保留；后续由implement核对配置并重建/重测。见[完整发现与命令](validation/combat-pacing-audio/convergence-20261020/results.md)、[当前矩阵](validation/combat-pacing-audio/acceptance.md)。
+
+## 002 首波可见性 — 2026-10-19
+
+固定seed303复核发现一个首波预警被计时HUD部分遮挡。保留原候选/安全/RNG，仅把现有首波Telegraph放到远征的世界跟随CanvasLayer2，高于HUD、低于弹窗/DEV。新增层级与图像橙色中心检查；seed303截图已观察。旧性能与Release保留，最终构建重新验证，见[可见性修复](validation/combat-pacing-audio/final/visibility.md)。
+
+## 002 音频与收口 — 2026-10-19
+
+7原创PCM、8预建播放器、事实信号、升级FIFO、token冻结/离场清理与真实WASAPI回环工具已实现。完整M4/源码图形/实际Debug图形/Release拒绝通过；专门DEV导出也通过。旧图片写入失败已改为本轮独立目录并恢复历史图片。自然九局与九对未录制；五人试玩/盲听、物理DEV保持开放。当前Release目标机真实音频开关对照已完成，开启p95 13.453ms/p99 14.073ms；全程前后台未独立监督，不关闭历史参考机目标。见[US3结果](validation/combat-pacing-audio/us3/results.md)、[矩阵](validation/combat-pacing-audio/acceptance.md)、[最终检查](validation/combat-pacing-audio/final/results.md)。
+
+## 002 近场/编排 — 2026-10-19
+
+已实现安全近场首波、完整reservation生命周期和五段固定四槽/腐化额外Thrall；默认后段/存档/数值/DEV保留。US1/US2逻辑与受控图形通过，真实首波PNG已检查。九局真人记录缺操作者，SC001/002/005不判通过。音频下一阶段实施；工具Audio/Benchmark当前明确拒绝。见[US1](validation/combat-pacing-audio/us1/results.md)、[US2](validation/combat-pacing-audio/us2/results.md)。
+
+## 002 基础层 — 2026-10-19
+
+用户授权跳过未勾选评审清单门禁，清单保持只读。T001–T008完成：旧实现基线通过，建立范围/验收矩阵，新增暂停变更只读快照、App focus token与回放版本检查，默认pacing/combat_feedback回归。red与green均有真实日志；本次原生断言与限制见[证据](validation/combat-pacing-audio/foundation/results.md)。图形焦点、真实音频、自然九局、真人与性能仍待执行；保留旧构建/档案/DEV单例。
+
+
+## Developer Debug Panel protection — 2026-10-18
+
+原有面板由App长期持有，未发现被切场景删除。实际入口漂移：Play Debug.cmd仍指向10月15日旧构建，Q1默认EXE为禁用调试的Release。现改为固定引擎运行当前源码；原按钮改为常驻DEV，F9登记InputMap，挂载函数幂等。保留全部28动作、沙盒存档与暂停所有权，不改玩法。
+
+常规验证强制debug_panel，Graphical覆盖点击/键盘/切换/暂停/重开；Export加入debug导出与真实release禁用探针。完整13组5,297原生断言通过；源码及实际新Debug图形各118项、新Release禁用41项通过。首次4551失败保留；重新导出的实际Debug/Release已成功运行。图形复跑发现M4/M1旧PNG覆盖失败，现M1–M4均独立输出证据目录。真人物理键鼠烟测待做。见[本轮证据](validation/debug-protected-20261018.md)与[使用/人工烟测](developer-debug-panel.md)。AGENTS已永久保护本功能。以下保留历史开发记录。
+
 Current implemented scope: M1 combat, M2 progression/promotions/companions, M3 recruitment/gacha, M4 corruption/events/chapter, and developer tools. Human acceptance and reference-hardware targets remain open; M4 stress measurements miss the frame budgets. See [visual dashboard](game-development-dashboard.html), [Chinese overview](IMPLEMENTATION_OVERVIEW.md) and [M4 evidence](validation/m4-gate.md). The notes below are historical deliveries; statements that M3/M4 were absent describe those earlier checkpoints.
 
 2026-10-15 full verification: corrected project.godot features metadata from 4.7 to the planned/pinned 4.5. Both baseline and post-fix `tools/run_validation.ps1 -M4 -Graphical -Export` completed successfully. Post-fix native coverage is 1,654 primary + 69 debug assertions, zero failures/skips. All 142 shipping/test scripts, 29 scenes and 51 Resources load. Source and actual release start headlessly; three-size source/release checks, current M4 prior-flow release regressions, F9 source/export/release restrictions and competing-writer/crash recovery pass. Content digest and starter victory ticks are unchanged. See [full commands, raw logs, new stress captures and unexecuted checks](validation/verification-2026-10-15.md). No gameplay logic/balance or acceptance checkboxes changed; ordinary human/reference-machine/latency gates remain open.
@@ -116,3 +149,25 @@ Documentation-only audit added the offline visual dashboard and Simplified Chine
 最终单次13组5,239原生断言全过，145脚本/29场景/51Resource递归加载通过；源码和实际M4 EXE的M2/M3/M4三尺寸受控图形、F9开发97/发布20通过，多进程锁通过。先前4551失败保留为历史；当前EXE已实际启动。最终自动运行用Dummy audio隔离本机WASAPI设备错误，项目音频未改。
 
 发布版三seed实际工作负载捕获有效，但p95为27.571/27.670/29.259ms，预算未达。参考机、显示反馈延迟、十人体验、二十次普通胜利、自然操作会话与阶段人工观察均未完成。最终报告、构建/采样hash、原始CSV和失败记录见[当前收敛修复报告](validation/convergence-2026-10-15.md)。未把通过数或任务勾选当作全MVP收敛。
+
+## Q1 战斗品质 — 2026-10-18
+
+用户授权在已有核心内自主打磨。新增只读hit_confirmed信号和独立CombatFeedback批量绘制：最多48条、36主动tick，实际扣血后触发，无敌不触发，不写游戏随机流。角色/首领、扫斩/弹体、海岸遗迹与分区HUD重新设计；伤害、波次、拾取、职业、保存格式和输入规则保持不变。第一次实机检查发现HP/XP文字与条重叠，已调整行位后复查。
+
+14组5,249原生断言通过；源码M1–M4与新EXE的M2–M4三尺寸受控图形、开发F9 97项/发布禁用20项通过。固定seed101三角色725tick前后状态完全相同。使用Dummy audio，无真人乐趣/听感/显示延迟结论。独立构建为builds/windows/quality-20261018/AbyssExpedition.exe，旧M4保持保留。详见[前后截图、压力比较与全部限制](validation/quality-20261018.md)。
+
+Q1性能复查发现首版静态地形导致大量绘制调用，已离线烘焙成两张原创贴图并按腐化混合，地形1341→2 calls。保留原绘图和烘焙工具；7帧缓存前后最大通道差1/255，记录了量化容差与首次严格比较失败。最终性能以Q1报告中的新构建采样为准。
+
+Q1追加敌人图集缓存：在仅地形缓存仍未达到性能目标后，将7类敌人×8状态烘焙为同源图集，动态预警/血条保留。静止探针总调用降至723。图集后再次执行scene_smoke/content、反馈/debug原生及源码/实际EXE全部图形回归，结果通过；最终压力数据见报告。首版与仅地形缓存的EXE均独立保留，正式交付目录保持quality-20261018/。
+
+Q1最终压力结果：同机seed101实际release，30秒预热＋120主动秒，11,745帧，p95=13.768ms/p99=14.345ms；工作负载与奖励守恒有效，该样本预算通过。旧M4对照15.224/23.155ms，未缓存首版39.482/56.845ms，仅地形缓存27.867/29.033ms均保留。不以单seed通过关闭T180或参考机/人体验gate。
+
+## 002 任务生成 — 2026-10-19
+
+文档工作：依据002 spec/plan、research、data-model、两份合同及quickstart生成[任务清单](../specs/002-combat-pacing-audio/tasks.md)。共64项，US1近场开局13项、US2遭遇编排12项、US3音效22项，共用基础/收口17项；均未勾选。MVP为Setup+Foundational+US1，后续按故事增量交付。每阶段包含固定4.5验证、DEV保护回归与规定文档同步；真人九局录制、真实音频、5人理解/盲听和新版Release压力验收独立记账。
+
+本次只改任务与文档导航；未改游戏源码、Resource、场景或旧001任务状态，未运行Godot、录音、图形或性能测试。setup_tasks.py首次受Windows stdout cp1252编码限制失败，以PYTHONIOENCODING=utf-8重跑后成功识别002及任务模板。执行前后未发现.specify/extensions.yml，无before_tasks/after_tasks hooks可执行。文档检查范围及实际结果见[任务生成检查](validation/combat-pacing-audio/task-generation-20261019.md)；功能与SC001–007仍未验证。
+
+### 002 分析修订 — 2026-10-19
+
+用户确认后应用G1/I1/A1/I2的文档修订：SC004原20道盲听题中的5道攻击题增加职业评分，至少4人各自同时满足类别≥16/20、职业≥4/5且每职业至少1题正确；AttackCommitted统一source_id/weapon_mode及字段类型；CombatAudio唯一拥有升级去重/FIFO，VoiceAllocator维护声部与合并窗口；T038先注册音频suite并记录red，T047完成集成green。spec、plan、research、data-model、audio合同、quickstart、tasks及文档导航同步。64项任务编号与未勾选状态保留，评审清单标记未改。本轮仅改文档，功能未实现、游戏验收未执行；复核范围见[分析修订检查](validation/combat-pacing-audio/analysis-remediation-20261019.md)。

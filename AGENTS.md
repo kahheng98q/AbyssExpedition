@@ -17,6 +17,16 @@ Instructions for Codex/AI coding agents working in this repository. Apply them a
 5. Test affected behavior. Use the pinned `tools/godot-4.5/` binary and applicable `tools/run_validation.ps1` switches; M4 full check: `./tools/run_validation.ps1 -M4 -Graphical -Export`. Run narrower checks when suitable. Do not claim graphical/manual testing from headless runs.
 6. Do not rerun the historical `tools/create_m1_content.ps1` over current content; it overwrites starter data.
 
+## Protected Developer Debug Panel
+
+Developer Debug Panel is a protected development feature. Every future implementation and game polish iteration must preserve its accessibility and existing functionality in debug builds.
+
+- Preserve `scenes/debug/debug_panel.tscn`, its existing action service, sandbox isolation and all existing controls. Reuse the App-owned single instance; do not mount copies inside replaceable screens or runs.
+- Debug builds must retain the visible corner **DEV** button, registered `debug_panel_toggle` / **F9**, above-normal-UI rendering and paused input across menus, guild, selection, combat, results and restarts. Release builds must reject initialization and all debug actions.
+- Run `./tools/run_validation.ps1` with the switches appropriate to the change; it always includes `debug_panel`, including `-OnlySuites` runs. `-Graphical` includes mouse/F9/transition/pause checks; `-Export` includes debug export and actual-release denial, and together they probe exported debug graphics.
+- For isolated debug exports/evidence use `./tools/run_debug_validation.ps1 -SkipRegression -DummyAudio -BuildDirectory builds/windows/<new-directory> -EvidenceDirectory docs/validation/<new-directory>` after the normal regression. A failed/blocked export probe is not a pass. Preserve the manual smoke checklist in `docs/developer-debug-panel.md` and report unexecuted human checks.
+- Keep `Play Debug.cmd` launching current source through pinned Godot, never an old milestone/polish executable. Update the dashboard/overview/evidence with any debug change.
+
 ## Mandatory: automatic, visual implementation documentation
 After **every code implementation, feature change, meaningful bug fix, or completed Spec Kit implementation milestone**, update these documents in the **same task**, without waiting for a separate request:
 - `docs/game-development-dashboard.html` — create on first applicable update if missing; primary **offline, responsive, visual** game development dashboard.

@@ -8,7 +8,13 @@ signal state_changed
 signal run_finished(summary: Dictionary)
 signal rescue_presented
 signal event_presented
+signal attack_committed(fact: Dictionary)
+signal damage_accepted(fact: Dictionary)
+signal rush_started(tick: int, actor_id: int)
+signal hostile_shot_fired(tick: int)
+signal hit_confirmed(point: Vector2, direction: Vector2, amount: float, fatal: bool, friendly: bool)
 
+var combat_audio: CombatAudio
 var catalog: ContentCatalog
 var snapshot: RunStartSnapshot
 var clock: RunClock = RunClock.new()
@@ -49,6 +55,7 @@ var rescue_results: Array[Dictionary] = []
 @onready var pickups = $CombatWorld/Pickups
 @onready var telegraphs = $CombatWorld/Telegraphs
 @onready var effects = $CombatWorld/Effects
+@onready var opening_warnings: CanvasLayer = $OpeningWarnings
 @onready var camera: Camera2D = $Camera2D
 
 func start(content: ContentCatalog, start_state: RunStartSnapshot, run_generation: int = 1) -> void:
@@ -63,6 +70,7 @@ func start(content: ContentCatalog, start_state: RunStartSnapshot, run_generatio
 		$CombatWorld/CoastField.set_corruption(corruption.value)
 		state_changed.emit())
 	hero = CharacterFactory.create(catalog.characters[snapshot.hero_id], self)
+	spawns.initialize_opening(hero.position)
 	party = [hero]
 	actors.add_child(hero)
 	registry[0] = hero
@@ -73,6 +81,14 @@ func start(content: ContentCatalog, start_state: RunStartSnapshot, run_generatio
 		party.append(companion)
 		registry[companion.actor_id] = companion
 	phase = "active"
+	combat_audio = CombatAudio.new()
+	combat_audio.name = "CombatAudio"
+	add_child(combat_audio)
+	combat_audio.bind_run(self)
+	var feedback = preload("res://scripts/combat/combat_feedback.gd").new()
+	feedback.name = "CombatFeedback"
+	$CombatWorld.add_child(feedback)
+	feedback.bind_run(self)
 	$HUD/CombatHUD.bind_run(self)
 	camera.position = hero.position
 	state_changed.emit()
@@ -170,6 +186,7 @@ func hostile_shot(point: Vector2, direction: Vector2, value: float, tick: int) -
 	shot.knockback = 0
 	shot.expires = tick + 180
 	projectiles.add_child(shot)
+	hostile_shot_fired.emit(tick)
 
 func cleanup_effects(tick: int) -> void:
 	for host in [telegraphs, effects]:
@@ -191,11 +208,16 @@ func finish(outcome: String) -> void:
 	if phase != "active": return
 	if outcome == "defeat" and rescue.state == "defending": rescue.advance(hero.position, false)
 	phase = "results"
+	if is_instance_valid(combat_audio): combat_audio.shutdown()
 	choices.cancel(self)
 	pause.cancel_all()
-	spawns.reservations.clear()
+	spawns.terminate(self)
 	damage.requests.clear()
 	followups.clear()
 	delayed_impacts.clear()
 	summary = RunSummary.freeze(self, outcome)
 	run_finished.emit(summary.duplicate(true))
+
+func _exit_tree() -> void:
+	if is_instance_valid(combat_audio): combat_audio.shutdown()
+	spawns.terminate(self)

@@ -1,0 +1,84 @@
+{
+  "total_assertions": 5297.0,
+  "total_failures": 0.0,
+  "suites": [
+    {
+      "suite": "abilities",
+      "assertions": 123,
+      "failures": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "debug_panel",
+      "assertions": 126,
+      "failures": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "full_run",
+      "assertions": 9,
+      "failures": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "integration_m1",
+      "assertions": 37,
+      "failures": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "integration_m2",
+      "assertions": 45,
+      "failures": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "integration_m3",
+      "assertions": 196,
+      "failures": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "integration_m4",
+      "assertions": 3734,
+      "failures": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "persistence",
+      "assertions": 343,
+      "failures": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "progression",
+      "assertions": 13,
+      "failures": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "recruitment",
+      "assertions": 293,
+      "failures": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "replay",
+      "assertions": 44,
+      "failures": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "scene_smoke",
+      "assertions": 132,
+      "failures": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "unit",
+      "assertions": 202,
+      "failures": 0,
+      "skipped": 0
+    }
+  ]
+}

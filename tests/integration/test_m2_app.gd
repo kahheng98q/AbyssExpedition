@@ -18,6 +18,17 @@ func run(t) -> void:
 	app.mount_run(RunStartSnapshot.new(303, &"aren"))
 	app.run.set_physics_process(false)
 	t.check(app.run.party.size() == 3 and app.writer.payload.seed == 303, "launch waits for saved party/seed")
+	# Focus owns only its own pause token; menu/start/restart are covered here.
+	if app.has_method("set_window_focused"):
+		app.set_window_focused(false)
+		var focus_id = app.focus_token
+		app.set_window_focused(false)
+		var other_id = app.run.pause.acquire("manual", "focus-test")
+		t.check(focus_id > 0 and app.focus_token == focus_id and app.run.pause.tokens.size() == 2, "repeated focus loss acquires once")
+		app.set_window_focused(true)
+		t.check(app.focus_token == -1 and app.run.pause.tokens.has(other_id), "focus gain only releases its own token")
+		app.run.pause.release(other_id, "focus-test")
+	else: t.check(false, "App exposes focus ownership transition")
 	app.run.clock.tick = 3600
 	fault.stage = "readback"
 	fault.remaining = 1
@@ -79,6 +90,17 @@ func run(t) -> void:
 	app.run.finish("defeat")
 	await t.process_frame
 	t.check(app.writer.payload.owned.has("sera") and app.screen_host.get_child(0).summary.starting_changed, "first rescue discloses changed event replay conditions even when every participant is capped")
+	if app.has_method("set_window_focused"):
+		app.set_window_focused(false)
+		app.leave_run()
+		t.check(app.focus_token == -1, "leave clears stale focus token")
+		app.mount_run(RunStartSnapshot.new(303, &"aren"))
+		app.run.set_physics_process(false)
+		t.check(app.focus_token > 0 and app.run.pause.is_blocked(), "start while unfocused blocks before first tick")
+		app.mount_run(RunStartSnapshot.new(303, &"aren"))
+		app.run.set_physics_process(false)
+		t.check(app.focus_token > 0 and app.run.clock.tick == 0 and app.run.pause.tokens.size() == 1, "restart owns exactly one new focus token")
+		app.set_window_focused(true)
 	app.leave_run()
 	app.free()
 	await t.process_frame

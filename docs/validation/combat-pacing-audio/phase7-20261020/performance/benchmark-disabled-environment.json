@@ -1,0 +1,3153 @@
+{
+  "power_before": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+  "power_after": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+  "power_unchanged": true,
+  "sampling": "approximately 1s process CPU deltas/working sets and 10s power scheme; not GPU or external power monitoring",
+  "samples": [
+    {
+      "elapsed_seconds": 0.017251,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7565312
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 1.0200659,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 122281984
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7602176
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 2.028819,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 166043648
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7602176
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 3.0431559,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 166318080
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7602176
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 4.0482432,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 166379520
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7602176
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 5.0610339,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 171474944
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7602176
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 6.0765837,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 171540480
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7602176
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 7.0919729,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 171622400
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7602176
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 8.1032467,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 170782720
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7602176
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 9.1154139,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 170811392
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7602176
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 10.1448977,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 171040768
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7602176
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 11.1536775,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 171081728
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7602176
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 12.16617,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 171544576
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7602176
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 13.1683572,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 171868160
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7602176
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 14.1713089,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 171884544
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7602176
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 15.1730038,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 171909120
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7602176
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 16.185517,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 171925504
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7602176
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 17.2051886,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 171925504
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7602176
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 18.2119939,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 172191744
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7602176
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 19.2141417,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 172191744
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7602176
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 20.2438887,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 172199936
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7602176
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 21.2571125,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 172204032
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7602176
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 22.2717644,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 172265472
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7602176
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 23.282132,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 172531712
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7602176
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 24.2976711,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 172531712
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7602176
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 25.3114566,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 172535808
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7602176
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 26.3262197,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 172535808
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7602176
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 27.3405881,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 172535808
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7602176
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 28.3532415,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 172535808
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7602176
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 29.3645453,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 172670976
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7602176
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 30.3929597,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 172658688
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 31.4068509,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 172662784
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 32.4195344,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 172736512
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 33.4294353,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 172806144
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 34.4439598,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 172937216
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 35.4578315,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 172937216
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 36.4713255,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 173072384
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 37.4832331,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 173215744
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 38.4936061,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 173215744
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 39.5070527,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 173359104
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 40.5300483,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 173359104
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 41.545465,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 173363200
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 42.558749,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 173633536
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 43.5622831,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 173633536
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 44.5766633,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 173637632
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 45.5847885,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 173903872
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 46.5943781,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 173985792
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 47.6058958,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 174051328
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 48.6129974,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 174190592
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 49.6248752,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 174592000
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 50.6573328,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 174596096
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 51.6708005,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 174596096
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 52.6808882,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 174604288
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 53.6960451,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 174612480
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 54.6971697,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 174612480
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 55.6986245,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 175022080
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 56.7092755,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 175022080
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 57.7146243,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 175030272
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 58.715518,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 175030272
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 59.7272454,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 175038464
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 60.7505087,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 175235072
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 61.7578449,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 175456256
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 62.7696446,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 175726592
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 63.7841781,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 175869952
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 64.7877492,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 175874048
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 65.8027314,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 175874048
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 66.8149925,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 176144384
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 67.8249902,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 176144384
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 68.8289302,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 176152576
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 69.8427182,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 176152576
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 70.8700289,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 176295936
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 71.8830651,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 176562176
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 72.8846179,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 176570368
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 73.8865639,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 176570368
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 74.8961043,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 176578560
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 75.9078977,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 176586752
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 76.923921,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 176852992
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 77.9349674,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 176984064
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 78.9369096,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 176984064
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 79.9412305,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 176992256
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 80.9715347,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 176992256
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 81.9816223,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 177266688
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 82.9901195,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 177266688
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 84.0027749,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 177274880
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 85.0167333,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 177410048
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 86.0318533,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 177418240
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 87.0468763,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 177426432
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 88.0614518,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 177836032
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 89.0767404,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 177844224
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 90.1118955,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 177844224
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 91.1208058,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 178221056
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 92.1347475,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 178360320
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 93.1370298,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 178626560
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 94.1501733,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 178626560
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 95.1616568,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 178626560
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 96.1763837,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 178626560
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 97.1888643,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 178626560
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 98.1926879,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 178892800
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 99.206184,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 178892800
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 100.2369402,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 179027968
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 101.2479344,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 179027968
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 102.2582662,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 179027968
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 103.2740768,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 179294208
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 104.2858295,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 179294208
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 105.3006275,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 179294208
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 106.3045845,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 179294208
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 107.3179125,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 179429376
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 108.3272391,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 179695616
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 109.3378476,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 179695616
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 110.3633029,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 179695616
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 111.3760976,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 179961856
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 112.391098,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 179961856
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 113.4039826,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 180228096
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 114.4181691,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 180232192
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 115.4218671,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 180367360
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 116.4350572,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 180498432
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 117.4356242,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 180498432
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 118.4381943,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 180764672
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 119.452291,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 180764672
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 120.4852282,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 180826112
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 121.494534,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 180826112
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 122.5063683,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 180961280
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 123.5091969,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 181211136
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 124.5182698,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 181211136
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 125.5340891,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 181342208
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 126.5449069,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 181342208
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 127.554519,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 181342208
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 128.5553327,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 181608448
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 129.5683823,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 181608448
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 130.5889863,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 181878784
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 131.5967416,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 181878784
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 132.6095732,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 181886976
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 133.623819,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 181886976
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 134.635519,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 182099968
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 135.6377291,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 182099968
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 136.6388915,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 182235136
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 137.6517541,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 182235136
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 138.6641338,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 182235136
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 139.6795782,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 182235136
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 140.7104529,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 182370304
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 141.7247094,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 182370304
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 142.7335872,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 182370304
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 143.7443969,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 182505472
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 144.7491721,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 182505472
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 145.7611973,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 182779904
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 146.7744064,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 182779904
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7630848
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 147.7879228,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 182788096
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7774208
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 148.7899433,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 182788096
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7774208
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 149.8054189,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 183336960
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7774208
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 150.8388985,
+      "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "background_top_cpu": [
+        {
+          "process": "AbyssExpedition",
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 183332864
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7774208
+        },
+        {
+          "process": "conhost",
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7581696
+        }
+      ]
+    }
+  ]
+}

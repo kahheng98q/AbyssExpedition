@@ -10,7 +10,11 @@ func _initialize() -> void:
 func capture(name_value: String) -> void:
 	await process_frame
 	await RenderingServer.frame_post_draw
-	if root.get_texture().get_image().save_png("res://screenshots/m2-" + name_value + ".png") != OK: failures += 1
+	var capture_path = "res://screenshots/m2-" + name_value + ".png"
+	var args = OS.get_cmdline_user_args()
+	if args.has("--captures"):
+		capture_path = args[args.find("--captures") + 1].path_join("m2-" + name_value + ".png")
+	if root.get_texture().get_image().save_png(capture_path) != OK: failures += 1
 
 func layout(screen, name_value: String) -> void:
 	await process_frame
@@ -84,6 +88,7 @@ func run() -> void:
 		if not app.writer.mutate(capped, app.writer.revision(), app.writer.operation_id()): failures += 1
 		app.mount_run(RunStartSnapshot.new(101, &"aren"))
 		app.run.set_physics_process(false)
+		app.set_window_focused(true) # Controlled fixture; physical focus tested separately.
 		app.run.clock.tick = 3600
 		app.run.finish("victory")
 		await process_frame
@@ -91,6 +96,9 @@ func run() -> void:
 		await capture("cap-results-" + str(dimensions.x))
 		print("GRAPHICAL M2 window=%s actual=%s roster / 3 visual previews / 6 branch combat / followers / downing / actual XP caps" % [dimensions, DisplayServer.window_get_size()])
 	app.free()
+	# Let the native mixer retire stopped playbacks before process shutdown.
+	var mixer_cleanup_deadline = Time.get_ticks_msec()+250
+	while Time.get_ticks_msec()<mixer_cleanup_deadline: await process_frame
 	await process_frame
 	paused = false
 	for error in error_capture.snapshot():

@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-20",
+  "files": {
+    "project.godot": "eccebaf1ce3173c36846745f9877865784d6ff2a9d27d940326cc819a3c88a5a",
+    "tests/fixtures/pacing_observer.gd": "c393542ee304f3c36509286b68b91da0509d32368835df68dbc68fe9e4da8cd8",
+    "tests/fixtures/pacing_session.gd": "767d4de4580f8e6f8618d246d3ea4b62d4931be7cf732a43d30283ab3d3cfdb2",
+    "tests/integration/test_pacing.gd": "d7899fb5d61316b3aeeb59ce8208b9877063795b8cee5b82d0a8354e17b16dfa",
+    "tests/integration/test_replay.gd": "90f0ea300a44687d242dea2ae4245baed51fa4c628d0423f5bb5603338bf6719",
+    "tests/performance/benchmark_capture.gd": "7f77b03b597df2acbb2ab0ece420a092bc15c44ec5e214301820323969631c85",
+    "tests/unit/test_benchmark_contract.gd": "fe7916cc03a3a687c03f2908520c65a3a9db31145ce09f8c2529db5feea0bb2e",
+    "tools/validate_pacing_audio.ps1": "94affe6ea4dcd9beac4aa483345e6188391f4f20c852bd06dfe0c785fc6b1544",
+    "tools/pacing_benchmark_contract.ps1": "8c849c72b045a55b7c6db00019f4abe4f407b9a5d9f1c61d3dac194771b0e04e",
+    "tools/test_pacing_benchmark.ps1": "db305ed4ebca99a5ac6da229e998a92422fdbd8217380b5ddccdf63dcb5953f0"
+  },
+  "play_debug_current_source": "Play Debug.cmd uses pinned tools/godot-4.5 and --path current workspace",
+  "gameplay_rules_changed": false
+}

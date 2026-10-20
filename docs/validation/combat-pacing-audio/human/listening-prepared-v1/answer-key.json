@@ -1,0 +1,724 @@
+{
+  "status": "prepared, no participants or answers recorded",
+  "private_order_seed": 20261019,
+  "participants": {
+    "P01": [
+      {
+        "question": 1,
+        "category": "hit",
+        "profession": "",
+        "cue": "hit",
+        "sha256": "1d4cf2a1e305a4ee5c916dfef9bd6b10c43a391f85c91e54a00d7adbb9b52833"
+      },
+      {
+        "question": 2,
+        "category": "level",
+        "profession": "",
+        "cue": "level",
+        "sha256": "5c68cd35644b011e5e8d58eff87c631a3565ad9f0bc7382aa46f03ff0b87c077"
+      },
+      {
+        "question": 3,
+        "category": "attack",
+        "profession": "bow",
+        "cue": "attack_straight",
+        "sha256": "851f5ec7735ec0f94e888820a0bcdb5452877dd746f9d000e4436fd960a418f0"
+      },
+      {
+        "question": 4,
+        "category": "kill",
+        "profession": "",
+        "cue": "kill",
+        "sha256": "f05b19f909d1f4e7bdc9eef99718a0113d3e1f50d6982c6f6dd6b53e30379144"
+      },
+      {
+        "question": 5,
+        "category": "hit",
+        "profession": "",
+        "cue": "hit",
+        "sha256": "1d4cf2a1e305a4ee5c916dfef9bd6b10c43a391f85c91e54a00d7adbb9b52833"
+      },
+      {
+        "question": 6,
+        "category": "level",
+        "profession": "",
+        "cue": "level",
+        "sha256": "5c68cd35644b011e5e8d58eff87c631a3565ad9f0bc7382aa46f03ff0b87c077"
+      },
+      {
+        "question": 7,
+        "category": "attack",
+        "profession": "mage",
+        "cue": "attack_homing",
+        "sha256": "33cda6b61142d774ebdc2b0d25d9f2da220758053c8bab3be69a3dd6378b8940"
+      },
+      {
+        "question": 8,
+        "category": "hit",
+        "profession": "",
+        "cue": "hit",
+        "sha256": "1d4cf2a1e305a4ee5c916dfef9bd6b10c43a391f85c91e54a00d7adbb9b52833"
+      },
+      {
+        "question": 9,
+        "category": "attack",
+        "profession": "sword",
+        "cue": "attack_arc",
+        "sha256": "036efd04087659a0ed95f88a1a8b52dd7c43ee3855c20353c6ea543994995a49"
+      },
+      {
+        "question": 10,
+        "category": "attack",
+        "profession": "bow",
+        "cue": "attack_straight",
+        "sha256": "851f5ec7735ec0f94e888820a0bcdb5452877dd746f9d000e4436fd960a418f0"
+      },
+      {
+        "question": 11,
+        "category": "level",
+        "profession": "",
+        "cue": "level",
+        "sha256": "5c68cd35644b011e5e8d58eff87c631a3565ad9f0bc7382aa46f03ff0b87c077"
+      },
+      {
+        "question": 12,
+        "category": "hit",
+        "profession": "",
+        "cue": "hit",
+        "sha256": "1d4cf2a1e305a4ee5c916dfef9bd6b10c43a391f85c91e54a00d7adbb9b52833"
+      },
+      {
+        "question": 13,
+        "category": "kill",
+        "profession": "",
+        "cue": "kill",
+        "sha256": "f05b19f909d1f4e7bdc9eef99718a0113d3e1f50d6982c6f6dd6b53e30379144"
+      },
+      {
+        "question": 14,
+        "category": "kill",
+        "profession": "",
+        "cue": "kill",
+        "sha256": "f05b19f909d1f4e7bdc9eef99718a0113d3e1f50d6982c6f6dd6b53e30379144"
+      },
+      {
+        "question": 15,
+        "category": "level",
+        "profession": "",
+        "cue": "level",
+        "sha256": "5c68cd35644b011e5e8d58eff87c631a3565ad9f0bc7382aa46f03ff0b87c077"
+      },
+      {
+        "question": 16,
+        "category": "attack",
+        "profession": "sword",
+        "cue": "attack_arc",
+        "sha256": "036efd04087659a0ed95f88a1a8b52dd7c43ee3855c20353c6ea543994995a49"
+      },
+      {
+        "question": 17,
+        "category": "level",
+        "profession": "",
+        "cue": "level",
+        "sha256": "5c68cd35644b011e5e8d58eff87c631a3565ad9f0bc7382aa46f03ff0b87c077"
+      },
+      {
+        "question": 18,
+        "category": "hit",
+        "profession": "",
+        "cue": "hit",
+        "sha256": "1d4cf2a1e305a4ee5c916dfef9bd6b10c43a391f85c91e54a00d7adbb9b52833"
+      },
+      {
+        "question": 19,
+        "category": "kill",
+        "profession": "",
+        "cue": "kill",
+        "sha256": "f05b19f909d1f4e7bdc9eef99718a0113d3e1f50d6982c6f6dd6b53e30379144"
+      },
+      {
+        "question": 20,
+        "category": "kill",
+        "profession": "",
+        "cue": "kill",
+        "sha256": "f05b19f909d1f4e7bdc9eef99718a0113d3e1f50d6982c6f6dd6b53e30379144"
+      }
+    ],
+    "P02": [
+      {
+        "question": 1,
+        "category": "attack",
+        "profession": "bow",
+        "cue": "attack_straight",
+        "sha256": "851f5ec7735ec0f94e888820a0bcdb5452877dd746f9d000e4436fd960a418f0"
+      },
+      {
+        "question": 2,
+        "category": "hit",
+        "profession": "",
+        "cue": "hit",
+        "sha256": "1d4cf2a1e305a4ee5c916dfef9bd6b10c43a391f85c91e54a00d7adbb9b52833"
+      },
+      {
+        "question": 3,
+        "category": "kill",
+        "profession": "",
+        "cue": "kill",
+        "sha256": "f05b19f909d1f4e7bdc9eef99718a0113d3e1f50d6982c6f6dd6b53e30379144"
+      },
+      {
+        "question": 4,
+        "category": "attack",
+        "profession": "mage",
+        "cue": "attack_homing",
+        "sha256": "33cda6b61142d774ebdc2b0d25d9f2da220758053c8bab3be69a3dd6378b8940"
+      },
+      {
+        "question": 5,
+        "category": "kill",
+        "profession": "",
+        "cue": "kill",
+        "sha256": "f05b19f909d1f4e7bdc9eef99718a0113d3e1f50d6982c6f6dd6b53e30379144"
+      },
+      {
+        "question": 6,
+        "category": "level",
+        "profession": "",
+        "cue": "level",
+        "sha256": "5c68cd35644b011e5e8d58eff87c631a3565ad9f0bc7382aa46f03ff0b87c077"
+      },
+      {
+        "question": 7,
+        "category": "attack",
+        "profession": "sword",
+        "cue": "attack_arc",
+        "sha256": "036efd04087659a0ed95f88a1a8b52dd7c43ee3855c20353c6ea543994995a49"
+      },
+      {
+        "question": 8,
+        "category": "level",
+        "profession": "",
+        "cue": "level",
+        "sha256": "5c68cd35644b011e5e8d58eff87c631a3565ad9f0bc7382aa46f03ff0b87c077"
+      },
+      {
+        "question": 9,
+        "category": "hit",
+        "profession": "",
+        "cue": "hit",
+        "sha256": "1d4cf2a1e305a4ee5c916dfef9bd6b10c43a391f85c91e54a00d7adbb9b52833"
+      },
+      {
+        "question": 10,
+        "category": "hit",
+        "profession": "",
+        "cue": "hit",
+        "sha256": "1d4cf2a1e305a4ee5c916dfef9bd6b10c43a391f85c91e54a00d7adbb9b52833"
+      },
+      {
+        "question": 11,
+        "category": "hit",
+        "profession": "",
+        "cue": "hit",
+        "sha256": "1d4cf2a1e305a4ee5c916dfef9bd6b10c43a391f85c91e54a00d7adbb9b52833"
+      },
+      {
+        "question": 12,
+        "category": "attack",
+        "profession": "bow",
+        "cue": "attack_straight",
+        "sha256": "851f5ec7735ec0f94e888820a0bcdb5452877dd746f9d000e4436fd960a418f0"
+      },
+      {
+        "question": 13,
+        "category": "kill",
+        "profession": "",
+        "cue": "kill",
+        "sha256": "f05b19f909d1f4e7bdc9eef99718a0113d3e1f50d6982c6f6dd6b53e30379144"
+      },
+      {
+        "question": 14,
+        "category": "kill",
+        "profession": "",
+        "cue": "kill",
+        "sha256": "f05b19f909d1f4e7bdc9eef99718a0113d3e1f50d6982c6f6dd6b53e30379144"
+      },
+      {
+        "question": 15,
+        "category": "hit",
+        "profession": "",
+        "cue": "hit",
+        "sha256": "1d4cf2a1e305a4ee5c916dfef9bd6b10c43a391f85c91e54a00d7adbb9b52833"
+      },
+      {
+        "question": 16,
+        "category": "level",
+        "profession": "",
+        "cue": "level",
+        "sha256": "5c68cd35644b011e5e8d58eff87c631a3565ad9f0bc7382aa46f03ff0b87c077"
+      },
+      {
+        "question": 17,
+        "category": "level",
+        "profession": "",
+        "cue": "level",
+        "sha256": "5c68cd35644b011e5e8d58eff87c631a3565ad9f0bc7382aa46f03ff0b87c077"
+      },
+      {
+        "question": 18,
+        "category": "attack",
+        "profession": "sword",
+        "cue": "attack_arc",
+        "sha256": "036efd04087659a0ed95f88a1a8b52dd7c43ee3855c20353c6ea543994995a49"
+      },
+      {
+        "question": 19,
+        "category": "kill",
+        "profession": "",
+        "cue": "kill",
+        "sha256": "f05b19f909d1f4e7bdc9eef99718a0113d3e1f50d6982c6f6dd6b53e30379144"
+      },
+      {
+        "question": 20,
+        "category": "level",
+        "profession": "",
+        "cue": "level",
+        "sha256": "5c68cd35644b011e5e8d58eff87c631a3565ad9f0bc7382aa46f03ff0b87c077"
+      }
+    ],
+    "P03": [
+      {
+        "question": 1,
+        "category": "level",
+        "profession": "",
+        "cue": "level",
+        "sha256": "5c68cd35644b011e5e8d58eff87c631a3565ad9f0bc7382aa46f03ff0b87c077"
+      },
+      {
+        "question": 2,
+        "category": "level",
+        "profession": "",
+        "cue": "level",
+        "sha256": "5c68cd35644b011e5e8d58eff87c631a3565ad9f0bc7382aa46f03ff0b87c077"
+      },
+      {
+        "question": 3,
+        "category": "attack",
+        "profession": "mage",
+        "cue": "attack_homing",
+        "sha256": "33cda6b61142d774ebdc2b0d25d9f2da220758053c8bab3be69a3dd6378b8940"
+      },
+      {
+        "question": 4,
+        "category": "hit",
+        "profession": "",
+        "cue": "hit",
+        "sha256": "1d4cf2a1e305a4ee5c916dfef9bd6b10c43a391f85c91e54a00d7adbb9b52833"
+      },
+      {
+        "question": 5,
+        "category": "level",
+        "profession": "",
+        "cue": "level",
+        "sha256": "5c68cd35644b011e5e8d58eff87c631a3565ad9f0bc7382aa46f03ff0b87c077"
+      },
+      {
+        "question": 6,
+        "category": "hit",
+        "profession": "",
+        "cue": "hit",
+        "sha256": "1d4cf2a1e305a4ee5c916dfef9bd6b10c43a391f85c91e54a00d7adbb9b52833"
+      },
+      {
+        "question": 7,
+        "category": "level",
+        "profession": "",
+        "cue": "level",
+        "sha256": "5c68cd35644b011e5e8d58eff87c631a3565ad9f0bc7382aa46f03ff0b87c077"
+      },
+      {
+        "question": 8,
+        "category": "kill",
+        "profession": "",
+        "cue": "kill",
+        "sha256": "f05b19f909d1f4e7bdc9eef99718a0113d3e1f50d6982c6f6dd6b53e30379144"
+      },
+      {
+        "question": 9,
+        "category": "attack",
+        "profession": "bow",
+        "cue": "attack_straight",
+        "sha256": "851f5ec7735ec0f94e888820a0bcdb5452877dd746f9d000e4436fd960a418f0"
+      },
+      {
+        "question": 10,
+        "category": "hit",
+        "profession": "",
+        "cue": "hit",
+        "sha256": "1d4cf2a1e305a4ee5c916dfef9bd6b10c43a391f85c91e54a00d7adbb9b52833"
+      },
+      {
+        "question": 11,
+        "category": "attack",
+        "profession": "sword",
+        "cue": "attack_arc",
+        "sha256": "036efd04087659a0ed95f88a1a8b52dd7c43ee3855c20353c6ea543994995a49"
+      },
+      {
+        "question": 12,
+        "category": "kill",
+        "profession": "",
+        "cue": "kill",
+        "sha256": "f05b19f909d1f4e7bdc9eef99718a0113d3e1f50d6982c6f6dd6b53e30379144"
+      },
+      {
+        "question": 13,
+        "category": "kill",
+        "profession": "",
+        "cue": "kill",
+        "sha256": "f05b19f909d1f4e7bdc9eef99718a0113d3e1f50d6982c6f6dd6b53e30379144"
+      },
+      {
+        "question": 14,
+        "category": "attack",
+        "profession": "bow",
+        "cue": "attack_straight",
+        "sha256": "851f5ec7735ec0f94e888820a0bcdb5452877dd746f9d000e4436fd960a418f0"
+      },
+      {
+        "question": 15,
+        "category": "kill",
+        "profession": "",
+        "cue": "kill",
+        "sha256": "f05b19f909d1f4e7bdc9eef99718a0113d3e1f50d6982c6f6dd6b53e30379144"
+      },
+      {
+        "question": 16,
+        "category": "attack",
+        "profession": "sword",
+        "cue": "attack_arc",
+        "sha256": "036efd04087659a0ed95f88a1a8b52dd7c43ee3855c20353c6ea543994995a49"
+      },
+      {
+        "question": 17,
+        "category": "hit",
+        "profession": "",
+        "cue": "hit",
+        "sha256": "1d4cf2a1e305a4ee5c916dfef9bd6b10c43a391f85c91e54a00d7adbb9b52833"
+      },
+      {
+        "question": 18,
+        "category": "hit",
+        "profession": "",
+        "cue": "hit",
+        "sha256": "1d4cf2a1e305a4ee5c916dfef9bd6b10c43a391f85c91e54a00d7adbb9b52833"
+      },
+      {
+        "question": 19,
+        "category": "level",
+        "profession": "",
+        "cue": "level",
+        "sha256": "5c68cd35644b011e5e8d58eff87c631a3565ad9f0bc7382aa46f03ff0b87c077"
+      },
+      {
+        "question": 20,
+        "category": "kill",
+        "profession": "",
+        "cue": "kill",
+        "sha256": "f05b19f909d1f4e7bdc9eef99718a0113d3e1f50d6982c6f6dd6b53e30379144"
+      }
+    ],
+    "P04": [
+      {
+        "question": 1,
+        "category": "kill",
+        "profession": "",
+        "cue": "kill",
+        "sha256": "f05b19f909d1f4e7bdc9eef99718a0113d3e1f50d6982c6f6dd6b53e30379144"
+      },
+      {
+        "question": 2,
+        "category": "kill",
+        "profession": "",
+        "cue": "kill",
+        "sha256": "f05b19f909d1f4e7bdc9eef99718a0113d3e1f50d6982c6f6dd6b53e30379144"
+      },
+      {
+        "question": 3,
+        "category": "level",
+        "profession": "",
+        "cue": "level",
+        "sha256": "5c68cd35644b011e5e8d58eff87c631a3565ad9f0bc7382aa46f03ff0b87c077"
+      },
+      {
+        "question": 4,
+        "category": "kill",
+        "profession": "",
+        "cue": "kill",
+        "sha256": "f05b19f909d1f4e7bdc9eef99718a0113d3e1f50d6982c6f6dd6b53e30379144"
+      },
+      {
+        "question": 5,
+        "category": "level",
+        "profession": "",
+        "cue": "level",
+        "sha256": "5c68cd35644b011e5e8d58eff87c631a3565ad9f0bc7382aa46f03ff0b87c077"
+      },
+      {
+        "question": 6,
+        "category": "kill",
+        "profession": "",
+        "cue": "kill",
+        "sha256": "f05b19f909d1f4e7bdc9eef99718a0113d3e1f50d6982c6f6dd6b53e30379144"
+      },
+      {
+        "question": 7,
+        "category": "attack",
+        "profession": "bow",
+        "cue": "attack_straight",
+        "sha256": "851f5ec7735ec0f94e888820a0bcdb5452877dd746f9d000e4436fd960a418f0"
+      },
+      {
+        "question": 8,
+        "category": "attack",
+        "profession": "mage",
+        "cue": "attack_homing",
+        "sha256": "33cda6b61142d774ebdc2b0d25d9f2da220758053c8bab3be69a3dd6378b8940"
+      },
+      {
+        "question": 9,
+        "category": "attack",
+        "profession": "bow",
+        "cue": "attack_straight",
+        "sha256": "851f5ec7735ec0f94e888820a0bcdb5452877dd746f9d000e4436fd960a418f0"
+      },
+      {
+        "question": 10,
+        "category": "level",
+        "profession": "",
+        "cue": "level",
+        "sha256": "5c68cd35644b011e5e8d58eff87c631a3565ad9f0bc7382aa46f03ff0b87c077"
+      },
+      {
+        "question": 11,
+        "category": "attack",
+        "profession": "sword",
+        "cue": "attack_arc",
+        "sha256": "036efd04087659a0ed95f88a1a8b52dd7c43ee3855c20353c6ea543994995a49"
+      },
+      {
+        "question": 12,
+        "category": "level",
+        "profession": "",
+        "cue": "level",
+        "sha256": "5c68cd35644b011e5e8d58eff87c631a3565ad9f0bc7382aa46f03ff0b87c077"
+      },
+      {
+        "question": 13,
+        "category": "attack",
+        "profession": "sword",
+        "cue": "attack_arc",
+        "sha256": "036efd04087659a0ed95f88a1a8b52dd7c43ee3855c20353c6ea543994995a49"
+      },
+      {
+        "question": 14,
+        "category": "hit",
+        "profession": "",
+        "cue": "hit",
+        "sha256": "1d4cf2a1e305a4ee5c916dfef9bd6b10c43a391f85c91e54a00d7adbb9b52833"
+      },
+      {
+        "question": 15,
+        "category": "hit",
+        "profession": "",
+        "cue": "hit",
+        "sha256": "1d4cf2a1e305a4ee5c916dfef9bd6b10c43a391f85c91e54a00d7adbb9b52833"
+      },
+      {
+        "question": 16,
+        "category": "hit",
+        "profession": "",
+        "cue": "hit",
+        "sha256": "1d4cf2a1e305a4ee5c916dfef9bd6b10c43a391f85c91e54a00d7adbb9b52833"
+      },
+      {
+        "question": 17,
+        "category": "kill",
+        "profession": "",
+        "cue": "kill",
+        "sha256": "f05b19f909d1f4e7bdc9eef99718a0113d3e1f50d6982c6f6dd6b53e30379144"
+      },
+      {
+        "question": 18,
+        "category": "hit",
+        "profession": "",
+        "cue": "hit",
+        "sha256": "1d4cf2a1e305a4ee5c916dfef9bd6b10c43a391f85c91e54a00d7adbb9b52833"
+      },
+      {
+        "question": 19,
+        "category": "level",
+        "profession": "",
+        "cue": "level",
+        "sha256": "5c68cd35644b011e5e8d58eff87c631a3565ad9f0bc7382aa46f03ff0b87c077"
+      },
+      {
+        "question": 20,
+        "category": "hit",
+        "profession": "",
+        "cue": "hit",
+        "sha256": "1d4cf2a1e305a4ee5c916dfef9bd6b10c43a391f85c91e54a00d7adbb9b52833"
+      }
+    ],
+    "P05": [
+      {
+        "question": 1,
+        "category": "kill",
+        "profession": "",
+        "cue": "kill",
+        "sha256": "f05b19f909d1f4e7bdc9eef99718a0113d3e1f50d6982c6f6dd6b53e30379144"
+      },
+      {
+        "question": 2,
+        "category": "kill",
+        "profession": "",
+        "cue": "kill",
+        "sha256": "f05b19f909d1f4e7bdc9eef99718a0113d3e1f50d6982c6f6dd6b53e30379144"
+      },
+      {
+        "question": 3,
+        "category": "level",
+        "profession": "",
+        "cue": "level",
+        "sha256": "5c68cd35644b011e5e8d58eff87c631a3565ad9f0bc7382aa46f03ff0b87c077"
+      },
+      {
+        "question": 4,
+        "category": "level",
+        "profession": "",
+        "cue": "level",
+        "sha256": "5c68cd35644b011e5e8d58eff87c631a3565ad9f0bc7382aa46f03ff0b87c077"
+      },
+      {
+        "question": 5,
+        "category": "hit",
+        "profession": "",
+        "cue": "hit",
+        "sha256": "1d4cf2a1e305a4ee5c916dfef9bd6b10c43a391f85c91e54a00d7adbb9b52833"
+      },
+      {
+        "question": 6,
+        "category": "hit",
+        "profession": "",
+        "cue": "hit",
+        "sha256": "1d4cf2a1e305a4ee5c916dfef9bd6b10c43a391f85c91e54a00d7adbb9b52833"
+      },
+      {
+        "question": 7,
+        "category": "attack",
+        "profession": "mage",
+        "cue": "attack_homing",
+        "sha256": "33cda6b61142d774ebdc2b0d25d9f2da220758053c8bab3be69a3dd6378b8940"
+      },
+      {
+        "question": 8,
+        "category": "level",
+        "profession": "",
+        "cue": "level",
+        "sha256": "5c68cd35644b011e5e8d58eff87c631a3565ad9f0bc7382aa46f03ff0b87c077"
+      },
+      {
+        "question": 9,
+        "category": "attack",
+        "profession": "sword",
+        "cue": "attack_arc",
+        "sha256": "036efd04087659a0ed95f88a1a8b52dd7c43ee3855c20353c6ea543994995a49"
+      },
+      {
+        "question": 10,
+        "category": "kill",
+        "profession": "",
+        "cue": "kill",
+        "sha256": "f05b19f909d1f4e7bdc9eef99718a0113d3e1f50d6982c6f6dd6b53e30379144"
+      },
+      {
+        "question": 11,
+        "category": "kill",
+        "profession": "",
+        "cue": "kill",
+        "sha256": "f05b19f909d1f4e7bdc9eef99718a0113d3e1f50d6982c6f6dd6b53e30379144"
+      },
+      {
+        "question": 12,
+        "category": "level",
+        "profession": "",
+        "cue": "level",
+        "sha256": "5c68cd35644b011e5e8d58eff87c631a3565ad9f0bc7382aa46f03ff0b87c077"
+      },
+      {
+        "question": 13,
+        "category": "kill",
+        "profession": "",
+        "cue": "kill",
+        "sha256": "f05b19f909d1f4e7bdc9eef99718a0113d3e1f50d6982c6f6dd6b53e30379144"
+      },
+      {
+        "question": 14,
+        "category": "hit",
+        "profession": "",
+        "cue": "hit",
+        "sha256": "1d4cf2a1e305a4ee5c916dfef9bd6b10c43a391f85c91e54a00d7adbb9b52833"
+      },
+      {
+        "question": 15,
+        "category": "attack",
+        "profession": "bow",
+        "cue": "attack_straight",
+        "sha256": "851f5ec7735ec0f94e888820a0bcdb5452877dd746f9d000e4436fd960a418f0"
+      },
+      {
+        "question": 16,
+        "category": "attack",
+        "profession": "sword",
+        "cue": "attack_arc",
+        "sha256": "036efd04087659a0ed95f88a1a8b52dd7c43ee3855c20353c6ea543994995a49"
+      },
+      {
+        "question": 17,
+        "category": "hit",
+        "profession": "",
+        "cue": "hit",
+        "sha256": "1d4cf2a1e305a4ee5c916dfef9bd6b10c43a391f85c91e54a00d7adbb9b52833"
+      },
+      {
+        "question": 18,
+        "category": "attack",
+        "profession": "bow",
+        "cue": "attack_straight",
+        "sha256": "851f5ec7735ec0f94e888820a0bcdb5452877dd746f9d000e4436fd960a418f0"
+      },
+      {
+        "question": 19,
+        "category": "hit",
+        "profession": "",
+        "cue": "hit",
+        "sha256": "1d4cf2a1e305a4ee5c916dfef9bd6b10c43a391f85c91e54a00d7adbb9b52833"
+      },
+      {
+        "question": 20,
+        "category": "level",
+        "profession": "",
+        "cue": "level",
+        "sha256": "5c68cd35644b011e5e8d58eff87c631a3565ad9f0bc7382aa46f03ff0b87c077"
+      }
+    ]
+  },
+  "original_hashes": {
+    "attack_arc": "036efd04087659a0ed95f88a1a8b52dd7c43ee3855c20353c6ea543994995a49",
+    "attack_straight": "851f5ec7735ec0f94e888820a0bcdb5452877dd746f9d000e4436fd960a418f0",
+    "attack_homing": "33cda6b61142d774ebdc2b0d25d9f2da220758053c8bab3be69a3dd6378b8940",
+    "hit": "1d4cf2a1e305a4ee5c916dfef9bd6b10c43a391f85c91e54a00d7adbb9b52833",
+    "kill": "f05b19f909d1f4e7bdc9eef99718a0113d3e1f50d6982c6f6dd6b53e30379144",
+    "level": "5c68cd35644b011e5e8d58eff87c631a3565ad9f0bc7382aa46f03ff0b87c077"
+  }
+}

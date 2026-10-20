@@ -6,9 +6,15 @@ extends Resource
 @export var hero_footprint: float = 16.0
 @export var spawn_warning_ticks: int = 45
 @export var separation: float = 96.0
+# Invalid sentinels make omitted authored fields fail the content gate.
+@export var opening_radius_min: float = NAN
+@export var opening_radius_max: float = NAN
+@export var opening_attempts: int = -1
 @export var collision_scene: PackedScene
 
 func validate() -> String:
 	if not is_finite(hero_footprint) or hero_footprint != 16 or not is_finite(separation): return "invalid field footprint/separation"
-	if bounds != Rect2(0, 0, 960, 540) or spawn_warning_ticks < 45 or separation < 96: return "invalid M1 field"
+	if bounds != Rect2(0, 0, 960, 540) or spawn_warning_ticks != 45 or separation != 96: return "invalid M1 field"
+	if not is_finite(opening_radius_min) or not is_finite(opening_radius_max): return "missing/nonfinite opening radius"
+	if opening_radius_min != 128.0 or opening_radius_max != 160.0 or opening_attempts != 16: return "invalid opening contract"
 	return ""

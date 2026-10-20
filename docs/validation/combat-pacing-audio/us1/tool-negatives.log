@@ -1,0 +1,4 @@
+audio-unimplemented: REJECT: Audio is not implemented yet; no acceptance result was produced.
+benchmark-unimplemented: REJECT: Benchmark is not implemented yet; no acceptance result was produced.
+replay-missing-input: REJECT: Replay requires -InputDirectory.
+unknown-parameter: REJECT: A parameter cannot be found that matches parameter name 'Unknown'.

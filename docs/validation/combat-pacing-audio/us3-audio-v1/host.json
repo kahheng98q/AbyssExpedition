@@ -1,0 +1,11 @@
+{
+  "mode": "Audio",
+  "build_hash": "b1c11f65021d17577695b1267b3f2b13df845afb9b3cad8b0cf3ce3ee3f383fb",
+  "fixture_hash": "feb071e465d23b2fe6d97a03d0b59dee7955ca10dd0c3a1e6c37e7adb4ce4843",
+  "engine": "4.5.stable.official.876b29033",
+  "loopback": "WASAPI shared render endpoint; raw native samples",
+  "listening_acceptance": "not executed",
+  "audio_fixture_sha256": "1ee29f829762829c36cbe16d098b99ec3f34bc5b7069e711558db8dfc019f228",
+  "loopback_fixture_sha256": "9f6f23ce6a112ae9daa1b7465860587aebe6c478d10cef779a4a64f6d57b19d7",
+  "note": "Fixture hashes added after capture from unchanged fixture source; native loopback format and system volume are retained in loopback.json. Listening not performed."
+}

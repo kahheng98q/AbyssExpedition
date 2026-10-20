@@ -20,5 +20,8 @@ limit_top = 0
 limit_right = 960
 limit_bottom = 540
 position_smoothing_enabled = false
+[node name="OpeningWarnings" type="CanvasLayer" parent="."]
+layer = 2
+follow_viewport_enabled = true
 [node name="HUD" type="CanvasLayer" parent="."]
 [node name="CombatHUD" parent="HUD" instance=ExtResource("3")]

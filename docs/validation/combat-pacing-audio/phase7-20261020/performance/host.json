@@ -1,0 +1,12 @@
+{
+  "mode": "Benchmark",
+  "seed": 101,
+  "build_hash": "fa5614aab670a76126d66d13894ff2481e00e9a85199d18277f2e0dd5a30dfd3",
+  "release_sha256": "DB93EAFCD5B81B533DEC88BEDFEB76EC5464644E160B7E867B90079FB30E0D0E",
+  "fixture_sha256": "7F77B03B597DF2ACBB2AB0ECE420A092BC15C44EC5E214301820323969631C85",
+  "power_mode": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+  "foreground": "per-render-frame Window.has_focus observations in each summary",
+  "background_load": "approximately 1s process CPU delta/working-set observations in per-run environment.json; no independent GPU observation",
+  "diagnostic": false,
+  "normalization_applied": false
+}

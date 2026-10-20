@@ -1,0 +1,11 @@
+{
+  "capture_valid": true,
+  "same_final_workload": true,
+  "same_machine_target": true,
+  "enabled_budget_pass": true,
+  "sc007_sample_pass": true,
+  "human_or_reference_acceptance": false,
+  "diagnostic": false,
+  "errors": [],
+  "environment_observed": true
+}

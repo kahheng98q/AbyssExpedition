@@ -9,7 +9,7 @@ func run(t) -> void:
 	run.hero.health.current = 73
 	run.progression.xp = 55
 	run.state_changed.emit()
-	t.check(hud.values.text.contains("73 / 250") and hud.values.text.contains("55 / 100") and hud.values.text.contains("09:00") and hud.values.text.contains("101"), "HUD matches authoritative HP XP time seed")
+	t.check(hud.values.text.contains("73 / 250") and hud.xp_label.text.contains("55 / 100") and hud.clock_label.text.contains("09:00") and hud.seed_label.text.contains("101"), "visible HUD regions match authoritative HP XP time seed")
 	run.progression.collect_xp(1, 100)
 	run.choices.present(run)
 	var screen = f.catalog.scene("level_up").instantiate()

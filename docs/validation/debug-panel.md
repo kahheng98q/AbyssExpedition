@@ -1,5 +1,7 @@
 # Developer Debug Panel validation — 2026-10-14
 
+> 最新保护性修复（2026-10-18）：[DEV/F9、跨界面与常规回归](debug-protected-20261018.md)。源码原生126项、源码及实际Debug图形各118项、实际新Release禁用41项通过；首轮4551失败保留为历史，物理键鼠烟测待人工验收。下文保留历史结果。
+
 > 后续验证：本页为历史交付记录。当前 M4 源码与新调试/发布导出的 69 条原生、三尺寸图形及 20 条发布禁用检查见[本次完整验证](verification-2026-10-15.md)。
 
 Implemented user-requested developer tooling only. Engine: 4.5.stable.official.876b29033 with matching Windows debug/release templates. No milestone-3/4 systems or third-party dependencies. No AGENTS.md was found. The workspace is not a Git repository.

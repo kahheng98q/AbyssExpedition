@@ -7,4 +7,9 @@ phases = Array[Dictionary]([
 {"start": 7200, "end": 14400, "count": 6, "ids": ["saltbound_thrall", "skittering_brinejaw"], "weights": [70, 30], "introduce": ["skittering_brinejaw"]},
 {"start": 14400, "end": 21600, "count": 8, "ids": ["saltbound_thrall", "skittering_brinejaw", "lantern_cantor"], "weights": [50, 25, 25], "introduce": ["lantern_cantor"]},
 {"start": 21600, "end": 28800, "count": 10, "ids": ["saltbound_thrall", "skittering_brinejaw", "lantern_cantor", "shellbound_husk"], "weights": [40, 20, 20, 20], "introduce": ["shellbound_husk"]},
-{"start": 28800, "end": 32400, "count": 12, "ids": ["saltbound_thrall", "skittering_brinejaw", "lantern_cantor", "shellbound_husk", "reef_broodmother"], "weights": [30, 20, 20, 20, 10], "introduce": ["reef_broodmother"]}])
+{"start": 28800, "end": 32400, "count": 12, "ids": ["saltbound_thrall", "skittering_brinejaw", "lantern_cantor", "shellbound_husk", "reef_broodmother"], "weights": [30, 20, 20, 20, 10], "introduce": ["reef_broodmother"]}])opening_segments = Array[Dictionary]([
+{"start": 0, "end": 1800, "slots": ["saltbound_thrall", "saltbound_thrall", "saltbound_thrall", "saltbound_thrall"]},
+{"start": 1800, "end": 3600, "slots": ["saltbound_thrall", "saltbound_thrall", "saltbound_thrall", "skittering_brinejaw"]},
+{"start": 3600, "end": 5400, "slots": ["saltbound_thrall", "saltbound_thrall", "saltbound_thrall", "lantern_cantor"]},
+{"start": 5400, "end": 6600, "slots": ["saltbound_thrall", "saltbound_thrall", "saltbound_thrall", "saltbound_thrall"]},
+{"start": 6600, "end": 7200, "slots": ["saltbound_thrall", "saltbound_thrall", "skittering_brinejaw", "lantern_cantor"]}])

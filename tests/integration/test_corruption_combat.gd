@@ -2,6 +2,34 @@ extends RefCounted
 const Fixture = preload("res://tests/fixtures/run_fixture.gd")
 
 func run(t) -> void:
+	var opening_catalog = ContentCatalog.new()
+	t.root.add_child(opening_catalog)
+	t.check(opening_catalog.load_all(), "opening corruption catalog")
+	for tick in [0, 1800, 3600, 5400, 6600]:
+		for threshold in [0, 24, 25, 49, 50, 75, 99, 100]:
+			var corruption = CorruptionService.new()
+			corruption.add(threshold)
+			var modifiers = corruption.modifiers()
+			var plain_rng = SeedStreams.new(101).stream("wave_types")
+			var brood_rng = SeedStreams.new(101).stream("wave_types")
+			var reference_rng = SeedStreams.new(101).stream("wave_types")
+			for sample in 20:
+				var plain = opening_catalog.waves.composition(tick, plain_rng, {"count": modifiers.count})
+				var changed = opening_catalog.waves.composition(tick, brood_rng, modifiers)
+				var count = ceili(4 * modifiers.count)
+				t.check(plain.size() == count and changed.size() == count, "opening count ceil once")
+				var expected_b = 1 if tick in [1800, 6600] else 0
+				var expected_c = 1 if tick in [3600, 6600] else 0
+				t.check(plain.count(&"skittering_brinejaw") == expected_b and changed.count(&"skittering_brinejaw") == expected_b and plain.count(&"lantern_cantor") == expected_c and changed.count(&"lantern_cantor") == expected_c, "extra slots remainThrall and corruption never replaces B/C")
+				var thralls = count - expected_b - expected_c
+				var expected_mothers = 0
+				for index in count:
+					var roll = reference_rng.randi_range(0, 10 * thralls - 1)
+					var is_thrall = index < 4 - expected_b - expected_c or index >= 4
+					if modifiers.brood and is_thrall and roll < count: expected_mothers += 1
+				t.check(changed.count(&"reef_broodmother") == expected_mothers, "exact total-share integer threshold")
+				t.check(plain_rng.state == brood_rng.state and brood_rng.state == reference_rng.state, "brood flag preserves one RNG draw per slot")
+	opening_catalog.free()
 	# Corruption may introduce mothers before their baseline eight-minute phase.
 	for phase_tick in [600, 7800, 15000, 22200, 29400]:
 		for threshold in [49, 50, 75, 100]:

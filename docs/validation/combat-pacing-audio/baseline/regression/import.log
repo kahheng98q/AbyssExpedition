@@ -1,0 +1,719 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Project initialization (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Scanning file structure...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Loading global class names...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verifying GDExtensions...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Creating autoload scripts...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initializing plugins...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Starting file scan...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1m_update_scan_actions[22m | Started Scanning actions... (229 steps)[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | debug-1280-promotion.png[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | debug-1280-tab-0-bottom.png[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | debug-1280-tab-0.png[39m[0m
+[   1% ] [90m[1m_update_scan_actions[22m | debug-1280-tab-1-bottom.png[39m[0m
+[   1% ] [90m[1m_update_scan_actions[22m | debug-1280-tab-1.png[39m[0m
+[   2% ] [90m[1m_update_scan_actions[22m | debug-1280-tab-2-bottom.png[39m[0m
+[   2% ] [90m[1m_update_scan_actions[22m | debug-1280-tab-2.png[39m[0m
+[   3% ] [90m[1m_update_scan_actions[22m | debug-1280-tab-3-bottom.png[39m[0m
+[   3% ] [90m[1m_update_scan_actions[22m | debug-1280-tab-3.png[39m[0m
+[   3% ] [90m[1m_update_scan_actions[22m | debug-1371-promotion.png[39m[0m
+[   4% ] [90m[1m_update_scan_actions[22m | debug-1371-tab-0-bottom.png[39m[0m
+[   4% ] [90m[1m_update_scan_actions[22m | debug-1371-tab-0.png[39m[0m
+[   5% ] [90m[1m_update_scan_actions[22m | debug-1371-tab-1-bottom.png[39m[0m
+[   5% ] [90m[1m_update_scan_actions[22m | debug-1371-tab-1.png[39m[0m
+[   6% ] [90m[1m_update_scan_actions[22m | debug-1371-tab-2-bottom.png[39m[0m
+[   6% ] [90m[1m_update_scan_actions[22m | debug-1371-tab-2.png[39m[0m
+[   6% ] [90m[1m_update_scan_actions[22m | debug-1371-tab-3-bottom.png[39m[0m
+[   7% ] [90m[1m_update_scan_actions[22m | debug-1371-tab-3.png[39m[0m
+[   7% ] [90m[1m_update_scan_actions[22m | debug-1920-promotion.png[39m[0m
+[   8% ] [90m[1m_update_scan_actions[22m | debug-1920-tab-0-bottom.png[39m[0m
+[   8% ] [90m[1m_update_scan_actions[22m | debug-1920-tab-0.png[39m[0m
+[   9% ] [90m[1m_update_scan_actions[22m | debug-1920-tab-1-bottom.png[39m[0m
+[   9% ] [90m[1m_update_scan_actions[22m | debug-1920-tab-1.png[39m[0m
+[  10% ] [90m[1m_update_scan_actions[22m | debug-1920-tab-2-bottom.png[39m[0m
+[  10% ] [90m[1m_update_scan_actions[22m | debug-1920-tab-2.png[39m[0m
+[  10% ] [90m[1m_update_scan_actions[22m | debug-1920-tab-3-bottom.png[39m[0m
+[  11% ] [90m[1m_update_scan_actions[22m | debug-1920-tab-3.png[39m[0m
+[  11% ] [90m[1m_update_scan_actions[22m | debug-access-combat.png[39m[0m
+[  12% ] [90m[1m_update_scan_actions[22m | debug-access-menu.png[39m[0m
+[  12% ] [90m[1m_update_scan_actions[22m | debug-promoted-party-combat.png[39m[0m
+[  13% ] [90m[1m_update_scan_actions[22m | debug-xp-level-buttons.png[39m[0m
+[  13% ] [90m[1m_update_scan_actions[22m | debug-xp-level-hud.png[39m[0m
+[  13% ] [90m[1m_update_scan_actions[22m | graphical-boss-circle-0.png[39m[0m
+[  14% ] [90m[1m_update_scan_actions[22m | graphical-boss-circle-1.png[39m[0m
+[  14% ] [90m[1m_update_scan_actions[22m | graphical-boss-circle-2.png[39m[0m
+[  15% ] [90m[1m_update_scan_actions[22m | graphical-boss-cone-0.png[39m[0m
+[  15% ] [90m[1m_update_scan_actions[22m | graphical-boss-cone-1.png[39m[0m
+[  16% ] [90m[1m_update_scan_actions[22m | graphical-boss-cone-2.png[39m[0m
+[  16% ] [90m[1m_update_scan_actions[22m | graphical-choice-0.png[39m[0m
+[  16% ] [90m[1m_update_scan_actions[22m | graphical-choice-1.png[39m[0m
+[  17% ] [90m[1m_update_scan_actions[22m | graphical-choice-2.png[39m[0m
+[  17% ] [90m[1m_update_scan_actions[22m | graphical-combat-0.png[39m[0m
+[  18% ] [90m[1m_update_scan_actions[22m | graphical-combat-1.png[39m[0m
+[  18% ] [90m[1m_update_scan_actions[22m | graphical-combat-2.png[39m[0m
+[  19% ] [90m[1m_update_scan_actions[22m | graphical-menu.png[39m[0m
+[  19% ] [90m[1m_update_scan_actions[22m | graphical-pause-0.png[39m[0m
+[  20% ] [90m[1m_update_scan_actions[22m | graphical-pause-1.png[39m[0m
+[  20% ] [90m[1m_update_scan_actions[22m | graphical-pause-2.png[39m[0m
+[  20% ] [90m[1m_update_scan_actions[22m | graphical-results-0.png[39m[0m
+[  21% ] [90m[1m_update_scan_actions[22m | graphical-results-1.png[39m[0m
+[  21% ] [90m[1m_update_scan_actions[22m | graphical-results-2.png[39m[0m
+[  22% ] [90m[1m_update_scan_actions[22m | graphical-selection.png[39m[0m
+[  22% ] [90m[1m_update_scan_actions[22m | m2-abyss_swordsman-1280.png[39m[0m
+[  23% ] [90m[1m_update_scan_actions[22m | m2-abyss_swordsman-1371.png[39m[0m
+[  23% ] [90m[1m_update_scan_actions[22m | m2-abyss_swordsman-1920.png[39m[0m
+[  23% ] [90m[1m_update_scan_actions[22m | m2-abyss_swordsman-downed-1280.png[39m[0m
+[  24% ] [90m[1m_update_scan_actions[22m | m2-abyss_swordsman-downed-1371.png[39m[0m
+[  24% ] [90m[1m_update_scan_actions[22m | m2-abyss_swordsman-downed-1920.png[39m[0m
+[  25% ] [90m[1m_update_scan_actions[22m | m2-cap-results-1280.png[39m[0m
+[  25% ] [90m[1m_update_scan_actions[22m | m2-cap-results-1371.png[39m[0m
+[  26% ] [90m[1m_update_scan_actions[22m | m2-cap-results-1920.png[39m[0m
+[  26% ] [90m[1m_update_scan_actions[22m | m2-elemental_sage-1280.png[39m[0m
+[  26% ] [90m[1m_update_scan_actions[22m | m2-elemental_sage-1371.png[39m[0m
+[  27% ] [90m[1m_update_scan_actions[22m | m2-elemental_sage-1920.png[39m[0m
+[  27% ] [90m[1m_update_scan_actions[22m | m2-elemental_sage-downed-1280.png[39m[0m
+[  28% ] [90m[1m_update_scan_actions[22m | m2-elemental_sage-downed-1371.png[39m[0m
+[  28% ] [90m[1m_update_scan_actions[22m | m2-elemental_sage-downed-1920.png[39m[0m
+[  29% ] [90m[1m_update_scan_actions[22m | m2-promoted-roster-abyss_swordsman-1280.png[39m[0m
+[  29% ] [90m[1m_update_scan_actions[22m | m2-promoted-roster-abyss_swordsman-1371.png[39m[0m
+[  30% ] [90m[1m_update_scan_actions[22m | m2-promoted-roster-abyss_swordsman-1920.png[39m[0m
+[  30% ] [90m[1m_update_scan_actions[22m | m2-promoted-roster-elemental_sage-1280.png[39m[0m
+[  30% ] [90m[1m_update_scan_actions[22m | m2-promoted-roster-elemental_sage-1371.png[39m[0m
+[  31% ] [90m[1m_update_scan_actions[22m | m2-promoted-roster-elemental_sage-1920.png[39m[0m
+[  31% ] [90m[1m_update_scan_actions[22m | m2-promoted-roster-sharpshooter-1280.png[39m[0m
+[  32% ] [90m[1m_update_scan_actions[22m | m2-promoted-roster-sharpshooter-1371.png[39m[0m
+[  32% ] [90m[1m_update_scan_actions[22m | m2-promoted-roster-sharpshooter-1920.png[39m[0m
+[  33% ] [90m[1m_update_scan_actions[22m | m2-promoted-roster-star_hunter-1280.png[39m[0m
+[  33% ] [90m[1m_update_scan_actions[22m | m2-promoted-roster-star_hunter-1371.png[39m[0m
+[  33% ] [90m[1m_update_scan_actions[22m | m2-promoted-roster-star_hunter-1920.png[39m[0m
+[  34% ] [90m[1m_update_scan_actions[22m | m2-promoted-roster-swordmaster-1280.png[39m[0m
+[  34% ] [90m[1m_update_scan_actions[22m | m2-promoted-roster-swordmaster-1371.png[39m[0m
+[  35% ] [90m[1m_update_scan_actions[22m | m2-promoted-roster-swordmaster-1920.png[39m[0m
+[  35% ] [90m[1m_update_scan_actions[22m | m2-promoted-roster-void_caster-1280.png[39m[0m
+[  36% ] [90m[1m_update_scan_actions[22m | m2-promoted-roster-void_caster-1371.png[39m[0m
+[  36% ] [90m[1m_update_scan_actions[22m | m2-promoted-roster-void_caster-1920.png[39m[0m
+[  36% ] [90m[1m_update_scan_actions[22m | m2-promotion-aren-1280.png[39m[0m
+[  37% ] [90m[1m_update_scan_actions[22m | m2-promotion-aren-1371.png[39m[0m
+[  37% ] [90m[1m_update_scan_actions[22m | m2-promotion-aren-1920.png[39m[0m
+[  38% ] [90m[1m_update_scan_actions[22m | m2-promotion-lia-1280.png[39m[0m
+[  38% ] [90m[1m_update_scan_actions[22m | m2-promotion-lia-1371.png[39m[0m
+[  39% ] [90m[1m_update_scan_actions[22m | m2-promotion-lia-1920.png[39m[0m
+[  39% ] [90m[1m_update_scan_actions[22m | m2-promotion-milo-1280.png[39m[0m
+[  40% ] [90m[1m_update_scan_actions[22m | m2-promotion-milo-1371.png[39m[0m
+[  40% ] [90m[1m_update_scan_actions[22m | m2-promotion-milo-1920.png[39m[0m
+[  40% ] [90m[1m_update_scan_actions[22m | m2-roster-1280.png[39m[0m
+[  41% ] [90m[1m_update_scan_actions[22m | m2-roster-1371.png[39m[0m
+[  41% ] [90m[1m_update_scan_actions[22m | m2-roster-1920.png[39m[0m
+[  42% ] [90m[1m_update_scan_actions[22m | m2-selection-1280.png[39m[0m
+[  42% ] [90m[1m_update_scan_actions[22m | m2-selection-1371.png[39m[0m
+[  43% ] [90m[1m_update_scan_actions[22m | m2-selection-1920.png[39m[0m
+[  43% ] [90m[1m_update_scan_actions[22m | m2-sharpshooter-1280.png[39m[0m
+[  43% ] [90m[1m_update_scan_actions[22m | m2-sharpshooter-1371.png[39m[0m
+[  44% ] [90m[1m_update_scan_actions[22m | m2-sharpshooter-1920.png[39m[0m
+[  44% ] [90m[1m_update_scan_actions[22m | m2-sharpshooter-downed-1280.png[39m[0m
+[  45% ] [90m[1m_update_scan_actions[22m | m2-sharpshooter-downed-1371.png[39m[0m
+[  45% ] [90m[1m_update_scan_actions[22m | m2-sharpshooter-downed-1920.png[39m[0m
+[  46% ] [90m[1m_update_scan_actions[22m | m2-star_hunter-1280.png[39m[0m
+[  46% ] [90m[1m_update_scan_actions[22m | m2-star_hunter-1371.png[39m[0m
+[  46% ] [90m[1m_update_scan_actions[22m | m2-star_hunter-1920.png[39m[0m
+[  47% ] [90m[1m_update_scan_actions[22m | m2-star_hunter-downed-1280.png[39m[0m
+[  47% ] [90m[1m_update_scan_actions[22m | m2-star_hunter-downed-1371.png[39m[0m
+[  48% ] [90m[1m_update_scan_actions[22m | m2-star_hunter-downed-1920.png[39m[0m
+[  48% ] [90m[1m_update_scan_actions[22m | m2-swordmaster-1280.png[39m[0m
+[  49% ] [90m[1m_update_scan_actions[22m | m2-swordmaster-1371.png[39m[0m
+[  49% ] [90m[1m_update_scan_actions[22m | m2-swordmaster-1920.png[39m[0m
+[  50% ] [90m[1m_update_scan_actions[22m | m2-swordmaster-downed-1280.png[39m[0m
+[  50% ] [90m[1m_update_scan_actions[22m | m2-swordmaster-downed-1371.png[39m[0m
+[  50% ] [90m[1m_update_scan_actions[22m | m2-swordmaster-downed-1920.png[39m[0m
+[  51% ] [90m[1m_update_scan_actions[22m | m2-void_caster-1280.png[39m[0m
+[  51% ] [90m[1m_update_scan_actions[22m | m2-void_caster-1371.png[39m[0m
+[  52% ] [90m[1m_update_scan_actions[22m | m2-void_caster-1920.png[39m[0m
+[  52% ] [90m[1m_update_scan_actions[22m | m2-void_caster-downed-1280.png[39m[0m
+[  53% ] [90m[1m_update_scan_actions[22m | m2-void_caster-downed-1371.png[39m[0m
+[  53% ] [90m[1m_update_scan_actions[22m | m2-void_caster-downed-1920.png[39m[0m
+[  53% ] [90m[1m_update_scan_actions[22m | m3-draw-retry-reveal-1280.png[39m[0m
+[  54% ] [90m[1m_update_scan_actions[22m | m3-draw-retry-reveal-1371.png[39m[0m
+[  54% ] [90m[1m_update_scan_actions[22m | m3-draw-retry-reveal-1920.png[39m[0m
+[  55% ] [90m[1m_update_scan_actions[22m | m3-draw-save-blocked-1280.png[39m[0m
+[  55% ] [90m[1m_update_scan_actions[22m | m3-draw-save-blocked-1371.png[39m[0m
+[  56% ] [90m[1m_update_scan_actions[22m | m3-draw-save-blocked-1920.png[39m[0m
+[  56% ] [90m[1m_update_scan_actions[22m | m3-exchange-confirm-1280.png[39m[0m
+[  56% ] [90m[1m_update_scan_actions[22m | m3-exchange-confirm-1371.png[39m[0m
+[  57% ] [90m[1m_update_scan_actions[22m | m3-exchange-confirm-1920.png[39m[0m
+[  57% ] [90m[1m_update_scan_actions[22m | m3-guild-collected-1280.png[39m[0m
+[  58% ] [90m[1m_update_scan_actions[22m | m3-guild-collected-1371.png[39m[0m
+[  58% ] [90m[1m_update_scan_actions[22m | m3-guild-collected-1920.png[39m[0m
+[  59% ] [90m[1m_update_scan_actions[22m | m3-guild-fresh-1280.png[39m[0m
+[  59% ] [90m[1m_update_scan_actions[22m | m3-guild-fresh-1371.png[39m[0m
+[  60% ] [90m[1m_update_scan_actions[22m | m3-guild-fresh-1920.png[39m[0m
+[  60% ] [90m[1m_update_scan_actions[22m | m3-history-1280.png[39m[0m
+[  60% ] [90m[1m_update_scan_actions[22m | m3-history-1371.png[39m[0m
+[  61% ] [90m[1m_update_scan_actions[22m | m3-history-1920.png[39m[0m
+[  61% ] [90m[1m_update_scan_actions[22m | m3-odds-empty-1280.png[39m[0m
+[  62% ] [90m[1m_update_scan_actions[22m | m3-odds-empty-1371.png[39m[0m
+[  62% ] [90m[1m_update_scan_actions[22m | m3-odds-empty-1920.png[39m[0m
+[  63% ] [90m[1m_update_scan_actions[22m | m3-reopened-reveal-1280.png[39m[0m
+[  63% ] [90m[1m_update_scan_actions[22m | m3-reopened-reveal-1371.png[39m[0m
+[  63% ] [90m[1m_update_scan_actions[22m | m3-reopened-reveal-1920.png[39m[0m
+[  64% ] [90m[1m_update_scan_actions[22m | m3-rescue-offer-1280.png[39m[0m
+[  64% ] [90m[1m_update_scan_actions[22m | m3-rescue-offer-1371.png[39m[0m
+[  65% ] [90m[1m_update_scan_actions[22m | m3-rescue-offer-1920.png[39m[0m
+[  65% ] [90m[1m_update_scan_actions[22m | m3-rescue-settled-1280.png[39m[0m
+[  66% ] [90m[1m_update_scan_actions[22m | m3-rescue-settled-1371.png[39m[0m
+[  66% ] [90m[1m_update_scan_actions[22m | m3-rescue-settled-1920.png[39m[0m
+[  66% ] [90m[1m_update_scan_actions[22m | m3-rescue-success-1280.png[39m[0m
+[  67% ] [90m[1m_update_scan_actions[22m | m3-rescue-success-1371.png[39m[0m
+[  67% ] [90m[1m_update_scan_actions[22m | m3-rescue-success-1920.png[39m[0m
+[  68% ] [90m[1m_update_scan_actions[22m | m3-rescue-zone-1280.png[39m[0m
+[  68% ] [90m[1m_update_scan_actions[22m | m3-rescue-zone-1371.png[39m[0m
+[  69% ] [90m[1m_update_scan_actions[22m | m3-rescue-zone-1920.png[39m[0m
+[  69% ] [90m[1m_update_scan_actions[22m | m3-roster-six-1280.png[39m[0m
+[  70% ] [90m[1m_update_scan_actions[22m | m3-roster-six-1371.png[39m[0m
+[  70% ] [90m[1m_update_scan_actions[22m | m3-roster-six-1920.png[39m[0m
+[  70% ] [90m[1m_update_scan_actions[22m | m3-selection-six-1280.png[39m[0m
+[  71% ] [90m[1m_update_scan_actions[22m | m3-selection-six-1371.png[39m[0m
+[  71% ] [90m[1m_update_scan_actions[22m | m3-selection-six-1920.png[39m[0m
+[  72% ] [90m[1m_update_scan_actions[22m | m3-single-reveal-1280.png[39m[0m
+[  72% ] [90m[1m_update_scan_actions[22m | m3-single-reveal-1371.png[39m[0m
+[  73% ] [90m[1m_update_scan_actions[22m | m3-single-reveal-1920.png[39m[0m
+[  73% ] [90m[1m_update_scan_actions[22m | m3-ten-confirm-1280.png[39m[0m
+[  73% ] [90m[1m_update_scan_actions[22m | m3-ten-confirm-1371.png[39m[0m
+[  74% ] [90m[1m_update_scan_actions[22m | m3-ten-confirm-1920.png[39m[0m
+[  74% ] [90m[1m_update_scan_actions[22m | m3-ten-reveal-1280.png[39m[0m
+[  75% ] [90m[1m_update_scan_actions[22m | m3-ten-reveal-1371.png[39m[0m
+[  75% ] [90m[1m_update_scan_actions[22m | m3-ten-reveal-1920.png[39m[0m
+[  76% ] [90m[1m_update_scan_actions[22m | m3-ten-reveal-bottom-1280.png[39m[0m
+[  76% ] [90m[1m_update_scan_actions[22m | m3-ten-reveal-bottom-1371.png[39m[0m
+[  76% ] [90m[1m_update_scan_actions[22m | m3-ten-reveal-bottom-1920.png[39m[0m
+[  77% ] [90m[1m_update_scan_actions[22m | m4-altar-cap-disabled-1280.png[39m[0m
+[  77% ] [90m[1m_update_scan_actions[22m | m4-altar-cap-disabled-1371.png[39m[0m
+[  78% ] [90m[1m_update_scan_actions[22m | m4-altar-cap-disabled-1920.png[39m[0m
+[  78% ] [90m[1m_update_scan_actions[22m | m4-altar-enabled-1280.png[39m[0m
+[  79% ] [90m[1m_update_scan_actions[22m | m4-altar-enabled-1371.png[39m[0m
+[  79% ] [90m[1m_update_scan_actions[22m | m4-altar-enabled-1920.png[39m[0m
+[  80% ] [90m[1m_update_scan_actions[22m | m4-altar-health-disabled-1280.png[39m[0m
+[  80% ] [90m[1m_update_scan_actions[22m | m4-altar-health-disabled-1371.png[39m[0m
+[  80% ] [90m[1m_update_scan_actions[22m | m4-altar-health-disabled-1920.png[39m[0m
+[  81% ] [90m[1m_update_scan_actions[22m | m4-boss-cone-1280.png[39m[0m
+[  81% ] [90m[1m_update_scan_actions[22m | m4-boss-cone-1371.png[39m[0m
+[  82% ] [90m[1m_update_scan_actions[22m | m4-boss-cone-1920.png[39m[0m
+[  82% ] [90m[1m_update_scan_actions[22m | m4-boss-double-eruption-1280.png[39m[0m
+[  83% ] [90m[1m_update_scan_actions[22m | m4-boss-double-eruption-1371.png[39m[0m
+[  83% ] [90m[1m_update_scan_actions[22m | m4-boss-double-eruption-1920.png[39m[0m
+[  83% ] [90m[1m_update_scan_actions[22m | m4-chapter-saved-1280.png[39m[0m
+[  84% ] [90m[1m_update_scan_actions[22m | m4-chapter-saved-1371.png[39m[0m
+[  84% ] [90m[1m_update_scan_actions[22m | m4-chapter-saved-1920.png[39m[0m
+[  85% ] [90m[1m_update_scan_actions[22m | m4-corruption-0-1280.png[39m[0m
+[  85% ] [90m[1m_update_scan_actions[22m | m4-corruption-0-1371.png[39m[0m
+[  86% ] [90m[1m_update_scan_actions[22m | m4-corruption-0-1920.png[39m[0m
+[  86% ] [90m[1m_update_scan_actions[22m | m4-corruption-25-1280.png[39m[0m
+[  86% ] [90m[1m_update_scan_actions[22m | m4-corruption-25-1371.png[39m[0m
+[  87% ] [90m[1m_update_scan_actions[22m | m4-corruption-25-1920.png[39m[0m
+[  87% ] [90m[1m_update_scan_actions[22m | m4-corruption-50-1280.png[39m[0m
+[  88% ] [90m[1m_update_scan_actions[22m | m4-corruption-50-1371.png[39m[0m
+[  88% ] [90m[1m_update_scan_actions[22m | m4-corruption-50-1920.png[39m[0m
+[  89% ] [90m[1m_update_scan_actions[22m | m4-corruption-75-1280.png[39m[0m
+[  89% ] [90m[1m_update_scan_actions[22m | m4-corruption-75-1371.png[39m[0m
+[  90% ] [90m[1m_update_scan_actions[22m | m4-corruption-75-1920.png[39m[0m
+[  90% ] [90m[1m_update_scan_actions[22m | m4-corruption-100-1280.png[39m[0m
+[  90% ] [90m[1m_update_scan_actions[22m | m4-corruption-100-1371.png[39m[0m
+[  91% ] [90m[1m_update_scan_actions[22m | m4-corruption-100-1920.png[39m[0m
+[  91% ] [90m[1m_update_scan_actions[22m | m4-guild-1280.png[39m[0m
+[  92% ] [90m[1m_update_scan_actions[22m | m4-guild-1371.png[39m[0m
+[  92% ] [90m[1m_update_scan_actions[22m | m4-guild-1920.png[39m[0m
+[  93% ] [90m[1m_update_scan_actions[22m | m4-guild-completed-1280.png[39m[0m
+[  93% ] [90m[1m_update_scan_actions[22m | m4-guild-completed-1371.png[39m[0m
+[  93% ] [90m[1m_update_scan_actions[22m | m4-guild-completed-1920.png[39m[0m
+[  94% ] [90m[1m_update_scan_actions[22m | m4-merchant-disabled-1280.png[39m[0m
+[  94% ] [90m[1m_update_scan_actions[22m | m4-merchant-disabled-1371.png[39m[0m
+[  95% ] [90m[1m_update_scan_actions[22m | m4-merchant-disabled-1920.png[39m[0m
+[  95% ] [90m[1m_update_scan_actions[22m | m4-merchant-funded-1280.png[39m[0m
+[  96% ] [90m[1m_update_scan_actions[22m | m4-merchant-funded-1371.png[39m[0m
+[  96% ] [90m[1m_update_scan_actions[22m | m4-merchant-funded-1920.png[39m[0m
+[  96% ] [90m[1m_update_scan_actions[22m | m4-rescue-1280.png[39m[0m
+[  97% ] [90m[1m_update_scan_actions[22m | m4-rescue-1371.png[39m[0m
+[  97% ] [90m[1m_update_scan_actions[22m | m4-rescue-1920.png[39m[0m
+[  98% ] [90m[1m_update_scan_actions[22m | m4-thresholds-1280.png[39m[0m
+[  98% ] [90m[1m_update_scan_actions[22m | m4-thresholds-1371.png[39m[0m
+[  99% ] [90m[1m_update_scan_actions[22m | m4-thresholds-1920.png[39m[0m
+[92m[ DONE ][39m [1m_update_scan_actions[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started (Re)Importing Assets (229 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   0% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   0% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   1% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   1% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   2% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   2% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   3% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   3% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   3% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   4% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   4% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   5% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   5% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   6% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   6% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   6% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   7% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   7% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   8% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   8% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   9% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   9% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  10% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  10% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  10% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  11% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  11% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  12% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  12% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  13% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  13% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  13% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  14% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  14% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  15% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  15% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  16% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  16% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  16% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  17% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  17% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  18% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  18% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  19% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  19% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  20% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  20% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  20% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  21% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  21% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  22% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  22% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  23% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  23% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  23% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  24% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  24% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  25% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  25% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  26% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  26% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  26% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  27% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  27% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  28% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  28% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  29% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  29% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  30% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  30% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  30% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  31% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  31% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  32% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  32% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  33% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  33% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  33% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  34% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  34% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  35% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  35% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  36% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  36% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  36% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  37% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  37% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  38% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  38% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  39% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  39% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  40% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  40% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  40% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  41% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  41% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  42% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  42% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  43% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  43% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  43% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  44% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  44% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  45% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  45% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  46% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  46% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  46% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  47% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  47% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  48% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  48% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  49% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  49% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  50% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  50% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  50% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  51% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  51% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  52% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  52% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  53% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  53% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  53% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  54% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  54% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  55% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  55% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  56% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  56% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  56% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  57% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  57% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  58% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  58% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  59% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  59% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  60% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  60% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  60% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  61% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  61% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  62% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  62% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  63% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  63% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  63% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  64% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  64% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  65% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  65% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  66% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  66% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  66% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  67% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  67% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  68% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  68% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  69% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  69% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  70% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  70% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  70% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  71% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  71% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  72% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  72% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  73% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  73% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  73% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  74% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  74% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  75% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  75% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  76% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  76% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  76% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  77% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  77% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  78% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  78% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  79% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  79% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  80% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  80% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  80% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  81% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  81% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  82% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  82% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  83% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  83% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  83% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  84% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  84% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  85% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  85% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  86% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  86% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  86% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  87% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  87% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  88% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  88% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  89% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  89% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  90% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  90% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  90% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  91% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  91% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  92% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  92% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  93% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  93% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  93% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  94% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  94% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  95% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  95% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  96% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  96% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  96% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  97% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  97% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  98% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  98% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  99% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   0% ] [90m[1mreimport[22m | Executing pre-reimport operations...[39m[0m
+[   0% ] [90m[1mreimport[22m | m3-odds-empty-1920.png[39m[0m
+[   0% ] [90m[1mreimport[22m | m3-reopened-reveal-1280.png[39m[0m
+[   0% ] [90m[1mreimport[22m | m3-reopened-reveal-1371.png[39m[0m
+[   1% ] [90m[1mreimport[22m | m3-reopened-reveal-1920.png[39m[0m
+[   1% ] [90m[1mreimport[22m | m3-rescue-offer-1280.png[39m[0m
+[   2% ] [90m[1mreimport[22m | m3-rescue-offer-1371.png[39m[0m
+[   2% ] [90m[1mreimport[22m | m3-rescue-offer-1920.png[39m[0m
+[   3% ] [90m[1mreimport[22m | m3-rescue-settled-1280.png[39m[0m
+[   3% ] [90m[1mreimport[22m | m3-rescue-settled-1371.png[39m[0m
+[   3% ] [90m[1mreimport[22m | m3-rescue-settled-1920.png[39m[0m
+[   4% ] [90m[1mreimport[22m | m3-rescue-success-1280.png[39m[0m
+[   4% ] [90m[1mreimport[22m | m3-rescue-success-1371.png[39m[0m
+[   5% ] [90m[1mreimport[22m | m3-rescue-success-1920.png[39m[0m
+[   5% ] [90m[1mreimport[22m | m3-rescue-zone-1280.png[39m[0m
+[   6% ] [90m[1mreimport[22m | m3-rescue-zone-1371.png[39m[0m
+[   6% ] [90m[1mreimport[22m | m3-rescue-zone-1920.png[39m[0m
+[   6% ] [90m[1mreimport[22m | m3-roster-six-1280.png[39m[0m
+[   7% ] [90m[1mreimport[22m | m3-roster-six-1371.png[39m[0m
+[   7% ] [90m[1mreimport[22m | m3-roster-six-1920.png[39m[0m
+[   8% ] [90m[1mreimport[22m | m3-selection-six-1280.png[39m[0m
+[   8% ] [90m[1mreimport[22m | m3-selection-six-1371.png[39m[0m
+[   9% ] [90m[1mreimport[22m | m3-selection-six-1920.png[39m[0m
+[   9% ] [90m[1mreimport[22m | m3-single-reveal-1280.png[39m[0m
+[  10% ] [90m[1mreimport[22m | m3-single-reveal-1371.png[39m[0m
+[  10% ] [90m[1mreimport[22m | m3-single-reveal-1920.png[39m[0m
+[  10% ] [90m[1mreimport[22m | m3-ten-confirm-1280.png[39m[0m
+[  11% ] [90m[1mreimport[22m | m3-ten-confirm-1371.png[39m[0m
+[  11% ] [90m[1mreimport[22m | m3-ten-confirm-1920.png[39m[0m
+[  12% ] [90m[1mreimport[22m | m2-swordmaster-downed-1280.png[39m[0m
+[  12% ] [90m[1mreimport[22m | m2-swordmaster-downed-1371.png[39m[0m
+[  13% ] [90m[1mreimport[22m | m2-swordmaster-downed-1920.png[39m[0m
+[  13% ] [90m[1mreimport[22m | m2-void_caster-1280.png[39m[0m
+[  13% ] [90m[1mreimport[22m | m2-void_caster-1371.png[39m[0m
+[  14% ] [90m[1mreimport[22m | m2-void_caster-1920.png[39m[0m
+[  14% ] [90m[1mreimport[22m | m2-void_caster-downed-1280.png[39m[0m
+[  15% ] [90m[1mreimport[22m | m2-void_caster-downed-1371.png[39m[0m
+[  15% ] [90m[1mreimport[22m | m2-void_caster-downed-1920.png[39m[0m
+[  16% ] [90m[1mreimport[22m | m3-draw-retry-reveal-1280.png[39m[0m
+[  16% ] [90m[1mreimport[22m | m3-draw-retry-reveal-1371.png[39m[0m
+[  16% ] [90m[1mreimport[22m | m3-draw-retry-reveal-1920.png[39m[0m
+[  17% ] [90m[1mreimport[22m | m3-draw-save-blocked-1280.png[39m[0m
+[  17% ] [90m[1mreimport[22m | m3-draw-save-blocked-1371.png[39m[0m
+[  18% ] [90m[1mreimport[22m | m3-draw-save-blocked-1920.png[39m[0m
+[  18% ] [90m[1mreimport[22m | m3-exchange-confirm-1280.png[39m[0m
+[  19% ] [90m[1mreimport[22m | m3-exchange-confirm-1371.png[39m[0m
+[  19% ] [90m[1mreimport[22m | m3-exchange-confirm-1920.png[39m[0m
+[  20% ] [90m[1mreimport[22m | m3-guild-collected-1280.png[39m[0m
+[  20% ] [90m[1mreimport[22m | m3-guild-collected-1371.png[39m[0m
+[  20% ] [90m[1mreimport[22m | m3-guild-collected-1920.png[39m[0m
+[  21% ] [90m[1mreimport[22m | m3-guild-fresh-1280.png[39m[0m
+[  21% ] [90m[1mreimport[22m | m3-guild-fresh-1371.png[39m[0m
+[  22% ] [90m[1mreimport[22m | m3-guild-fresh-1920.png[39m[0m
+[  22% ] [90m[1mreimport[22m | m3-history-1280.png[39m[0m
+[  23% ] [90m[1mreimport[22m | m3-history-1371.png[39m[0m
+[  23% ] [90m[1mreimport[22m | m3-history-1920.png[39m[0m
+[  23% ] [90m[1mreimport[22m | m3-odds-empty-1280.png[39m[0m
+[  24% ] [90m[1mreimport[22m | m3-odds-empty-1371.png[39m[0m
+[  24% ] [90m[1mreimport[22m | m4-corruption-25-1920.png[39m[0m
+[  25% ] [90m[1mreimport[22m | m4-corruption-50-1280.png[39m[0m
+[  25% ] [90m[1mreimport[22m | m4-corruption-50-1371.png[39m[0m
+[  26% ] [90m[1mreimport[22m | m4-corruption-50-1920.png[39m[0m
+[  26% ] [90m[1mreimport[22m | m4-corruption-75-1280.png[39m[0m
+[  26% ] [90m[1mreimport[22m | m4-corruption-75-1371.png[39m[0m
+[  27% ] [90m[1mreimport[22m | m4-corruption-75-1920.png[39m[0m
+[  27% ] [90m[1mreimport[22m | m4-corruption-100-1280.png[39m[0m
+[  28% ] [90m[1mreimport[22m | m4-corruption-100-1371.png[39m[0m
+[  28% ] [90m[1mreimport[22m | m4-corruption-100-1920.png[39m[0m
+[  29% ] [90m[1mreimport[22m | m4-guild-1280.png[39m[0m
+[  29% ] [90m[1mreimport[22m | m4-guild-1371.png[39m[0m
+[  30% ] [90m[1mreimport[22m | m4-guild-1920.png[39m[0m
+[  30% ] [90m[1mreimport[22m | m4-guild-completed-1280.png[39m[0m
+[  30% ] [90m[1mreimport[22m | m4-guild-completed-1371.png[39m[0m
+[  31% ] [90m[1mreimport[22m | m4-guild-completed-1920.png[39m[0m
+[  31% ] [90m[1mreimport[22m | m4-merchant-disabled-1280.png[39m[0m
+[  32% ] [90m[1mreimport[22m | m4-merchant-disabled-1371.png[39m[0m
+[  32% ] [90m[1mreimport[22m | m4-merchant-disabled-1920.png[39m[0m
+[  33% ] [90m[1mreimport[22m | m4-merchant-funded-1280.png[39m[0m
+[  33% ] [90m[1mreimport[22m | m4-merchant-funded-1371.png[39m[0m
+[  33% ] [90m[1mreimport[22m | m4-merchant-funded-1920.png[39m[0m
+[  34% ] [90m[1mreimport[22m | m4-rescue-1280.png[39m[0m
+[  34% ] [90m[1mreimport[22m | m4-rescue-1371.png[39m[0m
+[  35% ] [90m[1mreimport[22m | m4-rescue-1920.png[39m[0m
+[  35% ] [90m[1mreimport[22m | m4-thresholds-1280.png[39m[0m
+[  36% ] [90m[1mreimport[22m | m4-thresholds-1371.png[39m[0m
+[  36% ] [90m[1mreimport[22m | m4-thresholds-1920.png[39m[0m
+[  36% ] [90m[1mreimport[22m | m3-ten-reveal-1280.png[39m[0m
+[  37% ] [90m[1mreimport[22m | m3-ten-reveal-1371.png[39m[0m
+[  37% ] [90m[1mreimport[22m | m3-ten-reveal-1920.png[39m[0m
+[  38% ] [90m[1mreimport[22m | m3-ten-reveal-bottom-1280.png[39m[0m
+[  38% ] [90m[1mreimport[22m | m3-ten-reveal-bottom-1371.png[39m[0m
+[  39% ] [90m[1mreimport[22m | m3-ten-reveal-bottom-1920.png[39m[0m
+[  39% ] [90m[1mreimport[22m | m4-altar-cap-disabled-1280.png[39m[0m
+[  40% ] [90m[1mreimport[22m | m4-altar-cap-disabled-1371.png[39m[0m
+[  40% ] [90m[1mreimport[22m | m4-altar-cap-disabled-1920.png[39m[0m
+[  40% ] [90m[1mreimport[22m | m4-altar-enabled-1280.png[39m[0m
+[  41% ] [90m[1mreimport[22m | m4-altar-enabled-1371.png[39m[0m
+[  41% ] [90m[1mreimport[22m | m4-altar-enabled-1920.png[39m[0m
+[  42% ] [90m[1mreimport[22m | m4-altar-health-disabled-1280.png[39m[0m
+[  42% ] [90m[1mreimport[22m | m4-altar-health-disabled-1371.png[39m[0m
+[  43% ] [90m[1mreimport[22m | m4-altar-health-disabled-1920.png[39m[0m
+[  43% ] [90m[1mreimport[22m | m4-boss-cone-1280.png[39m[0m
+[  43% ] [90m[1mreimport[22m | m4-boss-cone-1371.png[39m[0m
+[  44% ] [90m[1mreimport[22m | m4-boss-cone-1920.png[39m[0m
+[  44% ] [90m[1mreimport[22m | m4-boss-double-eruption-1280.png[39m[0m
+[  45% ] [90m[1mreimport[22m | m4-boss-double-eruption-1371.png[39m[0m
+[  45% ] [90m[1mreimport[22m | m4-boss-double-eruption-1920.png[39m[0m
+[  46% ] [90m[1mreimport[22m | m4-chapter-saved-1280.png[39m[0m
+[  46% ] [90m[1mreimport[22m | m4-chapter-saved-1371.png[39m[0m
+[  46% ] [90m[1mreimport[22m | m4-chapter-saved-1920.png[39m[0m
+[  47% ] [90m[1mreimport[22m | m4-corruption-0-1280.png[39m[0m
+[  47% ] [90m[1mreimport[22m | m4-corruption-0-1371.png[39m[0m
+[  48% ] [90m[1mreimport[22m | m4-corruption-0-1920.png[39m[0m
+[  48% ] [90m[1mreimport[22m | m4-corruption-25-1280.png[39m[0m
+[  49% ] [90m[1mreimport[22m | m4-corruption-25-1371.png[39m[0m
+[  49% ] [90m[1mreimport[22m | debug-promoted-party-combat.png[39m[0m
+[  50% ] [90m[1mreimport[22m | debug-xp-level-buttons.png[39m[0m
+[  50% ] [90m[1mreimport[22m | debug-xp-level-hud.png[39m[0m
+[  50% ] [90m[1mreimport[22m | graphical-boss-circle-0.png[39m[0m
+[  51% ] [90m[1mreimport[22m | graphical-boss-circle-1.png[39m[0m
+[  51% ] [90m[1mreimport[22m | graphical-boss-circle-2.png[39m[0m
+[  52% ] [90m[1mreimport[22m | graphical-boss-cone-0.png[39m[0m
+[  52% ] [90m[1mreimport[22m | graphical-boss-cone-1.png[39m[0m
+[  53% ] [90m[1mreimport[22m | graphical-boss-cone-2.png[39m[0m
+[  53% ] [90m[1mreimport[22m | graphical-choice-0.png[39m[0m
+[  53% ] [90m[1mreimport[22m | graphical-choice-1.png[39m[0m
+[  54% ] [90m[1mreimport[22m | graphical-choice-2.png[39m[0m
+[  54% ] [90m[1mreimport[22m | graphical-combat-0.png[39m[0m
+[  55% ] [90m[1mreimport[22m | graphical-combat-1.png[39m[0m
+[  55% ] [90m[1mreimport[22m | graphical-combat-2.png[39m[0m
+[  56% ] [90m[1mreimport[22m | graphical-menu.png[39m[0m
+[  56% ] [90m[1mreimport[22m | graphical-pause-0.png[39m[0m
+[  56% ] [90m[1mreimport[22m | graphical-pause-1.png[39m[0m
+[  57% ] [90m[1mreimport[22m | graphical-pause-2.png[39m[0m
+[  57% ] [90m[1mreimport[22m | graphical-results-0.png[39m[0m
+[  58% ] [90m[1mreimport[22m | graphical-results-1.png[39m[0m
+[  58% ] [90m[1mreimport[22m | graphical-results-2.png[39m[0m
+[  59% ] [90m[1mreimport[22m | graphical-selection.png[39m[0m
+[  59% ] [90m[1mreimport[22m | m2-abyss_swordsman-1280.png[39m[0m
+[  60% ] [90m[1mreimport[22m | m2-abyss_swordsman-1371.png[39m[0m
+[  60% ] [90m[1mreimport[22m | m2-abyss_swordsman-1920.png[39m[0m
+[  60% ] [90m[1mreimport[22m | m2-abyss_swordsman-downed-1280.png[39m[0m
+[  61% ] [90m[1mreimport[22m | m2-abyss_swordsman-downed-1371.png[39m[0m
+[  61% ] [90m[1mreimport[22m | debug-1280-promotion.png[39m[0m
+[  62% ] [90m[1mreimport[22m | debug-1280-tab-0-bottom.png[39m[0m
+[  62% ] [90m[1mreimport[22m | debug-1280-tab-0.png[39m[0m
+[  63% ] [90m[1mreimport[22m | debug-1280-tab-1-bottom.png[39m[0m
+[  63% ] [90m[1mreimport[22m | debug-1280-tab-1.png[39m[0m
+[  63% ] [90m[1mreimport[22m | debug-1280-tab-2-bottom.png[39m[0m
+[  64% ] [90m[1mreimport[22m | debug-1280-tab-2.png[39m[0m
+[  64% ] [90m[1mreimport[22m | debug-1280-tab-3-bottom.png[39m[0m
+[  65% ] [90m[1mreimport[22m | debug-1280-tab-3.png[39m[0m
+[  65% ] [90m[1mreimport[22m | debug-1371-promotion.png[39m[0m
+[  66% ] [90m[1mreimport[22m | debug-1371-tab-0-bottom.png[39m[0m
+[  66% ] [90m[1mreimport[22m | debug-1371-tab-0.png[39m[0m
+[  66% ] [90m[1mreimport[22m | debug-1371-tab-1-bottom.png[39m[0m
+[  67% ] [90m[1mreimport[22m | debug-1371-tab-1.png[39m[0m
+[  67% ] [90m[1mreimport[22m | debug-1371-tab-2-bottom.png[39m[0m
+[  68% ] [90m[1mreimport[22m | debug-1371-tab-2.png[39m[0m
+[  68% ] [90m[1mreimport[22m | debug-1371-tab-3-bottom.png[39m[0m
+[  69% ] [90m[1mreimport[22m | debug-1371-tab-3.png[39m[0m
+[  69% ] [90m[1mreimport[22m | debug-1920-promotion.png[39m[0m
+[  70% ] [90m[1mreimport[22m | debug-1920-tab-0-bottom.png[39m[0m
+[  70% ] [90m[1mreimport[22m | debug-1920-tab-0.png[39m[0m
+[  70% ] [90m[1mreimport[22m | debug-1920-tab-1-bottom.png[39m[0m
+[  71% ] [90m[1mreimport[22m | debug-1920-tab-1.png[39m[0m
+[  71% ] [90m[1mreimport[22m | debug-1920-tab-2-bottom.png[39m[0m
+[  72% ] [90m[1mreimport[22m | debug-1920-tab-2.png[39m[0m
+[  72% ] [90m[1mreimport[22m | debug-1920-tab-3-bottom.png[39m[0m
+[  73% ] [90m[1mreimport[22m | debug-1920-tab-3.png[39m[0m
+[  73% ] [90m[1mreimport[22m | debug-access-combat.png[39m[0m
+[  73% ] [90m[1mreimport[22m | debug-access-menu.png[39m[0m
+[  74% ] [90m[1mreimport[22m | m2-promotion-aren-1371.png[39m[0m
+[  74% ] [90m[1mreimport[22m | m2-promotion-aren-1920.png[39m[0m
+[  75% ] [90m[1mreimport[22m | m2-promotion-lia-1280.png[39m[0m
+[  75% ] [90m[1mreimport[22m | m2-promotion-lia-1371.png[39m[0m
+[  76% ] [90m[1mreimport[22m | m2-promotion-lia-1920.png[39m[0m
+[  76% ] [90m[1mreimport[22m | m2-promotion-milo-1280.png[39m[0m
+[  76% ] [90m[1mreimport[22m | m2-promotion-milo-1371.png[39m[0m
+[  77% ] [90m[1mreimport[22m | m2-promotion-milo-1920.png[39m[0m
+[  77% ] [90m[1mreimport[22m | m2-roster-1280.png[39m[0m
+[  78% ] [90m[1mreimport[22m | m2-roster-1371.png[39m[0m
+[  78% ] [90m[1mreimport[22m | m2-roster-1920.png[39m[0m
+[  79% ] [90m[1mreimport[22m | m2-selection-1280.png[39m[0m
+[  79% ] [90m[1mreimport[22m | m2-selection-1371.png[39m[0m
+[  80% ] [90m[1mreimport[22m | m2-selection-1920.png[39m[0m
+[  80% ] [90m[1mreimport[22m | m2-sharpshooter-1280.png[39m[0m
+[  80% ] [90m[1mreimport[22m | m2-sharpshooter-1371.png[39m[0m
+[  81% ] [90m[1mreimport[22m | m2-sharpshooter-1920.png[39m[0m
+[  81% ] [90m[1mreimport[22m | m2-sharpshooter-downed-1280.png[39m[0m
+[  82% ] [90m[1mreimport[22m | m2-sharpshooter-downed-1371.png[39m[0m
+[  82% ] [90m[1mreimport[22m | m2-sharpshooter-downed-1920.png[39m[0m
+[  83% ] [90m[1mreimport[22m | m2-star_hunter-1280.png[39m[0m
+[  83% ] [90m[1mreimport[22m | m2-star_hunter-1371.png[39m[0m
+[  83% ] [90m[1mreimport[22m | m2-star_hunter-1920.png[39m[0m
+[  84% ] [90m[1mreimport[22m | m2-star_hunter-downed-1280.png[39m[0m
+[  84% ] [90m[1mreimport[22m | m2-star_hunter-downed-1371.png[39m[0m
+[  85% ] [90m[1mreimport[22m | m2-star_hunter-downed-1920.png[39m[0m
+[  85% ] [90m[1mreimport[22m | m2-swordmaster-1280.png[39m[0m
+[  86% ] [90m[1mreimport[22m | m2-swordmaster-1371.png[39m[0m
+[  86% ] [90m[1mreimport[22m | m2-swordmaster-1920.png[39m[0m
+[  86% ] [90m[1mreimport[22m | m2-abyss_swordsman-downed-1920.png[39m[0m
+[  87% ] [90m[1mreimport[22m | m2-cap-results-1280.png[39m[0m
+[  87% ] [90m[1mreimport[22m | m2-cap-results-1371.png[39m[0m
+[  88% ] [90m[1mreimport[22m | m2-cap-results-1920.png[39m[0m
+[  88% ] [90m[1mreimport[22m | m2-elemental_sage-1280.png[39m[0m
+[  89% ] [90m[1mreimport[22m | m2-elemental_sage-1371.png[39m[0m
+[  89% ] [90m[1mreimport[22m | m2-elemental_sage-1920.png[39m[0m
+[  90% ] [90m[1mreimport[22m | m2-elemental_sage-downed-1280.png[39m[0m
+[  90% ] [90m[1mreimport[22m | m2-elemental_sage-downed-1371.png[39m[0m
+[  90% ] [90m[1mreimport[22m | m2-elemental_sage-downed-1920.png[39m[0m
+[  91% ] [90m[1mreimport[22m | m2-promoted-roster-abyss_swordsman-1280.png[39m[0m
+[  91% ] [90m[1mreimport[22m | m2-promoted-roster-abyss_swordsman-1371.png[39m[0m
+[  92% ] [90m[1mreimport[22m | m2-promoted-roster-abyss_swordsman-1920.png[39m[0m
+[  92% ] [90m[1mreimport[22m | m2-promoted-roster-elemental_sage-1280.png[39m[0m
+[  93% ] [90m[1mreimport[22m | m2-promoted-roster-elemental_sage-1371.png[39m[0m
+[  93% ] [90m[1mreimport[22m | m2-promoted-roster-elemental_sage-1920.png[39m[0m
+[  93% ] [90m[1mreimport[22m | m2-promoted-roster-sharpshooter-1280.png[39m[0m
+[  94% ] [90m[1mreimport[22m | m2-promoted-roster-sharpshooter-1371.png[39m[0m
+[  94% ] [90m[1mreimport[22m | m2-promoted-roster-sharpshooter-1920.png[39m[0m
+[  95% ] [90m[1mreimport[22m | m2-promoted-roster-star_hunter-1280.png[39m[0m
+[  95% ] [90m[1mreimport[22m | m2-promoted-roster-star_hunter-1371.png[39m[0m
+[  96% ] [90m[1mreimport[22m | m2-promoted-roster-star_hunter-1920.png[39m[0m
+[  96% ] [90m[1mreimport[22m | m2-promoted-roster-swordmaster-1280.png[39m[0m
+[  96% ] [90m[1mreimport[22m | m2-promoted-roster-swordmaster-1371.png[39m[0m
+[  97% ] [90m[1mreimport[22m | m2-promoted-roster-swordmaster-1920.png[39m[0m
+[  97% ] [90m[1mreimport[22m | m2-promoted-roster-void_caster-1280.png[39m[0m
+[  98% ] [90m[1mreimport[22m | m2-promoted-roster-void_caster-1371.png[39m[0m
+[  98% ] [90m[1mreimport[22m | m2-promoted-roster-void_caster-1920.png[39m[0m
+[  99% ] [90m[1mreimport[22m | m2-promotion-aren-1280.png[39m[0m
+[  99% ] [90m[1mreimport[22m | Finalizing Asset Import...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started (Re)Importing Assets (229 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Executing post-reimport operations...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Started Loading editor (5 steps)[39m[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Loading editor layout...[39m[0m
+[  16% ] [90m[1mloading_editor_layout[22m | Loading docks...[39m[0m
+[  33% ] [90m[1mloading_editor_layout[22m | Reopening scenes...[39m[0m
+[  50% ] [90m[1mloading_editor_layout[22m | Loading central editor layout...[39m[0m
+[  66% ] [90m[1mloading_editor_layout[22m | Loading plugin window layout...[39m[0m
+[  83% ] [90m[1mloading_editor_layout[22m | Editor layout ready.[39m[0m
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+[0m

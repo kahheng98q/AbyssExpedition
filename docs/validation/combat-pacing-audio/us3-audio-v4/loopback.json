@@ -1,0 +1,17 @@
+{
+  "endpoint_id": "{0.0.0.00000000}.{0ecc501e-28c9-42e2-b38d-75a03c869f40}",
+  "sample_rate": 48000,
+  "channels": 2,
+  "bits": 32,
+  "encoding": "IEEE_FLOAT",
+  "wall_seconds": 35.0121913,
+  "frames": 1679360,
+  "peak": 0.97607421875,
+  "clipped_samples": 0,
+  "nonfinite_samples": 0,
+  "system_volume_scalar": 1.0,
+  "system_muted": false,
+  "capture_started_utc": "2026-10-19T11:01:36.1745621Z",
+  "valid": true,
+  "limitation": "WASAPI shared render loopback; includes other applications on this endpoint. No normalization or gain applied."
+}

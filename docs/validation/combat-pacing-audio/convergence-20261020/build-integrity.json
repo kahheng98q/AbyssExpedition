@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-20",
+  "algorithm": "tools/validate_pacing_audio.ps1 Get-TreeDigest",
+  "current_source_hash": "d004aa755f204f6bc94584137e424f8bcbf74334aa18a89fcdb8a8706695b9d2",
+  "historical_release_source_hash": "bb5eee5d1ce6ac3566bdb7e3a60da143184eb26bff57a50109980e0fc152b791",
+  "source_matches_historical_release": false,
+  "release_binary_hash_matches": true,
+  "console_binary_hash_matches": true,
+  "benchmark_guard": "executed: rejected stale source/release hash",
+  "export_executed_this_audit": false
+}

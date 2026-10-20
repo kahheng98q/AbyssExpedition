@@ -28,6 +28,8 @@ func run() -> void:
 	app.mount_run(RunStartSnapshot.new(101, &"aren"))
 	app.run.set_physics_process(false)
 	check(app.debug_panel == null, "release app never mounts developer UI")
+	app.initialize_debug_ui()
+	check(app.debug_panel == null and not InputMap.has_action("debug_panel_toggle"), "release cannot initialize protected debug UI or shortcut")
 	check(app.find_child("OpenDebugPanel", true, false) == null and not root.title.contains("Developer Build"), "release has no debug launcher or developer title")
 	var event = InputEventKey.new()
 	event.keycode = KEY_F9
@@ -48,7 +50,8 @@ func run() -> void:
 	# Deliberately forge controller state: native feature checks still reject actions.
 	service.active = true
 	service.writer = app.writer
-	for action in ["level_max", "materials", "spawn", "boss", "kill_all", "god_mode", "restart", "test_branch"]:
+	for definition in service.ACTIONS:
+		var action = definition[0]
 		check(not service.execute(action, {"character_id": "aren", "branch": "swordmaster"}).ok, "release action denied " + action)
 	check(not service._materials({"materials": 100}).ok and not service._level_one({}).ok and not service.promote("aren", "swordmaster", app.writer.revision()).ok, "direct debug mutation entry points deny release use")
 	check(bytes == app.writer.store.read(app.writer.store.generations()[0].path), "release denial leaves save unchanged")

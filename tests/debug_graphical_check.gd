@@ -76,6 +76,7 @@ func verify_debug_access() -> void:
 	await process_frame
 	await RenderingServer.frame_post_draw
 	check(panel.launcher.is_visible_in_tree() and not panel.overlay.visible, "debug launcher discoverable before first F9")
+	check(not panel.banner.visible, "startup hint does not obscure guild content")
 	check(root.title.contains("Developer Build"), "window title identifies developer build")
 	await capture("debug-access-menu")
 	app.writer.state = "save-blocked"
@@ -88,10 +89,23 @@ func verify_debug_access() -> void:
 	key(KEY_F9)
 	await process_frame
 	check(not panel.overlay.visible and not paused, "logical F9 closes panel opened by mouse in menu")
+	for route in ["show_guild", "show_selection", "show_roster", "show_recruitment", "show_promotion"]:
+		if route == "show_promotion": app.show_promotion("aren")
+		else: app.call(route)
+		await process_frame
+		await process_frame
+		app.initialize_debug_ui()
+		check(app.debug_panel == panel and app.find_children("DeveloperDebug", "CanvasLayer", true, false).size() == 1, route + " keeps one panel")
+		await click_control(panel.launcher)
+		check(panel.overlay.visible and paused, route + " real mouse DEV opens panel above screen")
+		key(KEY_F9)
+		await process_frame
+		check(not panel.overlay.visible and not paused, route + " real F9 closes panel")
 	app.mount_run(RunStartSnapshot.new(101, &"lia"))
 	app.run.set_physics_process(false)
 	await process_frame
 	await capture("debug-access-combat")
+	check(not panel.banner.get_global_rect().intersects(app.run.get_node("HUD/CombatHUD").hero_label.get_global_rect()), "sandbox banner does not overlap hero HUD")
 	check(Rect2(0, 0, 640, 360).encloses(panel.launcher.get_global_rect()), "debug launcher fits combat viewport")
 	await click_control(panel.launcher)
 	check(panel.overlay.visible and paused and app.run.pause.is_blocked(), "mouse debug launcher opens and pauses combat")
@@ -122,6 +136,20 @@ func verify_debug_access() -> void:
 	await process_frame
 	check(not panel.overlay.visible and app.run.pause.is_blocked() and app.run.manual_token >= 0, "F9 close preserves pre-existing manual pause")
 	app.run.toggle_manual_pause()
+	await click_control(panel.launcher)
+	check(panel.service.execute("restart").ok, "restart action succeeds from open panel")
+	app.run.set_physics_process(false)
+	await process_frame
+	check(app.debug_panel == panel and not panel.overlay.visible and not paused, "restart restores accessible unpaused existing panel")
+	await click_control(panel.launcher)
+	check(panel.overlay.visible and app.run.pause.is_blocked(), "DEV works after restart")
+	key(KEY_F9)
+	app.run.finish("abandonment")
+	await process_frame
+	await process_frame
+	await click_control(panel.launcher)
+	check(app.run == null and panel.overlay.visible, "DEV works over settled results")
+	key(KEY_F9)
 	app.free()
 	await process_frame
 	paused = false
@@ -154,7 +182,7 @@ func verify_xp_buttons() -> void:
 	check(panel.service.writer.payload.owned.lia.level == 15, "mouse +1 level button changes selected Lia")
 	check(app.run.hero.permanent_level == 15 and panel.character_stats.text.contains("Lv 15"), "mouse level change reflected in live actor and panel")
 	var hud = app.run.get_node("HUD/CombatHUD")
-	check(hud.values.text.contains("Hero Lv 15") and hud.values.text.contains("Run Lv 1"), "HUD distinguishes permanent hero level from shared run level")
+	check(hud.hero_label.text.contains("HERO 15") and hud.xp_title.text.contains("RUN LEVEL 1"), "HUD distinguishes permanent hero level from shared run level")
 	panel.xp_amount.get_line_edit().grab_focus()
 	panel.xp_amount.get_line_edit().select_all()
 	for digit in [50, 53, 48]: key(digit, digit)
@@ -163,7 +191,7 @@ func verify_xp_buttons() -> void:
 	check(panel.service.writer.payload.owned.lia.total_xp == 1650 and app.run.hero.permanent_level == 17, "mouse XP button applies newly typed amount and updates hero")
 	await click_action(panel, "run_xp")
 	check(app.run.progression.level == 2 and app.run.progression.xp == 150 and app.run.progression.pending == 1, "mouse run XP button uses entered amount through shared upgrade rules")
-	check(hud.values.text.contains("Hero Lv 17") and hud.values.text.contains("Run Lv 2") and hud.xp_bar.max_value == 200 and hud.xp_bar.value == 150, "HUD updates run XP threshold and retains permanent level")
+	check(hud.hero_label.text.contains("HERO 17") and hud.xp_title.text.contains("RUN LEVEL 2") and hud.xp_bar.max_value == 200 and hud.xp_bar.value == 150, "HUD updates run XP threshold and retains permanent level")
 	check(panel.run_stats.text.contains("XP 150 / 200"), "shared run XP reflected inside open debug panel")
 	await capture("debug-xp-level-buttons")
 	await click_action(panel, "level_ten")
@@ -182,7 +210,7 @@ func verify_xp_buttons() -> void:
 	key(KEY_F9)
 	await process_frame
 	check(not panel.overlay.visible and not app.run.pause.is_blocked(), "XP upgrades and debug panel can finish without leaving combat paused")
-	check(hud.values.get_global_rect().end.x <= 640, "HUD hero and run levels fit viewport")
+	check(hud.hero_label.get_global_rect().end.x <= 214 and hud.xp_title.get_global_rect().end.x <= 632, "HUD hero and run levels fit their separate panels")
 	await capture("debug-xp-level-hud")
 	check(panel.service.execute("restart").ok and app.run.hero.permanent_level == 30, "restarted sandbox run loads permanent level from saved progression")
 	app.free()
@@ -252,6 +280,9 @@ func run() -> void:
 	app.run.state_changed.emit()
 	await capture("debug-promoted-party-combat")
 	app.free()
+	# Let the native mixer retire stopped playbacks before process shutdown.
+	var mixer_cleanup_deadline = Time.get_ticks_msec()+250
+	while Time.get_ticks_msec()<mixer_cleanup_deadline: await process_frame
 	await process_frame
 	paused = false
 	for error in capture_errors.errors: check(false, error)

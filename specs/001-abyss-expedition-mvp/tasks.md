@@ -439,3 +439,30 @@ All checklist boxes remain open at generation. Document-format/coverage validati
 - T187同时修复长trace进入永久receipt的体积风险，以及满级队首次救援Sera后回放条件变化提示。T180已根据测量移除无敌期无效hit记录分配，保持45tick与Bastion行为及三个starter的tick/kill/HP；不因局部优化而关闭性能任务。
 - T189三组release真实计数/奖励守恒/30+120主动秒捕获有效，p95 27.571/27.670/29.259ms，均超预算。主机非参考机，显示延迟未测。Dummy audio只用于诊断，本轮未宣称真实音频验收。
 - [当前逐项证据与限制](../../docs/validation/convergence-2026-10-15.md)、[FR/SC索引](../../docs/validation/convergence-2026-10-15/requirements-status.json)、[AC/边界/宪法/计划核对](../../docs/validation/convergence-2026-10-15/acceptance-review.json)。图鉴、中文概览、README、四阶段gate与Quickstart同任务同步；approved spec/plan原始hash不变。没有extension hooks。
+
+## Phase 15: Q1 战斗品质（2026-10-18，用户授权自主打磨）
+
+范围与验收先记录于[Q1规格/设计](quality-pass-20261018.md)，原FR/SC与所有人工gate保留。
+
+- [X] T192 检查源码与基线实机，保存三初始角色及首领的改前截图，记录体验问题和参考研究。
+- [X] T193 实现实际接受命中的独立反馈、击杀碎光、伤害数字；验证48条/36tick、无敌、暂停、随机流与离场释放。
+- [X] T194 重做职业姿态、扫斩/弹体、敌人/首领轮廓与原创海岸遗迹；保持判定和数据不变。
+- [X] T195 HUD分区与事件倒计时；修正实机发现的首版文字遮挡，保留可见HP/XP/等级/seed/腐化信息。
+- [X] T196 14组5,249原生断言、源码与独立新EXE三尺寸图形、F9开发/发布限制通过；前后同输入状态相同。更新Dashboard/概览/README及验证证据，旧构建和截图保留。
+- [ ] T197 真人试玩Q1假设：定位/预警辨识、命中力度、数字疲劳、倒计时等待感与重试意愿；未招募参与者，不以自动检查关闭。
+
+[本轮报告和前后截图](../../docs/validation/quality-20261018.md)。本轮没有关闭T180/T181/T182/T183/T190或历史人工/参考机验收；完整性能结果以报告为准。
+
+- [X] T198 基于密集场景实测定位Q1首版性能回退，缓存原创地形与敌人图集（静止诊断总调用2503→723），保留源码/生成资产与失败结果，重跑受影响图形/反馈检查及单seed完整30+120秒压力采样；结果见Q1报告，参考硬件gate保持开放。
+
+## Phase 16: Protected Developer Debug Panel（2026-10-18，用户明确授权修复与永久保护）
+
+范围：复用原有面板，修复最新开发入口与回归缺口；不得新增玩法或删除原有动作。验收：Debug下DEV/F9跨已实现画面、暂停/重开可用，单实例高层渲染；28动作保留接线；Release无入口且全部动作拒绝；常规验证、AGENTS与同任务文档永久覆盖。
+
+- [X] T199 检查场景/脚本、初始化、InputMap、图层、debug限制和暂停/切换。确认源码原面板仍存在；旧启动器与Release默认交付导致入口漂移，F9未登记InputMap、正常验证未含debug。修复前新增回归126项有3失败，保留日志。
+- [X] T200 复用App单实例、常驻DEV与登记F9；启动器改运行当前源码；保持28动作、沙盒与暂停隔离。跨画面/重开/暂停及接线回归126项、源码图形118项通过。
+- [X] T201 将debug加入常规验证及Graphical/Export分支；全13组5,297断言、源码M1–M4图形通过；新Debug/Release导出成功，实际Release全部动作拒绝41项通过。更新AGENTS、Dashboard、概览、README、开发/验证文档与人工烟测。
+- [X] T202 最终重新导出的实际Debug EXE三尺寸图形118项、Release禁用41项通过。首轮Application Control 4551失败保留为历史；未改OS安全设置。
+- [ ] T203 真人完成Play Debug.cmd物理F9/Fn/鼠标、焦点/缩放、跨界面/暂停/重开烟测；注入事件与截图不代替人工验收。
+
+[本轮修复和逐项证据](../../docs/validation/debug-protected-20261018.md)。保留历史人工/性能gate；无未授权里程碑或玩法变更。

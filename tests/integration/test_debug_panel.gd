@@ -6,11 +6,59 @@ func key(panel, code: int) -> void:
 	event.pressed = true
 	panel._input(event)
 
+func delivered_f9() -> void:
+	for down in [true, false]:
+		var event = InputEventKey.new()
+		event.physical_keycode = KEY_F9
+		event.pressed = down
+		Input.parse_input_event(event)
+		Input.flush_buffered_events()
+
+func access_regression(t, app) -> void:
+	t.check(ResourceLoader.exists("res://scenes/debug/debug_panel.tscn") and FileAccess.file_exists("res://scripts/debug/debug_panel.gd") and FileAccess.file_exists("res://scripts/debug/debug_action_service.gd"), "protected debug scene and scripts exist")
+	var panel = app.debug_panel
+	t.check(InputMap.has_action("debug_panel_toggle"), "debug F9 action registered")
+	var f9_registered = false
+	if InputMap.has_action("debug_panel_toggle"):
+		for event in InputMap.action_get_events("debug_panel_toggle"):
+			if event is InputEventKey and event.physical_keycode == KEY_F9: f9_registered = true
+	t.check(f9_registered, "registered debug shortcut includes physical F9")
+	t.check(panel.launcher.text == "DEV" and panel.launcher.is_visible_in_tree(), "persistent DEV button is visible")
+	t.check(panel.layer > app.get_node("ScreenLayer").layer and panel.layer > app.get_node("ModalHost").layer, "debug layer renders above screens and modals")
+	t.check(panel.process_mode == Node.PROCESS_MODE_ALWAYS, "debug input and controls process while paused")
+	if app.has_method("initialize_debug_ui"):
+		for _attempt in range(3): app.initialize_debug_ui()
+	t.check(app.debug_panel == panel and app.find_children("DeveloperDebug", "CanvasLayer", true, false).size() == 1, "repeated initialization keeps exactly one existing panel")
+	for definition in panel.Actions.ACTIONS:
+		var connected = false
+		for entry in panel.buttons:
+			if entry.action == definition[0] and not entry.button.pressed.get_connections().is_empty(): connected = true
+		t.check(connected and panel.service.actions.has(definition[0]) and panel.service.actions[definition[0]].handler.is_valid(), "preserved debug action wired: " + definition[0])
+	for route in ["show_menu", "show_guild", "show_selection", "show_roster", "show_recruitment", "show_promotion"]:
+		if route == "show_promotion": app.show_promotion("aren")
+		else: app.call(route)
+		await t.process_frame
+		t.check(app.debug_panel == panel and panel.launcher.is_visible_in_tree(), route + " preserves DEV and panel identity")
+		panel.launcher.pressed.emit()
+		t.check(panel.overlay.visible and t.paused, route + " DEV signal opens paused panel")
+		delivered_f9()
+		t.check(not panel.overlay.visible and not t.paused, route + " delivered F9 closes panel")
+	# Also preserve a tree pause when there is no run/pause coordinator.
+	t.paused = true
+	delivered_f9()
+	t.check(panel.overlay.visible, "delivered F9 opens while menu tree is paused")
+	delivered_f9()
+	t.check(not panel.overlay.visible and t.paused, "closing preserves prior menu tree pause")
+	t.paused = false
+	app.show_menu()
+	t.check(panel.service.execute("end_sandbox").ok, "access regression restores normal profile")
+
 func run(t) -> void:
 	t.check(OS.has_feature("debug"), "developer suite runs in a real debug engine")
 	var app = load("res://scenes/app/app.tscn").instantiate()
 	app.writer = SaveCoordinator.new("user://tests/debug-normal-%d/" % Time.get_ticks_usec())
 	t.root.add_child(app)
+	await access_regression(t, app)
 	app.mount_run(RunStartSnapshot.new(202, &"aren"))
 	app.run.set_physics_process(false)
 	var normal = app.writer
@@ -148,6 +196,7 @@ func run(t) -> void:
 	run.set_physics_process(false)
 	t.check(run.snapshot.seed_value == 202 and Engine.time_scale == 1 and Engine.physics_ticks_per_second == 60 and not old_hero.health.debug_invincible and not old_hero.health.debug_god_mode, "same-seed restart resets all temporary debug modifiers")
 	t.check(run.hero.profession.id == &"abyss_swordsman" and service.runtime_branches.is_empty() and run.party.size() == 3, "restart restores saved sandbox class and current party")
+	t.check(app.debug_panel == panel and panel.launcher.is_visible_in_tree() and app.find_children("DeveloperDebug", "CanvasLayer", true, false).size() == 1, "same-seed restart preserves a single accessible panel")
 	panel.open_panel()
 	t.check(service.execute("save_test").ok and service.execute("load_test").ok, "safe sandbox save/load uses validated generations")
 	var fault = preload("res://tests/fixtures/fault_file_store.gd").new()

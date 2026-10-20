@@ -1,0 +1,98 @@
+[
+  {
+    "path": "scripts/combat/actor_presentation.gd",
+    "sha256": "92DC7ACCB8AC786A1BA8CF1034CFEA9937416750483E7BEF9B5D8694DDA718E8"
+  },
+  {
+    "path": "scripts/combat/combat_feedback.gd",
+    "sha256": "7D8F0B072DFB8CE9B62CF9E013D11F746657EBCCA6BB800240CC6DEFCA2CC01D"
+  },
+  {
+    "path": "scripts/combat/damage_service.gd",
+    "sha256": "6793405826257B0D000CCC53872564D5DF733DC25E3286FE575E2F2388918742"
+  },
+  {
+    "path": "scripts/combat/melee_arc.gd",
+    "sha256": "F093D1F53A395105AE72F3348827E3A1F8236A3E241B429407EC874E51AB50D1"
+  },
+  {
+    "path": "scripts/combat/projectile.gd",
+    "sha256": "1D73AD975166A5576240A9C78B13723D5C654E887C16AE9BA4583A8D11065A21"
+  },
+  {
+    "path": "scripts/core/run_manager.gd",
+    "sha256": "1515DF872109176D3AB473A0A4A6A7096FA1FFFF5FC5B4111953C3A133759850"
+  },
+  {
+    "path": "scripts/ui/combat_hud.gd",
+    "sha256": "396378E29C1BB2C8EF8DDF16BBBBF813E480812F0311A144CA7170AF840AD3EE"
+  },
+  {
+    "path": "scripts/world/coast_field.gd",
+    "sha256": "33DAE2F5BF02A2DC8951870B229E04D535737398BCBE6C06F24028E174C69B17"
+  },
+  {
+    "path": "assets/world/coast-0.png",
+    "sha256": "5917289E9F0F2A77BA58423E33A45AF5EE39D58D0B78AA21197088156EACD61A"
+  },
+  {
+    "path": "assets/world/coast-100.png",
+    "sha256": "74F69FF8AC89C2B5A21A74BB0C18670291A3BA8A6E26C595EBC4CC295C6E9893"
+  },
+  {
+    "path": "assets/actors/enemy-atlas.png",
+    "sha256": "6E61CD23E1053C613C36FD1B10DABEBADF82ABD9D20FA9F4F184E500DA35611C"
+  },
+  {
+    "path": "tests/quality_capture.gd",
+    "sha256": "DF97D4CCE47A920EC6D201B0F2A104E8DB707AD1F7F25D6357B30EE38E3C4B6E"
+  },
+  {
+    "path": "tests/quality_gallery.gd",
+    "sha256": "A614A496C9635C2E8747CBFCD23561A4FD2587501A16C541F2A690602E591476"
+  },
+  {
+    "path": "tests/quality_draw_probe.gd",
+    "sha256": "C49069EF36086A6F89A96B81B563F8A462B13791C36D87ED2B896FE3FF662D9E"
+  },
+  {
+    "path": "tests/quality_image_compare.gd",
+    "sha256": "A48EB493F3E2E28E5CE8E6A7BCBC9BDC4CE52EB1CFE11214B1E202DA5F1F92DF"
+  },
+  {
+    "path": "tests/unit/test_combat_feedback.gd",
+    "sha256": "FF1C220622AF382C76A76D18DD5521C7A6D576B0619F792A031B54E8E586CD72"
+  },
+  {
+    "path": "tests/scenes/test_m1_ui.gd",
+    "sha256": "C2180237A9E4E61F919D8915E1E610146C1E847CFD0733BD3A8C5164152DBFD1"
+  },
+  {
+    "path": "tests/debug_graphical_check.gd",
+    "sha256": "1FFB234F341383C587DEA22FBB74805295154C4175D5CB97DC8B21A2EF0D6DDA"
+  },
+  {
+    "path": "tests/run_tests.gd",
+    "sha256": "23951FCA5441649988028A89AF6F1ECC94C5DBE04FE14CFB0DE9109DDFD7C1CA"
+  },
+  {
+    "path": "tests/script_manifest.gd",
+    "sha256": "A75ECDB58AE58A2E77D1CEF0E2E344356D5BB121832803294C2C2D4A0DAA4E3C"
+  },
+  {
+    "path": "tools/validate_quality.ps1",
+    "sha256": "5834BC79A7318DE7948FBDE07398541486D77A82B383830750544D1DD9136735"
+  },
+  {
+    "path": "tools/benchmark_quality.ps1",
+    "sha256": "838694F348CFD105B31CBDB005F897E8AF089F8F18F640F577296BF2F861B0A4"
+  },
+  {
+    "path": "tools/bake_coast_art.gd",
+    "sha256": "C7D62A3725132F54F458EB5B2931A474AAA5B4D81A224DE84BA5F6E5DE71815F"
+  },
+  {
+    "path": "tools/bake_enemy_art.gd",
+    "sha256": "CE4DB7583634A7187EA185D85A8AFD933A84F01ADF1ABFD8A746B43E61030946"
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "fixture_mode": "Integrated",
+  "format": "pacing-sessions-v1",
+  "build_hash": "intentionally-wrong",
+  "mode": "Record",
+  "engine": "4.5.stable.official.876b29033",
+  "synthetic_invalid_fixture": true,
+  "samples": [
+    {
+      "sha256": "intentionally-missing-invalid-test-fixture",
+      "id": "aren-101"
+    },
+    {
+      "sha256": "intentionally-missing-invalid-test-fixture",
+      "id": "aren-202"
+    },
+    {
+      "sha256": "intentionally-missing-invalid-test-fixture",
+      "id": "aren-303"
+    },
+    {
+      "sha256": "intentionally-missing-invalid-test-fixture",
+      "id": "lia-101"
+    },
+    {
+      "sha256": "intentionally-missing-invalid-test-fixture",
+      "id": "lia-202"
+    },
+    {
+      "sha256": "intentionally-missing-invalid-test-fixture",
+      "id": "lia-303"
+    },
+    {
+      "sha256": "intentionally-missing-invalid-test-fixture",
+      "id": "milo-101"
+    },
+    {
+      "sha256": "intentionally-missing-invalid-test-fixture",
+      "id": "milo-202"
+    },
+    {
+      "sha256": "intentionally-missing-invalid-test-fixture",
+      "id": "milo-303"
+    }
+  ],
+  "engine_hash": "7B77F3735DEC3A32BB20AF29CC1900583795D1DE82A14F23D23350A88EC85FAF",
+  "fixture_hash": "656ad3c5d25c4bd4f75a661188574747b4bff5abd38900a221b486fca90c610f"
+}

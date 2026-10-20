@@ -43,7 +43,15 @@ func run(t) -> void:
 			p.owned.lia = OwnedHero.record("lia", 2900, "star_hunter")
 			p.owned.milo = OwnedHero.record("milo", 2900, "void_caster")
 		var f = Fixture.create_party(t, p, 202)
-		for tick in range(0, 32400, 600): f.run.spawns.schedule_wave(f.run, tick)
+		for tick in range(0, 32400, 600):
+			# Empty occupancy: compare planned pressure separately from scene cap skips.
+			f.run.spawns.schedule_wave(f.run, tick)
+			f.run.spawns.simulate(f.run, tick + 45)
+			for actor in f.run.enemies.duplicate():
+				f.run.registry.erase(actor.actor_id)
+				f.run.enemies.erase(actor)
+				actor.free()
+		t.check(not f.run.trace.spawns.any(func(record): return record.result == "cap"), "strength comparison has no capacity blocker")
 		traces.append(f.run.trace.waves)
 		var enemy = f.run.spawn_enemy(&"saltbound_thrall", Vector2(48, 48))
 		var boss = f.run.spawn_enemy(&"tidebound_hierophant", Vector2(48, 48), -1, true)

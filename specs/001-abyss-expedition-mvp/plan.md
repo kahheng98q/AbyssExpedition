@@ -203,3 +203,7 @@ Planning checks cover links, schemas/contracts, milestone coverage and unresolve
 
 No constitutional violations or exceptions. Native scenes/Resources/signals and small services suffice; no ECS, dependency-injection framework, global bus, speculative backend or preemptive pooling.
 
+## 当前品质迭代（2026-10-18）
+
+[Q1设计、宪法复核与验证计划](quality-pass-20261018.md)补充本计划。保留Godot4.5、纯2D和现有模拟/存档协议。原里程碑规划及历史限制保留。
+

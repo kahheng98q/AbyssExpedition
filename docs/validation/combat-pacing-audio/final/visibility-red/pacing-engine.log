@@ -1,0 +1,5 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+
+Profile storage: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/pacing-observer-448376/
+FAIL: opening warnings escape HUD occlusion on presentation layer
+SUITE pacing: 282 assertions; 1 failures; 0 skipped
