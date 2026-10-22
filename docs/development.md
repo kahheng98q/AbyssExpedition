@@ -1,5 +1,9 @@
 # Milestone 1 development
 
+## 003 任务分解 — 2026-10-21
+
+已按[剑系转职设计](../specs/003-sword-promotion-identity/plan.md)生成[54项未执行任务](../specs/003-sword-promotion-identity/tasks.md)：Setup 4、Foundation 8、US1 11、US2 9、US3 12、最终验收10。包含自然九局硬门槛、改前版本冻结、固定玩法投影正负例、三故事独立测试、每阶段Godot／文档检查点及真实Debug／Release回归。后续按用户批准修订I1／U1／A1：逻辑注入时钟＋独立真实播放150／180秒预算、性能12窗分支与实际治疗／渲染守卫、灰度12段独立判分；54项编号和未执行状态保留。自然九局仍待人工验收，代码与美术未实施；002其他开放项及需求质量清单未改勾选。仅做文档静态校验，未运行游戏、导出、人工或性能测试。见[生成检查记录](validation/sword-promotion-identity/task-generation-20261021.md)、[分析修订记录](validation/sword-promotion-identity/analysis-remediation-20261021.md)。
+
 ## Phase 7实施 — 2026-10-20
 
 恢复固定4.5元数据，补齐最终玩法快照/完整精度JSON、终结后计数和目标机/两轮设备性能守卫，增加负例并取得red/green；T065/T066/T074/T075已完成；16组9,232断言、源码/实际Debug/Release受控图形通过。新WASAPI录音8声部、削波0；当前Release真实性能开/关各30+120主动秒采集完成，开启p95 15.172ms/p99 19.647ms、max76.035ms。两轮逐帧focus均无失焦，电源方案一致；进程观察范围不含完整主机后台负载，T073保持部分完成。无真人自然轨迹、五人答案或物理烟测结果，相关项继续开放。逐项结果与实际命令见[实施证据](validation/combat-pacing-audio/phase7-20261020/results.md)。
@@ -171,3 +175,62 @@ Q1最终压力结果：同机seed101实际release，30秒预热＋120主动秒�
 ### 002 分析修订 — 2026-10-19
 
 用户确认后应用G1/I1/A1/I2的文档修订：SC004原20道盲听题中的5道攻击题增加职业评分，至少4人各自同时满足类别≥16/20、职业≥4/5且每职业至少1题正确；AttackCommitted统一source_id/weapon_mode及字段类型；CombatAudio唯一拥有升级去重/FIFO，VoiceAllocator维护声部与合并窗口；T038先注册音频suite并记录red，T047完成集成green。spec、plan、research、data-model、audio合同、quickstart、tasks及文档导航同步。64项任务编号与未勾选状态保留，评审清单标记未改。本轮仅改文档，功能未实现、游戏验收未执行；复核范围见[分析修订检查](validation/combat-pacing-audio/analysis-remediation-20261019.md)。
+
+## 003 剑系转职规划 — 2026-10-21
+
+仅文档：完成[实施计划](../specs/003-sword-promotion-identity/plan.md)、研究、数据模型、战斗表现／预览／验证三份契约及[验证指南](../specs/003-sword-promotion-identity/quickstart.md)。采用职业Resource驱动共享程序像素绘制、原治疗点实际差值事实、隔离静音示例；保留伤害时序、音频六字段、存档与DEV合同。功能未实现、未生成tasks；当前Git分支未切换。
+
+FR-012当前版自然九局是实施前门槛，仍待满足；其他002自然／人工／完整环境项目继续独立开放。宪法八原则规划前后审查合规，无例外。扩展hooks执行前后均无extensions.yml。更新dashboard、overview、README入口并保留既有实施证据；静态检查10份文档、192个本地引用无缺失，21张dashboard图均有alt；未运行Godot／图形／导出／自然游玩／性能检查。
+
+## 003 实施预检 T001 — 2026-10-21
+
+用户确认越过未勾选需求质量清单后，完成[T001环境／版本核对](validation/sword-promotion-identity/baseline/environment.md)、[FR／SC验收矩阵](validation/sword-promotion-identity/acceptance.md)与ValidationSession空模板；54项仅T001完成，余53项未完成。固定Godot 4.5版本查询退出0，204个源码／资源文件的合并hash与002现有phase7构建manifest一致，Release／console文件hash也匹配；身份清单不等于T003冻结构建或重新通过历史回归。
+
+递归证据检查只找到3份工具负例Record manifest，无协议与当前hash匹配的完整真人九局。[T002自然门槛](validation/sword-promotion-identity/baseline/natural-gate.md)未满足，按FR-012与任务依赖止于证据准备，没有实施T003之后的代码／美术／比较工具。未改游戏／Resource／场景／测试／引擎配置／旧构建或需求清单；未运行游戏suite、自然操作、图形、导出、录音、性能或物理DEV。同步图鉴／概览／README／plan／quickstart及实际任务状态；文档检查见[本轮记录](validation/sword-promotion-identity/preflight-20261021-v1/docs-check.json)。本轮前后未发现extensions.yml，无实施hooks可派发。002开放项继续独立保留。
+
+## 003 实施顺序修订 — 2026-10-21
+
+用户明确授权[自然九局延期验收、先同步规格与任务依赖并实施](validation/sword-promotion-identity/authorization-20261021.md)。FR-012及关联文档已同步；T002仍未勾选，不再阻止T003之后。先冻结当前未改动源码／构建，再跑旧行为回归和比较基础；不代填真人结果，不关闭002开放项。
+
+### 003 Setup检查点 — 2026-10-21
+
+[T003／T004](validation/sword-promotion-identity/baseline/results.md)：冻结原版204文件无变化；固定4.5完整M4 16组9,232断言、新Release实际调试拒绝与Debug导出通过，当前窄测7组879通过。未跑Graphical／自然操作／性能，T002延期未验。进入Foundation前保留完整manifest／日志。
+
+### 003 Foundation阶段进展 — 2026-10-21
+
+[证据](validation/sword-promotion-identity/foundation/results.md)：51工具检查0失败、54组基线完整状态及自比较0差异、7组891原生断言通过；外部测试副本不改冻结玩法。首轮性能捕获因守卫无效，保留失败并诊断；新剑系表现尚未实施。自然九局继续延期待验。
+
+### 003 Foundation收口 — 2026-10-21
+
+[实际证据](validation/sword-promotion-identity/foundation/results.md)：52工具检查通过，7组891断言、改前真实图形及Release压力有效。首两轮因误拾取2枚掉落物使原守卫失败；仅调整测试布局并冻结前后共同偏移，第三轮奖励／12窗／原总负载有效，p95 13.593／p99 15.618ms。保留失败，改后／完整主机环境与真人验收仍开放；开始US1测试先行。
+
+### 003 US1实装 — 2026-10-21
+
+[阶段证据](validation/sword-promotion-identity/us1/results.md)：Resource驱动single／dual／long，共享纯绘制与真实弧元数据；原攻击／治疗／音频／保存不变。行为red后逻辑、剑系542受控图形及原DEV检查通过，固定完整初始档的54组前后状态0差异。初版比较正确拒绝了起始抽卡RNG差异，已固定夹具并完整重采，失败保留；未排除该字段。US2／US3未实现，真人辨识、物理DEV和改后性能未验。
+
+### 003 US2实装 — 2026-10-21
+
+[证据](validation/sword-promotion-identity/us2/results.md)：原heal前后实际差值只读事实，独立最多3条／36主动tick提示，1位小数误差≤0.05，满血消费原键且无成功提示。Red后6组1,096断言、扩展640图形（含真实升级／事件／重开）及54组跨版0差异通过；原48伤害记录、音频事实、治疗／计数不变。US3待实施，人工／改后性能保持未验。
+
+### 003 US3逻辑／布局 — 2026-10-21
+
+[结果](validation/sword-promotion-identity/us3/results.md)：两独立Session、共享绘制、单调时钟与焦点／遮盖／退出清理已接线。8组1674断言、676快速图形通过；真实播放独立150／180秒探针正在执行，保持原suite时限。原资格／保存失败Retry、非剑系和单例DEV保留，人工／改后性能未验。
+
+### 003 自动收口与主机阻塞 — 2026-10-21
+
+完整M4原生16组9917断言、源码M1–M4／DEV／音频／剑系图形及四组合生产时钟十轮通过。完整导出命令在新Release实际启动CreateProcess4551处退出1；同版复测／另一目录重导出仍失败，原始失败保留，未改系统安全策略。新Debug原DEV118／剑系676实际图形通过，四组合真实时钟通过。候选Benchmark在严格manifest守卫前置拒绝，未采新帧时，T047／T049保持开放。真人九局T002／五人T050–051／物理T052仍待验。
+
+[材料v2](validation/sword-promotion-identity/human/prepared-20261021-v2/README.md)：18段原始／无名彩色、12段灰度、10密集图，3250hash、每人固定随机题序、无答案首答页；0名真人回答。早期工具SceneTree继承解析原生崩溃记录及自包含修复保留，v2真实连续tick材料捕获通过。
+
+
+## 003 Phase 7 · 2026-10-21
+
+收敛T062先修复文档门禁：允许追加Convergence，保护原54项描述和ID顺序；10项正负例通过（旧逻辑3失败），详见[本轮证据](validation/sword-promotion-identity/convergence-20261021-v1/results.md)。T055流程覆盖继续实施，Release／性能／自然九局／五人辨识／物理DEV保持开放。评审清单只读，沿用此前继续实施授权；无新增依赖或游戏规则修改。
+
+T055补充夹具已通过10项非空守卫测试；候选v2 Capture取得54战斗＋6流程，均实际出牌／事件／结算一次并回读40XP。对照尚待冻结基线与变体完成；原投影白名单、54组矩阵及生产玩法源码未改。标准隔离窄测integration_m2／replay／DEV共307断言通过；直接check-only的引擎signal11失败保留，未冒作通过。
+
+T055完成：三组各60样本零差异；12流程守卫测试、54工具检查、26投影检查通过，原白名单不扩大。T056本轮新Release实际启动及拒绝探针通过，正在完成导出图形／真实时钟；此前4551历史保留，未改安全策略，不将原因推断为已修复系统问题。
+
+T047／T056补验完成：全M4图形导出命令退出0，16组9917断言，Release实际41禁调试／655剑系图形、Debug118／676、源码4＋Debug4＋Release1真实十轮全通过。新构建convergence-release-20261021-v1；生产文件hash未变，旧4551和首次独立解析signal11保留。候选Benchmark正在实际采样，未提前记帧时结论。
+
+T049／T057候选Release实际采样有效但失败预算：30＋120主动秒／8016帧，12窗四类真实攻击／治疗／渲染及完整负载通过，p95=16.732ms>16.67、p99=17.927ms≤25。保留首次样本，不重跑挑成功值；未定位瓶颈，按非并行失败规则停止后续实现。CIM权限不足，Godot实测5800H／GTX1650／NVIDIA546.30、WASAPI48k及有限后台观测如实记录。T055／T056／T062及原T047完成，52／62任务行完成；性能和四类真人验收仍开放。

@@ -1,0 +1,10 @@
+{
+  "kind": "release",
+  "host": "normal",
+  "speed": 1,
+  "executable": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\builds\\windows\\sword-promotion-identity\\convergence-release-20261021-v1\\AbyssExpedition.console.exe",
+  "executable_sha256": "4002EEFFB14A7AF3DA16E5B0BE5B7F5DA773F2117D819B33226DBCD1D6562951",
+  "fixture_sha256": "53A5947817EFF1F6ADB2786972B5EF385B7FE8BA90235DA7E9C59652F0103646",
+  "clock": "production monotonic",
+  "wall_deadline_seconds": 180
+}

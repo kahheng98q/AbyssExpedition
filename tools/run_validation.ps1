@@ -26,14 +26,40 @@ function Invoke-Check([string]$name, [string[]]$arguments, [int]$expectedExit = 
     [void]$process.Start()
     $stdout = $process.StandardOutput.ReadToEndAsync()
     $stderr = $process.StandardError.ReadToEndAsync()
-    if (-not $process.WaitForExit($timeout * 1000)) { $process.Kill($true); throw "$name watchdog expired" }
+    $timedOut = -not $process.WaitForExit($timeout * 1000)
+    if ($timedOut) { $process.Kill($true); $process.WaitForExit() }
     $output = $stdout.GetAwaiter().GetResult() + $stderr.GetAwaiter().GetResult()
     [IO.File]::WriteAllText((Join-Path $validationDirectory "$name.log"), $output)
     $exitCode = $process.ExitCode
     $process.Dispose()
+    if ($timedOut) { throw "$name watchdog expired; stdout/stderr and partial evidence retained" }
     if ($exitCode -ne $expectedExit -or $output -match '(?m)^(SCRIPT ERROR|ERROR:|FAIL:|Debugger Break)') { throw "$name failed (exit $exitCode):`n$output" }
     Write-Output "$name PASS (exit $exitCode)"
     $output -split "`n" | Where-Object { $_ -match 'SUITE|CONTENT:|AUTOPLAY|GRAPHICAL:|BENCH ' } | Write-Output
+}
+function New-SwordHarness([string]$filename) {
+    $harness = [IO.File]::ReadAllText((Join-Path $validationRoot "tests/$filename.gd"))
+    $capture = [IO.File]::ReadAllText((Join-Path $validationRoot 'tests/error_capture.gd'))
+    $capture = ($capture -split "\r?\n" | ForEach-Object { "`t" + $_ }) -join "`n"
+    $harness = $harness.Replace('extends SceneTree', ("extends SceneTree`n`nclass ErrorCapture:`n" + $capture))
+    $harness = $harness.Replace('preload("res://tests/error_capture.gd").new()', 'ErrorCapture.new()')
+    $harnessPath = Join-Path $validationDirectory "$filename-external.gd"
+    [IO.File]::WriteAllText($harnessPath, $harness)
+    return $harnessPath
+}
+function Invoke-SwordRealtime([string]$kind, [string]$executable = $godotBinary) {
+    $harnessPath = New-SwordHarness 'sword_preview_realtime_check'
+    $combinations = @(@{hostMode='normal';speed=1})
+    if ($kind -ne 'release') { $combinations += @(@{hostMode='dev';speed=1},@{hostMode='dev';speed=2},@{hostMode='dev';speed=4}) }
+    foreach ($combination in $combinations) {
+        $id = "sword-realtime-$kind-$($combination.hostMode)-$($combination.speed)"
+        $target = Join-Path $validationDirectory $id
+        if (Test-Path -LiteralPath $target) { throw "Realtime evidence already exists: $target" }
+        New-Item -ItemType Directory $target | Out-Null
+        [ordered]@{kind=$kind;host=$combination.hostMode;speed=$combination.speed;executable=$executable;executable_sha256=(Get-FileHash -LiteralPath $executable -Algorithm SHA256).Hash;fixture_sha256=(Get-FileHash -LiteralPath (Join-Path $validationRoot 'tests/sword_preview_realtime_check.gd') -Algorithm SHA256).Hash;clock='production monotonic';wall_deadline_seconds=180} | ConvertTo-Json | Set-Content -Encoding utf8 (Join-Path $target 'invocation.json')
+        Write-Output "$id START (ten real cycles, native focus, 180-second watchdog)"
+        Invoke-Check $id @('--path',$validationRoot,'--log-file',(Join-Path $target 'engine.log'),'--script',$harnessPath,'--','--host',$combination.hostMode,'--speed',[string]$combination.speed,'--kind',$kind,'--output',$target) 0 180 $executable
+    }
 }
 $version = & $godotBinary --version
 if ($version.Trim() -ne '4.5.stable.official.876b29033') { throw "Engine pin mismatch: $version" }
@@ -59,6 +85,10 @@ if ($Graphical) {
     $debugCaptures = Join-Path $validationDirectory 'debug-captures'
     New-Item -ItemType Directory -Force $debugCaptures | Out-Null
     Invoke-Check 'pacing-audio-graphical' @('--path',$validationRoot,'--log-file',(Join-Path $validationDirectory 'pacing-audio-graphical-engine.log'),'--script','res://tests/pacing_audio_graphical_check.gd','--','--captures',$gameplayCaptures)
+    $swordCaptures = Join-Path $validationDirectory 'sword-captures'
+    New-Item -ItemType Directory -Force $swordCaptures | Out-Null
+    Invoke-Check 'sword-graphical' @('--path',$validationRoot,'--log-file',(Join-Path $validationDirectory 'sword-graphical-engine.log'),'--script','res://tests/sword_identity_graphical_check.gd','--','--captures',$swordCaptures)
+    Invoke-SwordRealtime 'source'
     Invoke-Check 'debug-graphical' @('--path',$validationRoot,'--log-file',(Join-Path $validationDirectory 'debug-graphical-engine.log'),'--script','res://tests/debug_graphical_check.gd','--','--captures',$debugCaptures)
     if ($M4) {
         $m4Captures = Join-Path $validationDirectory 'm4-captures'
@@ -81,6 +111,16 @@ if ($Export) {
     Invoke-Check 'debug-export' @('--headless','--path',$validationRoot,'--export-debug','Windows Desktop',(Join-Path $exportDirectory 'AbyssExpedition-debug.exe'))
     if ($Graphical) {
         Invoke-Check 'debug-exported-graphical' @('--path',$validationRoot,'--script',(Join-Path $validationRoot 'tests/debug_graphical_check.gd'),'--','--captures',$debugCaptures) 0 60 (Join-Path $exportDirectory 'AbyssExpedition-debug.console.exe')
+    }
+    if ($Graphical) {
+        $swordExportHarness = New-SwordHarness 'sword_identity_graphical_check'
+        foreach ($kind in @('debug','release')) {
+            $exeName = if ($kind -eq 'debug') { 'AbyssExpedition-debug.console.exe' } else { 'AbyssExpedition.console.exe' }
+            $swordExportCaptures = Join-Path $validationDirectory "sword-$kind-captures"
+            New-Item -ItemType Directory $swordExportCaptures | Out-Null
+            Invoke-Check "sword-$kind-graphical" @('--path',$validationRoot,'--script',$swordExportHarness,'--','--captures',$swordExportCaptures) 0 60 (Join-Path $exportDirectory $exeName)
+            Invoke-SwordRealtime $kind (Join-Path $exportDirectory $exeName)
+        }
     }
     if ($Graphical -and $M2) {
         $milestoneId = if ($M4) { 'm4' } elseif ($M3) { 'm3' } else { 'm2' }

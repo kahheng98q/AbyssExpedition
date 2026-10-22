@@ -10,8 +10,10 @@ extends Resource
 @export var hurt: String = "procedural_hurt"
 @export var death: String = "procedural_death"
 @export var directional_flip: bool = true
+@export var sword_identity: StringName = &""
 
 func validate() -> String:
+	if sword_identity not in [&"", &"single", &"dual", &"long"]: return "unregistered sword identity"
 	for component in [palette.r, palette.g, palette.b, palette.a]:
 		if not is_finite(component): return "nonfinite palette component"
 	if silhouette not in ["diamond", "sword", "bow", "star", "crab", "lantern", "shell", "tentacles", "triangle", "crown"]: return "unregistered silhouette"

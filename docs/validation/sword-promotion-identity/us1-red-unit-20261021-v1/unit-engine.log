@@ -1,0 +1,5 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+
+FAIL: VisualSet declares optional data-driven sword identity
+INVULNERABILITY QUEUE PROBE: attempts=10000 retained_ids=0 elapsed_us=6523
+SUITE unit: 307 assertions; 1 failures; 0 skipped

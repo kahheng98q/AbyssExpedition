@@ -10,6 +10,7 @@ signal rescue_presented
 signal event_presented
 signal attack_committed(fact: Dictionary)
 signal damage_accepted(fact: Dictionary)
+signal branch_heal_applied(fact: Dictionary)
 signal rush_started(tick: int, actor_id: int)
 signal hostile_shot_fired(tick: int)
 signal hit_confirmed(point: Vector2, direction: Vector2, amount: float, fatal: bool, friendly: bool)
@@ -165,6 +166,12 @@ func create_arc(hit: Dictionary, tick: int) -> void:
 	arc.reach = hit.reach
 	arc.angle = hit.angle
 	arc.expires = tick + 10
+	if hit.has("sword_visual"):
+		var visual = hit.sword_visual.duplicate(true)
+		visual.born_tick = tick
+		visual.expires_tick = tick + 10
+		visual.make_read_only()
+		arc.sword_visual = visual
 	effects.add_child(arc)
 	for actor in enemies:
 		if arc.contains(hit.origin, hit.direction, hit.reach, hit.angle, actor.position):
@@ -208,6 +215,7 @@ func finish(outcome: String) -> void:
 	if phase != "active": return
 	if outcome == "defeat" and rescue.state == "defending": rescue.advance(hero.position, false)
 	phase = "results"
+	$CombatWorld/CombatFeedback.clear_heals()
 	if is_instance_valid(combat_audio): combat_audio.shutdown()
 	choices.cancel(self)
 	pause.cancel_all()

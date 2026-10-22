@@ -1,0 +1,5373 @@
+{
+  "power_before": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+  "power_after": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+  "observations": [
+    {
+      "elapsed_seconds": 0.0173526,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 2732032
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6750208
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7708672
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7663616
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 96968704
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 1.0526509,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 163987456
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6750208
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7708672
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7667712
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 97636352
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 2.0809698,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 220110848
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6750208
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7708672
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7667712
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 99737600
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 3.1067587,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 222666752
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6750208
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7708672
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7667712
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 101695488
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 4.1266449,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 222720000
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6750208
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7708672
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7667712
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 103059456
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 5.1554587,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 223551488
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6750208
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7708672
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7667712
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 105742336
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 6.188661,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 223875072
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6750208
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7708672
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7667712
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 106463232
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 7.2086852,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 223875072
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6750208
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7708672
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7667712
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 107003904
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 8.2411103,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 223555584
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6750208
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7716864
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7667712
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 107048960
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 9.271609,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 223621120
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6750208
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7716864
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7667712
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 107429888
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 10.2972524,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 223637504
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6750208
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7716864
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7667712
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 107585536
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 11.3186779,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 223645696
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6750208
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7716864
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7667712
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 107814912
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 12.3471326,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 223911936
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6750208
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7716864
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7667712
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 106020864
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 13.3753877,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 223965184
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6750208
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7716864
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7667712
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 106106880
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 14.3933708,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 224342016
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6750208
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7716864
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7667712
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 106106880
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 15.4219141,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 224346112
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6750208
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7716864
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7667712
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 106131456
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 16.4517657,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 224346112
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6750208
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7716864
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7667712
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 104898560
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 17.4813797,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 228577280
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6750208
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7716864
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7667712
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 106885120
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 18.5021047,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 228577280
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6750208
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7716864
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7667712
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 106893312
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 19.5260227,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 228622336
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6750208
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7716864
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7667712
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 106905600
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 20.5446986,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 228626432
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6750208
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7716864
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7667712
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 106905600
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 21.566548,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 228687872
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6750208
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7716864
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7667712
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 106946560
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 22.5850286,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 229007360
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6750208
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7716864
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7667712
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 106946560
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 23.6106639,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 229007360
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6750208
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7716864
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7667712
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 106946560
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 24.6309358,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 229007360
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6750208
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7716864
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7667712
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 103755776
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 25.6473526,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 229285888
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6750208
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7716864
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7667712
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 103776256
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 26.6692011,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 229285888
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6750208
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7716864
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7667712
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 103776256
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 27.700359,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 229285888
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6750208
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7716864
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7667712
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 103784448
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 28.7420179,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 229285888
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6750208
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7716864
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7667712
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 103788544
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 29.7618023,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 229285888
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6750208
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7667712
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 111284224
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 30.7833271,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 229343232
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 111325184
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 31.8118906,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 229355520
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113917952
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 32.8438763,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 229552128
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113930240
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 33.8614394,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 229683200
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113930240
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 34.8905422,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 229683200
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113930240
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 35.9125895,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 229707776
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113930240
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 36.9437811,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 229847040
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112377856
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 37.9736503,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 229847040
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112377856
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 39.0051181,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 230010880
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112431104
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 40.0225513,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 230019072
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112369664
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 41.0513177,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 230158336
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 111566848
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 42.0819393,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 230166528
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112611328
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 43.1107701,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 230432768
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112627712
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 44.1401589,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 230436864
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112631808
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 45.167715,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 230522880
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112648192
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 46.1949907,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 230522880
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112648192
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 47.2144138,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 230666240
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112660480
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 48.2324897,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 230932480
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112656384
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 49.2605303,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 230940672
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112152576
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 50.2785845,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 230965248
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112164864
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 51.2986713,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 230965248
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112164864
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 52.3259173,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 231260160
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112164864
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 53.355303,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 231661568
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112189440
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 54.3863912,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 231669760
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112189440
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 55.4149272,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 231677952
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112189440
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 56.442937,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 231677952
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112189440
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 57.4750878,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 231821312
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 111509504
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 58.497394,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 232087552
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 111542272
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 59.5250087,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 232226816
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112402432
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 60.5524348,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 232296448
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112402432
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 61.5705455,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 232296448
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112410624
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 62.589075,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 232337408
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 120918016
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 63.6203553,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 232607744
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 120967168
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 64.642082,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 234721280
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 120971264
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 65.659315,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 234729472
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 120971264
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 66.6777582,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 234864640
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 120971264
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 67.7008921,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 235163648
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 120926208
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 68.7305977,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 235171840
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 120926208
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 69.7488812,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 235171840
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113311744
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 70.7791764,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 235180032
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113254400
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 71.8086898,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 235319296
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113278976
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 72.8392539,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 235593728
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113278976
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 73.8697154,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 235601920
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112439296
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 74.8995484,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 235601920
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112447488
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 75.9254362,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 235610112
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113070080
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 76.9519007,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 235876352
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113070080
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 77.9809824,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 235888640
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113864704
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 79.0109433,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 236171264
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113864704
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 80.0275437,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 236171264
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113864704
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 81.0567198,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 236179456
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113831936
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 82.0846202,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 236445696
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113831936
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 83.1148398,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 236453888
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113864704
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 84.1383087,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 236462080
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113864704
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 85.1551972,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 236597248
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113864704
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 86.1732639,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 236957696
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112390144
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 87.1998735,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 237223936
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112398336
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 88.2302791,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 237223936
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112472064
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 89.2594007,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 237490176
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112463872
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 90.2879456,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 237490176
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112463872
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 91.3110807,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 237490176
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112463872
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 92.3345604,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 237916160
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112463872
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 93.3513919,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 237916160
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112558080
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 94.3763299,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 237916160
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112566272
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 95.4031032,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 237916160
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112566272
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 96.4299482,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 237916160
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112566272
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 97.4624076,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 238182400
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112529408
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 98.4800701,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 238182400
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112529408
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 99.5056961,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 238317568
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112562176
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 100.535915,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 238317568
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112562176
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 101.5679965,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 238317568
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112570368
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 102.5970594,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 238383104
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112779264
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 103.627141,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 238649344
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112779264
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 104.6526451,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 238780416
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112779264
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 105.6701541,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 238919680
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112746496
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 106.7005131,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 238919680
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112746496
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 107.7173384,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 238919680
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112746496
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 108.7472567,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 239316992
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112746496
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 109.7786562,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 239316992
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112775168
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 110.8083217,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 239316992
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112775168
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 111.8375265,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 239316992
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112775168
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 112.8662419,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 239316992
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112730112
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 113.8871137,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 239722496
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112701440
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 114.9080402,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 239722496
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112701440
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 115.9242507,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 239722496
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112701440
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 116.9426599,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 239722496
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112701440
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 117.9602627,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 239722496
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112701440
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 118.9897671,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 239988736
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112701440
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 120.0209849,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 239988736
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112943104
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 121.0522055,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 239988736
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 112955392
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 122.0701689,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 240123904
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113119232
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 123.0992941,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 242204672
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113954816
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 124.1254863,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 242470912
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113983488
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 125.1437324,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 242470912
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113983488
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 126.1607896,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 242606080
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113983488
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 127.1784527,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 242606080
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113078272
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 128.1975152,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 243007488
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113086464
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 129.2131973,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 243007488
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113086464
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 130.2313019,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 243007488
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113106944
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 131.2596298,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 243007488
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113106944
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 132.2904587,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 243404800
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113106944
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 133.320416,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 243671040
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113106944
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 134.33936,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 243609600
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113106944
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 135.3633171,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 243744768
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113106944
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 136.3943242,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 243757056
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113106944
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 137.4107743,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 243765248
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113106944
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 138.4289092,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 244031488
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113106944
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 139.4611811,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 244039680
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113131520
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 140.4799662,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 244047872
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113131520
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 141.499498,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 244047872
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113131520
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 142.5196316,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 244768768
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113131520
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 143.5368642,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 244768768
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113106944
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 144.5635768,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 244768768
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113106944
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 145.5925644,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 244768768
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113106944
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 146.6116817,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 244768768
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113106944
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 147.6418944,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 245035008
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113106944
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 148.6586532,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 245035008
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113106944
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 149.6749783,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 245035008
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113127424
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 150.6966716,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 245030912
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113307648
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 151.7279009,
+      "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+      "visible_processes": [
+        {
+          "name": "AbyssExpedition",
+          "pid": 21224,
+          "cpu_delta_seconds": 1,
+          "working_set_bytes": 189517824
+        },
+        {
+          "name": "AbyssExpedition.console",
+          "pid": 9764,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 6701056
+        },
+        {
+          "name": "conhost",
+          "pid": 8092,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7696384
+        },
+        {
+          "name": "conhost",
+          "pid": 11912,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 7647232
+        },
+        {
+          "name": "pwsh",
+          "pid": 21344,
+          "cpu_delta_seconds": 0,
+          "working_set_bytes": 113504256
+        }
+      ]
+    }
+  ],
+  "scope": "visible process CPU/working set and power; not a guarantee of complete host GPU/background visibility",
+  "timed_out": false,
+  "exit_code": 0
+}

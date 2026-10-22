@@ -1,0 +1,33 @@
+{
+  "files": 48,
+  "local_refs": 450,
+  "images": 26,
+  "stimulus_hashes": 5420,
+  "overview_summary_chinese": 219,
+  "open_tasks": [
+    "T002",
+    "T049",
+    "T050",
+    "T051",
+    "T052",
+    "T057",
+    "T058",
+    "T059",
+    "T060",
+    "T061"
+  ],
+  "task_count": 62,
+  "checklists_read_only": {
+    "requirements.md": {
+      "total": 16,
+      "unchecked": 0
+    },
+    "sword-promotion-quality.md": {
+      "total": 38,
+      "unchecked": 38
+    }
+  },
+  "errors": [],
+  "human_answers_generated": 0,
+  "browser_visual_validation": false
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "debug",
+  "host": "dev",
+  "speed": 2,
+  "executable": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\builds\\windows\\sword-promotion-identity\\export-recovery-20261021-v2\\AbyssExpedition-debug.console.exe",
+  "executable_sha256": "0C7E025893C854AE9498F1807B0C1A3CD82405B9B5C0AFB0006C72437F3F0BCF",
+  "fixture_sha256": "53A5947817EFF1F6ADB2786972B5EF385B7FE8BA90235DA7E9C59652F0103646",
+  "clock": "production monotonic",
+  "wall_deadline_seconds": 180
+}

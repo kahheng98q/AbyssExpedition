@@ -21,7 +21,7 @@ const SUITES = {
 	"progression": ["res://tests/unit/test_permanent_progression.gd"],
 	"persistence": ["res://tests/integration/test_persistence_v1.gd", "res://tests/integration/test_persistence_v3.gd"],
 	"abilities": ["res://tests/unit/test_promotion.gd", "res://tests/unit/test_profession_abilities.gd", "res://tests/unit/test_companions.gd"],
-	"integration_m2": ["res://tests/integration/test_m2_party.gd", "res://tests/integration/test_m2_app.gd"],
+	"integration_m2": ["res://tests/integration/test_m2_party.gd", "res://tests/integration/test_m2_app.gd", "res://tests/integration/test_promotion_preview.gd"],
 	"unit": ["res://tests/unit/test_benchmark_contract.gd", "res://tests/unit/test_configured_upgrades.gd", "res://tests/unit/test_content_contract.gd", "res://tests/unit/test_combat.gd", "res://tests/unit/test_waves.gd", "res://tests/unit/test_run_upgrades.gd", "res://tests/unit/test_run_outcomes.gd", "res://tests/unit/test_seed_streams.gd"],
 	"scene_smoke": ["res://tests/scenes/test_scene_smoke.gd", "res://tests/scenes/test_m1_ui.gd"],
 	"integration_m1": ["res://tests/integration/test_choice_pause.gd", "res://tests/integration/test_m1_loop.gd"],

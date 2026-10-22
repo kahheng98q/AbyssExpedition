@@ -1,0 +1,23 @@
+...F......F.
+======================================================================
+FAIL: test_invalid_event_choice (__main__.LifecycleTests.test_invalid_event_choice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_sword_lifecycle.py", line 78, in test_invalid_event_choice
+    with self.assertRaises(AssertionError): self.validate(bad)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised
+
+======================================================================
+FAIL: test_skipped_active_ticks (__main__.LifecycleTests.test_skipped_active_ticks)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_sword_lifecycle.py", line 74, in test_skipped_active_ticks
+    with self.assertRaises(AssertionError): self.validate(bad)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.022s
+
+FAILED (failures=2)

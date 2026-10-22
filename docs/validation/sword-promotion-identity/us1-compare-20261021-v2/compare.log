@@ -1,0 +1,9 @@
+Sword Compare: 54 samples; 54 divergent
+Traceback (most recent call last):
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\sword_identity_compare.py", line 176, in <module>
+    parser.error("baseline/candidate/output required") if not all((args.baseline, args.candidate, args.output)) else compare(args.baseline, args.candidate, args.output)
+                                                                                                                     ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\sword_identity_compare.py", line 163, in compare
+    assert len(results) == 54 and invalid == 0, "gameplay differs; raw data and exact differences retained"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: gameplay differs; raw data and exact differences retained

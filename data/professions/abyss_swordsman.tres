@@ -11,6 +11,7 @@ frequency = 1.2
 max_health = 250.0
 [sub_resource type="Resource" id="visual"]
 script = ExtResource("3")
+sword_identity = &"long"
 id = &"abyss_swordsman_visual"
 silhouette = "sword"
 palette = Color(0.57, 0.4, 0.93, 1)

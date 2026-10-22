@@ -1,0 +1,434 @@
+[
+  {
+    "id": "aren-abyss_swordsman-companion-101",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "e9b728d95a1bceeb56fcf9106a04ab5f4cbc6667f941aa347b95c6222636c162",
+    "candidate_sha256": "8584414b6f6dcb65b691ffe1b0e487b984f1e2b235ce87828ee54bd5ee2ce537",
+    "diagnostics": "aren-abyss_swordsman-companion-101-diagnostics.json"
+  },
+  {
+    "id": "aren-abyss_swordsman-companion-202",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "fbd2108ef075e81e45e0a3d13b074b067753d1a327a226b9906dc8409cbf02f7",
+    "candidate_sha256": "b8999d8d65d75df547726d835b10f8b5d73d5c00ab98a4ebf6a8009885ab9a30",
+    "diagnostics": "aren-abyss_swordsman-companion-202-diagnostics.json"
+  },
+  {
+    "id": "aren-abyss_swordsman-companion-303",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "aa5ba646242b3fc22e0b61829acc3da31474da8c0ad280c2c11c342407c034dd",
+    "candidate_sha256": "5a4b57c6a72f94ff763b09310d3aadba8ba3c8f37daa7e4f514dca013c484aa7",
+    "diagnostics": "aren-abyss_swordsman-companion-303-diagnostics.json"
+  },
+  {
+    "id": "aren-abyss_swordsman-hero-101",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "5aa0b6710930b3b880352c8eecbb0119622d964f2850b5aefb6793a94c2f95db",
+    "candidate_sha256": "6f00c5fa15df8c63ab73c587e79a24808fe520f9aa0de435c590005343dd2d4e",
+    "diagnostics": "aren-abyss_swordsman-hero-101-diagnostics.json"
+  },
+  {
+    "id": "aren-abyss_swordsman-hero-202",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "5b7009797cbe271a75e94141264fc36aec1cb4dca695428ad868d74a716a9f43",
+    "candidate_sha256": "183b21c185f1268ef3765076a149458234d197855575817bafbb78fc9945836d",
+    "diagnostics": "aren-abyss_swordsman-hero-202-diagnostics.json"
+  },
+  {
+    "id": "aren-abyss_swordsman-hero-303",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "5e17b82f771146398d3d153aca3917f76e5ce2e726c5c79f1527bd7d14375e70",
+    "candidate_sha256": "660a424954494a04980608652936d42a5e9b8cc9c92f0bfbc3ed8973423b220c",
+    "diagnostics": "aren-abyss_swordsman-hero-303-diagnostics.json"
+  },
+  {
+    "id": "aren-swordmaster-companion-101",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "d9bf09955132a5aef19b9f835deba98e3ed2f00786d941d3413bfb5f3109d0c6",
+    "candidate_sha256": "5868bb78a4b7c617cb792339e284de0755a12da39af18463c91908f91cd835dd",
+    "diagnostics": "aren-swordmaster-companion-101-diagnostics.json"
+  },
+  {
+    "id": "aren-swordmaster-companion-202",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "86c416a27f843bc439241e70ab1a454ae9d53acb369ff48e34d5ad87973cdc1a",
+    "candidate_sha256": "0c482bcc90f319ded053357668be1cfae87ab8204ce78a90706abe9009ebbee5",
+    "diagnostics": "aren-swordmaster-companion-202-diagnostics.json"
+  },
+  {
+    "id": "aren-swordmaster-companion-303",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "26d01dda64ff1f8e929f270b0a98c268249caf338861fd0b178453e36e40c270",
+    "candidate_sha256": "fd428a5f8a67badaeb3d936ede0db14c8c93cdbf7c65d3729695d7affe2686d7",
+    "diagnostics": "aren-swordmaster-companion-303-diagnostics.json"
+  },
+  {
+    "id": "aren-swordmaster-hero-101",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "ad00d5fb15c01e99ee90a5504a69efcc8c18c9c197f597b24bdd26ffdd3dfa31",
+    "candidate_sha256": "46c4ce17f82310bf67883d21d4e7227d18c9211c0ad30a9050e557a8b19fc95d",
+    "diagnostics": "aren-swordmaster-hero-101-diagnostics.json"
+  },
+  {
+    "id": "aren-swordmaster-hero-202",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "a0523bf733cbf3eb9dcc49633c2f0556781d8ef138eecdf3bee4380605ad13cf",
+    "candidate_sha256": "9dd56dc5d49fc7ffd44cebe49d6c05cf972daa61399302dc9ce4f08053fa44e3",
+    "diagnostics": "aren-swordmaster-hero-202-diagnostics.json"
+  },
+  {
+    "id": "aren-swordmaster-hero-303",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "b85137020a129f403c4d93eba0b585265286df037af4ce87d6549f0414136aa7",
+    "candidate_sha256": "a3dc72325471652e1035b5cb0a9efc0b73117a8fc531258fd915b084a80b52a6",
+    "diagnostics": "aren-swordmaster-hero-303-diagnostics.json"
+  },
+  {
+    "id": "aren-swordsman-companion-101",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "dbf1680ad9c0a1d3a1b2a890ec739463957f10134ed992acc5ed679c5d17fc54",
+    "candidate_sha256": "03476803c858cb063b63ea903e45ac08e8c910eeb64317675d7de7e3cd9408d9",
+    "diagnostics": "aren-swordsman-companion-101-diagnostics.json"
+  },
+  {
+    "id": "aren-swordsman-companion-202",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "ec4f2263336991b36c9f4d3e4a3d38edfad56a0cd78fc8c4adbe7a5e16124d92",
+    "candidate_sha256": "a800a95b6e5531471b13980dcd9bae0b47cd2d1c0606dac11685f9ebee227999",
+    "diagnostics": "aren-swordsman-companion-202-diagnostics.json"
+  },
+  {
+    "id": "aren-swordsman-companion-303",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "0ba45ee194bafcc744230f2cf98721fea7f094597a59dd19b8842ce27557aa10",
+    "candidate_sha256": "30a7f8563c37e046839500f3217615031ab3677b74694b0f4bb0e75d31ce412b",
+    "diagnostics": "aren-swordsman-companion-303-diagnostics.json"
+  },
+  {
+    "id": "aren-swordsman-hero-101",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "94e9659f64794c7d1fa65b6592b704ea70238a86ebd99796287e027e78ff5f07",
+    "candidate_sha256": "b68d0e2296aa244ba18a7f663e0acb5e2d988e7f721befecdd1a80762c69459c",
+    "diagnostics": "aren-swordsman-hero-101-diagnostics.json"
+  },
+  {
+    "id": "aren-swordsman-hero-202",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "3a54ae5990ac06802e80fdbc46ec3bbe79c274c053fe9f860c22b0372a921a95",
+    "candidate_sha256": "2bca1487c6247e8ebd987562f0a521aafcd1d9d355729cebf3bfcdf8b982aac0",
+    "diagnostics": "aren-swordsman-hero-202-diagnostics.json"
+  },
+  {
+    "id": "aren-swordsman-hero-303",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "3784afd0875d9b22afeaab4e52aa9418057eb2afaf64c203621fc7afb3e8da15",
+    "candidate_sha256": "945a1d3aab7c4e74aa8b5dd170d28810e39f78b85bc6515bdc4c8062f1ed3d7e",
+    "diagnostics": "aren-swordsman-hero-303-diagnostics.json"
+  },
+  {
+    "id": "brann-abyss_swordsman-companion-101",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "902714373095b0f8a19e60dcf82576316c31f27cf1c1e598e6e3834ac808167c",
+    "candidate_sha256": "2c40b4ebb44deea38b1618ad78a528d7149e140a7284bfcb56cbd656ae27f0dd",
+    "diagnostics": "brann-abyss_swordsman-companion-101-diagnostics.json"
+  },
+  {
+    "id": "brann-abyss_swordsman-companion-202",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "7f617800ff4f97feec9e4917910768692f7852c73f49db3784032dc1effec2ad",
+    "candidate_sha256": "0843c8969b1cee9187e84123b79add491f10004edf066dc63f68c693b8ada333",
+    "diagnostics": "brann-abyss_swordsman-companion-202-diagnostics.json"
+  },
+  {
+    "id": "brann-abyss_swordsman-companion-303",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "792203a714dccf13de47c8f9e4cdfb6025de0300a4368dc90f5916aa22293520",
+    "candidate_sha256": "afcbe1051fc9bee4e35e1e5b0eb8c67860a3c50740eeea7572cb605f12186cb6",
+    "diagnostics": "brann-abyss_swordsman-companion-303-diagnostics.json"
+  },
+  {
+    "id": "brann-abyss_swordsman-hero-101",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "c7cdde3bc14d39c9e0730ab25e95ed3b0a06d96141e95c39f9e79d8e93d13fd4",
+    "candidate_sha256": "49b9bab851f6286a75917a1071a8df73e2c44edfac72e70fd5d59f80c8cdf41f",
+    "diagnostics": "brann-abyss_swordsman-hero-101-diagnostics.json"
+  },
+  {
+    "id": "brann-abyss_swordsman-hero-202",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "dbd9755ab12f590134ecb86b9b3bfbdc435485bbbb052e62ca67da0822bb4c00",
+    "candidate_sha256": "f819ea9fb710e4afef3c745066c76eee8a97c0e5372c2cb509ec70aea4a872d8",
+    "diagnostics": "brann-abyss_swordsman-hero-202-diagnostics.json"
+  },
+  {
+    "id": "brann-abyss_swordsman-hero-303",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "37ce8f08a110d4a8ea79fc710e61f8020f37f68b26ec2db082941cbde6776167",
+    "candidate_sha256": "09363c805e742086da367886e9584c01c9d40838d6ccbc6b07d20bb1e91d7ffd",
+    "diagnostics": "brann-abyss_swordsman-hero-303-diagnostics.json"
+  },
+  {
+    "id": "brann-swordmaster-companion-101",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "0608e301e718e8f399ca25a10539181ce57fe9ff39783df42392debee1e04c97",
+    "candidate_sha256": "3cfd64ca5e4723697de2cf3ed5a8a8cb7e49b0d9433f5d0c7f178cd3111f3433",
+    "diagnostics": "brann-swordmaster-companion-101-diagnostics.json"
+  },
+  {
+    "id": "brann-swordmaster-companion-202",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "5d04f9584d5519e40186bc3298251dee97b0a693cea7f06f969ff954959688b0",
+    "candidate_sha256": "711424e8b03d18ab0cf6d0fbccae8d3c6382b14dbd8c58e1b516d407deaa9f4c",
+    "diagnostics": "brann-swordmaster-companion-202-diagnostics.json"
+  },
+  {
+    "id": "brann-swordmaster-companion-303",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "b5d52bc909a1c1fbb134af1e9b36b69e86cd96751c2222f587514299478e8744",
+    "candidate_sha256": "17c38eaa77a8ac715ee9a6b501df5deabf11de275d001da52bb16edc6cc0d5a2",
+    "diagnostics": "brann-swordmaster-companion-303-diagnostics.json"
+  },
+  {
+    "id": "brann-swordmaster-hero-101",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "279570e6fa1cb8a4a8aabc735599e22d0527b3fa790bc76eeecaa3e07aa789f0",
+    "candidate_sha256": "d3615b69188b20fbf268cbd5fca625d2816b6ba5ba7de0408c130445f5dae81a",
+    "diagnostics": "brann-swordmaster-hero-101-diagnostics.json"
+  },
+  {
+    "id": "brann-swordmaster-hero-202",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "c09cf229776446a722660f406cc3a3d6e8a5108ec8e554dc79bcd82a8f16b4e2",
+    "candidate_sha256": "14d81af02b2572bb07a06c025a5e78bcf05f35ee69a78ce9a940e165bf5871a7",
+    "diagnostics": "brann-swordmaster-hero-202-diagnostics.json"
+  },
+  {
+    "id": "brann-swordmaster-hero-303",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "bcf3b38576dd6cd7278f8a76c4cc92be159bb2f4a60ffed4b1a613e86e2ff9e5",
+    "candidate_sha256": "3d37d3128b349e2a29e4aa7714e534cb2bb8d37871c24ab5f6f71436b37d2b1d",
+    "diagnostics": "brann-swordmaster-hero-303-diagnostics.json"
+  },
+  {
+    "id": "brann-swordsman-companion-101",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "e8b3ca197b4886cc0cd4bbbf2abb98377dea8c8890f9d0338f25e968547a85ca",
+    "candidate_sha256": "b0f5ee0632206277dc7ea85b75145ab549aac183e227d74d6b26f222b0065590",
+    "diagnostics": "brann-swordsman-companion-101-diagnostics.json"
+  },
+  {
+    "id": "brann-swordsman-companion-202",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "7155ac144fedfa2d778d5ed9d86dfcc8642cf8e474cdea8fa33f7622fe6675a2",
+    "candidate_sha256": "17b3a328a4a85f2989c41f22d1c8156313d61e48354fc2562e957ad9727c06cd",
+    "diagnostics": "brann-swordsman-companion-202-diagnostics.json"
+  },
+  {
+    "id": "brann-swordsman-companion-303",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "29084dfa8fb659f4e3efe76c53788be4584fb332bc92118b3a5ade27f2609aad",
+    "candidate_sha256": "027e5f99fc767d126ee0cfa94d23ca9a74ab992f4f8bb467158479dcc6a08648",
+    "diagnostics": "brann-swordsman-companion-303-diagnostics.json"
+  },
+  {
+    "id": "brann-swordsman-hero-101",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "4e68b555c187432abd5ac2744ab837b77c183ec99fafe471999fe490d2951ca1",
+    "candidate_sha256": "c315563cb7c8e5a85cf0d6d3bbc45ea2bda874c51192592e6dfd8f0d3e565c13",
+    "diagnostics": "brann-swordsman-hero-101-diagnostics.json"
+  },
+  {
+    "id": "brann-swordsman-hero-202",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "72f4a4c81648b310be8a8335e3f82341cfea520b9b10ba82157d0d2677e6b198",
+    "candidate_sha256": "1906c6b5b913cb19d10092bc4020aefc28c9b7073cbf868a262fa4981057dd47",
+    "diagnostics": "brann-swordsman-hero-202-diagnostics.json"
+  },
+  {
+    "id": "brann-swordsman-hero-303",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "15fe2d3e2ee53e6677b5ed87ce72a79ff1fe43edf89682ade43611dc0f57a74c",
+    "candidate_sha256": "5e0e933821a989c3b2ac2cfe39005cfaebdf740ca577e5dbcbba2339ab461f57",
+    "diagnostics": "brann-swordsman-hero-303-diagnostics.json"
+  },
+  {
+    "id": "lia-archer-hero-101",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "32d7aa835405084669cf9d535df79365bf05c0782a2c0cc6d5cca5de7c3cf236",
+    "candidate_sha256": "1ee88e120a9ac6a2076b23c388f724cea483ff807727e7e374dc5e9adde44abd",
+    "diagnostics": "lia-archer-hero-101-diagnostics.json"
+  },
+  {
+    "id": "lia-archer-hero-202",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "9752169b6035f6ad3a524aa5480fe6076a5b6acce0b5128a5e16bacb2710468e",
+    "candidate_sha256": "af4247ac63980f18942a803508e1ee64aeac02b3c67515c77a74822a8d6ab6db",
+    "diagnostics": "lia-archer-hero-202-diagnostics.json"
+  },
+  {
+    "id": "lia-archer-hero-303",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "4f5eda1ce0f5fc3c04e56ed015e221c51f4971d61facb257cf642865063c80a7",
+    "candidate_sha256": "f9cb402fe97f6606525aa7dd2640f6fe0dca97437d463b25583b26500d9594ff",
+    "diagnostics": "lia-archer-hero-303-diagnostics.json"
+  },
+  {
+    "id": "lia-sharpshooter-hero-101",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "5eb81de072f350d31c71d36a75c848ab9a8991873f536e05551bf3627d180ece",
+    "candidate_sha256": "7e5f96c1e76ad6f1f9ec473a24ec2978d4839ede99556e3b4e18651f2954414a",
+    "diagnostics": "lia-sharpshooter-hero-101-diagnostics.json"
+  },
+  {
+    "id": "lia-sharpshooter-hero-202",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "fb1d2be0731687561b92a9fecfcca80e50a873f0fd5fc4d42a3b545e0b94445b",
+    "candidate_sha256": "fc0cbcf63e4926eb319d6772e82b69681508f1e35db616231bfb41db7a2a130b",
+    "diagnostics": "lia-sharpshooter-hero-202-diagnostics.json"
+  },
+  {
+    "id": "lia-sharpshooter-hero-303",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "b491531f1775bf35d64c9f9bcc2801e4cd895d62a1b5aa0375ee4fd163883d32",
+    "candidate_sha256": "80830bc5a84acb74f6b35209a5cea8f48bb33ef63c70e2d0446cf569095f0a7f",
+    "diagnostics": "lia-sharpshooter-hero-303-diagnostics.json"
+  },
+  {
+    "id": "lia-star_hunter-hero-101",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "7f3e707067e028763a1d10c52f76700d942dd6be650d4c1b97b6612ca7435d24",
+    "candidate_sha256": "1217d40695b96ecd3dff98577df485c10198229668eecc09f8f72affc17a0f0b",
+    "diagnostics": "lia-star_hunter-hero-101-diagnostics.json"
+  },
+  {
+    "id": "lia-star_hunter-hero-202",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "f01dfaed9aa03de02ef9927da028d908b8a2ee7f17af6ac401968c848bc4624c",
+    "candidate_sha256": "71509d0791dce6537ae37cf761c2b268220c9857169aaaf13fd3b91e5264e9c2",
+    "diagnostics": "lia-star_hunter-hero-202-diagnostics.json"
+  },
+  {
+    "id": "lia-star_hunter-hero-303",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "8814f91f637ef9558e73a11ae8037cce71e5f3d08d14907918a28c11b31ddd43",
+    "candidate_sha256": "df998b91f6aaaf0158b69abfb81c63bc0568df434eef136d2bf98d3fa204f561",
+    "diagnostics": "lia-star_hunter-hero-303-diagnostics.json"
+  },
+  {
+    "id": "milo-elemental_sage-hero-101",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "9ab7ba4a0b692baf02c18d0d35bef94e1dea16e1af1b45de49a1a1249c4fed19",
+    "candidate_sha256": "ce7ac3f7c46d1f8fcc5d6d799d291c435dbe710a07c3ccca6e07b403ad24ecab",
+    "diagnostics": "milo-elemental_sage-hero-101-diagnostics.json"
+  },
+  {
+    "id": "milo-elemental_sage-hero-202",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "e348aa3bfebf1553b0df38e7aa3d7c8f1b99aff25142f3d5677963513298f4d2",
+    "candidate_sha256": "cf8c6ece31ba6fb70c1c3c9e115d128d92b01a120badfd73957e559c1d502098",
+    "diagnostics": "milo-elemental_sage-hero-202-diagnostics.json"
+  },
+  {
+    "id": "milo-elemental_sage-hero-303",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "0b951763383147b934276b28b8e1b1269db897ee3a59c7769fff5ccb8f3adced",
+    "candidate_sha256": "b00f406c3e1d0b3ba5a57f1f0d8ac0c550ab5a45289c8162a360dde9a71a1bab",
+    "diagnostics": "milo-elemental_sage-hero-303-diagnostics.json"
+  },
+  {
+    "id": "milo-mage-hero-101",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "51ac7e2d3172a2e656825ce872f42799a95ae03368592d1559db0797f5d56bd7",
+    "candidate_sha256": "ccc83a96afcdf0ab2ff1fbc6cf50d2ea2bc38a3968d2d9235c70b970f582d4d7",
+    "diagnostics": "milo-mage-hero-101-diagnostics.json"
+  },
+  {
+    "id": "milo-mage-hero-202",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "b35be2b95b68b0322a41f6e3d3cb3f341de70509ea21371e29810728e4419e7f",
+    "candidate_sha256": "947953f005c61df300f3b868fc2df3dc144787b28fde002327da5523ed783f8d",
+    "diagnostics": "milo-mage-hero-202-diagnostics.json"
+  },
+  {
+    "id": "milo-mage-hero-303",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "547cdb999eab528c3fe8bfd690d96cd2fcb330cdc0ab8bef38382ebef8c94bfd",
+    "candidate_sha256": "38e606acc765bb0aa0e41aa0d8197001f629fa6f6f51598b4d2af804c0dd6178",
+    "diagnostics": "milo-mage-hero-303-diagnostics.json"
+  },
+  {
+    "id": "milo-void_caster-hero-101",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "9c3cfc1d07626e1fba6ea9c4bf31010febfd148ed493aa255bb897b6b1b8e2fc",
+    "candidate_sha256": "eb401c3358249e8116e3f1db0c3482f7784c8fbce778213739ea93406508e19c",
+    "diagnostics": "milo-void_caster-hero-101-diagnostics.json"
+  },
+  {
+    "id": "milo-void_caster-hero-202",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "860d625110172b6ef6211b7ff2ae7409bb1c53aca14fe340a01a44b2bc755e1a",
+    "candidate_sha256": "ddaf3fbfafa5abecb07dc4fe7a96583c55077e824f3983b8edb8867630ab6ea2",
+    "diagnostics": "milo-void_caster-hero-202-diagnostics.json"
+  },
+  {
+    "id": "milo-void_caster-hero-303",
+    "equal": true,
+    "differences": [],
+    "baseline_sha256": "0bd819a2e589ef220461584400dcce102449c9ba6aee4873679a07e05df802f5",
+    "candidate_sha256": "ea74d9c8aa4e20f57aba663783ff974e1d20f8c6f225ed661d8a6f1be8226515",
+    "diagnostics": "milo-void_caster-hero-303-diagnostics.json"
+  }
+]

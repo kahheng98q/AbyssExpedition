@@ -1,0 +1,114 @@
+{
+  "run_id": "preflight-20261021-v1",
+  "date": "2026-10-21",
+  "timezone": "Asia/Singapore",
+  "scope": "T001 read-only environment and identity checks; no gameplay sessions",
+  "engine": {
+    "exit_code": 0,
+    "version": "4.5.stable.official.876b29033",
+    "command": "& './tools/godot-4.5/Godot_v4.5-stable_win64_console.exe' --version"
+  },
+  "os": "Microsoft Windows 10.0.26200",
+  "architecture": "X64",
+  "powershell": "7.6.5",
+  "build_hash": "fa5614aab670a76126d66d13894ff2481e00e9a85199d18277f2e0dd5a30dfd3",
+  "fixture_hash": "1af5b040974c0bb476b5dce282f45acfd37b4b63e8762e25b4964db5f1be8776",
+  "binaries": [
+    {
+      "path": "tools/godot-4.5/Godot_v4.5-stable_win64_console.exe",
+      "exists": true,
+      "sha256": "7b77f3735dec3a32bb20af29cc1900583795d1de82a14f23d23350a88ec85faf",
+      "bytes": 197640
+    },
+    {
+      "path": "tools/godot-4.5/Godot_v4.5-stable_win64.exe",
+      "exists": true,
+      "sha256": "5ea93bab9cb6d2dc0824a41e8465828390f7e870535cd8f0690dcf6fa9db0fd2",
+      "bytes": 162825224
+    },
+    {
+      "path": "tools/godot-4.5-templates/templates/windows_debug_x86_64.exe",
+      "exists": true,
+      "sha256": "9764f2cf12f62060c3e80777f5503c3e6bd755da1ad47a97512c8505aa05c219",
+      "bytes": 94566400
+    },
+    {
+      "path": "tools/godot-4.5-templates/templates/windows_release_x86_64.exe",
+      "exists": true,
+      "sha256": "5bae54022c7e699b6f0f26230cf49a01c3582640623c6cf7f055c15eac9c5f29",
+      "bytes": 96762368
+    }
+  ],
+  "prior_build_manifest": {
+    "engine": "4.5.stable.official.876b29033",
+    "source_hash": "fa5614aab670a76126d66d13894ff2481e00e9a85199d18277f2e0dd5a30dfd3",
+    "release_sha256": "DB93EAFCD5B81B533DEC88BEDFEB76EC5464644E160B7E867B90079FB30E0D0E",
+    "console_sha256": "4002EEFFB14A7AF3DA16E5B0BE5B7F5DA773F2117D819B33226DBCD1D6562951",
+    "benchmark_fixture_sha256": "7F77B03B597DF2ACBB2AB0ECE420A092BC15C44EC5E214301820323969631C85",
+    "release_denial": "executed and passed"
+  },
+  "prior_build_files": [
+    {
+      "path": "builds/windows/combat-pacing-audio/phase7-release-20261020/AbyssExpedition.exe",
+      "exists": true,
+      "sha256": "db93eafcd5b81b533dec88bedfeb76ec5464644e160b7e867b90079fb30e0d0e"
+    },
+    {
+      "path": "builds/windows/combat-pacing-audio/phase7-release-20261020/AbyssExpedition.console.exe",
+      "exists": true,
+      "sha256": "4002eeffb14a7af3da16e5b0be5b7f5da773f2117d819b33226dbcd1d6562951"
+    },
+    {
+      "path": "builds/windows/combat-pacing-audio/phase7-release-20261020/AbyssExpedition-debug.exe",
+      "exists": true,
+      "sha256": "0b7194fc3846f5e2edc8c1d1f3121f89ad46489c9136b0847e733183e06aec18"
+    },
+    {
+      "path": "builds/windows/combat-pacing-audio/phase7-release-20261020/AbyssExpedition-debug.console.exe",
+      "exists": true,
+      "sha256": "0c7e025893c854ae9498f1807b0c1a3cd82405b9b5c0afb0006c72437f3f0bcf"
+    }
+  ],
+  "source_matches_prior_build": true,
+  "release_hash_matches": true,
+  "console_hash_matches": true,
+  "record_manifest_inventory": [
+    {
+      "path": "docs/validation/combat-pacing-audio/us3/tool-contract/hash-mismatch/manifest.json",
+      "format": "pacing-sessions-v1",
+      "mode": "Record",
+      "fixture_mode": "Integrated",
+      "build_hash": "intentionally-wrong",
+      "samples": 9,
+      "sha256": "1319038f84202af4dec3e27f21e383b6159ac9874509269853960f0157fe3a15"
+    },
+    {
+      "path": "docs/validation/combat-pacing-audio/us3/tool-contract/missing-group/manifest.json",
+      "format": "pacing-sessions-v1",
+      "mode": "Record",
+      "fixture_mode": "Integrated",
+      "build_hash": "b47641d6f7160dd8730837d147b53be1ac478ec677d85b2818d3599af0b699f6",
+      "samples": 8,
+      "sha256": "4de2934e2dab7d843f6cff8727be557a18ed7bb3331712be78eb4cc182b036c5"
+    },
+    {
+      "path": "docs/validation/combat-pacing-audio/us3/tool-contract/missing-sample/manifest.json",
+      "format": "pacing-sessions-v1",
+      "mode": "Record",
+      "fixture_mode": "Integrated",
+      "build_hash": "b47641d6f7160dd8730837d147b53be1ac478ec677d85b2818d3599af0b699f6",
+      "samples": 9,
+      "sha256": "e00d10745fa675b13a261ac684505f0ba1eb4260824d81743ade691a434b2d64"
+    }
+  ],
+  "natural_sessions_executed": 0,
+  "graphical_checks_executed": false,
+  "export_executed": false,
+  "runtime_devices_observed": false,
+  "limitations": [
+    "CPU/GPU/driver/display/audio/focus/power/full host load not observed in this preflight",
+    "Template files exist; no new export probe executed",
+    "No eligible complete nine-session Integrated natural Record group found; tool-contract negative manifests are not human recordings",
+    "No game suite, graphical, physical input, performance or human acceptance run in T001"
+  ]
+}

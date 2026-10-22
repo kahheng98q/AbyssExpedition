@@ -1,0 +1,32 @@
+FF.F......
+======================================================================
+FAIL: test_checkbox_changes_are_valid (__main__.TaskAuditTests.test_checkbox_changes_are_valid)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_003_task_audit.py", line 22, in test_checkbox_changes_are_valid
+    self.assertFalse(self.errors(self.body.replace('- [ ] T055', '- [X] T055')))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ['expected54 unique task IDs'] is not false
+
+======================================================================
+FAIL: test_current_convergence_is_valid (__main__.TaskAuditTests.test_current_convergence_is_valid)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_003_task_audit.py", line 16, in test_current_convergence_is_valid
+    self.assertFalse(self.errors(self.body))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ['expected54 unique task IDs'] is not false
+
+======================================================================
+FAIL: test_further_append_is_valid (__main__.TaskAuditTests.test_further_append_is_valid)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_003_task_audit.py", line 19, in test_further_append_is_valid
+    self.assertFalse(self.errors(self.body + '\n## Phase 8: Convergence\n\n- [ ] T063 Follow-up per FR-012 (partial)\n'))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ['expected54 unique task IDs'] is not false
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.007s
+
+FAILED (failures=3)

@@ -1,0 +1,10 @@
+{
+  "cpu": [],
+  "gpu": [],
+  "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+  "scope": "Read-only CPU/GPU driver and power observation; no guarantee of full background GPU visibility",
+  "limitations": [
+    "Win32_Processor and Win32_VideoController CIM read access unavailable; empty lists are unknown, not absent hardware",
+    "Use actual Godot processor/adapter/render-driver observations from capture logs; visible-process scope excludes complete background GPU visibility"
+  ]
+}

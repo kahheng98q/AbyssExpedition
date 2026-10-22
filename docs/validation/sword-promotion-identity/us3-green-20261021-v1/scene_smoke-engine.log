@@ -1,0 +1,44 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+
+Profile storage: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/scene-app-1872774/
+ERROR: String formatting error: unsupported format character.
+   at: validated_evaluate (core/variant/variant_op.h:953)
+   GDScript backtrace (most recent call first):
+       [0] _draw (res://scripts/ui/promotion_preview.gd:157)
+ERROR: String formatting error: unsupported format character.
+   at: validated_evaluate (core/variant/variant_op.h:953)
+   GDScript backtrace (most recent call first):
+       [0] _draw (res://scripts/ui/promotion_preview.gd:157)
+ERROR: String formatting error: unsupported format character.
+   at: validated_evaluate (core/variant/variant_op.h:953)
+   GDScript backtrace (most recent call first):
+       [0] _draw (res://scripts/ui/promotion_preview.gd:157)
+ERROR: String formatting error: unsupported format character.
+   at: validated_evaluate (core/variant/variant_op.h:953)
+   GDScript backtrace (most recent call first):
+       [0] _draw (res://scripts/ui/promotion_preview.gd:157)
+ERROR: String formatting error: unsupported format character.
+   at: validated_evaluate (core/variant/variant_op.h:953)
+   GDScript backtrace (most recent call first):
+       [0] _draw (res://scripts/ui/promotion_preview.gd:157)
+ERROR: String formatting error: unsupported format character.
+   at: validated_evaluate (core/variant/variant_op.h:953)
+   GDScript backtrace (most recent call first):
+       [0] _draw (res://scripts/ui/promotion_preview.gd:157)
+ERROR: String formatting error: unsupported format character.
+   at: validated_evaluate (core/variant/variant_op.h:953)
+   GDScript backtrace (most recent call first):
+       [0] _draw (res://scripts/ui/promotion_preview.gd:157)
+ERROR: String formatting error: unsupported format character.
+   at: validated_evaluate (core/variant/variant_op.h:953)
+   GDScript backtrace (most recent call first):
+       [0] _draw (res://scripts/ui/promotion_preview.gd:157)
+FAIL: engine/script error: core/variant/variant_op.h:953 Method/function failed. String formatting error: unsupported format character.
+FAIL: engine/script error: core/variant/variant_op.h:953 Method/function failed. String formatting error: unsupported format character.
+FAIL: engine/script error: core/variant/variant_op.h:953 Method/function failed. String formatting error: unsupported format character.
+FAIL: engine/script error: core/variant/variant_op.h:953 Method/function failed. String formatting error: unsupported format character.
+FAIL: engine/script error: core/variant/variant_op.h:953 Method/function failed. String formatting error: unsupported format character.
+FAIL: engine/script error: core/variant/variant_op.h:953 Method/function failed. String formatting error: unsupported format character.
+FAIL: engine/script error: core/variant/variant_op.h:953 Method/function failed. String formatting error: unsupported format character.
+FAIL: engine/script error: core/variant/variant_op.h:953 Method/function failed. String formatting error: unsupported format character.
+SUITE scene_smoke: 163 assertions; 8 failures; 0 skipped

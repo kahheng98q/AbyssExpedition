@@ -1,0 +1,7 @@
+Exception: C:\Users\kahhe\Desktop\Project\new-game-project\docs\validation\sword-promotion-identity\export-recovery-20261021-v2\validation-helpers.ps1:36
+Line |
+  36 |  … Debugger Break)') { throw "$name failed (exit $exitCode):`n$output" }
+     |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | debug-release-denial failed (exit -1): CreateProcess failed, error 4551 
+
+

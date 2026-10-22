@@ -69,6 +69,7 @@ func load_all() -> bool:
 		resources.append(event)
 	var visited: Dictionary = {}
 	for resource in resources: validate_resource(resource, visited)
+	validate_sword_identities()
 	if not errors.is_empty(): return false
 	for key in SCENES:
 		var scene_resource = load(SCENES[key])
@@ -112,6 +113,13 @@ func definition(path: String, expected_type) -> Resource:
 		errors.append(path + ": missing or wrong registered Resource type")
 		return null
 	return value
+
+func validate_sword_identities() -> void:
+	var expected = {&"swordsman": &"single", &"swordmaster": &"dual", &"abyss_swordsman": &"long"}
+	for id in professions:
+		var profession = professions[id]
+		if profession.visual_set != null and profession.visual_set.sword_identity != expected.get(id, &""):
+			errors.append("incorrect sword visual identity: " + String(id))
 
 func validate_resource(resource: Resource, visited: Dictionary) -> void:
 	if resource == null:

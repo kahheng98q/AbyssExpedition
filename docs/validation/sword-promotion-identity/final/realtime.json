@@ -1,0 +1,97 @@
+{
+  "combinations": [
+    {
+      "kind": "source",
+      "host": "dev",
+      "speed": 1,
+      "file": "../final-regression-20261021-v1/sword-realtime-source-dev-1/realtime.json",
+      "completed": true,
+      "cycles_each_branch": 10,
+      "opens": 10,
+      "assertions": 51,
+      "wall_seconds": 60.549465
+    },
+    {
+      "kind": "source",
+      "host": "dev",
+      "speed": 2,
+      "file": "../final-regression-20261021-v1/sword-realtime-source-dev-2/realtime.json",
+      "completed": true,
+      "cycles_each_branch": 10,
+      "opens": 10,
+      "assertions": 51,
+      "wall_seconds": 60.550598
+    },
+    {
+      "kind": "source",
+      "host": "dev",
+      "speed": 4,
+      "file": "../final-regression-20261021-v1/sword-realtime-source-dev-4/realtime.json",
+      "completed": true,
+      "cycles_each_branch": 10,
+      "opens": 10,
+      "assertions": 51,
+      "wall_seconds": 60.550908
+    },
+    {
+      "kind": "source",
+      "host": "normal",
+      "speed": 1,
+      "file": "../final-regression-20261021-v1/sword-realtime-source-normal-1/realtime.json",
+      "completed": true,
+      "cycles_each_branch": 10,
+      "opens": 10,
+      "assertions": 47,
+      "wall_seconds": 60.555356
+    },
+    {
+      "kind": "debug",
+      "host": "dev",
+      "speed": 1,
+      "file": "../debug-completion-20261021-v1/sword-realtime-debug-dev-1/realtime.json",
+      "completed": true,
+      "cycles_each_branch": 10,
+      "opens": 10,
+      "assertions": 51,
+      "wall_seconds": 60.548682
+    },
+    {
+      "kind": "debug",
+      "host": "dev",
+      "speed": 2,
+      "file": "../debug-completion-20261021-v1/sword-realtime-debug-dev-2/realtime.json",
+      "completed": true,
+      "cycles_each_branch": 10,
+      "opens": 10,
+      "assertions": 51,
+      "wall_seconds": 60.549547
+    },
+    {
+      "kind": "debug",
+      "host": "dev",
+      "speed": 4,
+      "file": "../debug-completion-20261021-v1/sword-realtime-debug-dev-4/realtime.json",
+      "completed": true,
+      "cycles_each_branch": 10,
+      "opens": 10,
+      "assertions": 49,
+      "wall_seconds": 60.554126
+    },
+    {
+      "kind": "debug",
+      "host": "normal",
+      "speed": 1,
+      "file": "../debug-completion-20261021-v1/sword-realtime-debug-normal-1/realtime.json",
+      "completed": true,
+      "cycles_each_branch": 10,
+      "opens": 10,
+      "assertions": 47,
+      "wall_seconds": 60.554228
+    }
+  ],
+  "observed_branch_cycles": 160,
+  "duration_min_seconds": 5.999712,
+  "duration_max_seconds": 6.013215,
+  "release": "not executed: Windows4551",
+  "human_acceptance": false
+}

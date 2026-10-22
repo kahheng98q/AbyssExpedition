@@ -54,6 +54,7 @@ func access_regression(t, app) -> void:
 	t.check(panel.service.execute("end_sandbox").ok, "access regression restores normal profile")
 
 func run(t) -> void:
+	await preload("res://tests/integration/test_promotion_preview.gd").new().debug_hosts(t)
 	t.check(OS.has_feature("debug"), "developer suite runs in a real debug engine")
 	var app = load("res://scenes/app/app.tscn").instantiate()
 	app.writer = SaveCoordinator.new("user://tests/debug-normal-%d/" % Time.get_ticks_usec())

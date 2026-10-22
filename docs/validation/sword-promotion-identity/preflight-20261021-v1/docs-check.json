@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-21",
+  "timezone": "Asia/Singapore",
+  "command": "python -X utf8 - (inline preflight document, links, source and checklist audit)",
+  "status": "PASS",
+  "files_checked": 18,
+  "local_references_including_anchors": 291,
+  "dashboard_images": 21,
+  "missing_alt": [],
+  "remote_runtime_resources": [],
+  "errors": [],
+  "tasks_total": 54,
+  "tasks_completed": [
+    "T001"
+  ],
+  "tasks_open": 53,
+  "checklists_read_only": {
+    "requirements.md": {
+      "total": 16,
+      "checked": 16,
+      "unchecked": 0,
+      "sha256": "01718c03103b4d2fd5e27425ef994d4bb697df480bf1ae5ee9534c235dedfebe"
+    },
+    "sword-promotion-quality.md": {
+      "total": 38,
+      "checked": 0,
+      "unchecked": 38,
+      "sha256": "1efeb8ac0c93f96c97d4f33fc98a68646c523e439be83b78fd1e16ab20f39b81"
+    }
+  },
+  "source_files_rehashed": 204,
+  "fixture_files_rehashed": 2,
+  "changed_source_or_fixture_files": [],
+  "overview_main_summary_chinese_characters": 176,
+  "extension_config_exists": false,
+  "gameplay_tests_executed": false,
+  "graphical_or_manual_acceptance_executed": false,
+  "limitations": [
+    "Static HTML/path/alt/anchor verification only; no new browser responsive visual review",
+    "No natural human input; T002 and T003 onward remain open"
+  ]
+}

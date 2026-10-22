@@ -4,6 +4,7 @@ func run(t) -> void:
 	var content = ContentCatalog.new()
 	t.root.add_child(content)
 	t.check(content.load_all(), "content contract baseline")
+	check_sword_identities(t, content)
 	var field = content.field.duplicate(true)
 	field.hero_footprint = NAN
 	t.check(field.validate() != "", "field rejects nonfinite hero footprint")
@@ -61,3 +62,27 @@ func run(t) -> void:
 	content.validate_resource(content.upgrades[&"might"].duplicate(true), visited)
 	t.check(content.errors.any(func(error): return error.contains("duplicate")), "distinct definitions cannot reuse an ID within type")
 	content.free()
+
+func check_sword_identities(t, content) -> void:
+	var field = VisualSet.new().get_property_list().any(func(item): return item.name == "sword_identity")
+	t.check(field, "VisualSet declares optional data-driven sword identity")
+	if not field: return
+	t.check(VisualSet.new().get("sword_identity") == &"", "non-sword identity defaults empty")
+	var expected = {"swordsman": &"single", "swordmaster": &"dual", "abyss_swordsman": &"long"}
+	for id in content.professions:
+		var visual = content.professions[id].visual_set
+		t.check(visual.get("sword_identity") == expected.get(String(id), &""), "profession owns visual identity " + String(id))
+		var names = visual.get_property_list().map(func(item): return item.name)
+		t.check(not names.has("health") and not names.has("activations"), "shared visual configuration owns no combat state")
+	var invalid = content.professions[&"swordsman"].visual_set.duplicate(true)
+	invalid.set("sword_identity", &"unknown")
+	t.check(invalid.validate() != "", "VisualSet rejects unknown sword identity")
+	t.check(content.has_method("validate_sword_identities"), "catalog validates profession/identity correspondence")
+	if not content.has_method("validate_sword_identities"): return
+	for id in expected:
+		var probe = ContentCatalog.new()
+		for key in content.professions: probe.professions[key] = content.professions[key].duplicate(true)
+		probe.professions[StringName(id)].visual_set.set("sword_identity", &"dual" if id != "swordmaster" else &"single")
+		probe.call("validate_sword_identities")
+		t.check(not probe.errors.is_empty(), "catalog rejects mismatched identity " + id)
+		probe.free()

@@ -1,0 +1,1838 @@
+[
+  {
+    "id": "aren-abyss_swordsman-companion-101",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "-7544842015490904978",
+        "actual": "831789194293084495"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "-3977117099513578776",
+        "actual": "1609133353100952949"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "-7544842015490904978",
+        "actual": "831789194293084495"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "-3977117099513578776",
+        "actual": "1609133353100952949"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "5f0349f51756f7ca2335371fd726bbaf6764ab1d250847c90e31cbacc6c2f2e1",
+        "actual": "360410a433190442b6597bd66cbebcfc5c9e23502dff99185a86ceadaf47bb9b"
+      }
+    ],
+    "baseline_sha256": "73a234debeb3238420c868f9008f12f8ba9ba1fd2bb62f34bac033594390ab25",
+    "candidate_sha256": "7aeda45d16e1543c6e8a9bbe7484b9b1c3a9a8b17a53cc37075bb70b42c30d83",
+    "diagnostics": "aren-abyss_swordsman-companion-101-diagnostics.json"
+  },
+  {
+    "id": "aren-abyss_swordsman-companion-202",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "-676824880534330132",
+        "actual": "7856189646175875907"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "4503632460553235214",
+        "actual": "5614839759070468441"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "-676824880534330132",
+        "actual": "7856189646175875907"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "4503632460553235214",
+        "actual": "5614839759070468441"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "aac12ba366a9e82934b67881a99d210dd3e803dbf80d87d1f19e325a5d8f4ded",
+        "actual": "33b8bf93bc67838f2bb44ce0a03a7768086391c9c86c5606f7f562ce0ae9bc83"
+      }
+    ],
+    "baseline_sha256": "e024941a047e5e6d19af09d411405c2c8a7d18767ee38abda9cde7682d6d7aed",
+    "candidate_sha256": "8666ee48916614da3f586ce678bdce1436b4130a7a6f5190c454602b4512422b",
+    "diagnostics": "aren-abyss_swordsman-companion-202-diagnostics.json"
+  },
+  {
+    "id": "aren-abyss_swordsman-companion-303",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "6900291965257753695",
+        "actual": "-1003207888498493318"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "-6651182104563654843",
+        "actual": "5650497793971653892"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "6900291965257753695",
+        "actual": "-1003207888498493318"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "-6651182104563654843",
+        "actual": "5650497793971653892"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "f886e319321403348a602b7914be9ed33f0a28e0e861c2bad356816f96dff359",
+        "actual": "c6c47a1793dba1eaaf4050b7a248f3b65cb495d33c6518b93f600a50c20d67d7"
+      }
+    ],
+    "baseline_sha256": "cdf222dbd0cfc067c862214e9bfab9d8af8f2be9665c66fd71457bbffd7c330e",
+    "candidate_sha256": "34bdb0f46c120218dec309ccd787d31fc1c03dcd8c4c3e202e89493554634951",
+    "diagnostics": "aren-abyss_swordsman-companion-303-diagnostics.json"
+  },
+  {
+    "id": "aren-abyss_swordsman-hero-101",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "6731445309259158202",
+        "actual": "7727844731856353391"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "-1391546274291094972",
+        "actual": "1435011460875884053"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "6731445309259158202",
+        "actual": "7727844731856353391"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "-1391546274291094972",
+        "actual": "1435011460875884053"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "b378679a08643012d7442d1aa9cb4c6109dd72a70d066c42ccd69c61b9861fe6",
+        "actual": "55fb073fc0a1234304809a22bae73ba335701feba9f2f04f26449641002dfd6a"
+      }
+    ],
+    "baseline_sha256": "5b90c2ef490d66f8c03aaaa123a486ba779df8d7d4f6e034730eacd81f3d7a2b",
+    "candidate_sha256": "d1a375730f12e9e0f0661c590e9ddbcb6265a984f5e45969e9e72606d8648fc9",
+    "diagnostics": "aren-abyss_swordsman-hero-101-diagnostics.json"
+  },
+  {
+    "id": "aren-abyss_swordsman-hero-202",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "-6969339865885833827",
+        "actual": "-4411463527423512641"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "3260546935097735467",
+        "actual": "-6270501419711938779"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "-6969339865885833827",
+        "actual": "-4411463527423512641"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "3260546935097735467",
+        "actual": "-6270501419711938779"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "fcefe5b17a203948a6a42051e3794daabe0c758ffce6ce3a6f005e146212628f",
+        "actual": "bded21d6e93c18f1b02de1dff79a32a40cb22df6f5dbbb055e39d9d6273ecc48"
+      }
+    ],
+    "baseline_sha256": "16347684464d92cdae1f29d7c2510e8ff4547979fd6bdd946dbc5b513eaec5b8",
+    "candidate_sha256": "39360b36bf9b225b6cd742f7c632e0db70d4b424aa5bbde7bbd02c49b8a142d7",
+    "diagnostics": "aren-abyss_swordsman-hero-202-diagnostics.json"
+  },
+  {
+    "id": "aren-abyss_swordsman-hero-303",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "6627617713870111039",
+        "actual": "5950650304365975182"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "-5942424517397032283",
+        "actual": "4231565584028893832"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "6627617713870111039",
+        "actual": "5950650304365975182"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "-5942424517397032283",
+        "actual": "4231565584028893832"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "5f6c54e3796c185933c12f07b42bcb2786f9e233971cd79aaf0f930c4e35887a",
+        "actual": "08bf6ff0e571f92b1aa74cc4562ef35188edcd5254698cb2f3866f5b82df65ce"
+      }
+    ],
+    "baseline_sha256": "6edefea6f93b401ffbb0af438535303d0bacc92382baaa949296894d85770c14",
+    "candidate_sha256": "f94c92fc69e448eab1aba41e0c18eefa72a91d0a1e51a583550253729bfd8693",
+    "diagnostics": "aren-abyss_swordsman-hero-303-diagnostics.json"
+  },
+  {
+    "id": "aren-swordmaster-companion-101",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "2374312604370953847",
+        "actual": "-5271365400896728902"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "940020464262800765",
+        "actual": "3434161076740001860"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "2374312604370953847",
+        "actual": "-5271365400896728902"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "940020464262800765",
+        "actual": "3434161076740001860"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "3ad1ee28e357933a1ef4b63d690b83630d3b483d35252d7135d04ee6808d0527",
+        "actual": "2e52fee392a1acf1d1c41849b43098705de76669f2084b6ceae125def732158a"
+      }
+    ],
+    "baseline_sha256": "0c0025e06f4d13774a579a4abc4df7c0b1d79ada0677c2ef3e68cf878be68a1d",
+    "candidate_sha256": "c9351cd938b4db70e02cd66fa5caeb09b9d2b4de596c820cbf6d96df0c91e0e3",
+    "diagnostics": "aren-swordmaster-companion-101-diagnostics.json"
+  },
+  {
+    "id": "aren-swordmaster-companion-202",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "-496453463061017899",
+        "actual": "-6517418024992486497"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "-2653469515266118653",
+        "actual": "4995457949340960133"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "-496453463061017899",
+        "actual": "-6517418024992486497"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "-2653469515266118653",
+        "actual": "4995457949340960133"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "c8095ae6c389fe6fb434c0664a5c038fbc47aef558d975d41ea2a562c5e4eaed",
+        "actual": "a87f7ee1506d0a20b6417d11035aac3845bc984a7d069b62abb22362ee7bc258"
+      }
+    ],
+    "baseline_sha256": "5fa72f1767f18c30316e9575a7fe694568bf531e9b8d8299b954cc723824139f",
+    "candidate_sha256": "d94d0d5f92f29af4901dcd3f3ca299be0b294169293ef7a30484f96caf1bfeb6",
+    "diagnostics": "aren-swordmaster-companion-202-diagnostics.json"
+  },
+  {
+    "id": "aren-swordmaster-companion-303",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "-789849446787600466",
+        "actual": "4535731231362253323"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "-1907431594762072792",
+        "actual": "-3197745716615501183"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "-789849446787600466",
+        "actual": "4535731231362253323"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "-1907431594762072792",
+        "actual": "-3197745716615501183"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "8800998fde0d4cdfc5564f630768c05f27f4de81e698535765acdededdc474ab",
+        "actual": "d8304f53f2570892d9809024f6bf9038d9fe66fec897be193ce577a5468c546d"
+      }
+    ],
+    "baseline_sha256": "6ad99d05f8a2fe9386cc39b12363e61f960329062b8c4d0a7d54aa445dd7ce13",
+    "candidate_sha256": "afa56262d7fdb1ba2b0a9c87b0bd5657b43d9337552fe279c99466fd1ddf3a3c",
+    "diagnostics": "aren-swordmaster-companion-303-diagnostics.json"
+  },
+  {
+    "id": "aren-swordmaster-hero-101",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "7792148947130327585",
+        "actual": "4408946945716690239"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "-4565376859631863713",
+        "actual": "2246938130590416549"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "7792148947130327585",
+        "actual": "4408946945716690239"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "-4565376859631863713",
+        "actual": "2246938130590416549"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "659aa37b0840d1ffbc7fcc191f182a010bbe32369c59a95ef5230672779236d3",
+        "actual": "a441dec0de49cfbea52b18db7dfd148e65a0e59862656511c72c64ba9474111f"
+      }
+    ],
+    "baseline_sha256": "22934359323f33edb19c8f2907f4a4add940242c18dac64e6da1182a8ef4d38f",
+    "candidate_sha256": "bb3d4a196e38700cb3a82234c066ee5239026c17d4f8d1ff96037d91bfc994ce",
+    "diagnostics": "aren-swordmaster-hero-101-diagnostics.json"
+  },
+  {
+    "id": "aren-swordmaster-hero-202",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "157404294198994441",
+        "actual": "1588562710395352590"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "4505653155681173543",
+        "actual": "8011110764592729096"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "157404294198994441",
+        "actual": "1588562710395352590"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "4505653155681173543",
+        "actual": "8011110764592729096"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "bc63c432a0d2f76f6379af71ae0d8e4b747a580c1b29b78b10ad4eeee25be4d0",
+        "actual": "b276ef4c0f145a26edda52c164380cbe0d9ab69f62e6afa1214865741d36b501"
+      }
+    ],
+    "baseline_sha256": "ab5f88ea2b89e48fe268fec9fe5eb87641bb10155a327e07c80b27761c1b6c88",
+    "candidate_sha256": "4e3fcd7b9a1cc809a1d3419e752351f68f9e30cbfd9f93b1bf0d10c728064fe1",
+    "diagnostics": "aren-swordmaster-hero-202-diagnostics.json"
+  },
+  {
+    "id": "aren-swordmaster-hero-303",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "-1059478111988758201",
+        "actual": "5686820364275782602"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "-6716982560488295411",
+        "actual": "3672115747739437588"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "-1059478111988758201",
+        "actual": "5686820364275782602"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "-6716982560488295411",
+        "actual": "3672115747739437588"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "0c1201d30ecc79adff531333e7b853a8e8b93120e75330bb20b6b5da06384e0e",
+        "actual": "dea763a570966b488bc81e12f69060290fb36b81bef396d162d85c14cbb712db"
+      }
+    ],
+    "baseline_sha256": "394a6f560423cdac2684cd920bb6d314636a2d1a57e3affbafcea9b99ec1aefc",
+    "candidate_sha256": "f0e75860478dac9dbe60080631d6925954bb31f28a4a84a220e07b283f357caa",
+    "diagnostics": "aren-swordmaster-hero-303-diagnostics.json"
+  },
+  {
+    "id": "aren-swordsman-companion-101",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "-4191855974360369334",
+        "actual": "5233535085428101237"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "882729432892589972",
+        "actual": "7891097388975622435"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "-4191855974360369334",
+        "actual": "5233535085428101237"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "882729432892589972",
+        "actual": "7891097388975622435"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "b44bbbb8b3d63927c0947053a17a8f57c15c9c1c0a213960cdb4f2d440ad6fc3",
+        "actual": "6a5735a7d21e3db8c67dfe3b1cceb966454a671fd6afb3ecdb0e7556a28619a7"
+      }
+    ],
+    "baseline_sha256": "d587df29d6befaf8cc1fc785054329b5d1c25430942776be70322deff68990fc",
+    "candidate_sha256": "925f2c93df0c1523dfce4a3dfeb0cd4363d19ef0ed8f7d4b9d5cc6af15f77b4a",
+    "diagnostics": "aren-swordsman-companion-101-diagnostics.json"
+  },
+  {
+    "id": "aren-swordsman-companion-202",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "-7189210892151041991",
+        "actual": "-7852551350586755333"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "3750210979335715479",
+        "actual": "-2764412643027941199"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "-7189210892151041991",
+        "actual": "-7852551350586755333"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "3750210979335715479",
+        "actual": "-2764412643027941199"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "099c2ec2f819c69a2a3dfd568696be1e16be0ccfb4dc7f9815f2a215c8b8a859",
+        "actual": "bea0a54edf0abce35dfe339f71c1e4814a8a725f55d54e33a8432d51474b05f4"
+      }
+    ],
+    "baseline_sha256": "13c6673b95cf0623c6d8fa286cc204fcb490adfa9eb72f2d10ae7c52044a1c3a",
+    "candidate_sha256": "103e17cad1122df7d740d5385624beeadcddfc20753b0d29d15b9d47243bc618",
+    "diagnostics": "aren-swordsman-companion-202-diagnostics.json"
+  },
+  {
+    "id": "aren-swordsman-companion-303",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "-2262108614018104469",
+        "actual": "8515456047683202261"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "5192079378044913761",
+        "actual": "-8699682709159959037"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "-2262108614018104469",
+        "actual": "8515456047683202261"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "5192079378044913761",
+        "actual": "-8699682709159959037"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "43b4a960c6a2e2033754ae106ef9a614b00e83ee4206e53c6b186c80c0b55b9f",
+        "actual": "3582444bb61e122404120a5a3412426770f0a1db6da3615d721ab3d6dd3795ce"
+      }
+    ],
+    "baseline_sha256": "85abe7858b779ff0da607a1f785bc29e2df07ed48b6c6b9963db92dbb59d77b2",
+    "candidate_sha256": "895870c0139487b3c76f2aa14e2dc99415e89b6cdae7bb6ff5d8cd76df3ea0e5",
+    "diagnostics": "aren-swordsman-companion-303-diagnostics.json"
+  },
+  {
+    "id": "aren-swordsman-hero-101",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "-8497182442401855965",
+        "actual": "6303439677914285669"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "-4632159694964438343",
+        "actual": "8178539162128061523"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "-8497182442401855965",
+        "actual": "6303439677914285669"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "-4632159694964438343",
+        "actual": "8178539162128061523"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "e376c1778940e4b97ad5a9242ad66910fdd749318f31a7e3f48738c0601a2921",
+        "actual": "758fe5e585201e5134f470acd4c0ecc6a7d30667b52bebf9d6cb0f18a3e09531"
+      }
+    ],
+    "baseline_sha256": "389bcbee96cdc1aec1a0d670831e2804d4aa779a036fd1566faffd409238ce2a",
+    "candidate_sha256": "5fcd69ccaf39feba73a018818ac9ff039c4bf446768be4a576b0dd55a4135be5",
+    "diagnostics": "aren-swordsman-hero-101-diagnostics.json"
+  },
+  {
+    "id": "aren-swordsman-hero-202",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "6647731055156133301",
+        "actual": "452658531043812047"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "-6145636138290659997",
+        "actual": "8425534267698227445"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "6647731055156133301",
+        "actual": "452658531043812047"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "-6145636138290659997",
+        "actual": "8425534267698227445"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "b6deca42acafaf8d3f6aff52f18ee3a5f5ddc01b6b3ab2fa32e8e4d7f785bc18",
+        "actual": "c2d229f6cb67af77c8896fe8b77d27d887aa4042d83381ffa28de2203e2eb1ad"
+      }
+    ],
+    "baseline_sha256": "b66f7548ffac0bd5176b0ec6a13e01f4a36a1835c6b52310808c7201f893ce52",
+    "candidate_sha256": "3acc3bca7d4b5ec50d9589ad9e2d2547d9292495463bd34ddf9d1d88bf819cb0",
+    "diagnostics": "aren-swordsman-hero-202-diagnostics.json"
+  },
+  {
+    "id": "aren-swordsman-hero-303",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "-5139512946775837715",
+        "actual": "834692825841441727"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "2847135222522744123",
+        "actual": "85031115589188389"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "-5139512946775837715",
+        "actual": "834692825841441727"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "2847135222522744123",
+        "actual": "85031115589188389"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "554d925b839e3a7745428365167721a7b5b90601ba8db9ecb271e0b63efc0f39",
+        "actual": "ec6ff2c86ba5e87e300eddbfed18a99533123e5c8a78eeb4ebebf384ba902d4f"
+      }
+    ],
+    "baseline_sha256": "91484d1cd377da1f14ca5ad332c7cfe107c4ce23555660e9304c99f577956165",
+    "candidate_sha256": "a18fd3a57d7ce2f50088385fe1daec98d5a5509338266aff5feecfbd9ec7e410",
+    "diagnostics": "aren-swordsman-hero-303-diagnostics.json"
+  },
+  {
+    "id": "brann-abyss_swordsman-companion-101",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "6092836495516269777",
+        "actual": "-7676580822989049629"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "7973478856367077711",
+        "actual": "-2685804951120982407"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "6092836495516269777",
+        "actual": "-7676580822989049629"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "7973478856367077711",
+        "actual": "-2685804951120982407"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "96865a433f2e58066713311a9bdff7ec565e8d0efd23ed710050a4070f691fd9",
+        "actual": "6ca7af2da6e3ee667f6f6335a247eb901af82f10eea71d63db675235c59a3be5"
+      }
+    ],
+    "baseline_sha256": "473d63bc904f891e88459030c65b5f9a7a861a3a2d9069fe1aec247acf87f2a5",
+    "candidate_sha256": "6649ed5ad3a2c292a536ff3806ecff847abfa067ef36f1645b87ae723abef3f9",
+    "diagnostics": "brann-abyss_swordsman-companion-101-diagnostics.json"
+  },
+  {
+    "id": "brann-abyss_swordsman-companion-202",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "1132253198833220159",
+        "actual": "3638255050523205947"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "6288871605573949349",
+        "actual": "-405289730257111567"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "1132253198833220159",
+        "actual": "3638255050523205947"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "6288871605573949349",
+        "actual": "-405289730257111567"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "3401d857044b56f13dd0b8fe4cd76f0a2296f62b25a80f6a98f4a2c36f3eb2c1",
+        "actual": "53fdbd967e57307815d11770f6a7ec8f5c73c419a8cd123a32e4eca09d81836a"
+      }
+    ],
+    "baseline_sha256": "6d8667beb6f7a97549b4b77bb50377c1a4fdcb3f7b678b02545690670ff79fca",
+    "candidate_sha256": "7a8080d4b07ee1886434a2b00a2ec26b5b9ea26c4bb3355d6371d2ccdc7fab1e",
+    "diagnostics": "brann-abyss_swordsman-companion-202-diagnostics.json"
+  },
+  {
+    "id": "brann-abyss_swordsman-companion-303",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "-2334156549288229330",
+        "actual": "6594548432218213047"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "4890608040345092520",
+        "actual": "5063603322003834045"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "-2334156549288229330",
+        "actual": "6594548432218213047"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "4890608040345092520",
+        "actual": "5063603322003834045"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "945fc3c7a91ba02fca8269f09446de0bb4bbf231a3f7bc8d5770f709fdd18f44",
+        "actual": "006011001c54acb46c4ed2e67d61c2ddd3a7ea2dc8bf19351362793d10161653"
+      }
+    ],
+    "baseline_sha256": "c2c9439a56e65afaf136390c406b7cca128a46f188c09bf3f02ab8e4cc9c0bf6",
+    "candidate_sha256": "ea61b999c18623341bc7b9f730afc9a9336d3a50416709ff08bdcc18ce2a50e5",
+    "diagnostics": "brann-abyss_swordsman-companion-303-diagnostics.json"
+  },
+  {
+    "id": "brann-abyss_swordsman-hero-101",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "2023753758695271383",
+        "actual": "9168612088463823095"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "5744419811591403357",
+        "actual": "-72590056301011459"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "2023753758695271383",
+        "actual": "9168612088463823095"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "5744419811591403357",
+        "actual": "-72590056301011459"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "67730f58203d51ba8bf2772983e9e566b2f7977d28cf5191fab3d079a616970d",
+        "actual": "37211c1de12fa6feccda52def5d8212c3064fd0c8135bef58f051a2338a84eb8"
+      }
+    ],
+    "baseline_sha256": "58d7b87147d7589fd1cc9ff08ff71036c802eaf1b3edc8d561f9b3f66e4f8c30",
+    "candidate_sha256": "b8b033a946e4c1797db75adf1a90e9fbd4f0adbb6de11f1a05b45225b5bbf049",
+    "diagnostics": "brann-abyss_swordsman-hero-101-diagnostics.json"
+  },
+  {
+    "id": "brann-abyss_swordsman-hero-202",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "7434507159377673615",
+        "actual": "-6767248173085208153"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "-740040504174650187",
+        "actual": "2672000432456699117"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "7434507159377673615",
+        "actual": "-6767248173085208153"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "-740040504174650187",
+        "actual": "2672000432456699117"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "72c369be1dc5ca8d37bcf73efa6262b78b9fe24757e5ad32ff9060f923877536",
+        "actual": "1c8b0b297b463fb92e268b740c39daa1de320e0d296c6e9fa0820e3c43f108fd"
+      }
+    ],
+    "baseline_sha256": "c1f638979ae9fbf86d2b523c979b70a2d67e3f856c56baab644b5df1db351100",
+    "candidate_sha256": "dde1f39e64d1bbb2ce5b8514ba638cace39b95bf05a19a5676d298bd9f17ea89",
+    "diagnostics": "brann-abyss_swordsman-hero-202-diagnostics.json"
+  },
+  {
+    "id": "brann-abyss_swordsman-hero-303",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "8243484786417559127",
+        "actual": "8111810305869504655"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "8951253729872543709",
+        "actual": "-7889994270434573387"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "8243484786417559127",
+        "actual": "8111810305869504655"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "8951253729872543709",
+        "actual": "-7889994270434573387"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "6af22f8a4cfc1d2aeee26f04aa4c6a1fbf7e5f26e37fb0c1ef67818052dc9389",
+        "actual": "f792066a4ee2a2cf7279b66300a238b0dd2d9f1f97493319287fcb9e470f7b05"
+      }
+    ],
+    "baseline_sha256": "7e5b439d090367a46e8daf6176e10c4a0cbe9b16bf2a214e0400b5058efa3344",
+    "candidate_sha256": "cd30b552198aa1ca6f2f12aec20c4bb4292c5c29ddb3e85d2a548157a43630a7",
+    "diagnostics": "brann-abyss_swordsman-hero-303-diagnostics.json"
+  },
+  {
+    "id": "brann-swordmaster-companion-101",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "-3493704224714095809",
+        "actual": "3118323418865833802"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "8656762299327098021",
+        "actual": "-8846342284266985580"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "-3493704224714095809",
+        "actual": "3118323418865833802"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "8656762299327098021",
+        "actual": "-8846342284266985580"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "50774239e74acf646e6302464803f94923d1dcecef8e99ed1ee00789b2a8143e",
+        "actual": "f6d038c31d9c0dbdbca620ab47c782e3e189b1f550ec32696debde25cf5d0377"
+      }
+    ],
+    "baseline_sha256": "e95beaf1b868f6b21439acdccee16e0486744875d13f2febcb1da5ad47bee54e",
+    "candidate_sha256": "507e0bcd04886bbeba5633786366698d1961812e6221f1e592b70db9da33c1ac",
+    "diagnostics": "brann-swordmaster-companion-101-diagnostics.json"
+  },
+  {
+    "id": "brann-swordmaster-companion-202",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "5358324413048222067",
+        "actual": "3287675393256523573"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "8935578150791665609",
+        "actual": "8747077764900514019"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "5358324413048222067",
+        "actual": "3287675393256523573"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "8935578150791665609",
+        "actual": "8747077764900514019"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "a2b5dd499bf9fc7e7a2e17c1774f2422c1c439a4ac93c964d51d5a5e10929dc5",
+        "actual": "ae3ec1dd52719bef966a7d3c11ab72cb41a4cc623c7ea009efb61683bdff8d4c"
+      }
+    ],
+    "baseline_sha256": "80765d5360a9eb9646c352d5b6727d94ffb4eac6180397f8ae0eafa9b091345e",
+    "candidate_sha256": "3778e081564921e7e43013165604560885654c1a2623c4f78c4c7c899a41d6e3",
+    "diagnostics": "brann-swordmaster-companion-202-diagnostics.json"
+  },
+  {
+    "id": "brann-swordmaster-companion-303",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "-2026508512180559969",
+        "actual": "-5547841051963626937"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "8282413512341768581",
+        "actual": "2856463614928208141"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "-2026508512180559969",
+        "actual": "-5547841051963626937"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "8282413512341768581",
+        "actual": "2856463614928208141"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "1535099e3c213cdfe90f443dd68f9571d77973e9dfde96260defa9ebc0a040ed",
+        "actual": "fa0b3519728bf42b053909341efa4ab71049fdeca92dfaf3ea641ba926ebde77"
+      }
+    ],
+    "baseline_sha256": "6508b96c36f87a4effafa827e396f24e718c4d7ba08f8df492a113062e69b43a",
+    "candidate_sha256": "103a08211d1c83a2c84dea280d166f71976796565a6b4ec4ee004880969306ee",
+    "diagnostics": "brann-swordmaster-companion-303-diagnostics.json"
+  },
+  {
+    "id": "brann-swordmaster-hero-101",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "6681402479889929611",
+        "actual": "5545009603049201303"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "-5426999601367951359",
+        "actual": "-7025302988095347939"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "6681402479889929611",
+        "actual": "5545009603049201303"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "-5426999601367951359",
+        "actual": "-7025302988095347939"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "64e3e2a902597acf66a06e0109e25cca6b9a9a968df6f6f02d212e94ead054ff",
+        "actual": "93a4fe83bbdb0bba6a2658b9662cc6252be53ea520bf5216c008361ccd2759a4"
+      }
+    ],
+    "baseline_sha256": "af386deda44d5d2f73e5cf9cf455dc9bfc10753b14c37e086f5c39ccd14a72dc",
+    "candidate_sha256": "c58f32d3f59db4466b3f99de2618e6b5710c89d552c89597dc2dc016b2b1e7c2",
+    "diagnostics": "brann-swordmaster-hero-101-diagnostics.json"
+  },
+  {
+    "id": "brann-swordmaster-hero-202",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "-271197075207440809",
+        "actual": "-2366131688075249361"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "4088056746239365085",
+        "actual": "-5825224044645566507"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "-271197075207440809",
+        "actual": "-2366131688075249361"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "4088056746239365085",
+        "actual": "-5825224044645566507"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "7756cee6bd59a96fc065cdfccee58a636d665669b7eee98924c6001436ed2df7",
+        "actual": "c304f54a565bd2b17dfd8b83de946858faefcba6fb8785a1dcadedfac264a740"
+      }
+    ],
+    "baseline_sha256": "3ee86e62afdb9615d7962f9438be80a8f33a3090c02a3e0b15e0f1584cce76cf",
+    "candidate_sha256": "b8b465bd70f967bb3e06333326b4ae0f0f34cf0e6b25ab4187f9c9b49be89252",
+    "diagnostics": "brann-swordmaster-hero-202-diagnostics.json"
+  },
+  {
+    "id": "brann-swordmaster-hero-303",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "6695861924562326107",
+        "actual": "4220486671935761799"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "1165304604819617937",
+        "actual": "4202550558600893261"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "6695861924562326107",
+        "actual": "4220486671935761799"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "1165304604819617937",
+        "actual": "4202550558600893261"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "325ad9e20adec8e066a391c2fb63cfb8bc0e19334387f23c01f9b620efb3f539",
+        "actual": "4497025ece406cdf6a136dc820806d7c0bc2e0cac8aec61a253562526c369855"
+      }
+    ],
+    "baseline_sha256": "1e26e8c56fceffcc19d84da8788c502b64788dc56ac6db716ae997072977ed02",
+    "candidate_sha256": "accabb9b5772b3256046678c10faa7bb79e6432dd8b3f76ba037661f240c1b03",
+    "diagnostics": "brann-swordmaster-hero-303-diagnostics.json"
+  },
+  {
+    "id": "brann-swordsman-companion-101",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "5051381631434137930",
+        "actual": "-3942506928292740661"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "-9131104927768352364",
+        "actual": "-1103514031184371903"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "5051381631434137930",
+        "actual": "-3942506928292740661"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "-9131104927768352364",
+        "actual": "-1103514031184371903"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "c1cffc0416163b4121257074c0432902b0e5c0a416a69123f423f96aa753006f",
+        "actual": "59525943ffb3d6e11ab52045edb4f2109af03c06e0c931c5ed1331645509d454"
+      }
+    ],
+    "baseline_sha256": "606ab95798d995b2273be7c69eed0be458bd96ef7f318ac6ae41b281fd819882",
+    "candidate_sha256": "9b4da13a9aa51f731089cae5c5badf00e0fc6c967db716079be5f2e35cc10e51",
+    "diagnostics": "brann-swordsman-companion-101-diagnostics.json"
+  },
+  {
+    "id": "brann-swordsman-companion-202",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "-2124610083481200402",
+        "actual": "2289260405274986147"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "-2129020957913019032",
+        "actual": "6405706006334579001"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "-2124610083481200402",
+        "actual": "2289260405274986147"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "-2129020957913019032",
+        "actual": "6405706006334579001"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "dfa732586ceade191a95e8a1c4114e76286ad9db577774e5ea209c1b81eae411",
+        "actual": "a602d79731851f85142c7a55f1abd1590f7bd21d32590f52854f812cfef0b8e9"
+      }
+    ],
+    "baseline_sha256": "25dd10b4a489fcb9f0aa4ecd13520775d09849ff71097bd898760ee9ca820309",
+    "candidate_sha256": "8114f9c21559fc407305f3a76c984b0b9facaed4a0a691eb72d02e3f799d2532",
+    "diagnostics": "brann-swordsman-companion-202-diagnostics.json"
+  },
+  {
+    "id": "brann-swordsman-companion-303",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "-3786503452569025187",
+        "actual": "-6705356189835830881"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "4018228557767618027",
+        "actual": "-3750320022939960443"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "-3786503452569025187",
+        "actual": "-6705356189835830881"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "4018228557767618027",
+        "actual": "-3750320022939960443"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "2ea96cd6cfec981e3dee9ca43014e1ee1ec0b2426459fd7ee1d91d684270b2c3",
+        "actual": "ea66523fc3d616c151c702209a8da94cdfbee43c19ce0648bff421e6ee692839"
+      }
+    ],
+    "baseline_sha256": "eb57c5102fb5ec952f3bb5bc83d19674ef1f316cd33f2f656982800715d54140",
+    "candidate_sha256": "4c21e72aab1070fa28cb651a9f0c24e7ba48440aa7149c7bb398b540035a228a",
+    "diagnostics": "brann-swordsman-companion-303-diagnostics.json"
+  },
+  {
+    "id": "brann-swordsman-hero-101",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "-2276814548626529094",
+        "actual": "5747220323862349946"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "-71001545745001404",
+        "actual": "1910346330277993732"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "-2276814548626529094",
+        "actual": "5747220323862349946"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "-71001545745001404",
+        "actual": "1910346330277993732"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "40fd4c4019264de560e8d7ec24591ed372583ae6106235b619386949d62d0049",
+        "actual": "4adebf0fc5dfff6ea83d5759210434f59bbae133a836f8c309755b2aee693474"
+      }
+    ],
+    "baseline_sha256": "11a1c6935ebf0734ec9590a41379bd30c6baeba9d107b6b35d3605babcaa706d",
+    "candidate_sha256": "84f9d1db2563615afc423f992819e578beb392ff708a6df789a07b7e424911ea",
+    "diagnostics": "brann-swordsman-hero-101-diagnostics.json"
+  },
+  {
+    "id": "brann-swordsman-hero-202",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "-5060878517489536375",
+        "actual": "-3100477304441080882"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "522549447116878503",
+        "actual": "-5529367379568597304"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "-5060878517489536375",
+        "actual": "-3100477304441080882"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "522549447116878503",
+        "actual": "-5529367379568597304"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "273243eb084e98685b6e642f88ea21ecdc188b2d249b5813b2c9d9d348a62200",
+        "actual": "42153e677e922f7ad8f82c196b47521af18b1048e55ccdf15469f65ddeb19d05"
+      }
+    ],
+    "baseline_sha256": "a3d467120ef0cb493386600b59f1af16bd6fbeaba6b4b0bbef7d628a51f782a3",
+    "candidate_sha256": "c43a75f4a6cdd1d46a4a92c34f61c35a14da11cb67af8c6f4c5312afe4e69eee",
+    "diagnostics": "brann-swordsman-hero-202-diagnostics.json"
+  },
+  {
+    "id": "brann-swordsman-hero-303",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "-1644056272507380925",
+        "actual": "-1719321237313559519"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "-604007158868926119",
+        "actual": "9101070733412061791"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "-1644056272507380925",
+        "actual": "-1719321237313559519"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "-604007158868926119",
+        "actual": "9101070733412061791"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "c4cf47acda8875540bf38f7b6309c4022fae2728298f93564ca87edbe260f6ac",
+        "actual": "10b7160233c93c10d8e1b43f87ab611e83e2d204ac1a7511bf039a41824be8ca"
+      }
+    ],
+    "baseline_sha256": "54c3746aa0c655fd8513effc82fa9f7faf2669a0d20342835e736766b68b6653",
+    "candidate_sha256": "888e5b377e89cd8d2bb871e14aa6e6572bd8802f2590abadc3b9a731b080e52d",
+    "diagnostics": "brann-swordsman-hero-303-diagnostics.json"
+  },
+  {
+    "id": "lia-archer-hero-101",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "4404606390185291607",
+        "actual": "3355878768598035135"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "-2083362373470808867",
+        "actual": "3932965685217140261"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "4404606390185291607",
+        "actual": "3355878768598035135"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "-2083362373470808867",
+        "actual": "3932965685217140261"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "dceb6a744baf66dd7cf625e2bc10856c4df3497d8c9e1f8eff5027474fc2f65b",
+        "actual": "50f69401ea5242d9c7269510104fc451069e486127b4a4ac53181ded9f2d9e25"
+      }
+    ],
+    "baseline_sha256": "6f2d5eabba42794fbabfcc48ea9dda5661c54044fe7e52644d86797df40520c1",
+    "candidate_sha256": "929ba7b8389ce3e8efa003b5517aebfd7623b5cd7e614bfe912717dfd36e18b6",
+    "diagnostics": "lia-archer-hero-101-diagnostics.json"
+  },
+  {
+    "id": "lia-archer-hero-202",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "8169017319762277923",
+        "actual": "-5522077499842314193"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "-2077919680873252167",
+        "actual": "-4733753451312942379"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "8169017319762277923",
+        "actual": "-5522077499842314193"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "-2077919680873252167",
+        "actual": "-4733753451312942379"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "6e459eb73ce0770018dbf347b6740d2c72786c93da60c4cfc2439daafe7bd4a4",
+        "actual": "f22755ccdd647434eab2c05d07f27e64da8a4b8cdf2d97b221e263d06ea00af7"
+      }
+    ],
+    "baseline_sha256": "e6618b4ced255fdaa4af38a6d779e62e01305887ef653143fc8df5ced2dea79f",
+    "candidate_sha256": "a2d4438e721dd7acdb046d732dc5dfd86fcc229391396ad6858704de1b21c76e",
+    "diagnostics": "lia-archer-hero-202-diagnostics.json"
+  },
+  {
+    "id": "lia-archer-hero-303",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "-6960133020779837167",
+        "actual": "7829766727116663754"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "-6764634692491812721",
+        "actual": "6151891028935393812"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "-6960133020779837167",
+        "actual": "7829766727116663754"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "-6764634692491812721",
+        "actual": "6151891028935393812"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "927c10d1fade4e124c36a2d89839617b0a881229c1040ca8cb6ecea17d12e171",
+        "actual": "cccae0f66d7be3fec6682f07698dbd5e6dc5c1a75c69bb2bfbed87a1a1abc955"
+      }
+    ],
+    "baseline_sha256": "528455159c687b88e981bdf5e1c82e5d339bb3deb2dca28b2f39dcc17c2bda3a",
+    "candidate_sha256": "3ef3a32ca7b8c16e9bf65c91fff37845749c6617ce0d7c73df73f3c52308b12d",
+    "diagnostics": "lia-archer-hero-303-diagnostics.json"
+  },
+  {
+    "id": "lia-sharpshooter-hero-101",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "8063257908262452269",
+        "actual": "8071267843856923597"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "-3271188717032587141",
+        "actual": "5417518000563900315"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "8063257908262452269",
+        "actual": "8071267843856923597"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "-3271188717032587141",
+        "actual": "5417518000563900315"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "6d9d629c3a362194c8ad3f51a7f533285655afe0a3fdcd5ad702b6ed844cb96f",
+        "actual": "8f6ad1d5d6a52d5a772070fd1a39c44bacefcfd66fc7d475e978f522c9d031b5"
+      }
+    ],
+    "baseline_sha256": "a5f2a9f8b413cd96d12a5d9a2376a0f1f7b96ce8c0b93f924175b3b20c26ac2d",
+    "candidate_sha256": "ea8ea3dfb627cb00640e07b4f6e24f91951121998d2f5470107db8812870c500",
+    "diagnostics": "lia-sharpshooter-hero-101-diagnostics.json"
+  },
+  {
+    "id": "lia-sharpshooter-hero-202",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "-7612746313096660402",
+        "actual": "3432699923148610766"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "4892978112729680712",
+        "actual": "952563914170571720"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "-7612746313096660402",
+        "actual": "3432699923148610766"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "4892978112729680712",
+        "actual": "952563914170571720"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "a30cb62cadb1ed5d911d97dc640b0d54fda315eb0adf2ff79600fc05eaf95fe5",
+        "actual": "0f827a37539215a032ee77763e3117fe72dddee47390e1678c1e5e8d20b05c10"
+      }
+    ],
+    "baseline_sha256": "fe6aa33a517d666e8e20372333c70d42cc18fba98c3d8d977685dd5624920922",
+    "candidate_sha256": "a7da66d38faf824c0e3eb4fa208f0670bdf483281a358347488b204234d01729",
+    "diagnostics": "lia-sharpshooter-hero-202-diagnostics.json"
+  },
+  {
+    "id": "lia-sharpshooter-hero-303",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "-9011353535389324113",
+        "actual": "969551860552431050"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "-8701373558087580331",
+        "actual": "-3899417010951044076"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "-9011353535389324113",
+        "actual": "969551860552431050"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "-8701373558087580331",
+        "actual": "-3899417010951044076"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "6fcc182b6aa68d88565e25db7846ce1896494d55bea2941c50508c1604cf8e01",
+        "actual": "67c6f9eb5d4e0e853ee42d3a0fa29b7fc8706f31193cf01219f6781bf158d609"
+      }
+    ],
+    "baseline_sha256": "b2b381ccbb5f6816aa616ea62064cba46231b5b7d838445a2c2f900d8900c6c9",
+    "candidate_sha256": "c0a8556e8d28a9c62d0fae2b5fdbce5037ff5fbd0100ece4b267cbd1e07cf8df",
+    "diagnostics": "lia-sharpshooter-hero-303-diagnostics.json"
+  },
+  {
+    "id": "lia-star_hunter-hero-101",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "754864934227500679",
+        "actual": "6773709271928724639"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "1340220587151061069",
+        "actual": "-1562433540376558971"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "754864934227500679",
+        "actual": "6773709271928724639"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "1340220587151061069",
+        "actual": "-1562433540376558971"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "3c8965c7e8e3c5d2e3529885a812040ed49d96b321a41d5c87e696168ceee60f",
+        "actual": "543f77ee0ba07af2898957bf46087bb82dd16913f005e6a7fc5caf2ce54fc0d2"
+      }
+    ],
+    "baseline_sha256": "97b0a31db71a6d7c062b17396ef4e28fba7a2e167da019c6413b15f336f5191b",
+    "candidate_sha256": "9d344e63e4c409e33c77eaaeee313ab93edae3a27b2c62672ca3cf17158258b8",
+    "diagnostics": "lia-star_hunter-hero-101-diagnostics.json"
+  },
+  {
+    "id": "lia-star_hunter-hero-202",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "-6433397553326499826",
+        "actual": "-5408608127750995011"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "-4024771005167843832",
+        "actual": "-3871168975439575861"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "-6433397553326499826",
+        "actual": "-5408608127750995011"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "-4024771005167843832",
+        "actual": "-3871168975439575861"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "151085926705f8a719d564e68202f044e7f4c5830856439b3399951d1b46a21b",
+        "actual": "f9a794786da0f3fcb95adaf9a4e03df2687a5109743a0cb9b19775455430aa28"
+      }
+    ],
+    "baseline_sha256": "4989e95bfdb231bbde6f228d4a477c26cfe448d1f9efa6f4481cc441515b6cb5",
+    "candidate_sha256": "5d103531f12b5dab92cafe1e94f7a116bf2745947579e90c03900230a70053df",
+    "diagnostics": "lia-star_hunter-hero-202-diagnostics.json"
+  },
+  {
+    "id": "lia-star_hunter-hero-303",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "-3793677773168128337",
+        "actual": "4164556482619197807"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "-8965691137838383275",
+        "actual": "-382235191841828075"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "-3793677773168128337",
+        "actual": "4164556482619197807"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "-8965691137838383275",
+        "actual": "-382235191841828075"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "9b904ec15bc1747e1b95cca44436ffb07285f5d09bfba0178cf75c3b657fc120",
+        "actual": "06efaf52d0861ef8254c326c43fb68db4d94aea65d5f4292354e2bb8d2ad5d98"
+      }
+    ],
+    "baseline_sha256": "6c597071e6ab9853be5afe42c2b4346f62c4dd8e45dc6f0db4b36dd16a796cdd",
+    "candidate_sha256": "f75c744ba4172c32f77fc8a1e73967492f76a55bc0162ffd0a36ccdfcff9706e",
+    "diagnostics": "lia-star_hunter-hero-303-diagnostics.json"
+  },
+  {
+    "id": "milo-elemental_sage-hero-101",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "767725808093373626",
+        "actual": "6373874595769653943"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "-2195974894523444156",
+        "actual": "-7868062096029297475"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "767725808093373626",
+        "actual": "6373874595769653943"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "-2195974894523444156",
+        "actual": "-7868062096029297475"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "aa97ca07d4b149ea3349b38e55249a143e22f2e24717d795af3f6973a591a970",
+        "actual": "2b55504ee6b21c0824216c80fa468289b7e54eb6ff4683100e2c0b5fb222568e"
+      }
+    ],
+    "baseline_sha256": "559484f01bc4b0fe08f749e0eb27d734b0d1e6d22159bdec9ba224b5be6ec45f",
+    "candidate_sha256": "b1ddfea8066e72668ae59139c5b7311545cd685f986cfa54e1c1ca73d52fbda9",
+    "diagnostics": "milo-elemental_sage-hero-101-diagnostics.json"
+  },
+  {
+    "id": "milo-elemental_sage-hero-202",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "-8611468536078198803",
+        "actual": "-1633126590930926385"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "6008724774801187131",
+        "actual": "5129423770648388341"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "-8611468536078198803",
+        "actual": "-1633126590930926385"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "6008724774801187131",
+        "actual": "5129423770648388341"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "93378fe4e6bcea1de2121415b87608ff64e3817bd0a583dd97d83d9cd834c2cd",
+        "actual": "0e310a8775e685a24d03c492762ab9d54a0c31f9b5305e04d0ab5cf9f822ac4b"
+      }
+    ],
+    "baseline_sha256": "4a912b70c96f66de922663a790942b620cd096261ca3b063aeaf3b10d5040380",
+    "candidate_sha256": "988edfd2b7be77c7cb65467bf9a44ab2162695936ec85996bd90edd6a192fc61",
+    "diagnostics": "milo-elemental_sage-hero-202-diagnostics.json"
+  },
+  {
+    "id": "milo-elemental_sage-hero-303",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "3836796845346485217",
+        "actual": "6636264075073069951"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "-1843474514240121057",
+        "actual": "-799603219930015771"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "3836796845346485217",
+        "actual": "6636264075073069951"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "-1843474514240121057",
+        "actual": "-799603219930015771"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "11b0ab561714088a28238bb5c46c7d5ea694471c9f148a7366879eb137f482e0",
+        "actual": "42319da369b73d546549813dac472da0c25bc07feb9ffebc3cb24e221782f783"
+      }
+    ],
+    "baseline_sha256": "e1dd428c9bcbda95555cff8d5a8ae6ac35d2788925a8bdc74178e50775491687",
+    "candidate_sha256": "4d3cff3a4318c7a6b21f4fa42bae71cd71546eb3fb7802f40aef77bf0b6dcc89",
+    "diagnostics": "milo-elemental_sage-hero-303-diagnostics.json"
+  },
+  {
+    "id": "milo-mage-hero-101",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "7544363436943690047",
+        "actual": "-1146767946787530630"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "-8831173692120794459",
+        "actual": "3370205759803682052"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "7544363436943690047",
+        "actual": "-1146767946787530630"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "-8831173692120794459",
+        "actual": "3370205759803682052"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "96af306ca886e10a3a11bc9f2ea539cf84b390031d62b335f60960b5c4bf18eb",
+        "actual": "8915659f41849ded83dd3f5d4208abc3e83e270f29f25a60adf2f11460a71b0b"
+      }
+    ],
+    "baseline_sha256": "d064d2f7a9f57c08f7f30116348e4dc2f20ec4efff6b1cceabd81cb4345188f0",
+    "candidate_sha256": "521274b4a37103edbb547cfd6db95de25571d6bb4831b26a3f2231f4c0dc8fb6",
+    "diagnostics": "milo-mage-hero-101-diagnostics.json"
+  },
+  {
+    "id": "milo-mage-hero-202",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "1579980609926569658",
+        "actual": "-9183972481505476249"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "8768136692299171396",
+        "actual": "935671158703255981"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "1579980609926569658",
+        "actual": "-9183972481505476249"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "8768136692299171396",
+        "actual": "935671158703255981"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "eaa74f068f3ee389129e948ba122bd153911fc4bf531c1d3b266b3f803394e96",
+        "actual": "07ea8a8cb54b5ffefd1b6554f3853824c8ec51017484d94ab5edc41256cf83d8"
+      }
+    ],
+    "baseline_sha256": "584df5f312cc1f69632226b8482db5f2ad9168416a2f20f7cf5468af4a6947cc",
+    "candidate_sha256": "8bcd7649feb810f6e7830808c2e9ad394cb0ac90e109af7995b2e40b5373b6d9",
+    "diagnostics": "milo-mage-hero-202-diagnostics.json"
+  },
+  {
+    "id": "milo-mage-hero-303",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "-1919677686612983909",
+        "actual": "216150481927655118"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "7086838775146720465",
+        "actual": "7974238694691562952"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "-1919677686612983909",
+        "actual": "216150481927655118"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "7086838775146720465",
+        "actual": "7974238694691562952"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "4ae5d41ad7ca0b887301628ca3cf4d7717dcf01987b37f4f2a08c2b86ab9dc0c",
+        "actual": "5779de56a360b87ff219b3228ff10733d4e55c054afcd963fef976bd8162b68e"
+      }
+    ],
+    "baseline_sha256": "a6f44b132a9109fae510f4dd2705e7d7a5db33c74eb6df3bd02e2a5135298074",
+    "candidate_sha256": "61261bb2903e66b18f956a73d0c451b7717ee3a8f59308b3e44e6f7758ea637d",
+    "diagnostics": "milo-mage-hero-303-diagnostics.json"
+  },
+  {
+    "id": "milo-void_caster-hero-101",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "279843705728812503",
+        "actual": "-4618505125788488673"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "-4759153415230633635",
+        "actual": "-8534158512018572283"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "279843705728812503",
+        "actual": "-4618505125788488673"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "-4759153415230633635",
+        "actual": "-8534158512018572283"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "ad3aee4f3b454ad91be448aaeb4a27f67d881f4b85592a78aa4abb835cc27298",
+        "actual": "d6c56053ddb6310f7ba76e9bab95f9bf06a50368274674ca40e77df0ec3083e1"
+      }
+    ],
+    "baseline_sha256": "68f2745b8783be5af4042ef2dda0402eeafbe7dc30211f1bfb322195eee54fa6",
+    "candidate_sha256": "5da6ec4fe3bc00bc088c162ec40a3a63e12543e7fe55a8eeb000980405cde587",
+    "diagnostics": "milo-void_caster-hero-101-diagnostics.json"
+  },
+  {
+    "id": "milo-void_caster-hero-202",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "4230910588289677427",
+        "actual": "-7001859148425684201"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "-8228623858123205943",
+        "actual": "8520536280179475869"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "4230910588289677427",
+        "actual": "-7001859148425684201"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "-8228623858123205943",
+        "actual": "8520536280179475869"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "821e3f3a0b59fc11a7faa66522ab47b841e03af2eda0ff97fd35e114d9276e94",
+        "actual": "33735276233d6182c77008b73142396cd34a7960c86c51e8f99189b595aba7a2"
+      }
+    ],
+    "baseline_sha256": "07a635be93fe6b8e58e8f9ffa624fa98d7446e1fcd8774f61955842a43dcfde7",
+    "candidate_sha256": "ef438868578e438bbe07e50cf03e59ca5c6649fe67f06c938d25c732108d8534",
+    "diagnostics": "milo-void_caster-hero-202-diagnostics.json"
+  },
+  {
+    "id": "milo-void_caster-hero-303",
+    "equal": false,
+    "differences": [
+      {
+        "path": "/initial_profile/draw_rng/seed",
+        "expected": "-1561473571751780329",
+        "actual": "-1673821481548930737"
+      },
+      {
+        "path": "/initial_profile/draw_rng/state",
+        "expected": "-9178513346910656867",
+        "actual": "-3362245373133920907"
+      },
+      {
+        "path": "/profile_after/draw_rng/seed",
+        "expected": "-1561473571751780329",
+        "actual": "-1673821481548930737"
+      },
+      {
+        "path": "/profile_after/draw_rng/state",
+        "expected": "-9178513346910656867",
+        "actual": "-3362245373133920907"
+      },
+      {
+        "path": "/starting_profile_hash",
+        "expected": "28c82ca10a50895e1c09f20cbfa56357a4f56203d6116e7dc6dfe2d195afc66d",
+        "actual": "8c9c31c597133a66c21ddf8c72df80fdbbf490d54d9022949b899cbc679bc29f"
+      }
+    ],
+    "baseline_sha256": "8553e0f9a3c61cdce207dfa088d2da92dfeac889822fb7e6211f87f79f250ea8",
+    "candidate_sha256": "e37e2847840617948628edab38744f2f347bae209cf2ad6f4b7a640c2761ea06",
+    "diagnostics": "milo-void_caster-hero-303-diagnostics.json"
+  }
+]

@@ -60,6 +60,13 @@ func run(t) -> void:
 	var replayed = await capture_movement(t, recorded.trace.get("inputs", []))
 	t.check(recorded.trace == replayed.trace and recorded.position.is_equal_approx(replayed.position) and recorded.final == replayed.final, "recorded movement replays real waves, occupancy, level/event choices and pauses")
 	var observer = preload("res://tests/fixtures/pacing_observer.gd")
+	for label in SeedStreams.LABELS:
+		t.check(recorded.final.rng.has(label) and recorded.final.rng[label] is String, "full deterministic state retains exact 64bit RNG " + label)
+		var mutated_rng = recorded.final.duplicate(true)
+		mutated_rng.rng[label] += "0"
+		t.check(not observer.differences(recorded.final, mutated_rng).is_empty(), "state comparison rejects a single RNG change " + label)
+	for container in ["damage_requests", "activation_heals", "effects", "followups"]:
+		t.check(recorded.final.has(container), "sword comparison reuses complete original container " + container)
 	for field in ["spawns", "boss_hits", "rescue", "corruption_last_minute", "pending_rewards", "registry"]:
 		t.check(recorded.final.has(field), "audio replay compares extended state: " + field)
 	var changed = recorded.final.duplicate(true)

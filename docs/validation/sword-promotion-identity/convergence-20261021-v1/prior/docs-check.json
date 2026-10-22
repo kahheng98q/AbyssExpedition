@@ -1,0 +1,28 @@
+{
+  "files": 46,
+  "local_refs": 411,
+  "images": 26,
+  "stimulus_hashes": 5420,
+  "overview_summary_chinese": 201,
+  "open_tasks": [
+    "T002",
+    "T047",
+    "T049",
+    "T050",
+    "T051",
+    "T052"
+  ],
+  "checklists_read_only": {
+    "requirements.md": {
+      "total": 16,
+      "unchecked": 0
+    },
+    "sword-promotion-quality.md": {
+      "total": 38,
+      "unchecked": 38
+    }
+  },
+  "errors": [],
+  "human_answers_generated": 0,
+  "browser_visual_validation": false
+}

@@ -1,0 +1,63 @@
+{
+  "capture_valid": true,
+  "frame_budget_pass": false,
+  "sample_count": 8016.0,
+  "p50_ms": 15.498,
+  "p95_ms": 16.732,
+  "p99_ms": 17.927,
+  "max_ms": 42.95,
+  "warmup_active_seconds": 30.0,
+  "capture_active_seconds": 120.0,
+  "capture_wall_seconds": 120.015653,
+  "minimums": {
+    "audio_cues": 202.0,
+    "audio_voices": 0.0,
+    "boss": 1.0,
+    "effects": 30.0,
+    "enemies": 100.0,
+    "gems": 500.0,
+    "projectiles": 100.0,
+    "stored_coins": 631.0,
+    "stored_xp": 6834.0
+  },
+  "maximums": {
+    "audio_cues": 1139.0,
+    "audio_voices": 6.0,
+    "boss": 1.0,
+    "effects": 34.0,
+    "enemies": 100.0,
+    "gems": 500.0,
+    "projectiles": 111.0,
+    "stored_coins": 900.0,
+    "stored_xp": 10600.0
+  },
+  "processor": "AMD Ryzen 7 5800H with Radeon Graphics",
+  "gpu": "NVIDIA GeForce GTX 1650",
+  "window_observed": [
+    1920.0,
+    1080.0
+  ],
+  "vsync_observed": 0.0,
+  "focus_observation": {
+    "fully_focused": true,
+    "method": "Window.has_focus at every captured render frame",
+    "samples": 8016.0,
+    "unfocused_samples": 0.0
+  },
+  "audio": {
+    "cue_count": 1139,
+    "device": "Default",
+    "driver": "WASAPI",
+    "peak_voices": 6,
+    "sample_rate": 48000.0
+  },
+  "measurement_errors": [],
+  "baseline_p95_ms": 13.593,
+  "baseline_p99_ms": 15.618,
+  "driver_observed": "NVIDIA 546.30 (Godot OpenGL startup log)",
+  "limitations": [
+    "CIM CPU/GPU query unavailable; actual processor/adapter observed by Godot",
+    "Background observations cover visible process CPU/working set and power only; not complete GPU/background visibility",
+    "Valid single-machine failed budget sample; does not close historical reference/environment/other seeds or human acceptance"
+  ]
+}

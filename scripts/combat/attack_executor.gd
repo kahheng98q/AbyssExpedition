@@ -26,7 +26,10 @@ static func try_activate(actor, run, tick: int) -> bool:
 		if i == 0 and policy != &"base": continue
 		if weapon.mode == "arc":
 			if i == 0: fire_arc(actor, run, tick, facing, value / actor.stats.damage)
-			else: run.followups.append({"due": tick + i * echo.followup_ticks, "origin": actor.position, "direction": facing, "reach": actor.stats.reach, "angle": weapon.arc_angle, "damage": value * echo.secondary_scale, "knockback": actor.stats.knockback, "burn": run.progression.has(&"ember_touch"), "frost": run.progression.has(&"frost_mark")})
+			else:
+				var followup = {"due": tick + i * echo.followup_ticks, "origin": actor.position, "direction": facing, "reach": actor.stats.reach, "angle": weapon.arc_angle, "damage": value * echo.secondary_scale, "knockback": actor.stats.knockback, "burn": run.progression.has(&"ember_touch"), "frost": run.progression.has(&"frost_mark")}
+				SwordBranchAttacks.attach_visual(actor, run, followup, followup.due, &"echo")
+				run.followups.append(followup)
 		else:
 			fire_shot(actor, run, tick, target, facing, value, facing.orthogonal() * (i * 6 - extras * 3))
 	var fact = {"generation":run.generation,"tick":tick,"source_id":actor.actor_id,"is_companion":actor.is_companion,"weapon_mode":StringName(weapon.mode),"activation_id":actor.activations}
@@ -58,4 +61,6 @@ static func fire_shot(actor, run, tick: int, target, facing: Vector2, value: flo
 	run.projectiles.add_child(shot)
 
 static func fire_arc(actor, run, tick: int, direction: Vector2, scale: float) -> void:
-	run.create_arc({"origin": actor.position, "direction": direction, "reach": actor.stats.reach, "angle": actor.profession.weapon.arc_angle, "damage": actor.stats.damage * scale, "knockback": actor.stats.knockback, "burn": run.progression.has(&"ember_touch"), "frost": run.progression.has(&"frost_mark")}, tick)
+	var hit = {"origin": actor.position, "direction": direction, "reach": actor.stats.reach, "angle": actor.profession.weapon.arc_angle, "damage": actor.stats.damage * scale, "knockback": actor.stats.knockback, "burn": run.progression.has(&"ember_touch"), "frost": run.progression.has(&"frost_mark")}
+	SwordBranchAttacks.attach_visual(actor, run, hit, tick, &"base")
+	run.create_arc(hit, tick)

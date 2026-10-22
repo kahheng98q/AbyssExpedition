@@ -36,7 +36,13 @@ func resolve_tick_hits(run, tick: int) -> void:
 				var source = run.actor_by_id(hit.heal_source)
 				var key = str(hit.heal_source) + ":" + str(hit.activation)
 				if source != null and not source.health.dead and not run.activation_heals.has(key):
+					var before_heal: float = source.health.current
 					source.health.heal(source.health.maximum * hit.heal_fraction)
 					run.activation_heals[key] = true
+					var actual_heal: float = source.health.current - before_heal
+					if fact.actual_damage > 0 and is_finite(actual_heal) and actual_heal > 0:
+						var healed = {"generation": run.generation, "tick": tick, "source_id": source.actor_id, "is_companion": source.is_companion, "activation_id": hit.activation, "request_id": hit.id, "actual_heal": actual_heal, "source_position": Vector2(source.position)}
+						healed.make_read_only()
+						run.branch_heal_applied.emit(healed)
 	requests.clear()
 	# Keep accepted IDs for the run: a late duplicate can never damage again.

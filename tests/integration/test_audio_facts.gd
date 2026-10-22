@@ -2,6 +2,7 @@ extends RefCounted
 const Fixture = preload("res://tests/fixtures/run_fixture.gd")
 
 func run(t) -> void:
+	check_sword_visual_isolation(t)
 	check_branches_and_roles(t)
 	for hero in [&"aren", &"lia", &"milo"]:
 		var f = Fixture.create(t, hero)
@@ -86,3 +87,30 @@ func check_branches_and_roles(t) -> void:
 		t.check(damages.size()==3 and damages[0].target_role==&"companion" and damages[1].target_role==&"hero" and damages[2].fatal,"roles explicit; fatal only one fact")
 		t.check(visuals.size()==3 and visuals[0].size()==5 and visuals[0][4],"legacy hit_confirmed five-field visual contract retained")
 		Fixture.dispose(f)
+
+func check_sword_visual_isolation(t) -> void:
+	for profession in ["swordsman", "swordmaster", "abyss_swordsman"]:
+		var records: Array = []
+		for disabled in [false, true]:
+			var profile = ProfileData.fresh()
+			profile.owned.aren = OwnedHero.record("aren", 1400, profession if profession != "swordsman" else "")
+			var fixture = Fixture.create_party(t, profile, 202)
+			var r = fixture.run
+			r.set_meta("sword_presentation_disabled", disabled)
+			r.hero.health.current -= 10
+			var target = r.spawn_enemy(&"shellbound_husk", r.hero.position + Vector2(24, 0))
+			target.health = ActorHealth.new(100000)
+			var facts: Array = []
+			r.attack_committed.connect(func(fact): facts.append(fact))
+			for activation in range(6):
+				r.clock.tick = activation * 50
+				r.hero.next_ready = 0
+				AttackExecutor.try_activate(r.hero, r, r.clock.tick)
+				for request in r.damage.requests: t.check(not request.has("sword_visual"), "presentation metadata never enters real damage requests")
+				r.damage.resolve_tick_hits(r, r.clock.tick)
+			t.check(facts.size() == 6 and facts.all(func(fact): return fact.size() == 6 and fact.is_read_only()), "visual switch preserves immutable six-field audio facts " + profession)
+			var observer = preload("res://tests/fixtures/pacing_observer.gd").new()
+			observer.run = r
+			records.append({"facts": facts.duplicate(true), "state": observer.final_state()})
+			Fixture.dispose(fixture)
+		t.check(records[0] == records[1], "render switch preserves all original state, attacks, heals and four RNG streams " + profession)

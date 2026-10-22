@@ -1,0 +1,182 @@
+[
+  {
+    "name": "identical full gameplay passes",
+    "passed": true
+  },
+  {
+    "name": "V3 exact version/color/sword_visual/sword VisualSet whitelist passes",
+    "passed": true
+  },
+  {
+    "name": "reject hp mutation",
+    "passed": true
+  },
+  {
+    "name": "reject activations mutation",
+    "passed": true
+  },
+  {
+    "name": "reject RNG spawns mutation",
+    "passed": true
+  },
+  {
+    "name": "reject RNG offers mutation",
+    "passed": true
+  },
+  {
+    "name": "reject RNG events mutation",
+    "passed": true
+  },
+  {
+    "name": "reject RNG extra mutation",
+    "passed": true
+  },
+  {
+    "name": "reject effect direction mutation",
+    "passed": true
+  },
+  {
+    "name": "reject effect reach mutation",
+    "passed": true
+  },
+  {
+    "name": "reject effect angle mutation",
+    "passed": true
+  },
+  {
+    "name": "reject effect expires mutation",
+    "passed": true
+  },
+  {
+    "name": "reject followup due mutation",
+    "passed": true
+  },
+  {
+    "name": "reject followup origin mutation",
+    "passed": true
+  },
+  {
+    "name": "reject followup direction mutation",
+    "passed": true
+  },
+  {
+    "name": "reject followup reach mutation",
+    "passed": true
+  },
+  {
+    "name": "reject followup angle mutation",
+    "passed": true
+  },
+  {
+    "name": "reject followup damage mutation",
+    "passed": true
+  },
+  {
+    "name": "reject followup knockback mutation",
+    "passed": true
+  },
+  {
+    "name": "reject followup burn mutation",
+    "passed": true
+  },
+  {
+    "name": "reject followup frost mutation",
+    "passed": true
+  },
+  {
+    "name": "reject unknown/container unknown mutation",
+    "passed": true
+  },
+  {
+    "name": "reject unknown/container damage_requests mutation",
+    "passed": true
+  },
+  {
+    "name": "reject unknown/container activation_heals mutation",
+    "passed": true
+  },
+  {
+    "name": "reject choice mutation",
+    "passed": true
+  },
+  {
+    "name": "reject missing seed",
+    "passed": true
+  },
+  {
+    "name": "reject changed fixture identity",
+    "passed": true
+  },
+  {
+    "name": "reject profession gameplay mutation",
+    "passed": true
+  },
+  {
+    "name": "reject non-sword VisualSet mutation",
+    "passed": true
+  },
+  {
+    "name": "12 complete windows pass",
+    "passed": true
+  },
+  {
+    "name": "reject missing dual in any sample window / only warmup",
+    "passed": true
+  },
+  {
+    "name": "reject no actual dual render frame",
+    "passed": true
+  },
+  {
+    "name": "reject missing spin in any sample window / only warmup",
+    "passed": true
+  },
+  {
+    "name": "reject no actual spin render frame",
+    "passed": true
+  },
+  {
+    "name": "reject missing long in any sample window / only warmup",
+    "passed": true
+  },
+  {
+    "name": "reject no actual long render frame",
+    "passed": true
+  },
+  {
+    "name": "reject missing heal in any sample window / only warmup",
+    "passed": true
+  },
+  {
+    "name": "reject no actual heal render frame",
+    "passed": true
+  },
+  {
+    "name": "reject all-full-health sample",
+    "passed": true
+  },
+  {
+    "name": "reject missing 600tick window",
+    "passed": true
+  },
+  {
+    "name": "CLI rejects unknown parameter",
+    "passed": true
+  },
+  {
+    "name": "CLI rejects unknown mode",
+    "passed": true
+  },
+  {
+    "name": "CLI rejects existing evidence",
+    "passed": true
+  },
+  {
+    "name": "CLI rejects missing project",
+    "passed": true
+  },
+  {
+    "name": "CLI rejects early/missing capture",
+    "passed": true
+  }
+]

@@ -1,0 +1,125 @@
+EEEEEEEEEE
+======================================================================
+ERROR: test_checkbox_changes_are_valid (__main__.TaskAuditTests.test_checkbox_changes_are_valid)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_003_task_audit.py", line 22, in test_checkbox_changes_are_valid
+    self.assertFalse(self.errors(self.body.replace('- [ ] T055', '- [X] T055')))
+                     ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_003_task_audit.py", line 13, in errors
+    return audit.audit_tasks(body)[1]
+           ^^^^^^^^^^^^^^^^^
+AttributeError: module 'check_003_docs' has no attribute 'audit_tasks'
+
+======================================================================
+ERROR: test_current_convergence_is_valid (__main__.TaskAuditTests.test_current_convergence_is_valid)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_003_task_audit.py", line 16, in test_current_convergence_is_valid
+    self.assertFalse(self.errors(self.body))
+                     ~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_003_task_audit.py", line 13, in errors
+    return audit.audit_tasks(body)[1]
+           ^^^^^^^^^^^^^^^^^
+AttributeError: module 'check_003_docs' has no attribute 'audit_tasks'
+
+======================================================================
+ERROR: test_duplicate_is_rejected (__main__.TaskAuditTests.test_duplicate_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_003_task_audit.py", line 25, in test_duplicate_is_rejected
+    self.assertTrue(self.errors(self.body + '\n- [ ] T062 Duplicate\n'))
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_003_task_audit.py", line 13, in errors
+    return audit.audit_tasks(body)[1]
+           ^^^^^^^^^^^^^^^^^
+AttributeError: module 'check_003_docs' has no attribute 'audit_tasks'
+
+======================================================================
+ERROR: test_further_append_is_valid (__main__.TaskAuditTests.test_further_append_is_valid)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_003_task_audit.py", line 19, in test_further_append_is_valid
+    self.assertFalse(self.errors(self.body + '\n## Phase 8: Convergence\n\n- [ ] T063 Follow-up per FR-012 (partial)\n'))
+                     ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_003_task_audit.py", line 13, in errors
+    return audit.audit_tasks(body)[1]
+           ^^^^^^^^^^^^^^^^^
+AttributeError: module 'check_003_docs' has no attribute 'audit_tasks'
+
+======================================================================
+ERROR: test_gap_is_rejected (__main__.TaskAuditTests.test_gap_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_003_task_audit.py", line 28, in test_gap_is_rejected
+    self.assertTrue(self.errors(self.body.replace('T062 MEDIUM', 'T064 MEDIUM')))
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_003_task_audit.py", line 13, in errors
+    return audit.audit_tasks(body)[1]
+           ^^^^^^^^^^^^^^^^^
+AttributeError: module 'check_003_docs' has no attribute 'audit_tasks'
+
+======================================================================
+ERROR: test_malformed_number_is_rejected (__main__.TaskAuditTests.test_malformed_number_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_003_task_audit.py", line 31, in test_malformed_number_is_rejected
+    self.assertTrue(self.errors(self.body.replace('T062 MEDIUM', 'T62 MEDIUM')))
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_003_task_audit.py", line 13, in errors
+    return audit.audit_tasks(body)[1]
+           ^^^^^^^^^^^^^^^^^
+AttributeError: module 'check_003_docs' has no attribute 'audit_tasks'
+
+======================================================================
+ERROR: test_original_deletion_is_rejected (__main__.TaskAuditTests.test_original_deletion_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_003_task_audit.py", line 37, in test_original_deletion_is_rejected
+    self.assertTrue(self.errors('\n'.join(line for line in self.body.splitlines() if not line.startswith('- [X] T001 '))))
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_003_task_audit.py", line 13, in errors
+    return audit.audit_tasks(body)[1]
+           ^^^^^^^^^^^^^^^^^
+AttributeError: module 'check_003_docs' has no attribute 'audit_tasks'
+
+======================================================================
+ERROR: test_original_description_is_protected (__main__.TaskAuditTests.test_original_description_is_protected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_003_task_audit.py", line 34, in test_original_description_is_protected
+    self.assertTrue(self.errors(self.body.replace('T001 核对', 'T001 忽略')))
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_003_task_audit.py", line 13, in errors
+    return audit.audit_tasks(body)[1]
+           ^^^^^^^^^^^^^^^^^
+AttributeError: module 'check_003_docs' has no attribute 'audit_tasks'
+
+======================================================================
+ERROR: test_original_reorder_is_rejected (__main__.TaskAuditTests.test_original_reorder_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_003_task_audit.py", line 40, in test_original_reorder_is_rejected
+    self.assertTrue(self.errors(self.body.replace('T001 核对', 'T002 核对').replace('T002 按', 'T001 按')))
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_003_task_audit.py", line 13, in errors
+    return audit.audit_tasks(body)[1]
+           ^^^^^^^^^^^^^^^^^
+AttributeError: module 'check_003_docs' has no attribute 'audit_tasks'
+
+======================================================================
+ERROR: test_phase_reorder_is_rejected (__main__.TaskAuditTests.test_phase_reorder_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_003_task_audit.py", line 43, in test_phase_reorder_is_rejected
+    self.assertTrue(self.errors(self.body.replace('## Phase 7:', '## Phase 9:')))
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_003_task_audit.py", line 13, in errors
+    return audit.audit_tasks(body)[1]
+           ^^^^^^^^^^^^^^^^^
+AttributeError: module 'check_003_docs' has no attribute 'audit_tasks'
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.057s
+
+FAILED (errors=10)

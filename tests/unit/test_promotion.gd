@@ -1,6 +1,7 @@
 extends RefCounted
 
 func run(t) -> void:
+	check_preview_eligibility(t)
 	for xp in [1300, 1400, 2900]:
 		for items in [0, 1]:
 			var p = ProfileData.fresh()
@@ -33,6 +34,7 @@ func run(t) -> void:
 	t.check(PromotionService.confirm(writer, "aren", "swordmaster", before, "promote") and writer.revision() == before + 1, "double-confirm spends once")
 	var root = writer.store.root
 	writer.close()
+
 	var catalog = ContentCatalog.new()
 	t.root.add_child(catalog)
 	t.check(catalog.load_all(), "promotion UI catalog loads")
@@ -51,3 +53,30 @@ func run(t) -> void:
 	writer = SaveCoordinator.new(root)
 	t.check(writer.open() and writer.payload.owned.aren.promotion_id == "swordmaster", "promoted data persists")
 	writer.close()
+
+func check_preview_eligibility(t) -> void:
+	var catalog = ContentCatalog.new()
+	t.root.add_child(catalog)
+	t.check(catalog.load_all(), "preview eligibility catalog")
+	for xp in [1300, 1400]:
+		for items in [0, 1]:
+			var payload = ProfileData.fresh()
+			payload.owned.aren = OwnedHero.record("aren", xp)
+			payload.promotion_items = items
+			var page = catalog.scene("promotion").instantiate()
+			page.catalog = catalog
+			page.payload = payload.duplicate(true)
+			page.selected = "swordmaster"
+			var count = [0]
+			page.confirmed.connect(func(_hero, _branch, _revision): count[0] += 1)
+			t.root.add_child(page)
+			page.submit()
+			page.submit()
+			var eligible = xp == 1400 and items == 1
+			t.check(count[0] == (1 if eligible else 0), "preview submit retains level14/15 x item0/1 guard")
+			t.check(page.payload == payload, "preview eligibility/submit never writes its snapshot")
+			if eligible:
+				for visual in page.branch_previews.values():
+					t.check(visual.get_property_list().any(func(item): return item.name == "stopped"), "submission owns a stoppable presentation session")
+			page.free()
+	catalog.free()

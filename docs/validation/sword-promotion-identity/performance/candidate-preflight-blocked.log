@@ -1,0 +1,7 @@
+Exception: C:\Users\kahhe\Desktop\Project\new-game-project\tools\validate_sword_identity.ps1:52
+Line |
+  52 |  … A256).Hash){throw 'Release/source/engine manifest mismatch; no fallba …
+     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Release/source/engine manifest mismatch; no fallback to old build
+
+

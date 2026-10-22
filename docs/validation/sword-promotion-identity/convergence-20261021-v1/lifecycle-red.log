@@ -1,0 +1,95 @@
+.FFFFFFF.FFF
+======================================================================
+FAIL: test_early_end (__main__.LifecycleTests.test_early_end)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_sword_lifecycle.py", line 42, in test_early_end
+    with self.assertRaises(AssertionError): self.validate(bad)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised
+
+======================================================================
+FAIL: test_invalid_choice (__main__.LifecycleTests.test_invalid_choice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_sword_lifecycle.py", line 65, in test_invalid_choice
+    with self.assertRaises(AssertionError): self.validate(bad)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised
+
+======================================================================
+FAIL: test_missing_event_choice (__main__.LifecycleTests.test_missing_event_choice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_sword_lifecycle.py", line 38, in test_missing_event_choice
+    with self.assertRaises(AssertionError): self.validate(bad)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised
+
+======================================================================
+FAIL: test_missing_or_duplicate_settlement (__main__.LifecycleTests.test_missing_or_duplicate_settlement)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_sword_lifecycle.py", line 51, in test_missing_or_duplicate_settlement
+    with self.assertRaises(AssertionError): self.validate(bad)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised
+
+======================================================================
+FAIL: test_missing_required_behaviors (__main__.LifecycleTests.test_missing_required_behaviors) (key='offers')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_sword_lifecycle.py", line 34, in test_missing_required_behaviors
+    with self.assertRaises(AssertionError): self.validate(bad)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised
+
+======================================================================
+FAIL: test_missing_required_behaviors (__main__.LifecycleTests.test_missing_required_behaviors) (key='decisions')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_sword_lifecycle.py", line 34, in test_missing_required_behaviors
+    with self.assertRaises(AssertionError): self.validate(bad)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised
+
+======================================================================
+FAIL: test_missing_required_behaviors (__main__.LifecycleTests.test_missing_required_behaviors) (key='events')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_sword_lifecycle.py", line 34, in test_missing_required_behaviors
+    with self.assertRaises(AssertionError): self.validate(bad)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised
+
+======================================================================
+FAIL: test_rewards_not_applied (__main__.LifecycleTests.test_rewards_not_applied)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_sword_lifecycle.py", line 61, in test_rewards_not_applied
+    with self.assertRaises(AssertionError): self.validate(bad)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised
+
+======================================================================
+FAIL: test_save_revision_and_roundtrip (__main__.LifecycleTests.test_save_revision_and_roundtrip)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_sword_lifecycle.py", line 56, in test_save_revision_and_roundtrip
+    with self.assertRaises(AssertionError): self.validate(bad)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised
+
+======================================================================
+FAIL: test_unsettled_run (__main__.LifecycleTests.test_unsettled_run)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\kahhe\Desktop\Project\new-game-project\tools\test_sword_lifecycle.py", line 46, in test_unsettled_run
+    with self.assertRaises(AssertionError): self.validate(bad)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.017s
+
+FAILED (failures=10)

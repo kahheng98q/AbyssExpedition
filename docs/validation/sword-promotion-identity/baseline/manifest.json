@@ -1,0 +1,388 @@
+{
+  "format": "sword-baseline-v1",
+  "date": "2026-10-21",
+  "source_root": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\builds\\windows\\sword-promotion-identity\\baseline-20261021-v1\\source",
+  "build_directory": "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\builds\\windows\\sword-promotion-identity\\baseline-20261021-v1\\export",
+  "engine": "4.5.stable.official.876b29033",
+  "source_manifest": "../preflight-20261021-v1/source-manifest.json",
+  "build_hash": "fa5614aab670a76126d66d13894ff2481e00e9a85199d18277f2e0dd5a30dfd3",
+  "catalog": "0c51924850bb38ca2f07216949b199448d8ec1b661c706326282ee18112bc95d",
+  "binaries": [
+    {
+      "path": "tools/godot-4.5/Godot_v4.5-stable_win64_console.exe",
+      "exists": true,
+      "sha256": "7b77f3735dec3a32bb20af29cc1900583795d1de82a14f23d23350a88ec85faf",
+      "bytes": 197640
+    },
+    {
+      "path": "tools/godot-4.5/Godot_v4.5-stable_win64.exe",
+      "exists": true,
+      "sha256": "5ea93bab9cb6d2dc0824a41e8465828390f7e870535cd8f0690dcf6fa9db0fd2",
+      "bytes": 162825224
+    },
+    {
+      "path": "tools/godot-4.5-templates/templates/windows_debug_x86_64.exe",
+      "exists": true,
+      "sha256": "9764f2cf12f62060c3e80777f5503c3e6bd755da1ad47a97512c8505aa05c219",
+      "bytes": 94566400
+    },
+    {
+      "path": "tools/godot-4.5-templates/templates/windows_release_x86_64.exe",
+      "exists": true,
+      "sha256": "5bae54022c7e699b6f0f26230cf49a01c3582640623c6cf7f055c15eac9c5f29",
+      "bytes": 96762368
+    }
+  ],
+  "exports": {
+    "AbyssExpedition-debug.console.exe": "0c7e025893c854ae9498f1807b0c1a3cd82405b9b5c0afb0006c72437f3f0bcf",
+    "AbyssExpedition-debug.exe": "0875709e2da5bd488f6f34d79128a07330ac49fbdd1b13f8f1e5dccac6697eff",
+    "AbyssExpedition.console.exe": "4002eeffb14a7af3da16e5b0be5b7f5da773f2117d819b33226dbcd1d6562951",
+    "AbyssExpedition.exe": "9ccfc63406c60840c0df8f1826af986978d8d85d1e9bbe1986b030a557cbc86c"
+  },
+  "pacing_build": {
+    "engine": "4.5.stable.official.876b29033",
+    "source_hash": "fa5614aab670a76126d66d13894ff2481e00e9a85199d18277f2e0dd5a30dfd3",
+    "release_sha256": "9CCFC63406C60840C0DF8F1826AF986978D8D85D1E9BBE1986B030A557CBC86C",
+    "console_sha256": "4002EEFFB14A7AF3DA16E5B0BE5B7F5DA773F2117D819B33226DBCD1D6562951",
+    "benchmark_fixture_sha256": "7F77B03B597DF2ACBB2AB0ECE420A092BC15C44EC5E214301820323969631C85",
+    "release_denial": "executed and passed"
+  },
+  "source_files_verified": 204,
+  "source_modified_by_import": false,
+  "initial_profiles": "per-sample initial_profile and starting_profile_hash; identical independent level15 controlled profiles",
+  "inputs": "per-sample inputs and trace.inputs in baseline-capture-20261021-v3",
+  "choices": "per-sample trace.offers/decisions/events, preserving actual simulated choices",
+  "limitations": [
+    "Natural nine sessions deferred, not passed",
+    "Earlier controlled capture v1-v3 had unfrozen draw RNG; use v4 only for current comparison",
+    "Baseline benchmark v3 valid, candidate performance still pending"
+  ],
+  "controlled_capture": "../baseline-capture-20261021-v4/manifest.json",
+  "controlled_fixture_hash": "1ca0a6b0bc8d317a252848fffeb25ae5a4cf8f300c7a18f87084a2d837cdfdce",
+  "controlled_samples": [
+    {
+      "id": "aren-abyss_swordsman-companion-101",
+      "seed": 101,
+      "file": "aren-abyss_swordsman-companion-101.json",
+      "sha256": "e9b728d95a1bceeb56fcf9106a04ab5f4cbc6667f941aa347b95c6222636c162"
+    },
+    {
+      "id": "aren-abyss_swordsman-companion-202",
+      "seed": 202,
+      "file": "aren-abyss_swordsman-companion-202.json",
+      "sha256": "fbd2108ef075e81e45e0a3d13b074b067753d1a327a226b9906dc8409cbf02f7"
+    },
+    {
+      "id": "aren-abyss_swordsman-companion-303",
+      "seed": 303,
+      "file": "aren-abyss_swordsman-companion-303.json",
+      "sha256": "aa5ba646242b3fc22e0b61829acc3da31474da8c0ad280c2c11c342407c034dd"
+    },
+    {
+      "id": "aren-abyss_swordsman-hero-101",
+      "seed": 101,
+      "file": "aren-abyss_swordsman-hero-101.json",
+      "sha256": "5aa0b6710930b3b880352c8eecbb0119622d964f2850b5aefb6793a94c2f95db"
+    },
+    {
+      "id": "aren-abyss_swordsman-hero-202",
+      "seed": 202,
+      "file": "aren-abyss_swordsman-hero-202.json",
+      "sha256": "5b7009797cbe271a75e94141264fc36aec1cb4dca695428ad868d74a716a9f43"
+    },
+    {
+      "id": "aren-abyss_swordsman-hero-303",
+      "seed": 303,
+      "file": "aren-abyss_swordsman-hero-303.json",
+      "sha256": "5e17b82f771146398d3d153aca3917f76e5ce2e726c5c79f1527bd7d14375e70"
+    },
+    {
+      "id": "aren-swordmaster-companion-101",
+      "seed": 101,
+      "file": "aren-swordmaster-companion-101.json",
+      "sha256": "d9bf09955132a5aef19b9f835deba98e3ed2f00786d941d3413bfb5f3109d0c6"
+    },
+    {
+      "id": "aren-swordmaster-companion-202",
+      "seed": 202,
+      "file": "aren-swordmaster-companion-202.json",
+      "sha256": "86c416a27f843bc439241e70ab1a454ae9d53acb369ff48e34d5ad87973cdc1a"
+    },
+    {
+      "id": "aren-swordmaster-companion-303",
+      "seed": 303,
+      "file": "aren-swordmaster-companion-303.json",
+      "sha256": "26d01dda64ff1f8e929f270b0a98c268249caf338861fd0b178453e36e40c270"
+    },
+    {
+      "id": "aren-swordmaster-hero-101",
+      "seed": 101,
+      "file": "aren-swordmaster-hero-101.json",
+      "sha256": "ad00d5fb15c01e99ee90a5504a69efcc8c18c9c197f597b24bdd26ffdd3dfa31"
+    },
+    {
+      "id": "aren-swordmaster-hero-202",
+      "seed": 202,
+      "file": "aren-swordmaster-hero-202.json",
+      "sha256": "a0523bf733cbf3eb9dcc49633c2f0556781d8ef138eecdf3bee4380605ad13cf"
+    },
+    {
+      "id": "aren-swordmaster-hero-303",
+      "seed": 303,
+      "file": "aren-swordmaster-hero-303.json",
+      "sha256": "b85137020a129f403c4d93eba0b585265286df037af4ce87d6549f0414136aa7"
+    },
+    {
+      "id": "aren-swordsman-companion-101",
+      "seed": 101,
+      "file": "aren-swordsman-companion-101.json",
+      "sha256": "dbf1680ad9c0a1d3a1b2a890ec739463957f10134ed992acc5ed679c5d17fc54"
+    },
+    {
+      "id": "aren-swordsman-companion-202",
+      "seed": 202,
+      "file": "aren-swordsman-companion-202.json",
+      "sha256": "ec4f2263336991b36c9f4d3e4a3d38edfad56a0cd78fc8c4adbe7a5e16124d92"
+    },
+    {
+      "id": "aren-swordsman-companion-303",
+      "seed": 303,
+      "file": "aren-swordsman-companion-303.json",
+      "sha256": "0ba45ee194bafcc744230f2cf98721fea7f094597a59dd19b8842ce27557aa10"
+    },
+    {
+      "id": "aren-swordsman-hero-101",
+      "seed": 101,
+      "file": "aren-swordsman-hero-101.json",
+      "sha256": "94e9659f64794c7d1fa65b6592b704ea70238a86ebd99796287e027e78ff5f07"
+    },
+    {
+      "id": "aren-swordsman-hero-202",
+      "seed": 202,
+      "file": "aren-swordsman-hero-202.json",
+      "sha256": "3a54ae5990ac06802e80fdbc46ec3bbe79c274c053fe9f860c22b0372a921a95"
+    },
+    {
+      "id": "aren-swordsman-hero-303",
+      "seed": 303,
+      "file": "aren-swordsman-hero-303.json",
+      "sha256": "3784afd0875d9b22afeaab4e52aa9418057eb2afaf64c203621fc7afb3e8da15"
+    },
+    {
+      "id": "brann-abyss_swordsman-companion-101",
+      "seed": 101,
+      "file": "brann-abyss_swordsman-companion-101.json",
+      "sha256": "902714373095b0f8a19e60dcf82576316c31f27cf1c1e598e6e3834ac808167c"
+    },
+    {
+      "id": "brann-abyss_swordsman-companion-202",
+      "seed": 202,
+      "file": "brann-abyss_swordsman-companion-202.json",
+      "sha256": "7f617800ff4f97feec9e4917910768692f7852c73f49db3784032dc1effec2ad"
+    },
+    {
+      "id": "brann-abyss_swordsman-companion-303",
+      "seed": 303,
+      "file": "brann-abyss_swordsman-companion-303.json",
+      "sha256": "792203a714dccf13de47c8f9e4cdfb6025de0300a4368dc90f5916aa22293520"
+    },
+    {
+      "id": "brann-abyss_swordsman-hero-101",
+      "seed": 101,
+      "file": "brann-abyss_swordsman-hero-101.json",
+      "sha256": "c7cdde3bc14d39c9e0730ab25e95ed3b0a06d96141e95c39f9e79d8e93d13fd4"
+    },
+    {
+      "id": "brann-abyss_swordsman-hero-202",
+      "seed": 202,
+      "file": "brann-abyss_swordsman-hero-202.json",
+      "sha256": "dbd9755ab12f590134ecb86b9b3bfbdc435485bbbb052e62ca67da0822bb4c00"
+    },
+    {
+      "id": "brann-abyss_swordsman-hero-303",
+      "seed": 303,
+      "file": "brann-abyss_swordsman-hero-303.json",
+      "sha256": "37ce8f08a110d4a8ea79fc710e61f8020f37f68b26ec2db082941cbde6776167"
+    },
+    {
+      "id": "brann-swordmaster-companion-101",
+      "seed": 101,
+      "file": "brann-swordmaster-companion-101.json",
+      "sha256": "0608e301e718e8f399ca25a10539181ce57fe9ff39783df42392debee1e04c97"
+    },
+    {
+      "id": "brann-swordmaster-companion-202",
+      "seed": 202,
+      "file": "brann-swordmaster-companion-202.json",
+      "sha256": "5d04f9584d5519e40186bc3298251dee97b0a693cea7f06f969ff954959688b0"
+    },
+    {
+      "id": "brann-swordmaster-companion-303",
+      "seed": 303,
+      "file": "brann-swordmaster-companion-303.json",
+      "sha256": "b5d52bc909a1c1fbb134af1e9b36b69e86cd96751c2222f587514299478e8744"
+    },
+    {
+      "id": "brann-swordmaster-hero-101",
+      "seed": 101,
+      "file": "brann-swordmaster-hero-101.json",
+      "sha256": "279570e6fa1cb8a4a8aabc735599e22d0527b3fa790bc76eeecaa3e07aa789f0"
+    },
+    {
+      "id": "brann-swordmaster-hero-202",
+      "seed": 202,
+      "file": "brann-swordmaster-hero-202.json",
+      "sha256": "c09cf229776446a722660f406cc3a3d6e8a5108ec8e554dc79bcd82a8f16b4e2"
+    },
+    {
+      "id": "brann-swordmaster-hero-303",
+      "seed": 303,
+      "file": "brann-swordmaster-hero-303.json",
+      "sha256": "bcf3b38576dd6cd7278f8a76c4cc92be159bb2f4a60ffed4b1a613e86e2ff9e5"
+    },
+    {
+      "id": "brann-swordsman-companion-101",
+      "seed": 101,
+      "file": "brann-swordsman-companion-101.json",
+      "sha256": "e8b3ca197b4886cc0cd4bbbf2abb98377dea8c8890f9d0338f25e968547a85ca"
+    },
+    {
+      "id": "brann-swordsman-companion-202",
+      "seed": 202,
+      "file": "brann-swordsman-companion-202.json",
+      "sha256": "7155ac144fedfa2d778d5ed9d86dfcc8642cf8e474cdea8fa33f7622fe6675a2"
+    },
+    {
+      "id": "brann-swordsman-companion-303",
+      "seed": 303,
+      "file": "brann-swordsman-companion-303.json",
+      "sha256": "29084dfa8fb659f4e3efe76c53788be4584fb332bc92118b3a5ade27f2609aad"
+    },
+    {
+      "id": "brann-swordsman-hero-101",
+      "seed": 101,
+      "file": "brann-swordsman-hero-101.json",
+      "sha256": "4e68b555c187432abd5ac2744ab837b77c183ec99fafe471999fe490d2951ca1"
+    },
+    {
+      "id": "brann-swordsman-hero-202",
+      "seed": 202,
+      "file": "brann-swordsman-hero-202.json",
+      "sha256": "72f4a4c81648b310be8a8335e3f82341cfea520b9b10ba82157d0d2677e6b198"
+    },
+    {
+      "id": "brann-swordsman-hero-303",
+      "seed": 303,
+      "file": "brann-swordsman-hero-303.json",
+      "sha256": "15fe2d3e2ee53e6677b5ed87ce72a79ff1fe43edf89682ade43611dc0f57a74c"
+    },
+    {
+      "id": "lia-archer-hero-101",
+      "seed": 101,
+      "file": "lia-archer-hero-101.json",
+      "sha256": "32d7aa835405084669cf9d535df79365bf05c0782a2c0cc6d5cca5de7c3cf236"
+    },
+    {
+      "id": "lia-archer-hero-202",
+      "seed": 202,
+      "file": "lia-archer-hero-202.json",
+      "sha256": "9752169b6035f6ad3a524aa5480fe6076a5b6acce0b5128a5e16bacb2710468e"
+    },
+    {
+      "id": "lia-archer-hero-303",
+      "seed": 303,
+      "file": "lia-archer-hero-303.json",
+      "sha256": "4f5eda1ce0f5fc3c04e56ed015e221c51f4971d61facb257cf642865063c80a7"
+    },
+    {
+      "id": "lia-sharpshooter-hero-101",
+      "seed": 101,
+      "file": "lia-sharpshooter-hero-101.json",
+      "sha256": "5eb81de072f350d31c71d36a75c848ab9a8991873f536e05551bf3627d180ece"
+    },
+    {
+      "id": "lia-sharpshooter-hero-202",
+      "seed": 202,
+      "file": "lia-sharpshooter-hero-202.json",
+      "sha256": "fb1d2be0731687561b92a9fecfcca80e50a873f0fd5fc4d42a3b545e0b94445b"
+    },
+    {
+      "id": "lia-sharpshooter-hero-303",
+      "seed": 303,
+      "file": "lia-sharpshooter-hero-303.json",
+      "sha256": "b491531f1775bf35d64c9f9bcc2801e4cd895d62a1b5aa0375ee4fd163883d32"
+    },
+    {
+      "id": "lia-star_hunter-hero-101",
+      "seed": 101,
+      "file": "lia-star_hunter-hero-101.json",
+      "sha256": "7f3e707067e028763a1d10c52f76700d942dd6be650d4c1b97b6612ca7435d24"
+    },
+    {
+      "id": "lia-star_hunter-hero-202",
+      "seed": 202,
+      "file": "lia-star_hunter-hero-202.json",
+      "sha256": "f01dfaed9aa03de02ef9927da028d908b8a2ee7f17af6ac401968c848bc4624c"
+    },
+    {
+      "id": "lia-star_hunter-hero-303",
+      "seed": 303,
+      "file": "lia-star_hunter-hero-303.json",
+      "sha256": "8814f91f637ef9558e73a11ae8037cce71e5f3d08d14907918a28c11b31ddd43"
+    },
+    {
+      "id": "milo-elemental_sage-hero-101",
+      "seed": 101,
+      "file": "milo-elemental_sage-hero-101.json",
+      "sha256": "9ab7ba4a0b692baf02c18d0d35bef94e1dea16e1af1b45de49a1a1249c4fed19"
+    },
+    {
+      "id": "milo-elemental_sage-hero-202",
+      "seed": 202,
+      "file": "milo-elemental_sage-hero-202.json",
+      "sha256": "e348aa3bfebf1553b0df38e7aa3d7c8f1b99aff25142f3d5677963513298f4d2"
+    },
+    {
+      "id": "milo-elemental_sage-hero-303",
+      "seed": 303,
+      "file": "milo-elemental_sage-hero-303.json",
+      "sha256": "0b951763383147b934276b28b8e1b1269db897ee3a59c7769fff5ccb8f3adced"
+    },
+    {
+      "id": "milo-mage-hero-101",
+      "seed": 101,
+      "file": "milo-mage-hero-101.json",
+      "sha256": "51ac7e2d3172a2e656825ce872f42799a95ae03368592d1559db0797f5d56bd7"
+    },
+    {
+      "id": "milo-mage-hero-202",
+      "seed": 202,
+      "file": "milo-mage-hero-202.json",
+      "sha256": "b35be2b95b68b0322a41f6e3d3cb3f341de70509ea21371e29810728e4419e7f"
+    },
+    {
+      "id": "milo-mage-hero-303",
+      "seed": 303,
+      "file": "milo-mage-hero-303.json",
+      "sha256": "547cdb999eab528c3fe8bfd690d96cd2fcb330cdc0ab8bef38382ebef8c94bfd"
+    },
+    {
+      "id": "milo-void_caster-hero-101",
+      "seed": 101,
+      "file": "milo-void_caster-hero-101.json",
+      "sha256": "9c3cfc1d07626e1fba6ea9c4bf31010febfd148ed493aa255bb897b6b1b8e2fc"
+    },
+    {
+      "id": "milo-void_caster-hero-202",
+      "seed": 202,
+      "file": "milo-void_caster-hero-202.json",
+      "sha256": "860d625110172b6ef6211b7ff2ae7409bb1c53aca14fe340a01a44b2bc755e1a"
+    },
+    {
+      "id": "milo-void_caster-hero-303",
+      "seed": 303,
+      "file": "milo-void_caster-hero-303.json",
+      "sha256": "0bd819a2e589ef220461584400dcce102449c9ba6aee4873679a07e05df802f5"
+    }
+  ]
+}

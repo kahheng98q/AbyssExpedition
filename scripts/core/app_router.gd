@@ -188,6 +188,7 @@ func show_promotion(hero_id: String) -> void:
 		return
 	clear_host(screen_host)
 	var screen = catalog.scene("promotion").instantiate()
+	if is_instance_valid(debug_panel): screen.host_overlay = debug_panel.overlay
 	screen.catalog = catalog
 	screen.payload = writer.payload.duplicate(true)
 	screen.hero_id = hero_id

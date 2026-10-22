@@ -2,6 +2,7 @@ extends RefCounted
 const Fault = preload("res://tests/fixtures/fault_file_store.gd")
 
 func run(t) -> void:
+	await check_preview_save_failure(t)
 	var golden = ProfileValidator.decode(FileAccess.get_file_as_string("res://tests/fixtures/profiles/v3.json"))
 	var legacy = ProfileValidator.decode(FileAccess.get_file_as_string("res://tests/fixtures/profiles/v2.json"))
 	var before = legacy.payload.duplicate(true)
@@ -70,3 +71,47 @@ func run(t) -> void:
 		writer = SaveCoordinator.new(location)
 		t.check(writer.open() and writer.payload == saved and writer.payload.chapters.coast and writer.payload.owned.has("sera") and writer.payload.tickets == 3, "chapter, rescue, XP, tickets and item survive exact reopen")
 		writer.close()
+
+func check_preview_save_failure(t) -> void:
+	var available = FileAccess.file_exists("res://scripts/ui/promotion_preview.gd")
+	t.check(available, "preview lifecycle is available for blocked-save isolation")
+	if not available: return
+	var catalog = ContentCatalog.new()
+	t.root.add_child(catalog)
+	t.check(catalog.load_all(), "preview save fixture content")
+	var fault = Fault.new()
+	fault.remaining = 0
+	var writer = SaveCoordinator.new("user://tests/preview-save-%d/" % Time.get_ticks_usec(), fault)
+	t.check(writer.open(), "preview save fixture opens isolated profile")
+	var profile = ProfileData.fresh()
+	profile.owned.aren = OwnedHero.record("aren", 1400)
+	profile.promotion_items = 1
+	t.check(writer.mutate(profile, writer.revision(), "preview-ready"), "preview eligibility persisted")
+	var page = catalog.scene("promotion").instantiate()
+	page.catalog = catalog
+	page.payload = writer.payload.duplicate(true)
+	page.revision = writer.revision()
+	page.selected = "abyss_swordsman"
+	page.confirmed.connect(func(hero, branch, revision): PromotionService.confirm(writer, hero, branch, revision, "preview-promote"))
+	t.root.add_child(page)
+	fault.stage = "readback"
+	fault.remaining = 1
+	page.submit()
+	var frozen = writer.pending_bytes
+	t.check(writer.state == "save-blocked" and frozen != "" and writer.payload.promotion_items == 1, "failed promotion retains original committed balance and frozen retry")
+	var clock = [0]
+	for visual in page.branch_previews.values():
+		visual.set("now_usec", func(): return clock[0])
+		visual.call("_process", 0.0)
+	clock[0] = 60000000
+	for visual in page.branch_previews.values():
+		visual.call("_process", 0.0)
+		t.check(visual.get("stopped") and visual.get("total_ticks") == 0, "submitted example cannot continue while save is blocked")
+	page.submit()
+	t.check(writer.pending_bytes == frozen and writer.payload.promotion_items == 1, "viewing/repeated submit cannot replace pending action or spend twice")
+	t.check(writer.retry() and writer.payload.promotion_items == 0 and writer.payload.owned.aren.total_xp == 1400 and writer.payload.owned.aren.promotion_id == "abyss_swordsman", "same pending Retry commits one permanent choice with retained level")
+	t.check(PromotionService.confirm(writer, "aren", "abyss_swordsman", page.revision, "preview-promote") and writer.payload.promotion_items == 0, "original operation receipt makes retry idempotent")
+	page.free()
+	catalog.free()
+	writer.close()
+	await t.process_frame

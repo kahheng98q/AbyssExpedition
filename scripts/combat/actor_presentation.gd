@@ -11,6 +11,20 @@ func _draw() -> void:
 	var actor = get_parent()
 	if actor.health == null: return
 	var tick = actor.run.clock.tick
+	if actor.is_hero and actor.visual().sword_identity != &"" and not (actor.run is Node and actor.run.get_meta("sword_presentation_disabled", false)):
+		var moving_sword: bool = actor.velocity.length_squared() > 1
+		var bob_sword: float = 1 if moving_sword and tick % 12 < 6 else 0
+		position = actor.position.round() - actor.position + Vector2(0, bob_sword)
+		draw_set_transform(Vector2(0, 10 - bob_sword), 0, Vector2(1, 0.35))
+		draw_circle(Vector2.ZERO, 12, Color(0.015, 0.025, 0.035, 0.65))
+		draw_arc(Vector2.ZERO, 15, 0, TAU, 24, Color("8aa9b1") if actor.is_companion else Color("a9e8d2"), 1)
+		draw_set_transform(Vector2.ZERO)
+		var tint: Color = actor.visual().palette
+		if tick < actor.health.invulnerable_until and not actor.health.dead:
+			draw_arc(Vector2.ZERO, 16, 0, TAU, 24, Color.WHITE, 1)
+			if tick % 6 < 3: tint.a = 0.35
+		SwordPresentation.draw_pose(self, {"identity": actor.visual().sword_identity, "state": SwordPresentation.state_for(actor.health.dead, tick < actor.health.hurt_until, tick < actor.attack_until, moving_sword), "aim": Vector2(actor.aim), "active_tick": tick, "attack_age": tick - (actor.attack_until - 12), "moving": moving_sword, "palette": tint, "is_companion": actor.is_companion, "owner_marker": true})
+		return
 	var shape = actor.visual().silhouette
 	var color = actor.visual().palette
 	if use_baked_enemies and not actor.is_hero and not actor.health.dead and shape in ENEMY_SHAPES:
