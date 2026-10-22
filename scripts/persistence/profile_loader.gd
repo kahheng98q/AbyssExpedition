@@ -54,10 +54,8 @@ static func load_profile(writer: SaveCoordinator) -> bool:
 		writer.receipts[newest.envelope.operation_id] = newest.payload.receipt.get("result", {})
 		writer.state = "ready"
 		if int(newest.envelope.schema_version) < ProfileData.SCHEMA:
-			var candidate = writer.payload.duplicate(true)
-			if int(newest.envelope.schema_version) == 1: candidate = ProfileMigrations.v1_to_v2(candidate, DrawRng.initial().seed)
-			candidate = ProfileMigrations.v2_to_v3(candidate)
-			return writer.mutate(candidate, writer.revision(), writer.operation_id(), {"kind": "migration", "from": newest.envelope.schema_version, "to": 3})
+			var candidate = ProfileMigrations.upgrade(writer.payload, int(newest.envelope.schema_version))
+			return writer.mutate(candidate, writer.revision(), writer.operation_id(), {"kind": "migration", "from": newest.envelope.schema_version, "to": ProfileData.SCHEMA, "previous_receipt": writer.payload.receipt.duplicate(true)})
 		return true
 	writer.error = newest.error if newest.error != "" else "Filename/revision mismatch."
 	if newest.get("incompatible", false):
@@ -80,12 +78,10 @@ static func recover(writer: SaveCoordinator, confirmed: bool, fresh: bool = fals
 	if writer.store.scan_unreadable: return false
 	if not fresh and writer.recovery.is_empty(): return false
 	var candidate = ProfileData.fresh() if fresh else writer.recovery.payload.duplicate(true)
-	if not fresh and int(writer.recovery.envelope.schema_version) == 1:
-		candidate = ProfileMigrations.v1_to_v2(candidate, DrawRng.initial().seed)
-	if not fresh and int(writer.recovery.envelope.schema_version) < 3: candidate = ProfileMigrations.v2_to_v3(candidate)
+	if not fresh: candidate = ProfileMigrations.upgrade(candidate, int(writer.recovery.envelope.schema_version))
 	# Explicit consent precedes moving anomalous names into a preserved evidence folder.
 	# A crash here leaves the prior generation, or evidence requiring confirmation again.
 	writer.error = writer.store.archive_reviewed(writer.operation_id())
 	if writer.error != "": return false
 	writer.state = "ready"
-	return writer.mutate(candidate, writer.revision(), writer.operation_id(), {"kind": "recovery", "fresh": fresh})
+	return writer.mutate(candidate, writer.revision(), writer.operation_id(), {"kind": "recovery", "fresh": fresh, "previous_receipt": candidate.receipt.duplicate(true)})

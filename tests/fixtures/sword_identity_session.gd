@@ -98,6 +98,10 @@ func capture(hero: String, profession: String, companion: bool, seed_value: int)
 	run.set_physics_process(false)
 	run.set_meta("sword_presentation_disabled", not presentation)
 	run.combat_audio.set_enabled(false)
+	run.progression.level = 15
+	if profession != ProfileData.BASES[hero]: assert(PromotionService.apply(run, hero, profession))
+	# This fixture measures attacks, so defer unrelated eligible party prompts.
+	run.choices.promotion_deferred = true
 	var subject = run.party[1] if companion else run.hero
 	# A fixed, recorded controlled starting encounter, identical across versions.
 	for member in run.party: member.health.current = member.health.maximum - 10.0
@@ -168,6 +172,8 @@ func capture_lifecycle(profession: String, seed_value: int) -> void:
 	run.set_physics_process(false)
 	run.set_meta("sword_presentation_disabled", not presentation)
 	run.combat_audio.set_enabled(false)
+	run.progression.level = 15
+	assert(PromotionService.apply(run, "aren", profession))
 	# Explicit controlled initial condition, not elapsed natural play or a replay.
 	# The real scheduler reaches tick7200 and consumes its normal event RNG stream.
 	run.clock.tick = 7190

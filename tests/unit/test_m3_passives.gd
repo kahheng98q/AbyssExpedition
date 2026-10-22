@@ -12,6 +12,8 @@ func run(t) -> void:
 			p.active = id
 			p.companions = ["aren", "lia"]
 			var f = Fixture.create_party(t, p)
+			f.run.progression.level = 15
+			if branch != "": t.check(PromotionService.apply(f.run, id, branch), "live recruited branch")
 			var a = f.run.hero
 			t.check(String(a.passive.id) == ProfileData.PASSIVES[id], "new identity passive retained " + id + "/" + branch)
 			if id == "nyra": t.check(is_equal_approx(a.stats.reach, a.profession.starting_stats.reach * 1.2), "Far Sight starting reach after promotion")

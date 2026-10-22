@@ -1,82 +1,41 @@
 extends RefCounted
+const Fixture = preload("res://tests/fixtures/run_fixture.gd")
 
 func run(t) -> void:
-	check_preview_eligibility(t)
-	for xp in [1300, 1400, 2900]:
-		for items in [0, 1]:
+	for id in ProfileData.BASES:
+		for branch in ProfileData.BRANCHES:
+			if ProfileData.BRANCHES[branch] != ProfileData.BASES[id]: continue
 			var p = ProfileData.fresh()
-			p.owned.aren = OwnedHero.record("aren", xp)
-			p.promotion_items = items
-			var next = PromotionService.candidate(p, "aren", "swordmaster")
-			var eligible = xp >= 1400 and items > 0
-			t.check(not next.is_empty() == eligible, "level/item promotion boundary " + str([xp, items]))
-			if eligible:
-				t.check(next.promotion_items == 0 and next.owned.aren.total_xp == xp and next.owned.aren.promotion_id == "swordmaster", "one item and preserved XP")
-				t.check(PromotionService.candidate(next, "aren", "abyss_swordsman").is_empty(), "permanent branch cannot be replaced")
-			t.check(p.owned.aren.promotion_id == "" and p.promotion_items == items, "preview/cancellation leaves profile unchanged")
-	var p = ProfileData.fresh()
-	p.owned.aren = OwnedHero.record("aren", 1400)
-	p.promotion_items = 1
-	t.check(PromotionService.candidate(p, "aren", "star_hunter").is_empty(), "wrong base rejected")
-	t.check(PromotionService.candidate(p, "sera", "elemental_sage").is_empty(), "unowned rejected")
-	t.check(PromotionService.candidate(p, "aren", "").is_empty(), "no selected branch rejected")
-	var fault = preload("res://tests/fixtures/fault_file_store.gd").new()
-	fault.remaining = 0
-	var writer = SaveCoordinator.new("user://tests/promotion-%d/" % Time.get_ticks_usec(), fault)
-	t.check(writer.open() and writer.mutate(p, writer.revision(), "eligibility"), "promotion fixture committed")
-	var before = writer.revision()
-	t.check(not PromotionService.confirm(writer, "aren", "swordmaster", before - 1, "stale"), "stale confirmation rejected")
-	fault.stage = "readback"
-	fault.remaining = 1
-	t.check(not PromotionService.confirm(writer, "aren", "swordmaster", before, "promote"), "promotion failed readback holds pending mutation")
-	t.check(writer.payload.promotion_items == 1 and writer.payload.owned.aren.promotion_id == "", "failed promotion preserves committed item/class")
-	t.check(writer.retry() and writer.payload.promotion_items == 0, "promotion Retry commits complete action")
-	t.check(PromotionService.confirm(writer, "aren", "swordmaster", before, "promote") and writer.revision() == before + 1, "double-confirm spends once")
-	var root = writer.store.root
-	writer.close()
-
-	var catalog = ContentCatalog.new()
-	t.root.add_child(catalog)
-	t.check(catalog.load_all(), "promotion UI catalog loads")
-	var screen = catalog.scene("promotion").instantiate()
-	screen.catalog = catalog
-	screen.payload = p
-	screen.selected = "swordmaster"
-	var submissions = [0]
-	screen.confirmed.connect(func(_hero, _branch, _revision): submissions[0] += 1)
-	t.root.add_child(screen)
-	screen.submit()
-	screen.submit()
-	t.check(submissions[0] == 1 and screen.confirm_button.disabled, "promotion screen submits only one permanent action")
-	screen.free()
-	catalog.free()
-	writer = SaveCoordinator.new(root)
-	t.check(writer.open() and writer.payload.owned.aren.promotion_id == "swordmaster", "promoted data persists")
-	writer.close()
-
-func check_preview_eligibility(t) -> void:
-	var catalog = ContentCatalog.new()
-	t.root.add_child(catalog)
-	t.check(catalog.load_all(), "preview eligibility catalog")
-	for xp in [1300, 1400]:
-		for items in [0, 1]:
-			var payload = ProfileData.fresh()
-			payload.owned.aren = OwnedHero.record("aren", xp)
-			payload.promotion_items = items
-			var page = catalog.scene("promotion").instantiate()
-			page.catalog = catalog
-			page.payload = payload.duplicate(true)
-			page.selected = "swordmaster"
-			var count = [0]
-			page.confirmed.connect(func(_hero, _branch, _revision): count[0] += 1)
-			t.root.add_child(page)
-			page.submit()
-			page.submit()
-			var eligible = xp == 1400 and items == 1
-			t.check(count[0] == (1 if eligible else 0), "preview submit retains level14/15 x item0/1 guard")
-			t.check(page.payload == payload, "preview eligibility/submit never writes its snapshot")
-			if eligible:
-				for visual in page.branch_previews.values():
-					t.check(visual.get_property_list().any(func(item): return item.name == "stopped"), "submission owns a stoppable presentation session")
-			page.free()
-	catalog.free()
+			p.owned[id] = OwnedHero.record(id)
+			p.active = id
+			var f = Fixture.create_party(t, p)
+			var run = f.run
+			var actor = run.hero
+			run.progression.level = 14
+			t.check(not PromotionService.apply(run, id, branch), "Lv14 rejects " + id + branch)
+			run.progression.level = 15
+			actor.health.current = actor.health.maximum * 0.4
+			actor.next_ready = 127
+			actor.activations = 4
+			actor.passive_activations = 9
+			actor.contract_bonuses = {"damage": 0.15}
+			UpgradeEffects.apply(f.catalog.upgrades[&"might"], actor, run.progression)
+			t.check(not PromotionService.apply(run, id, "") and not PromotionService.apply(run, id, "unknown"), "invalid branches no mutation")
+			t.check(PromotionService.apply(run, id, branch), "Lv15 promotes " + id + branch)
+			t.check(actor.profession.id == StringName(branch) and actor.passive == actor.definition.passive, "profession and passive")
+			t.check(is_equal_approx(actor.health.current / actor.health.maximum, 0.4), "live HP ratio retained")
+			t.check(is_equal_approx(actor.stats.damage, actor.starting_stats.damage * 1.25), "upgrades and contract derived once")
+			t.check(actor.next_ready == 127 and actor.activations == 4 and actor.passive_activations == 9, "cooldown and counters preserved")
+			t.check(not PromotionService.apply(run, id, branch) and p.owned[id] == {"character_id": id}, "once per run, no profile mutation")
+			var screen = f.catalog.scene("promotion").instantiate()
+			screen.catalog = f.catalog
+			screen.payload = p
+			screen.selected = branch
+			var submits = [0]
+			screen.confirmed.connect(func(_id, _branch, _revision): submits[0] += 1)
+			t.root.add_child(screen)
+			screen.submit()
+			t.check(submits[0] == 0 and screen.branch_previews.size() == 2, "gallery previews cannot commit")
+			screen.free()
+			Fixture.dispose(f)
+	await t.process_frame

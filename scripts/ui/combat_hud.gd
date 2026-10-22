@@ -5,6 +5,7 @@ const MINT = Color("a9e8d2")
 const GOLD = Color("e9ce95")
 const MUTED = Color("899da9")
 var run
+var promotion_button: Button
 var values: Label
 var hero_label: Label
 var xp_title: Label
@@ -54,6 +55,15 @@ func _ready() -> void:
 	boss_label = label_at(Vector2(170, 61), 11, Color("f4baac"), 300)
 	boss_bar = bar(Vector2(200, 80), Vector2(240, 5), Color("c76b79"))
 	boss_bar.hide()
+	promotion_button = Button.new()
+	promotion_button.name = "RunPromotion"
+	promotion_button.position = Vector2(242, 92)
+	promotion_button.size = Vector2(156, 26)
+	promotion_button.add_theme_font_size_override("font_size", 11)
+	promotion_button.text = "Promotion / RUN Lv15"
+	promotion_button.pressed.connect(func(): run.choices.request_promotion(run))
+	promotion_button.hide()
+	add_child(promotion_button)
 
 func panel(rect: Rect2) -> void:
 	var box = Panel.new()
@@ -103,9 +113,10 @@ func bind_run(expedition) -> void:
 
 func refresh() -> void:
 	if run == null: return
+	promotion_button.visible = run.phase == "active" and not PromotionService.eligible(run).is_empty()
 	var hp: float = run.hero.health.current
 	var maximum: float = run.hero.health.maximum
-	hero_label.text = "%s  /  HERO %d" % [run.hero.definition.display_name.to_upper(), run.hero.permanent_level]
+	hero_label.text = "%s / %s" % [run.hero.definition.display_name.to_upper(), String(run.hero.profession.id).capitalize()]
 	values.text = "HP  %d / %d" % [ceili(hp), ceili(maximum)]
 	health_bar.max_value = maximum
 	health_bar.value = hp

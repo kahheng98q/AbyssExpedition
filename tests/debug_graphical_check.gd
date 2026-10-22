@@ -159,7 +159,7 @@ func verify_xp_buttons() -> void:
 	app.writer = SaveCoordinator.new("user://tests/debug-xp-buttons-%d-%d/" % [OS.get_process_id(), Time.get_ticks_usec()])
 	root.add_child(app)
 	current_scene = app
-	var profile = PermanentProgression.add_character_xp(app.writer.payload, "lia", 1300)
+	var profile = app.writer.payload.duplicate(true)
 	check(app.writer.mutate(profile, app.writer.revision(), app.writer.operation_id(), {"kind": "test_fixture"}), "Lia level 14 fixture saved")
 	var normal = app.writer
 	var normal_path = normal.store.generations()[0].path
@@ -179,40 +179,38 @@ func verify_xp_buttons() -> void:
 	panel.refresh()
 	await process_frame
 	await click_action(panel, "level_one")
-	check(panel.service.writer.payload.owned.lia.level == 15, "mouse +1 level button changes selected Lia")
-	check(app.run.hero.permanent_level == 15 and panel.character_stats.text.contains("Lv 15"), "mouse level change reflected in live actor and panel")
+	check(app.run.progression.level == 2, "mouse +1 RUN level uses XP curve")
 	var hud = app.run.get_node("HUD/CombatHUD")
-	check(hud.hero_label.text.contains("HERO 15") and hud.xp_title.text.contains("RUN LEVEL 1"), "HUD distinguishes permanent hero level from shared run level")
+	check(hud.xp_title.text.contains("RUN LEVEL 2"), "HUD shows shared RUN level")
 	panel.xp_amount.get_line_edit().grab_focus()
 	panel.xp_amount.get_line_edit().select_all()
 	for digit in [50, 53, 48]: key(digit, digit)
-	check(panel.xp_amount.get_line_edit().text == "250", "native typing replaces XP field without pressing Enter")
+	check(panel.xp_amount.get_line_edit().text == "250", "native typing replaces XP field without Enter")
 	await click_action(panel, "character_xp")
-	check(panel.service.writer.payload.owned.lia.total_xp == 1650 and app.run.hero.permanent_level == 17, "mouse XP button applies newly typed amount and updates hero")
+	check(app.run.progression.level == 3 and app.run.progression.xp == 50, "legacy character XP control grants shared XP")
 	await click_action(panel, "run_xp")
-	check(app.run.progression.level == 2 and app.run.progression.xp == 150 and app.run.progression.pending == 1, "mouse run XP button uses entered amount through shared upgrade rules")
-	check(hud.hero_label.text.contains("HERO 17") and hud.xp_title.text.contains("RUN LEVEL 2") and hud.xp_bar.max_value == 200 and hud.xp_bar.value == 150, "HUD updates run XP threshold and retains permanent level")
-	check(panel.run_stats.text.contains("XP 150 / 200"), "shared run XP reflected inside open debug panel")
+	check(app.run.progression.level == 4 and app.run.progression.xp == 0, "shared XP action uses same pool")
+	check(hud.xp_title.text.contains("RUN LEVEL 4") and hud.xp_bar.max_value == 400, "HUD updates run threshold")
 	await capture("debug-xp-level-buttons")
 	await click_action(panel, "level_ten")
-	check(panel.service.writer.payload.owned.lia.level == 27 and app.run.hero.permanent_level == 27, "mouse +10 level button updates selected hero")
+	check(app.run.progression.level == 14, "mouse +10 RUN levels")
 	await click_action(panel, "level_max")
 	await click_action(panel, "level_one")
-	check(panel.service.writer.payload.owned.lia.level == 30 and panel.service.writer.payload.owned.lia.total_xp == 2900 and panel.feedback.text.contains("maximum level 30"), "maximum and repeated +1 stay capped with visible feedback")
-	check(app.run.hero.permanent_level == 30 and is_equal_approx(app.run.hero.health.maximum, 237), "maximum level updates live Lia health scaling")
+	check(app.run.progression.level == 31 and is_equal_approx(app.run.hero.health.maximum, 150), "run level has no permanent stat scale")
 	panel.tabs.current_tab = 3
 	await process_frame
 	await process_frame
 	await click_action(panel, "load_test")
-	check(panel.service.writer.payload.owned.lia.total_xp == 2900 and app.run.hero.permanent_level == 30, "reload sandbox button retains committed XP and reapplies live level")
-	check(normal.store.read(normal_path) == normal_bytes and normal.payload.owned.lia.total_xp == 1300, "XP and level button actions leave normal profile unchanged")
-	while not app.run.choices.offer.is_empty(): app.run.choices.confirm(app.run, app.run.choices.offer_id, app.run.choices.offer[0])
+	check(app.run.progression.level == 31 and panel.service.writer.payload.owned.lia == {"character_id": "lia"}, "reload cannot save or reset current run XP")
+	check(normal.store.read(normal_path) == normal_bytes and normal.payload.owned.lia == {"character_id": "lia"}, "XP buttons leave normal profile bytes unchanged")
+	drain_choices(app.run)
 	key(KEY_F9)
 	await process_frame
-	check(not panel.overlay.visible and not app.run.pause.is_blocked(), "XP upgrades and debug panel can finish without leaving combat paused")
-	check(hud.hero_label.get_global_rect().end.x <= 214 and hud.xp_title.get_global_rect().end.x <= 632, "HUD hero and run levels fit their separate panels")
+	check(not panel.overlay.visible and not app.run.pause.is_blocked(), "cancel and upgrade completion release choice tokens")
+	check(hud.hero_label.get_global_rect().end.x <= 214 and hud.xp_title.get_global_rect().end.x <= 632, "HUD labels fit separate panels")
+	check(hud.promotion_button.visible, "deferred promotion remains reachable in combat")
 	await capture("debug-xp-level-hud")
-	check(panel.service.execute("restart").ok and app.run.hero.permanent_level == 30, "restarted sandbox run loads permanent level from saved progression")
+	check(panel.service.execute("restart").ok and app.run.progression.level == 1 and app.run.hero.profession.id == &"archer", "restart restores BASE and RUN Lv1")
 	app.free()
 	await process_frame
 	paused = false
@@ -269,7 +267,8 @@ func run() -> void:
 	var promotion = panel.promotion_host.get_child(0)
 	promotion.selected = "swordmaster"
 	promotion.submit()
-	check(app.run.hero.profession.id == &"swordmaster", "existing promotion UI submits sandbox class")
+	check(app.run.hero.profession.id == &"swordmaster", "existing promotion UI submits run-only class")
+	drain_choices(app.run)
 	key(KEY_F9)
 	await process_frame
 	check(not panel.overlay.visible and not app.run.pause.is_blocked(), "native F9 closes panel")
@@ -289,3 +288,8 @@ func run() -> void:
 	OS.remove_logger(capture_errors)
 	print("DEBUG GRAPHICAL: assertions=%d failures=%d" % [assertions, failures])
 	quit(0 if failures == 0 else 1)
+
+func drain_choices(run) -> void:
+	while run.choices.promotion_token >= 0 or not run.choices.offer.is_empty():
+		if run.choices.promotion_token >= 0: run.choices.cancel_promotion(run, run.choices.promotion_id)
+		else: run.choices.confirm(run, run.choices.offer_id, run.choices.offer[0])

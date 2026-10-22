@@ -1,43 +1,47 @@
 # Abyss Expedition — Milestone 4 — Abyss and Aetheran Coast
 
-Offline Godot 4.5 survivor-style combat prototype with a guild hub, six collectible heroes, Sera's story rescue, earned-ticket recruitment, duplicate-token exchange and persistent progression. Six promotion branches and up to two AI companions remain available. Corruption brings XP rewards and tougher future waves; seeded contracts and three event types shape each coastal expedition. Original procedural placeholders; fully offline.
+> Current work: [004 Run Level Promotion](specs/004-run-level-promotion/spec.md). Every expedition starts BASE / RUN Lv1; at RUN Lv15 each living member chooses a run-only branch. No permanent levels, XP, saved branches or promotion materials. 17 native suites (10,152 assertions across incremental runs), source/export graphics and actual release denial passed. Native-focus long checks and human/natural-Lv15 acceptance remain open. [Current evidence](docs/validation/run-level-promotion/results.md).
+
+Offline Godot 4.5 survivor-style combat prototype with a guild hub, six collectible heroes, Sera's story rescue, earned-ticket recruitment, duplicate-token exchange and permanent collection progress. Six promotion branches and up to two AI companions remain available. Corruption brings XP rewards and tougher future waves; seeded contracts and three event types shape each coastal expedition. Original procedural placeholders; fully offline.
 
 
 ## Documentation / 开发文档
 
+- 当前004：[规格](specs/004-run-level-promotion/spec.md) · [计划](specs/004-run-level-promotion/plan.md) · [任务](specs/004-run-level-promotion/tasks.md) · [验证](docs/validation/run-level-promotion/results.md)。
+
 - [Visual Development Dashboard / 离线开发图鉴](docs/game-development-dashboard.html) — screenshots, characters, promotion trees and verified status; open locally in a browser.
 - [Implementation Overview / 中文实现概览](docs/IMPLEMENTATION_OVERVIEW.md) — playable scope, limits and quick launch.
 - Spec Kit: [Spec](specs/001-abyss-expedition-mvp/spec.md) · [Plan](specs/001-abyss-expedition-mvp/plan.md) · [Tasks](specs/001-abyss-expedition-mvp/tasks.md) · [Constitution](.specify/memory/constitution.md).
-- 当前实施： [002 计划](specs/002-combat-pacing-audio/plan.md) · [任务清单](specs/002-combat-pacing-audio/tasks.md) · [验证指南](specs/002-combat-pacing-audio/quickstart.md) · [2026-10-20 Phase 7实施](docs/validation/combat-pacing-audio/phase7-20261020/results.md) — 完整快照/终结计数/性能守卫已修复并通过窄测；完整M4/图形/新Debug及Release通过，人工验收开放。
+- 历史002实施： [002 计划](specs/002-combat-pacing-audio/plan.md) · [任务清单](specs/002-combat-pacing-audio/tasks.md) · [验证指南](specs/002-combat-pacing-audio/quickstart.md) · [2026-10-20 Phase 7实施](docs/validation/combat-pacing-audio/phase7-20261020/results.md) — 完整快照/终结计数/性能守卫已修复并通过窄测；完整M4/图形/新Debug及Release通过，人工验收开放。
 - Evidence: [Convergence fixes / 收敛修复与当前验收](docs/validation/convergence-2026-10-15.md) · [Previous full verification / 此前完整验证](docs/validation/verification-2026-10-15.md) · [M4 gate](docs/validation/m4-gate.md) · [Documentation audit](docs/validation/documentation-dashboard.md).
 - Debug: [DEV / F9 使用与人工烟测](docs/developer-debug-panel.md) · [2026-10-18 保护性修复与回归](docs/validation/debug-protected-20261018.md).
 - 收敛实施：[Phase 7当前结果](docs/validation/sword-promotion-identity/convergence-20261021-v1/results.md) — T055／T056／T062及原T047完成；文档10测试、流程12测试、工具54检查与投影26检查通过。性能预算失败后停止后续实现，保留原始失败。
-- 当前剑系切片：[003计划](specs/003-sword-promotion-identity/plan.md) · [62项任务](specs/003-sword-promotion-identity/tasks.md) · [验证指南](specs/003-sword-promotion-identity/quickstart.md) · [Phase 7证据](docs/validation/sword-promotion-identity/convergence-20261021-v1/results.md) · [验收矩阵](docs/validation/sword-promotion-identity/acceptance.md)。三轮廓、实际恢复与静音转职演示已实现；三组各60样本零差异，新Debug／Release完整图形与九组合真实时钟通过。候选性能样本有效但p95 16.732ms超目标；四类真人验收开放。
+- 历史003剑系切片：[003计划](specs/003-sword-promotion-identity/plan.md) · [62项任务](specs/003-sword-promotion-identity/tasks.md) · [验证指南](specs/003-sword-promotion-identity/quickstart.md) · [Phase 7证据](docs/validation/sword-promotion-identity/convergence-20261021-v1/results.md) · [验收矩阵](docs/validation/sword-promotion-identity/acceptance.md)。三轮廓、实际恢复与静音转职演示已实现；三组各60样本零差异，新Debug／Release完整图形与九组合真实时钟通过。候选性能样本有效但p95 16.732ms超目标；四类真人验收开放。
 
-**Current source / 当前源码**：003剑系三身份、实际恢复提示及独立转职演示已实现。完整M4图形导出退出0、16组9,917原生断言通过，新Debug／Release实际图形与九组合真实十轮通过，Release禁调试41项通过。性能有效但p95=16.732ms超16.67目标，T049／T057未完成；自然九局、五人理解、同组灰度／密集辨识与物理DEV仍待真人。旧4551与全部失败保留。[当前收敛结果](docs/validation/sword-promotion-identity/convergence-20261021-v1/results.md)。源码用`Play Debug.cmd`；本轮可运行Release及Debug位于`builds/windows/sword-promotion-identity/convergence-release-20261021-v1/`。
+**历史003源码验证**：003剑系三身份、实际恢复提示及独立转职演示已实现。完整M4图形导出退出0、16组9,917原生断言通过，新Debug／Release实际图形与九组合真实十轮通过，Release禁调试41项通过。性能有效但p95=16.732ms超16.67目标，T049／T057未完成；自然九局、五人理解、同组灰度／密集辨识与物理DEV仍待真人。旧4551与全部失败保留。[当前收敛结果](docs/validation/sword-promotion-identity/convergence-20261021-v1/results.md)。源码用`Play Debug.cmd`；本轮可运行Release及Debug位于`builds/windows/sword-promotion-identity/convergence-release-20261021-v1/`。
 
 ## Play the Windows demo
 
-1. For current003, double-click `Play Debug.cmd` or the new `builds/windows/sword-promotion-identity/convergence-release-20261021-v1/AbyssExpedition-debug.exe`. The current Release passed actual launch, release-denial, graphical and real-time preview checks; the frame-time target remains unmet. The earlier002 release remains at `builds/windows/combat-pacing-audio/phase7-release-20261020/AbyssExpedition.exe`. The October 19 `acceptance-release-v4` build is retained. Previous Q1 and M4 are retained in `builds/windows/quality-20261018/` and `builds/windows/m4/`. The embedded game data requires no separate PCK or Godot installation. Previous M1/M2/M3 builds are retained separately.
+1. For current004, double-click `Play Debug.cmd` for pinned current source, or run `builds/windows/run-level-promotion/final-v9/AbyssExpedition-debug.exe` (DEV/F9) or `AbyssExpedition.exe` in the same folder (Release). Both exports passed actual launch and core graphical checks; Release rejects debug actions. Native real-clock focus checks and human/performance acceptance remain open. Older milestone builds are historical. Embedded exports need no separate PCK or Godot installation.
 2. In the guild, choose **Expedition**, then Aren (melee arc), Lia (straight arrows), or Milo (homing stars). All three starting classes are owned permanently without drawing. Recruited heroes become additional next-run selections.
 3. Use the displayed random seed or enter a decimal seed from **0 to 2147483647**, then choose **Start Expedition**. Clearing the field generates a new seed on the first press; press Start again to use it.
 4. Move with **WASD or arrow keys**. Attacks fire automatically toward nearby enemies. Collect the cyan diamond gems.
 5. At level-up, choose one of three upgrades by clicking, pressing **1/2/3**, or using arrows and **Enter**. The world stays frozen until you choose.
 6. Losing window focus pauses the run; regaining focus releases only its own pause reason. **Escape** pauses; Resume continues. Abandon requires a second confirmation. Escape cannot skip an upgrade.
 7. The Tidebound Hierophant enters at **9:00 active time**. Avoid orange cone/circle warnings. Defeat it to win; there is no automatic victory at 10:00. Death ends the run.
-8. Results save permanent rewards before offering **Retry**, **New Expedition**, or character selection. Run upgrades and health reset; Retry retains earned permanent progress and warns when starting progression or Sera ownership changes replay conditions.
+8. Results save tickets, recruitment and chapter progress before offering **Retry**, **New Expedition**, or selection. Every new run resets level, upgrades, health and class choices; changed Sera ownership can affect seeded event conditions.
 
 The current M4 executable exports and launches successfully; M2/M3/M4 controlled graphical flows and release debug restrictions pass. Human acceptance, reference-machine performance and displayed latency remain open; see [current evidence](docs/validation/convergence-2026-10-15.md).
 
-Open **Roster / party / promote** before starting. Confirm one active hero and zero to two other owned heroes as companions. Scroll or Tab to reach controls in longer screens. Each participant gains 20 permanent XP per full active minute plus 100 for victory, including downed companions; victory also grants one shared promotion item. Abandonment grants no rewards. Permanent levels need 100 XP each, cap at 30, and add 2% starting HP/damage per level.
+Open **Roster / party / previews** before starting. Confirm one active hero and up to two owned companions. Every expedition starts at **BASE / RUN Lv1**. Shared run XP, upgrade cards and class branches reset on exit; there are no permanent levels, XP bonuses or promotion materials.
 
 While Sera is unowned, at **4:00** accept Sera's paused rescue offer and remain inside the marked circle for **30 active seconds**. Leaving once or dying fails that opportunity; try again next expedition. A completed rescue recruits Sera on victory or defeat settlement. Once Sera is owned, each 2/4/6-minute event independently chooses Merchant, Altar or Rescue. Each successful owned rescue earns one additional settled ticket. Sera's Guiding Light heals the lowest-health living party member every 20 active seconds.
 
 Settlements award **1 ticket at five minutes**, plus **2 for victory**. In **Recruit / exchange / history**, inspect **Brann 50% / Nyra 50%** and confirm a single pull for **1 ticket** or ten independent pulls for **10 tickets**. Each duplicate gives **1 token**; exchange **5 tokens** for either unowned pool hero. Brann's Bastion halves the first eligible hit in each 20-second interval; Nyra's Far Sight adds 20% starting reach. All three recruits can use their existing class promotion branches. Results save before reveal; interrupted reveals reopen with the original ordered results. Acknowledging them also saves. Excess tokens remain visible after full collection.
 
-At permanent level 15, spend one item to choose either branch permanently: Swordmaster/Abyss Swordsman, Sharpshooter/Star Hunter, Elemental Sage/Void Caster. Preview each attack and fifth-activation effect before confirming. Aren retains Resolute, Lia Fleet Step and Milo Arcane Pulse after promotion. Followers attack from formation at half outgoing damage with full defense/healing, become downed on death, and recover full health next run.
+At **RUN Lv15**, combat pauses to offer each living member two branches: Swordmaster/Abyss Swordsman, Sharpshooter/Star Hunter, Elemental Sage/Void Caster. The existing attack previews remain. Confirm applies immediately for this run, retaining passive/upgrades and HP ratio. **Later** defers; use the visible **Promotion** HUD button to reopen. Followers retain half outgoing damage, full defense/healing and downing rules.
 
-The local profile lives in the Godot user-data folder **Abyss Expedition/profiles/default/**. M2 profiles migrate to schema v2 without granting recruitment balances or new heroes; migration sources are retained. Saves retain current/prior validated generations. A failed save blocks further play/spending and offers Retry for the same pending result. Corrupt saves require explicit recovery; unsupported versions are preserved. If a crash leaves a writer lock, close all other instances before confirming stale-lock recovery.
+The local profile lives in the Godot user-data folder **Abyss Expedition/profiles/default/**. Legacy schema 1–3 profiles migrate atomically to schema 4: obsolete levels, XP, branches and materials are removed; roster, tickets, tokens, recruitment history/RNG, chapter flags, seed, selection and prior receipt evidence are preserved. Migration sources are retained. Saves retain current/prior validated generations. A failed save blocks further play/spending and offers Retry for the same pending result. Corrupt saves require explicit recovery; unsupported versions are preserved. If a crash leaves a writer lock, close all other instances before confirming stale-lock recovery.
 
 For a first run, Lia provides a forgiving ranged introduction. Keep moving, pick up gems, and combine offensive upgrades with Ironhide, Vitality or Battle Mend.
 
@@ -59,8 +63,8 @@ Q1 comparison captures and the separately retained build can be reproduced with 
 
 ```powershell
 $validationId = [DateTime]::UtcNow.ToString('yyyyMMdd-HHmmss-fff')
-& './tools/run_validation.ps1' -M4 -Graphical -Export -BuildDirectory "builds/windows/combat-pacing-audio/$validationId" -EvidenceDirectory "docs/validation/combat-pacing-audio/$validationId"
-& './tools/run_debug_validation.ps1' -SkipRegression -BuildDirectory "builds/windows/combat-pacing-audio/$validationId-debug" -EvidenceDirectory "docs/validation/combat-pacing-audio/$validationId-debug"
+& './tools/run_validation.ps1' -M4 -Graphical -Export -BuildDirectory "builds/windows/run-level-promotion/$validationId" -EvidenceDirectory "docs/validation/run-level-promotion/$validationId"
+& './tools/run_debug_validation.ps1' -SkipRegression -BuildDirectory "builds/windows/run-level-promotion/$validationId-debug" -EvidenceDirectory "docs/validation/run-level-promotion/$validationId-debug"
 & './tools/run_m4_release_regressions.ps1'
 & './tools/check_m2_lock.ps1'
 & './tools/run_m4_benchmarks.ps1'
@@ -83,4 +87,4 @@ Press **C** in combat for the exact corruption thresholds. Corruption starts at 
 
 At **2/4/6 minutes**, paused events offer choices. Spend temporary coins at the Merchant for healing or Might. The Altar offers **Blood Tithe** (20% max HP and +25 corruption for +30% damage) or **Unbound Assault** (+35 corruption for +40% attack frequency). Bonuses apply to the living party for this expedition. Full costs and disabled reasons are shown; leave/decline is free. Completing Chapter 1 saves a flag; repeat expeditions remain available and require defeating the boss again.
 
-M4 uses schema v3 and preserves existing v1/v2 progression through migration. All corruption, coins, contracts and event state reset between runs. Maximum-corruption profiling: `tools/run_m4_benchmarks.ps1` (three 30-second warm-up / 120-second captures).
+Current schema v4 migrates legacy v1–v3 profiles, removing only obsolete permanent growth/material fields while preserving collection economy, history, chapters, selection and receipt evidence. All corruption, coins, contracts and event state reset between runs. Maximum-corruption profiling: `tools/run_m4_benchmarks.ps1` (three 30-second warm-up / 120-second captures).

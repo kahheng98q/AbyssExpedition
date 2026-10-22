@@ -2,10 +2,10 @@ extends RefCounted
 
 const Speed = preload("res://scripts/debug/battle_speed_controller.gd")
 const ACTIONS = [
-	["level_one", "+1 permanent level", "Character", "_level_one", false],
-	["level_ten", "+10 permanent levels", "Character", "_level_ten", false],
-	["level_max", "Maximum permanent level", "Character", "_level_max", false],
-	["character_xp", "Add permanent XP", "Character", "_character_xp", false],
+	["level_one", "+1 RUN level", "Character", "_level_one", true],
+	["level_ten", "+10 RUN levels", "Character", "_level_ten", true],
+	["level_max", "Raise RUN level to 30", "Character", "_level_max", true],
+	["character_xp", "Add shared RUN XP", "Character", "_character_xp", true],
 	["run_xp", "Add XP to shared run", "Character", "_run_xp", true],
 	["heal_character", "Fully heal selected character", "Character", "_heal_character", true],
 	["cooldowns", "Reset selected cooldowns", "Character", "_cooldowns", true],
@@ -22,8 +22,8 @@ const ACTIONS = [
 	["remove_companion", "Remove selected companion", "Combat", "_remove_companion", true],
 	["heal_companions", "Heal living companions", "Combat", "_heal_companions", true],
 	["companion_ai", "Toggle selected companion AI", "Combat", "_companion_ai", true],
-	["materials", "Grant promotion materials", "Progression", "_materials", false],
-	["eligibility", "Grant promotion requirements", "Progression", "_eligibility", false],
+	["materials", "Prepare RUN Lv15 (legacy materials)", "Progression", "_materials", true],
+	["eligibility", "Reach RUN Lv15 eligibility", "Progression", "_eligibility", true],
 	["test_branch", "Test branch / this run only", "Progression", "_test_branch", true],
 	["save_test", "Save sandbox profile", "System", "_save_test", false],
 	["load_test", "Reload sandbox profile", "System", "_load_test", false],
@@ -118,8 +118,7 @@ func character_id(args: Dictionary) -> String:
 	return String(args.get("character_id", writer.payload.active))
 
 func member_for(id: String) -> Dictionary:
-	var h = writer.payload.owned[id]
-	return {"id": id, "level": int(h.level), "profession": h.promotion_id if h.promotion_id != "" else ProfileData.BASES[id], "passive": ProfileData.PASSIVES[id]}
+	return {"id": id, "level": 1, "profession": ProfileData.BASES[id], "passive": ProfileData.PASSIVES[id]}
 
 func actor_for(id: String):
 	var run = current_run()
@@ -134,11 +133,8 @@ func refresh_party() -> void:
 	if run == null: return
 	for actor in run.party:
 		var id = String(actor.definition.id)
-		var member = member_for(id)
-		if runtime_branches.has(id): member.profession = runtime_branches[id]
-		CharacterFactory.configure_progression(actor, member)
-		UpgradeEffects.derive(actor, run.progression)
-		actor.health.current = minf(actor.health.current, actor.health.maximum)
+		var branch = runtime_branches.get(id, run.progression.branches.get(id, ProfileData.BASES[id]))
+		CharacterFactory.apply_run_profession(actor, String(branch))
 	run.state_changed.emit()
 
 func commit(candidate: Dictionary, message: String) -> Dictionary:
@@ -150,20 +146,26 @@ func commit(candidate: Dictionary, message: String) -> Dictionary:
 	refresh_party()
 	return result(true, message + " (sandbox only)")
 
-func add_xp(args: Dictionary, amount: int) -> Dictionary:
+func add_xp(_args: Dictionary, amount: int) -> Dictionary:
 	if not OS.has_feature("debug") or not active: return result(false, "Developer action disabled.")
-	var id = character_id(args)
-	var candidate = PermanentProgression.add_character_xp(writer.payload, id, amount)
-	if candidate.is_empty(): return result(false, "Invalid character or reward.")
-	var before = writer.payload.owned[id]
-	var after = candidate.owned[id]
-	var message = "%s: permanent Lv %d → %d · XP %d → %d" % [id.capitalize(), before.level, after.level, before.total_xp, after.total_xp]
-	if int(after.level) == 30: message += " · maximum level 30"
-	return commit(candidate, message)
+	var run = current_run()
+	if run == null: return result(false, "Start a sandbox expedition first.")
+	return _run_xp({"amount": amount})
 
-func _level_one(args: Dictionary) -> Dictionary: return add_xp(args, 100)
-func _level_ten(args: Dictionary) -> Dictionary: return add_xp(args, 1000)
-func _level_max(args: Dictionary) -> Dictionary: return add_xp(args, 2900)
+func levels_to_xp(target: int) -> int:
+	var run = current_run()
+	return maxi(0, 50 * (target * (target - 1) - run.progression.level * (run.progression.level - 1)) - run.progression.xp)
+
+func _level_one(args: Dictionary) -> Dictionary:
+	if not OS.has_feature("debug") or not active or current_run() == null: return result(false, "Developer action disabled.")
+	return add_xp(args, levels_to_xp(current_run().progression.level + 1))
+func _level_ten(args: Dictionary) -> Dictionary:
+	if not OS.has_feature("debug") or not active or current_run() == null: return result(false, "Developer action disabled.")
+	return add_xp(args, levels_to_xp(current_run().progression.level + 10))
+func _level_max(args: Dictionary) -> Dictionary:
+	if not OS.has_feature("debug") or not active or current_run() == null: return result(false, "Developer action disabled.")
+	var amount = levels_to_xp(30)
+	return add_xp(args, amount) if amount > 0 else result(true, "Already RUN Lv30 or above.")
 func _character_xp(args: Dictionary) -> Dictionary:
 	if not OS.has_feature("debug") or not active: return result(false, "Developer action disabled.")
 	if not ProfileValidator.integer(args.get("amount", 100), 1, 1000000): return result(false, "XP must be a whole amount from 1 to 1000000.")
@@ -299,7 +301,7 @@ func _add_companion(args: Dictionary) -> Dictionary:
 	if run.party.size() >= 3: return result(false, "Party limit: one active hero and two companions.")
 	if actor_for(id) != null: return result(false, "Character is already in the party.")
 	var member = member_for(id)
-	if runtime_branches.has(id): member.profession = runtime_branches[id]
+	member.profession = runtime_branches.get(id, run.progression.branches.get(id, ProfileData.BASES[id]))
 	var companion = CharacterFactory.create(run.catalog.characters[StringName(id)], run, run.party.size(), member)
 	var identity = next_companion_id
 	next_companion_id -= 1
@@ -318,6 +320,7 @@ func _add_companion(args: Dictionary) -> Dictionary:
 	UpgradeEffects.derive(companion, run.progression)
 	companion.health.current = companion.health.maximum
 	run.state_changed.emit()
+	run.choices.present(run)
 	return result(true, "Added owned companion to this run only.")
 
 func _remove_companion(args: Dictionary) -> Dictionary:
@@ -340,21 +343,17 @@ func _companion_ai(args: Dictionary) -> Dictionary:
 	return result(true, "Companion movement and attacks " + ("ON" if actor.debug_ai_enabled else "OFF"))
 
 func _materials(args: Dictionary) -> Dictionary:
-	if not OS.has_feature("debug") or not active: return result(false, "Developer action disabled.")
-	var amount = args.get("materials", 1)
-	if not ProfileValidator.integer(amount, 1, 1000000) or writer.payload.promotion_items > ProfileData.MAX_INTEGER - int(amount): return result(false, "Invalid material amount or balance overflow.")
-	var next = writer.payload.duplicate(true)
-	next.promotion_items += int(amount)
-	return commit(next, "Promotion materials granted")
+	# Kept action ID: obsolete material grants now prepare RUN Lv15.
+	return _eligibility(args)
 
-func _eligibility(args: Dictionary) -> Dictionary:
+func _eligibility(_args: Dictionary) -> Dictionary:
 	if not OS.has_feature("debug") or not active: return result(false, "Developer action disabled.")
-	var id = character_id(args)
-	if not writer.payload.owned.has(id): return result(false, "Select an owned character.")
-	var h = writer.payload.owned[id]
-	var next = PermanentProgression.add_character_xp(writer.payload, id, maxi(0, 1400 - int(h.total_xp)))
-	next.promotion_items = maxi(1, int(next.promotion_items))
-	return commit(next, "Level 15/material requirements granted; production rules unchanged")
+	var run = current_run()
+	if run == null: return result(false, "Start a sandbox expedition first.")
+	var needed = maxi(0, 100 * (15 * 14 - run.progression.level * (run.progression.level - 1)) / 2 - run.progression.xp)
+	if needed > 0: return _run_xp({"amount": needed})
+	run.choices.request_promotion(run)
+	return result(true, "RUN Lv15 reached; close DEV to finish queued choices. No materials required.")
 
 func _test_branch(args: Dictionary) -> Dictionary:
 	if not OS.has_feature("debug") or not active: return result(false, "Developer action disabled.")
@@ -365,11 +364,11 @@ func _test_branch(args: Dictionary) -> Dictionary:
 	refresh_party()
 	return result(true, "Testing " + branch.capitalize() + " in this run only; saved class/requirements unchanged.")
 
-func promote(id: String, branch: String, revision: int) -> Dictionary:
+func promote(id: String, branch: String, _revision: int) -> Dictionary:
 	if not OS.has_feature("debug") or not active or writer.state != "ready": return result(false, "Promotion unavailable.")
-	var ok = PromotionService.confirm(writer, id, branch, revision, writer.operation_id())
-	if ok: refresh_party()
-	var outcome = result(ok, "Promoted to " + branch.capitalize() + " in sandbox." if ok else writer.error)
+	var run = current_run()
+	var ok = run != null and run.choices.confirm_promotion(run, _revision, id, branch)
+	var outcome = result(ok, "Run-only branch selected." if ok else "Run promotion unavailable.")
 	record("promotion", outcome)
 	return outcome
 

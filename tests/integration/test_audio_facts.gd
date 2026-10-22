@@ -96,6 +96,8 @@ func check_sword_visual_isolation(t) -> void:
 			profile.owned.aren = OwnedHero.record("aren", 1400, profession if profession != "swordsman" else "")
 			var fixture = Fixture.create_party(t, profile, 202)
 			var r = fixture.run
+			r.progression.level = 15
+			if profession != "swordsman": t.check(PromotionService.apply(r, "aren", profession), "live audio branch")
 			r.set_meta("sword_presentation_disabled", disabled)
 			r.hero.health.current -= 10
 			var target = r.spawn_enemy(&"shellbound_husk", r.hero.position + Vector2(24, 0))

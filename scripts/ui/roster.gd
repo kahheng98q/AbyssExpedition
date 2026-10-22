@@ -20,14 +20,13 @@ func rebuild() -> void:
 		node.queue_free()
 	build_scroll(590)
 	column.add_theme_constant_override("separation", 4)
-	label("ROSTER  /  %d promotion items" % payload.promotion_items, 18)
-	label("One active hero and up to two companions. Changes apply next run.", 11)
+	label("ROSTER / BASE starts / RUN Lv1", 18)
+	label("One hero + two companions. Promote in combat at RUN Lv15.", 11)
 	for id in ContentCatalog.CHARACTERS:
 		if not payload.owned.has(id): continue
-		var h = payload.owned[id]
 		var character = catalog.characters[StringName(id)]
-		var profession = h.promotion_id if h.promotion_id != "" else ProfileData.BASES[id]
-		label("%s · Lv %d · XP %d / 2900 · %s → %s · %s" % [character.display_name, h.level, h.total_xp, ProfileData.BASES[id].capitalize(), profession.capitalize(), String(character.passive.id).capitalize()], 11)
+		var profession = ProfileData.BASES[id]
+		label("%s / BASE %s / RUN Lv1 start / %s" % [character.display_name, profession.capitalize(), String(character.passive.id).capitalize()], 11)
 		var row = HBoxContainer.new()
 		column.add_child(row)
 		var main = Button.new()
@@ -48,13 +47,13 @@ func rebuild() -> void:
 			rebuild())
 		row.add_child(follower)
 		var promote = Button.new()
-		promote.text = "View / promote"
+		promote.text = "Branch previews"
 		promote.pressed.connect(func():
 			if Time.get_ticks_msec() >= armed_at: promotion_requested.emit(id))
 		row.add_child(promote)
 		var eligibility = Label.new()
 		eligibility.add_theme_font_size_override("font_size", 10)
-		eligibility.text = PromotionService.reason(payload, id)
+		eligibility.text = "RUN Lv15 / this run only"
 		row.add_child(eligibility)
 	error_label = label(ProfileValidator.party(payload, active, companions), 11, Color(1, 0.65, 0.5))
 	button("Save party & return", func():

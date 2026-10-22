@@ -16,7 +16,7 @@ func _ready() -> void:
 	build_scroll(540)
 	column.add_theme_constant_override("separation", 3)
 	label("CHOOSE YOUR CHARACTER", 23, Color(0.57, 0.93, 0.89))
-	label("Configure companions and promotions in the roster before starting.")
+	label("Every party starts BASE / RUN Lv1. Promote in combat at RUN Lv15.")
 	var row = GridContainer.new()
 	row.columns = 3
 	row.add_theme_constant_override("separation", 8)
@@ -26,12 +26,7 @@ func _ready() -> void:
 		var hero = catalog.characters[StringName(id_value)]
 		var item = Button.new()
 		var profession = String(hero.base_profession.id)
-		var level_label = ""
-		if not profile.is_empty():
-			var owned = profile.owned[id_value]
-			profession = owned.promotion_id if owned.promotion_id != "" else profession
-			level_label = "  Lv %d" % owned.level
-		item.text = hero.display_name + level_label + "\n" + profession.capitalize()
+		item.text = hero.display_name + " / RUN Lv1\nBASE " + profession.capitalize()
 		item.add_theme_font_size_override("font_size", 12)
 		item.custom_minimum_size = Vector2(140, 42)
 		item.pressed.connect(func(): select_hero(hero.id))
@@ -51,7 +46,7 @@ func _ready() -> void:
 	label("WASD / arrows move. Enter confirms focused buttons.", 11)
 	label("Same seed repeats randomness with matching version and decisions.", 10)
 	button("Start Expedition", request_start)
-	button("Character roster / companions / promotions", func(): roster_requested.emit())
+	button("Character roster / companions / branch previews", func(): roster_requested.emit())
 	button("Back", func(): back_requested.emit())
 	select_hero(selected)
 	hero_buttons[selected].grab_focus()
@@ -60,8 +55,7 @@ func select_hero(id_value: StringName) -> void:
 	if not hero_buttons.has(id_value): return
 	selected = id_value
 	preview.text = catalog.characters[id_value].description
-	if not profile.is_empty() and profile.owned[String(id_value)].promotion_id != "":
-		preview.text = catalog.professions[StringName(profile.owned[String(id_value)].promotion_id)].description
+
 	for hero_id in hero_buttons:
 		hero_buttons[hero_id].modulate = Color(0.6, 1, 0.85) if hero_id == id_value else Color.WHITE
 

@@ -1,8 +1,8 @@
 class_name ProfileData
 extends RefCounted
 
-const SCHEMA = 3
-const GAME = "m4.0"
+const SCHEMA = 4
+const GAME = "m4.1"
 const CONTENT = "m4.0"
 const MAX_INTEGER = 9007199254740991
 const STARTERS = ["aren", "lia", "milo"]
@@ -13,7 +13,7 @@ const BRANCHES = {"swordmaster": "swordsman", "abyss_swordsman": "swordsman", "s
 static func fresh() -> Dictionary:
 	var owned = {}
 	for id in STARTERS: owned[id] = OwnedHero.record(id)
-	return {"owned": owned, "active": "aren", "companions": [], "seed": 101, "promotion_items": 0, "receipt": {}, "tickets": 0, "tokens": 0, "history": [], "draw_rng": DrawRng.initial(), "chapters": {"coast": false}}
+	return {"owned": owned, "active": "aren", "companions": [], "seed": 101, "receipt": {}, "tickets": 0, "tokens": 0, "history": [], "draw_rng": DrawRng.initial(), "chapters": {"coast": false}}
 
 static func envelope(payload: Dictionary, revision: int, operation: String, profile_id: String = "default") -> Dictionary:
 	var bytes = JSON.stringify(payload)

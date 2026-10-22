@@ -19,3 +19,5 @@ func collect_xp(id_value: int, value: int) -> bool:
 
 func has(id_value: StringName) -> bool:
 	return stacks.get(id_value, 0) > 0
+
+var branches: Dictionary = {}

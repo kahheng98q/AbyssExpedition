@@ -77,7 +77,7 @@ func run(t) -> void:
 		for seed_value in SEEDS:
 			var a = capture(t, seed_value, false, owned)
 			var b = capture(t, seed_value, true, owned)
-			t.check(a == b and a.start.sera_owned == owned and a.start.game == "m4.0", "matching version/start/wave/position/offer/event/decision traces; pause/cosmetics isolated, seed " + str(seed_value))
+			t.check(a == b and a.start.sera_owned == owned and a.start.game == ProfileData.GAME, "matching version/start/wave/position/offer/event/decision traces; pause/cosmetics isolated, seed " + str(seed_value))
 			t.check(a.waves.size() == 54 and a.offers.size() == 11 and a.events.size() == 6, "full scheduled run randomness recorded")
 
 func capture_movement(t, recorded = null) -> Dictionary:

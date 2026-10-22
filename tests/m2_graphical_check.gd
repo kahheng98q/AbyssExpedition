@@ -32,7 +32,7 @@ func run() -> void:
 	root.add_child(app)
 	current_scene = app
 	var p = ProfileData.fresh()
-	p.promotion_items = 3
+
 	p.companions = ["lia", "milo"]
 	for id in p.owned: p.owned[id] = OwnedHero.record(id, 1400)
 	if not app.writer.mutate(p, app.writer.revision(), "graphical-fixture"): failures += 1
@@ -65,6 +65,8 @@ func run() -> void:
 			app.expedition_host.add_child(expedition)
 			expedition.set_physics_process(false)
 			expedition.start(app.catalog, RosterService.snapshot(profile, 101))
+			expedition.progression.level = 15
+			if not PromotionService.apply(expedition, id, branch): failures += 1
 			expedition.clock.tick = 240
 			var enemy = expedition.spawn_enemy(&"saltbound_thrall", expedition.hero.position + Vector2(30, 0))
 			enemy.health = ActorHealth.new(1000)

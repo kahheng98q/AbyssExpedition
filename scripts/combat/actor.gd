@@ -8,7 +8,6 @@ var profession: ProfessionDefinition
 var passive: SkillDefinition
 var is_companion: bool = false
 var companion_slot: int = -1
-var permanent_level: int = 1
 var debug_ai_enabled: bool = true
 var blocked_ticks: int = 0
 var health: ActorHealth

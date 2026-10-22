@@ -28,6 +28,9 @@ func _ready() -> void:
 	profile.active = "aren"
 	profile.companions = ["brann", "lia"]
 	run.start(catalog, RosterService.snapshot(profile, 101))
+	run.progression.level = 15
+	assert(PromotionService.apply(run, "aren", "swordmaster"))
+	assert(PromotionService.apply(run, "brann", "abyss_swordsman"))
 	# Avoid exact overlap with the integer spawn/drop grid at radius zero.
 	# This fixed external layout is shared by baseline/candidate, not a rule patch.
 	for member in run.party: member.position += Vector2(0.25, 0.25)

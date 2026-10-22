@@ -97,7 +97,7 @@ func run(t) -> void:
 	adapter.stage = "readback"
 	adapter.remaining = 1
 	t.check(not TokenExchangeService.confirm(writer, "brann", revision, "exchange") and writer.payload.tokens == 6 and not writer.payload.owned.has("brann"), "failed exchange leaves complete prior ownership/balance")
-	t.check(writer.retry() and writer.payload.tokens == 1 and writer.payload.owned.brann.level == 1, "exchange Retry publishes cost and ownership together")
+	t.check(writer.retry() and writer.payload.tokens == 1 and writer.payload.owned.brann == {"character_id": "brann"}, "exchange Retry publishes cost and ownership together")
 	t.check(TokenExchangeService.confirm(writer, "brann", revision, "exchange") and writer.payload.tokens == 1, "repeated exchange operation does not spend twice")
 	t.check(not TokenExchangeService.confirm(writer, "nyra", revision, "stale-exchange"), "stale expected revision rejects exchange")
 	var location = writer.store.root

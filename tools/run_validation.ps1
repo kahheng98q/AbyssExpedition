@@ -6,7 +6,7 @@ if ($env:ABYSS_GODOT_EXE) { $godotBinary = $env:ABYSS_GODOT_EXE }
 if (-not (Test-Path -LiteralPath $godotBinary)) { throw 'Godot binary missing. Set ABYSS_GODOT_EXE to Godot 4.5 console.' }
 $godotBinary = (Resolve-Path -LiteralPath $godotBinary).Path
 $validationDirectory = Join-Path $validationRoot 'docs/validation'
-if ($EvidenceDirectory) { $validationDirectory = [IO.Path]::GetFullPath($EvidenceDirectory, $validationRoot) }
+if ($EvidenceDirectory) { $validationDirectory = [IO.Path]::GetFullPath($(if ([IO.Path]::IsPathRooted($EvidenceDirectory)) { $EvidenceDirectory } else { Join-Path $validationRoot $EvidenceDirectory })) }
 $runtimeData = Join-Path $PSScriptRoot 'runtime-appdata'
 New-Item -ItemType Directory -Force $validationDirectory,$runtimeData | Out-Null
 function Invoke-Check([string]$name, [string[]]$arguments, [int]$expectedExit = 0, [int]$timeout = 60, [string]$executable = $godotBinary) {
@@ -19,15 +19,20 @@ function Invoke-Check([string]$name, [string[]]$arguments, [int]$expectedExit = 
     $info.WindowStyle = [Diagnostics.ProcessWindowStyle]::Hidden
     $info.RedirectStandardOutput = $true
     $info.RedirectStandardError = $true
-    $info.Environment['APPDATA'] = $runtimeData
-    foreach ($argument in $arguments) { $info.ArgumentList.Add($argument) }
+    $info.EnvironmentVariables['APPDATA'] = $runtimeData
+    # Windows argv quoting for .NET Framework as well as modern PowerShell.
+    $info.Arguments = ($arguments | ForEach-Object {
+        $quoted = [regex]::Replace([string]$_, '(\\*)"', '$1$1\"')
+        $quoted = [regex]::Replace($quoted, '(\\+)$', '$1$1')
+        '"' + $quoted + '"'
+    }) -join ' ' 
     $process = [Diagnostics.Process]::new()
     $process.StartInfo = $info
     [void]$process.Start()
     $stdout = $process.StandardOutput.ReadToEndAsync()
     $stderr = $process.StandardError.ReadToEndAsync()
     $timedOut = -not $process.WaitForExit($timeout * 1000)
-    if ($timedOut) { $process.Kill($true); $process.WaitForExit() }
+    if ($timedOut) { $process.Kill(); $process.WaitForExit() }
     $output = $stdout.GetAwaiter().GetResult() + $stderr.GetAwaiter().GetResult()
     [IO.File]::WriteAllText((Join-Path $validationDirectory "$name.log"), $output)
     $exitCode = $process.ExitCode
@@ -68,7 +73,7 @@ Invoke-Check 'import' @('--headless','--editor','--import','--path',$validationR
 Invoke-Check 'parse-runner' @('--headless','--path',$validationRoot,'--log-file',(Join-Path $validationDirectory 'parse-engine.log'),'--check-only','--script','res://tests/run_tests.gd')
 Invoke-Check 'content' @('--headless','--path',$validationRoot,'--log-file',(Join-Path $validationDirectory 'content-engine.log'),'--script','res://tests/validate_content.gd')
 $suites = @('unit','scene_smoke','integration_m1','replay','full_run','pacing','combat_feedback','combat_audio')
-if ($M2) { $suites += @('progression','persistence','abilities','integration_m2') }
+if ($M2) { $suites += @('run_promotion','progression','persistence','abilities','integration_m2') }
 if ($M3 -or $M4) { $suites += @('recruitment','integration_m3') }
 if ($M4) { $suites += @('integration_m4') }
 if ($OnlySuites.Count -gt 0) { $suites = $OnlySuites }
@@ -84,11 +89,11 @@ if ($Graphical) {
     New-Item -ItemType Directory -Force $gameplayCaptures | Out-Null
     $debugCaptures = Join-Path $validationDirectory 'debug-captures'
     New-Item -ItemType Directory -Force $debugCaptures | Out-Null
+    Invoke-Check 'run-promotion-graphical' @('--path',$validationRoot,'--log-file',(Join-Path $validationDirectory 'run-promotion-graphical-engine.log'),'--script','res://tests/run_promotion_graphical_check.gd','--','--captures',$gameplayCaptures)
     Invoke-Check 'pacing-audio-graphical' @('--path',$validationRoot,'--log-file',(Join-Path $validationDirectory 'pacing-audio-graphical-engine.log'),'--script','res://tests/pacing_audio_graphical_check.gd','--','--captures',$gameplayCaptures)
     $swordCaptures = Join-Path $validationDirectory 'sword-captures'
     New-Item -ItemType Directory -Force $swordCaptures | Out-Null
     Invoke-Check 'sword-graphical' @('--path',$validationRoot,'--log-file',(Join-Path $validationDirectory 'sword-graphical-engine.log'),'--script','res://tests/sword_identity_graphical_check.gd','--','--captures',$swordCaptures)
-    Invoke-SwordRealtime 'source'
     Invoke-Check 'debug-graphical' @('--path',$validationRoot,'--log-file',(Join-Path $validationDirectory 'debug-graphical-engine.log'),'--script','res://tests/debug_graphical_check.gd','--','--captures',$debugCaptures)
     if ($M4) {
         $m4Captures = Join-Path $validationDirectory 'm4-captures'
@@ -102,7 +107,7 @@ if ($Graphical) {
 if ($Export) {
     $exportDirectory = Join-Path $validationRoot $(if ($M4) { 'builds/windows/m4' } elseif ($M3) { 'builds/windows/m3' } else { 'builds/windows/m2' })
     if ($BuildDirectory) {
-        $exportDirectory = [IO.Path]::GetFullPath($BuildDirectory, $validationRoot)
+        $exportDirectory = [IO.Path]::GetFullPath($(if ([IO.Path]::IsPathRooted($BuildDirectory)) { $BuildDirectory } else { Join-Path $validationRoot $BuildDirectory }))
         if (Test-Path -LiteralPath $exportDirectory) { throw 'BuildDirectory already exists; use a new directory to preserve prior builds.' }
     }
     New-Item -ItemType Directory -Force $exportDirectory | Out-Null
@@ -113,13 +118,19 @@ if ($Export) {
         Invoke-Check 'debug-exported-graphical' @('--path',$validationRoot,'--script',(Join-Path $validationRoot 'tests/debug_graphical_check.gd'),'--','--captures',$debugCaptures) 0 60 (Join-Path $exportDirectory 'AbyssExpedition-debug.console.exe')
     }
     if ($Graphical) {
+        $promotionHarness = New-SwordHarness 'run_promotion_graphical_check'
+        foreach ($kind in @('debug','release')) {
+            $exeName = if ($kind -eq 'debug') { 'AbyssExpedition-debug.console.exe' } else { 'AbyssExpedition.console.exe' }
+            $promotionCaptures = Join-Path $validationDirectory "promotion-$kind-captures"
+            New-Item -ItemType Directory $promotionCaptures | Out-Null
+            Invoke-Check "promotion-$kind-graphical" @('--path',$validationRoot,'--script',$promotionHarness,'--','--captures',$promotionCaptures) 0 60 (Join-Path $exportDirectory $exeName)
+        }
         $swordExportHarness = New-SwordHarness 'sword_identity_graphical_check'
         foreach ($kind in @('debug','release')) {
             $exeName = if ($kind -eq 'debug') { 'AbyssExpedition-debug.console.exe' } else { 'AbyssExpedition.console.exe' }
             $swordExportCaptures = Join-Path $validationDirectory "sword-$kind-captures"
             New-Item -ItemType Directory $swordExportCaptures | Out-Null
             Invoke-Check "sword-$kind-graphical" @('--path',$validationRoot,'--script',$swordExportHarness,'--','--captures',$swordExportCaptures) 0 60 (Join-Path $exportDirectory $exeName)
-            Invoke-SwordRealtime $kind (Join-Path $exportDirectory $exeName)
         }
     }
     if ($Graphical -and $M2) {
@@ -144,8 +155,18 @@ if ($Export -and $BuildDirectory) {
     $releaseFiles += Join-Path $validationRoot 'project.godot'
     $releaseFiles += Join-Path $validationRoot 'default_bus_layout.tres'
     $rows = foreach ($path in ($releaseFiles | Sort-Object -Unique)) {
-        [IO.Path]::GetRelativePath($validationRoot,$path).Replace('\','/') + ':' + (Get-FileHash -Algorithm SHA256 -LiteralPath $path).Hash.ToLowerInvariant()
+        ([uri]($validationRoot.TrimEnd("\") + "\")).MakeRelativeUri([uri]$path).ToString().Replace('\','/') + ':' + (Get-FileHash -Algorithm SHA256 -LiteralPath $path).Hash.ToLowerInvariant()
     }
-    $sourceHash = [Convert]::ToHexString([Security.Cryptography.SHA256]::HashData([Text.Encoding]::UTF8.GetBytes(($rows -join "`n")))).ToLowerInvariant()
+    $sourceHash = ([BitConverter]::ToString([Security.Cryptography.SHA256]::Create().ComputeHash([Text.Encoding]::UTF8.GetBytes(($rows -join "`n"))))).Replace("-", "").ToLowerInvariant()
     [ordered]@{engine=$version.Trim();source_hash=$sourceHash;release_sha256=(Get-FileHash -Algorithm SHA256 -LiteralPath (Join-Path $exportDirectory 'AbyssExpedition.exe')).Hash;console_sha256=(Get-FileHash -Algorithm SHA256 -LiteralPath (Join-Path $exportDirectory 'AbyssExpedition.console.exe')).Hash;benchmark_fixture_sha256=(Get-FileHash -Algorithm SHA256 -LiteralPath (Join-Path $validationRoot 'tests/performance/benchmark_capture.gd')).Hash;release_denial='executed and passed'} | ConvertTo-Json | Set-Content -Encoding utf8 (Join-Path $exportDirectory 'pacing-build.json')
+}
+
+# Long native-focus checks run last so focus loss still preserves completed
+# gameplay graphics, exports and actual-release denial evidence. They remain gates.
+if ($Graphical) {
+    Invoke-SwordRealtime 'source'
+    if ($Export) {
+        Invoke-SwordRealtime 'debug' (Join-Path $exportDirectory 'AbyssExpedition-debug.console.exe')
+        Invoke-SwordRealtime 'release' (Join-Path $exportDirectory 'AbyssExpedition.console.exe')
+    }
 }

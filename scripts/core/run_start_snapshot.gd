@@ -20,6 +20,8 @@ func _init(value: int = 0, hero: StringName = &"aren", party: Array = [], owns_s
 	assert(value >= 0 and value <= 2147483647)
 	_seed = value
 	_hero = hero
-	_members = party.duplicate(true)
+	_members = []
+	for member in party:
+		_members.append({"id": member.id, "level": 1, "profession": ProfileData.BASES[member.id], "passive": ProfileData.PASSIVES[member.id]})
 	_sera_owned = owns_sera
 	if not party.is_empty(): game_version = ProfileData.GAME

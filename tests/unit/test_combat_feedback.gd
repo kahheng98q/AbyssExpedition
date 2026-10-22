@@ -46,6 +46,8 @@ func check_healing_feedback(t) -> void:
 	p.companions = ["brann", "lia"]
 	var f = Fixture.create_party(t, p)
 	var r = f.run
+	r.progression.level = 15
+	t.check(PromotionService.apply(r, "brann", "abyss_swordsman"), "live feedback companion branch")
 	var feedback = r.get_node("CombatWorld/CombatFeedback")
 	var supported = feedback.get_property_list().any(func(item): return item.name == "heal_records") and feedback.has_method("on_branch_heal")
 	t.check(supported, "healing owns a separate bounded exact-value feedback collection")

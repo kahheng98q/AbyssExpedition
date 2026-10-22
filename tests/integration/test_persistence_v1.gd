@@ -55,23 +55,23 @@ func run(t) -> void:
 		t.check(writer.open(), "profile creation " + stage)
 		var prior = writer.revision()
 		var candidate = writer.payload.duplicate(true)
-		candidate.promotion_items = 1
+		candidate.tickets = 1
 		adapter.stage = stage
 		adapter.remaining = 1
 		var ok = writer.mutate(candidate, prior, "fault-" + stage, {"kind": "test"})
 		if stage == "cleanup":
 			t.check(ok and writer.store.diagnostic != "", "cleanup failure does not roll back commit")
 		else:
-			t.check(not ok and writer.state == "save-blocked" and writer.payload.promotion_items == 0, "failed action blocks and preserves prior: " + stage)
+			t.check(not ok and writer.state == "save-blocked" and writer.payload.tickets == 0, "failed action blocks and preserves prior: " + stage)
 			var bytes = writer.pending_bytes
 			t.check(not writer.mutate(candidate, prior, "second"), "pending action prevents another mutation")
-			t.check(writer.retry() and writer.payload.promotion_items == 1 and writer.revision() == prior + 1, "Retry commits same action once: " + stage)
+			t.check(writer.retry() and writer.payload.tickets == 1 and writer.revision() == prior + 1, "Retry commits same action once: " + stage)
 			t.check(JSON.parse_string(bytes).operation_id == writer.envelope.operation_id, "Retry retains candidate identity")
 		t.check(writer.mutate(candidate, prior, "fault-" + stage) and writer.revision() == prior + 1, "repeated committed operation is idempotent")
 		var root = writer.store.root
 		writer.close()
 		var reopened = SaveCoordinator.new(root)
-		t.check(reopened.open() and reopened.payload.promotion_items == 1, "committed save survives reopen " + stage)
+		t.check(reopened.open() and reopened.payload.tickets == 1, "committed save survives reopen " + stage)
 		reopened.close()
 	# Twenty controlled close/reopen comparisons, including XP cap and party selection.
 	var root = location("twenty")
@@ -82,7 +82,7 @@ func run(t) -> void:
 		p.owned.aren = OwnedHero.record("aren", mini(2900, i * 170), "swordmaster" if i >= 9 else "")
 		p.companions = ["lia", "milo"] if i % 2 else []
 		p.seed = i
-		p.promotion_items = 20 - i
+		p.tickets = 20 - i
 		t.check(writer.mutate(p, writer.revision(), "reopen-" + str(i)), "controlled commit " + str(i))
 		var expected = writer.payload.duplicate(true)
 		writer.close()
@@ -117,7 +117,7 @@ func run(t) -> void:
 	# Validation treats JSON numbers carefully and checks exact payload bytes.
 	var p = ProfileData.fresh()
 	for value in [-1, 0.5, INF, ProfileData.MAX_INTEGER + 1]:
-		p.promotion_items = value
+		p.tickets = value
 		t.check(ProfileValidator.payload_error(p) != "", "invalid balance rejected " + str(value))
 	p = ProfileData.fresh()
 	var encoded = ProfileData.envelope(p, 1, "validation")
@@ -150,13 +150,13 @@ func run(t) -> void:
 		writer = SaveCoordinator.new(root, adapter)
 		t.check(writer.open(), "interruption fixture created " + stage)
 		p = writer.payload.duplicate(true)
-		p.promotion_items = 7
+		p.tickets = 7
 		adapter.stage = stage
 		adapter.remaining = 1
 		t.check(not writer.mutate(p, writer.revision(), "interrupted-" + stage), "interrupted pending action " + stage)
 		writer.close()
 		writer = SaveCoordinator.new(root)
-		t.check(writer.open() and writer.payload.promotion_items == (0 if stage == "rename" else 7), "reopen returns complete prior or published state " + stage)
+		t.check(writer.open() and writer.payload.tickets == (0 if stage == "rename" else 7), "reopen returns complete prior or published state " + stage)
 		t.check(writer.store.generations().size() <= 2, "retains current/prior validated generations")
 		writer.close()
 	root = location("interrupted-creation")

@@ -11,7 +11,10 @@ func fixture(t, branch: String) -> Dictionary:
 	var id = "aren" if ProfileData.BRANCHES[branch] == "swordsman" else ("lia" if ProfileData.BRANCHES[branch] == "archer" else "milo")
 	p.active = id
 	p.owned[id] = OwnedHero.record(id, 1400, branch)
-	return Fixture.create_party(t, p)
+	var f = Fixture.create_party(t, p)
+	f.run.progression.level = 15
+	assert(PromotionService.apply(f.run, id, branch))
+	return f
 
 func run(t) -> void:
 	check_branch_heal_facts(t)
@@ -21,7 +24,7 @@ func run(t) -> void:
 		var run = f.run
 		var actor = run.hero
 		t.check(actor.profession.id == StringName(branch) and actor.passive == actor.definition.passive, "factory uses promoted class and retains identity passive " + branch)
-		t.check(is_equal_approx(actor.stats.max_health, actor.profession.starting_stats.max_health * 1.28), "permanent HP starting scale " + branch)
+		t.check(is_equal_approx(actor.stats.max_health, actor.profession.starting_stats.max_health), "unscaled run class starting HP " + branch)
 		t.check(not AttackExecutor.try_activate(actor, run, 0) and actor.activations == 0 and actor.passive_activations == 0, "no-target preserves both counters " + branch)
 		var victim = run.spawn_enemy(&"saltbound_thrall", actor.position + Vector2(20, 0))
 		victim.health = ActorHealth.new(10000)
@@ -182,6 +185,8 @@ func check_sword_presentation(t) -> void:
 				payload.companions = [hero] if companion else []
 				var f = Fixture.create_party(t, payload)
 				var run = f.run
+				run.progression.level = 15
+				if branch != "swordsman": t.check(PromotionService.apply(run, hero, branch), "live presentation branch")
 				var actor = run.party[1] if companion else run.hero
 				var victim = run.spawn_enemy(&"shellbound_husk", actor.position + Vector2(20, 0))
 				victim.health = ActorHealth.new(100000)
@@ -243,6 +248,8 @@ func check_branch_heal_facts(t) -> void:
 			profile.companions = [hero] if companion else []
 			var f = Fixture.create_party(t, profile)
 			var r = f.run
+			r.progression.level = 15
+			t.check(PromotionService.apply(r, hero, "abyss_swordsman"), "live heal branch")
 			var actor = r.party[1] if companion else r.hero
 			var facts: Array = []
 			r.connect("branch_heal_applied", func(fact): facts.append(fact))

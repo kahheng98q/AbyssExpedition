@@ -35,7 +35,7 @@ func profile(active: String = "aren", xp: int = 1400, companions: Array = [], br
 	var p = ProfileData.fresh()
 	p.active = active
 	p.companions = companions.duplicate()
-	p.promotion_items = 3
+
 	for id in p.owned: p.owned[id] = OwnedHero.record(id, xp, branch if id == active else "")
 	return p
 
@@ -83,26 +83,28 @@ func run() -> void:
 	app.show_selection()
 	await capture("01-selection", "FR-015", "Where to find the roster", "Character selection contains the roster entry. This is ordinary game UI, not a debug-only character list.", "New Expedition → Character roster / companions / promotions")
 	app.show_roster()
-	await capture("02-roster", "FR-015", "Owned roster and two saved companions", "Aren is active; Lia and Milo are both selected companions. Each row shows XP, permanent level, base/current class and passive. Promotion items appear in the heading.", "New Expedition → Character roster / companions / promotions; choose roles, then Save party & return")
+	await capture("02-roster", "FR-015", "Owned roster and two saved companions", "Aren is active; Lia and Milo are both selected companions. Each row shows BASE, RUN Lv1 start and identity passive; branch previews are read-only.", "New Expedition → Character roster / companions / promotions; choose roles, then Save party & return")
 	for id in ["aren", "lia", "milo"]:
 		app.show_promotion(id)
-		await capture("03-promotion-" + id, "FR-018", "Two promotion choices: " + id.capitalize(), "Both branches are selectable at level 15 with an item. Confirmation spends one item; Cancel spends nothing. The retained character passive is named here.", "Roster → View / promote beside " + id.capitalize())
-	for xp in [0, 1300, 1400, 2900]:
-		prepare(profile("aren", xp))
+		await capture("03-promotion-" + id, "FR-018", "Two promotion choices: " + id.capitalize(), "This out-of-combat gallery cannot commit. In combat, RUN Lv15 enables a temporary branch without materials. The retained character passive is named here.", "Roster → View / promote beside " + id.capitalize())
+	for level in [1, 14, 15, 30]:
+		prepare(profile("aren", 0))
 		start_run()
 		await debug_character("aren")
-		var level = int(app.writer.payload.owned.aren.level)
-		check(app.run.hero.permanent_level == level and is_equal_approx(app.run.hero.health.maximum, 250 * (1 + 0.02 * (level - 1))), "level " + str(level) + " derived HP reflected in combat")
-		await capture("04-level-" + str(level), "FR-016", "Permanent level " + str(level), "Controlled Aren example: permanent XP %d / 2900; max HP %.0f; damage %.2f. Shared Run Lv remains 1. Level 15 unlocks promotion eligibility; level 30 is the cap." % [xp, app.run.hero.health.maximum, app.run.hero.stats.damage], "Debug → Character → +1 / +10 / Maximum permanent level; scroll down for live stats")
+		if level > 1: check(app.debug_panel.service.execute("run_xp", {"amount": 50 * level * (level - 1)}).ok, "run level fixture XP")
+		check(app.run.progression.level == level and app.run.hero.health.maximum == 250, "RUN level has no permanent HP multiplier")
+		await capture("04-level-" + str(level), "004-FR-001", "RUN Lv" + str(level), "Controlled shared RUN level; base max HP stays unchanged. No permanent XP or class is saved.", "DEV / Character / RUN XP")
 		app.debug_panel.close_panel()
 	for branch in ProfileData.BRANCHES:
 		var base = ProfileData.BRANCHES[branch]
 		var id = "aren" if base == "swordsman" else ("lia" if base == "archer" else "milo")
 		prepare(profile(id, 1400, [], branch))
 		app.show_roster()
-		await capture("05-roster-" + branch, "FR-019", branch.capitalize() + " saved class", "The roster's base → current class field identifies the committed branch. The character passive remains the same after promotion.", "Promote through the roster, then return to the roster")
+		await capture("05-roster-" + branch, "FR-019", branch.capitalize() + " gallery", "The roster always describes BASE starts; the actual branch is chosen inside each run.", "Roster / branch previews")
 		start_run()
 		var run = app.run
+		run.progression.level = 15
+		check(PromotionService.apply(run, id, branch), "live run branch fixture")
 		run.clock.tick = 240
 		var target = run.spawn_enemy(&"saltbound_thrall", run.hero.position + Vector2(46 if base == "swordsman" else 90, 0))
 		target.health = ActorHealth.new(2000)
@@ -174,19 +176,16 @@ func run() -> void:
 		app.run.finish(outcome)
 		await process_frame
 		await process_frame
-		var xp = 280 if outcome == "victory" else (40 if outcome == "defeat" else 0)
-		check(int(app.writer.payload.owned.aren.total_xp) == xp and int(app.writer.payload.owned.lia.total_xp) == xp, outcome + " per-participant XP committed")
-		if outcome != "victory": check(app.writer.payload.owned.milo.total_xp == 0, "unselected Milo excluded from " + outcome + " reward")
-		else: check(app.writer.payload.owned.milo.total_xp == xp, "downed selected Milo receives victory reward")
-		await capture("10-reward-" + outcome, "FR-017", outcome.capitalize() + " settlement", "Controlled terminal example at %s: +%d permanent XP per selected participant, +%d items. This uses the real freeze/settlement/results route; it is not a recording of a full natural playthrough." % ["9:00" if outcome == "victory" else "2:00", xp, 1 if outcome == "victory" else 0], "Finish an expedition; read the Saved line on the results screen")
+		check(app.writer.payload.owned.aren == {"character_id": "aren"} and not app.writer.payload.has("promotion_items"), "settlement stores ownership without growth")
+		await capture("10-reward-" + outcome, "004-FR-003", outcome.capitalize() + " settlement", "Controlled terminal example; only collection economy and chapter flags persist. RUN level, upgrades and branches reset.", "Finish expedition / results")
 	prepare(profile("aren", 0, ["lia", "milo"]))
 	app.writer.store.fault = FailPublication.new()
-	app.commit_action(PermanentProgression.add_character_xp(app.writer.payload, "aren", 100), {"kind": "screenshot_retry_fixture"}, app.show_roster)
+	app.commit_action(app.writer.payload.duplicate(true), {"kind": "screenshot_retry_fixture"}, app.show_roster)
 	check(app.writer.state == "save-blocked", "controlled save publication failure displays real Retry UI")
 	await capture("11-save-retry", "FR-023", "Save failure and Retry", "A deliberately failed write in an isolated test profile opens the real error screen. Retry preserves the same pending action. Checksum validation, interruptions and two-process locks are backend behavior, not visible proof in this image.", "Appears automatically if a save fails; choose Retry pending action")
 	app.screen_host.get_child(0).retry_requested.emit()
-	check(app.writer.state == "ready" and app.writer.payload.owned.aren.total_xp == 100, "Retry committed one pending XP action")
-	await capture("11-save-retried", "FR-023", "Same pending save recovered", "After Retry, Aren is level 2 / 100 XP and the party is preserved. The action is committed once, not added twice.", "Retry pending action → roster returns with committed progress")
+	check(app.writer.state == "ready" and app.writer.payload.owned.aren == {"character_id": "aren"}, "Retry committed one pending profile save")
+	await capture("11-save-retried", "FR-023", "Same pending save recovered", "After Retry, the owned roster and party are preserved without permanent growth. The action is committed once, not added twice.", "Retry pending action → roster returns with committed progress")
 	var saved_root = app.writer.store.root
 	var expected = app.writer.payload.duplicate(true)
 	app.free()

@@ -84,6 +84,10 @@ func run(t) -> void:
 		var steps = 0
 		await t.physics_frame
 		while expedition.phase == "active" and steps < 45000:
+			if expedition.choices.promotion_token >= 0:
+				var id = expedition.choices.promotion_hero
+				var branch = String(expedition.catalog.characters[StringName(id)].base_profession.promotion_ids[0])
+				expedition.choices.confirm_promotion(expedition, expedition.choices.promotion_id, id, branch)
 			choose_event(expedition)
 			if expedition.rescue.state == "offered": expedition.choices.resolve_rescue(expedition, false)
 			if not expedition.choices.offer.is_empty(): choose(expedition)

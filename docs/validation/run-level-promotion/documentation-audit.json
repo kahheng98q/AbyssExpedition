@@ -1,0 +1,23 @@
+{
+  "files": 14,
+  "valid_local_links": 230,
+  "dashboard_images_with_alt": 28,
+  "quality_items": 16,
+  "tasks_complete": 16,
+  "tasks_open": [
+    "T016",
+    "T018"
+  ],
+  "active_feature": {
+    "feature_directory": "specs/004-run-level-promotion"
+  },
+  "artifact_sha256": {
+    "AbyssExpedition-debug.console.exe": "0c7e025893c854ae9498f1807b0c1a3cd82405b9b5c0afb0006c72437f3f0bcf",
+    "AbyssExpedition-debug.exe": "1dfc42c6a0c11e4240fa6af75833d20906202d0ccc7ec75f54706b11e3a23e9b",
+    "AbyssExpedition.console.exe": "4002eeffb14a7af3da16e5b0be5b7f5da773f2117d819b33226dbcd1d6562951",
+    "AbyssExpedition.exe": "677399838722dcd792773c3c87c01249a40cbbada36d7b751fe707938a5b1e07"
+  },
+  "source_hash_python_order": "0eaf44902436e4b3d719ac53f0ea33f64731ac13df31acb4cba57cd93a7f0c52",
+  "source_hash_powershell_order": "0eaf44902436e4b3d719ac53f0ea33f64731ac13df31acb4cba57cd93a7f0c52",
+  "errors": []
+}

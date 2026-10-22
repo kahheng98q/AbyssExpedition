@@ -1,0 +1,10 @@
+﻿{
+    "kind":  "source",
+    "host":  "normal",
+    "speed":  1,
+    "executable":  "C:\\Users\\kahhe\\Desktop\\Project\\new-game-project\\tools\\godot-4.5\\Godot_v4.5-stable_win64_console.exe",
+    "executable_sha256":  "7B77F3735DEC3A32BB20AF29CC1900583795D1DE82A14F23D23350A88EC85FAF",
+    "fixture_sha256":  "36B0FE2DFCE88BAE87BBCF131231530F58476778FBD79CF8889058CD38BCECB4",
+    "clock":  "production monotonic",
+    "wall_deadline_seconds":  180
+}

@@ -11,6 +11,7 @@ class TestWatchdog extends Node:
 			printerr("FAIL: test watchdog expired")
 			get_tree().quit(3)
 const SUITES = {
+	"run_promotion": ["res://tests/integration/test_run_promotion.gd"],
 	"combat_audio": ["res://tests/unit/test_voice_allocator.gd", "res://tests/integration/test_audio_facts.gd", "res://tests/integration/test_combat_audio.gd", "res://tests/unit/test_audio_content.gd"],
 	"pacing": ["res://tests/integration/test_pacing.gd", "res://tests/unit/test_waves.gd", "res://tests/integration/test_choice_pause.gd", "res://tests/integration/test_replay.gd"],
 	"combat_feedback": ["res://tests/unit/test_combat_feedback.gd"],

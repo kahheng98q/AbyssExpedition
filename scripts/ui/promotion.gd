@@ -4,6 +4,7 @@ const SwordPreview = preload("res://scripts/ui/promotion_preview.gd")
 
 signal confirmed(hero: String, branch: String, revision: int)
 signal canceled
+var run
 var catalog: ContentCatalog
 var payload: Dictionary = ProfileData.fresh()
 var hero_id: String = "aren"
@@ -19,8 +20,8 @@ func _ready() -> void:
 	build_scroll(590)
 	column.add_theme_constant_override("separation", 3)
 	label("PROMOTE " + hero_id.to_upper(), 22)
-	label("Permanent choice · requires level 15 and one item · no respec", 11)
-	var why = PromotionService.reason(payload, hero_id)
+	label("This run only / RUN Lv15 / no materials" if run != null else "Branch gallery / promote in combat at RUN Lv15", 11)
+	var why = eligibility_reason()
 	label("Ready to promote" if why == "" else why, 12, Color(1, 0.8, 0.4))
 	label("Retains " + String(catalog.characters[StringName(hero_id)].passive.id).capitalize(), 11)
 	var base = catalog.professions[StringName(ProfileData.BASES[hero_id])]
@@ -60,7 +61,7 @@ func _ready() -> void:
 		var action = button(String(branch).capitalize() + " — " + p.description, func():
 			selected = String(branch)
 			preview.text = p.description + "\nHP %d · damage %d · reach %d" % [p.starting_stats.max_health, p.starting_stats.damage, p.starting_stats.reach]
-			confirm_button.disabled = PromotionService.reason(payload, hero_id, selected) != "")
+			confirm_button.disabled = eligibility_reason(selected) != "")
 		action.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 		action.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		column.remove_child(action)
@@ -68,16 +69,16 @@ func _ready() -> void:
 		if initial_focus == null: initial_focus = action
 	preview = label("Choose a branch to preview. Fifth effects count fired attacks once.", 11)
 	preview.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-	confirm_button = button("Confirm permanent branch / spend 1 item", submit)
+	confirm_button = button("Confirm branch / this run only", submit)
 	confirm_button.disabled = true
-	button("Cancel — spend nothing", cancel)
+	button("Later / reopen from HUD" if run != null else "Back to roster", cancel)
 	initial_focus.grab_focus()
 	if is_instance_valid(host_overlay):
 		host_overlay.visibility_changed.connect(update_occlusion)
 		update_occlusion()
 
 func submit() -> void:
-	if submitted or selected.is_empty() or PromotionService.reason(payload, hero_id, selected) != "": return
+	if submitted or selected.is_empty() or eligibility_reason(selected) != "": return
 	submitted = true
 	confirm_button.disabled = true
 	stop_previews()
@@ -98,3 +99,10 @@ func update_occlusion() -> void:
 func _exit_tree() -> void:
 	stop_previews()
 	if is_instance_valid(host_overlay) and host_overlay.visibility_changed.is_connected(update_occlusion): host_overlay.visibility_changed.disconnect(update_occlusion)
+
+func eligibility_reason(branch: String = "") -> String:
+	var why = PromotionService.reason(run, hero_id, branch)
+	if why != "": return why
+	if run.choices.promotion_token < 0 or run.choices.promotion_id != revision or run.choices.promotion_hero != hero_id:
+		return "Finish the current choice; reopen Promotion from the HUD."
+	return ""

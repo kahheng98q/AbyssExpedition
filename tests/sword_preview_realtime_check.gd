@@ -92,7 +92,7 @@ func run_check() -> void:
 	root.add_child(app)
 	var profile = ProfileData.fresh()
 	profile.owned.aren = OwnedHero.record("aren", 1400)
-	profile.promotion_items = 1
+
 	check(app.writer.mutate(profile, app.writer.revision(), "realtime-eligibility"), "independent level15 profile prepared")
 	var normal = app.writer
 	var normal_saved = profile_bytes(normal)

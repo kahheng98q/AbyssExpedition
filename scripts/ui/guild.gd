@@ -13,10 +13,11 @@ func _ready() -> void:
 	label("THE TIDEWATCH GUILD", 23, Color(0.57, 0.93, 0.89))
 	label("CHAPTER 1 / AETHERAN COAST · " + ("Completed · replay anytime" if payload.chapters.coast else "Confront the Tidebound Hierophant"), 12)
 	label("The ocean cult calls from beneath the tide. Bargain for power; survive its price.", 10)
-	label("%d / 6 heroes  ·  %d items  ·  %d tickets  ·  %d duplicate tokens" % [payload.owned.size(), payload.promotion_items, payload.tickets, payload.tokens], 12)
+	label("%d / 6 heroes / %d tickets / %d duplicate tokens" % [payload.owned.size(), payload.tickets, payload.tokens], 12)
+	label("Start BASE / RUN Lv1 / promote at RUN Lv15 / resets each expedition", 10)
 	var navigation = HBoxContainer.new()
 	column.add_child(navigation)
-	for entry in [["Expedition", func(): expedition_requested.emit()], ["Roster / party / promote", func(): roster_requested.emit()], ["Recruit / exchange / history", func(): recruitment_requested.emit()]]:
+	for entry in [["Expedition", func(): expedition_requested.emit()], ["Roster / party / previews", func(): roster_requested.emit()], ["Recruit / exchange / history", func(): recruitment_requested.emit()]]:
 		var action = button(entry[0], entry[1])
 		column.remove_child(action)
 		action.size_flags_horizontal = Control.SIZE_EXPAND_FILL

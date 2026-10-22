@@ -1,0 +1,132 @@
+{
+  "engine": "4.5.stable.official.876b29033",
+  "shell": "Windows PowerShell 5.1.26100.9711",
+  "offline": true,
+  "native_suite_count": 17,
+  "latest_assertions_total": 10152,
+  "single_full_command": false,
+  "suites": {
+    "abilities": {
+      "assertions": 682,
+      "failures": 0,
+      "log": "full-v2/abilities.log"
+    },
+    "combat_audio": {
+      "assertions": 231,
+      "failures": 0,
+      "log": "final-v8/combat_audio.log"
+    },
+    "combat_feedback": {
+      "assertions": 32,
+      "failures": 0,
+      "log": "full-v2/combat_feedback.log"
+    },
+    "full_run": {
+      "assertions": 9,
+      "failures": 0,
+      "log": "full-v2/full_run.log"
+    },
+    "integration_m1": {
+      "assertions": 135,
+      "failures": 0,
+      "log": "final-v8/integration_m1.log"
+    },
+    "integration_m2": {
+      "assertions": 97,
+      "failures": 0,
+      "log": "pause-handoff/integration_m2.log"
+    },
+    "pacing": {
+      "assertions": 338,
+      "failures": 0,
+      "log": "full-v2/pacing.log"
+    },
+    "persistence": {
+      "assertions": 343,
+      "failures": 0,
+      "log": "full-v2/persistence.log"
+    },
+    "progression": {
+      "assertions": 7,
+      "failures": 0,
+      "log": "full-v2/progression.log"
+    },
+    "replay": {
+      "assertions": 70,
+      "failures": 0,
+      "log": "pause-handoff/replay.log"
+    },
+    "run_promotion": {
+      "assertions": 157,
+      "failures": 0,
+      "log": "final-v8/run_promotion.log"
+    },
+    "scene_smoke": {
+      "assertions": 159,
+      "failures": 0,
+      "log": "full-v2/scene_smoke.log"
+    },
+    "unit": {
+      "assertions": 331,
+      "failures": 0,
+      "log": "full-v2/unit.log"
+    },
+    "recruitment": {
+      "assertions": 299,
+      "failures": 0,
+      "log": "remaining-v3/recruitment.log"
+    },
+    "debug_panel": {
+      "assertions": 140,
+      "failures": 0,
+      "log": "final-v9/debug_panel.log"
+    },
+    "integration_m3": {
+      "assertions": 196,
+      "failures": 0,
+      "log": "graphics-export-v7/integration_m3.log"
+    },
+    "integration_m4": {
+      "assertions": 6926,
+      "failures": 0,
+      "log": "graphics-export-v7/integration_m4.log"
+    }
+  },
+  "build_directory": "builds/windows/run-level-promotion/final-v9",
+  "build": {
+    "engine": "4.5.stable.official.876b29033",
+    "source_hash": "0eaf44902436e4b3d719ac53f0ea33f64731ac13df31acb4cba57cd93a7f0c52",
+    "release_sha256": "677399838722DCD792773C3C87C01249A40CBBADA36D7B751FE707938A5B1E07",
+    "console_sha256": "4002EEFFB14A7AF3DA16E5B0BE5B7F5DA773F2117D819B33226DBCD1D6562951",
+    "benchmark_fixture_sha256": "7F77B03B597DF2ACBB2AB0ECE420A092BC15C44EC5E214301820323969631C85",
+    "release_denial": "executed and passed"
+  },
+  "core_graphical": {
+    "source_promotion": 36,
+    "source_audio": 15,
+    "source_sword": 720,
+    "source_debug": 116,
+    "export_debug_promotion": 36,
+    "export_debug_panel": 116,
+    "export_debug_sword": 720,
+    "actual_release_denial": 41,
+    "export_release_promotion": 30,
+    "export_release_sword": 699,
+    "failures": 0,
+    "m1_m2_m3_m4_source": "passed",
+    "m4_release": "passed"
+  },
+  "long_native_focus_checks": {
+    "complete": false,
+    "source_normal_pass": "graphics-export-v7/sword-realtime-source-normal-1/realtime.json",
+    "source_dev1_failed": "graphics-export-v7/sword-realtime-source-dev-1/realtime.json",
+    "final_attempt": "final-v9/sword-realtime-source-normal-1.log",
+    "final_command_exit": 1,
+    "final_probe_process_exit": 0,
+    "final_probe_completed": false,
+    "final_probe_issue": "Early process exit with ObjectDB/resource cleanup errors; only six partial cycles; not a pass. Cause not established.",
+    "remaining_combinations": "not completed; no inference from controlled/injected-clock tests"
+  },
+  "manual_acceptance": false,
+  "performance_measured_this_feature": false
+}

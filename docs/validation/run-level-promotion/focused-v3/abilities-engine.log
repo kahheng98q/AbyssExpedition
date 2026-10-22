@@ -1,0 +1,22 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+
+FAIL: unchanged full companion/base heal and actual HP clipping 5
+FAIL: one positive fact only for a successful fifth 5
+SCRIPT ERROR: Out of bounds get index '-1' (on base: 'Array')
+   at: check_branch_heal_facts (res://tests/unit/test_profession_abilities.gd:272)
+   GDScript backtrace (most recent call first):
+       [0] check_branch_heal_facts (res://tests/unit/test_profession_abilities.gd:272)
+       [1] run (res://tests/unit/test_profession_abilities.gd:20)
+       [2] run (res://tests/run_tests.gd:77)
+       [3] run (res://tests/unit/test_promotion.gd:41)
+FAIL: fourth/fifth/sixth real arc count swordmaster
+SCRIPT ERROR: Invalid access of index '1' on a base object of type: 'Array[Node]'.
+   at: check_sword_presentation (res://tests/unit/test_profession_abilities.gd:207)
+   GDScript backtrace (most recent call first):
+       [0] check_sword_presentation (res://tests/unit/test_profession_abilities.gd:207)
+       [1] run (res://tests/unit/test_profession_abilities.gd:21)
+       [2] run (res://tests/run_tests.gd:77)
+       [3] run (res://tests/unit/test_promotion.gd:41)
+FAIL: engine/script error: res://tests/unit/test_profession_abilities.gd:272 Out of bounds get index '-1' (on base: 'Array') 
+FAIL: engine/script error: res://tests/unit/test_profession_abilities.gd:207 Invalid access of index '1' on a base object of type: 'Array[Node]'. 
+SUITE abilities: 250 assertions; 5 failures; 0 skipped

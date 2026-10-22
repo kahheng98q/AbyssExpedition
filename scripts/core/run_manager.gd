@@ -3,6 +3,7 @@ extends Node2D
 @warning_ignore("unused_signal") # Emitted by the run-owned ChoiceCoordinator.
 signal choice_presented(offer_id: int, options: Array)
 @warning_ignore("unused_signal")
+signal promotion_presented(offer_id: int, hero_id: String)
 signal choice_closed
 signal state_changed
 signal run_finished(summary: Dictionary)

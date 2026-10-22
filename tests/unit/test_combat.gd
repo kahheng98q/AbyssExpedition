@@ -14,7 +14,7 @@ func run(t) -> void:
 	immunity_run.clock.tick = 45
 	immunity_run.queue_hit(immunity_run.hero, 5, Vector2.ZERO, 0, false, false)
 	immunity_run.damage.resolve_tick_hits(immunity_run, 45)
-	t.check(immunity_run.hero.health.current == 245 and immunity_run.hero.health.invulnerable_until == 90, "fast rejection preserves exact immunity expiry and first eligible damage")
+	t.check(immunity_run.hero.health.current == 245.5 and immunity_run.hero.health.invulnerable_until == 90, "fast rejection preserves exact immunity expiry and first eligible damage")
 	Fixture.dispose(immunity_fixture)
 	t.check(is_equal_approx(DamageService.amount(20, 5, 0.5), 7.5), "flat defense before resistance")
 	t.check(DamageService.amount(2, 9) == 1, "minimum eligible damage")

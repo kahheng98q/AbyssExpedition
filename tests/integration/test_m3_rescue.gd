@@ -30,9 +30,9 @@ func run(t) -> void:
 		if failure:
 			t.check(not opened and writer.state == "save-blocked" and writer.envelope.schema_version == 1, "failed migration blocks play with legacy committed state intact")
 			var bytes = writer.pending_bytes
-			t.check(writer.retry() and writer.envelope.schema_version == 3 and writer.pending_bytes == "", "migration retry commits original candidate")
+			t.check(writer.retry() and writer.envelope.schema_version == 4 and writer.pending_bytes == "", "migration retry commits original candidate")
 			t.check(JSON.parse_string(bytes).payload_json == writer.envelope.payload_json, "migration retry never reinitializes RNG")
-		else: t.check(opened and writer.envelope.schema_version == 3, "loader publishes schema v3 at a higher revision")
+		else: t.check(opened and writer.envelope.schema_version == 4, "loader publishes schema v4 at a higher revision")
 		t.check(FileAccess.get_file_as_string(location.path_join("profile-1.json")) == FileAccess.get_file_as_string("res://tests/fixtures/profiles/v1.json"), "migration preserves original generation bytes")
 		var saved = writer.payload.duplicate(true)
 		writer.close()
@@ -62,7 +62,7 @@ func run(t) -> void:
 		t.check(run.rescue.state == "succeeded" and run.party.size() == 1, "success earns a pending recruit without adding party member")
 		var summary = RunSummary.freeze(run, "defeat")
 		var settled = PermanentProgression.settle(ProfileData.fresh(), summary)
-		t.check(settled.owned.has("sera") and settled.owned.sera.level == 1 and settled.tickets == 0, "rescue retained through later defeat; level-one Sera")
+		t.check(settled.owned.has("sera") and settled.owned.sera == {"character_id": "sera"} and settled.tickets == 0, "rescue retained through later defeat; level-one Sera")
 		var abandoned = PermanentProgression.settle(ProfileData.fresh(), RunSummary.freeze(run, "abandonment"))
 		t.check(abandoned.owned.size() == 3 and abandoned.tickets == 0, "abandon drops rescue reward")
 		Fixture.dispose(f)
@@ -91,7 +91,7 @@ func run(t) -> void:
 	Fixture.dispose(timed)
 	p.owned.sera = OwnedHero.record("sera", 700)
 	var repeated = PermanentProgression.settle(p, {"outcome": "victory", "ticks": 18000, "hero": "aren", "rescue": {"state": "succeeded", "owned_at_start": true}})
-	t.check(repeated.tickets == 4 and repeated.owned.sera.total_xp == 700 and repeated.tokens == 0, "owned rescue adds one ticket, never duplicate hero or token")
+	t.check(repeated.tickets == 4 and repeated.owned.sera == {"character_id": "sera"} and repeated.tokens == 0, "owned rescue adds one ticket, never duplicate hero or token")
 	p.active = "sera"
 	var f = Fixture.create_party(t, p)
 	t.check(f.run.snapshot.sera_owned and f.run.hero.definition.id == &"sera", "Sera selectable in the next expedition")
@@ -119,5 +119,5 @@ func run(t) -> void:
 	app.free()
 	await t.process_frame
 	var writer = SaveCoordinator.new(location)
-	t.check(writer.open() and writer.payload.owned.sera.level == 1 and writer.payload.tickets == 1, "earned Sera and ticket survive actual app quit/reopen")
+	t.check(writer.open() and writer.payload.owned.sera == {"character_id": "sera"} and writer.payload.tickets == 1, "earned Sera and ticket survive actual app quit/reopen")
 	writer.close()

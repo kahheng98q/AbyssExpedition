@@ -1,0 +1,5 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+
+Profile storage: C:/Users/kahhe/Desktop/Project/new-game-project/tools/runtime-appdata/Abyss Expedition/tests/promotion-app-890820/
+SUITE run_promotion: 128 assertions; 1 failures; 0 skipped
+FAIL: event resolution immediately schedules pending promotion

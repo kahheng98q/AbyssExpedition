@@ -25,7 +25,7 @@ func create_app(t):
 	t.root.add_child(app)
 	var profile = ProfileData.fresh()
 	profile.owned.aren = OwnedHero.record("aren", 1400)
-	profile.promotion_items = 1
+
 	t.check(app.writer.mutate(profile, app.writer.revision(), "preview-fixture"), "isolated promotion profile")
 	app.mount_saved_run(101)
 	app.run.set_physics_process(false)

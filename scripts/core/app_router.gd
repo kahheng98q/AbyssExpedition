@@ -193,11 +193,7 @@ func show_promotion(hero_id: String) -> void:
 	screen.payload = writer.payload.duplicate(true)
 	screen.hero_id = hero_id
 	screen.revision = writer.revision()
-	var promotion_operation = writer.operation_id()
-	screen.confirmed.connect(func(hero_value, branch, revision):
-		save_continuation = show_roster
-		if PromotionService.confirm(writer, hero_value, branch, revision, promotion_operation): call_deferred("show_roster")
-		else: call_deferred("show_save_error"))
+
 	screen.canceled.connect(func(): call_deferred("show_roster"))
 	screen_host.add_child(screen)
 
@@ -216,6 +212,7 @@ func mount_saved_run(seed_value: int) -> void:
 	run.process_mode = Node.PROCESS_MODE_PAUSABLE
 	expedition_host.add_child(run)
 	run.choice_presented.connect(func(identity, options): call_deferred("show_choice", identity, options, mounted_generation))
+	run.promotion_presented.connect(func(identity, hero_id): call_deferred("show_run_promotion", identity, hero_id, mounted_generation))
 	run.choice_closed.connect(func(): call_deferred("refresh_modal", mounted_generation))
 	run.rescue_presented.connect(func(): call_deferred("show_rescue", mounted_generation))
 	run.event_presented.connect(func(): call_deferred("show_event", mounted_generation))
@@ -238,6 +235,28 @@ func show_choice(identity: int, options: Array, expected_generation: int = -1) -
 	screen.confirmed.connect(func(offer_id, upgrade_id): run.choices.confirm(run, offer_id, upgrade_id))
 	modal_host.add_child(screen)
 	run.combat_audio.present_level(run.generation, identity)
+	if is_instance_valid(debug_panel): debug_panel.capture_focus()
+
+func show_run_promotion(identity: int, hero_id: String, expected_generation: int = -1) -> void:
+	if expected_generation >= 0 and expected_generation != generation: return
+	if not is_instance_valid(run) or run.phase != "active": return
+	if run.choices.promotion_token < 0 or identity != run.choices.promotion_id or hero_id != run.choices.promotion_hero: return
+	clear_host(modal_host)
+	var screen = catalog.scene("promotion").instantiate()
+	screen.catalog = catalog
+	screen.run = run
+	screen.hero_id = hero_id
+	screen.revision = identity
+	if is_instance_valid(debug_panel): screen.host_overlay = debug_panel.overlay
+	var mounted_run = run
+	var mounted_generation = generation
+	screen.confirmed.connect(func(id, branch, nonce):
+		if generation == mounted_generation and is_instance_valid(mounted_run) and run == mounted_run:
+			mounted_run.choices.confirm_promotion(mounted_run, nonce, id, branch))
+	screen.canceled.connect(func():
+		if generation == mounted_generation and is_instance_valid(mounted_run) and run == mounted_run:
+			mounted_run.choices.cancel_promotion(mounted_run, identity))
+	modal_host.add_child(screen)
 	if is_instance_valid(debug_panel): debug_panel.capture_focus()
 
 func show_event(expected_generation: int = -1) -> void:
@@ -266,6 +285,9 @@ func show_rescue(expected_generation: int = -1) -> void:
 func refresh_modal(expected_generation: int = -1) -> void:
 	if expected_generation >= 0 and expected_generation != generation: return
 	if not is_instance_valid(run) or run.phase != "active": return
+	if run.choices.promotion_token >= 0:
+		show_run_promotion(run.choices.promotion_id, run.choices.promotion_hero, expected_generation)
+		return
 	if not run.choices.offer.is_empty():
 		show_choice(run.choices.offer_id, run.choices.offer.duplicate())
 		return
@@ -294,7 +316,6 @@ func show_results(summary: Dictionary, expected_generation: int = -1) -> void:
 	var result = summary.duplicate(true)
 	result["rewards"] = PermanentProgression.preview(result.outcome, result.ticks, result.get("rescue", {}))
 	var candidate = PermanentProgression.settle(writer.payload, result)
-	if not candidate.is_empty(): result["participant_gains"] = PermanentProgression.settlement_gains(writer.payload, candidate, result.participants)
 	result["starting_changed"] = false
 	if not candidate.is_empty():
 		var next_snapshot = RosterService.snapshot(candidate, int(result.seed))
@@ -347,6 +368,10 @@ func _unhandled_key_input(event: InputEvent) -> void:
 			get_viewport().set_input_as_handled()
 	if event is InputEventKey and event.pressed and not event.echo and event.keycode == KEY_ESCAPE:
 		if is_instance_valid(run) and run.phase == "active":
+			if run.choices.promotion_token >= 0:
+				run.choices.cancel_promotion(run, run.choices.promotion_id)
+				get_viewport().set_input_as_handled()
+				return
 			if run.choices.event_token >= 0: return # Event UI owns Escape and its input guard.
 			if run.rescue.state == "offered":
 				run.choices.resolve_rescue(run, false)

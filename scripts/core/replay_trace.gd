@@ -1,7 +1,7 @@
 class_name ReplayTrace
 extends RefCounted
 
-const SIMULATION_VERSION = "combat-pacing-audio-1"
+const SIMULATION_VERSION = "run-level-promotion-1"
 var metadata: Dictionary
 var inputs: Array = []
 var waves: Array = []
@@ -28,4 +28,4 @@ func snapshot() -> Dictionary:
 
 func compatible(recorded: Dictionary) -> bool:
 	# Audio diagnostics and wall-clock timing deliberately have no gameplay role.
-	return recorded.get("start", {}) == metadata
+	return JSON.parse_string(JSON.stringify(recorded.get("start", {}))) == JSON.parse_string(JSON.stringify(metadata))

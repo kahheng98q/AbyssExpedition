@@ -40,21 +40,21 @@ func run(t) -> void:
 	t.check(app.writer.pending_bytes == bytes, "duplicate results preserve original frozen action")
 	t.check(app.writer.retry(), "same frozen settlement Retry succeeds")
 	app.save_continuation.call()
-	t.check(app.writer.payload.owned.aren.total_xp == 120 and app.writer.payload.owned.lia.total_xp == 120 and app.writer.payload.promotion_items == 1, "actual app settlement rewards all participants exactly once")
+	t.check(app.writer.payload.owned == p.owned and app.writer.payload.tickets == 2, "actual app settlement rewards all participants exactly once")
 	var revision = app.writer.revision()
 	app.show_results(summary, app.generation)
 	t.check(app.writer.revision() == revision, "results re-entry does not resettle")
 	app.mount_run(RunStartSnapshot.new(303, &"aren"))
 	app.run.set_physics_process(false)
-	t.check(app.run.hero.stats.max_health == 255 and app.run.snapshot.members[0].level == 2, "Retry retains progression and snapshots changed stats")
+	t.check(app.run.hero.stats.max_health == 250 and app.run.snapshot.members[0].level == 1, "Retry retains progression and snapshots changed stats")
 	var immutable = app.run.snapshot.members
 	immutable[0].level = 30
-	t.check(app.run.snapshot.members[0].level == 2, "start snapshot cannot be mutated by its consumer")
+	t.check(app.run.snapshot.members[0].level == 1, "start snapshot cannot be mutated by its consumer")
 	app.run.clock.tick = 3600
 	app.run.finish("victory")
 	app.settle_before_close()
 	await t.process_frame
-	t.check(app.writer.payload.owned.aren.total_xp == 240 and app.writer.payload.promotion_items == 2, "finished run settles once even when close precedes deferred results routing")
+	t.check(app.writer.payload.owned == p.owned and app.writer.payload.tickets == 4, "finished run settles once even when close precedes deferred results routing")
 	var capped = app.writer.payload.duplicate(true)
 	capped.owned.aren = OwnedHero.record("aren", 2850)
 	capped.owned.lia = OwnedHero.record("lia", 2900)
@@ -68,8 +68,8 @@ func run(t) -> void:
 	var result_text = ""
 	for item in result_screen.column.get_children():
 		if item is Label: result_text += item.text + "\n"
-	t.check(result_text.contains("Aren: +50 XP") and result_text.contains("Lia: +0 XP") and result_text.contains("CAP"), "results show actual XP and cap per participant")
-	t.check(app.writer.payload.owned.aren.total_xp == 2900 and app.writer.payload.owned.lia.total_xp == 2900, "cap UI does not change capped settlement")
+	t.check(result_text.contains("RUN level, upgrades and branches reset") and not result_text.contains("permanent XP"), "results disclose run reset")
+	t.check(app.writer.payload.owned == p.owned, "cap UI does not change capped settlement")
 	app.mount_run(RunStartSnapshot.new(303, &"aren"))
 	app.run.set_physics_process(false)
 	for i in range(20000):

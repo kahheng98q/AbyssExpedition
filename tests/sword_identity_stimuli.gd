@@ -39,6 +39,9 @@ func prepare(app, hero: String, profession: String, companions: bool = false):
 	app.set_window_focused(true)
 	var run = app.run
 	run.set_physics_process(false)
+	run.progression.level = 15
+	if profession != "swordsman": check(PromotionService.apply(run, hero, profession), "live stimulus branch")
+	if companions: check(PromotionService.apply(run, "brann", "abyss_swordsman"), "live stimulus companion")
 	run.combat_audio.set_enabled(false)
 	run.clock.tick = 240
 	var target = run.spawn_enemy(&"shellbound_husk", run.hero.position + Vector2(24, 0))
@@ -130,7 +133,7 @@ func run_check() -> void:
 					feedback.show()
 					run.simulation.advance(run, Vector2.ZERO)
 				check(run.party.size() == 1 and run.phase == "active", "one hero remains active")
-				clips.append({"id": id, "hero": "aren", "permanent_level": 15, "seed": 101, "window": [dimensions.x, dimensions.y], "logical_viewport": [640,360], "crop": [192,104,224,176], "profession": profession, "attack": attack, "fps": 60, "duration_seconds": 1, "frames": frames})
+				clips.append({"id": id, "hero": "aren", "run_level": 15, "seed": 101, "window": [dimensions.x, dimensions.y], "logical_viewport": [640,360], "crop": [192,104,224,176], "profession": profession, "attack": attack, "fps": 60, "duration_seconds": 1, "frames": frames})
 	var dense: Array = []
 	for index in range(10):
 		var run = prepare(app, "aren", "swordmaster" if index % 2 == 0 else "abyss_swordsman", true)

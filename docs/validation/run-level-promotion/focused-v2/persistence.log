@@ -1,0 +1,17 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+
+SUITE persistence: 200 assertions; 4 failures; 0 skipped
+FAIL: failed settlement exposes no partial chapter/rewards
+FAIL: original frozen settlement Retry succeeds
+ERROR: Parse JSON failed. Error at line 0: Unknown error getting token
+   at: parse_string (core/io/json.cpp:604)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/integration/test_persistence_v3.gd:65)
+       [1] run (res://tests/run_tests.gd:77)
+SCRIPT ERROR: Invalid access to property or key 'payload_json' on a base object of type 'Nil'.
+   at: run (res://tests/integration/test_persistence_v3.gd:65)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/integration/test_persistence_v3.gd:65)
+       [1] run (res://tests/run_tests.gd:77)
+FAIL: engine/script error: core/io/json.cpp:604 Condition "error != Error::OK" is true. Returning: Variant() Parse JSON failed. Error at line 0: Unknown error getting token
+FAIL: engine/script error: res://tests/integration/test_persistence_v3.gd:65 Invalid access to property or key 'payload_json' on a base object of type 'Nil'. 

@@ -56,7 +56,7 @@ static func actor_state(actor) -> Dictionary:
 	result["statuses"] = values(actor.statuses, ["burn_until", "next_burn", "burn_damage", "slow_until", "burn_period", "slow_fraction"])
 	result["stats"] = values(actor.stats, ["max_health", "damage", "defense", "frequency", "speed", "reach", "pickup_radius", "knockback"])
 	result["identity"] = {"definition":String(actor.definition.id),"profession":String(actor.profession.id) if actor.profession != null else "","passive":String(actor.passive.id) if actor.passive != null else ""}
-	result["roles"] = values(actor,["is_hero","is_companion","companion_slot","is_boss","permanent_level","corrupted","resistant","resistance"])
+	result["roles"] = values(actor,["is_hero","is_companion","companion_slot","is_boss","corrupted","resistant","resistance"])
 	return result
 
 static func warning_state(warning) -> Dictionary:
@@ -73,7 +73,7 @@ func pending_state() -> Dictionary:
 	return state
 
 func final_state() -> Dictionary:
-	var result = {"tick": run.clock.tick, "stage": run.simulation.stage, "phase": run.phase, "kills": run.kills, "coins": run.coins, "corruption": run.corruption.value, "level": run.progression.level, "xp": run.progression.xp, "pending": run.progression.pending, "stacks": run.progression.stacks.duplicate(true), "sequence": run.sequence, "request_id": run.request_id, "party": [], "enemies": [], "projectiles": [], "pickups": [], "rng": {}}
+	var result = {"tick": run.clock.tick, "stage": run.simulation.stage, "phase": run.phase, "kills": run.kills, "coins": run.coins, "corruption": run.corruption.value, "level": run.progression.level, "xp": run.progression.xp, "pending": run.progression.pending, "branches": run.progression.branches.duplicate(true), "stacks": run.progression.stacks.duplicate(true), "sequence": run.sequence, "request_id": run.request_id, "party": [], "enemies": [], "projectiles": [], "pickups": [], "rng": {}}
 	result["snapshot_format"] = SNAPSHOT_FORMAT
 	result["spawns"] = pending_state()
 	result["boss_hits"] = []
@@ -108,6 +108,7 @@ func final_state() -> Dictionary:
 	result["consumed_damage"] = portable(run.damage.consumed)
 	result["activation_heals"] = portable(run.activation_heals)
 	result["collected_pickups"] = portable(run.progression.pickups)
+	result["promotion"] = {"id": run.choices.promotion_id, "hero": run.choices.promotion_hero, "deferred": run.choices.promotion_deferred, "active": run.choices.promotion_token >= 0}
 	result["offer"] = {"id": run.choices.offer_id, "options": portable(run.choices.offer)}
 	result["events"] = {"next_slot": run.events.next_slot, "current": portable(run.events.current)}
 	result["effects"] = []

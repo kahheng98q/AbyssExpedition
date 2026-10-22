@@ -16,7 +16,7 @@ static func party(payload: Dictionary, active: String, companions: Array) -> Str
 
 static func payload_error(p, schema: int = ProfileData.SCHEMA) -> String:
 	if not p is Dictionary: return "Payload must be an object."
-	for key in ["owned", "active", "companions", "seed", "promotion_items", "receipt"]:
+	for key in ["owned", "active", "companions", "seed", "receipt"]:
 		if not p.has(key): return "Missing payload field: " + key
 	if not p.owned is Dictionary or p.owned.size() < 3 or p.owned.size() > (3 if schema == 1 else 6): return "Invalid owned roster size."
 	for id in ProfileData.STARTERS:
@@ -25,16 +25,23 @@ static func payload_error(p, schema: int = ProfileData.SCHEMA) -> String:
 		if not ProfileData.BASES.has(id) or (schema == 1 and id not in ProfileData.STARTERS): return "Unknown hero."
 		var h = p.owned[id]
 		if not h is Dictionary: return "Invalid owned record."
-		if h.get("character_id") != id or not integer(h.get("total_xp"), 0, 2900): return "Invalid character XP/identity."
-		if not integer(h.get("level"), 1, 30) or int(h.level) != OwnedHero.level(int(h.total_xp)): return "Invalid derived level."
-		if not integer(h.get("progress_to_next"), 0, 99) or int(h.progress_to_next) != (int(h.total_xp) % 100 if h.total_xp < 2900 else 0): return "Invalid derived XP."
-		var branch = h.get("promotion_id")
-		if not branch is String: return "Invalid promotion."
-		if branch != "" and (ProfileData.BRANCHES.get(branch) != ProfileData.BASES[id] or h.level < 15): return "Wrong base class or promotion level."
+		if schema >= 4:
+			if h.size() != 1 or not h.get("character_id") is String or h.character_id != String(id): return "Owned record must contain identity only."
+		else:
+			if h.get("character_id") != id or not integer(h.get("total_xp"), 0, 2900): return "Invalid character XP/identity."
+			if not integer(h.get("level"), 1, 30) or int(h.level) != OwnedHero.level(int(h.total_xp)): return "Invalid derived level."
+			if not integer(h.get("progress_to_next"), 0, 99) or int(h.progress_to_next) != (int(h.total_xp) % 100 if h.total_xp < 2900 else 0): return "Invalid derived XP."
+			var branch = h.get("promotion_id")
+			if not branch is String: return "Invalid promotion."
+			if branch != "" and (ProfileData.BRANCHES.get(branch) != ProfileData.BASES[id] or h.level < 15): return "Wrong base class or promotion level."
 	if not p.active is String or not p.companions is Array: return "Invalid party fields."
 	var reason = party(p, p.active, p.companions)
 	if reason != "": return reason
-	if not integer(p.seed, 0, 2147483647) or not integer(p.promotion_items): return "Invalid seed or balance."
+	if not integer(p.seed, 0, 2147483647): return "Invalid seed."
+	if schema < 4 and not integer(p.get("promotion_items")): return "Invalid legacy material balance."
+	if schema >= 4:
+		for key in ["promotion_items", "level", "total_xp", "promotion_id", "branches", "pending_promotion"]:
+			if p.has(key): return "Run progression cannot be saved: " + key
 	if not p.receipt is Dictionary: return "Invalid receipt."
 	if not p.receipt.is_empty():
 		if not p.receipt.get("operation_id") is String or not integer(p.receipt.get("base_revision")) or not integer(p.receipt.get("result_revision"), 1): return "Invalid operation receipt."
@@ -61,7 +68,7 @@ static func decode(bytes: String) -> Dictionary:
 	for key in ["schema_version", "game_version", "content_version", "profile_id", "revision", "saved_at_utc", "operation_id", "payload_json", "payload_sha256"]:
 		if not e.has(key): return {"error": "Missing envelope field: " + key}
 	if not integer(e.schema_version, 1) or not integer(e.revision, 1): return {"error": "Invalid version/revision."}
-	var legacy = (e.schema_version == 1 and e.game_version == "m2.0" and e.content_version == "m2.0") or (e.schema_version == 2 and e.game_version == "m3.0" and e.content_version == "m3.0")
+	var legacy = (e.schema_version == 1 and e.game_version == "m2.0" and e.content_version == "m2.0") or (e.schema_version == 2 and e.game_version == "m3.0" and e.content_version == "m3.0") or (e.schema_version == 3 and e.game_version == "m4.0" and e.content_version == "m4.0")
 	var current = e.schema_version == ProfileData.SCHEMA and e.game_version == ProfileData.GAME and e.content_version == ProfileData.CONTENT
 	if not legacy and not current:
 		return {"error": "Incompatible save version; files preserved.", "incompatible": true}

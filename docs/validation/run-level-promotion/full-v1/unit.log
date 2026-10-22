@@ -1,0 +1,5 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+
+INVULNERABILITY QUEUE PROBE: attempts=10000 retained_ids=0 elapsed_us=7939
+SUITE unit: 331 assertions; 1 failures; 0 skipped
+FAIL: fast rejection preserves exact immunity expiry and first eligible damage

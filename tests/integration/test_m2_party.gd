@@ -28,7 +28,7 @@ func run(t) -> void:
 		run.simulation.advance(run, Vector2.ZERO)
 		t.check(run.phase == "results" and run.summary.outcome == "defeat" and run.summary.participants == ["aren", "lia", "milo"], "active death ends expedition; downed participant remains in settlement")
 		var next = PermanentProgression.settle(p, {"outcome": "victory", "ticks": 3600, "hero": "aren", "participants": run.summary.participants})
-		t.check(next.owned.lia.total_xp == mini(2900, level_xp + 120), "downed selected companion receives equal earned XP")
+		t.check(next.owned == p.owned and next.tickets == 2, "downed participant keeps ownership, no permanent XP")
 		Fixture.dispose(f)
 		f = Fixture.create_party(t, p)
 		t.check(not f.run.party[1].health.dead and f.run.party[1].health.current == f.run.party[1].health.maximum and f.run.party[1].activations == 0, "next run restores health/counters")

@@ -39,6 +39,10 @@ func prepare(app, hero: String, profession: String, companions: bool = false):
 	app.set_window_focused(true)
 	var run = app.run
 	run.set_physics_process(false)
+	run.progression.level = 15
+	run.choices.promotion_deferred = true
+	if profession != "swordsman": check(PromotionService.apply(run, hero, profession), "live fixture branch")
+	if companions: check(PromotionService.apply(run, "brann", "abyss_swordsman"), "live fixture companion branch")
 	run.combat_audio.set_enabled(false)
 	run.clock.tick = 240
 	var target = run.spawn_enemy(&"shellbound_husk", run.hero.position + Vector2(24, 0))
@@ -142,7 +146,7 @@ func run_check() -> void:
 				for ignored in range(3): run.simulation.advance(run, Vector2.RIGHT); await process_frame
 				check(feedback.heal_records.size() == 1, "paused healing is retained without aging")
 				run.pause.release(token, "heal-graphics")
-				run.progression.collect_xp(900000, 100)
+				run.progression.collect_xp(900000, run.progression.level * 100)
 				run.choices.present(run)
 				await process_frame
 				check(run.choices.pause_token >= 0 and feedback.heal_records.size() == 1, "real upgrade UI freezes existing healing")
@@ -177,7 +181,7 @@ func run_check() -> void:
 		DisplayServer.window_set_size(dimensions)
 		var profile = ProfileData.fresh()
 		profile.owned.aren = OwnedHero.record("aren", 1400)
-		profile.promotion_items = 1
+
 		check(app.writer.mutate(profile, app.writer.revision(), app.writer.operation_id()), "preview layout isolated eligibility")
 		app.show_promotion("aren")
 		var page = app.screen_host.get_child(0)

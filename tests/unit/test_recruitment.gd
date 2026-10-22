@@ -84,7 +84,7 @@ func run(t) -> void:
 		candidate = TokenExchangeService.candidate(p, "brann")
 		t.check(candidate.is_empty() == (tokens < 5), "exchange balance boundary " + str(tokens))
 		if not candidate.is_empty():
-			t.check(candidate.tokens == tokens - 5 and candidate.owned.brann.level == 1 and TokenExchangeService.candidate(candidate, "brann").is_empty(), "exchange spends five once and rejects already-owned hero")
+			t.check(candidate.tokens == tokens - 5 and candidate.owned.brann == {"character_id": "brann"} and TokenExchangeService.candidate(candidate, "brann").is_empty(), "exchange spends five once and rejects already-owned hero")
 	t.check(TokenExchangeService.candidate(p, "sera").is_empty(), "Sera excluded from exchange")
 	# Split generation/reopen must continue the exact same stream.
 	var saved = DrawRng.initial("9223372036854775807")

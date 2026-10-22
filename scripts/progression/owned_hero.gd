@@ -1,9 +1,10 @@
 class_name OwnedHero
 extends RefCounted
 
+# Legacy derived value is used only while validating schema 1-3 saves.
 static func level(total_xp: int) -> int:
 	return mini(30, 1 + total_xp / 100)
 
-static func record(id: String, xp: int = 0, promotion: String = "") -> Dictionary:
-	xp = clampi(xp, 0, 2900)
-	return {"character_id": id, "total_xp": xp, "level": level(xp), "progress_to_next": xp % 100 if xp < 2900 else 0, "promotion_id": promotion}
+# Optional legacy fixture arguments are ignored: ownership carries no growth.
+static func record(id: String, _xp: int = 0, _promotion: String = "") -> Dictionary:
+	return {"character_id": id}

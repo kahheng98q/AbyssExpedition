@@ -12,6 +12,5 @@ static func selection(payload: Dictionary, active: String, companions: Array, se
 static func snapshot(payload: Dictionary, seed_value: int) -> RunStartSnapshot:
 	var members: Array = []
 	for id in [payload.active] + payload.companions:
-		var record = payload.owned[id]
-		members.append({"id": id, "level": int(record.level), "profession": record.promotion_id if record.promotion_id != "" else ProfileData.BASES[id], "passive": ProfileData.PASSIVES[id]})
+		members.append({"id": id, "level": 1, "profession": ProfileData.BASES[id], "passive": ProfileData.PASSIVES[id]})
 	return RunStartSnapshot.new(seed_value, StringName(payload.active), members, payload.owned.has("sera"))

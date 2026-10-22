@@ -135,7 +135,7 @@ func build() -> void:
 	party_stats = text(combat, "", 11)
 	text(combat, "Revival is unsupported. Restart restores full health.", 10)
 	var progression = sections.Progression
-	material_amount = number(progression, "Material amount", 1, 1000000)
+	material_amount = number(progression, "Legacy amount (no cost)", 1, 1000000)
 	add_actions(progression, ["materials", "eligibility"])
 	var open = Button.new()
 	open.text = "Open existing promotion UI"
@@ -150,7 +150,7 @@ func build() -> void:
 	branch_choice = OptionButton.new()
 	progression.add_child(branch_choice)
 	action_button(progression, "test_branch", "Test selected branch in this run only")
-	text(progression, "Runtime branch testing ignores level/items and never changes the saved class.\nPermanent class reset is unsupported.", 10)
+	text(progression, "Runtime branch testing affects this run only. No permanent level, class or materials.", 10)
 	requirements = text(progression, "", 11)
 	var system = sections.System
 	system_stats = text(system, "", 11)
@@ -314,8 +314,9 @@ func open_promotion(bypass: bool) -> void:
 	var screen = app.catalog.scene("promotion").instantiate()
 	screen.catalog = app.catalog
 	screen.payload = service.writer.payload.duplicate(true)
+	screen.run = service.current_run()
 	screen.hero_id = selected(character_choice)
-	screen.revision = service.writer.revision()
+	screen.revision = screen.run.choices.promotion_id if screen.run != null else 0
 	screen.confirmed.connect(func(id, branch, revision):
 		show_feedback(service.promote(id, branch, revision))
 		clear_promotion()
@@ -353,18 +354,17 @@ func refresh() -> void:
 		return
 	var p = service.writer.payload
 	var id = selected(character_choice)
-	var h = p.owned[id]
 	var definition = app.catalog.characters[StringName(id)]
 	var actor = service.actor_for(id)
-	var profession = actor.profession if actor != null else app.catalog.professions[StringName(h.promotion_id if h.promotion_id != "" else ProfileData.BASES[id])]
-	character_stats.text = "%s · permanent Lv %d · XP %d / 2900\nBase %s · current %s · saved %s\nPassive: %s · Skills: %s" % [definition.display_name, h.level, h.total_xp, ProfileData.BASES[id].capitalize(), String(profession.id).capitalize(), h.promotion_id.capitalize() if h.promotion_id != "" else "base", String(definition.passive.id).capitalize(), profession.description if profession.description != "" else definition.description]
+	var profession = actor.profession if actor != null else definition.base_profession
+	character_stats.text = "%s / RUN only\nBase %s / current %s\nPassive: %s / Skills: %s" % [definition.display_name, ProfileData.BASES[id].capitalize(), String(profession.id).capitalize(), String(definition.passive.id).capitalize(), profession.description]
 	if actor != null:
 		character_stats.text += "\nHP %.1f / %.1f · attack %.2f · defense %.1f · speed %.2f\nAttack cooldown %d ticks · branch/passive activations %d/%d" % [actor.health.current, actor.health.maximum, actor.stats.damage, actor.stats.defense, actor.stats.speed, maxi(0, actor.next_ready - service.current_run().clock.tick), actor.activations, actor.passive_activations]
 	else:
-		var stats = CharacterFactory.progression_stats(definition, profession, int(h.level))
+		var stats = CharacterFactory.progression_stats(definition, profession, 1)
 		character_stats.text += "\nStarting max HP %.1f · attack %.2f · defense %.1f · speed %.2f\nNot deployed. Heal/cooldown/runtime branch controls are unavailable." % [stats.max_health, stats.damage, stats.defense, stats.speed]
 	var run = service.current_run()
-	run_stats.text = "Shared run Lv %d · XP %d / %d · pending upgrades %d" % [run.progression.level, run.progression.xp, run.progression.level * 100, run.progression.pending] if run != null else "No active run. Permanent XP applies to the selected hero."
+	run_stats.text = "Shared run Lv %d · XP %d / %d · pending upgrades %d" % [run.progression.level, run.progression.xp, run.progression.level * 100, run.progression.pending] if run != null else "No active run. Start a sandbox expedition to grant RUN XP."
 	var lines: PackedStringArray = []
 	if run != null:
 		for member in run.party:
@@ -372,12 +372,12 @@ func refresh() -> void:
 			if member.is_companion:
 				state = "AI disabled" if not member.debug_ai_enabled else ("recovery" if member.blocked_ticks >= 120 else ("following" if member.position.distance_to(CompanionController.formation(run.hero.position, member.companion_slot)) > 4 else "formation"))
 			if member.health.dead: state = "DOWNED"
-			lines.append("%s · Lv %d · %s · HP %.0f/%.0f · %s" % [member.definition.display_name, member.permanent_level, String(member.profession.id).capitalize(), member.health.current, member.health.maximum, state])
+			lines.append("%s · Lv %d · %s · HP %.0f/%.0f · %s" % [member.definition.display_name, run.progression.level, String(member.profession.id).capitalize(), member.health.current, member.health.maximum, state])
 		system_stats.text = "FPS %.0f · enemies %d · pending warnings %d\nSeed %d · active time %s · battle speed %dx\nPlayer %s · invincible %s · team god mode %s" % [Engine.get_frames_per_second(), run.enemies.size(), run.spawns.reservations.size(), run.snapshot.seed_value, run.clock.display_time(), service.speed.value, run.hero.position, run.hero.health.debug_invincible, service.god_mode]
 	else: system_stats.text = "FPS %.0f · no active run · speed %dx" % [Engine.get_frames_per_second(), service.speed.value]
 	party_stats.text = "\n".join(lines) if not lines.is_empty() else "No deployed party."
-	var reason = PromotionService.reason(p, id)
-	requirements.text = "%s · level 15 + 1 item · items %d\n%s" % [id.capitalize(), p.promotion_items, "Eligible for permanent sandbox promotion." if reason == "" else reason]
+	var reason = PromotionService.reason(run, id)
+	requirements.text = "%s / RUN Lv15 / no materials\n%s" % [id.capitalize(), "Eligible this run." if reason == "" else reason]
 	path_label.text = "TEST SAVE ONLY: " + ProjectSettings.globalize_path(service.writer.store.root) + "\nState: " + service.writer.state
 	log_label.text = "\n".join(service.logs.slice(maxi(0, service.logs.size() - 8)))
 	for entry in buttons:

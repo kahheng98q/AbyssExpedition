@@ -85,13 +85,13 @@ func run(t) -> void:
 	t.check(run.clock.tick == tick, "panel processes while active combat clock is paused")
 	key(panel, KEY_ESCAPE)
 	t.check(run.manual_token == -1, "Escape does not alter game pause behind debug overlay")
-	t.check(service.execute("level_one", {"character_id": "aren"}).ok and service.writer.payload.owned.aren.level == 2, "one level uses permanent progression")
-	t.check(service.execute("level_ten", {"character_id": "aren"}).ok and service.writer.payload.owned.aren.level == 12, "ten levels preserve capped permanent XP rules")
-	t.check(service.execute("level_max", {"character_id": "aren"}).ok and service.writer.payload.owned.aren.total_xp == 2900 and run.hero.health.maximum == 395, "maximum level updates immutable starting stats")
+	t.check(service.execute("level_one", {"character_id": "aren"}).ok and run.progression.level == 2, "one level uses shared run progression")
+	t.check(service.execute("level_ten", {"character_id": "aren"}).ok and run.progression.level == 12, "ten levels use run XP curve")
+	t.check(service.execute("level_max", {"character_id": "aren"}).ok and run.progression.level == 30 and run.hero.health.maximum == 250, "RUN level target has no permanent stat bonus")
 	t.check(not service.execute("character_xp", {"amount": -1}).ok and not service.execute("character_xp", {"amount": 0.5}).ok, "invalid XP rejected")
-	t.check(service.execute("character_xp", {"character_id": "lia", "amount": 100}).ok and service.writer.payload.owned.lia.level == 2, "configurable XP targets selected owned character")
+	t.check(service.execute("character_xp", {"character_id": "lia", "amount": 100}).ok and run.progression.level == 30 and run.progression.xp == 100, "configurable XP adds to shared run")
 	run.hero.health.current = 1
-	t.check(service.execute("heal_character", {"character_id": "aren"}).ok and run.hero.health.current == 395, "fully heal through ActorHealth")
+	t.check(service.execute("heal_character", {"character_id": "aren"}).ok and run.hero.health.current == 250, "fully heal through ActorHealth")
 	run.hero.next_ready = 999
 	run.hero.activations = 3
 	t.check(service.execute("cooldowns", {"character_id": "aren"}).ok and run.hero.next_ready == tick and run.hero.activations == 3, "cooldown reset preserves activation identity")
@@ -103,14 +103,15 @@ func run(t) -> void:
 	t.check(not run.hero.health.receive(100, 100, true), "god mode blocks damage independently")
 	service.execute("god_mode")
 	t.check(run.hero.health.receive(10, 100, true), "god mode can be disabled")
-	t.check(service.execute("eligibility", {"character_id": "aren"}).ok and service.writer.payload.promotion_items == 1, "sandbox eligibility grants material without production rule changes")
+	while not run.choices.offer.is_empty(): run.choices.confirm(run, run.choices.offer_id, run.choices.offer[0])
+	t.check(service.execute("eligibility", {"character_id": "aren"}).ok and run.progression.level >= 15 and not service.writer.payload.has("promotion_items"), "sandbox eligibility uses run level without materials")
 	panel.open_promotion(false)
 	var promotion = panel.promotion_host.get_child(0)
 	t.check(promotion.get_script().resource_path == "res://scripts/ui/promotion.gd", "panel opens the existing promotion UI")
 	promotion.selected = "abyss_swordsman"
 	promotion.submit()
-	t.check(service.writer.payload.owned.aren.promotion_id == "abyss_swordsman" and run.hero.profession.id == &"abyss_swordsman" and run.hero.stats.reach == 64, "normal promotion service updates saved sandbox class, live stats and visuals")
-	t.check(service.execute("test_branch", {"character_id": "aren", "branch": "swordmaster"}).ok and run.hero.profession.id == &"swordmaster" and service.writer.payload.owned.aren.promotion_id == "abyss_swordsman", "runtime branch testing bypasses eligibility without a permanent class reset")
+	t.check(run.progression.branches.get("aren") == "abyss_swordsman" and run.hero.profession.id == &"abyss_swordsman" and run.hero.stats.reach == 64, "run promotion updates live class, stats and visuals")
+	t.check(service.execute("test_branch", {"character_id": "aren", "branch": "swordmaster"}).ok and run.hero.profession.id == &"swordmaster" and run.progression.branches.get("aren") == "abyss_swordsman", "runtime branch testing bypasses eligibility without a permanent class reset")
 	t.check(not service.execute("test_branch", {"character_id": "aren", "branch": "void_caster"}).ok, "runtime branch must belong to correct base")
 	t.check(service.execute("add_companion", {"companion_id": "lia"}).ok and service.execute("add_companion", {"companion_id": "milo"}).ok, "two owned companions added through factory")
 	t.check(run.party.size() == 3 and not service.execute("add_companion", {"companion_id": "lia"}).ok and not service.execute("add_companion", {"companion_id": "sera"}).ok, "temporary party respects ownership/size/distinctness")
@@ -148,6 +149,7 @@ func run(t) -> void:
 	t.check(service.execute("speed", {"speed": 4}).ok and Engine.time_scale == 4 and Engine.physics_ticks_per_second == 240, "one speed controller keeps 1/60 simulation steps at 4x")
 	await t.process_frame
 	t.check(run.clock.tick == tick, "speed does not advance paused combat")
+	drain(run)
 	key(panel, KEY_F9)
 	t.check(not panel.overlay.visible and not run.pause.is_blocked(), "F9 closes and releases only developer token")
 	run.toggle_manual_pause()
@@ -156,7 +158,7 @@ func run(t) -> void:
 	t.check(run.manual_token >= 0 and run.pause.is_blocked(), "existing manual pause survives debug open/close")
 	run.toggle_manual_pause()
 	key(panel, KEY_F9)
-	t.check(service.execute("run_xp", {"amount": 300}).ok and run.progression.level == 3 and run.progression.pending == 2 and service.writer.payload.owned.aren.total_xp == 2900, "run XP uses shared progression independently of permanent XP")
+	t.check(service.execute("run_xp", {"amount": 6000}).ok and run.progression.level == 32 and run.progression.pending == 2 and service.writer.payload.owned.aren == {"character_id": "aren"}, "run XP uses shared progression independently of permanent XP")
 	await t.process_frame
 	await t.process_frame
 	t.check(panel.overlay.is_ancestor_of(t.root.get_viewport().gui_get_focus_owner()), "deferred level-up cannot steal keyboard focus from debug")
@@ -196,18 +198,18 @@ func run(t) -> void:
 	run = app.run
 	run.set_physics_process(false)
 	t.check(run.snapshot.seed_value == 202 and Engine.time_scale == 1 and Engine.physics_ticks_per_second == 60 and not old_hero.health.debug_invincible and not old_hero.health.debug_god_mode, "same-seed restart resets all temporary debug modifiers")
-	t.check(run.hero.profession.id == &"abyss_swordsman" and service.runtime_branches.is_empty() and run.party.size() == 3, "restart restores saved sandbox class and current party")
+	t.check(run.hero.profession.id == &"swordsman" and run.progression.level == 1 and service.runtime_branches.is_empty() and run.party.size() == 3, "restart resets branches and preserves selected party")
 	t.check(app.debug_panel == panel and panel.launcher.is_visible_in_tree() and app.find_children("DeveloperDebug", "CanvasLayer", true, false).size() == 1, "same-seed restart preserves a single accessible panel")
 	panel.open_panel()
 	t.check(service.execute("save_test").ok and service.execute("load_test").ok, "safe sandbox save/load uses validated generations")
 	var fault = preload("res://tests/fixtures/fault_file_store.gd").new()
 	fault.stage = "rename"
 	service.writer.store.fault = fault
-	var balance = service.writer.payload.promotion_items
-	t.check(not service.execute("materials", {"materials": 3}).ok and service.writer.state == "save-blocked" and not panel.close_panel(), "failed sandbox save blocks continuation")
+	var balance = service.writer.payload.tickets
+	t.check(not service.execute("save_test").ok and service.writer.state == "save-blocked" and not panel.close_panel(), "failed sandbox save blocks continuation")
 	var candidate = service.writer.pending_bytes
 	t.check(not service.execute("god_mode").ok and candidate == service.writer.pending_bytes, "pending test action cannot be overwritten")
-	t.check(service.execute("retry_save").ok and service.writer.payload.promotion_items == balance + 3, "sandbox Retry saves original action once")
+	t.check(service.execute("retry_save").ok and service.writer.payload.tickets == balance, "sandbox Retry saves original action once")
 	t.check(service.logs.size() <= 20, "recent action log stays bounded")
 	service.execute("boss")
 	panel.close_panel()
@@ -219,9 +221,13 @@ func run(t) -> void:
 	run.simulation.advance(run, Vector2.ZERO)
 	await t.process_frame
 	await t.process_frame
-	t.check(app.run == null and app.writer == service.writer and service.writer.payload.promotion_items == balance + 4, "debug boss victory settles rewards only to isolated sandbox")
+	t.check(app.run == null and app.writer == service.writer and service.writer.payload.tickets == balance + 2, "debug boss victory settles rewards only to isolated sandbox")
 	t.check(normal.payload == normal_payload and normal.store.read(normal_path) == normal_bytes, "all debug actions leave normal profile byte-for-byte unchanged")
 	t.check(service.execute("end_sandbox").ok and app.writer == normal and not panel.overlay.visible and not t.paused, "normal menu/profile restored after sandbox")
 	app.free()
 	await t.process_frame
 	t.paused = false
+
+func drain(run) -> void:
+	if run.choices.promotion_token >= 0: run.choices.cancel_promotion(run, run.choices.promotion_id)
+	while not run.choices.offer.is_empty(): run.choices.confirm(run, run.choices.offer_id, run.choices.offer[0])

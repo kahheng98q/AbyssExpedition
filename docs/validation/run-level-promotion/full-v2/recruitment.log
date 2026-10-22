@@ -1,0 +1,11 @@
+Godot Engine v4.5.stable.official.876b29033 - https://godotengine.org
+
+DRAW STATISTICS: seed=20261015 n=200000 Brann=99635 Nyra=100365 chi-square=2.664500 (df=1, cutoff=10.828)
+TEN-PULL STATISTICS: seed=20261016 batches=8192 histogram=[7, 85, 334, 980, 1754, 1960, 1696, 949, 344, 74, 9] chi-square=9.111558 (df=10, cutoff=29.588)
+SUITE recruitment: 289 assertions; 1 failures; 0 skipped
+SCRIPT ERROR: Invalid access to property or key 'level' on a base object of type 'Dictionary'.
+   at: run (res://tests/unit/test_recruitment.gd:87)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/unit/test_recruitment.gd:87)
+       [1] run (res://tests/run_tests.gd:77)
+FAIL: engine/script error: res://tests/unit/test_recruitment.gd:87 Invalid access to property or key 'level' on a base object of type 'Dictionary'. 
